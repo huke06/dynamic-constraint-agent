@@ -1,0 +1,558 @@
+{
+  "task_id": "58",
+  "tier": "paired_multi",
+  "stage": "stage1",
+  "order_id": "#W5838674",
+  "user_id": "ivan_hernandez_6923",
+  "scope": [
+    "7441167885",
+    "3478699712"
+  ],
+  "targets": {
+    "7441167885": "3815173328",
+    "3478699712": "6017636844"
+  },
+  "initial_options": {
+    "7441167885": {
+      "pressure": "9 bar",
+      "capacity": "1.5L",
+      "type": "capsule"
+    },
+    "3478699712": {
+      "screen size": "15-inch",
+      "processor": "i7",
+      "ram": "32GB",
+      "storage": "1TB SSD",
+      "color": "space grey"
+    }
+  },
+  "payment_method_id": "credit_card_7455506",
+  "change_type": "resource",
+  "changed_item": "7441167885",
+  "changed_target": "3709608322",
+  "change_message": "Before submission, change the Espresso Machine (original item 7441167885) to item 3709608322 with options {\"pressure\": \"9 bar\", \"capacity\": \"2L\", \"type\": \"automatic\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am ivan_hernandez_6923; email ivan.hernandez1120@example.com. In delivered order #W5838674, exchange ONLY these items in one complete request: [{\"item_id\": \"7441167885\", \"name\": \"Espresso Machine\", \"requested_variant\": \"3815173328\", \"options\": {\"pressure\": \"9 bar\", \"capacity\": \"1.5L\", \"type\": \"capsule\"}}, {\"item_id\": \"3478699712\", \"name\": \"Laptop\", \"requested_variant\": \"6017636844\", \"options\": {\"screen size\": \"15-inch\", \"processor\": \"i7\", \"ram\": \"32GB\", \"storage\": \"1TB SSD\", \"color\": \"space grey\"}}]. Keep every other item and order unchanged. Use original payment credit_card_7455506. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W5838674": {
+        "order_id": "#W5838674",
+        "user_id": "ivan_hernandez_6923",
+        "address": {
+          "address1": "894 Hickory Lane",
+          "address2": "Suite 665",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92133"
+        },
+        "items": [
+          {
+            "name": "Espresso Machine",
+            "product_id": "4354588079",
+            "item_id": "7441167885",
+            "price": 2866.37,
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            }
+          },
+          {
+            "name": "Vacuum Cleaner",
+            "product_id": "1762337868",
+            "item_id": "1304426904",
+            "price": 565.79,
+            "options": {
+              "type": "canister",
+              "bagged/bagless": "bagless",
+              "features": "HEPA filter"
+            }
+          },
+          {
+            "name": "Wall Clock",
+            "product_id": "2344688344",
+            "item_id": "6534134392",
+            "price": 196.15,
+            "options": {
+              "diameter": "10 inches",
+              "color": "wood",
+              "type": "analog"
+            }
+          },
+          {
+            "name": "Desk Lamp",
+            "product_id": "6817146515",
+            "item_id": "7453605304",
+            "price": 150.01,
+            "options": {
+              "color": "silver",
+              "brightness": "low",
+              "power source": "battery"
+            }
+          },
+          {
+            "name": "Laptop",
+            "product_id": "4760268021",
+            "item_id": "3478699712",
+            "price": 2291.87,
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i5",
+              "ram": "16GB",
+              "storage": "512GB SSD",
+              "color": "space grey"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "495912972743"
+            ],
+            "item_ids": [
+              "7441167885",
+              "1304426904",
+              "6534134392",
+              "7453605304",
+              "3478699712"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 6070.19,
+            "payment_method_id": "credit_card_7455506"
+          }
+        ]
+      }
+    },
+    "users": {
+      "ivan_hernandez_6923": {
+        "user_id": "ivan_hernandez_6923",
+        "name": {
+          "first_name": "Ivan",
+          "last_name": "Hernandez"
+        },
+        "address": {
+          "address1": "894 Hickory Lane",
+          "address2": "Suite 665",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92133"
+        },
+        "email": "ivan.hernandez1120@example.com",
+        "payment_methods": {
+          "gift_card_9368765": {
+            "source": "gift_card",
+            "id": "gift_card_9368765",
+            "balance": 85.0
+          },
+          "credit_card_7455506": {
+            "source": "credit_card",
+            "id": "credit_card_7455506",
+            "brand": "mastercard",
+            "last_four": "4127"
+          }
+        },
+        "orders": [
+          "#W5838674",
+          "#W4284542",
+          "#W2782744"
+        ]
+      }
+    },
+    "products": {
+      "4354588079": {
+        "name": "Espresso Machine",
+        "product_id": "4354588079",
+        "variants": {
+          "3709608322": {
+            "item_id": "3709608322",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "2L",
+              "type": "automatic"
+            },
+            "available": true,
+            "price": 2744.7
+          },
+          "7407838442": {
+            "item_id": "7407838442",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3081.91
+          },
+          "6324294385": {
+            "item_id": "6324294385",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2719.01
+          },
+          "1157853815": {
+            "item_id": "1157853815",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "2L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 3096.7
+          },
+          "2190871011": {
+            "item_id": "2190871011",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1.5L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3105.6
+          },
+          "3714494375": {
+            "item_id": "3714494375",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2709.83
+          },
+          "4875647558": {
+            "item_id": "4875647558",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": false,
+            "price": 2805.77
+          },
+          "7441167885": {
+            "item_id": "7441167885",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            },
+            "available": false,
+            "price": 2866.37
+          },
+          "3815173328": {
+            "item_id": "3815173328",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2908.42
+          },
+          "5839483328": {
+            "item_id": "5839483328",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "2L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2929.06
+          },
+          "7806008610": {
+            "item_id": "7806008610",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2742.67
+          },
+          "7774234341": {
+            "item_id": "7774234341",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "2L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2719.16
+          },
+          "3951031513": {
+            "item_id": "3951031513",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1.5L",
+              "type": "automatic"
+            },
+            "available": true,
+            "price": 3289.46
+          },
+          "6242772310": {
+            "item_id": "6242772310",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2996.03
+          },
+          "6200867091": {
+            "item_id": "6200867091",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2955.17
+          },
+          "9884666842": {
+            "item_id": "9884666842",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2794.7
+          },
+          "3379843752": {
+            "item_id": "3379843752",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "2L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3203.76
+          }
+        }
+      },
+      "4760268021": {
+        "name": "Laptop",
+        "product_id": "4760268021",
+        "variants": {
+          "8997785118": {
+            "item_id": "8997785118",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "256GB SSD",
+              "color": "space grey"
+            },
+            "available": false,
+            "price": 2674.4
+          },
+          "2216662955": {
+            "item_id": "2216662955",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i5",
+              "ram": "32GB",
+              "storage": "256GB SSD",
+              "color": "space grey"
+            },
+            "available": true,
+            "price": 2520.52
+          },
+          "2768401027": {
+            "item_id": "2768401027",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "256GB SSD",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 2346.49
+          },
+          "1684786391": {
+            "item_id": "1684786391",
+            "options": {
+              "screen size": "17-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "1TB SSD",
+              "color": "black"
+            },
+            "available": true,
+            "price": 2508.06
+          },
+          "3778566150": {
+            "item_id": "3778566150",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i5",
+              "ram": "32GB",
+              "storage": "256GB SSD",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 2372.97
+          },
+          "8193934556": {
+            "item_id": "8193934556",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i9",
+              "ram": "8GB",
+              "storage": "1TB SSD",
+              "color": "space grey"
+            },
+            "available": false,
+            "price": 2548.73
+          },
+          "2913673670": {
+            "item_id": "2913673670",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i9",
+              "ram": "32GB",
+              "storage": "512GB SSD",
+              "color": "black"
+            },
+            "available": true,
+            "price": 2701.89
+          },
+          "3478699712": {
+            "item_id": "3478699712",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i5",
+              "ram": "16GB",
+              "storage": "512GB SSD",
+              "color": "space grey"
+            },
+            "available": false,
+            "price": 2291.87
+          },
+          "6056040996": {
+            "item_id": "6056040996",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i5",
+              "ram": "16GB",
+              "storage": "512GB SSD",
+              "color": "space grey"
+            },
+            "available": true,
+            "price": 2609.37
+          },
+          "6017636844": {
+            "item_id": "6017636844",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "1TB SSD",
+              "color": "space grey"
+            },
+            "available": true,
+            "price": 2292.37
+          },
+          "1657832319": {
+            "item_id": "1657832319",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "512GB SSD",
+              "color": "black"
+            },
+            "available": true,
+            "price": 2729.32
+          },
+          "5052031638": {
+            "item_id": "5052031638",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i5",
+              "ram": "16GB",
+              "storage": "1TB SSD",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 2621.77
+          },
+          "3265035808": {
+            "item_id": "3265035808",
+            "options": {
+              "screen size": "17-inch",
+              "processor": "i9",
+              "ram": "8GB",
+              "storage": "256GB SSD",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 2530.72
+          },
+          "3334537816": {
+            "item_id": "3334537816",
+            "options": {
+              "screen size": "17-inch",
+              "processor": "i5",
+              "ram": "8GB",
+              "storage": "1TB SSD",
+              "color": "space grey"
+            },
+            "available": false,
+            "price": 2749.56
+          },
+          "9844888101": {
+            "item_id": "9844888101",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i7",
+              "ram": "8GB",
+              "storage": "1TB SSD",
+              "color": "black"
+            },
+            "available": true,
+            "price": 2459.74
+          },
+          "4241599783": {
+            "item_id": "4241599783",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i7",
+              "ram": "16GB",
+              "storage": "1TB SSD",
+              "color": "black"
+            },
+            "available": false,
+            "price": 2324.61
+          },
+          "2611676054": {
+            "item_id": "2611676054",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i7",
+              "ram": "16GB",
+              "storage": "256GB SSD",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 2743.08
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

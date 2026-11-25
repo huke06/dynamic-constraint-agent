@@ -1,0 +1,171 @@
+{
+  "passed": true,
+  "criterion": "all eight loop/outcome and authorization checks; both prescribed93 first works executable; no reuse of processed refs or terminal failure. Auxiliary narrative errors/valid repeated work remain separate quality warnings and cannot support learning samples.",
+  "checks": [
+    {
+      "id": "old_t93_conflict_r1",
+      "result": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "reused_processed_refs": 0
+    },
+    {
+      "id": "old_t93_conflict_r2",
+      "result": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "reused_processed_refs": 0
+    },
+    {
+      "id": "old_t93_feasible_r1",
+      "result": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "reused_processed_refs": 0
+    },
+    {
+      "id": "old_t93_feasible_r2",
+      "result": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "reused_processed_refs": 0
+    },
+    {
+      "id": "old_t29_dynamic_r1",
+      "result": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "reused_processed_refs": 0
+    },
+    {
+      "id": "old_t29_dynamic_r2",
+      "result": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "reused_processed_refs": 0
+    },
+    {
+      "id": "old_t102_withdrawn_r1",
+      "result": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "reused_processed_refs": 0
+    },
+    {
+      "id": "old_t102_withdrawn_r2",
+      "result": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "reused_processed_refs": 0
+    }
+  ],
+  "quality_warnings": [
+    "old93 conflict analysis advice mixed comparator for 9844888101 screen/storage, twice",
+    "old93 feasible re-prepared current valid plan once, twice"
+  ],
+  "decision": "Proceed with same frozen version to held-out mechanism/trajectory diagnostics; do not equate loop acceptance with perfect auxiliary analysis."
+}

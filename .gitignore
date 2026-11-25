@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+experiments/preliminary/round23-framework-loop/results/*/model_calls.jsonl
+experiments/preliminary/round23-framework-loop/results/*/request_events.jsonl
+experiments/preliminary/round23-framework-loop/results/*/*_start.json
+experiments/preliminary/round23-framework-loop/results/*/*_final.json
+experiments/preliminary/round23-framework-loop/results/*/*_trace.json
+experiments/preliminary/round23-framework-loop/results/*/*_visible_start.json
+# Full historical evidence remains in immutable local archives, not silently relocated.
+
+experiments/preliminary/round23-framework-loop/versions/*/results/*/model_calls.jsonl
+experiments/preliminary/round23-framework-loop/versions/*/results/*/request_events.jsonl
+experiments/preliminary/round23-framework-loop/versions/*/results/*/*_start.json
+experiments/preliminary/round23-framework-loop/versions/*/results/*/*_final.json
+experiments/preliminary/round23-framework-loop/versions/*/results/*/*_trace.json
+experiments/preliminary/round23-framework-loop/versions/*/results/*/*_visible_start.json

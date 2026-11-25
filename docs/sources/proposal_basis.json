@@ -1,0 +1,11 @@
+{
+  "source": "D:\\experimentn\\Codex工作区\\申报与文献\\当前申报\\2027创新类计划项目申报书_分页紧凑版.docx",
+  "sha256": "3275f16d53837cc36feb58ade3b07fd7693986262c8ef0889e1e5cdbe3806b9a",
+  "section": "2.1",
+  "access": "read-only",
+  "questions": [
+    "Agent如何依据动态业务状态合理开展认知决策？",
+    "如何利用执行反馈评价并提升Agent的认知决策能力？"
+  ],
+  "note": "当前分页紧凑版docx为依据；不修改申报书，不以较旧正文Markdown替代。"
+}

@@ -1,0 +1,8 @@
+{
+  "variable": "signed combined amount cap",
+  "states": {
+    "conflict": -51.54,
+    "feasible": 10000.0
+  },
+  "all_other_business_facts_same": true
+}

@@ -1,0 +1,259 @@
+{
+  "task_id": "80",
+  "tier": "basic",
+  "stage": "stage2",
+  "order_id": "#W7209932",
+  "user_id": "amelia_gonzalez_4098",
+  "scope": [
+    "5047954489"
+  ],
+  "targets": {
+    "5047954489": "9354168549"
+  },
+  "initial_options": {
+    "5047954489": {
+      "color": "red",
+      "size": "XXL",
+      "material": "cotton",
+      "style": "crew neck"
+    }
+  },
+  "payment_method_id": "gift_card_2611937",
+  "change_type": "none",
+  "changed_item": "5047954489",
+  "changed_target": "9612497925",
+  "change_message": "Before submission, change the T-Shirt (original item 5047954489) to item 9612497925 with options {\"color\": \"blue\", \"size\": \"M\", \"material\": \"cotton\", \"style\": \"crew neck\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am amelia_gonzalez_4098; email amelia.gonzalez4271@example.com. In delivered order #W7209932, exchange ONLY these items in one complete request: [{\"item_id\": \"5047954489\", \"name\": \"T-Shirt\", \"requested_variant\": \"9354168549\", \"options\": {\"color\": \"red\", \"size\": \"XXL\", \"material\": \"cotton\", \"style\": \"crew neck\"}}]. Keep every other item and order unchanged. Use original payment gift_card_2611937. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W7209932": {
+        "order_id": "#W7209932",
+        "user_id": "amelia_gonzalez_4098",
+        "address": {
+          "address1": "722 Sunset Drive",
+          "address2": "Suite 670",
+          "city": "Denver",
+          "country": "USA",
+          "state": "CO",
+          "zip": "80245"
+        },
+        "items": [
+          {
+            "name": "T-Shirt",
+            "product_id": "9523456873",
+            "item_id": "5047954489",
+            "price": 54.84,
+            "options": {
+              "color": "blue",
+              "size": "S",
+              "material": "polyester",
+              "style": "v-neck"
+            }
+          },
+          {
+            "name": "Backpack",
+            "product_id": "2524789262",
+            "item_id": "5917587651",
+            "price": 212.79,
+            "options": {
+              "color": "grey",
+              "size": "medium",
+              "material": "polyester",
+              "compartment": "laptop"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "699530851768"
+            ],
+            "item_ids": [
+              "5047954489",
+              "5917587651"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 267.63,
+            "payment_method_id": "gift_card_2611937"
+          }
+        ]
+      }
+    },
+    "users": {
+      "amelia_gonzalez_4098": {
+        "user_id": "amelia_gonzalez_4098",
+        "name": {
+          "first_name": "Amelia",
+          "last_name": "Gonzalez"
+        },
+        "address": {
+          "address1": "722 Sunset Drive",
+          "address2": "Suite 670",
+          "city": "Denver",
+          "country": "USA",
+          "state": "CO",
+          "zip": "80245"
+        },
+        "email": "amelia.gonzalez4271@example.com",
+        "payment_methods": {
+          "gift_card_2611937": {
+            "source": "gift_card",
+            "id": "gift_card_2611937",
+            "balance": 11.0
+          }
+        },
+        "orders": [
+          "#W7209932",
+          "#W1762492"
+        ]
+      }
+    },
+    "products": {
+      "9523456873": {
+        "name": "T-Shirt",
+        "product_id": "9523456873",
+        "variants": {
+          "9612497925": {
+            "item_id": "9612497925",
+            "options": {
+              "color": "blue",
+              "size": "M",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 50.88
+          },
+          "8124970213": {
+            "item_id": "8124970213",
+            "options": {
+              "color": "purple",
+              "size": "XL",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 49.67
+          },
+          "9354168549": {
+            "item_id": "9354168549",
+            "options": {
+              "color": "red",
+              "size": "XXL",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 46.85
+          },
+          "5253880258": {
+            "item_id": "5253880258",
+            "options": {
+              "color": "black",
+              "size": "XXL",
+              "material": "polyester",
+              "style": "v-neck"
+            },
+            "available": true,
+            "price": 49.52
+          },
+          "1176194968": {
+            "item_id": "1176194968",
+            "options": {
+              "color": "black",
+              "size": "S",
+              "material": "polyester",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 52.88
+          },
+          "9647292434": {
+            "item_id": "9647292434",
+            "options": {
+              "color": "purple",
+              "size": "S",
+              "material": "polyester",
+              "style": "v-neck"
+            },
+            "available": true,
+            "price": 53.48
+          },
+          "8349118980": {
+            "item_id": "8349118980",
+            "options": {
+              "color": "blue",
+              "size": "S",
+              "material": "cotton",
+              "style": "v-neck"
+            },
+            "available": true,
+            "price": 53.43
+          },
+          "5047954489": {
+            "item_id": "5047954489",
+            "options": {
+              "color": "blue",
+              "size": "S",
+              "material": "polyester",
+              "style": "v-neck"
+            },
+            "available": false,
+            "price": 54.84
+          },
+          "3799046073": {
+            "item_id": "3799046073",
+            "options": {
+              "color": "black",
+              "size": "XXL",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 53.27
+          },
+          "3234800602": {
+            "item_id": "3234800602",
+            "options": {
+              "color": "red",
+              "size": "L",
+              "material": "cotton",
+              "style": "v-neck"
+            },
+            "available": true,
+            "price": 46.66
+          },
+          "3542102174": {
+            "item_id": "3542102174",
+            "options": {
+              "color": "red",
+              "size": "S",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": false,
+            "price": 47.25
+          },
+          "2060066974": {
+            "item_id": "2060066974",
+            "options": {
+              "color": "black",
+              "size": "XL",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 51.05
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

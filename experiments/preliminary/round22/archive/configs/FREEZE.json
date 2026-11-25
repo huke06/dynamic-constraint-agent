@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-25T02:43:10.980111+00:00",
+  "files": {
+    "src\\baseline_runner.py": "42e364c3cd4babb5270c811cbfe9aa00b1f87865118815fc13af1a5dd37ddd7a",
+    "src\\construct20.py": "b9e7c53f8425d47e1a8000693b5a44d36509d9a5e50190f9d51c685e3906754a",
+    "src\\exchange_core.py": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+    "src\\experiment22.py": "6fd332f5d7628b4b12972d9cbd1b1f6bb882366e2c01c53a620b8bc68436958f",
+    "src\\logging16.py": "60b8acf9601aae48bf120faf9e216da3979d50bd203613a9e2ede845b6bbfc70",
+    "src\\prompts20.py": "90ef34ff3412d1c9b7d26b7fe313a8c9404b41940a416cd8aba4dc7891219e15",
+    "src\\runner20.py": "75adb7dddd779233a3a6f917ecb77d43929b7836ccc48f5fb86118c037e17907",
+    "src\\score22.py": "5692e240533b4a7fb6be47093b20c5bc0793c99cb7402a0578ae525a68385a19",
+    "src\\simulator21.py": "6567daf89ac596bd2293369e7a0b1604b1e5d858b77e5a975e8a48908c0a67f2",
+    "src\\transport20.py": "a8f994173c999bb7f274c38396abea72793455160fefb4da3034c91bf365341d",
+    "src\\world20.py": "a0ab2fb01cfed05b0650f15761c5e04df15dd958eccbe0165d521645f314f498",
+    "configs\\checkpoints.json": "bcfe88c5f6a75b3213ced50b07cede3c9dafa94cdd9de18e0c14eaf9b6e39cb5",
+    "configs\\excluded105.json": "7e841cd66c4f9ef59c9608246c66cd3b5d5bae79c7fd20b7e81d0c4fc713027b",
+    "configs\\HISTORY_AUDIT.json": "b97d9fff238457d7b3e74b6ec98b03716dea6b40d8da8518bd6b60bd2fc2e392",
+    "configs\\official_policy.md": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+    "configs\\PROTOCOL.md": "760a41688d4649ee584da2c78f188a62ac7645d8d7b68b09d7abc5f4fef6f109",
+    "configs\\scoring22.json": "35fea17f506e0e4ea57692370cfa2692c4d01adaf15b54c489d725cc1ab937ba",
+    "configs\\tasks\\102\\case.json": "e133a3899cdeb86e7650183048cd472eefa6f65098b496f2abbc2648488a409e",
+    "configs\\tasks\\102\\original_task.json": "e1ec190981e1d62b2a9d318ff44e5af365cc9bebb3d868f47774955f83165342",
+    "configs\\tasks\\91\\case.json": "c4d32d63878048d3d43a5a5f782a1445e637c5c4c3429e4ea42953ebdc3e2431",
+    "configs\\tasks\\91\\original_task.json": "35b3fcbeaa776f4443bfb84fb460adeb1aac66d7c68c1ea3e6f2c801d8898fe8",
+    "configs\\tasks\\93\\case.json": "54128513ba6ed4da4d739c4188015d29ffa5821b7171ece3d810a964e6c9bb9c",
+    "configs\\tasks\\93\\original_task.json": "e5e37660dd11c6185ec77369bb5f9abeba02e7edd39768d065b848adb34c6a8c",
+    "configs\\tasks\\98\\case.json": "f03691477ee91a6173ec176a06208bd17777600069a9212fcac3781195682e9d",
+    "configs\\tasks\\98\\original_task.json": "879086a54d770d2e4494861af3bf23404e4f4f1d54d78987ec76b20d213e2613"
+  }
+}

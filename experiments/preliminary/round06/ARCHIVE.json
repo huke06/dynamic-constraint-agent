@@ -1,0 +1,86 @@
+{
+  "round": "06",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\analyze06.py",
+      "copy": "experiments\\preliminary\\round06\\archive\\analyze06.py",
+      "sha256": "c34f86c8e9ffb695a90faf7e5ebec995507c1b84bfb0ea0dffba5a14320f9863",
+      "bytes": 9208
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round06\\archive\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round06\\archive\\baseline_runner.py",
+      "sha256": "aaf2767a581d3127e8ebc842a1490ef3694c9d22262d69071c636f3347de7beb",
+      "bytes": 30233
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\engine.py",
+      "copy": "experiments\\preliminary\\round06\\archive\\engine.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round06\\archive\\exchange_core.py",
+      "sha256": "001ee00e5ad6afbf938ff6033a6ff7134123d1a123fda2bde3b88e04c6beabfc",
+      "bytes": 16485
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\harness.py",
+      "copy": "experiments\\preliminary\\round06\\archive\\harness.py",
+      "sha256": "eba2fcb5bd51363e9c3c5f0ae9612a931e9209e25f4c72bae74063b6cc4c7634",
+      "bytes": 14888
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round06\\archive\\PROTOCOL.md",
+      "sha256": "b43cb3cc3456936b84df80097954e0be13f64a320c4f555ac39e049369d56800",
+      "bytes": 4535
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\README.md",
+      "copy": "experiments\\preliminary\\round06\\archive\\README.md",
+      "sha256": "5537349e16c84e5f9c3544a46c9a4147b7746d774762291f48adf35da1433db0",
+      "bytes": 1204
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round06\\archive\\RESULTS.md",
+      "sha256": "4eff7bd8f64901146f383921e905ed5c7cf7f448135ce2e7b92007ceed037fca",
+      "bytes": 13620
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\run06.py",
+      "copy": "experiments\\preliminary\\round06\\archive\\run06.py",
+      "sha256": "b8cabfebe2a4eb7ccf854ffebf7c9ac3fe60b5027f33408f3dd2d33a5fe3ab2c",
+      "bytes": 11234
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\verify_delivery.py",
+      "copy": "experiments\\preliminary\\round06\\archive\\verify_delivery.py",
+      "sha256": "c7504ef377fc90be2bb041a06942ace9643339a59799b99eba2e56212df1515b",
+      "bytes": 3044
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\results\\20261122T121121980510Z\\frozen\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round06\\archive\\results\\20261122T121121980510Z\\frozen\\PROTOCOL.md",
+      "sha256": "b43cb3cc3456936b84df80097954e0be13f64a320c4f555ac39e049369d56800",
+      "bytes": 4535
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\06_同状态续行独立复验\\results",
+    "files": 75,
+    "bytes": 41156017,
+    "git_storage": "external original directory, not moved"
+  }
+}

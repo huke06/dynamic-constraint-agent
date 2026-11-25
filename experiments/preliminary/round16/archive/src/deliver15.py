@@ -1,0 +1,97 @@
+import json,hashlib,shutil
+from pathlib import Path
+from collections import Counter
+R=Path(__file__).resolve().parent.parent;B=R/'results/batch02'
+def read(p):return json.loads(p.read_text('utf-8-sig'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def save(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf-8')
+s=read(R/'results/SUMMARY.json');f=read(R/'configs/freeze.json');checks={};old10=R.parent/'10_程序事实核验与续行验证'
+checks['old01_09_proposal']=all(sha(Path(p))==v for p,v in read(old10/'results/20261123T001740331845Z/freeze.json')['protected'].items());checks['old10']=all(sha(old10/p)==v for p,v in read(old10/'DELIVERY_MANIFEST.json')['files'].items())
+for folder in ('11_框架自主决策与动态多轮验证','12_程序与模型协同修复及复验','13_条件许可落空后的自主恢复','14_澄清语义与受控回应验证'):
+ old=R.parent/folder;checks[folder[:2]]=all(sha(old/p)==v for p,v in read(old/'results/DELIVERY_MANIFEST.json').items())
+checks['frozen_inputs']=all(sha(R/p)==v for p,v in f['files'].items());checks['offline_pass']=read(R/'configs/offline.json')['passed'];checks['freeze_before_online']=f['utc']<read(B/'started.json')['utc'];checks['all_four_pairs_same_start']=all(p['same_complete_start'] for p in s['pairs'])
+known=read(R/'configs/start_known.json');unknown=read(R/'configs/start_unknown.json');ref=read(R/'configs/reference14.json');checks['known_public_facts_and_goal_equal14']=known['state']['F']==ref['state']['F'] and known['state']['g']==ref['state']['g']
+a=json.loads(known['state']['F']['dialogue'][13]['content']);b=json.loads(unknown['state']['F']['dialogue'][13]['content']);a['official_result']['variants']['3892645120']['available']=None;checks['only_observation_difference']=a==b and known['state']['F']['dialogue'][:13]==unknown['state']['F']['dialogue'][:13]
+api=[json.loads(x) for x in (B/'model_calls.jsonl').read_text('utf-8').splitlines()];ctrl=[x for x in api if x['stage']=='controller'];checks['direct_no_W']=all('W'not in json.loads(x['messages'][1]['content']) for x in ctrl if x['branch'].endswith('_direct'));checks['candidate_W']=all('W'in json.loads(x['messages'][1]['content']) for x in ctrl if x['branch'].endswith('_candidate'))
+checks['no_private_responses_in_prompts']=all(all(k not in json.dumps(x['messages']) for k in ('ambiguous_first','private_response_key','private_branches','reference14.json')) for x in api)
+checks['before_prepare_inventory_resolved']=all(r['inventory_before_plan'] for r in s['rows']);checks['no_premature_execution']=all(not r['premature_execution'] for r in s['rows'])
+save(R/'results/AUDIT.json',{'passed':all(checks.values()),'checks':checks});assert all(checks.values())
+for p in f['files']:
+ dest=B/'frozen_inputs'/p;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(R/p,dest)
+shutil.copy2(R/'configs/freeze.json',B/'freeze.json')
+save(R/'results/MODEL_VERSIONS.json',[{'branch':x['branch'],'category':x['category'],'stage':x['stage'],'error':x.get('error'),**{k:x.get('response',{}).get(k) for k in ('model','system_fingerprint','id','created','usage')}} for x in api])
+life={};jobs=[f't52_r{rep}_{st}_{g}' for st in ('known','unknown') for rep in (1,2) for g in ('direct','candidate')]
+for batch in ('batch01','batch02'):
+ p=R/'results'/batch;raw=read(p/'results.json') if (p/'results.json').exists() else {};life[batch]=[{'id':n,'stage':'result_saved' if n in raw else 'partial_started' if (p/(n+'_start.json')).exists() else 'not_started','error':raw.get(n,{}).get('error')} for n in jobs]
+save(R/'results/LIFECYCLE.json',life)
+report='''# 第15轮：库存证据变化与认知决策对照
+
+## 起点与冻结
+
+同一相机52业务：3892645120（30MP/CF/10x）存在，用户仅在其有货时接受；5x/3x替代未获许可。已知起点的全部F公开事实和g目标与14轮一致；为避免旧false结论藏在缓存，两侧都从相同公共历史重放派生状态，而非直接改一个catalog字段后携带旧摘要。known/unknown的原始公开历史只差13号观察中该SKU available=false/null。此前观察均未知，其他商品/规格、价格、库存及用户原句完全相同。
+
+两侧底层DB相同，工具实际查询返回3892645120=false、5x/3x=true。程序分别推导旧许可false/pending，unknown匹配记录为unknown。离线递归扫描完整运行时（含序列化JSON历史、证据、catalog、过往许可/事件/摘要），未发现unknown的目标库存false泄露。对null模板明确待核实、许可仍有条件；对false模板明确存在但缺货。reference14仅来源对照，未进入Agent提示。
+
+研究假设为已知时先澄清、未知时先查询；首步均模型自主选择，未按假设强制。沿用14轮受控accept→独立confirm，只在真实问题后返回自然语言；标签/未来回复不进入Agent。程序、工具、检查、预算同14轮。未知时允许条件性澄清，但确定方案前须补齐库存依据；本批实际无先澄清的未知路径，该分支不能冒称已在线验证。
+
+## 正式八条结果
+
+正式batch02八条新续行：6条正确登记，2条未取得任何模型返回并在12次决策尝试后停止。后两条为known第1次配对，两侧日志连续RuntimeError，0工作、无写入。日志只保留异常类型，没有足够信息定位请求根因；不能把它们计为模型选错首步，也没有补采样替换。
+
+6条登记都满足用户对5x规格的新许可、独立当前方案批准、必要约束和写入门禁。5996159312→6384525445，30MP/CF/5x，+$34.07，原PayPal paypal_8194385，实际状态exchange requested。登记申请不意味着实物换货/付款已完成。话术全部来自程序中性模板，6条有话术的轨迹均按发言前工具证据通过；2条无模型返回且无对外话术，不当作事实正确。
+
+核心结果表见PAIRED_RESULTS.md。理由单列后，完整质量4条通过、2条理由有误、2条理由未观察。即使登记正确，也不覆盖中间误读。
+
+## 同一组是否随证据改变选择
+
+第2次重复可完整比较：直接组known先screen、unknown先inventory；候选组known先clarify、unknown先inventory。已知时候选组优先补用户许可，直接组先作允许的可选缓存分析；未知时两组均优先补库存证据。由实际理由可追溯：直接组引用null与原条件许可需库存true；候选组比较认为inventory可消除alternative_inventory/selection_available未知，prepare尚不具前提。
+
+unknown的两次重复、四条轨迹全部先inventory，查询后才进入澄清，未在查询前把未知说成缺货。known第1次无模型返回，所以已知选择没有两次重复一致性的证据，不能与14轮结果拼成新采样。候选组是否更早处理缺失前提，只在known第2次表现为先澄清、少一步缓存整理；unknown两组处理顺序相同、工作数相同，是有效的相近结果。
+
+两类完整实际轨迹分别在TRACE_KNOWN.md和TRACE_UNKNOWN.md，均选直接组第2次：已知为screen→clarify→prepare→confirm→submit，未知为inventory→clarify→prepare→confirm→submit。它们共享用户条件句；实际库存证据不同，使首步选择改变，之后程序状态更新推动下一轮办理。缓存整理为本地计算，库存查询为新官方观察，不能在跨状态比较时混为同一具体工作。
+
+## 决策理由核验
+
+REASON_REVIEW.json保存每条成功controller输出的原始reason/comparison、当时公共状态、实际库存和逐项审阅；请求异常标为无返回，不伪造理由。全部成功输出由本助手语义审阅，非独立盲审；可确定事实按程序记录优先。三项关注点与其他前提误读分别记录：
+
+- 查询前将unknown说false：本批未见，四次首步都正确引用null/unknown。
+- 将尚未接受说成拒绝：unknown第1次直接组在查明缺货后的clarify理由写“The user explicitly stated they do not accept any lower-zoom alternative”。原句只是“I have not accepted any lower-zoom alternative”。此处是模型内在理由误读，程序对用户的中性话术并未重复它，最终用户也正常接受5x；错误仍保留并使理由质量不通过。
+- 将变体许可说成交易授权：本批未见；各成功轨迹prepare/confirm理由区分接受规格和尚未最终批准。
+- 另一个程序前提误读：unknown第1次候选组的confirm比较把historical_plan_compatible、screen_absent的未满足也写成submit阻碍。它们是状态标志，不是提交的必要前提；实际submit契约只要求身份、当前方案、当前授权及未写入。模型选择confirm仍正确，但不能因最后办结而抹掉它对程序规则的误读。
+
+known第2次直接组说先screen“needed”，是其策略判断；程序实际允许直接澄清，不把它当一项真实强制前提或违规执行。库存/许可事实与这种策略判断分开。
+
+## 质量门槛后的投入
+
+known第1次不可比：两侧均无返回。unknown第1次不可比：两侧理由各有错误。known第2次两侧全质量通过，实际D5/C4工作、成功模型返回D7/C6，但候选侧还发生7次无usage的请求异常，故请求尝试D7/C13；不能用不完整usage计算总词元差或认定费用收益。
+
+unknown第2次是完整投入可比配对：两侧均5工作、7次成功Agent调用，直接组已返回总词元少3463。该差异主要包含候选列表及比较提示/输出开销，不能外推为直接组更优，也不能用它抵消known的工作差异。每格仅2次且存在请求异常；本轮没有稳定收益结论。
+
+正式日志72次Agent请求尝试，41次带有效响应/usage，31次无usage异常（known第1次两侧各12次，known第2次候选侧7次）。已返回输入143389、输出7699、合计151088词元；这是可计量部分，不是含失败请求的已知完整总费用。未知usage不填0。受控用户、澄清/确认生成和外部模型评测均为程序事件0模型调用，未计入Agent。公共前缀本轮不新增模型解析，但历史/规则输入已含实际提示词元，不能假报公共前缀独立词元0。
+
+## 开发、报告与局限
+
+batch01作为开发诊断保留：直接组已经正确选择inventory并准确引用null，却用规格ID3892645120作为查询对象；旧适配器只接受商品/原对象，导致错误拒绝。修订仅增加对已观察规格→所属商品查询的意图映射，不替模型改选工作，不接受不存在/外商品对象；离线测试后另冻，batch02全部八条从头运行，未复用开发结果。开发与正式调用、停止/未启动状态分账，见DEVELOPMENT_ISSUE.json、LIFECYCLE.json和DEVELOPMENT_ACCOUNTS.json。若开发停机存在在途未返回usage，不假报0。
+
+冻结grade15原格式化代码假定首条请求必有response，不能直接呈现无返回轨迹。grade15_reporting.py仅增加无返回时首步为null的格式兼容，原质量公式不变；原文件冻结不改，BUSINESS_SUMMARY.json保留业务层结果。analyze15.py按预先规定加入理由审阅及拟定方案前库存检查；并按包含失败请求的真实turn索引重建过早尝试诊断，避免把失败调用后的正常步骤误标提前操作。这些是事后报告适配，不是执行策略修改。
+
+仍需：重试独立批次以补足已知状态重复；在不同自然语言/更多任务核验理由误读；对先条件性澄清路径进行独立观测；独立理由语义复核；进一步分离候选枚举、前提显式呈现与程序反馈的作用。两组在同一业务、静态库存及固定受控接受下比较，不能证明一般认知决策能力或总体收益。保持未办结和误读，不做偏好标注或训练。
+
+原01–14及申报书哈希保持，AUDIT.json通过。正式8条起点/规则/模型/工具/用户脚本和预算已统一；实际model/fingerprint/id/usage及异常逐调用保留在MODEL_VERSIONS.json，模型别名不保证固定权重。每条预算仍24 Agent调用/60000软词元/9执行工作/12决策尝试。失败尝试不会伪装成成功模型调用。
+'''
+(R/'results/RESULTS.md').write_text(report,encoding='utf-8')
+(R/'README.md').write_text('''# 第15轮：库存证据变化与认知决策对照
+
+正式batch02计划8条，6条登记、2条请求异常未取得决策；理由另有2条误读。库存变化使第2次重复中两组首步都改变；不能仅以最终登记判定理由正确。
+
+- [配对表](results/PAIRED_RESULTS.md)、[结果](results/RESULTS.md)、[已知轨迹](results/TRACE_KNOWN.md)、[待核实轨迹](results/TRACE_UNKNOWN.md)。
+- configs/PROTOCOL.md、start_known/unknown.json、reference14.json、offline.json、prompts.json、private_responses.json、freeze.json：设计、来源、派生状态与冻结。
+- src/evidence15.py重放两起点和未知话术；experiment15.py运行；tests15.py泄露/前提离线验证；grade15.py冻结业务规则。复制的执行/工具资源沿用原相对布局scenarios/snapshots，旧目录只读。
+- results/batch02原始messages/响应、用户事件、程序话术、逐轮状态、最终DB、异常及结果；frozen_inputs为冻结副本。
+- SUMMARY.json为含理由的最终质量；BUSINESS_SUMMARY.json保留业务评分；REASON_REVIEW.json含原始理由及证据；MODEL_VERSIONS.json含实际返回与异常；AUDIT.json和LIFECYCLE.json包含完整性及启动/停止。
+- batch01是对象映射缺陷开发批，不并入正式比较。grade15_reporting/analyze15/deliver15仅事后报告，不调用业务API、不改冻结执行。
+
+Python D:/experimentn/tau2-official/.venv/Scripts/python.exe。已启动批次不得重复execute。仅离线重算可用grade15_reporting.py，再analyze15.py（后者保留首次BUSINESS_SUMMARY），不生成训练标签。改执行/评分应另冻，不写回本批。
+''',encoding='utf-8')
+dev=[json.loads(x) for x in (R/'results/batch01/model_calls.jsonl').read_text('utf-8').splitlines()];save(R/'results/DEVELOPMENT_ACCOUNTS.json',{k:{'attempts':len([x for x in dev if x['category']==k]),'responses':sum('response'in x for x in dev if x['category']==k),'returned_total_tokens':sum(x.get('response',{}).get('usage',{}).get('total_tokens',0) for x in dev if x['category']==k),'unreturned_usage_unknown':sum('usage' not in x.get('response',{}) for x in dev if x['category']==k)} for k in sorted({x['category'] for x in dev})})
+print({'audit':checks,'formal_quality':sum(r['quality'] for r in s['rows']),'lifecycle':{k:dict(Counter(x['stage'] for x in v)) for k,v in life.items()}})

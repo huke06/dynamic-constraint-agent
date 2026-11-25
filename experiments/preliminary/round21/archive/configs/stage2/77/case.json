@@ -1,0 +1,210 @@
+{
+  "task_id": "77",
+  "tier": "basic",
+  "stage": "stage2",
+  "order_id": "#W1671835",
+  "user_id": "ivan_johnson_6036",
+  "scope": [
+    "5081446110"
+  ],
+  "targets": {
+    "5081446110": "3399869890"
+  },
+  "initial_options": {
+    "5081446110": {
+      "scent family": "woody",
+      "size": "100ml",
+      "gender": "men"
+    }
+  },
+  "payment_method_id": "paypal_6918118",
+  "change_type": "none",
+  "changed_item": "5081446110",
+  "changed_target": "9007697085",
+  "change_message": "Before submission, change the Perfume (original item 5081446110) to item 9007697085 with options {\"scent family\": \"fresh\", \"size\": \"50ml\", \"gender\": \"men\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am ivan_johnson_6036; email ivan.johnson5749@example.com. In delivered order #W1671835, exchange ONLY these items in one complete request: [{\"item_id\": \"5081446110\", \"name\": \"Perfume\", \"requested_variant\": \"3399869890\", \"options\": {\"scent family\": \"woody\", \"size\": \"100ml\", \"gender\": \"men\"}}]. Keep every other item and order unchanged. Use original payment paypal_6918118. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W1671835": {
+        "order_id": "#W1671835",
+        "user_id": "ivan_johnson_6036",
+        "address": {
+          "address1": "851 Pine Lane",
+          "address2": "Suite 428",
+          "city": "Fort Worth",
+          "country": "USA",
+          "state": "TX",
+          "zip": "76115"
+        },
+        "items": [
+          {
+            "name": "Perfume",
+            "product_id": "6858788497",
+            "item_id": "5081446110",
+            "price": 322.52,
+            "options": {
+              "scent family": "woody",
+              "size": "30ml",
+              "gender": "men"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "820626058356"
+            ],
+            "item_ids": [
+              "5081446110"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 322.52,
+            "payment_method_id": "paypal_6918118"
+          }
+        ]
+      }
+    },
+    "users": {
+      "ivan_johnson_6036": {
+        "user_id": "ivan_johnson_6036",
+        "name": {
+          "first_name": "Ivan",
+          "last_name": "Johnson"
+        },
+        "address": {
+          "address1": "581 Hillcrest Drive",
+          "address2": "Suite 869",
+          "city": "San Francisco",
+          "country": "USA",
+          "state": "CA",
+          "zip": "94183"
+        },
+        "email": "ivan.johnson5749@example.com",
+        "payment_methods": {
+          "paypal_6918118": {
+            "source": "paypal",
+            "id": "paypal_6918118"
+          }
+        },
+        "orders": [
+          "#W1671835"
+        ]
+      }
+    },
+    "products": {
+      "6858788497": {
+        "name": "Perfume",
+        "product_id": "6858788497",
+        "variants": {
+          "9007697085": {
+            "item_id": "9007697085",
+            "options": {
+              "scent family": "fresh",
+              "size": "50ml",
+              "gender": "men"
+            },
+            "available": true,
+            "price": 318.96
+          },
+          "5081446110": {
+            "item_id": "5081446110",
+            "options": {
+              "scent family": "woody",
+              "size": "30ml",
+              "gender": "men"
+            },
+            "available": true,
+            "price": 322.52
+          },
+          "1325156478": {
+            "item_id": "1325156478",
+            "options": {
+              "scent family": "oriental",
+              "size": "30ml",
+              "gender": "men"
+            },
+            "available": true,
+            "price": 298.52
+          },
+          "1002370030": {
+            "item_id": "1002370030",
+            "options": {
+              "scent family": "woody",
+              "size": "50ml",
+              "gender": "women"
+            },
+            "available": false,
+            "price": 290.25
+          },
+          "3399869890": {
+            "item_id": "3399869890",
+            "options": {
+              "scent family": "woody",
+              "size": "100ml",
+              "gender": "men"
+            },
+            "available": true,
+            "price": 312.04
+          },
+          "5421902839": {
+            "item_id": "5421902839",
+            "options": {
+              "scent family": "oriental",
+              "size": "100ml",
+              "gender": "men"
+            },
+            "available": true,
+            "price": 328.25
+          },
+          "1725100896": {
+            "item_id": "1725100896",
+            "options": {
+              "scent family": "oriental",
+              "size": "30ml",
+              "gender": "unisex"
+            },
+            "available": false,
+            "price": 289.66
+          },
+          "9447903288": {
+            "item_id": "9447903288",
+            "options": {
+              "scent family": "fresh",
+              "size": "30ml",
+              "gender": "men"
+            },
+            "available": false,
+            "price": 296.78
+          },
+          "8316205423": {
+            "item_id": "8316205423",
+            "options": {
+              "scent family": "woody",
+              "size": "30ml",
+              "gender": "women"
+            },
+            "available": true,
+            "price": 288.75
+          },
+          "6826843914": {
+            "item_id": "6826843914",
+            "options": {
+              "scent family": "fresh",
+              "size": "100ml",
+              "gender": "men"
+            },
+            "available": false,
+            "price": 326.74
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

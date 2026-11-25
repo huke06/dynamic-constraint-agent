@@ -1,0 +1,943 @@
+{
+  "round": "13",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\README.md",
+      "copy": "experiments\\preliminary\\round13\\archive\\README.md",
+      "sha256": "cf886b3fa9b38045e402d7d13ae456d35cf819e0bd13cebcc73469290cd85353",
+      "bytes": 1809
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\configs\\config.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\configs\\config.json",
+      "sha256": "64ca2a039c1f7db7b3d34fb9e7f314bc3000cdccf1f2086b2af9f165b837fdc2",
+      "bytes": 328
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\configs\\freeze.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\configs\\freeze.json",
+      "sha256": "141ba349489f32d4afa78eebfbe4f5c337c6443b68a0792aebe94f72b7d888b8",
+      "bytes": 5664
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\configs\\offline.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\configs\\offline.json",
+      "sha256": "263fe5c415f3b711eabb7ee49f8709778e1ba21cea482c14e32c8de83169f1d9",
+      "bytes": 694
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\configs\\prompts.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\configs\\prompts.json",
+      "sha256": "63886dd7681bb2f5f305cd80e6f1e5ad2e9c06b2983635214ee3a490fac57b79",
+      "bytes": 6725
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round13\\archive\\configs\\PROTOCOL.md",
+      "sha256": "5f3671a3021a5c838e7c36b0e841214cd331672de620fb6a3e05da5faacb1b55",
+      "bytes": 4112
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\configs\\start.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\configs\\start.json",
+      "sha256": "4b007bbd5c447c875996d12eb5bc02f4418de3fecd69aaa50663042cf1966787",
+      "bytes": 138538
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\configs\\start_evidence.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\configs\\start_evidence.json",
+      "sha256": "b6d95de7ccf8d3f311e01715999caa770e57a1355cef79a14e186f7871a8b2a6",
+      "bytes": 5457
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\PAIRED_RESULTS.md",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\PAIRED_RESULTS.md",
+      "sha256": "4c3545384bf61dfd0ea5822ec45200d3814eca36aef1ec9bea9465668327b8a9",
+      "bytes": 606
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\RESULTS.md",
+      "sha256": "456cb1fb177b740319cf26e321de85ec14fb06a00df722192eb986273f30cfb1",
+      "bytes": 8604
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\configs\\config.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\configs\\config.json",
+      "sha256": "64ca2a039c1f7db7b3d34fb9e7f314bc3000cdccf1f2086b2af9f165b837fdc2",
+      "bytes": 328
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\configs\\offline.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\configs\\offline.json",
+      "sha256": "263fe5c415f3b711eabb7ee49f8709778e1ba21cea482c14e32c8de83169f1d9",
+      "bytes": 694
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\configs\\prompts.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\configs\\prompts.json",
+      "sha256": "63886dd7681bb2f5f305cd80e6f1e5ad2e9c06b2983635214ee3a490fac57b79",
+      "bytes": 6725
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\configs\\PROTOCOL.md",
+      "sha256": "5fb52117a6b1fcd5c08cda00a2b55e8f85c0aa79e614438fa9227aef591c53b0",
+      "bytes": 3732
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\configs\\start.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\configs\\start.json",
+      "sha256": "4b007bbd5c447c875996d12eb5bc02f4418de3fecd69aaa50663042cf1966787",
+      "bytes": 138538
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\configs\\start_evidence.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\configs\\start_evidence.json",
+      "sha256": "b6d95de7ccf8d3f311e01715999caa770e57a1355cef79a14e186f7871a8b2a6",
+      "bytes": 5457
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\adjacent_reference.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\adjacent_reference.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\annotate12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\annotate12.py",
+      "sha256": "3792f9ee1cce334636016d32aee0e74278dff78b724b6c9d6c17b028e549b1a8",
+      "bytes": 4208
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\baseline_runner.py",
+      "sha256": "ff508a529869961b267b6ef2ab978f06f1dc61d9f75ead33d8e02b62d577418b",
+      "bytes": 30342
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\calibrate.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\calibrate.py",
+      "sha256": "ccfb4349419a57a3149136617345f5c06fcd629f6d1e3644cf759622930b6670",
+      "bytes": 6708
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\checks.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\checks.py",
+      "sha256": "d857cfccfedf69e9c0261fb2569648cce39fc299ad746158136efd79e15386a0",
+      "bytes": 14620
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\check_facts.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\check_facts.py",
+      "sha256": "b93042b48aeb51464de9a9f0243eecc673e43e20776343f91452ea6ef4fcebcc",
+      "bytes": 4664
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\claim_contract.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\claim_contract.py",
+      "sha256": "bb70f9a990ee0d00804a9f42e6e380558f1c80d41a25634f9f1a5ab386de20a9",
+      "bytes": 4558
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\contracts08.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\contracts08.py",
+      "sha256": "1c119b2174fa4236c03c2083327c5fe6977d89066dfdc9759ab40c8e25566bd3",
+      "bytes": 1780
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\deliver12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\deliver12.py",
+      "sha256": "9697ee92eae6084bc3d4b751bf788020a8f67359bd32c053749a8389c34d4f48",
+      "bytes": 14347
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\engine.py",
+      "sha256": "a62577f45c76619c249a138a959df019419105e3a6cd4e4f19b878d64ab86ab2",
+      "bytes": 7100
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\experiment11.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\experiment11.py",
+      "sha256": "bb834d802667ed775aeeb55359b720a042a4799951e13a44d2ef063ad63df1b7",
+      "bytes": 11321
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\experiment12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\experiment12.py",
+      "sha256": "e6310637d86c5a37599735f22b83b1fea210f87bce6f43112168e43ce9885033",
+      "bytes": 11765
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\experiment13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\experiment13.py",
+      "sha256": "d5974a5ba8f65e786e9a47a602f2b578a45f26f0c6f6940e2d4f9cf3bff3bb32",
+      "bytes": 7579
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\fact_selfcheck.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\fact_selfcheck.json",
+      "sha256": "c931f53e34caf5301200527efe0c38458c3c4c85b26dfb7009ff255c2d5a41fb",
+      "bytes": 613
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\fact_verifier.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\fact_verifier.py",
+      "sha256": "e3e7179d73d386a4de8bc276c8525a52a9322d20392d54cf68db9e5aaa0668a0",
+      "bytes": 15373
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\input_boundary.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\input_boundary.py",
+      "sha256": "a56864dec8429b4932be05e15ece7993a88768f0ba8a682e4ef3a6208cf6385b",
+      "bytes": 1138
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\legacy_engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\legacy_engine.py",
+      "sha256": "7444f37891ddb4847d60c680302a685297de42f97f229977b7ef91164010ef15",
+      "bytes": 6947
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\normalization.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\recovery13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\recovery13.py",
+      "sha256": "2fbb3c5bbc69d722e8521beebae1a4bace196b6eb1b6109bf7d3b9caf0149bf4",
+      "bytes": 4075
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\repairs12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\repairs12.py",
+      "sha256": "97b8b2f3a25bcabffae3089d15d873ba72db33c1820a3a536b9c085946c558be",
+      "bytes": 6476
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\report.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\report.py",
+      "sha256": "6455af6572481f6df8229926a8c5fc7fb97a504bdf2216cbf3b64fadaffd86b1",
+      "bytes": 8693
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\report12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\report12.py",
+      "sha256": "84a8133cfec9c6e64e64e0a2203810b98f816a9a0d581b77c51c7f93a0669822",
+      "bytes": 8974
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\review_live_annotations.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\review_live_annotations.py",
+      "sha256": "d4bf1b8e179549ea23efcda515c60a85312294ca387cbbd97dcdb09ca8756ddb",
+      "bytes": 3314
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\run.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\run.py",
+      "sha256": "22979321d563739800e610c78d695958ebc535a3133ac80ad3f438c77e4a2b8f",
+      "bytes": 18129
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\score_facts.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\score_facts.py",
+      "sha256": "02060a80b40b6ef701a0c4ca6056db0146073a5cdad00708260b3023725e93fe",
+      "bytes": 14645
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots.py",
+      "sha256": "422711c0d154c3a315aa66c65fd77240ad80b3352f89763b6849a82f3454eb44",
+      "bytes": 4205
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\summarize11.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\summarize11.py",
+      "sha256": "ddce6dc31aa97c2360f4a737b71a1a98b1b94789d808cff5be2357f35d04a724",
+      "bytes": 7914
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\tests12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\tests12.py",
+      "sha256": "9d75a508233b766f4c65182ce76fb7f3368655aa72d1681f6e4c4c22eb0ddd4d",
+      "bytes": 3011
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\tests13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\tests13.py",
+      "sha256": "9ecac64d518e3f6d82484b01d5767afbb9edaade18997d9c180610a50ff7b4a3",
+      "bytes": 3677
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\verify_delivery.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\verify_delivery.py",
+      "sha256": "f71fcbc0b1b646981695abb5f2e0809164b11a070006befdfaf78fdcb713fa8a",
+      "bytes": 6830
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\write_reports.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\write_reports.py",
+      "sha256": "b117c5fc6050e34c8a34dcfed7e2d1579695ad5d243af701814460fb7cfc07a8",
+      "bytes": 20035
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\scenarios\\official_policy.md",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\scenarios\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\scenarios\\private\\task52.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\scenarios\\private\\task52.json",
+      "sha256": "10e65a9dec58eb9fcb40516c24fbc8c896b34321236ea19afc9367dc370d06e6",
+      "bytes": 1496
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\scenarios\\private\\task70.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\scenarios\\private\\task70.json",
+      "sha256": "ea0f9bf32e4c6b8badd5f85eefd069231d320b8fe51cf5a37846e3e95a8d3790",
+      "bytes": 1602
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\scenarios\\public\\task52.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\scenarios\\public\\task52.json",
+      "sha256": "ae9ebdba92c4670c4fc94bb9a110ff6d49d7871e82c43e103ce9304bda16263e",
+      "bytes": 10025
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\scenarios\\public\\task70.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\scenarios\\public\\task70.json",
+      "sha256": "ce2f03f9911c92ab54c987dfa14b3c62790b0739e560f0e04a9580464813c5d6",
+      "bytes": 11209
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\manifest.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\manifest.json",
+      "sha256": "0e49799fd9b491c14e1734f24603803c01dc2afa4818de2b190a29f7fba8ae77",
+      "bytes": 1615
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\preparation.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\preparation.json",
+      "sha256": "acabd954e9a35a6956bba89ec6530c2bbd08926af68f8d5340a7da4387fc20dd",
+      "bytes": 321
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\evidence\\t52_known.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\evidence\\t52_known.json",
+      "sha256": "cca8c3641119f495b3e23d871a91b3bcddae6ef790a698c9cce7939c0ffe0f28",
+      "bytes": 18433
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\evidence\\t52_unknown.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\evidence\\t52_unknown.json",
+      "sha256": "20b0ce0f9b8f7546f7e996ceb99445ce13039d24ee0d7b2d205c80335f5980d4",
+      "bytes": 18435
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\evidence\\t70_known.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\evidence\\t70_known.json",
+      "sha256": "3ba23f84a3b78c7c8f609bd7c9f63d0781e52c43a02a0ce74a193a1245542f54",
+      "bytes": 21573
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\evidence\\t70_unknown.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\evidence\\t70_unknown.json",
+      "sha256": "6459b518f9344ee7510a8b43a2b159112350ae4775bb5a5b8f09f7474a476415",
+      "bytes": 21575
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\public\\t52_known.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\public\\t52_known.json",
+      "sha256": "1c49a5c2392048ccf71346c272bb761ff2bb25888a8ffeaf26c8864f51ffe0e6",
+      "bytes": 125748
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\public\\t52_unknown.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\public\\t52_unknown.json",
+      "sha256": "8bc6343cd80bcebff1cd74962df4179a273bac16c717826bbf0a0eee30bcf07f",
+      "bytes": 127673
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\public\\t70_known.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\public\\t70_known.json",
+      "sha256": "6a66bcd5d555756b7690a9520203b9f9765bf390d80dce3196a88d67dabcb85d",
+      "bytes": 141096
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\snapshots\\public\\t70_unknown.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch01\\frozen_inputs\\src\\snapshots\\public\\t70_unknown.json",
+      "sha256": "6e2a75046058a4d97f96dbcd42af9f646bf5e40b9f32e31b2756866da8a29187",
+      "bytes": 143021
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\configs\\config.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\configs\\config.json",
+      "sha256": "64ca2a039c1f7db7b3d34fb9e7f314bc3000cdccf1f2086b2af9f165b837fdc2",
+      "bytes": 328
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\configs\\offline.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\configs\\offline.json",
+      "sha256": "263fe5c415f3b711eabb7ee49f8709778e1ba21cea482c14e32c8de83169f1d9",
+      "bytes": 694
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\configs\\prompts.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\configs\\prompts.json",
+      "sha256": "63886dd7681bb2f5f305cd80e6f1e5ad2e9c06b2983635214ee3a490fac57b79",
+      "bytes": 6725
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\configs\\PROTOCOL.md",
+      "sha256": "5f3671a3021a5c838e7c36b0e841214cd331672de620fb6a3e05da5faacb1b55",
+      "bytes": 4112
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\configs\\start.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\configs\\start.json",
+      "sha256": "4b007bbd5c447c875996d12eb5bc02f4418de3fecd69aaa50663042cf1966787",
+      "bytes": 138538
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\configs\\start_evidence.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\configs\\start_evidence.json",
+      "sha256": "b6d95de7ccf8d3f311e01715999caa770e57a1355cef79a14e186f7871a8b2a6",
+      "bytes": 5457
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\adjacent_reference.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\adjacent_reference.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\annotate12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\annotate12.py",
+      "sha256": "3792f9ee1cce334636016d32aee0e74278dff78b724b6c9d6c17b028e549b1a8",
+      "bytes": 4208
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\baseline_runner.py",
+      "sha256": "ff508a529869961b267b6ef2ab978f06f1dc61d9f75ead33d8e02b62d577418b",
+      "bytes": 30342
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\calibrate.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\calibrate.py",
+      "sha256": "ccfb4349419a57a3149136617345f5c06fcd629f6d1e3644cf759622930b6670",
+      "bytes": 6708
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\checks.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\checks.py",
+      "sha256": "d857cfccfedf69e9c0261fb2569648cce39fc299ad746158136efd79e15386a0",
+      "bytes": 14620
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\check_facts.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\check_facts.py",
+      "sha256": "b93042b48aeb51464de9a9f0243eecc673e43e20776343f91452ea6ef4fcebcc",
+      "bytes": 4664
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\claim_contract.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\claim_contract.py",
+      "sha256": "bb70f9a990ee0d00804a9f42e6e380558f1c80d41a25634f9f1a5ab386de20a9",
+      "bytes": 4558
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\contracts08.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\contracts08.py",
+      "sha256": "1c119b2174fa4236c03c2083327c5fe6977d89066dfdc9759ab40c8e25566bd3",
+      "bytes": 1780
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\deliver12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\deliver12.py",
+      "sha256": "9697ee92eae6084bc3d4b751bf788020a8f67359bd32c053749a8389c34d4f48",
+      "bytes": 14347
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\engine.py",
+      "sha256": "a62577f45c76619c249a138a959df019419105e3a6cd4e4f19b878d64ab86ab2",
+      "bytes": 7100
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\experiment11.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\experiment11.py",
+      "sha256": "bb834d802667ed775aeeb55359b720a042a4799951e13a44d2ef063ad63df1b7",
+      "bytes": 11321
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\experiment12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\experiment12.py",
+      "sha256": "e6310637d86c5a37599735f22b83b1fea210f87bce6f43112168e43ce9885033",
+      "bytes": 11765
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\experiment13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\experiment13.py",
+      "sha256": "9647dff38aadf53630fcd39f3b5191edbe68587c0a4ad521ad4d7b705c57ca1f",
+      "bytes": 7657
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\fact_selfcheck.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\fact_selfcheck.json",
+      "sha256": "c931f53e34caf5301200527efe0c38458c3c4c85b26dfb7009ff255c2d5a41fb",
+      "bytes": 613
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\fact_verifier.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\fact_verifier.py",
+      "sha256": "e3e7179d73d386a4de8bc276c8525a52a9322d20392d54cf68db9e5aaa0668a0",
+      "bytes": 15373
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\input_boundary.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\input_boundary.py",
+      "sha256": "a56864dec8429b4932be05e15ece7993a88768f0ba8a682e4ef3a6208cf6385b",
+      "bytes": 1138
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\legacy_engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\legacy_engine.py",
+      "sha256": "7444f37891ddb4847d60c680302a685297de42f97f229977b7ef91164010ef15",
+      "bytes": 6947
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\normalization.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\recovery13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\recovery13.py",
+      "sha256": "1388b4ddd294e4d4dac87f4c26d4678127124f95182853ea12ec7a85b49b9bf3",
+      "bytes": 4353
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\repairs12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\repairs12.py",
+      "sha256": "97b8b2f3a25bcabffae3089d15d873ba72db33c1820a3a536b9c085946c558be",
+      "bytes": 6476
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\report.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\report.py",
+      "sha256": "6455af6572481f6df8229926a8c5fc7fb97a504bdf2216cbf3b64fadaffd86b1",
+      "bytes": 8693
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\report12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\report12.py",
+      "sha256": "84a8133cfec9c6e64e64e0a2203810b98f816a9a0d581b77c51c7f93a0669822",
+      "bytes": 8974
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\review_live_annotations.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\review_live_annotations.py",
+      "sha256": "d4bf1b8e179549ea23efcda515c60a85312294ca387cbbd97dcdb09ca8756ddb",
+      "bytes": 3314
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\run.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\run.py",
+      "sha256": "22979321d563739800e610c78d695958ebc535a3133ac80ad3f438c77e4a2b8f",
+      "bytes": 18129
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\score_facts.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\score_facts.py",
+      "sha256": "02060a80b40b6ef701a0c4ca6056db0146073a5cdad00708260b3023725e93fe",
+      "bytes": 14645
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots.py",
+      "sha256": "422711c0d154c3a315aa66c65fd77240ad80b3352f89763b6849a82f3454eb44",
+      "bytes": 4205
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\summarize11.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\summarize11.py",
+      "sha256": "ddce6dc31aa97c2360f4a737b71a1a98b1b94789d808cff5be2357f35d04a724",
+      "bytes": 7914
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\tests12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\tests12.py",
+      "sha256": "9d75a508233b766f4c65182ce76fb7f3368655aa72d1681f6e4c4c22eb0ddd4d",
+      "bytes": 3011
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\tests13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\tests13.py",
+      "sha256": "bbb935deb6c6ee1fc02bea08eec803308fd1ac2567f1b829494461a1796a02f7",
+      "bytes": 3786
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\verify_delivery.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\verify_delivery.py",
+      "sha256": "f71fcbc0b1b646981695abb5f2e0809164b11a070006befdfaf78fdcb713fa8a",
+      "bytes": 6830
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\write_reports.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\write_reports.py",
+      "sha256": "b117c5fc6050e34c8a34dcfed7e2d1579695ad5d243af701814460fb7cfc07a8",
+      "bytes": 20035
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\scenarios\\official_policy.md",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\scenarios\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\scenarios\\private\\task52.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\scenarios\\private\\task52.json",
+      "sha256": "10e65a9dec58eb9fcb40516c24fbc8c896b34321236ea19afc9367dc370d06e6",
+      "bytes": 1496
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\scenarios\\private\\task70.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\scenarios\\private\\task70.json",
+      "sha256": "ea0f9bf32e4c6b8badd5f85eefd069231d320b8fe51cf5a37846e3e95a8d3790",
+      "bytes": 1602
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\scenarios\\public\\task52.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\scenarios\\public\\task52.json",
+      "sha256": "ae9ebdba92c4670c4fc94bb9a110ff6d49d7871e82c43e103ce9304bda16263e",
+      "bytes": 10025
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\scenarios\\public\\task70.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\scenarios\\public\\task70.json",
+      "sha256": "ce2f03f9911c92ab54c987dfa14b3c62790b0739e560f0e04a9580464813c5d6",
+      "bytes": 11209
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\manifest.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\manifest.json",
+      "sha256": "0e49799fd9b491c14e1734f24603803c01dc2afa4818de2b190a29f7fba8ae77",
+      "bytes": 1615
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\preparation.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\preparation.json",
+      "sha256": "acabd954e9a35a6956bba89ec6530c2bbd08926af68f8d5340a7da4387fc20dd",
+      "bytes": 321
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\evidence\\t52_known.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\evidence\\t52_known.json",
+      "sha256": "cca8c3641119f495b3e23d871a91b3bcddae6ef790a698c9cce7939c0ffe0f28",
+      "bytes": 18433
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\evidence\\t52_unknown.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\evidence\\t52_unknown.json",
+      "sha256": "20b0ce0f9b8f7546f7e996ceb99445ce13039d24ee0d7b2d205c80335f5980d4",
+      "bytes": 18435
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\evidence\\t70_known.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\evidence\\t70_known.json",
+      "sha256": "3ba23f84a3b78c7c8f609bd7c9f63d0781e52c43a02a0ce74a193a1245542f54",
+      "bytes": 21573
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\evidence\\t70_unknown.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\evidence\\t70_unknown.json",
+      "sha256": "6459b518f9344ee7510a8b43a2b159112350ae4775bb5a5b8f09f7474a476415",
+      "bytes": 21575
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\public\\t52_known.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\public\\t52_known.json",
+      "sha256": "1c49a5c2392048ccf71346c272bb761ff2bb25888a8ffeaf26c8864f51ffe0e6",
+      "bytes": 125748
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\public\\t52_unknown.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\public\\t52_unknown.json",
+      "sha256": "8bc6343cd80bcebff1cd74962df4179a273bac16c717826bbf0a0eee30bcf07f",
+      "bytes": 127673
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\public\\t70_known.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\public\\t70_known.json",
+      "sha256": "6a66bcd5d555756b7690a9520203b9f9765bf390d80dce3196a88d67dabcb85d",
+      "bytes": 141096
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\snapshots\\public\\t70_unknown.json",
+      "copy": "experiments\\preliminary\\round13\\archive\\results\\batch02\\frozen_inputs\\src\\snapshots\\public\\t70_unknown.json",
+      "sha256": "6e2a75046058a4d97f96dbcd42af9f646bf5e40b9f32e31b2756866da8a29187",
+      "bytes": 143021
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\adjacent_reference.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\adjacent_reference.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\analyze13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\analyze13.py",
+      "sha256": "1ed776f3ecfdb5dd88fe6cb5a070cb7c5fae21b44bc70e3116fc2b466319e2bc",
+      "bytes": 9134
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\annotate12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\annotate12.py",
+      "sha256": "3792f9ee1cce334636016d32aee0e74278dff78b724b6c9d6c17b028e549b1a8",
+      "bytes": 4208
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\baseline_runner.py",
+      "sha256": "ff508a529869961b267b6ef2ab978f06f1dc61d9f75ead33d8e02b62d577418b",
+      "bytes": 30342
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\calibrate.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\calibrate.py",
+      "sha256": "ccfb4349419a57a3149136617345f5c06fcd629f6d1e3644cf759622930b6670",
+      "bytes": 6708
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\checks.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\checks.py",
+      "sha256": "d857cfccfedf69e9c0261fb2569648cce39fc299ad746158136efd79e15386a0",
+      "bytes": 14620
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\check_facts.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\check_facts.py",
+      "sha256": "b93042b48aeb51464de9a9f0243eecc673e43e20776343f91452ea6ef4fcebcc",
+      "bytes": 4664
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\claim_contract.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\claim_contract.py",
+      "sha256": "bb70f9a990ee0d00804a9f42e6e380558f1c80d41a25634f9f1a5ab386de20a9",
+      "bytes": 4558
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\contracts08.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\contracts08.py",
+      "sha256": "1c119b2174fa4236c03c2083327c5fe6977d89066dfdc9759ab40c8e25566bd3",
+      "bytes": 1780
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\deliver12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\deliver12.py",
+      "sha256": "9697ee92eae6084bc3d4b751bf788020a8f67359bd32c053749a8389c34d4f48",
+      "bytes": 14347
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\deliver13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\deliver13.py",
+      "sha256": "a547622ba8d65d2df0ed4d5facf28e07be98da0d719755395f749965e9a6696e",
+      "bytes": 14849
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\engine.py",
+      "sha256": "a62577f45c76619c249a138a959df019419105e3a6cd4e4f19b878d64ab86ab2",
+      "bytes": 7100
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\experiment11.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\experiment11.py",
+      "sha256": "bb834d802667ed775aeeb55359b720a042a4799951e13a44d2ef063ad63df1b7",
+      "bytes": 11321
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\experiment12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\experiment12.py",
+      "sha256": "e6310637d86c5a37599735f22b83b1fea210f87bce6f43112168e43ce9885033",
+      "bytes": 11765
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\experiment13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\experiment13.py",
+      "sha256": "9647dff38aadf53630fcd39f3b5191edbe68587c0a4ad521ad4d7b705c57ca1f",
+      "bytes": 7657
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\fact_verifier.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\fact_verifier.py",
+      "sha256": "e3e7179d73d386a4de8bc276c8525a52a9322d20392d54cf68db9e5aaa0668a0",
+      "bytes": 15373
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\input_boundary.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\input_boundary.py",
+      "sha256": "a56864dec8429b4932be05e15ece7993a88768f0ba8a682e4ef3a6208cf6385b",
+      "bytes": 1138
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\legacy_engine.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\legacy_engine.py",
+      "sha256": "7444f37891ddb4847d60c680302a685297de42f97f229977b7ef91164010ef15",
+      "bytes": 6947
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\normalization.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\recovery13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\recovery13.py",
+      "sha256": "1388b4ddd294e4d4dac87f4c26d4678127124f95182853ea12ec7a85b49b9bf3",
+      "bytes": 4353
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\repairs12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\repairs12.py",
+      "sha256": "97b8b2f3a25bcabffae3089d15d873ba72db33c1820a3a536b9c085946c558be",
+      "bytes": 6476
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\report.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\report.py",
+      "sha256": "6455af6572481f6df8229926a8c5fc7fb97a504bdf2216cbf3b64fadaffd86b1",
+      "bytes": 8693
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\report12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\report12.py",
+      "sha256": "84a8133cfec9c6e64e64e0a2203810b98f816a9a0d581b77c51c7f93a0669822",
+      "bytes": 8974
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\review_live_annotations.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\review_live_annotations.py",
+      "sha256": "d4bf1b8e179549ea23efcda515c60a85312294ca387cbbd97dcdb09ca8756ddb",
+      "bytes": 3314
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\run.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\run.py",
+      "sha256": "22979321d563739800e610c78d695958ebc535a3133ac80ad3f438c77e4a2b8f",
+      "bytes": 18129
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\score_facts.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\score_facts.py",
+      "sha256": "02060a80b40b6ef701a0c4ca6056db0146073a5cdad00708260b3023725e93fe",
+      "bytes": 14645
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\snapshots.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\snapshots.py",
+      "sha256": "422711c0d154c3a315aa66c65fd77240ad80b3352f89763b6849a82f3454eb44",
+      "bytes": 4205
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\summarize11.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\summarize11.py",
+      "sha256": "ddce6dc31aa97c2360f4a737b71a1a98b1b94789d808cff5be2357f35d04a724",
+      "bytes": 7914
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\tests12.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\tests12.py",
+      "sha256": "9d75a508233b766f4c65182ce76fb7f3368655aa72d1681f6e4c4c22eb0ddd4d",
+      "bytes": 3011
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\tests13.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\tests13.py",
+      "sha256": "bbb935deb6c6ee1fc02bea08eec803308fd1ac2567f1b829494461a1796a02f7",
+      "bytes": 3786
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\verify_delivery.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\verify_delivery.py",
+      "sha256": "f71fcbc0b1b646981695abb5f2e0809164b11a070006befdfaf78fdcb713fa8a",
+      "bytes": 6830
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\src\\write_reports.py",
+      "copy": "experiments\\preliminary\\round13\\archive\\src\\write_reports.py",
+      "sha256": "b117c5fc6050e34c8a34dcfed7e2d1579695ad5d243af701814460fb7cfc07a8",
+      "bytes": 20035
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\FULL_TRACE.md",
+      "copy": "experiments\\preliminary\\round13\\representative\\FULL_TRACE.md",
+      "sha256": "f08f6a6e74757aaff6ca809a9416767d937ef312aa1e29d5174f9eb3c58b5a0d",
+      "bytes": 18002
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [
+    {
+      "path": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch01\\frozen_inputs\\src\\scenarios\\initial_database.json",
+      "bytes": 2158139,
+      "reason": "large artifact kept at original path"
+    },
+    {
+      "path": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results\\batch02\\frozen_inputs\\src\\scenarios\\initial_database.json",
+      "bytes": 2158139,
+      "reason": "large artifact kept at original path"
+    }
+  ],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\13_条件许可落空后的自主恢复\\results",
+    "files": 190,
+    "bytes": 34954666,
+    "git_storage": "external original directory, not moved"
+  }
+}

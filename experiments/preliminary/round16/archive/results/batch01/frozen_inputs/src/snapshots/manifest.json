@@ -1,0 +1,42 @@
+{
+  "t70_known": {
+    "snapshot_sha256": "77df8829a9a9d191ac4067c67f956b50ad83ff9e5ee079e78f9a3afa70792536",
+    "agent_view_sha256": "bb18dcab16e646e76017abc99418e0c4aff4c5ab0a3f605fba79b6b537592665",
+    "state_sha256": "3496b74dd29a23f5b041b69233b97bc9ec098e19403e713cb57ff9d624cbfcf9",
+    "budget": {
+      "agent_calls": 24,
+      "agent_tokens": 60000,
+      "work_steps": 9
+    }
+  },
+  "t70_unknown": {
+    "snapshot_sha256": "ee3c1bf2b3dd3bb84a26d652c87e77797aa765d9170b1a7de53fb39dc4b4b003",
+    "agent_view_sha256": "dfead597b7b1421c1539c84b394f3b558733e52a23d5e8123cbaa5c82b35bbd1",
+    "state_sha256": "4fec9680afcdf208ead81fccf51207b6eaf1371d39889e38ed418ad81aa68551",
+    "budget": {
+      "agent_calls": 24,
+      "agent_tokens": 60000,
+      "work_steps": 9
+    }
+  },
+  "t52_known": {
+    "snapshot_sha256": "bbf011117a422cc456acf50bfca3ae6d3eda5eed6f96db1b8c4869d6e52d50dc",
+    "agent_view_sha256": "590d666a9d16da91f9139d63b797b02888474f7fd229270cb96a624e8f49cad7",
+    "state_sha256": "ccc4afa5f03e7f28309256194cbd6dfa2ddf0dee7642cdeb8c3c6404c4167c66",
+    "budget": {
+      "agent_calls": 24,
+      "agent_tokens": 60000,
+      "work_steps": 9
+    }
+  },
+  "t52_unknown": {
+    "snapshot_sha256": "eda615806e4487f603754228ca8a2a4e151f9cd29ca1791d11b7251c4425ccc9",
+    "agent_view_sha256": "95202d256fc5c7f0bada27393dde8b491946f467a0cbdc3d80f60079609d5e50",
+    "state_sha256": "e03d49689c357a49356d36283f33949abcd34010d987e2f1b0fe7c15790022a4",
+    "budget": {
+      "agent_calls": 24,
+      "agent_tokens": 60000,
+      "work_steps": 9
+    }
+  }
+}

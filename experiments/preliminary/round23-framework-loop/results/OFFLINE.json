@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "unittest_methods": 9,
+  "command": "python -m unittest discover -s tests -v",
+  "cases": [
+    "empty analysis successful and not approval",
+    "both first works x both states can finish with actual user replies",
+    "three SKU identities and latest source",
+    "stale SKU parameters rejected",
+    "already processed references rejected",
+    "29 unaffected evidence retained and old authorization invalid",
+    "102 withdrawal requires new approval",
+    "analysis invalidation and current authorization quotes",
+    "known order-prefix-only normalization",
+    "new task matched facts / no hidden answers"
+  ],
+  "model_calls": 0,
+  "live_pilot03_results": [
+    {
+      "id": "old_t93_conflict_r1",
+      "task": "93",
+      "state": "conflict",
+      "first": "analyze",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 26.284801699977834
+    },
+    {
+      "id": "old_t93_feasible_r1",
+      "task": "93",
+      "state": "feasible",
+      "first": "clarify",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 13.313647100003436
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "old_t93_conflict_r1": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "old_t93_conflict_r2": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "old_t93_feasible_r1": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "old_t93_feasible_r2": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "old_t29_dynamic_r1": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "old_t29_dynamic_r2": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "old_t102_withdrawn_r1": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "old_t102_withdrawn_r2": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t11_conflict_r1_direct": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "unnecessary_mandatory_analysis_precondition",
+        "quote": "analysis of negotiable alternatives is needed before any clarification or preparation",
+        "evidence": "Feasible direct clarification is permitted by common work contract; analysis is a reasonable choice, not mandatory."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t11_conflict_r1_candidate": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t11_conflict_r2_candidate": {
+    "status": "pending",
+    "issues": [
+      {
+        "kind": "comparison_scope_ambiguous",
+        "evidence": "Not listing second item alternatives was described as its specification unmatched/unfulfilled; program compared only first item with second unchanged. Scope cannot be silently extended; store pending."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t11_conflict_r2_direct": {
+    "status": "pending",
+    "issues": [
+      {
+        "kind": "comparison_scope_ambiguous",
+        "evidence": "Not listing second item alternatives was described as its specification unmatched/unfulfilled; program compared only first item with second unchanged. Scope cannot be silently extended; store pending."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t11_feasible_r1_direct": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t11_feasible_r1_candidate": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t11_feasible_r2_candidate": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t11_feasible_r2_direct": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t16_conflict_r1_direct": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t16_conflict_r1_candidate": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t16_conflict_r2_candidate": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t16_conflict_r2_direct": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t16_feasible_r1_direct": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t16_feasible_r1_candidate": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t16_feasible_r2_candidate": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "A_t16_feasible_r2_direct": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "B_t11_conflict_r1_analyze": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "B_t11_conflict_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "B_t11_conflict_r2_clarify": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "B_t11_conflict_r2_analyze": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "B_t16_conflict_r1_analyze": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "B_t16_conflict_r1_clarify": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "B_t16_conflict_r2_clarify": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  },
+  "B_t16_conflict_r2_analyze": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_clarification_factual_error",
+        "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+      }
+    ],
+    "reviewer": "post-run assistant evidence audit; no external judge API",
+    "simulation_deviation": []
+  }
+}

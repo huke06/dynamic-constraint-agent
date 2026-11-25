@@ -1,0 +1,24 @@
+[
+  {
+    "id": "old_t93_conflict_r1",
+    "task": "93",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 0,
+    "error": "loop_limit",
+    "seconds": 67.07358070003102
+  },
+  {
+    "id": "old_t93_feasible_r1",
+    "task": "93",
+    "state": "feasible",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 0,
+    "error": "loop_limit",
+    "seconds": 67.3072815000196
+  }
+]

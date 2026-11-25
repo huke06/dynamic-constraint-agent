@@ -1,0 +1,214 @@
+{
+  "task_id": "91",
+  "tier": "controlled_checkpoint",
+  "scope": [
+    "9494281769"
+  ],
+  "order_id": "#W3239882",
+  "user_id": "mei_ahmed_4909",
+  "targets": {
+    "9494281769": "7609274509"
+  },
+  "initial_options": {
+    "9494281769": {
+      "screen size": "8-inch",
+      "connectivity": "Wi-Fi",
+      "storage": "32GB"
+    }
+  },
+  "payment_method_id": "credit_card_5902940",
+  "initial_message": "I am mei_ahmed_4909, email mei.ahmed4901@example.com. For delivered order #W3239882, exchange ONLY original items {\"9494281769\": \"7609274509\"} (mapping original to requested new SKU), with specifications {\"9494281769\": {\"screen size\": \"8-inch\", \"connectivity\": \"Wi-Fi\", \"storage\": \"32GB\"}}. Keep all other items unchanged and use original payment credit_card_5902940. I permit these specifications if in stock and within my net increase cap; other specifications need separate permission. This is not full transaction authorization. Show the entire proposal and net difference for my explicit approval.",
+  "initial_catalogues": false,
+  "change_type": "none",
+  "caps": {
+    "unknown": 10000.0,
+    "known": 10000.0
+  },
+  "states": [
+    "unknown",
+    "known"
+  ],
+  "environment": {
+    "orders": {
+      "#W3239882": {
+        "order_id": "#W3239882",
+        "user_id": "mei_ahmed_4909",
+        "address": {
+          "address1": "572 Cedar Street",
+          "address2": "Suite 469",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78705"
+        },
+        "items": [
+          {
+            "name": "E-Reader",
+            "product_id": "3801771308",
+            "item_id": "9494281769",
+            "price": 252.06,
+            "options": {
+              "screen size": "8-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "8GB"
+            }
+          },
+          {
+            "name": "Tablet",
+            "product_id": "8024098596",
+            "item_id": "2106335193",
+            "price": 903.95,
+            "options": {
+              "screen size": "10-inch",
+              "storage": "64GB",
+              "color": "silver"
+            }
+          },
+          {
+            "name": "Portable Charger",
+            "product_id": "6942297802",
+            "item_id": "2146648441",
+            "price": 105.85,
+            "options": {
+              "capacity": "10000mAh",
+              "output": "Wireless",
+              "color": "blue"
+            }
+          },
+          {
+            "name": "Makeup Kit",
+            "product_id": "5149340237",
+            "item_id": "6509212169",
+            "price": 256.14,
+            "options": {
+              "skin tone": "light",
+              "kit size": "professional",
+              "brand": "Brand A"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "618282621876"
+            ],
+            "item_ids": [
+              "9494281769",
+              "2106335193",
+              "2146648441",
+              "6509212169"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1518.0,
+            "payment_method_id": "credit_card_5902940"
+          }
+        ]
+      }
+    },
+    "users": {
+      "mei_ahmed_4909": {
+        "user_id": "mei_ahmed_4909",
+        "name": {
+          "first_name": "Mei",
+          "last_name": "Ahmed"
+        },
+        "address": {
+          "address1": "572 Cedar Street",
+          "address2": "Suite 469",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78705"
+        },
+        "email": "mei.ahmed4901@example.com",
+        "payment_methods": {
+          "credit_card_5902940": {
+            "source": "credit_card",
+            "id": "credit_card_5902940",
+            "brand": "mastercard",
+            "last_four": "9375"
+          }
+        },
+        "orders": [
+          "#W7553978",
+          "#W3239882",
+          "#W2598324"
+        ]
+      }
+    },
+    "products": {
+      "3801771308": {
+        "name": "E-Reader",
+        "product_id": "3801771308",
+        "variants": {
+          "9494281769": {
+            "item_id": "9494281769",
+            "options": {
+              "screen size": "8-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "8GB"
+            },
+            "available": true,
+            "price": 252.06
+          },
+          "4273929280": {
+            "item_id": "4273929280",
+            "options": {
+              "screen size": "7-inch",
+              "connectivity": "Wi-Fi + Cellular",
+              "storage": "32GB"
+            },
+            "available": true,
+            "price": 244.95
+          },
+          "6268080249": {
+            "item_id": "6268080249",
+            "options": {
+              "screen size": "7-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "8GB"
+            },
+            "available": false,
+            "price": 244.02
+          },
+          "5510402676": {
+            "item_id": "5510402676",
+            "options": {
+              "screen size": "6-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "8GB"
+            },
+            "available": true,
+            "price": 267.07
+          },
+          "7609274509": {
+            "item_id": "7609274509",
+            "options": {
+              "screen size": "8-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "32GB"
+            },
+            "available": true,
+            "price": 243.4
+          },
+          "5418781403": {
+            "item_id": "5418781403",
+            "options": {
+              "screen size": "7-inch",
+              "connectivity": "Wi-Fi + Cellular",
+              "storage": "8GB"
+            },
+            "available": true,
+            "price": 267.58
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled exchange subtask, not original benchmark score. Explicit SKU choices and original payment replace original private preference/payment choices. 91 changes same-SKU intent to different-spec acceptance; 98 takes only second exchange order; 93/102 retain order/scope but explicit selected specification may differ. Full original archived separately."
+}

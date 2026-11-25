@@ -1,0 +1,384 @@
+{
+  "task_id": "98",
+  "tier": "controlled_checkpoint",
+  "scope": [
+    "7758198585",
+    "4068787148"
+  ],
+  "order_id": "#W3916020",
+  "user_id": "sofia_li_9219",
+  "targets": {
+    "7758198585": "5606522780",
+    "4068787148": "9665100170"
+  },
+  "initial_options": {
+    "7758198585": {
+      "frame size": "large",
+      "color": "red",
+      "type": "mountain"
+    },
+    "4068787148": {
+      "pieces": "1500",
+      "theme": "animals",
+      "difficulty level": "beginner"
+    }
+  },
+  "payment_method_id": "credit_card_8105988",
+  "initial_message": "I am sofia_li_9219, email sofia.li7352@example.com. For delivered order #W3916020, exchange ONLY original items {\"7758198585\": \"5606522780\", \"4068787148\": \"9665100170\"} (mapping original to requested new SKU), with specifications {\"7758198585\": {\"frame size\": \"large\", \"color\": \"red\", \"type\": \"mountain\"}, \"4068787148\": {\"pieces\": \"1500\", \"theme\": \"animals\", \"difficulty level\": \"beginner\"}}. Keep all other items unchanged and use original payment credit_card_8105988. I permit these specifications if in stock and within my net increase cap; other specifications need separate permission. This is not full transaction authorization. Show the entire proposal and net difference for my explicit approval.",
+  "initial_catalogues": true,
+  "change_type": "none",
+  "caps": {
+    "spec_only": 10000.0,
+    "full_authorized": 10000.0
+  },
+  "states": [
+    "spec_only",
+    "full_authorized"
+  ],
+  "environment": {
+    "orders": {
+      "#W3916020": {
+        "order_id": "#W3916020",
+        "user_id": "sofia_li_9219",
+        "address": {
+          "address1": "285 Elm Street",
+          "address2": "Suite 121",
+          "city": "Fort Worth",
+          "country": "USA",
+          "state": "TX",
+          "zip": "76155"
+        },
+        "items": [
+          {
+            "name": "Jigsaw Puzzle",
+            "product_id": "1808611083",
+            "item_id": "4068787148",
+            "price": 52.01,
+            "options": {
+              "pieces": "500",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            }
+          },
+          {
+            "name": "Bicycle",
+            "product_id": "9783735446",
+            "item_id": "7758198585",
+            "price": 1917.21,
+            "options": {
+              "frame size": "medium",
+              "color": "green",
+              "type": "road"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "580826001577"
+            ],
+            "item_ids": [
+              "4068787148",
+              "7758198585"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1969.22,
+            "payment_method_id": "credit_card_8105988"
+          }
+        ]
+      }
+    },
+    "users": {
+      "sofia_li_9219": {
+        "user_id": "sofia_li_9219",
+        "name": {
+          "first_name": "Sofia",
+          "last_name": "Li"
+        },
+        "address": {
+          "address1": "786 Elm Street",
+          "address2": "Suite 546",
+          "city": "San Antonio",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78260"
+        },
+        "email": "sofia.li7352@example.com",
+        "payment_methods": {
+          "paypal_8194385": {
+            "source": "paypal",
+            "id": "paypal_8194385"
+          },
+          "credit_card_3951670": {
+            "source": "credit_card",
+            "id": "credit_card_3951670",
+            "brand": "visa",
+            "last_four": "6791"
+          },
+          "credit_card_8105988": {
+            "source": "credit_card",
+            "id": "credit_card_8105988",
+            "brand": "mastercard",
+            "last_four": "8484"
+          }
+        },
+        "orders": [
+          "#W4689314",
+          "#W8855135",
+          "#W3916020",
+          "#W5416052"
+        ]
+      }
+    },
+    "products": {
+      "9783735446": {
+        "name": "Bicycle",
+        "product_id": "9783735446",
+        "variants": {
+          "7758198585": {
+            "item_id": "7758198585",
+            "options": {
+              "frame size": "medium",
+              "color": "green",
+              "type": "road"
+            },
+            "available": true,
+            "price": 1917.21
+          },
+          "5606522780": {
+            "item_id": "5606522780",
+            "options": {
+              "frame size": "large",
+              "color": "red",
+              "type": "mountain"
+            },
+            "available": true,
+            "price": 1902.67
+          },
+          "6170152315": {
+            "item_id": "6170152315",
+            "options": {
+              "frame size": "small",
+              "color": "red",
+              "type": "mountain"
+            },
+            "available": false,
+            "price": 1814.72
+          },
+          "3624655057": {
+            "item_id": "3624655057",
+            "options": {
+              "frame size": "medium",
+              "color": "blue",
+              "type": "road"
+            },
+            "available": true,
+            "price": 2195.04
+          },
+          "2143041831": {
+            "item_id": "2143041831",
+            "options": {
+              "frame size": "medium",
+              "color": "black",
+              "type": "mountain"
+            },
+            "available": true,
+            "price": 2076.5
+          }
+        }
+      },
+      "1808611083": {
+        "name": "Jigsaw Puzzle",
+        "product_id": "1808611083",
+        "variants": {
+          "3614853563": {
+            "item_id": "3614853563",
+            "options": {
+              "pieces": "2000",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            },
+            "available": false,
+            "price": 46.99
+          },
+          "4772738468": {
+            "item_id": "4772738468",
+            "options": {
+              "pieces": "1000",
+              "theme": "animals",
+              "difficulty level": "beginner"
+            },
+            "available": false,
+            "price": 53.91
+          },
+          "4068787148": {
+            "item_id": "4068787148",
+            "options": {
+              "pieces": "500",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 52.01
+          },
+          "3112842858": {
+            "item_id": "3112842858",
+            "options": {
+              "pieces": "1000",
+              "theme": "fantasy",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 49.1
+          },
+          "7869640094": {
+            "item_id": "7869640094",
+            "options": {
+              "pieces": "2000",
+              "theme": "animals",
+              "difficulty level": "expert"
+            },
+            "available": false,
+            "price": 47.59
+          },
+          "1096508426": {
+            "item_id": "1096508426",
+            "options": {
+              "pieces": "500",
+              "theme": "art",
+              "difficulty level": "beginner"
+            },
+            "available": true,
+            "price": 46.13
+          },
+          "9237024510": {
+            "item_id": "9237024510",
+            "options": {
+              "pieces": "500",
+              "theme": "animals",
+              "difficulty level": "expert"
+            },
+            "available": true,
+            "price": 53.53
+          },
+          "5546244844": {
+            "item_id": "5546244844",
+            "options": {
+              "pieces": "1500",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 51.59
+          },
+          "1008948180": {
+            "item_id": "1008948180",
+            "options": {
+              "pieces": "1000",
+              "theme": "art",
+              "difficulty level": "beginner"
+            },
+            "available": false,
+            "price": 54.34
+          },
+          "6245746168": {
+            "item_id": "6245746168",
+            "options": {
+              "pieces": "1500",
+              "theme": "animals",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 46.0
+          },
+          "7127170374": {
+            "item_id": "7127170374",
+            "options": {
+              "pieces": "2000",
+              "theme": "fantasy",
+              "difficulty level": "beginner"
+            },
+            "available": false,
+            "price": 52.03
+          },
+          "9370300555": {
+            "item_id": "9370300555",
+            "options": {
+              "pieces": "1000",
+              "theme": "art",
+              "difficulty level": "expert"
+            },
+            "available": false,
+            "price": 45.9
+          },
+          "9665100170": {
+            "item_id": "9665100170",
+            "options": {
+              "pieces": "1500",
+              "theme": "animals",
+              "difficulty level": "beginner"
+            },
+            "available": true,
+            "price": 45.39
+          },
+          "4572024853": {
+            "item_id": "4572024853",
+            "options": {
+              "pieces": "1000",
+              "theme": "animals",
+              "difficulty level": "expert"
+            },
+            "available": true,
+            "price": 53.72
+          },
+          "5645314103": {
+            "item_id": "5645314103",
+            "options": {
+              "pieces": "2000",
+              "theme": "animals",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 46.19
+          },
+          "9779102705": {
+            "item_id": "9779102705",
+            "options": {
+              "pieces": "1000",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            },
+            "available": false,
+            "price": 54.11
+          },
+          "9030221155": {
+            "item_id": "9030221155",
+            "options": {
+              "pieces": "2000",
+              "theme": "art",
+              "difficulty level": "beginner"
+            },
+            "available": false,
+            "price": 51.98
+          },
+          "5172162216": {
+            "item_id": "5172162216",
+            "options": {
+              "pieces": "2000",
+              "theme": "landscape",
+              "difficulty level": "intermediate"
+            },
+            "available": false,
+            "price": 48.51
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled exchange subtask, not original benchmark score. Explicit SKU choices and original payment replace original private preference/payment choices. 91 changes same-SKU intent to different-spec acceptance; 98 takes only second exchange order; 93/102 retain order/scope but explicit selected specification may differ. Full original archived separately."
+}

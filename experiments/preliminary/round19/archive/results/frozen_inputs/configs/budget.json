@@ -1,0 +1,17 @@
+{
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": false,
+  "timeout_seconds": 60,
+  "agent_request_attempt_limit": 24,
+  "agent_turn_limit": 12,
+  "agent_returned_tokens_soft_limit": 60000,
+  "executed_operation_limit": 9,
+  "max_response_tokens": 1300,
+  "sdk_and_application_retries": 0,
+  "simulator_semantic_requests_per_trajectory": 12,
+  "simulator_max_response_tokens": 850,
+  "simulator_tokens": "separate; not charged to Agent budget",
+  "official_terminal": "actual write then natural acknowledgment, or valid withdrawal acknowledgment",
+  "context_diagnostic_terminal": "stop on actual write, identical in original and compact branches"
+}

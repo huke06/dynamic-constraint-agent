@@ -1,0 +1,315 @@
+{
+  "task_id": "70",
+  "tier": "basic",
+  "stage": "stage2",
+  "order_id": "#W3947049",
+  "user_id": "sofia_hernandez_5364",
+  "scope": [
+    "3358616356"
+  ],
+  "targets": {
+    "3358616356": "9013366374"
+  },
+  "initial_options": {
+    "3358616356": {
+      "size": "M",
+      "color": "blue",
+      "ventilation": "high"
+    }
+  },
+  "payment_method_id": "credit_card_7901829",
+  "change_type": "none",
+  "changed_item": "3358616356",
+  "changed_target": "8573379326",
+  "change_message": "Before submission, change the Cycling Helmet (original item 3358616356) to item 8573379326 with options {\"size\": \"M\", \"color\": \"red\", \"ventilation\": \"high\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am sofia_hernandez_5364; email sofia.hernandez3039@example.com. In delivered order #W3947049, exchange ONLY these items in one complete request: [{\"item_id\": \"3358616356\", \"name\": \"Cycling Helmet\", \"requested_variant\": \"9013366374\", \"options\": {\"size\": \"M\", \"color\": \"blue\", \"ventilation\": \"high\"}}]. Keep every other item and order unchanged. Use original payment credit_card_7901829. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W3947049": {
+        "order_id": "#W3947049",
+        "user_id": "sofia_hernandez_5364",
+        "address": {
+          "address1": "652 Laurel Lane",
+          "address2": "Suite 398",
+          "city": "Seattle",
+          "country": "USA",
+          "state": "WA",
+          "zip": "98193"
+        },
+        "items": [
+          {
+            "name": "Cycling Helmet",
+            "product_id": "7765186836",
+            "item_id": "3358616356",
+            "price": 197.33,
+            "options": {
+              "size": "S",
+              "color": "red",
+              "ventilation": "low"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "758823963547"
+            ],
+            "item_ids": [
+              "3358616356"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 197.33,
+            "payment_method_id": "credit_card_7901829"
+          }
+        ]
+      }
+    },
+    "users": {
+      "sofia_hernandez_5364": {
+        "user_id": "sofia_hernandez_5364",
+        "name": {
+          "first_name": "Sofia",
+          "last_name": "Hernandez"
+        },
+        "address": {
+          "address1": "652 Laurel Lane",
+          "address2": "Suite 398",
+          "city": "Seattle",
+          "country": "USA",
+          "state": "WA",
+          "zip": "98193"
+        },
+        "email": "sofia.hernandez3039@example.com",
+        "payment_methods": {
+          "credit_card_7901829": {
+            "source": "credit_card",
+            "id": "credit_card_7901829",
+            "brand": "visa",
+            "last_four": "7312"
+          }
+        },
+        "orders": [
+          "#W3561391",
+          "#W6876713",
+          "#W9609649",
+          "#W3947049"
+        ]
+      }
+    },
+    "products": {
+      "7765186836": {
+        "name": "Cycling Helmet",
+        "product_id": "7765186836",
+        "variants": {
+          "3358616356": {
+            "item_id": "3358616356",
+            "options": {
+              "size": "S",
+              "color": "red",
+              "ventilation": "low"
+            },
+            "available": true,
+            "price": 197.33
+          },
+          "8573379326": {
+            "item_id": "8573379326",
+            "options": {
+              "size": "M",
+              "color": "red",
+              "ventilation": "high"
+            },
+            "available": true,
+            "price": 196.73
+          },
+          "1676105083": {
+            "item_id": "1676105083",
+            "options": {
+              "size": "S",
+              "color": "blue",
+              "ventilation": "high"
+            },
+            "available": false,
+            "price": 191.56
+          },
+          "7811981098": {
+            "item_id": "7811981098",
+            "options": {
+              "size": "S",
+              "color": "white",
+              "ventilation": "medium"
+            },
+            "available": true,
+            "price": 213.86
+          },
+          "8591113813": {
+            "item_id": "8591113813",
+            "options": {
+              "size": "M",
+              "color": "white",
+              "ventilation": "low"
+            },
+            "available": true,
+            "price": 192.65
+          },
+          "5537798301": {
+            "item_id": "5537798301",
+            "options": {
+              "size": "S",
+              "color": "black",
+              "ventilation": "medium"
+            },
+            "available": true,
+            "price": 204.47
+          },
+          "7907773809": {
+            "item_id": "7907773809",
+            "options": {
+              "size": "L",
+              "color": "blue",
+              "ventilation": "low"
+            },
+            "available": false,
+            "price": 209.69
+          },
+          "6048672633": {
+            "item_id": "6048672633",
+            "options": {
+              "size": "L",
+              "color": "black",
+              "ventilation": "low"
+            },
+            "available": false,
+            "price": 208.05
+          },
+          "9013366374": {
+            "item_id": "9013366374",
+            "options": {
+              "size": "M",
+              "color": "blue",
+              "ventilation": "high"
+            },
+            "available": true,
+            "price": 219.88
+          },
+          "7401244629": {
+            "item_id": "7401244629",
+            "options": {
+              "size": "L",
+              "color": "red",
+              "ventilation": "high"
+            },
+            "available": false,
+            "price": 188.92
+          },
+          "3339188619": {
+            "item_id": "3339188619",
+            "options": {
+              "size": "M",
+              "color": "blue",
+              "ventilation": "low"
+            },
+            "available": false,
+            "price": 200.24
+          },
+          "1596993217": {
+            "item_id": "1596993217",
+            "options": {
+              "size": "S",
+              "color": "white",
+              "ventilation": "low"
+            },
+            "available": true,
+            "price": 180.02
+          },
+          "2206116040": {
+            "item_id": "2206116040",
+            "options": {
+              "size": "L",
+              "color": "blue",
+              "ventilation": "high"
+            },
+            "available": false,
+            "price": 209.91
+          },
+          "1719127154": {
+            "item_id": "1719127154",
+            "options": {
+              "size": "M",
+              "color": "red",
+              "ventilation": "medium"
+            },
+            "available": true,
+            "price": 206.26
+          },
+          "1665571435": {
+            "item_id": "1665571435",
+            "options": {
+              "size": "L",
+              "color": "black",
+              "ventilation": "high"
+            },
+            "available": true,
+            "price": 196.89
+          },
+          "8153356023": {
+            "item_id": "8153356023",
+            "options": {
+              "size": "L",
+              "color": "blue",
+              "ventilation": "medium"
+            },
+            "available": false,
+            "price": 212.47
+          },
+          "5886093635": {
+            "item_id": "5886093635",
+            "options": {
+              "size": "S",
+              "color": "blue",
+              "ventilation": "low"
+            },
+            "available": true,
+            "price": 208.04
+          },
+          "6401214406": {
+            "item_id": "6401214406",
+            "options": {
+              "size": "M",
+              "color": "red",
+              "ventilation": "low"
+            },
+            "available": false,
+            "price": 187.02
+          },
+          "6697922351": {
+            "item_id": "6697922351",
+            "options": {
+              "size": "L",
+              "color": "white",
+              "ventilation": "medium"
+            },
+            "available": true,
+            "price": 194.47
+          },
+          "3264130640": {
+            "item_id": "3264130640",
+            "options": {
+              "size": "M",
+              "color": "black",
+              "ventilation": "medium"
+            },
+            "available": false,
+            "price": 211.41
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

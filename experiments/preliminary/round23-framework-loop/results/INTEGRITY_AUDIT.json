@@ -1,0 +1,196 @@
+{
+  "historical_rounds": [
+    {
+      "round": "01",
+      "files": 7
+    },
+    {
+      "round": "02",
+      "files": 10
+    },
+    {
+      "round": "03",
+      "files": 53
+    },
+    {
+      "round": "04",
+      "files": 26
+    },
+    {
+      "round": "05",
+      "files": 32
+    },
+    {
+      "round": "06",
+      "files": 12
+    },
+    {
+      "round": "07",
+      "files": 15
+    },
+    {
+      "round": "08",
+      "files": 18
+    },
+    {
+      "round": "09",
+      "files": 21
+    },
+    {
+      "round": "10",
+      "files": 29
+    },
+    {
+      "round": "11",
+      "files": 75
+    },
+    {
+      "round": "12",
+      "files": 176
+    },
+    {
+      "round": "13",
+      "files": 153
+    },
+    {
+      "round": "14",
+      "files": 112
+    },
+    {
+      "round": "15",
+      "files": 190
+    },
+    {
+      "round": "16",
+      "files": 133
+    },
+    {
+      "round": "17",
+      "files": 138
+    },
+    {
+      "round": "18",
+      "files": 64
+    },
+    {
+      "round": "19",
+      "files": 76
+    },
+    {
+      "round": "20",
+      "files": 50
+    },
+    {
+      "round": "21",
+      "files": 51
+    },
+    {
+      "round": "22",
+      "files": 32
+    }
+  ],
+  "historical_copied_files_total": 1473,
+  "original_or_copy_hash_mismatches": [],
+  "frozen_versions": {
+    "experiments\\preliminary\\round23-framework-loop\\configs\\FREEZE.json": true,
+    "experiments\\preliminary\\round23-framework-loop\\versions\\v2\\configs\\FREEZE.json": true
+  },
+  "paired_starts_and_actual_inputs": {
+    "v1/A_t11_conflict_r1_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v1/A_t11_conflict_r2_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v1/A_t11_feasible_r1_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v1/A_t11_feasible_r2_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v1/A_t16_conflict_r1_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v1/A_t16_conflict_r2_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v1/A_t16_feasible_r1_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v1/A_t16_feasible_r2_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v1/B_t11_conflict_r1_analyze": {
+      "identical_full_start": true
+    },
+    "v1/B_t11_conflict_r2_analyze": {
+      "identical_full_start": true
+    },
+    "v1/B_t16_conflict_r1_analyze": {
+      "identical_full_start": true
+    },
+    "v1/B_t16_conflict_r2_analyze": {
+      "identical_full_start": true
+    },
+    "v2/A_t26_conflict_r1_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v2/A_t26_conflict_r2_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v2/A_t26_feasible_r1_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v2/A_t26_feasible_r2_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v2/A_t35_conflict_r1_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v2/A_t35_conflict_r2_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v2/A_t35_feasible_r1_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v2/A_t35_feasible_r2_direct": {
+      "identical_full_start": true,
+      "actual_input_equal_except_candidate": true
+    },
+    "v2/B_t26_conflict_r1_analyze": {
+      "identical_full_start": true
+    },
+    "v2/B_t26_conflict_r2_analyze": {
+      "identical_full_start": true
+    },
+    "v2/B_t35_conflict_r1_analyze": {
+      "identical_full_start": true
+    },
+    "v2/B_t35_conflict_r2_analyze": {
+      "identical_full_start": true
+    }
+  },
+  "actual_api_requests_all_phases": 386,
+  "api_errors": 0,
+  "returned_models": {
+    "deepseek-flash": 386
+  },
+  "simulator_model_calls": 0,
+  "external_judge_api_calls": 0,
+  "orchestration_chat_cost": "unknown, excluded from experiment Agent accounting"
+}

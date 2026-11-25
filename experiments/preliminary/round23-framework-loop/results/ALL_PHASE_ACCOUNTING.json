@@ -1,0 +1,124 @@
+[
+  {
+    "version": "v1",
+    "phase": "pilot01",
+    "trajectories": 2,
+    "requests": 43,
+    "input": 83970,
+    "output": 4700,
+    "cache_hit": 37760,
+    "cache_miss": 46210,
+    "unknown_usage": 0,
+    "failed_requests": 0,
+    "terminal_errors": [
+      {
+        "id": "old_t93_conflict_r1",
+        "error": "repeated_same_rejection"
+      },
+      {
+        "id": "old_t93_feasible_r1",
+        "error": "loop_limit"
+      }
+    ]
+  },
+  {
+    "version": "v1",
+    "phase": "pilot02",
+    "trajectories": 2,
+    "requests": 73,
+    "input": 145767,
+    "output": 7155,
+    "cache_hit": 83584,
+    "cache_miss": 62183,
+    "unknown_usage": 0,
+    "failed_requests": 0,
+    "terminal_errors": [
+      {
+        "id": "old_t93_conflict_r1",
+        "error": "loop_limit"
+      },
+      {
+        "id": "old_t93_feasible_r1",
+        "error": "loop_limit"
+      }
+    ]
+  },
+  {
+    "version": "v1",
+    "phase": "pilot03",
+    "trajectories": 2,
+    "requests": 14,
+    "input": 25687,
+    "output": 1983,
+    "cache_hit": 12416,
+    "cache_miss": 13271,
+    "unknown_usage": 0,
+    "failed_requests": 0,
+    "terminal_errors": []
+  },
+  {
+    "version": "v1",
+    "phase": "old01",
+    "trajectories": 8,
+    "requests": 50,
+    "input": 105572,
+    "output": 6536,
+    "cache_hit": 60672,
+    "cache_miss": 44900,
+    "unknown_usage": 0,
+    "failed_requests": 0,
+    "terminal_errors": []
+  },
+  {
+    "version": "v1",
+    "phase": "new01",
+    "trajectories": 24,
+    "requests": 80,
+    "input": 177350,
+    "output": 15927,
+    "cache_hit": 98045,
+    "cache_miss": 79305,
+    "unknown_usage": 0,
+    "failed_requests": 0,
+    "terminal_errors": []
+  },
+  {
+    "version": "v2",
+    "phase": "pilot01",
+    "trajectories": 2,
+    "requests": 13,
+    "input": 30966,
+    "output": 1803,
+    "cache_hit": 14592,
+    "cache_miss": 16374,
+    "unknown_usage": 0,
+    "failed_requests": 0,
+    "terminal_errors": []
+  },
+  {
+    "version": "v2",
+    "phase": "old01",
+    "trajectories": 8,
+    "requests": 44,
+    "input": 107938,
+    "output": 5773,
+    "cache_hit": 66816,
+    "cache_miss": 41122,
+    "unknown_usage": 0,
+    "failed_requests": 0,
+    "terminal_errors": []
+  },
+  {
+    "version": "v2",
+    "phase": "new01",
+    "trajectories": 24,
+    "requests": 69,
+    "input": 185855,
+    "output": 12161,
+    "cache_hit": 108288,
+    "cache_miss": 77567,
+    "unknown_usage": 0,
+    "failed_requests": 0,
+    "terminal_errors": []
+  }
+]

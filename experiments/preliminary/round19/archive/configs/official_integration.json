@@ -1,0 +1,13 @@
+{
+  "unchanged": [
+    "LLMAgent.get_init_state",
+    "LLMAgent.generate_next_message",
+    "llm_utils.generate",
+    "official system instructions and domain policy",
+    "native RetailTools schemas and use_tool execution"
+  ],
+  "in_memory_transport_hook": "llm_utils.completion -> same DeepSeek OpenAI SDK endpoint. No agent selection or conversation logic replaced. get_response_cost disabled: alias pricing unknown; raw usage and cache retained.",
+  "baseline_no_project_gate": true,
+  "simulator": "LLM extracts only actual assistant text with exact quotes; program validates scope/specification/stock/amount/payment before user approves. Approval list is evaluation/simulator-side only; does not intercept official tools.",
+  "data": "18th-round controlled adaptations; original benchmark private instructions/reference actions remain archived and never enter Agent."
+}

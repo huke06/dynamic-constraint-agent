@@ -1,0 +1,252 @@
+{
+  "task_id": "102",
+  "tier": "controlled_checkpoint",
+  "scope": [
+    "6341716129"
+  ],
+  "order_id": "#W3445693",
+  "user_id": "noah_ito_3850",
+  "targets": {
+    "6341716129": "9534205511"
+  },
+  "initial_options": {
+    "6341716129": {
+      "room size": "large",
+      "filter type": "ionic",
+      "features": "smart sensors"
+    }
+  },
+  "payment_method_id": "credit_card_1620755",
+  "initial_message": "I am noah_ito_3850, email noah.ito4296@example.com. For delivered order #W3445693, exchange ONLY original items {\"6341716129\": \"9534205511\"} (mapping original to requested new SKU), with specifications {\"6341716129\": {\"room size\": \"large\", \"filter type\": \"ionic\", \"features\": \"smart sensors\"}}. Keep all other items unchanged and use original payment credit_card_1620755. I permit these specifications if in stock and within my net increase cap; other specifications need separate permission. This is not full transaction authorization. Show the entire proposal and net difference for my explicit approval.",
+  "initial_catalogues": true,
+  "change_type": "none",
+  "caps": {
+    "full_authorized": 10000.0,
+    "withdrawn": 10000.0
+  },
+  "states": [
+    "full_authorized",
+    "withdrawn"
+  ],
+  "environment": {
+    "orders": {
+      "#W3445693": {
+        "order_id": "#W3445693",
+        "user_id": "noah_ito_3850",
+        "address": {
+          "address1": "144 Lakeview Drive",
+          "address2": "Suite 925",
+          "city": "New York",
+          "country": "USA",
+          "state": "NY",
+          "zip": "10228"
+        },
+        "items": [
+          {
+            "name": "Sneakers",
+            "product_id": "7471004230",
+            "item_id": "6477915553",
+            "price": 186.45,
+            "options": {
+              "size": "6",
+              "color": "black",
+              "material": "synthetic"
+            }
+          },
+          {
+            "name": "Cycling Helmet",
+            "product_id": "7765186836",
+            "item_id": "2206116040",
+            "price": 209.91,
+            "options": {
+              "size": "L",
+              "color": "blue",
+              "ventilation": "high"
+            }
+          },
+          {
+            "name": "Air Purifier",
+            "product_id": "3821016478",
+            "item_id": "6341716129",
+            "price": 523.31,
+            "options": {
+              "room size": "large",
+              "filter type": "HEPA",
+              "features": "smart sensors"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "870596657470"
+            ],
+            "item_ids": [
+              "6477915553",
+              "2206116040",
+              "6341716129"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 919.67,
+            "payment_method_id": "credit_card_1620755"
+          }
+        ]
+      }
+    },
+    "users": {
+      "noah_ito_3850": {
+        "user_id": "noah_ito_3850",
+        "name": {
+          "first_name": "Noah",
+          "last_name": "Ito"
+        },
+        "address": {
+          "address1": "619 Broadway",
+          "address2": "Suite 484",
+          "city": "Seattle",
+          "country": "USA",
+          "state": "WA",
+          "zip": "98187"
+        },
+        "email": "noah.ito4296@example.com",
+        "payment_methods": {
+          "credit_card_1620755": {
+            "source": "credit_card",
+            "id": "credit_card_1620755",
+            "brand": "mastercard",
+            "last_four": "1065"
+          }
+        },
+        "orders": [
+          "#W3445693",
+          "#W4219264",
+          "#W6729841"
+        ]
+      }
+    },
+    "products": {
+      "3821016478": {
+        "name": "Air Purifier",
+        "product_id": "3821016478",
+        "variants": {
+          "8302289002": {
+            "item_id": "8302289002",
+            "options": {
+              "room size": "large",
+              "filter type": "HEPA",
+              "features": "night mode"
+            },
+            "available": true,
+            "price": 547.55
+          },
+          "3676786561": {
+            "item_id": "3676786561",
+            "options": {
+              "room size": "small",
+              "filter type": "HEPA",
+              "features": "quiet operation"
+            },
+            "available": true,
+            "price": 502.7
+          },
+          "5669664287": {
+            "item_id": "5669664287",
+            "options": {
+              "room size": "small",
+              "filter type": "ionic",
+              "features": "quiet operation"
+            },
+            "available": true,
+            "price": 543.68
+          },
+          "6341716129": {
+            "item_id": "6341716129",
+            "options": {
+              "room size": "large",
+              "filter type": "HEPA",
+              "features": "smart sensors"
+            },
+            "available": false,
+            "price": 523.31
+          },
+          "4035304400": {
+            "item_id": "4035304400",
+            "options": {
+              "room size": "medium",
+              "filter type": "HEPA",
+              "features": "smart sensors"
+            },
+            "available": false,
+            "price": 504.19
+          },
+          "5826601160": {
+            "item_id": "5826601160",
+            "options": {
+              "room size": "medium",
+              "filter type": "carbon",
+              "features": "night mode"
+            },
+            "available": false,
+            "price": 506.15
+          },
+          "3076708684": {
+            "item_id": "3076708684",
+            "options": {
+              "room size": "medium",
+              "filter type": "HEPA",
+              "features": "quiet operation"
+            },
+            "available": true,
+            "price": 535.97
+          },
+          "7166996157": {
+            "item_id": "7166996157",
+            "options": {
+              "room size": "small",
+              "filter type": "HEPA",
+              "features": "night mode"
+            },
+            "available": true,
+            "price": 518.31
+          },
+          "1327854740": {
+            "item_id": "1327854740",
+            "options": {
+              "room size": "medium",
+              "filter type": "HEPA",
+              "features": "night mode"
+            },
+            "available": true,
+            "price": 492.65
+          },
+          "9534205511": {
+            "item_id": "9534205511",
+            "options": {
+              "room size": "large",
+              "filter type": "ionic",
+              "features": "smart sensors"
+            },
+            "available": true,
+            "price": 473.43
+          },
+          "9375701158": {
+            "item_id": "9375701158",
+            "options": {
+              "room size": "medium",
+              "filter type": "carbon",
+              "features": "quiet operation"
+            },
+            "available": true,
+            "price": 489.5
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled exchange subtask, not original benchmark score. Explicit SKU choices and original payment replace original private preference/payment choices. 91 changes same-SKU intent to different-spec acceptance; 98 takes only second exchange order; 93/102 retain order/scope but explicit selected specification may differ. Full original archived separately."
+}

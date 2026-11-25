@@ -1,0 +1,254 @@
+{
+  "task_id": "75",
+  "change_type": "requirement",
+  "user_id": "liam_moore_4057",
+  "order_id": "#W6908222",
+  "item_id": "8555936349",
+  "product_id": "9924732112",
+  "payment_method_id": "paypal_4518393",
+  "target": "4063058357",
+  "fallback": "9580569596",
+  "initial_message": "I am liam_moore_4057; my email is liam.moore6985@example.com. Exchange ONLY item 8555936349 in delivered order #W6908222 for item 4063058357, with options {\"color\": \"black\", \"battery life\": \"4 hours\", \"water resistance\": \"not resistant\"}, if it is in stock. Leave all other items and orders unchanged. Keep my original payment method paypal_4518393. This specifies the variant I accept, but is NOT final transaction approval: present the complete proposal and ask me to approve it. If this exact variant becomes unavailable, ask me about other options rather than assuming consent.",
+  "change_message": "Before submitting, I change my request: use item 9580569596 with options {\"color\": \"black\", \"battery life\": \"4 hours\", \"water resistance\": \"IPX7\"} instead of 4063058357, if it is in stock. My old approval is withdrawn; prepare this new complete proposal and ask for independent final approval. Keep the same original exchange item, order and payment.",
+  "environment": {
+    "users": {
+      "liam_moore_4057": {
+        "user_id": "liam_moore_4057",
+        "name": {
+          "first_name": "Liam",
+          "last_name": "Moore"
+        },
+        "address": {
+          "address1": "244 Elm Street",
+          "address2": "Suite 422",
+          "city": "Columbus",
+          "country": "USA",
+          "state": "OH",
+          "zip": "43209"
+        },
+        "email": "liam.moore6985@example.com",
+        "payment_methods": {
+          "paypal_4518393": {
+            "source": "paypal",
+            "id": "paypal_4518393"
+          }
+        },
+        "orders": [
+          "#W7571356",
+          "#W6908222",
+          "#W3169501"
+        ]
+      }
+    },
+    "orders": {
+      "#W6908222": {
+        "order_id": "#W6908222",
+        "user_id": "liam_moore_4057",
+        "address": {
+          "address1": "244 Elm Street",
+          "address2": "Suite 422",
+          "city": "Columbus",
+          "country": "USA",
+          "state": "OH",
+          "zip": "43209"
+        },
+        "items": [
+          {
+            "name": "Desk Lamp",
+            "product_id": "6817146515",
+            "item_id": "1270145486",
+            "price": 144.07,
+            "options": {
+              "color": "white",
+              "brightness": "high",
+              "power source": "battery"
+            }
+          },
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "8555936349",
+            "price": 226.49,
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            }
+          },
+          {
+            "name": "Hiking Boots",
+            "product_id": "7363354090",
+            "item_id": "6595128475",
+            "price": 237.65,
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "no"
+            }
+          },
+          {
+            "name": "Mechanical Keyboard",
+            "product_id": "1656367028",
+            "item_id": "4843487907",
+            "price": 254.84,
+            "options": {
+              "switch type": "clicky",
+              "backlight": "white",
+              "size": "80%"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "659687665480"
+            ],
+            "item_ids": [
+              "1270145486",
+              "8555936349",
+              "6595128475",
+              "4843487907"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 863.05,
+            "payment_method_id": "paypal_4518393"
+          }
+        ]
+      }
+    },
+    "products": {
+      "9924732112": {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "variants": {
+          "9580569596": {
+            "item_id": "9580569596",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": true,
+            "price": 257.38
+          },
+          "2499294441": {
+            "item_id": "2499294441",
+            "options": {
+              "color": "black",
+              "battery life": "8 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.36
+          },
+          "1646531091": {
+            "item_id": "1646531091",
+            "options": {
+              "color": "blue",
+              "battery life": "6 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 232.49
+          },
+          "8555936349": {
+            "item_id": "8555936349",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 226.49
+          },
+          "5565631513": {
+            "item_id": "5565631513",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 267.9
+          },
+          "6077640618": {
+            "item_id": "6077640618",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 242.92
+          },
+          "9270970345": {
+            "item_id": "9270970345",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "not resistant"
+            },
+            "available": false,
+            "price": 259.03
+          },
+          "4063058357": {
+            "item_id": "4063058357",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 243.34
+          },
+          "3694871183": {
+            "item_id": "3694871183",
+            "options": {
+              "color": "white",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": false,
+            "price": 256.67
+          },
+          "6452271382": {
+            "item_id": "6452271382",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 258.84
+          },
+          "2052249669": {
+            "item_id": "2052249669",
+            "options": {
+              "color": "white",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 237.14
+          },
+          "2757705742": {
+            "item_id": "2757705742",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.97
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled exchange-only continuation. Initial identity/order/catalogue established using real simulated tools; no original private instructions or reference actions enter Agent. Task6 excludes bottle explicitly; task27 excludes return requests explicitly; task75 retains named initial specification but adds a later IPX7 request; task77 starts at exchange continuation rather than new-order enquiry. All user replies are controlled, not benchmark original simulator."
+}

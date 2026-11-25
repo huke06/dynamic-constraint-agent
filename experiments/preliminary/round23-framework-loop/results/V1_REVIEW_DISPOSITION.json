@@ -1,0 +1,6 @@
+{
+  "status": "formal_v1_preserved_strict_acceptance_failed",
+  "reason": "Factual speech audit found cap infeasibility misreported as inventory unavailability and offer/request misbinding. Old-stage gate had checked loop/hard outcomes but omitted strict speech. New01 thus started under insufficient acceptance, cannot serve as final accepted unseen test.",
+  "no_original_result_changed": true,
+  "next": "Repair facts-only clarification and analysis scope, independently freeze v2; use tasks26/35 not tasks11/16."
+}

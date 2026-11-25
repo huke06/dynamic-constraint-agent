@@ -1,0 +1,7 @@
+{
+  "accept": {"reply":"Yes, I accept item 6384525445, the 30MP camera with CF card storage and 5x zoom, as the replacement. Please prepare the complete proposal; I have not yet given final approval to submit it.","allowed_alternative":true,"confirmed":false},
+  "reject": {"reply":"I reject both alternative variants and do not want to exchange for either of them. Please keep my original order unchanged.","allowed_alternative":false,"confirmed":false},
+  "ambiguous_first": {"reply":"The 5x camera is something I could consider, but I have not decided yet. I am not agreeing to any replacement at this point.","allowed_alternative":false,"confirmed":false},
+  "ambiguous_followup": {"reply":"Now I have decided: I accept item 6384525445, the 30MP, CF card, 5x zoom camera, as the replacement. Please prepare the full proposal and ask for my final confirmation before submitting.","allowed_alternative":true,"confirmed":false},
+  "confirm": {"reply":"I explicitly approve this complete exchange proposal: order #W4689314, item 5996159312 replaced by 6384525445 with 30MP resolution, CF card storage and 5x zoom, a $34.07 charge using my same PayPal account paypal_8194385. This is the only item I want to exchange. Please submit this exact proposal.","allowed_alternative":true,"confirmed":true}
+}

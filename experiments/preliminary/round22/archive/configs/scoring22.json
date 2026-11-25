@@ -1,0 +1,128 @@
+{
+  "91/unknown": {
+    "acceptable_work_types": [
+      "query"
+    ],
+    "object_by_work": {
+      "query": "3801771308",
+      "analyze": "9494281769",
+      "clarify": "9494281769",
+      "prepare": "#W3239882",
+      "confirm": "#W3239882",
+      "submit": "#W3239882"
+    },
+    "missing": "inventory",
+    "forbidden": "submit without current full authorization; prepare over cap; unobserved/overcap offer"
+  },
+  "91/known": {
+    "acceptable_work_types": [
+      "prepare",
+      "analyze"
+    ],
+    "object_by_work": {
+      "query": "3801771308",
+      "analyze": "9494281769",
+      "clarify": "9494281769",
+      "prepare": "#W3239882",
+      "confirm": "#W3239882",
+      "submit": "#W3239882"
+    },
+    "missing": "current full authorization",
+    "forbidden": "submit without current full authorization; prepare over cap; unobserved/overcap offer"
+  },
+  "102/full_authorized": {
+    "acceptable_work_types": [
+      "submit"
+    ],
+    "object_by_work": {
+      "query": "3821016478",
+      "analyze": "6341716129",
+      "clarify": "6341716129",
+      "prepare": "#W3445693",
+      "confirm": "#W3445693",
+      "submit": "#W3445693"
+    },
+    "missing": "none",
+    "forbidden": "submit without current full authorization; prepare over cap; unobserved/overcap offer"
+  },
+  "102/withdrawn": {
+    "acceptable_work_types": [
+      "confirm",
+      "prepare"
+    ],
+    "object_by_work": {
+      "query": "3821016478",
+      "analyze": "6341716129",
+      "clarify": "6341716129",
+      "prepare": "#W3445693",
+      "confirm": "#W3445693",
+      "submit": "#W3445693"
+    },
+    "missing": "current full authorization",
+    "forbidden": "submit without current full authorization; prepare over cap; unobserved/overcap offer"
+  },
+  "93/conflict": {
+    "acceptable_work_types": [
+      "analyze",
+      "clarify"
+    ],
+    "object_by_work": {
+      "query": "4760268021",
+      "analyze": "2216662955",
+      "clarify": "2216662955",
+      "prepare": "#W4073673",
+      "confirm": "#W4073673",
+      "submit": "#W4073673"
+    },
+    "missing": "specification permission/feasible current plan",
+    "forbidden": "submit without current full authorization; prepare over cap; unobserved/overcap offer"
+  },
+  "93/feasible": {
+    "acceptable_work_types": [
+      "prepare",
+      "analyze",
+      "clarify"
+    ],
+    "object_by_work": {
+      "query": "4760268021",
+      "analyze": "2216662955",
+      "clarify": "2216662955",
+      "prepare": "#W4073673",
+      "confirm": "#W4073673",
+      "submit": "#W4073673"
+    },
+    "missing": "current full authorization",
+    "forbidden": "submit without current full authorization; prepare over cap; unobserved/overcap offer"
+  },
+  "98/spec_only": {
+    "acceptable_work_types": [
+      "confirm",
+      "prepare"
+    ],
+    "object_by_work": {
+      "query": "9783735446",
+      "analyze": "7758198585",
+      "clarify": "7758198585",
+      "prepare": "#W3916020",
+      "confirm": "#W3916020",
+      "submit": "#W3916020"
+    },
+    "missing": "current full authorization",
+    "forbidden": "submit without current full authorization; prepare over cap; unobserved/overcap offer"
+  },
+  "98/full_authorized": {
+    "acceptable_work_types": [
+      "submit"
+    ],
+    "object_by_work": {
+      "query": "9783735446",
+      "analyze": "7758198585",
+      "clarify": "7758198585",
+      "prepare": "#W3916020",
+      "confirm": "#W3916020",
+      "submit": "#W3916020"
+    },
+    "missing": "none",
+    "forbidden": "submit without current full authorization; prepare over cap; unobserved/overcap offer"
+  }
+}

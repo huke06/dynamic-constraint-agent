@@ -1,0 +1,507 @@
+{
+  "task_id": "106",
+  "tier": "paired_multi",
+  "stage": "stage1",
+  "order_id": "#W3388163",
+  "user_id": "sofia_thomas_1518",
+  "scope": [
+    "9354168549",
+    "9025753381"
+  ],
+  "targets": {
+    "9354168549": "2060066974",
+    "9025753381": "7706410293"
+  },
+  "initial_options": {
+    "9354168549": {
+      "color": "black",
+      "size": "XL",
+      "material": "cotton",
+      "style": "crew neck"
+    },
+    "9025753381": {
+      "switch type": "clicky",
+      "backlight": "none",
+      "size": "full size"
+    }
+  },
+  "payment_method_id": "paypal_5334408",
+  "change_type": "requirement",
+  "changed_item": "9354168549",
+  "changed_target": "9612497925",
+  "change_message": "Before submission, change the T-Shirt (original item 9354168549) to item 9612497925 with options {\"color\": \"blue\", \"size\": \"M\", \"material\": \"cotton\", \"style\": \"crew neck\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am sofia_thomas_1518; email sofia.thomas3069@example.com. In delivered order #W3388163, exchange ONLY these items in one complete request: [{\"item_id\": \"9354168549\", \"name\": \"T-Shirt\", \"requested_variant\": \"2060066974\", \"options\": {\"color\": \"black\", \"size\": \"XL\", \"material\": \"cotton\", \"style\": \"crew neck\"}}, {\"item_id\": \"9025753381\", \"name\": \"Mechanical Keyboard\", \"requested_variant\": \"7706410293\", \"options\": {\"switch type\": \"clicky\", \"backlight\": \"none\", \"size\": \"full size\"}}]. Keep every other item and order unchanged. Use original payment paypal_5334408. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W3388163": {
+        "order_id": "#W3388163",
+        "user_id": "sofia_thomas_1518",
+        "address": {
+          "address1": "529 Cedar Avenue",
+          "address2": "Suite 371",
+          "city": "Dallas",
+          "country": "USA",
+          "state": "TX",
+          "zip": "75307"
+        },
+        "items": [
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "5565631513",
+            "price": 267.9,
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "IPX7"
+            }
+          },
+          {
+            "name": "Action Camera",
+            "product_id": "3377618313",
+            "item_id": "9391733462",
+            "price": 521.07,
+            "options": {
+              "resolution": "4K",
+              "waterproof": "no",
+              "color": "silver"
+            }
+          },
+          {
+            "name": "T-Shirt",
+            "product_id": "9523456873",
+            "item_id": "9354168549",
+            "price": 46.85,
+            "options": {
+              "color": "red",
+              "size": "XXL",
+              "material": "cotton",
+              "style": "crew neck"
+            }
+          },
+          {
+            "name": "LED Light Bulb",
+            "product_id": "2696197613",
+            "item_id": "7445824652",
+            "price": 49.8,
+            "options": {
+              "brightness": "75W equivalent",
+              "color temperature": "daylight",
+              "connectivity": "Wi-Fi"
+            }
+          },
+          {
+            "name": "Mechanical Keyboard",
+            "product_id": "1656367028",
+            "item_id": "9025753381",
+            "price": 231.58,
+            "options": {
+              "switch type": "clicky",
+              "backlight": "RGB",
+              "size": "full size"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "104573115005"
+            ],
+            "item_ids": [
+              "5565631513",
+              "9391733462",
+              "9354168549",
+              "7445824652",
+              "9025753381"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1117.2,
+            "payment_method_id": "paypal_5334408"
+          }
+        ]
+      }
+    },
+    "users": {
+      "sofia_thomas_1518": {
+        "user_id": "sofia_thomas_1518",
+        "name": {
+          "first_name": "Sofia",
+          "last_name": "Thomas"
+        },
+        "address": {
+          "address1": "529 Cedar Avenue",
+          "address2": "Suite 371",
+          "city": "Dallas",
+          "country": "USA",
+          "state": "TX",
+          "zip": "75307"
+        },
+        "email": "sofia.thomas3069@example.com",
+        "payment_methods": {
+          "paypal_5334408": {
+            "source": "paypal",
+            "id": "paypal_5334408"
+          }
+        },
+        "orders": [
+          "#W7619352",
+          "#W3388163",
+          "#W2297866"
+        ]
+      }
+    },
+    "products": {
+      "9523456873": {
+        "name": "T-Shirt",
+        "product_id": "9523456873",
+        "variants": {
+          "9612497925": {
+            "item_id": "9612497925",
+            "options": {
+              "color": "blue",
+              "size": "M",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 50.88
+          },
+          "8124970213": {
+            "item_id": "8124970213",
+            "options": {
+              "color": "purple",
+              "size": "XL",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 49.67
+          },
+          "9354168549": {
+            "item_id": "9354168549",
+            "options": {
+              "color": "red",
+              "size": "XXL",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 46.85
+          },
+          "5253880258": {
+            "item_id": "5253880258",
+            "options": {
+              "color": "black",
+              "size": "XXL",
+              "material": "polyester",
+              "style": "v-neck"
+            },
+            "available": true,
+            "price": 49.52
+          },
+          "1176194968": {
+            "item_id": "1176194968",
+            "options": {
+              "color": "black",
+              "size": "S",
+              "material": "polyester",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 52.88
+          },
+          "9647292434": {
+            "item_id": "9647292434",
+            "options": {
+              "color": "purple",
+              "size": "S",
+              "material": "polyester",
+              "style": "v-neck"
+            },
+            "available": true,
+            "price": 53.48
+          },
+          "8349118980": {
+            "item_id": "8349118980",
+            "options": {
+              "color": "blue",
+              "size": "S",
+              "material": "cotton",
+              "style": "v-neck"
+            },
+            "available": true,
+            "price": 53.43
+          },
+          "5047954489": {
+            "item_id": "5047954489",
+            "options": {
+              "color": "blue",
+              "size": "S",
+              "material": "polyester",
+              "style": "v-neck"
+            },
+            "available": false,
+            "price": 54.84
+          },
+          "3799046073": {
+            "item_id": "3799046073",
+            "options": {
+              "color": "black",
+              "size": "XXL",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 53.27
+          },
+          "3234800602": {
+            "item_id": "3234800602",
+            "options": {
+              "color": "red",
+              "size": "L",
+              "material": "cotton",
+              "style": "v-neck"
+            },
+            "available": true,
+            "price": 46.66
+          },
+          "3542102174": {
+            "item_id": "3542102174",
+            "options": {
+              "color": "red",
+              "size": "S",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": false,
+            "price": 47.25
+          },
+          "2060066974": {
+            "item_id": "2060066974",
+            "options": {
+              "color": "black",
+              "size": "XL",
+              "material": "cotton",
+              "style": "crew neck"
+            },
+            "available": true,
+            "price": 51.05
+          }
+        }
+      },
+      "1656367028": {
+        "name": "Mechanical Keyboard",
+        "product_id": "1656367028",
+        "variants": {
+          "9690244451": {
+            "item_id": "9690244451",
+            "options": {
+              "switch type": "clicky",
+              "backlight": "RGB",
+              "size": "60%"
+            },
+            "available": false,
+            "price": 236.51
+          },
+          "7706410293": {
+            "item_id": "7706410293",
+            "options": {
+              "switch type": "clicky",
+              "backlight": "none",
+              "size": "full size"
+            },
+            "available": true,
+            "price": 269.16
+          },
+          "3616838507": {
+            "item_id": "3616838507",
+            "options": {
+              "switch type": "tactile",
+              "backlight": "white",
+              "size": "full size"
+            },
+            "available": true,
+            "price": 226.11
+          },
+          "8484921793": {
+            "item_id": "8484921793",
+            "options": {
+              "switch type": "linear",
+              "backlight": "RGB",
+              "size": "80%"
+            },
+            "available": true,
+            "price": 230.15
+          },
+          "1340995114": {
+            "item_id": "1340995114",
+            "options": {
+              "switch type": "tactile",
+              "backlight": "none",
+              "size": "full size"
+            },
+            "available": false,
+            "price": 235.13
+          },
+          "6342039236": {
+            "item_id": "6342039236",
+            "options": {
+              "switch type": "clicky",
+              "backlight": "white",
+              "size": "full size"
+            },
+            "available": true,
+            "price": 244.91
+          },
+          "1421289881": {
+            "item_id": "1421289881",
+            "options": {
+              "switch type": "linear",
+              "backlight": "none",
+              "size": "80%"
+            },
+            "available": true,
+            "price": 268.77
+          },
+          "7867398203": {
+            "item_id": "7867398203",
+            "options": {
+              "switch type": "linear",
+              "backlight": "RGB",
+              "size": "60%"
+            },
+            "available": true,
+            "price": 232.7
+          },
+          "4648814700": {
+            "item_id": "4648814700",
+            "options": {
+              "switch type": "linear",
+              "backlight": "white",
+              "size": "60%"
+            },
+            "available": false,
+            "price": 228.84
+          },
+          "5222576926": {
+            "item_id": "5222576926",
+            "options": {
+              "switch type": "linear",
+              "backlight": "white",
+              "size": "full size"
+            },
+            "available": false,
+            "price": 249.95
+          },
+          "4402162122": {
+            "item_id": "4402162122",
+            "options": {
+              "switch type": "tactile",
+              "backlight": "RGB",
+              "size": "60%"
+            },
+            "available": true,
+            "price": 233.9
+          },
+          "1151293680": {
+            "item_id": "1151293680",
+            "options": {
+              "switch type": "linear",
+              "backlight": "RGB",
+              "size": "full size"
+            },
+            "available": true,
+            "price": 272.33
+          },
+          "2299424241": {
+            "item_id": "2299424241",
+            "options": {
+              "switch type": "clicky",
+              "backlight": "RGB",
+              "size": "80%"
+            },
+            "available": true,
+            "price": 237.48
+          },
+          "4843487907": {
+            "item_id": "4843487907",
+            "options": {
+              "switch type": "clicky",
+              "backlight": "white",
+              "size": "80%"
+            },
+            "available": false,
+            "price": 254.84
+          },
+          "9025753381": {
+            "item_id": "9025753381",
+            "options": {
+              "switch type": "clicky",
+              "backlight": "RGB",
+              "size": "full size"
+            },
+            "available": false,
+            "price": 231.58
+          },
+          "6439196450": {
+            "item_id": "6439196450",
+            "options": {
+              "switch type": "tactile",
+              "backlight": "none",
+              "size": "60%"
+            },
+            "available": false,
+            "price": 254.56
+          },
+          "9991484137": {
+            "item_id": "9991484137",
+            "options": {
+              "switch type": "tactile",
+              "backlight": "white",
+              "size": "80%"
+            },
+            "available": true,
+            "price": 240.97
+          },
+          "9665000388": {
+            "item_id": "9665000388",
+            "options": {
+              "switch type": "clicky",
+              "backlight": "none",
+              "size": "80%"
+            },
+            "available": true,
+            "price": 269.46
+          },
+          "9570044148": {
+            "item_id": "9570044148",
+            "options": {
+              "switch type": "linear",
+              "backlight": "none",
+              "size": "full size"
+            },
+            "available": true,
+            "price": 231.37
+          },
+          "7658724607": {
+            "item_id": "7658724607",
+            "options": {
+              "switch type": "tactile",
+              "backlight": "none",
+              "size": "80%"
+            },
+            "available": true,
+            "price": 256.73
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

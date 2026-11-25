@@ -1,0 +1,473 @@
+{
+  "task_id": "95",
+  "tier": "paired_multi",
+  "stage": "stage1",
+  "order_id": "#W2905754",
+  "user_id": "lei_wilson_4541",
+  "scope": [
+    "3478699712",
+    "4329558751"
+  ],
+  "targets": {
+    "3478699712": "9844888101",
+    "4329558751": "4548300368"
+  },
+  "initial_options": {
+    "3478699712": {
+      "screen size": "15-inch",
+      "processor": "i7",
+      "ram": "8GB",
+      "storage": "1TB SSD",
+      "color": "black"
+    },
+    "4329558751": {
+      "frame color": "black",
+      "lens color": "green",
+      "lens type": "polarized",
+      "frame material": "plastic"
+    }
+  },
+  "payment_method_id": "credit_card_3677959",
+  "change_type": "requirement",
+  "changed_item": "3478699712",
+  "changed_target": "2216662955",
+  "change_message": "Before submission, change the Laptop (original item 3478699712) to item 2216662955 with options {\"screen size\": \"15-inch\", \"processor\": \"i5\", \"ram\": \"32GB\", \"storage\": \"256GB SSD\", \"color\": \"space grey\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am lei_wilson_4541; email lei.wilson1253@example.com. In delivered order #W2905754, exchange ONLY these items in one complete request: [{\"item_id\": \"3478699712\", \"name\": \"Laptop\", \"requested_variant\": \"9844888101\", \"options\": {\"screen size\": \"15-inch\", \"processor\": \"i7\", \"ram\": \"8GB\", \"storage\": \"1TB SSD\", \"color\": \"black\"}}, {\"item_id\": \"4329558751\", \"name\": \"Sunglasses\", \"requested_variant\": \"4548300368\", \"options\": {\"frame color\": \"black\", \"lens color\": \"green\", \"lens type\": \"polarized\", \"frame material\": \"plastic\"}}]. Keep every other item and order unchanged. Use original payment credit_card_3677959. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W2905754": {
+        "order_id": "#W2905754",
+        "user_id": "lei_wilson_4541",
+        "address": {
+          "address1": "119 Elm Avenue",
+          "address2": "Suite 999",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32255"
+        },
+        "items": [
+          {
+            "name": "Garden Hose",
+            "product_id": "6679515468",
+            "item_id": "5206946487",
+            "price": 95.08,
+            "options": {
+              "length": "50ft",
+              "material": "vinyl",
+              "color": "black"
+            }
+          },
+          {
+            "name": "Digital Camera",
+            "product_id": "8940227892",
+            "item_id": "9973034634",
+            "price": 2850.32,
+            "options": {
+              "resolution": "20MP",
+              "zoom": "3x",
+              "storage": "CF card"
+            }
+          },
+          {
+            "name": "Laptop",
+            "product_id": "4760268021",
+            "item_id": "3478699712",
+            "price": 2291.87,
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i5",
+              "ram": "16GB",
+              "storage": "512GB SSD",
+              "color": "space grey"
+            }
+          },
+          {
+            "name": "Sunglasses",
+            "product_id": "7314138884",
+            "item_id": "4329558751",
+            "price": 297.33,
+            "options": {
+              "frame color": "silver",
+              "lens color": "blue",
+              "lens type": "non-polarized",
+              "frame material": "plastic"
+            }
+          },
+          {
+            "name": "Portable Charger",
+            "product_id": "6942297802",
+            "item_id": "7903094618",
+            "price": 90.32,
+            "options": {
+              "capacity": "5000mAh",
+              "output": "USB-A",
+              "color": "white"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "232257628569"
+            ],
+            "item_ids": [
+              "5206946487",
+              "9973034634",
+              "3478699712",
+              "4329558751",
+              "7903094618"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 5624.92,
+            "payment_method_id": "credit_card_3677959"
+          }
+        ]
+      }
+    },
+    "users": {
+      "lei_wilson_4541": {
+        "user_id": "lei_wilson_4541",
+        "name": {
+          "first_name": "Lei",
+          "last_name": "Wilson"
+        },
+        "address": {
+          "address1": "119 Elm Avenue",
+          "address2": "Suite 999",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32255"
+        },
+        "email": "lei.wilson1253@example.com",
+        "payment_methods": {
+          "credit_card_3677959": {
+            "source": "credit_card",
+            "id": "credit_card_3677959",
+            "brand": "mastercard",
+            "last_four": "1531"
+          }
+        },
+        "orders": [
+          "#W3826449",
+          "#W2905754",
+          "#W4073673"
+        ]
+      }
+    },
+    "products": {
+      "4760268021": {
+        "name": "Laptop",
+        "product_id": "4760268021",
+        "variants": {
+          "8997785118": {
+            "item_id": "8997785118",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "256GB SSD",
+              "color": "space grey"
+            },
+            "available": false,
+            "price": 2674.4
+          },
+          "2216662955": {
+            "item_id": "2216662955",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i5",
+              "ram": "32GB",
+              "storage": "256GB SSD",
+              "color": "space grey"
+            },
+            "available": true,
+            "price": 2520.52
+          },
+          "2768401027": {
+            "item_id": "2768401027",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "256GB SSD",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 2346.49
+          },
+          "1684786391": {
+            "item_id": "1684786391",
+            "options": {
+              "screen size": "17-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "1TB SSD",
+              "color": "black"
+            },
+            "available": true,
+            "price": 2508.06
+          },
+          "3778566150": {
+            "item_id": "3778566150",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i5",
+              "ram": "32GB",
+              "storage": "256GB SSD",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 2372.97
+          },
+          "8193934556": {
+            "item_id": "8193934556",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i9",
+              "ram": "8GB",
+              "storage": "1TB SSD",
+              "color": "space grey"
+            },
+            "available": false,
+            "price": 2548.73
+          },
+          "2913673670": {
+            "item_id": "2913673670",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i9",
+              "ram": "32GB",
+              "storage": "512GB SSD",
+              "color": "black"
+            },
+            "available": true,
+            "price": 2701.89
+          },
+          "3478699712": {
+            "item_id": "3478699712",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i5",
+              "ram": "16GB",
+              "storage": "512GB SSD",
+              "color": "space grey"
+            },
+            "available": false,
+            "price": 2291.87
+          },
+          "6056040996": {
+            "item_id": "6056040996",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i5",
+              "ram": "16GB",
+              "storage": "512GB SSD",
+              "color": "space grey"
+            },
+            "available": true,
+            "price": 2609.37
+          },
+          "6017636844": {
+            "item_id": "6017636844",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "1TB SSD",
+              "color": "space grey"
+            },
+            "available": true,
+            "price": 2292.37
+          },
+          "1657832319": {
+            "item_id": "1657832319",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i7",
+              "ram": "32GB",
+              "storage": "512GB SSD",
+              "color": "black"
+            },
+            "available": true,
+            "price": 2729.32
+          },
+          "5052031638": {
+            "item_id": "5052031638",
+            "options": {
+              "screen size": "13-inch",
+              "processor": "i5",
+              "ram": "16GB",
+              "storage": "1TB SSD",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 2621.77
+          },
+          "3265035808": {
+            "item_id": "3265035808",
+            "options": {
+              "screen size": "17-inch",
+              "processor": "i9",
+              "ram": "8GB",
+              "storage": "256GB SSD",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 2530.72
+          },
+          "3334537816": {
+            "item_id": "3334537816",
+            "options": {
+              "screen size": "17-inch",
+              "processor": "i5",
+              "ram": "8GB",
+              "storage": "1TB SSD",
+              "color": "space grey"
+            },
+            "available": false,
+            "price": 2749.56
+          },
+          "9844888101": {
+            "item_id": "9844888101",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i7",
+              "ram": "8GB",
+              "storage": "1TB SSD",
+              "color": "black"
+            },
+            "available": true,
+            "price": 2459.74
+          },
+          "4241599783": {
+            "item_id": "4241599783",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i7",
+              "ram": "16GB",
+              "storage": "1TB SSD",
+              "color": "black"
+            },
+            "available": false,
+            "price": 2324.61
+          },
+          "2611676054": {
+            "item_id": "2611676054",
+            "options": {
+              "screen size": "15-inch",
+              "processor": "i7",
+              "ram": "16GB",
+              "storage": "256GB SSD",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 2743.08
+          }
+        }
+      },
+      "7314138884": {
+        "name": "Sunglasses",
+        "product_id": "7314138884",
+        "variants": {
+          "2177260429": {
+            "item_id": "2177260429",
+            "options": {
+              "frame color": "black",
+              "lens color": "green",
+              "lens type": "polarized",
+              "frame material": "metal"
+            },
+            "available": false,
+            "price": 296.47
+          },
+          "4548300368": {
+            "item_id": "4548300368",
+            "options": {
+              "frame color": "black",
+              "lens color": "green",
+              "lens type": "polarized",
+              "frame material": "plastic"
+            },
+            "available": true,
+            "price": 287.79
+          },
+          "4358482460": {
+            "item_id": "4358482460",
+            "options": {
+              "frame color": "black",
+              "lens color": "brown",
+              "lens type": "polarized",
+              "frame material": "plastic"
+            },
+            "available": true,
+            "price": 290.94
+          },
+          "2198125883": {
+            "item_id": "2198125883",
+            "options": {
+              "frame color": "silver",
+              "lens color": "black",
+              "lens type": "polarized",
+              "frame material": "metal"
+            },
+            "available": true,
+            "price": 296.16
+          },
+          "9045948550": {
+            "item_id": "9045948550",
+            "options": {
+              "frame color": "black",
+              "lens color": "blue",
+              "lens type": "polarized",
+              "frame material": "metal"
+            },
+            "available": false,
+            "price": 279.78
+          },
+          "4245201809": {
+            "item_id": "4245201809",
+            "options": {
+              "frame color": "black",
+              "lens color": "green",
+              "lens type": "non-polarized",
+              "frame material": "metal"
+            },
+            "available": true,
+            "price": 281.48
+          },
+          "9672174103": {
+            "item_id": "9672174103",
+            "options": {
+              "frame color": "brown",
+              "lens color": "brown",
+              "lens type": "polarized",
+              "frame material": "plastic"
+            },
+            "available": true,
+            "price": 281.98
+          },
+          "4329558751": {
+            "item_id": "4329558751",
+            "options": {
+              "frame color": "silver",
+              "lens color": "blue",
+              "lens type": "non-polarized",
+              "frame material": "plastic"
+            },
+            "available": true,
+            "price": 297.33
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

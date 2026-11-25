@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "logging_cases": [
+    {
+      "kind": "request_timeout",
+      "exception_type": "TimeoutError",
+      "summary": "timeout bearer [REDACTED]",
+      "status_code": null,
+      "request_id": null,
+      "retry_after": null
+    },
+    {
+      "kind": "network_error",
+      "exception_type": "ConnectionError",
+      "summary": "network [REDACTED]",
+      "status_code": null,
+      "request_id": null,
+      "retry_after": null
+    },
+    {
+      "kind": "service_error",
+      "exception_type": "ServiceError",
+      "summary": "api_key=[REDACTED]",
+      "status_code": 503,
+      "request_id": "test-request-id",
+      "retry_after": "1"
+    },
+    {
+      "kind": "response_parse_error",
+      "exception_type": "JSONDecodeError",
+      "summary": "Expecting value: line 1 column 1 (char 0)"
+    }
+  ],
+  "tests": [
+    "timeout/network/service/parse distinguished and sanitized",
+    "status/request ID retained",
+    "unknown initial public states and candidate menus identical",
+    "real query reveals false vs true",
+    "only true activates original variant permission",
+    "original 10x quote 175.09 and independent authorization required",
+    "program rejection distinguished from request failure"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "tau2_repository": "https://github.com/sierra-research/tau2-bench.git",
+  "tau2_commit": "f8de30c298689cbe0117d76a378e7315a17e5bd8",
+  "license": "MIT; copyright2025 Sierra Research",
+  "source_root": "D:/experimentn/tau2-official",
+  "captured_after_batch": true,
+  "scope": "Relevant database subsets are frozen in case.json; external tool/library revision recorded, no claim API weights immutable"
+}

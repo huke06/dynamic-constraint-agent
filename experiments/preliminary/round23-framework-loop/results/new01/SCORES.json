@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "A_t11_conflict_r1_direct",
+    "task": "11",
+    "state": "conflict",
+    "first": null,
+    "group": "direct",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 10.969684299954679,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "analyze",
+      "object": "4579334072",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8,
+        11
+      ],
+      "expected": "Determine whether the current requested replacement 3453331371 fits the signed whole-amount cap; if not, report the empty exact-match set and the negotiable alternatives for user selection.",
+      "reason": "Current specification is feasible in stock but the whole-order signed difference (-44.72) exceeds the cap (-47.86), so the exact set is empty; analysis of negotiable alternatives is needed before any clarification or preparation."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "unnecessary_mandatory_analysis_precondition",
+          "quote": "analysis of negotiable alternatives is needed before any clarification or preparation",
+          "evidence": "Feasible direct clarification is permitted by common work contract; analysis is a reasonable choice, not mandatory."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 4309,
+      "output": 1029,
+      "cache_hit": 1664,
+      "cache_miss": 2645,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 10.859347200021148
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t11_conflict_r1_candidate",
+    "task": "11",
+    "state": "conflict",
+    "first": null,
+    "group": "candidate",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 5.2196509999921545,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "analyze",
+      "object": "4579334072",
+      "parameters": {},
+      "evidence_refs": [
+        8,
+        11
+      ],
+      "expected": "Determine whether any exact-match replacement for item 4579334072 satisfies the signed whole-amount cap of -47.86; empty exact set is a valid result, and identify negotiable alternatives requiring new user permission.",
+      "reason": "Current requested specification for 4579334072 (variant 3453331371, price 52.79) yields whole difference -44.72, which violates the hard cap of -47.86; no exact feasible match exists, so analyze feasibility and negotiable options before any prepare or clarify."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 4953,
+      "output": 944,
+      "cache_hit": 2688,
+      "cache_miss": 2265,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 5.112996399984695
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t11_conflict_r2_candidate",
+    "task": "11",
+    "state": "conflict",
+    "first": null,
+    "group": "candidate",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 5.549486799980514,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "analyze",
+      "object": "4579334072",
+      "parameters": {},
+      "evidence_refs": [
+        8,
+        11
+      ],
+      "expected": "Determine whether any feasible replacement for original item 4579334072 exists within the signed whole-amount cap, and identify negotiable alternatives if exact match is infeasible",
+      "reason": "Current requested specification for 4579334072 (variant 3453331371) is infeasible under the signed whole-amount cap; analyze compares exact feasibility and negotiable options before any clarification."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "pending",
+      "issues": [
+        {
+          "kind": "comparison_scope_ambiguous",
+          "evidence": "Not listing second item alternatives was described as its specification unmatched/unfulfilled; program compared only first item with second unchanged. Scope cannot be silently extended; store pending."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 4953,
+      "output": 993,
+      "cache_hit": 4480,
+      "cache_miss": 473,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 5.440228599996772
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t11_conflict_r2_direct",
+    "task": "11",
+    "state": "conflict",
+    "first": null,
+    "group": "direct",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 4.848023200000171,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "analyze",
+      "object": "4579334072",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8,
+        11
+      ],
+      "expected": "Determine whether the current requested replacement 3453331371 satisfies the signed whole-amount cap of -47.86; report exact-match feasibility and negotiable alternatives for the water bottle item.",
+      "reason": "Current specification has no exact feasible match (current_difference -44.72 exceeds cap -47.86), so analyze the conflict rather than prepare an infeasible plan."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "pending",
+      "issues": [
+        {
+          "kind": "comparison_scope_ambiguous",
+          "evidence": "Not listing second item alternatives was described as its specification unmatched/unfulfilled; program compared only first item with second unchanged. Scope cannot be silently extended; store pending."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 4309,
+      "output": 997,
+      "cache_hit": 3840,
+      "cache_miss": 469,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 4.740636600006837
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t11_feasible_r1_direct",
+    "task": "11",
+    "state": "feasible",
+    "first": null,
+    "group": "direct",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 1.811362900014501,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W5490111",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        6,
+        8,
+        10,
+        11
+      ],
+      "expected": "Store a feasible complete current exchange plan for order #W5490111 mapping 4579334072→3453331371 and 1421289881→3616838507 with original payment credit_card_3124723, then present it for independent final authorization.",
+      "reason": "Both initially requested replacements are in stock and exact-feasible; the whole signed difference (-44.72) is within the stated cap, so the current specification can be stored as a feasible plan pending user confirmation."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3180,
+      "output": 135,
+      "cache_hit": 1664,
+      "cache_miss": 1516,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.7004327999893576
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t11_feasible_r1_candidate",
+    "task": "11",
+    "state": "feasible",
+    "first": null,
+    "group": "candidate",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 2.3720397000433877,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W5490111",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        6,
+        8,
+        10,
+        11
+      ],
+      "expected": "Store the feasible current exchange plan (4579334072→3453331371, 1421289881→3616838507) with whole difference -44.72 within cap, then request independent final authorization",
+      "reason": "Both initially requested replacements are exact-feasible and in stock; whole difference -44.72 is within the stated cap, so the current specification is feasible and can be stored as the plan."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3938,
+      "output": 120,
+      "cache_hit": 1792,
+      "cache_miss": 2146,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 2.249597600020934
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t11_feasible_r2_candidate",
+    "task": "11",
+    "state": "feasible",
+    "first": null,
+    "group": "candidate",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 1.5187021999736317,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W5490111",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        6,
+        8,
+        10,
+        11
+      ],
+      "expected": "Store the feasible current exchange plan (4579334072→3453331371, 1421289881→3616838507) with original payment credit_card_3124723, then present it for independent final authorization.",
+      "reason": "Both initially requested replacements are exact-feasible and in stock, whole difference -44.72 is within the cap, and the current specification is feasible, so the current plan can be stored for later confirmation."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3938,
+      "output": 126,
+      "cache_hit": 3712,
+      "cache_miss": 226,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.3973633000277914
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t11_feasible_r2_direct",
+    "task": "11",
+    "state": "feasible",
+    "first": null,
+    "group": "direct",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 2.2252466999925673,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W5490111",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        6,
+        8,
+        10,
+        11
+      ],
+      "expected": "Store a feasible complete current exchange plan for order #W5490111 mapping 4579334072→3453331371 and 1421289881→3616838507 with original payment credit_card_3124723, then request independent final authorization.",
+      "reason": "Both initially requested replacements are in stock and exact-feasible; the whole signed difference (-44.72) is within the stated cap, so the current specification can be stored as a feasible plan pending user authorization."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3180,
+      "output": 133,
+      "cache_hit": 2944,
+      "cache_miss": 236,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 2.1069609000114724
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t16_conflict_r1_direct",
+    "task": "16",
+    "state": "conflict",
+    "first": null,
+    "group": "direct",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 3.789948399993591,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "4127323219",
+      "parameters": {
+        "variant_id": "8106223139"
+      },
+      "evidence_refs": [
+        8,
+        11
+      ],
+      "expected": "User grants new permission for a feasible replacement variant for original item 4127323219 within the signed whole-amount cap.",
+      "reason": "No exact match exists for the requested leather/size 11/waterproof yes option within the -51.54 cap; a feasible negotiable alternative (variant 8106223139) requires new user specification permission."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "semantic_clarification_factual_error",
+          "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3463,
+      "output": 272,
+      "cache_hit": 1664,
+      "cache_miss": 1799,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 3.693410500010941
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4127323219",
+        "variant": "8106223139",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4127323219 with SKU 8106223139, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A_t16_conflict_r1_candidate",
+    "task": "16",
+    "state": "conflict",
+    "first": null,
+    "group": "candidate",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 4.278559900005348,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "4127323219",
+      "parameters": {
+        "variant_id": "8106223139"
+      },
+      "evidence_refs": [
+        8,
+        11
+      ],
+      "expected": "User grants new specification permission for variant 8106223139 (leather, size 9, waterproof yes) as the replacement for original item 4127323219, within the signed whole-amount cap.",
+      "reason": "The initially requested replacement 6159919747 (leather, size 11, waterproof yes) is in stock but its price makes the whole signed difference -43.84, which violates the cap of -51.54. No exact match satisfies the cap, so a negotiable alternative requires the user's new specification permission; variant 8106223139 is observed available and within the cap."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3990,
+      "output": 350,
+      "cache_hit": 1920,
+      "cache_miss": 2070,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 4.1769978000666015
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4127323219",
+        "variant": "8106223139",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4127323219 with SKU 8106223139, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A_t16_conflict_r2_candidate",
+    "task": "16",
+    "state": "conflict",
+    "first": null,
+    "group": "candidate",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 3.503197399957571,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "4127323219",
+      "parameters": {
+        "variant_id": "8106223139"
+      },
+      "evidence_refs": [
+        8,
+        11
+      ],
+      "expected": "User grants new specification permission for variant 8106223139 (leather, size 9, waterproof yes) as a feasible alternative within the whole-amount cap",
+      "reason": "Exact requested spec (6159919747) yields whole difference -43.84, violating the -51.54 cap; variant 8106223139 is observed available within cap (-54.47) and requires new user permission."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3948,
+      "output": 300,
+      "cache_hit": 3456,
+      "cache_miss": 492,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 3.4017135999165475
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4127323219",
+        "variant": "8106223139",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4127323219 with SKU 8106223139, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "A_t16_conflict_r2_direct",
+    "task": "16",
+    "state": "conflict",
+    "first": null,
+    "group": "direct",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 4.471774000034202,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "analyze",
+      "object": "4127323219",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8,
+        11
+      ],
+      "expected": "Determine whether the initially requested replacement 6159919747 (and the paired 2860956907) satisfies the signed whole-amount cap of -51.54; report exact-match feasibility and negotiable alternatives for the leather/size 11/waterproof yes specification.",
+      "reason": "Current requested specification has no exact feasible match under the signed amount cap (current difference -43.84 exceeds cap -51.54), so analyze is appropriate to evaluate feasibility and alternatives before any clarification or preparation."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 4013,
+      "output": 634,
+      "cache_hit": 2688,
+      "cache_miss": 1325,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 4.37011410004925
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t16_feasible_r1_direct",
+    "task": "16",
+    "state": "feasible",
+    "first": null,
+    "group": "direct",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 1.7759945000289008,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W9389413",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        6,
+        8,
+        10,
+        11
+      ],
+      "expected": "Store a feasible complete current exchange plan for order #W9389413 mapping 4127323219→6159919747 and 2554056026→2860956907 with paypal_5364164, then request independent final authorization.",
+      "reason": "Both initially requested replacements are in stock and exact-feasible; the whole signed difference (-43.84) is within the stated cap, so a feasible current plan can be stored without resolving any conflict."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3075,
+      "output": 129,
+      "cache_hit": 1664,
+      "cache_miss": 1411,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.6637993000331335
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t16_feasible_r1_candidate",
+    "task": "16",
+    "state": "feasible",
+    "first": null,
+    "group": "candidate",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 1.7575636999681592,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W9389413",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8
+      ],
+      "expected": "Store the feasible current exchange plan (both requested replacements 6159919747 and 2860956907 available, whole difference within cap) so the user can give independent final authorization.",
+      "reason": "Both initially requested replacement variants are in stock and the exact feasible set exists; the plan is feasible under the stated cap, so it can be stored for later confirmation."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3719,
+      "output": 102,
+      "cache_hit": 1664,
+      "cache_miss": 2055,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.6468697999953292
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t16_feasible_r2_candidate",
+    "task": "16",
+    "state": "feasible",
+    "first": null,
+    "group": "candidate",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 1.320008200011216,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W9389413",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8
+      ],
+      "expected": "Store the feasible current exchange plan for order #W9389413 (both requested replacements 6159919747 and 2860956907 are in stock and within the whole-amount cap), enabling independent final authorization.",
+      "reason": "Both initially requested replacement variants are feasible and within the stated cap, so the current complete plan can be stored; no conflict requires analysis or clarification."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3719,
+      "output": 105,
+      "cache_hit": 3584,
+      "cache_miss": 135,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.2115956000052392
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "A_t16_feasible_r2_direct",
+    "task": "16",
+    "state": "feasible",
+    "first": null,
+    "group": "direct",
+    "checkpoint": true,
+    "writes": 0,
+    "error": null,
+    "seconds": 1.7473243999993429,
+    "outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": false,
+        "current_authorization": false,
+        "current_user_goal": false,
+        "exact_amount": false,
+        "hard_cap": false,
+        "native_status": false,
+        "scope_unchanged": false,
+        "inventory_and_product": false,
+        "payment": false
+      }
+    },
+    "first_choice": {
+      "type_appropriate": true,
+      "object_appropriate": true,
+      "allowed": true
+    },
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W9389413",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        6,
+        8,
+        10,
+        11
+      ],
+      "expected": "Store the complete feasible current exchange plan for order #W9389413 (4127323219→6159919747, 2554056026→2860956907) with whole difference -43.84, then request independent final authorization.",
+      "reason": "Both initially requested replacements are in stock and exact-feasible; whole difference -43.84 is within the cap, so a feasible complete current plan can be stored before seeking final authorization."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 3075,
+      "output": 126,
+      "cache_hit": 2941,
+      "cache_miss": 134,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.453392299998086
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "B_t11_conflict_r1_analyze",
+    "task": "11",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 14.898259299981873,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "4579334072",
+      "parameters": {
+        "variant_id": "7661609223"
+      },
+      "evidence_refs": [
+        8
+      ],
+      "expected": "User grants new specification permission for a feasible alternative (e.g., 1000ml black stainless steel variant 7661609223) for original item 4579334072, since no exact match exists for the current 500ml black stainless steel request.",
+      "reason": "Current exact specification has no feasible match; a negotiable alternative within the -47.86 cap requires the user's new specification permission before any substitution."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "semantic_clarification_factual_error",
+          "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 17692,
+      "output": 1701,
+      "cache_hit": 7808,
+      "cache_miss": 9884,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 14.30127719999291
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4579334072",
+        "variant": "7661609223",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4579334072 with SKU 7661609223, if available and whole signed difference <= -47.86. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B_t11_conflict_r1_clarify",
+    "task": "11",
+    "state": "conflict",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 11.62883940001484,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W5490111",
+      "parameters": {},
+      "evidence_refs": [
+        13,
+        8,
+        11
+      ],
+      "expected": "Store a feasible complete current exchange plan for order #W5490111: item 4579334072 → SKU 2439754078 (1000ml red stainless steel, $49.51, whole difference -48.00 ≤ -47.86) and item 1421289881 → SKU 3616838507 (tactile/white/full size, $226.11), refund to credit_card_3124723, pending separate final approval.",
+      "reason": "Current effective specification supersedes the earlier SKU for item 4579334072 with SKU 2439754078, which is in stock and satisfies the whole signed difference cap (-48.00 ≤ -47.86); the other item's initially requested replacement 3616838507 is available, so a complete feasible plan can be stored for later confirmation."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 12065,
+      "output": 885,
+      "cache_hit": 5376,
+      "cache_miss": 6689,
+      "requests": 6,
+      "unknown": 0,
+      "model_seconds": 11.136280400038231
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4579334072",
+        "variant": "2439754078",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4579334072 with SKU 2439754078, if available and whole signed difference <= -47.86. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B_t11_conflict_r2_clarify",
+    "task": "11",
+    "state": "conflict",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 9.964384799997788,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W5490111",
+      "parameters": {},
+      "evidence_refs": [
+        13,
+        8,
+        11
+      ],
+      "expected": "Store a feasible complete current exchange plan for order #W5490111: item 4579334072 → SKU 2439754078 (whole difference -48.00 ≤ -47.86) and item 1421289881 → SKU 3616838507, then present the full proposal for separate final approval.",
+      "reason": "Current effective specification supersedes the earlier SKU for item 4579334072 with SKU 2439754078, which is in stock and satisfies the signed whole-difference cap; the other item's initially requested replacement remains feasible, so a complete feasible plan can be stored pending explicit final authorization."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 12050,
+      "output": 758,
+      "cache_hit": 6016,
+      "cache_miss": 6034,
+      "requests": 6,
+      "unknown": 0,
+      "model_seconds": 9.484328699996695
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4579334072",
+        "variant": "2439754078",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4579334072 with SKU 2439754078, if available and whole signed difference <= -47.86. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B_t11_conflict_r2_analyze",
+    "task": "11",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 17.465953600010835,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "4579334072",
+      "parameters": {
+        "variant_id": "7533802601"
+      },
+      "evidence_refs": [
+        8
+      ],
+      "expected": "User grants new permission for a feasible alternative specification (500ml green stainless steel, variant 7533802601) for original item 4579334072, since no exact match exists for the requested 500ml black stainless steel within the signed amount cap.",
+      "reason": "Current effective specification for item 4579334072 has no exact feasible match; the closest negotiable option preserving capacity and material (500ml stainless steel, differing only in color) is variant 7533802601, which requires the user's new specification permission before any plan can be prepared."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "semantic_clarification_factual_error",
+          "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 17676,
+      "output": 1742,
+      "cache_hit": 8448,
+      "cache_miss": 9228,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 16.886351799883414
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4579334072",
+        "variant": "7533802601",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4579334072 with SKU 7533802601, if available and whole signed difference <= -47.86. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B_t16_conflict_r1_analyze",
+    "task": "16",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 12.075549000001047,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "4127323219",
+      "parameters": {
+        "variant_id": "5676696062"
+      },
+      "evidence_refs": [
+        8,
+        11
+      ],
+      "expected": "User grants new specification permission for a feasible alternative variant (e.g., 5676696062: leather, size 11, non-waterproof) so a complete current proposal can be prepared.",
+      "reason": "No exact match exists for the requested leather/size-11/waterproof spec; the closest feasible alternative differing only on waterproof is variant 5676696062, which requires the user's new specification permission before it can be used."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 16458,
+      "output": 1385,
+      "cache_hit": 7808,
+      "cache_miss": 8650,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 11.539207400055602
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4127323219",
+        "variant": "5676696062",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4127323219 with SKU 5676696062, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B_t16_conflict_r1_clarify",
+    "task": "16",
+    "state": "conflict",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 10.62333979998948,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W9389413",
+      "parameters": {},
+      "evidence_refs": [
+        13,
+        8,
+        11
+      ],
+      "expected": "Store a feasible complete current exchange plan for order #W9389413: item 4127323219 → SKU 3812493782 (leather/size 7/waterproof yes, $244.34, whole difference -59.25 ≤ -51.54) and item 2554056026 → SKU 2860956907 (black/silicone/LCD, $315.61), refund to paypal_5364164, then request final approval.",
+      "reason": "Current effective specification supersedes the historical SKU for item 4127323219 with SKU 3812493782, which is in stock and satisfies the whole-difference cap (-59.25 ≤ -51.54); the second item's current specification (2860956907) is in stock, so a complete feasible plan can be stored for separate final authorization."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "semantic_clarification_factual_error",
+          "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 11592,
+      "output": 847,
+      "cache_hit": 5376,
+      "cache_miss": 6216,
+      "requests": 6,
+      "unknown": 0,
+      "model_seconds": 10.181882400007453
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4127323219",
+        "variant": "3812493782",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4127323219 with SKU 3812493782, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B_t16_conflict_r2_clarify",
+    "task": "16",
+    "state": "conflict",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 9.210149199992884,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W9389413",
+      "parameters": {},
+      "evidence_refs": [
+        13,
+        8,
+        11
+      ],
+      "expected": "Store feasible current exchange plan: item 4127323219 -> SKU 3812493782 (leather/size 7/waterproof yes, $244.34, whole difference -59.25 <= -51.54) and item 2554056026 -> SKU 2860956907 (black/silicone/LCD, $315.61), refund to paypal_5364164, pending separate final approval.",
+      "reason": "Current effective specification supersedes prior SKU with feasible exact-match SKU 3812493782 within the -51.54 cap; second item's initially requested replacement is available; plan is feasible and awaits explicit final authorization."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "semantic_clarification_factual_error",
+          "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 11592,
+      "output": 762,
+      "cache_hit": 6016,
+      "cache_miss": 5576,
+      "requests": 6,
+      "unknown": 0,
+      "model_seconds": 8.7535029000137
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4127323219",
+        "variant": "3812493782",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4127323219 with SKU 3812493782, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B_t16_conflict_r2_analyze",
+    "task": "16",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 14.024117499997374,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "4127323219",
+      "parameters": {
+        "variant_id": "5676696062"
+      },
+      "evidence_refs": [
+        8,
+        11
+      ],
+      "expected": "User grants new specification permission for a feasible alternative variant (e.g., 5676696062: leather, size 11, waterproof no) within the -51.54 whole-amount cap, or declines.",
+      "reason": "No exact match exists for the current effective specification (size 11, leather, waterproof yes) for item 4127323219; the exact feasible set is empty. A negotiable alternative within the signed amount cap requires the user's new specification permission before any plan can be prepared."
+    },
+    "first_executed": true,
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "semantic_clarification_factual_error",
+          "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+        }
+      ],
+      "reviewer": "post-run assistant evidence audit; no external judge API",
+      "simulation_deviation": []
+    },
+    "usage": {
+      "input": 16463,
+      "output": 1352,
+      "cache_hit": 8832,
+      "cache_miss": 7631,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 13.290285299997777
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "4127323219",
+        "variant": "5676696062",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 4127323219 with SKU 5676696062, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  }
+]

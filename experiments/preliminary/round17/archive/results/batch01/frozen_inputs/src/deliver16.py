@@ -1,0 +1,93 @@
+import json,hashlib,shutil
+from pathlib import Path
+from collections import Counter
+R=Path(__file__).resolve().parent.parent;B=R/'results/batch01'
+def read(p):return json.loads(p.read_text('utf-8-sig'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def save(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf-8')
+s=read(R/'results/SUMMARY.json');f=read(R/'configs/freeze.json');api=[json.loads(x) for x in (B/'model_calls.jsonl').read_text('utf-8').splitlines()];checks={};old10=R.parent/'10_程序事实核验与续行验证'
+checks['old01_09_proposal']=all(sha(Path(p))==v for p,v in read(old10/'results/20261123T001740331845Z/freeze.json')['protected'].items());checks['old10']=all(sha(old10/p)==v for p,v in read(old10/'DELIVERY_MANIFEST.json')['files'].items())
+for folder in ('11_框架自主决策与动态多轮验证','12_程序与模型协同修复及复验','13_条件许可落空后的自主恢复','14_澄清语义与受控回应验证','15_库存证据变化与认知决策对照'):
+ old=R.parent/folder;checks[folder[:2]]=all(sha(old/p)==v for p,v in read(old/'results/DELIVERY_MANIFEST.json').items())
+checks['frozen_unchanged']=all(sha(R/p)==v for p,v in f['files'].items());checks['offline']=read(R/'configs/offline.json')['passed'];checks['freeze_before_online']=f['utc']<read(B/'started.json')['utc']
+checks['all12_saved']=len(s['rows'])==12;checks['all12_registered']=all(x['registered'] and x['authorization'] for x in s['rows'])
+checks['unknown_public_starts_identical']=len({sha(p) for p in B.glob('*_unknown_*_start.json')})==1
+ctrl=[x for x in api if x['stage']=='controller'];first=[]
+for n in read(B/'results.json'):
+ if '_unknown_'in n:first.append((n,next(x['messages'] for x in ctrl if x['branch']==n)))
+checks['unknown_first_messages_identical_per_group']=all(len({json.dumps(msg,sort_keys=True) for n,msg in first if n.endswith('_'+g)})==1 for g in ('direct','candidate'))
+a=read(B/'t52_r1_unknown_out_direct_environment.json');b=read(B/'t52_r1_unknown_in_direct_environment.json');a['products']['8940227892']['variants']['3892645120']['available']=True;checks['private_db_only_one_stock_difference']=a==b
+checks['direct_no_W']=all('W'not in json.loads(x['messages'][1]['content']) for x in ctrl if x['branch'].endswith('_direct'));checks['candidate_has_W']=all('W'in json.loads(x['messages'][1]['content']) for x in ctrl if x['branch'].endswith('_candidate'))
+checks['query_branch_shift']=all(r['post_query_first']==('prepare' if r['condition']=='unknown_in' else 'clarify') for r in s['rows'] if r['condition']!='known_out')
+checks['original_permission_only_true']=all((r['post_query_permission']=='3892645120')==(r['condition']=='unknown_in') for r in s['rows'] if r['condition']!='known_out')
+events=[json.loads(x) for x in (B/'request_events.jsonl').read_text('utf-8').splitlines()];checks['request_started_and_finished']=sum(x['event']=='request_started' for x in events)==len(api)==sum(x['event']=='request_finished' for x in events)
+save(R/'results/AUDIT.json',{'passed':all(checks.values()),'checks':checks});assert all(checks.values())
+save(R/'results/MODEL_VERSIONS.json',[{'id':x['branch'],'stage':x['stage'],'status':x['status'],'provider_request_id':x.get('provider_request_id'),'diagnostic':x.get('diagnostic'),**{k:x.get('response',{}).get(k) for k in ('model','system_fingerprint','id','created','usage')}} for x in api])
+for p in f['files']:
+ dest=B/'frozen_inputs'/p;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(R/p,dest)
+shutil.copy2(R/'configs/freeze.json',B/'freeze.json')
+tokens=s['returned_tokens'];quality=sum(x['quality'] for x in s['rows'])
+report=f'''# 第16轮独立复验结果
+
+## 观察到什么
+
+正式一批12条全部保存：12条正确登记、必要约束和独立当前方案授权均满足；无请求异常、解析错误、程序拒绝或未办结。完整质量（加上理由准确性）{quality}/12，另外5条有中间理由误读；最终登记正确没有覆盖理由错误。所有实际对用户模板话术均有发言前工具证据支持。
+
+known_out：直接组两次均先screen再clarify，候选组两次均先clarify。两组最后都获得5x许可、准备方案、独立确认后登记。
+
+unknown_out：四条均先inventory；实际结果false后，下一个决策四条均clarify，保留原10x条件许可不生效，取得5x新许可后继续。登记6384525445，30MP/CF/5x，差额+$34.07，原PayPal。
+
+unknown_in：四条均先inventory；实际结果true后，下一个决策四条均prepare，原source12条件许可据新库存激活，未重复索要规格许可；随后仍独立confirm再submit。登记3892645120，30MP/CF/10x，差额+$175.09，原PayPal。库存许可生效不等于交易授权，四条都没有跳过确认。
+
+三条件下写入对象均5996159312，订单#W4689314，支付paypal_8194385，实际状态exchange requested。它是正确登记换货申请，不是实物换货/收费已经完成。
+
+## 两个研究问题
+
+**查询结果改变后，同一组是否从澄清转向原规格计划？** 是。本批直接组、候选组两次重复都观察到false→clarify、true→prepare。两种unknown初始完整公开状态和每组首次messages均一致，底层DB只差目标SKU一个available字段；查询前没有给Agent真实结果。差异能追溯到新官方结果使同一条旧许可从pending变为false或satisfied，随后候选前提和公共状态改变。两条完整实际轨迹在TRACE_UNKNOWN_OUT.md和TRACE_UNKNOWN_IN.md（均直接组第1次）。
+
+**显式候选是否使处理前提缺口出现差异？** 已知缺货时，两次均表现为候选组直接询问许可，直接组先做允许的本地缓存整理；未知时两组都先查，查询后也选择相同类型工作。程序菜单与执行检查共享，candidate额外获得W及前提。不能把这些相近路径说成候选组普遍更强。两次方向一致只适用于本题静态库存和受控接受，不是普遍收益证明。
+
+本批没有先条件性澄清的unknown路径，不能声称在线验证了它。程序允许实际询问；未知时受控用户保留原10x条件、要求先核实而不提前授权5x，故不会让未来库存分支决定提前许可。
+
+## 理由错误独立保留
+
+REASONS.json保留所有成功controller原始reason/comparison、当时公共状态和来源审阅，非独立盲审。没有在查询前把null说成缺货，没有把规格许可直接当交易授权。
+
+两条直接组理由误读：known_out第2次、unknown_out第2次clarify理由称用户明确“不接受低倍替代”，实际原句只是“尚未接受”。对用户的程序中性话术没有该误述，最终用户也接受5x，但理由质量不通过。
+
+三条候选组理由误读：unknown_out第2次、unknown_in第1/2次初始比较把historical_plan_compatible未满足也列成submit阻碍。历史兼容性是状态标志，不是提交契约的必要前提。正确的submit前提是身份、当前计划、当前授权及尚未写入；对这些真实缺口的判断正确，但额外前提误读仍保留。unknown_in第1次后续submit理由又明确说明历史兼容性与screen_absent不是必需条件，这是后续纠正，不能抹掉此前错误。
+
+其余7条的理由审阅通过。screen“needed”作为模型策略选择，不当作程序强制规则；本轮不是把合理缓存分析判为无效。研究关注的决策选择稳定，并不意味着所有解释准确。
+
+## 质量门槛后的投入
+
+PAIRED_RESULTS.md为唯一配对表。只有两个配对达到完整质量门槛且usage完整：known_out第1次，候选组少1工作，D−C总词元1867；unknown_out第1次两组工作相同，D−C词元−3560。其余四配对因至少一侧理由错误，不计算投入差；true分支虽然四条都正确登记，也不能因此放宽理由门槛。
+
+正式共{s['attempts']}次Agent请求尝试，全部有效返回/usage，已返回总词元{tokens}。没有将模型用户或外评词元混入Agent：受控用户、程序澄清/确认和工具事实核验均0模型调用。公共前缀不新增在线语义初始化调用，历史/规则仍计入实际输入词元，不能把公共前缀独立用量写成0。响应model/fingerprint/id及SDK可用provider_request_id见MODEL_VERSIONS.json，不用模型别名保证后端权重固定。
+
+## 请求诊断与冻结
+
+第15轮31次无响应的旧记录缺少原异常细节，本轮不能追溯恢复根因，旧目录未改。新logging16绕过会丢失原异常的旧chat包装，直接使用同一SDK客户端/同一模型参数。请求前持久化request_started，请求完成或异常后持久化request_finished及完整调用记录。异常摘要脱敏，区分超时、网络、服务、返回内容解析和其他客户端/传输问题；保留服务提供的状态码、请求ID、Retry-After。无usage为null/未知，不填0。模型响应JSON解析失败保留已返回用量和原响应；程序前提拒绝另存trajectory的program_rejection。
+
+离线注入超时、连接异常、503带请求编号、JSON格式错误均通过分类和脱敏断言；独立测试程序拒绝与原规格175.09报价及授权门禁。正式本批未出现这些错误，所以只能说诊断接口通过离线覆盖，不能宣称在真实服务故障中已全部验证。
+
+统一冻结预算为24次真实请求尝试（失败也扣次数）、60000已返回词元软阈值、9执行工作、12决策机会；SDK和应用自动重试均0。后续重新决策是新的有账请求，不是隐含重试。未知usage另记，不能拿0消耗掩盖；未知开销时不允许做完整投入排名。正式失败原配对保留，无替补。本批12条均未因预算停止，没有开发/正式混批或中途修改。
+
+快照逐字复制15轮known/unknown。unknown_in只修改私有环境DB的3892645120.available=true；不同unknown的首次提示同组相同，受控用户不接收隐藏标签，只依据实际问题和有效当前方案响应。程序核验许可来源、库存条件、差额、当前授权和写入；原10x许可不重新采样或替换成答案。AUDIT.json验证起点/环境差异/首次提示/许可激活和旧文件哈希。
+
+评分按冻结PROTOCOL的业务、事实和理由标准执行；report16为事后实现与语义审阅，原始轨迹不改。没有独立人工金标准，静态库存、单商品、固定自然回复和每条件两次均限制外推。下一步需独立重复理由审阅、处理历史状态与真正必要前提的区分，再扩大任务或用户表达；本轮暂不训练、不做偏好标签。
+'''
+(R/'results/RESULTS.md').write_text(report,encoding='utf-8')
+(R/'README.md').write_text('''# 第16轮：库存查询结果与后续决策独立复验
+
+一批12条全部正确登记；7条完整质量通过，5条理由有误。两组两次均在查到缺货后澄清替代，查到有货后准备原10x方案并独立确认。请求异常0；诊断分类已离线注入验证。
+
+- [配对表](results/PAIRED_RESULTS.md)、[结果说明](results/RESULTS.md)、[查到缺货轨迹](results/TRACE_UNKNOWN_OUT.md)、[查到有货轨迹](results/TRACE_UNKNOWN_IN.md)。
+- configs/PROTOCOL.md、offline.json、start_known/unknown.json、prompts.json、private_responses.json、freeze.json：预定规则、快照、提示、回复及冻结。
+- src/logging16.py：共享诊断；experiment16.py：12条自主运行和受控当前方案批准；tests16.py：异常分类/库存分支/独立授权离线验证；report16.py：事后评分和理由审阅；deliver16.py：汇总与完整性审计。
+- results/batch01：request_events/model_calls（请求开始/完成、诊断、usage）、controlled_events、程序话术；每轨迹start/environment/trajectory/final_state/database。环境独立于公开快照。
+- SUMMARY.json、REASONS.json、FACTS.json、MODEL_VERSIONS.json、AUDIT.json保存所有维度；frozen_inputs完整留存原冻结副本。复制业务模块和scenarios/snapshots资源位于src，原目录只读。
+
+Python D:/experimentn/tau2-official/.venv/Scripts/python.exe。不要重复execute已启动批次。仅report16.py和deliver16.py可离线重算，无API调用；改执行/评分应另冻。没有训练或偏好标注。
+''',encoding='utf-8')
+print({'audit':checks,'quality':quality,'attempts':s['attempts'],'diagnostics':s['diagnostics']})

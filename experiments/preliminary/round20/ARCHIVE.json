@@ -1,0 +1,314 @@
+{
+  "round": "20",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\README.md",
+      "copy": "experiments\\preliminary\\round20\\archive\\README.md",
+      "sha256": "646d477c0c0f2926aae3d1b806547ca56395806b0ab66d320d1bb9e72712a152",
+      "bytes": 1701
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\budget.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\budget.json",
+      "sha256": "bf162be91751ed649789ba4c30dbab9fd406670692c33caea1eea6a7d1314d9a",
+      "bytes": 456
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\freeze_stage1.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\freeze_stage1.json",
+      "sha256": "d0e70aa19db7fcab2fc6e9a5436cc09464552dbf52890409e605c85d16650f96",
+      "bytes": 737770
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\freeze_stage2.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\freeze_stage2.json",
+      "sha256": "937ebed382d4217e8270c1ac63657e6dd819ec5d59f82cd32ddd9e4af2f0f942",
+      "bytes": 4880
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\official_policy.md",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\offline.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\offline.json",
+      "sha256": "95229919336d8b3ba0c0ac6e74ce96f4ae0a06f780763536c2a16bce2b7dbcb5",
+      "bytes": 2410
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\PROTOCOL.md",
+      "sha256": "a87ed967615e3fbe67dd647cc9ae813bd399e0e81da50b175c6e46b328dc82f6",
+      "bytes": 7349
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\tasks.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\tasks.json",
+      "sha256": "af32cff53976ecac72b26f092ffe8adef1144f435c156f9cede9ba6dde7d2648",
+      "bytes": 2509
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage1\\0\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage1\\0\\case.json",
+      "sha256": "9eae70c61df383e8e43312c20c5dd08b3770bfcd507113638421a4ecbedaa1e4",
+      "bytes": 14320
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage1\\0\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage1\\0\\original_task.json",
+      "sha256": "0e1ebc26d7d0552390aeb12c046a6698d992c30bb885a8cab491d719702d2a3f",
+      "bytes": 2161
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage1\\106\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage1\\106\\case.json",
+      "sha256": "44c76013c3713f2e2520a5d17412521c6015038409b038390c62366bc39976aa",
+      "bytes": 15670
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage1\\106\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage1\\106\\original_task.json",
+      "sha256": "f58acf3b78888e24f7c3aeb08751e090769be06ff3befbb24cb56c895de82bd3",
+      "bytes": 1221
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage1\\58\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage1\\58\\case.json",
+      "sha256": "7b923d8a40f2ff70e62dfa246a52feb17c0d612b76c824bbeff0fe802b7af52b",
+      "bytes": 17417
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage1\\58\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage1\\58\\original_task.json",
+      "sha256": "98e443fd1391dd8e3512d8d56fe98b9adc093c362735ad607fa4000a51d943ae",
+      "bytes": 2617
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage1\\95\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage1\\95\\case.json",
+      "sha256": "ae1f8fa1e6ed619475a96500dafe5ab161ab9dcd2f50269333293539a0798df6",
+      "bytes": 15263
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage1\\95\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage1\\95\\original_task.json",
+      "sha256": "a0b0dfc138ab5588600b433a7f1a306c39555f246abd6084448c88827aecf570",
+      "bytes": 1683
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\107\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\107\\case.json",
+      "sha256": "3c5f1c2e7846ea213722812a34234a846284e50737cead2a2b6f6df6a3d09ab1",
+      "bytes": 16720
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\107\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\107\\original_task.json",
+      "sha256": "f4e571c6639c95ce4e47343a8a9f7f28b4faa8751883554a9e335e3bebe071ab",
+      "bytes": 1674
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\18\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\18\\case.json",
+      "sha256": "0e02754aa08924f54bba4857190ded482ddf32a90b95196261e1dde734ff12b4",
+      "bytes": 9623
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\18\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\18\\original_task.json",
+      "sha256": "e013cf975d3a486aa2949df7f5977b28d3068aba356ccec263acfbeed71077cc",
+      "bytes": 1983
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\23\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\23\\case.json",
+      "sha256": "54482d483a36dae463672ee14257e246c0d48e27612c66b4b54383204d5dd7a4",
+      "bytes": 12244
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\23\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\23\\original_task.json",
+      "sha256": "5bd95098e9054fdcf4a5b5a6eb73816cbc01b8a462f04458a64fd7065dfaebb0",
+      "bytes": 3722
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\29\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\29\\case.json",
+      "sha256": "b839b7b63ded905be32f77ebd8e953f2bfcae6247a31a052aafae7531973d02b",
+      "bytes": 14309
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\29\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\29\\original_task.json",
+      "sha256": "748901d8c6fa585979c7a4c728d3313fc027685b78d2d51b08123c4bf9214b26",
+      "bytes": 2594
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\45\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\45\\case.json",
+      "sha256": "808631ab20339b4f6fdf8c58fd5bcc35c98272469463afbeb7ed4f7b5552a4a8",
+      "bytes": 9535
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\45\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\45\\original_task.json",
+      "sha256": "0347035e32ab59c1f5117855f69632ce3a1d202ba3ca6a379cf6a408f384de79",
+      "bytes": 2329
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\49\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\49\\case.json",
+      "sha256": "17827146aefd2016812862f5e003598e31ba37ef65dcdbb4b02d526041d264fb",
+      "bytes": 9291
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\49\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\49\\original_task.json",
+      "sha256": "c294f25defcd72e6073fe1b45d67e59bd7824d0ebe32b739d0077e4b084e1469",
+      "bytes": 3019
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\70\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\70\\case.json",
+      "sha256": "5eb62d7730237fd00bdaadee236fced47aadbe2f71f5d8fc027995ed3f677d64",
+      "bytes": 9765
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\70\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\70\\original_task.json",
+      "sha256": "1ac91a0b5ff8b51504c836121bfede39e1a367d9700e00a5fbf6df0699f6865b",
+      "bytes": 1361
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\77\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\77\\case.json",
+      "sha256": "8899eda4f3bb42bb672d08de07caa66105b04199f03772e73f5bc5f539f2b406",
+      "bytes": 6850
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\77\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\77\\original_task.json",
+      "sha256": "340f8cc11d71d7dcadd0a2b93381ddeb3b4045b7d4714c1a23fbac2178b37d6c",
+      "bytes": 1190
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\80\\case.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\80\\case.json",
+      "sha256": "3aaf0f8dc6f7361ca212572b97f6862cd75d1e8fca75c98c72a1d28767b886ba",
+      "bytes": 8328
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\configs\\stage2\\80\\original_task.json",
+      "copy": "experiments\\preliminary\\round20\\archive\\configs\\stage2\\80\\original_task.json",
+      "sha256": "46c90d037f8fc3329d50f60525a860fa17ad36a5f07e9c4efd92beac1461b4ca",
+      "bytes": 1248
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\results\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round20\\archive\\results\\RESULTS.md",
+      "sha256": "27798480cd7ed0f0d330ff93e40a3f0a34d24ea377653afdfa8a1b7ba2e70147",
+      "bytes": 12605
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\analysis20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\analysis20.py",
+      "sha256": "4dca2ca9fc32db8190fe41c891e09b429fce5ace506be984720de0f7732722f4",
+      "bytes": 9933
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\baseline_runner.py",
+      "sha256": "42e364c3cd4babb5270c811cbfe9aa00b1f87865118815fc13af1a5dd37ddd7a",
+      "bytes": 648
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\construct20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\construct20.py",
+      "sha256": "b9e7c53f8425d47e1a8000693b5a44d36509d9a5e50190f9d51c685e3906754a",
+      "bytes": 4874
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\finalize20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\finalize20.py",
+      "sha256": "0c0b974185f2fa2bb62282412ed98b3e0fb013b82dd7a02e3e1d8962f00105cc",
+      "bytes": 6782
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\logging16.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\logging16.py",
+      "sha256": "60b8acf9601aae48bf120faf9e216da3979d50bd203613a9e2ede845b6bbfc70",
+      "bytes": 3255
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\logtests20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\logtests20.py",
+      "sha256": "d1ab12cc6421d2e8fa8ef859a41859b84d4b5763665508dea02f2e017e72a8e9",
+      "bytes": 2285
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\official20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\official20.py",
+      "sha256": "3ee34dc444c64a547c7447011057dd9b43b4c5561b2ea92a0906376aaa94d6f6",
+      "bytes": 10225
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\prompts20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\prompts20.py",
+      "sha256": "7dd9ccc18fa634d466d2679e29f558a65526923758c633f9a473898799220c82",
+      "bytes": 5867
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\runner20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\runner20.py",
+      "sha256": "75adb7dddd779233a3a6f917ecb77d43929b7836ccc48f5fb86118c037e17907",
+      "bytes": 8113
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\score20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\score20.py",
+      "sha256": "88c5c0d1ea4b9f9f42170be550b3074fb1cd654a4add547e4accb7999c5f59c2",
+      "bytes": 7180
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\tests20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\tests20.py",
+      "sha256": "6a25137e731f3308bbc66668d57b24aa0ae60fb52751a4302b6d66826911670e",
+      "bytes": 3896
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\transport19.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\transport19.py",
+      "sha256": "9081869968919cbbaa53c732b89c5bc80ea530c52411b3c4ec4a20f041008951",
+      "bytes": 2883
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\transport20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\transport20.py",
+      "sha256": "a8f994173c999bb7f274c38396abea72793455160fefb4da3034c91bf365341d",
+      "bytes": 3671
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\src\\world20.py",
+      "copy": "experiments\\preliminary\\round20\\archive\\src\\world20.py",
+      "sha256": "e5bb89fe70b0f9ba369aa25923b17466591bab11da08a14fb9c541a7163d158b",
+      "bytes": 19785
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\20_按需调用与分级基线对照\\results",
+    "files": 276,
+    "bytes": 124498477,
+    "git_storage": "external original directory, not moved"
+  }
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "id": "old_t93_conflict_r1",
+    "usage": {
+      "input": 14377,
+      "output": 1212,
+      "cache_hit": 8448,
+      "cache_miss": 5929,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 19.523116699943785
+    },
+    "error": null
+  },
+  {
+    "id": "old_t93_conflict_r2",
+    "usage": {
+      "input": 14429,
+      "output": 1273,
+      "cache_hit": 8320,
+      "cache_miss": 6109,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 13.100293400115333
+    },
+    "error": null
+  },
+  {
+    "id": "old_t93_feasible_r1",
+    "usage": {
+      "input": 14212,
+      "output": 833,
+      "cache_hit": 8448,
+      "cache_miss": 5764,
+      "requests": 7,
+      "unknown": 0,
+      "model_seconds": 10.026461600034963
+    },
+    "error": null
+  },
+  {
+    "id": "old_t93_feasible_r2",
+    "usage": {
+      "input": 14212,
+      "output": 847,
+      "cache_hit": 7680,
+      "cache_miss": 6532,
+      "requests": 7,
+      "unknown": 0,
+      "model_seconds": 12.13023649994284
+    },
+    "error": null
+  },
+  {
+    "id": "old_t29_dynamic_r1",
+    "usage": {
+      "input": 17678,
+      "output": 915,
+      "cache_hit": 8320,
+      "cache_miss": 9358,
+      "requests": 7,
+      "unknown": 0,
+      "model_seconds": 11.585993100132328
+    },
+    "error": null
+  },
+  {
+    "id": "old_t29_dynamic_r2",
+    "usage": {
+      "input": 17678,
+      "output": 879,
+      "cache_hit": 11264,
+      "cache_miss": 6414,
+      "requests": 7,
+      "unknown": 0,
+      "model_seconds": 12.015204299939796
+    },
+    "error": null
+  },
+  {
+    "id": "old_t102_withdrawn_r1",
+    "usage": {
+      "input": 6493,
+      "output": 282,
+      "cache_hit": 3328,
+      "cache_miss": 3165,
+      "requests": 3,
+      "unknown": 0,
+      "model_seconds": 3.7764918000320904
+    },
+    "error": null
+  },
+  {
+    "id": "old_t102_withdrawn_r2",
+    "usage": {
+      "input": 6493,
+      "output": 295,
+      "cache_hit": 4864,
+      "cache_miss": 1629,
+      "requests": 3,
+      "unknown": 0,
+      "model_seconds": 4.4441705999779515
+    },
+    "error": null
+  },
+  {
+    "id": "A_t11_conflict_r1_direct",
+    "usage": {
+      "input": 4309,
+      "output": 1029,
+      "cache_hit": 1664,
+      "cache_miss": 2645,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 10.859347200021148
+    },
+    "error": null
+  },
+  {
+    "id": "A_t11_conflict_r1_candidate",
+    "usage": {
+      "input": 4953,
+      "output": 944,
+      "cache_hit": 2688,
+      "cache_miss": 2265,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 5.112996399984695
+    },
+    "error": null
+  },
+  {
+    "id": "A_t11_conflict_r2_candidate",
+    "usage": {
+      "input": 4953,
+      "output": 993,
+      "cache_hit": 4480,
+      "cache_miss": 473,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 5.440228599996772
+    },
+    "error": null
+  },
+  {
+    "id": "A_t11_conflict_r2_direct",
+    "usage": {
+      "input": 4309,
+      "output": 997,
+      "cache_hit": 3840,
+      "cache_miss": 469,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 4.740636600006837
+    },
+    "error": null
+  },
+  {
+    "id": "A_t11_feasible_r1_direct",
+    "usage": {
+      "input": 3180,
+      "output": 135,
+      "cache_hit": 1664,
+      "cache_miss": 1516,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.7004327999893576
+    },
+    "error": null
+  },
+  {
+    "id": "A_t11_feasible_r1_candidate",
+    "usage": {
+      "input": 3938,
+      "output": 120,
+      "cache_hit": 1792,
+      "cache_miss": 2146,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 2.249597600020934
+    },
+    "error": null
+  },
+  {
+    "id": "A_t11_feasible_r2_candidate",
+    "usage": {
+      "input": 3938,
+      "output": 126,
+      "cache_hit": 3712,
+      "cache_miss": 226,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.3973633000277914
+    },
+    "error": null
+  },
+  {
+    "id": "A_t11_feasible_r2_direct",
+    "usage": {
+      "input": 3180,
+      "output": 133,
+      "cache_hit": 2944,
+      "cache_miss": 236,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 2.1069609000114724
+    },
+    "error": null
+  },
+  {
+    "id": "A_t16_conflict_r1_direct",
+    "usage": {
+      "input": 3463,
+      "output": 272,
+      "cache_hit": 1664,
+      "cache_miss": 1799,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 3.693410500010941
+    },
+    "error": null
+  },
+  {
+    "id": "A_t16_conflict_r1_candidate",
+    "usage": {
+      "input": 3990,
+      "output": 350,
+      "cache_hit": 1920,
+      "cache_miss": 2070,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 4.1769978000666015
+    },
+    "error": null
+  },
+  {
+    "id": "A_t16_conflict_r2_candidate",
+    "usage": {
+      "input": 3948,
+      "output": 300,
+      "cache_hit": 3456,
+      "cache_miss": 492,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 3.4017135999165475
+    },
+    "error": null
+  },
+  {
+    "id": "A_t16_conflict_r2_direct",
+    "usage": {
+      "input": 4013,
+      "output": 634,
+      "cache_hit": 2688,
+      "cache_miss": 1325,
+      "requests": 2,
+      "unknown": 0,
+      "model_seconds": 4.37011410004925
+    },
+    "error": null
+  },
+  {
+    "id": "A_t16_feasible_r1_direct",
+    "usage": {
+      "input": 3075,
+      "output": 129,
+      "cache_hit": 1664,
+      "cache_miss": 1411,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.6637993000331335
+    },
+    "error": null
+  },
+  {
+    "id": "A_t16_feasible_r1_candidate",
+    "usage": {
+      "input": 3719,
+      "output": 102,
+      "cache_hit": 1664,
+      "cache_miss": 2055,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.6468697999953292
+    },
+    "error": null
+  },
+  {
+    "id": "A_t16_feasible_r2_candidate",
+    "usage": {
+      "input": 3719,
+      "output": 105,
+      "cache_hit": 3584,
+      "cache_miss": 135,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.2115956000052392
+    },
+    "error": null
+  },
+  {
+    "id": "A_t16_feasible_r2_direct",
+    "usage": {
+      "input": 3075,
+      "output": 126,
+      "cache_hit": 2941,
+      "cache_miss": 134,
+      "requests": 1,
+      "unknown": 0,
+      "model_seconds": 1.453392299998086
+    },
+    "error": null
+  },
+  {
+    "id": "B_t11_conflict_r1_analyze",
+    "usage": {
+      "input": 17692,
+      "output": 1701,
+      "cache_hit": 7808,
+      "cache_miss": 9884,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 14.30127719999291
+    },
+    "error": null
+  },
+  {
+    "id": "B_t11_conflict_r1_clarify",
+    "usage": {
+      "input": 12065,
+      "output": 885,
+      "cache_hit": 5376,
+      "cache_miss": 6689,
+      "requests": 6,
+      "unknown": 0,
+      "model_seconds": 11.136280400038231
+    },
+    "error": null
+  },
+  {
+    "id": "B_t11_conflict_r2_clarify",
+    "usage": {
+      "input": 12050,
+      "output": 758,
+      "cache_hit": 6016,
+      "cache_miss": 6034,
+      "requests": 6,
+      "unknown": 0,
+      "model_seconds": 9.484328699996695
+    },
+    "error": null
+  },
+  {
+    "id": "B_t11_conflict_r2_analyze",
+    "usage": {
+      "input": 17676,
+      "output": 1742,
+      "cache_hit": 8448,
+      "cache_miss": 9228,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 16.886351799883414
+    },
+    "error": null
+  },
+  {
+    "id": "B_t16_conflict_r1_analyze",
+    "usage": {
+      "input": 16458,
+      "output": 1385,
+      "cache_hit": 7808,
+      "cache_miss": 8650,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 11.539207400055602
+    },
+    "error": null
+  },
+  {
+    "id": "B_t16_conflict_r1_clarify",
+    "usage": {
+      "input": 11592,
+      "output": 847,
+      "cache_hit": 5376,
+      "cache_miss": 6216,
+      "requests": 6,
+      "unknown": 0,
+      "model_seconds": 10.181882400007453
+    },
+    "error": null
+  },
+  {
+    "id": "B_t16_conflict_r2_clarify",
+    "usage": {
+      "input": 11592,
+      "output": 762,
+      "cache_hit": 6016,
+      "cache_miss": 5576,
+      "requests": 6,
+      "unknown": 0,
+      "model_seconds": 8.7535029000137
+    },
+    "error": null
+  },
+  {
+    "id": "B_t16_conflict_r2_analyze",
+    "usage": {
+      "input": 16463,
+      "output": 1352,
+      "cache_hit": 8832,
+      "cache_miss": 7631,
+      "requests": 8,
+      "unknown": 0,
+      "model_seconds": 13.290285299997777
+    },
+    "error": null
+  }
+]

@@ -1,0 +1,2 @@
+# Frozen code/config and archived evidence must preserve their original bytes.
+* -text

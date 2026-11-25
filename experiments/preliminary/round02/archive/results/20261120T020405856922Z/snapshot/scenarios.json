@@ -1,0 +1,38 @@
+[
+  {
+    "id": "target_after_lookup",
+    "name": "查询后更改尺码",
+    "kind": "exchange",
+    "goal": "为已送达的衬衫办理同款换货，使用客户最新尺码，告知差价并取得该方案确认。",
+    "facts": {"identity": "verified", "status": "delivered", "target": "M", "old_price": 68, "inventory_spec": null, "in_stock": null, "price_spec": null, "new_price": null, "quote": null, "confirmation": null},
+    "catalog": {"M": {"in_stock": true, "price": 68}, "L": {"in_stock": true, "price": 84}},
+    "event": {"after_step": 1, "updates": {"target": "L"}, "message": "客户：刚才说的 M 改成 L，请按 L 办理。"},
+    "expected_event_review": ["A", "D", "C", "R"],
+    "expected_preserved": ["I", "E"],
+    "reference": {"unchanged": ["lookup", "quote", "confirm", "submit"], "changed": ["lookup", "lookup", "quote", "confirm", "submit"]}
+  },
+  {
+    "id": "price_after_quote",
+    "name": "整理方案后价格变化",
+    "kind": "exchange",
+    "goal": "为已送达的衬衫办理同款 L 码换货，以最新报价告知差价并取得该方案确认。",
+    "facts": {"identity": "verified", "status": "delivered", "target": "L", "old_price": 68, "inventory_spec": "L", "in_stock": true, "price_spec": "L", "new_price": 84, "quote": null, "confirmation": null},
+    "catalog": {"L": {"in_stock": true, "price": 84}},
+    "event": {"after_step": 1, "updates": {"new_price": 90}, "message": "价格系统：同款 L 的最新价格由 84 更新为 90；库存仍有货。"},
+    "expected_event_review": ["D", "C", "R"],
+    "expected_preserved": ["I", "E", "A"],
+    "reference": {"unchanged": ["quote", "confirm", "submit"], "changed": ["quote", "quote", "confirm", "submit"]}
+  },
+  {
+    "id": "status_after_confirmation",
+    "name": "确认后订单离开可修改阶段",
+    "kind": "address",
+    "goal": "将该订单配送地址改为虚构地址 B；若订单已不可修改，明确说明阻断原因并结束本项业务。",
+    "facts": {"identity": "verified", "status": "pending", "address": "虚构地址 B", "confirmation": null, "account_default": "虚构地址 A"},
+    "catalog": {},
+    "event": {"after_step": 1, "updates": {"status": "processed"}, "message": "订单系统：订单已处理，已离开待处理阶段。"},
+    "expected_event_review": ["E", "R"],
+    "expected_preserved": ["I", "C"],
+    "reference": {"unchanged": ["confirm", "submit"], "changed": ["confirm", "explain"]}
+  }
+]

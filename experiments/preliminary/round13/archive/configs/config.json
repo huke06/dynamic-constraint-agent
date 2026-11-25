@@ -1,0 +1,19 @@
+{
+  "task": "52",
+  "repeats": 2,
+  "groups": [
+    "direct",
+    "candidate"
+  ],
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": false,
+  "timeout": 60,
+  "retries": 0,
+  "budgets": {
+    "agent_calls": 24,
+    "agent_tokens_soft": 60000,
+    "work_steps": 9,
+    "decision_attempts": 12
+  }
+}

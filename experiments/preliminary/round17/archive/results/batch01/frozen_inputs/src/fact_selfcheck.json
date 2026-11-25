@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "tests": [
+    "camera exists but unavailable distinguished",
+    "no later evidence before cutoff",
+    "helmet official ref12 true overrides masked ref8 null",
+    "payment ID not last_four",
+    "exact signed Decimal difference",
+    "exchange state differs from modify-pending state",
+    "already-write assertion checked at time",
+    "latest valid unknown retained and failed observation ignored",
+    "maximum/scope/order-ID distinct types and JSON numeric serialization",
+    "Markdown-only quote alignment preserves exact factual characters"
+  ],
+  "model_calls": 0
+}

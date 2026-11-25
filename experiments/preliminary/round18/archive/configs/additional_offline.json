@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "checks": {
+    "6free_first_prompt_identical": true,
+    "6framework_first_prompt_identical": true,
+    "6_premature_stop_fails": true,
+    "6_correct_changed_outcome_passes": true,
+    "6_hidden_future_not_in_payload": true,
+    "27free_first_prompt_identical": true,
+    "27framework_first_prompt_identical": true,
+    "27_premature_stop_fails": true,
+    "27_correct_changed_outcome_passes": true,
+    "27_hidden_future_not_in_payload": true,
+    "75free_first_prompt_identical": true,
+    "75framework_first_prompt_identical": true,
+    "75_premature_stop_fails": true,
+    "75_correct_changed_outcome_passes": true,
+    "75_hidden_future_not_in_payload": true,
+    "77free_first_prompt_identical": true,
+    "77framework_first_prompt_identical": true,
+    "77_premature_stop_fails": true,
+    "77_correct_changed_outcome_passes": true,
+    "77_hidden_future_not_in_payload": true
+  }
+}

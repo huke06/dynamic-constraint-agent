@@ -1,0 +1,213 @@
+{
+  "old_t93_conflict_r1": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+  },
+  "old_t93_conflict_r2": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+  },
+  "old_t93_feasible_r1": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+  },
+  "old_t93_feasible_r2": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+  },
+  "old_t29_dynamic_r1": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+  },
+  "old_t29_dynamic_r2": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+  },
+  "old_t102_withdrawn_r1": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+  },
+  "old_t102_withdrawn_r2": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+  },
+  "A_t26_conflict_r1_direct": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "mandatory_analysis_overstatement",
+        "evidence": "Reason says analysis is needed before ANY clarification. Current common contract permits direct feasible clarification, so this is a phantom prerequisite; the analyze work itself remains appropriate."
+      }
+    ],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t26_conflict_r1_candidate": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t26_conflict_r2_candidate": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t26_conflict_r2_direct": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "semantic_analysis_conflict_cause_error",
+        "quote": "The whole-amount cap is not the binding issue here; the conflict is that the exact requested specification is unavailable.",
+        "evidence": "Current requested SKU2243454707 exists and is in stock, whole difference +5.95 exceeds cap -3.54. Program/state and original cognitive reason correctly identify the cap. Semantic execution input carries exact_feasible empty but lacks an explicit current-conflict cause/current-whole-difference field, allowing wrong interpretation."
+      }
+    ],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t26_feasible_r1_direct": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t26_feasible_r1_candidate": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t26_feasible_r2_candidate": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t26_feasible_r2_direct": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t35_conflict_r1_direct": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "mandatory_analysis_overstatement",
+        "evidence": "Reason says analysis is needed before ANY clarification. Current common contract permits direct feasible clarification, so this is a phantom prerequisite; the analyze work itself remains appropriate."
+      },
+      {
+        "kind": "amount_comparison_reference_ambiguous",
+        "quote": "price is 285.81, a whole difference of -16.35 versus the current 321.18",
+        "evidence": "Original item price289.69; other item signed delta-12.47; native whole difference(285.81-289.69)-12.47=-16.35. Comparing offer price285.81 with current requested replacement321.18 instead gives-35.37. Values themselves are supported but versus-current phrasing is ambiguous; do not automatically judge a wrong amount or mark clean quality."
+      }
+    ],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t35_conflict_r1_candidate": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t35_conflict_r2_candidate": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t35_conflict_r2_direct": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t35_feasible_r1_direct": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t35_feasible_r1_candidate": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t35_feasible_r2_candidate": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "A_t35_feasible_r2_direct": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "B_t26_conflict_r1_analyze": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "B_t26_conflict_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "B_t26_conflict_r2_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "B_t26_conflict_r2_analyze": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "B_t35_conflict_r1_analyze": {
+    "status": "pending",
+    "issues": [
+      {
+        "kind": "amount_comparison_reference_ambiguous",
+        "quote": "price is 285.81, a whole difference of -16.35 versus the current 321.18",
+        "evidence": "Original item price289.69; other item signed delta-12.47; native whole difference(285.81-289.69)-12.47=-16.35. Comparing offer price285.81 with current requested replacement321.18 instead gives-35.37. Values themselves are supported but versus-current phrasing is ambiguous; do not automatically judge a wrong amount or mark clean quality."
+      }
+    ],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "B_t35_conflict_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "B_t35_conflict_r2_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  },
+  "B_t35_conflict_r2_analyze": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant original-quote evidence audit, not independent blind review; native fact evidence has priority. In analysis context no_exact_match is interpreted as no feasible exact match under all current constraints, not catalogue nonexistence unless explicitly asserted. All original wording retained.",
+    "simulation_deviation": []
+  }
+}

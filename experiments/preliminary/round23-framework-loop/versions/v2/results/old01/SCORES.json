@@ -1,0 +1,522 @@
+[
+  {
+    "id": "old_t93_conflict_r1",
+    "task": "93",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 15.012731400027405,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "2216662955",
+      "parameters": {
+        "variant_id": "1684786391"
+      },
+      "evidence_refs": [
+        8
+      ],
+      "expected": "User grants separate permission for the changed specifications (screen size 17-inch, storage 1TB SSD) of variant 1684786391, or selects another negotiable variant.",
+      "reason": "No exact match exists for the current 13-inch/i7/32GB/512GB black spec within the -9.68 cap; variant 1684786391 is the closest negotiable alternative (matches color, processor, RAM; net -12.46) and requires new user specification permission before any plan can be prepared."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+    },
+    "usage": {
+      "input": 15107,
+      "output": 1097,
+      "cache_hit": 9728,
+      "cache_miss": 5379,
+      "requests": 7,
+      "unknown": 0,
+      "model_seconds": 14.599491400003899
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "2216662955",
+        "variant": "1684786391",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 2216662955 with SKU 1684786391, if available and whole signed difference <= -9.68. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "old_t93_conflict_r2",
+    "task": "93",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 13.264518800016958,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "clarify",
+      "object": "2216662955",
+      "parameters": {
+        "variant_id": "1684786391"
+      },
+      "evidence_refs": [
+        8
+      ],
+      "expected": "User grants separate permission for the 17-inch/1TB SSD specification (variant 1684786391) or selects another negotiable alternative, enabling a feasible plan.",
+      "reason": "No exact match exists for the requested 13-inch/i7/32GB/512GB black spec within the -9.68 cap; a negotiable alternative requires new user specification permission before preparing."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+    },
+    "usage": {
+      "input": 15111,
+      "output": 1105,
+      "cache_hit": 9728,
+      "cache_miss": 5383,
+      "requests": 7,
+      "unknown": 0,
+      "model_seconds": 12.828890699951444
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "2216662955",
+        "variant": "1684786391",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 2216662955 with SKU 1684786391, if available and whole signed difference <= -9.68. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "old_t93_feasible_r1",
+    "task": "93",
+    "state": "feasible",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 8.8498795000487,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W4073673",
+      "parameters": {},
+      "evidence_refs": [
+        11,
+        8,
+        9
+      ],
+      "expected": "Store a feasible current plan to exchange original item 2216662955 to SKU 1684786391 (black/i7/32GB/17-inch/1TB SSD, price 2508.06, whole difference -12.46 within limit), then request final approval.",
+      "reason": "CURRENT_EFFECTIVE_SPECIFICATION supersedes prior SKU and names exact feasible variant 1684786391 with signed difference -12.46 within the 10000 limit; no current plan exists yet, so prepare the plan before seeking approval."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+    },
+    "usage": {
+      "input": 12445,
+      "output": 594,
+      "cache_hit": 8320,
+      "cache_miss": 4125,
+      "requests": 5,
+      "unknown": 0,
+      "model_seconds": 8.290130999987014
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "2216662955",
+        "variant": "1684786391",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 2216662955 with SKU 1684786391, if available and whole signed difference <= 10000.00. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "old_t93_feasible_r2",
+    "task": "93",
+    "state": "feasible",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 7.417867499985732,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W4073673",
+      "parameters": {},
+      "evidence_refs": [
+        11,
+        8,
+        9
+      ],
+      "expected": "Store a feasible current plan to exchange original item 2216662955 for SKU 1684786391 (black, i7, 32GB, 17-inch, 1TB SSD) at 2508.06, whole signed difference -12.46 within the 10000.00 limit, then present the full proposal for separate final approval.",
+      "reason": "The current effective specification explicitly supersedes the prior SKU and requests SKU 1684786391, which is available and exactly matches the requested options with a whole difference of -12.46 within the hard constraint; this is specification permission only, so prepare the plan and seek final approval."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+    },
+    "usage": {
+      "input": 12445,
+      "output": 593,
+      "cache_hit": 6912,
+      "cache_miss": 5533,
+      "requests": 5,
+      "unknown": 0,
+      "model_seconds": 7.068568399990909
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": [
+      {
+        "item": "2216662955",
+        "variant": "1684786391",
+        "env_matches_actual_offer": true,
+        "new_actual_user_messages": [
+          {
+            "role": "user",
+            "content": "Replace my CURRENT request for original item 2216662955 with SKU 1684786391, if available and whole signed difference <= 10000.00. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "old_t29_dynamic_r1",
+    "task": "29",
+    "state": "dynamic",
+    "first": null,
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 11.247184499981813,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W7181492",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        6,
+        8,
+        10
+      ],
+      "expected": "Store a feasible complete exchange plan for order #W7181492 with both requested variants (5206946487 and 8277474082) in stock, net difference -25.26, refund to paypal_3024827, then request explicit transaction approval.",
+      "reason": "Both requested variants are in stock and match the current effective specification exactly, so a complete feasible plan can be prepared; specification permission alone is not transaction approval, so confirmation must follow."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+    },
+    "usage": {
+      "input": 19170,
+      "output": 877,
+      "cache_hit": 10112,
+      "cache_miss": 9058,
+      "requests": 7,
+      "unknown": 0,
+      "model_seconds": 10.66287729999749
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "old_t29_dynamic_r2",
+    "task": "29",
+    "state": "dynamic",
+    "first": null,
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 12.931380700028967,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "prepare",
+      "object": "#W7181492",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        6,
+        8,
+        10
+      ],
+      "expected": "Store a feasible complete exchange plan for order #W7181492 with both requested variants (5206946487 and 8277474082), net difference -25.26, refund to paypal_3024827, then request explicit transaction approval.",
+      "reason": "Both requested variants are in stock and match the current effective specification exactly; the combined plan is feasible and only specification permission exists, so prepare the plan and then confirm with the user."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+    },
+    "usage": {
+      "input": 19170,
+      "output": 920,
+      "cache_hit": 11520,
+      "cache_miss": 7650,
+      "requests": 7,
+      "unknown": 0,
+      "model_seconds": 12.341013400058728
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "old_t102_withdrawn_r1",
+    "task": "102",
+    "state": "withdrawn",
+    "first": null,
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 4.859603799995966,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "confirm",
+      "object": "#W3445693",
+      "parameters": {},
+      "evidence_refs": [
+        12,
+        13
+      ],
+      "expected": "User explicitly confirms the complete exchange plan (item 6341716129 → 9534205511, net difference -49.88, refund to credit_card_1620755) so submit is enabled",
+      "reason": "Current plan is valid and feasible, but current_full_authorization is false; the quoted approval was not valid for the current plan, so explicit current complete-plan confirmation is required before submitting."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+    },
+    "usage": {
+      "input": 7245,
+      "output": 297,
+      "cache_hit": 3840,
+      "cache_miss": 3405,
+      "requests": 3,
+      "unknown": 0,
+      "model_seconds": 4.674224700022023
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  },
+  {
+    "id": "old_t102_withdrawn_r2",
+    "task": "102",
+    "state": "withdrawn",
+    "first": null,
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 5.389544600038789,
+    "outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "first_choice": null,
+    "first_raw_decision": {
+      "work_type": "confirm",
+      "object": "#W3445693",
+      "parameters": {},
+      "evidence_refs": [
+        12,
+        13
+      ],
+      "expected": "User explicitly confirms the complete exchange plan (item 6341716129 → 9534205511, net difference -49.88, refund to credit_card_1620755) so submit can proceed",
+      "reason": "Current plan is valid and feasible, but current_full_authorization is false; the quoted approval was not valid for the current plan, so explicit current complete-plan confirmation is required before submitting."
+    },
+    "first_executed": true,
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Assistant post-run evidence audit of original/current/latest source, program generated factual clarification, current authorization quotes, local advice against matches_current/changes_current, and raw actions. No external judge API."
+    },
+    "usage": {
+      "input": 7245,
+      "output": 290,
+      "cache_hit": 6656,
+      "cache_miss": 589,
+      "requests": 3,
+      "unknown": 0,
+      "model_seconds": 5.206509399984498
+    },
+    "rejections": [],
+    "repeated_work": [],
+    "processed_reference_reuse": [],
+    "unsafe_submit_attempts": [],
+    "actual_permission_checks": []
+  }
+]

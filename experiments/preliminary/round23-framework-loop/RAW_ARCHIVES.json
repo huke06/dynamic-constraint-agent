@@ -1,0 +1,1832 @@
+{
+  "original_locations_preserved": true,
+  "external_root": "D:\\experimentn\\research-raw-archives\\round23-framework-loop",
+  "raw_files": [
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\model_calls.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\model_calls.jsonl",
+      "sha256": "588eb01a44f2544edcc5bdc44982e7f35401d0fae7cbcde1c866c0b3fa3847c0",
+      "bytes": 445610
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\old_t93_conflict_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\old_t93_conflict_r1_final.json",
+      "sha256": "2ee54ea3331250e6a4775ce640e2adbebc242532c8cae8a01c4b915181d85836",
+      "bytes": 68060
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\old_t93_conflict_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\old_t93_conflict_r1_start.json",
+      "sha256": "bb301a2a65551f8117f0ee403672fa42627f3176674bbe14dc2137282020f1b7",
+      "bytes": 52863
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\old_t93_conflict_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\old_t93_conflict_r1_trace.json",
+      "sha256": "9bb2dd3c9db55ee412d9a3d162149a91b4dcd6b7d2dc5e3f948779c350f12f70",
+      "bytes": 1125597
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\old_t93_conflict_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\old_t93_conflict_r1_visible_start.json",
+      "sha256": "afc851098105bf49a578fcb9c7878bf29df27f7719f967b2e81a1807f6947069",
+      "bytes": 3755
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\old_t93_feasible_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\old_t93_feasible_r1_final.json",
+      "sha256": "af5bda88f6f9a10762105b7d87f1ad0cd639747ec8159ca210f32fa5e0488ee3",
+      "bytes": 172589
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\old_t93_feasible_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\old_t93_feasible_r1_start.json",
+      "sha256": "de40c1abf7122f5fbe317769aa718c487fab972b5d7182df205cd64f1d6dcb7e",
+      "bytes": 52868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\old_t93_feasible_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\old_t93_feasible_r1_trace.json",
+      "sha256": "7e2c896feb15e6510e84131695cd65bca08db0dadcda9fb9c19454584e073e54",
+      "bytes": 13932761
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\old_t93_feasible_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\old_t93_feasible_r1_visible_start.json",
+      "sha256": "d5bb1b76ddc724a42c87a2a057c2cffa5a43e7b2f41e4bf2cf6b70a2b1808d0e",
+      "bytes": 5295
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot01\\request_events.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot01\\request_events.jsonl",
+      "sha256": "009f3e49b1e7a0a6ef20e86e24a409266e61afd5176b1ee362eb3e4246489c6e",
+      "bytes": 409227
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\model_calls.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\model_calls.jsonl",
+      "sha256": "64996257a49ef69223bcaae9b72ac45995e9e20a56ad1e050f60a42872dda309",
+      "bytes": 767985
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\old_t93_conflict_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\old_t93_conflict_r1_final.json",
+      "sha256": "c648434622701ea6e3aac14d3e4530ec53eebec99db5ed2bb22f4529bca51b40",
+      "bytes": 189651
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\old_t93_conflict_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\old_t93_conflict_r1_start.json",
+      "sha256": "bb301a2a65551f8117f0ee403672fa42627f3176674bbe14dc2137282020f1b7",
+      "bytes": 52863
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\old_t93_conflict_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\old_t93_conflict_r1_trace.json",
+      "sha256": "f4a5e4e55e84775b3be386016baf272ce44f46bba7fa8da23f822639154e182b",
+      "bytes": 15582975
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\old_t93_conflict_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\old_t93_conflict_r1_visible_start.json",
+      "sha256": "afc851098105bf49a578fcb9c7878bf29df27f7719f967b2e81a1807f6947069",
+      "bytes": 3755
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\old_t93_feasible_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\old_t93_feasible_r1_final.json",
+      "sha256": "3bcf7885e2689232a65d1b78aadee7ec26f7cf8c18ef662c3cdc77b7281d51a9",
+      "bytes": 181427
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\old_t93_feasible_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\old_t93_feasible_r1_start.json",
+      "sha256": "de40c1abf7122f5fbe317769aa718c487fab972b5d7182df205cd64f1d6dcb7e",
+      "bytes": 52868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\old_t93_feasible_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\old_t93_feasible_r1_trace.json",
+      "sha256": "cbc7198c5c114f6e7e06448b5b548abe5d250fb994a101a47a0f068a9c7d80c8",
+      "bytes": 14491323
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\old_t93_feasible_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\old_t93_feasible_r1_visible_start.json",
+      "sha256": "d5bb1b76ddc724a42c87a2a057c2cffa5a43e7b2f41e4bf2cf6b70a2b1808d0e",
+      "bytes": 5295
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot02\\request_events.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot02\\request_events.jsonl",
+      "sha256": "17253375aaea26b1a72c95d36d34cb39833e3909117ec01c667d4f53ee470bc3",
+      "bytes": 709101
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\model_calls.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\model_calls.jsonl",
+      "sha256": "1f1c29b66a52142bb681d45e29f7db883c212d89f79f741709eb0b4c0ffa3a8b",
+      "bytes": 140223
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\old_t93_conflict_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\old_t93_conflict_r1_final.json",
+      "sha256": "03750e5c370f4b8db642d907f017ad1fd8ae7cd76cf06b501a8a48c2f7e3d96a",
+      "bytes": 90825
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\old_t93_conflict_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\old_t93_conflict_r1_start.json",
+      "sha256": "bb301a2a65551f8117f0ee403672fa42627f3176674bbe14dc2137282020f1b7",
+      "bytes": 52863
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\old_t93_conflict_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\old_t93_conflict_r1_trace.json",
+      "sha256": "c5554c05a27f6c65cefae81b005fb0e77972ac0661de3034bb0477a3c961ff13",
+      "bytes": 1512707
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\old_t93_conflict_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\old_t93_conflict_r1_visible_start.json",
+      "sha256": "b6add1b136c0e15270eb02a4de0e521498c118edc0dba8d2d5ed63dff1df33b4",
+      "bytes": 3919
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\old_t93_feasible_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\old_t93_feasible_r1_final.json",
+      "sha256": "18d7871bd186062a7eb7229326670c8b854561664fa5c255d40455dff386f26d",
+      "bytes": 81882
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\old_t93_feasible_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\old_t93_feasible_r1_start.json",
+      "sha256": "de40c1abf7122f5fbe317769aa718c487fab972b5d7182df205cd64f1d6dcb7e",
+      "bytes": 52868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\old_t93_feasible_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\old_t93_feasible_r1_trace.json",
+      "sha256": "5a66516a3087c69507ee348d9222d617bdabf08136aa995dca218397212e145e",
+      "bytes": 1225719
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\old_t93_feasible_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\old_t93_feasible_r1_visible_start.json",
+      "sha256": "a55885c9ad35e9024e9b9812082092b7e3333c4efe78727e01721c7ffc5c863a",
+      "bytes": 5459
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\pilot03\\request_events.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\pilot03\\request_events.jsonl",
+      "sha256": "3bc36fdb30246e3300f6e9e1406f776c9f640cbecb1da0cdd01a7379fe7ae32d",
+      "bytes": 126802
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\model_calls.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\model_calls.jsonl",
+      "sha256": "5a48abd53a83c84053393428750c5444815047e67ba46abdbd3ef53d02f668f7",
+      "bytes": 562343
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t102_withdrawn_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t102_withdrawn_r1_final.json",
+      "sha256": "2a9cd8446d8ed086ba699eede385464f662ffce399ab8c87346d1de6a752a322",
+      "bytes": 63720
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t102_withdrawn_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t102_withdrawn_r1_start.json",
+      "sha256": "6f94d3df120a16a007f42742300df4ae31d72390d3693c7301c0e12ebfa3f07e",
+      "bytes": 47515
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t102_withdrawn_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t102_withdrawn_r1_trace.json",
+      "sha256": "f191e5bbf429dc630303f67a169a296ac2b35c17fdfd30ac86c6645b6c3a024e",
+      "bytes": 531014
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t102_withdrawn_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t102_withdrawn_r1_visible_start.json",
+      "sha256": "d40e1c1abc2fdb0a978e9261177edbf31e69a1ba6a8359a4482d127b01a9deaa",
+      "bytes": 6214
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t102_withdrawn_r2_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t102_withdrawn_r2_final.json",
+      "sha256": "289568eb9da33097fb1f3f5d54c1b3b613876faea63c99026b32914ea396aee7",
+      "bytes": 63868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t102_withdrawn_r2_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t102_withdrawn_r2_start.json",
+      "sha256": "6f94d3df120a16a007f42742300df4ae31d72390d3693c7301c0e12ebfa3f07e",
+      "bytes": 47515
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t102_withdrawn_r2_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t102_withdrawn_r2_trace.json",
+      "sha256": "1764e04a857c934b4da45a87d28f64ecae2ef0cb1943dec8ecc4a64349313dbf",
+      "bytes": 531816
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t102_withdrawn_r2_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t102_withdrawn_r2_visible_start.json",
+      "sha256": "d40e1c1abc2fdb0a978e9261177edbf31e69a1ba6a8359a4482d127b01a9deaa",
+      "bytes": 6214
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t29_dynamic_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t29_dynamic_r1_final.json",
+      "sha256": "923cd30c041a7ff0815817cb4892131dcac6822d908321f3c59bedabb1904316",
+      "bytes": 112017
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t29_dynamic_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t29_dynamic_r1_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t29_dynamic_r1_trace.json",
+      "sha256": "ec02afec85b5f07a52e8e19623f34bf6a0704673b212895f535f5cc872e5745f",
+      "bytes": 2061210
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t29_dynamic_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t29_dynamic_r1_visible_start.json",
+      "sha256": "06faefbe0fe844d1e29514c55c437c2082fe698c82cec3212de1b01cc2b6aceb",
+      "bytes": 6135
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t29_dynamic_r2_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t29_dynamic_r2_final.json",
+      "sha256": "9064b79b43a9dfb4305f49dc6d1992048588cb32c76b470fa11a276385d92aab",
+      "bytes": 111591
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t29_dynamic_r2_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t29_dynamic_r2_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t29_dynamic_r2_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t29_dynamic_r2_trace.json",
+      "sha256": "6166cd83e2f4aa811b44928d42862f0809b76b5a9535510c7b0704593ae0241b",
+      "bytes": 2058154
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t29_dynamic_r2_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t29_dynamic_r2_visible_start.json",
+      "sha256": "06faefbe0fe844d1e29514c55c437c2082fe698c82cec3212de1b01cc2b6aceb",
+      "bytes": 6135
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_conflict_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_conflict_r1_final.json",
+      "sha256": "c7abc28ac9ab04a92062e9f420d3f114e8c47c0f8e0599f3a70f1c50a5eb8fa4",
+      "bytes": 90495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_conflict_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_conflict_r1_start.json",
+      "sha256": "bb301a2a65551f8117f0ee403672fa42627f3176674bbe14dc2137282020f1b7",
+      "bytes": 52863
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_conflict_r1_trace.json",
+      "sha256": "9aad49fda418665b52b0cf184fceed40464efab6079bbb603c682c118b830226",
+      "bytes": 1510189
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_conflict_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_conflict_r1_visible_start.json",
+      "sha256": "b6add1b136c0e15270eb02a4de0e521498c118edc0dba8d2d5ed63dff1df33b4",
+      "bytes": 3919
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_conflict_r2_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_conflict_r2_final.json",
+      "sha256": "9cfe7e67f2c319fa5f07d6cd0e220ec95f6ce736671b5735d21ebbf69c8df09c",
+      "bytes": 91085
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_conflict_r2_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_conflict_r2_start.json",
+      "sha256": "bb301a2a65551f8117f0ee403672fa42627f3176674bbe14dc2137282020f1b7",
+      "bytes": 52863
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_conflict_r2_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_conflict_r2_trace.json",
+      "sha256": "8a56a3c4caee6c98ca01553b77b69737c015c6579eb3383e10fbe3bcd380af59",
+      "bytes": 1518089
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_conflict_r2_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_conflict_r2_visible_start.json",
+      "sha256": "b6add1b136c0e15270eb02a4de0e521498c118edc0dba8d2d5ed63dff1df33b4",
+      "bytes": 3919
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_feasible_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_feasible_r1_final.json",
+      "sha256": "46e1f6b011f77769b972420192e1ed93ecc3210bc5b27575ff38dbb6b6b6df71",
+      "bytes": 86878
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_feasible_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_feasible_r1_start.json",
+      "sha256": "de40c1abf7122f5fbe317769aa718c487fab972b5d7182df205cd64f1d6dcb7e",
+      "bytes": 52868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_feasible_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_feasible_r1_trace.json",
+      "sha256": "d95c92bc81f1f6ea925c81dc57ccf9a19e3d6837578c88864402f7752ff1cc4d",
+      "bytes": 1436549
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_feasible_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_feasible_r1_visible_start.json",
+      "sha256": "a55885c9ad35e9024e9b9812082092b7e3333c4efe78727e01721c7ffc5c863a",
+      "bytes": 5459
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_feasible_r2_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_feasible_r2_final.json",
+      "sha256": "26cd4ce335bd20563357da9ad55d041f9415fa28a0e2e2885a8270e6ad6d3f2d",
+      "bytes": 86878
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_feasible_r2_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_feasible_r2_start.json",
+      "sha256": "de40c1abf7122f5fbe317769aa718c487fab972b5d7182df205cd64f1d6dcb7e",
+      "bytes": 52868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_feasible_r2_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_feasible_r2_trace.json",
+      "sha256": "d5363199f1ea88a7649574005b7db8d58b0d6889307fac48f770f98e502a89fc",
+      "bytes": 1436724
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\old_t93_feasible_r2_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\old_t93_feasible_r2_visible_start.json",
+      "sha256": "a55885c9ad35e9024e9b9812082092b7e3333c4efe78727e01721c7ffc5c863a",
+      "bytes": 5459
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\old01\\request_events.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\old01\\request_events.jsonl",
+      "sha256": "204472f1713a1497d55b0885ec01b207f93c4982f6bdabcb5f08b927587b3ee4",
+      "bytes": 516260
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r1_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r1_candidate_final.json",
+      "sha256": "afc4d77d381af656b99eddb102c8beb2907880d0adc7f65f12a00c91c727552e",
+      "bytes": 94437
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r1_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r1_candidate_start.json",
+      "sha256": "b62f42faa00b6ba0ec816e17ab75a6b336de7572aa7ff2b1b076757931dc8abb",
+      "bytes": 77779
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r1_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r1_candidate_trace.json",
+      "sha256": "f34775a0ffa968f363c526c585570cfda17e400b62da9cef7c9416402368eb0f",
+      "bytes": 229716
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r1_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r1_candidate_visible_start.json",
+      "sha256": "4dc363639e21553c4cae9553410015aa4455bdd43892b576b6f4fc0add5fadc0",
+      "bytes": 6799
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r1_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r1_direct_final.json",
+      "sha256": "00a1ea8d6ad95f35250cfb6f9b737f659c37e81808298e2cf782d68739a94d30",
+      "bytes": 95173
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r1_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r1_direct_start.json",
+      "sha256": "b62f42faa00b6ba0ec816e17ab75a6b336de7572aa7ff2b1b076757931dc8abb",
+      "bytes": 77779
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r1_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r1_direct_trace.json",
+      "sha256": "13a3ee87d32554ce2efdc325ee968116e195986ff67ed42896cf1af2f8bdc226",
+      "bytes": 226701
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r1_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r1_direct_visible_start.json",
+      "sha256": "4dc363639e21553c4cae9553410015aa4455bdd43892b576b6f4fc0add5fadc0",
+      "bytes": 6799
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r2_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r2_candidate_final.json",
+      "sha256": "230b1777f259135dba782c9a7124c1d6a4cbfae4328a8684ef703be8578949c5",
+      "bytes": 95003
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r2_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r2_candidate_start.json",
+      "sha256": "b62f42faa00b6ba0ec816e17ab75a6b336de7572aa7ff2b1b076757931dc8abb",
+      "bytes": 77779
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r2_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r2_candidate_trace.json",
+      "sha256": "b315759e70bcf482dd102b0495d014d560c4ad782a895cbaefadee56aeb1ac72",
+      "bytes": 230751
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r2_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r2_candidate_visible_start.json",
+      "sha256": "4dc363639e21553c4cae9553410015aa4455bdd43892b576b6f4fc0add5fadc0",
+      "bytes": 6799
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r2_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r2_direct_final.json",
+      "sha256": "2da702c20dd156c96017617b807b4360bfbb9525f70268c12fdb475d2b066b8e",
+      "bytes": 94917
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r2_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r2_direct_start.json",
+      "sha256": "b62f42faa00b6ba0ec816e17ab75a6b336de7572aa7ff2b1b076757931dc8abb",
+      "bytes": 77779
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r2_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r2_direct_trace.json",
+      "sha256": "0739df01fcb85e1fe52b94e3cf837975c639aa476c346a5fe51862ae5aba2007",
+      "bytes": 226129
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_conflict_r2_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_conflict_r2_direct_visible_start.json",
+      "sha256": "4dc363639e21553c4cae9553410015aa4455bdd43892b576b6f4fc0add5fadc0",
+      "bytes": 6799
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r1_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r1_candidate_final.json",
+      "sha256": "7b15737a467a8fb92a2a2a9f70e34097f362721cd6d36b261a42f05498c38f95",
+      "bytes": 87379
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r1_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r1_candidate_start.json",
+      "sha256": "2f2df30030bf96c6f2ebe77fc9a703f8e09362ada9ad4ece35003a1184d8c477",
+      "bytes": 77782
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r1_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r1_candidate_trace.json",
+      "sha256": "daccbf40bb7e9902f55e27e8a8b1794462f3fdc12cf6bdfd7f2ea5d054f821f4",
+      "bytes": 214482
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r1_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r1_candidate_visible_start.json",
+      "sha256": "b4f64c15dbe68386c38ec97c02099206126685ee273e596ef63a3718a987c184",
+      "bytes": 7485
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r1_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r1_direct_final.json",
+      "sha256": "0d89e1ff80abd19f5ee89cd09f033be37d95800de5be30f011f9a612ec80a366",
+      "bytes": 87531
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r1_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r1_direct_start.json",
+      "sha256": "2f2df30030bf96c6f2ebe77fc9a703f8e09362ada9ad4ece35003a1184d8c477",
+      "bytes": 77782
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r1_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r1_direct_trace.json",
+      "sha256": "62902a244f72af9a3ef7240f92b2a4149c9d2b56c2e90b033c12ea7134a2dbc2",
+      "bytes": 209637
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r1_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r1_direct_visible_start.json",
+      "sha256": "b4f64c15dbe68386c38ec97c02099206126685ee273e596ef63a3718a987c184",
+      "bytes": 7485
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r2_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r2_candidate_final.json",
+      "sha256": "35c58b63e7d2495d9afd6b8a0328d19a3865fdb10747677cadf49acb3628c57c",
+      "bytes": 87443
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r2_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r2_candidate_start.json",
+      "sha256": "2f2df30030bf96c6f2ebe77fc9a703f8e09362ada9ad4ece35003a1184d8c477",
+      "bytes": 77782
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r2_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r2_candidate_trace.json",
+      "sha256": "82f5fcbbce4e4a73fbef9dec239cd65441203e8009774224da2e146455821aef",
+      "bytes": 214642
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r2_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r2_candidate_visible_start.json",
+      "sha256": "b4f64c15dbe68386c38ec97c02099206126685ee273e596ef63a3718a987c184",
+      "bytes": 7485
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r2_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r2_direct_final.json",
+      "sha256": "c9713bc9a6fd35bd020432703591a1484ce222a41d403e867cc5eb654746f0d4",
+      "bytes": 87519
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r2_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r2_direct_start.json",
+      "sha256": "2f2df30030bf96c6f2ebe77fc9a703f8e09362ada9ad4ece35003a1184d8c477",
+      "bytes": 77782
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r2_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r2_direct_trace.json",
+      "sha256": "66db547327779affc727632676b60f0f7dab99e457fa78d8d4ccca237acd1393",
+      "bytes": 209607
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t11_feasible_r2_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t11_feasible_r2_direct_visible_start.json",
+      "sha256": "b4f64c15dbe68386c38ec97c02099206126685ee273e596ef63a3718a987c184",
+      "bytes": 7485
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r1_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r1_candidate_final.json",
+      "sha256": "de39ae304a4aecdf473111ed0072d92435e80d6ce059d24aabd94a5ac7a989f9",
+      "bytes": 77398
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r1_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r1_candidate_start.json",
+      "sha256": "4a4cf998f256b5b17c6c923c0014a692386b6d70a86e53ccaabeba98e890c2b4",
+      "bytes": 73121
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r1_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r1_candidate_trace.json",
+      "sha256": "4df29a55a4ac4e66df0f9c99c8c6285037668f2ce0604565fa792b0b126122de",
+      "bytes": 192541
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r1_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r1_candidate_visible_start.json",
+      "sha256": "3bcb4c8fd2f24bf294130d0eed24ed8d7af909c69ee85669864d6e68bf61aafa",
+      "bytes": 5896
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r1_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r1_direct_final.json",
+      "sha256": "4f42c9b7c233d725b4e1692a2e33c44e4c1b09b4b4275ad06fe96eb95f65773b",
+      "bytes": 76790
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r1_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r1_direct_start.json",
+      "sha256": "4a4cf998f256b5b17c6c923c0014a692386b6d70a86e53ccaabeba98e890c2b4",
+      "bytes": 73121
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r1_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r1_direct_trace.json",
+      "sha256": "2fe134c31d2ec09e383d18842c55253a0f5f0f6819d94f9dcf4b448c49f9ec62",
+      "bytes": 187651
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r1_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r1_direct_visible_start.json",
+      "sha256": "3bcb4c8fd2f24bf294130d0eed24ed8d7af909c69ee85669864d6e68bf61aafa",
+      "bytes": 5896
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r2_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r2_candidate_final.json",
+      "sha256": "bb7ec0101fa85276b7fa31bfc67217ff29b6bb068aac551e1a454b983400b1de",
+      "bytes": 76910
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r2_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r2_candidate_start.json",
+      "sha256": "4a4cf998f256b5b17c6c923c0014a692386b6d70a86e53ccaabeba98e890c2b4",
+      "bytes": 73121
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r2_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r2_candidate_trace.json",
+      "sha256": "fb9f94ecb6885da00d23200a6ad19345606100093d5a3b169f5776757432f0a7",
+      "bytes": 191197
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r2_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r2_candidate_visible_start.json",
+      "sha256": "3bcb4c8fd2f24bf294130d0eed24ed8d7af909c69ee85669864d6e68bf61aafa",
+      "bytes": 5896
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r2_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r2_direct_final.json",
+      "sha256": "ac6c5ad994962e24347b9961c7839c916e6a667ade60d091ad45f0597a3be1be",
+      "bytes": 84381
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r2_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r2_direct_start.json",
+      "sha256": "4a4cf998f256b5b17c6c923c0014a692386b6d70a86e53ccaabeba98e890c2b4",
+      "bytes": 73121
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r2_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r2_direct_trace.json",
+      "sha256": "94678ed9949075b17467b65c3202e90250a6dbcc679373b9012a2dcbb8938d2d",
+      "bytes": 201686
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_conflict_r2_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_conflict_r2_direct_visible_start.json",
+      "sha256": "3bcb4c8fd2f24bf294130d0eed24ed8d7af909c69ee85669864d6e68bf61aafa",
+      "bytes": 5896
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r1_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r1_candidate_final.json",
+      "sha256": "4e0eb6c80e40e1d3ef07e03f056ded4a43b480bd6eb2aac3253be430a5bc64f1",
+      "bytes": 82527
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r1_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r1_candidate_start.json",
+      "sha256": "8580ffdb414b26024eb56ef095a46be6e3bca7df61ab895294f34fabfe5c1da0",
+      "bytes": 73124
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r1_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r1_candidate_trace.json",
+      "sha256": "d806c946e375a03fc18822a06b78d5525932594110d1bfa585b1f0e8bc37c06f",
+      "bytes": 201531
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r1_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r1_candidate_visible_start.json",
+      "sha256": "2b328ed733dc8b970577a14f313047aecf399fe28c71bf447f2fea987219f00a",
+      "bytes": 6830
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r1_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r1_direct_final.json",
+      "sha256": "27e3fe7074d57ffabf1365d2e0a3d7cc6dee29a0d30423400692aabe8b4720df",
+      "bytes": 82677
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r1_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r1_direct_start.json",
+      "sha256": "8580ffdb414b26024eb56ef095a46be6e3bca7df61ab895294f34fabfe5c1da0",
+      "bytes": 73124
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r1_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r1_direct_trace.json",
+      "sha256": "7ffbd5b49a0c7e79d09bf0fffada36d370a327aab82d28be0b87a33d7a8982e1",
+      "bytes": 197469
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r1_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r1_direct_visible_start.json",
+      "sha256": "2b328ed733dc8b970577a14f313047aecf399fe28c71bf447f2fea987219f00a",
+      "bytes": 6830
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r2_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r2_candidate_final.json",
+      "sha256": "1da8234c98c1b536552eb02ee192be0221819d602afd340ddd5d60368ca270a3",
+      "bytes": 82551
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r2_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r2_candidate_start.json",
+      "sha256": "8580ffdb414b26024eb56ef095a46be6e3bca7df61ab895294f34fabfe5c1da0",
+      "bytes": 73124
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r2_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r2_candidate_trace.json",
+      "sha256": "5a8034e98c968c93f5b4b5e64ff949c7835648a769257b2dcc1793d2c259a497",
+      "bytes": 201591
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r2_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r2_candidate_visible_start.json",
+      "sha256": "2b328ed733dc8b970577a14f313047aecf399fe28c71bf447f2fea987219f00a",
+      "bytes": 6830
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r2_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r2_direct_final.json",
+      "sha256": "f7a562476ef1b5b487c73fba06f46fb95b798bacc985e68d41b563a063e1b15c",
+      "bytes": 82667
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r2_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r2_direct_start.json",
+      "sha256": "8580ffdb414b26024eb56ef095a46be6e3bca7df61ab895294f34fabfe5c1da0",
+      "bytes": 73124
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r2_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r2_direct_trace.json",
+      "sha256": "9fc38e03dfface10333ba9e626bc8c5b5e5b2e75ee3de7c3e9969c2d23c35863",
+      "bytes": 197444
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\A_t16_feasible_r2_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\A_t16_feasible_r2_direct_visible_start.json",
+      "sha256": "2b328ed733dc8b970577a14f313047aecf399fe28c71bf447f2fea987219f00a",
+      "bytes": 6830
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r1_analyze_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r1_analyze_final.json",
+      "sha256": "39ae95f86a91eb36cf4cb3cd8bf1bba47e978275ff7e38e3f735f8101d76d7cd",
+      "bytes": 128647
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r1_analyze_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r1_analyze_start.json",
+      "sha256": "b62f42faa00b6ba0ec816e17ab75a6b336de7572aa7ff2b1b076757931dc8abb",
+      "bytes": 77779
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r1_analyze_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r1_analyze_trace.json",
+      "sha256": "1f2a690acf75a69541ea36f1d79af6b0c8e685a70233b847460842b05401bc09",
+      "bytes": 2255616
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r1_analyze_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r1_analyze_visible_start.json",
+      "sha256": "4dc363639e21553c4cae9553410015aa4455bdd43892b576b6f4fc0add5fadc0",
+      "bytes": 6799
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r1_clarify_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r1_clarify_final.json",
+      "sha256": "e9b388e34dfa99b7d90ded7e14ec23ed98ba0e11b16954917784b050ab3b3aee",
+      "bytes": 112669
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r1_clarify_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r1_clarify_start.json",
+      "sha256": "b62f42faa00b6ba0ec816e17ab75a6b336de7572aa7ff2b1b076757931dc8abb",
+      "bytes": 77779
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r1_clarify_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r1_clarify_trace.json",
+      "sha256": "c515c9785a8aeb21b2c9e270f8f61948c72fa3c87d5120e700330f6e56e8f331",
+      "bytes": 1738797
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r1_clarify_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r1_clarify_visible_start.json",
+      "sha256": "4dc363639e21553c4cae9553410015aa4455bdd43892b576b6f4fc0add5fadc0",
+      "bytes": 6799
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r2_analyze_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r2_analyze_final.json",
+      "sha256": "13b5cf664ea7c36ce2edef56a62f5dbc843aa8c8ae848f526f6a3f414463c985",
+      "bytes": 128942
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r2_analyze_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r2_analyze_start.json",
+      "sha256": "b62f42faa00b6ba0ec816e17ab75a6b336de7572aa7ff2b1b076757931dc8abb",
+      "bytes": 77779
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r2_analyze_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r2_analyze_trace.json",
+      "sha256": "0d2f1dc35cf46eb00705b8de221e295b1105057347c8156cbdb984f6b343ef4f",
+      "bytes": 2257545
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r2_analyze_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r2_analyze_visible_start.json",
+      "sha256": "4dc363639e21553c4cae9553410015aa4455bdd43892b576b6f4fc0add5fadc0",
+      "bytes": 6799
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r2_clarify_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r2_clarify_final.json",
+      "sha256": "27b862755de199f93a53cd16f2119c60ecd1052d9563f8792b0a3fee845c49e8",
+      "bytes": 112083
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r2_clarify_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r2_clarify_start.json",
+      "sha256": "b62f42faa00b6ba0ec816e17ab75a6b336de7572aa7ff2b1b076757931dc8abb",
+      "bytes": 77779
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r2_clarify_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r2_clarify_trace.json",
+      "sha256": "2bada914cf7936d113d81e2e47a173081c324cf7ecd726680b015714496e6fbf",
+      "bytes": 1731929
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t11_conflict_r2_clarify_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t11_conflict_r2_clarify_visible_start.json",
+      "sha256": "4dc363639e21553c4cae9553410015aa4455bdd43892b576b6f4fc0add5fadc0",
+      "bytes": 6799
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r1_analyze_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r1_analyze_final.json",
+      "sha256": "52624650fb529fd318398d40362186d606a14f5d452620cc4795b177fa7de06f",
+      "bytes": 118066
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r1_analyze_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r1_analyze_start.json",
+      "sha256": "4a4cf998f256b5b17c6c923c0014a692386b6d70a86e53ccaabeba98e890c2b4",
+      "bytes": 73121
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r1_analyze_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r1_analyze_trace.json",
+      "sha256": "d3ce8a9428f192fbacf819a1702376c7f4d4bea865b837950307eea37a403bf6",
+      "bytes": 2034476
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r1_analyze_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r1_analyze_visible_start.json",
+      "sha256": "3bcb4c8fd2f24bf294130d0eed24ed8d7af909c69ee85669864d6e68bf61aafa",
+      "bytes": 5896
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r1_clarify_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r1_clarify_final.json",
+      "sha256": "e33c03d7fbb3cfa9f4c08622329c0889648befa58b2d01b6ba19f25c5a9f9a49",
+      "bytes": 107288
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r1_clarify_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r1_clarify_start.json",
+      "sha256": "4a4cf998f256b5b17c6c923c0014a692386b6d70a86e53ccaabeba98e890c2b4",
+      "bytes": 73121
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r1_clarify_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r1_clarify_trace.json",
+      "sha256": "995abd6c71c4bd5695ed6352812b05630bb6b9e69ca78472edf238f7da042549",
+      "bytes": 1638110
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r1_clarify_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r1_clarify_visible_start.json",
+      "sha256": "3bcb4c8fd2f24bf294130d0eed24ed8d7af909c69ee85669864d6e68bf61aafa",
+      "bytes": 5896
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r2_analyze_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r2_analyze_final.json",
+      "sha256": "ae101b4f3604f8464fb598d3314b96017ee38fdefe66cd8a39b46e84190efe40",
+      "bytes": 117732
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r2_analyze_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r2_analyze_start.json",
+      "sha256": "4a4cf998f256b5b17c6c923c0014a692386b6d70a86e53ccaabeba98e890c2b4",
+      "bytes": 73121
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r2_analyze_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r2_analyze_trace.json",
+      "sha256": "0940df453f70c58fad277ed6465eb9eefc854194bfc0d661735dac099f42cfd5",
+      "bytes": 2029540
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r2_analyze_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r2_analyze_visible_start.json",
+      "sha256": "3bcb4c8fd2f24bf294130d0eed24ed8d7af909c69ee85669864d6e68bf61aafa",
+      "bytes": 5896
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r2_clarify_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r2_clarify_final.json",
+      "sha256": "678930df5e5256d15b00315c7b6af0ea330271dc5bd8dfddbdeba9eec4c0daa8",
+      "bytes": 107056
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r2_clarify_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r2_clarify_start.json",
+      "sha256": "4a4cf998f256b5b17c6c923c0014a692386b6d70a86e53ccaabeba98e890c2b4",
+      "bytes": 73121
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r2_clarify_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r2_clarify_trace.json",
+      "sha256": "6ee1ed8eda9f5a535e99f97e7bdfad665174101bfee9a9a9c770e13e91694fd0",
+      "bytes": 1634954
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\B_t16_conflict_r2_clarify_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\B_t16_conflict_r2_clarify_visible_start.json",
+      "sha256": "3bcb4c8fd2f24bf294130d0eed24ed8d7af909c69ee85669864d6e68bf61aafa",
+      "bytes": 5896
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\model_calls.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\model_calls.jsonl",
+      "sha256": "87dd84d3e412bf2b0a1f9df7ba83532ea9841be4eb67a9b55a62ce62493c2400",
+      "bytes": 965030
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\results\\new01\\request_events.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v1\\new01\\request_events.jsonl",
+      "sha256": "da926d1326326b610c9a4764243c6afc511a06e0357eaabe0e802b67cee0dd7d",
+      "bytes": 866489
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\model_calls.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\model_calls.jsonl",
+      "sha256": "eab301e71eebb0f8ef7e0fb2c4ab645bb7507d3fe57e79491050383df653701b",
+      "bytes": 161781
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\old_t93_conflict_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\old_t93_conflict_r1_final.json",
+      "sha256": "53301851dbb416a4d83b97af12447186744c451250369abc82e42ad0498bf5fe",
+      "bytes": 95535
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\old_t93_conflict_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\old_t93_conflict_r1_start.json",
+      "sha256": "bb301a2a65551f8117f0ee403672fa42627f3176674bbe14dc2137282020f1b7",
+      "bytes": 52863
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\old_t93_conflict_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\old_t93_conflict_r1_trace.json",
+      "sha256": "e1bab014477ff26b3617a5e33937672ced95dc70741946b7f545f68280da6962",
+      "bytes": 1615838
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\old_t93_conflict_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\old_t93_conflict_r1_visible_start.json",
+      "sha256": "f352857bb5773e152d80407568d82297b5039c06fc2e9565900007f0be2a8b85",
+      "bytes": 5329
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\old_t93_feasible_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\old_t93_feasible_r1_final.json",
+      "sha256": "7f6121d5994a5ed2bfb10a151ca241ba9e2783de0071f22528379ec5b9e20fc3",
+      "bytes": 88420
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\old_t93_feasible_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\old_t93_feasible_r1_start.json",
+      "sha256": "de40c1abf7122f5fbe317769aa718c487fab972b5d7182df205cd64f1d6dcb7e",
+      "bytes": 52868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\old_t93_feasible_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\old_t93_feasible_r1_trace.json",
+      "sha256": "41f6ab1c2eb6a8fa5b60ddf173e681c6c3f3fe0f6723a7089c54e9e5161527b1",
+      "bytes": 1501440
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\old_t93_feasible_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\old_t93_feasible_r1_visible_start.json",
+      "sha256": "04cc441f118f116580a4aeeaac8017a8a8b202f1ff9c21207e940b82023b6077",
+      "bytes": 9055
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\pilot01\\request_events.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\pilot01\\request_events.jsonl",
+      "sha256": "0b07f31d704302e66be50fae0873022e60493402644292ef0a4f0ecd85f28cd3",
+      "bytes": 149282
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\model_calls.jsonl",
+      "sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "bytes": 562689
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t102_withdrawn_r1_final.json",
+      "sha256": "f47219c23116dcc8a4a8405153ccef65752c67f5b7ba3ade8e03486df8ed8ff1",
+      "bytes": 63922
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t102_withdrawn_r1_start.json",
+      "sha256": "6f94d3df120a16a007f42742300df4ae31d72390d3693c7301c0e12ebfa3f07e",
+      "bytes": 47515
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t102_withdrawn_r1_trace.json",
+      "sha256": "0f15e8c47b88609e6d529d0607160b8f06c35c092a2061f3ec685864a0e99630",
+      "bytes": 549385
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t102_withdrawn_r1_visible_start.json",
+      "sha256": "b4feb6d629b91b3a2482d07ca4880b07086e55ab22aff8b3c4914ad38947affb",
+      "bytes": 9204
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r2_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t102_withdrawn_r2_final.json",
+      "sha256": "27c313541059519d47b43929da61572b6349f3b5b2aacf6ffc78d5e9739a9110",
+      "bytes": 63844
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r2_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t102_withdrawn_r2_start.json",
+      "sha256": "6f94d3df120a16a007f42742300df4ae31d72390d3693c7301c0e12ebfa3f07e",
+      "bytes": 47515
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r2_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t102_withdrawn_r2_trace.json",
+      "sha256": "02e17b222021984ebb4dbce7206a840ef208cf4f6b8ab43d77f02eece6be9a5b",
+      "bytes": 549202
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r2_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t102_withdrawn_r2_visible_start.json",
+      "sha256": "b4feb6d629b91b3a2482d07ca4880b07086e55ab22aff8b3c4914ad38947affb",
+      "bytes": 9204
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t29_dynamic_r1_final.json",
+      "sha256": "e715a1d979aa2323ba2cb88af75ff3ea1152ff8aa49a4e2854ad18594cc4cc5c",
+      "bytes": 111767
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t29_dynamic_r1_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t29_dynamic_r1_trace.json",
+      "sha256": "c628a8620b874c1bbb79062c941ac1fde2a0d15e401edc16b419fc757c6fedc8",
+      "bytes": 2091415
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t29_dynamic_r1_visible_start.json",
+      "sha256": "10e29e8aeb66fcb77af0db3253f6dd8ec3352be46227ed235be0c949f5fa94e1",
+      "bytes": 8282
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t29_dynamic_r2_final.json",
+      "sha256": "f8419ea36895428397e0ddf037058828b8d472d5636a6fadeb7ff4d22fb0a85c",
+      "bytes": 112007
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t29_dynamic_r2_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t29_dynamic_r2_trace.json",
+      "sha256": "4c27c03fa9b196dee313ab560035c5a8e2c3bd35fb98b2e3c2458a65caa1d9dd",
+      "bytes": 2092825
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t29_dynamic_r2_visible_start.json",
+      "sha256": "10e29e8aeb66fcb77af0db3253f6dd8ec3352be46227ed235be0c949f5fa94e1",
+      "bytes": 8282
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_conflict_r1_final.json",
+      "sha256": "7a6f551441b4681a647214669f810c839be4536710fe1ce4c943869f77641f6f",
+      "bytes": 95493
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_conflict_r1_start.json",
+      "sha256": "bb301a2a65551f8117f0ee403672fa42627f3176674bbe14dc2137282020f1b7",
+      "bytes": 52863
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_conflict_r1_trace.json",
+      "sha256": "d92e7f829480f6a4df71f4372e37fd4d5651bf6618688994532eb0791e4dbfc9",
+      "bytes": 1617468
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_conflict_r1_visible_start.json",
+      "sha256": "f352857bb5773e152d80407568d82297b5039c06fc2e9565900007f0be2a8b85",
+      "bytes": 5329
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r2_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_conflict_r2_final.json",
+      "sha256": "759d6487cec932eae41a18715d16dbf2b98ad5a4c8dc9a9389c4c6ea52e65a4b",
+      "bytes": 95569
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r2_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_conflict_r2_start.json",
+      "sha256": "bb301a2a65551f8117f0ee403672fa42627f3176674bbe14dc2137282020f1b7",
+      "bytes": 52863
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r2_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_conflict_r2_trace.json",
+      "sha256": "b153a7dee121d0042e9416d476153024f883cab5f5da684a0c63ddb2e5e95659",
+      "bytes": 1617883
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r2_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_conflict_r2_visible_start.json",
+      "sha256": "f352857bb5773e152d80407568d82297b5039c06fc2e9565900007f0be2a8b85",
+      "bytes": 5329
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r1_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_feasible_r1_final.json",
+      "sha256": "9318d3461d347f4becb35e3b19393c0b2fdda4e0fd2e2a04ae16006ce6c1a535",
+      "bytes": 83236
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r1_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_feasible_r1_start.json",
+      "sha256": "de40c1abf7122f5fbe317769aa718c487fab972b5d7182df205cd64f1d6dcb7e",
+      "bytes": 52868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r1_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_feasible_r1_trace.json",
+      "sha256": "769266109ca9ec78c4c74a258ee0e88e26a32de0c3ce76814c36a90d926551be",
+      "bytes": 1277614
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r1_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_feasible_r1_visible_start.json",
+      "sha256": "04cc441f118f116580a4aeeaac8017a8a8b202f1ff9c21207e940b82023b6077",
+      "bytes": 9055
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r2_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_feasible_r2_final.json",
+      "sha256": "a824918822c416e6602437303ceddc352753f2e4b03436dae30d2f7af0170dba",
+      "bytes": 83282
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r2_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_feasible_r2_start.json",
+      "sha256": "de40c1abf7122f5fbe317769aa718c487fab972b5d7182df205cd64f1d6dcb7e",
+      "bytes": 52868
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r2_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_feasible_r2_trace.json",
+      "sha256": "936c3e5d1e694729f2f871b8e3a14225be75725fc3d9aaf8f36607a9ecda65dd",
+      "bytes": 1279925
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r2_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\old_t93_feasible_r2_visible_start.json",
+      "sha256": "04cc441f118f116580a4aeeaac8017a8a8b202f1ff9c21207e940b82023b6077",
+      "bytes": 9055
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\request_events.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\old01\\request_events.jsonl",
+      "sha256": "b97a9da0bfb9bfce25b41797b5360c4f713446a384f6789197d3aab9fde7596b",
+      "bytes": 521609
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r1_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r1_candidate_final.json",
+      "sha256": "ed6377f09bcb354bb45f81d7fbd7e63cfd852bfd3729564f93cb327d2e292c22",
+      "bytes": 89577
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r1_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r1_candidate_start.json",
+      "sha256": "2aab527d6750ca2fb01937f28cbed7523777eb9d899ce4d782f7863e927cfee9",
+      "bytes": 72495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r1_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r1_candidate_trace.json",
+      "sha256": "89e2ebf0bc56f985381f8b64979b202e81f0d03be0bf3cee6cdb2a47993d2079",
+      "bytes": 222298
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r1_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r1_candidate_visible_start.json",
+      "sha256": "a91c51e621567c8b67f5cebe4f30ae70cc125bea089a9d0b02e6a8924dbeb923",
+      "bytes": 8416
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r1_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r1_direct_final.json",
+      "sha256": "112dceeb384e26be70fd5e4e10fe30070ce478cb4a0e8b296faa1f9b03879ab3",
+      "bytes": 89757
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r1_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r1_direct_start.json",
+      "sha256": "2aab527d6750ca2fb01937f28cbed7523777eb9d899ce4d782f7863e927cfee9",
+      "bytes": 72495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r1_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r1_direct_trace.json",
+      "sha256": "6e01553c8c144bf3aaf10f8b9d2c5eb465b38160b133cd1436d5b1545b3356b8",
+      "bytes": 219055
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r1_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r1_direct_visible_start.json",
+      "sha256": "a91c51e621567c8b67f5cebe4f30ae70cc125bea089a9d0b02e6a8924dbeb923",
+      "bytes": 8416
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r2_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r2_candidate_final.json",
+      "sha256": "4d71edda5f35e41a76ca78a252862f6a02fadeb279038dd5e57f7ba02184667e",
+      "bytes": 77196
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r2_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r2_candidate_start.json",
+      "sha256": "2aab527d6750ca2fb01937f28cbed7523777eb9d899ce4d782f7863e927cfee9",
+      "bytes": 72495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r2_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r2_candidate_trace.json",
+      "sha256": "6aec2ad1a7907b7c3d0caed9c9bc43f7194527d32615b8844e40f5eeccc3d198",
+      "bytes": 194267
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r2_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r2_candidate_visible_start.json",
+      "sha256": "a91c51e621567c8b67f5cebe4f30ae70cc125bea089a9d0b02e6a8924dbeb923",
+      "bytes": 8416
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r2_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r2_direct_final.json",
+      "sha256": "55278bc5a090fff7bed54b9ba25ce66651d41074f97d5927725ea6759e2b9bc6",
+      "bytes": 90331
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r2_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r2_direct_start.json",
+      "sha256": "2aab527d6750ca2fb01937f28cbed7523777eb9d899ce4d782f7863e927cfee9",
+      "bytes": 72495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r2_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r2_direct_trace.json",
+      "sha256": "a5620e67b5c4ecfe7524cfb27c38a163164335a02fb2acc4a1d142a637fe9658",
+      "bytes": 220114
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_conflict_r2_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_conflict_r2_direct_visible_start.json",
+      "sha256": "a91c51e621567c8b67f5cebe4f30ae70cc125bea089a9d0b02e6a8924dbeb923",
+      "bytes": 8416
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r1_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r1_candidate_final.json",
+      "sha256": "a433c894b4ffa4687c11fac8263bc0cfa36d86de57969e98f2d617ff5eabdd42",
+      "bytes": 81909
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r1_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r1_candidate_start.json",
+      "sha256": "690e2d43a9973e7e8d81b5550e41c13d7d17deb6ee5aa147cacbb079bdf017b5",
+      "bytes": 72500
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r1_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r1_candidate_trace.json",
+      "sha256": "4928e46d940fa1f070a5e41b61dd4956ad0858d9e90673a549510779ab49d811",
+      "bytes": 208697
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r1_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r1_candidate_visible_start.json",
+      "sha256": "fd8c1dcff120ba4271a5c5376d128092b63d12be71e174f6efb5ca018ba751d4",
+      "bytes": 10388
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r1_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r1_direct_final.json",
+      "sha256": "15dddd7cca3e632690c673610128cb5d1ad5e1cf15fa140e76fdf7b599efa04f",
+      "bytes": 82159
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r1_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r1_direct_start.json",
+      "sha256": "690e2d43a9973e7e8d81b5550e41c13d7d17deb6ee5aa147cacbb079bdf017b5",
+      "bytes": 72500
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r1_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r1_direct_trace.json",
+      "sha256": "514b38daa626fab603d6ef6a70c3c16b1c0314683f706e60a5d9ccdf572f9743",
+      "bytes": 204488
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r1_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r1_direct_visible_start.json",
+      "sha256": "fd8c1dcff120ba4271a5c5376d128092b63d12be71e174f6efb5ca018ba751d4",
+      "bytes": 10388
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r2_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r2_candidate_final.json",
+      "sha256": "425b618af3ef54f10e8ec5f929a2b5a05d96a95eaeab9b8a00eff12991978b44",
+      "bytes": 82111
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r2_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r2_candidate_start.json",
+      "sha256": "690e2d43a9973e7e8d81b5550e41c13d7d17deb6ee5aa147cacbb079bdf017b5",
+      "bytes": 72500
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r2_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r2_candidate_trace.json",
+      "sha256": "a03b03998dcd414e5a6cd7ea6f8a17d90569ec9d48b5acbe13bedfcfd0aa994c",
+      "bytes": 209202
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r2_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r2_candidate_visible_start.json",
+      "sha256": "fd8c1dcff120ba4271a5c5376d128092b63d12be71e174f6efb5ca018ba751d4",
+      "bytes": 10388
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r2_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r2_direct_final.json",
+      "sha256": "16eb8876a6d94a7593c36dc16d3b58f318aea275734f903ee294070a8cc7a451",
+      "bytes": 82107
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r2_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r2_direct_start.json",
+      "sha256": "690e2d43a9973e7e8d81b5550e41c13d7d17deb6ee5aa147cacbb079bdf017b5",
+      "bytes": 72500
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r2_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r2_direct_trace.json",
+      "sha256": "d158c83badfd5dc009d84f3417f0569cb59078f59ac6edbe30c13d05f8e98c96",
+      "bytes": 204358
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t26_feasible_r2_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t26_feasible_r2_direct_visible_start.json",
+      "sha256": "fd8c1dcff120ba4271a5c5376d128092b63d12be71e174f6efb5ca018ba751d4",
+      "bytes": 10388
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r1_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r1_candidate_final.json",
+      "sha256": "489c845ce904bd22da074a3254c572722f5d3c9aadb9f90d21559cd538b2f033",
+      "bytes": 65736
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r1_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r1_candidate_start.json",
+      "sha256": "923088d7e667199fa476dba6a666f21be74f47ec40a24630570996bc9ee2ac77",
+      "bytes": 60775
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r1_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r1_candidate_trace.json",
+      "sha256": "071a8652fa900ad2d908aca2490963b6e856003b00d7c17edd8e5f098bfbbd99",
+      "bytes": 167234
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r1_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r1_candidate_visible_start.json",
+      "sha256": "34fb6f6c9aa13fab6eaba535a0b3f93d341205ed6f9bf8d8cc35fdb80de49ed7",
+      "bytes": 8028
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r1_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r1_direct_final.json",
+      "sha256": "9beb50ca572023016421eaf8a713457fbffd7b913d3612421ee953abe80618e0",
+      "bytes": 77037
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r1_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r1_direct_start.json",
+      "sha256": "923088d7e667199fa476dba6a666f21be74f47ec40a24630570996bc9ee2ac77",
+      "bytes": 60775
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r1_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r1_direct_trace.json",
+      "sha256": "a4bd38a94fac8531697b5a8012880bd69a7c5de03e877366487d0e14153daff6",
+      "bytes": 189515
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r1_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r1_direct_visible_start.json",
+      "sha256": "34fb6f6c9aa13fab6eaba535a0b3f93d341205ed6f9bf8d8cc35fdb80de49ed7",
+      "bytes": 8028
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r2_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r2_candidate_final.json",
+      "sha256": "87a3f65ca1849282c17771c5cc05f7bb70a622e345e3b5a58dc9d5e568502327",
+      "bytes": 65766
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r2_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r2_candidate_start.json",
+      "sha256": "923088d7e667199fa476dba6a666f21be74f47ec40a24630570996bc9ee2ac77",
+      "bytes": 60775
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r2_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r2_candidate_trace.json",
+      "sha256": "7733756916229617fa98fa594bd65de7d934b1a75cc64d53af4419e7ec82b4bf",
+      "bytes": 167311
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r2_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r2_candidate_visible_start.json",
+      "sha256": "34fb6f6c9aa13fab6eaba535a0b3f93d341205ed6f9bf8d8cc35fdb80de49ed7",
+      "bytes": 8028
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r2_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r2_direct_final.json",
+      "sha256": "060d31335e48428fd9442fee78fcd7fdc6f64bd46957d2a4dfa8a43a85b4afba",
+      "bytes": 76603
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r2_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r2_direct_start.json",
+      "sha256": "923088d7e667199fa476dba6a666f21be74f47ec40a24630570996bc9ee2ac77",
+      "bytes": 60775
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r2_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r2_direct_trace.json",
+      "sha256": "ec2153883fb0af249576b2c0490da91a134aae5021f60f946fe691bddbd48657",
+      "bytes": 188592
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_conflict_r2_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_conflict_r2_direct_visible_start.json",
+      "sha256": "34fb6f6c9aa13fab6eaba535a0b3f93d341205ed6f9bf8d8cc35fdb80de49ed7",
+      "bytes": 8028
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r1_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r1_candidate_final.json",
+      "sha256": "bf58420afe4643a5be079e0197ccf1caf93a4a5dde25d71e1966ca26047e2e2c",
+      "bytes": 70358
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r1_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r1_candidate_start.json",
+      "sha256": "a8054bfb263ab9d3e7db256d80f916166150a0f05f709d3f6b8c8a9bd6e16dc2",
+      "bytes": 60783
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r1_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r1_candidate_trace.json",
+      "sha256": "04925c3d8dcded1e4f5af5398883f46058abfa556baf684c1f307b239668a120",
+      "bytes": 179856
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r1_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r1_candidate_visible_start.json",
+      "sha256": "b78bf6594ab9de36c85f6f07716161efb3d69d599712b1d439fb43bae4e0234d",
+      "bytes": 9484
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r1_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r1_direct_final.json",
+      "sha256": "ec623add74d2c87bed2a743e21dd5299e732c841655f6069ed88cbbd8feeddb7",
+      "bytes": 70412
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r1_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r1_direct_start.json",
+      "sha256": "a8054bfb263ab9d3e7db256d80f916166150a0f05f709d3f6b8c8a9bd6e16dc2",
+      "bytes": 60783
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r1_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r1_direct_trace.json",
+      "sha256": "26fadc8fab1fb76b9d718f2a7d8b956ef4f6c15ea0410f7716a0bcd113830bc4",
+      "bytes": 175941
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r1_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r1_direct_visible_start.json",
+      "sha256": "b78bf6594ab9de36c85f6f07716161efb3d69d599712b1d439fb43bae4e0234d",
+      "bytes": 9484
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r2_candidate_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r2_candidate_final.json",
+      "sha256": "bcfdf9d4525044302faf57d42cb57280f269d95502f08aa321ade70a8c0658e2",
+      "bytes": 70258
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r2_candidate_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r2_candidate_start.json",
+      "sha256": "a8054bfb263ab9d3e7db256d80f916166150a0f05f709d3f6b8c8a9bd6e16dc2",
+      "bytes": 60783
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r2_candidate_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r2_candidate_trace.json",
+      "sha256": "d730ec34d83ec6b49d476afa58084ba58ad0d557625431aea2fc982911539d79",
+      "bytes": 179606
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r2_candidate_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r2_candidate_visible_start.json",
+      "sha256": "b78bf6594ab9de36c85f6f07716161efb3d69d599712b1d439fb43bae4e0234d",
+      "bytes": 9484
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r2_direct_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r2_direct_final.json",
+      "sha256": "9b66c6af18f909501499a6c4fe1d5f38a6c0055156ce28eb7d96d3a9b71c90d0",
+      "bytes": 70500
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r2_direct_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r2_direct_start.json",
+      "sha256": "a8054bfb263ab9d3e7db256d80f916166150a0f05f709d3f6b8c8a9bd6e16dc2",
+      "bytes": 60783
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r2_direct_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r2_direct_trace.json",
+      "sha256": "1998f604e037465579cd5aaffda07200df622049272d6813e5d214d7c9d5da0d",
+      "bytes": 176161
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\A_t35_feasible_r2_direct_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\A_t35_feasible_r2_direct_visible_start.json",
+      "sha256": "b78bf6594ab9de36c85f6f07716161efb3d69d599712b1d439fb43bae4e0234d",
+      "bytes": 9484
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r1_analyze_final.json",
+      "sha256": "36bdfcddfc358f4093e75da51c08a7f5dade21251c9c0121c1bc5c930f97a2ec",
+      "bytes": 123962
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r1_analyze_start.json",
+      "sha256": "2aab527d6750ca2fb01937f28cbed7523777eb9d899ce4d782f7863e927cfee9",
+      "bytes": 72495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "sha256": "4819fa5c630b414085a2d5125a25b88ce5519b41700b9b5da408c188d9a0aa10",
+      "bytes": 2200876
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r1_analyze_visible_start.json",
+      "sha256": "a91c51e621567c8b67f5cebe4f30ae70cc125bea089a9d0b02e6a8924dbeb923",
+      "bytes": 8416
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_clarify_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r1_clarify_final.json",
+      "sha256": "24d65351192aa8c48ebb9b92aca45fb33a0ab6c4c6a2eab698f986f2319f2c8a",
+      "bytes": 106765
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_clarify_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r1_clarify_start.json",
+      "sha256": "2aab527d6750ca2fb01937f28cbed7523777eb9d899ce4d782f7863e927cfee9",
+      "bytes": 72495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_clarify_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r1_clarify_trace.json",
+      "sha256": "eeeadff7c916eeb0b8a99baf92d00dd31433b4d16bbcce8430744cb2eec59c56",
+      "bytes": 1665529
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_clarify_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r1_clarify_visible_start.json",
+      "sha256": "a91c51e621567c8b67f5cebe4f30ae70cc125bea089a9d0b02e6a8924dbeb923",
+      "bytes": 8416
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_analyze_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r2_analyze_final.json",
+      "sha256": "84943ac862a0e0356d3081278845d0f41e722498392bccb5bc221752f6a5e49f",
+      "bytes": 123972
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_analyze_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r2_analyze_start.json",
+      "sha256": "2aab527d6750ca2fb01937f28cbed7523777eb9d899ce4d782f7863e927cfee9",
+      "bytes": 72495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_analyze_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r2_analyze_trace.json",
+      "sha256": "bcf9b5702cc57d8bc026ff3a0efb72c0c3fd836a55134d077fbb57c54982b1f6",
+      "bytes": 2202352
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_analyze_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r2_analyze_visible_start.json",
+      "sha256": "a91c51e621567c8b67f5cebe4f30ae70cc125bea089a9d0b02e6a8924dbeb923",
+      "bytes": 8416
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_clarify_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r2_clarify_final.json",
+      "sha256": "daab621fcd140f4eed08e8d5ce33c5e5a8bc7a044111a375b720c91d9b1eb431",
+      "bytes": 106817
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_clarify_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r2_clarify_start.json",
+      "sha256": "2aab527d6750ca2fb01937f28cbed7523777eb9d899ce4d782f7863e927cfee9",
+      "bytes": 72495
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_clarify_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r2_clarify_trace.json",
+      "sha256": "e54f76d0e5728a6c8f0c1ed018a18e33a370a5f2d631a6c6280d0a348d9aa477",
+      "bytes": 1665602
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_clarify_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t26_conflict_r2_clarify_visible_start.json",
+      "sha256": "a91c51e621567c8b67f5cebe4f30ae70cc125bea089a9d0b02e6a8924dbeb923",
+      "bytes": 8416
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_analyze_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r1_analyze_final.json",
+      "sha256": "01ee5ed259ad5981fadf06780cd51dade18a82aa40e11d446b21d8f4031c4b91",
+      "bytes": 112051
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_analyze_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r1_analyze_start.json",
+      "sha256": "923088d7e667199fa476dba6a666f21be74f47ec40a24630570996bc9ee2ac77",
+      "bytes": 60775
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_analyze_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r1_analyze_trace.json",
+      "sha256": "ff37ac6dbfab85f8c8f1d065bc0e5a9ba7de2bff42eadfbdd5b8b977515485e6",
+      "bytes": 1935044
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_analyze_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r1_analyze_visible_start.json",
+      "sha256": "34fb6f6c9aa13fab6eaba535a0b3f93d341205ed6f9bf8d8cc35fdb80de49ed7",
+      "bytes": 8028
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_clarify_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r1_clarify_final.json",
+      "sha256": "562d2a9e095e8204f723482c44bbfc4647a92d070188eebfd47c25ad68266e08",
+      "bytes": 95960
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_clarify_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r1_clarify_start.json",
+      "sha256": "923088d7e667199fa476dba6a666f21be74f47ec40a24630570996bc9ee2ac77",
+      "bytes": 60775
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_clarify_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r1_clarify_trace.json",
+      "sha256": "50a4f62f06838d3be27e1a21f39219d13eb81d0c8949a96f63e66aa83060faea",
+      "bytes": 1448588
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_clarify_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r1_clarify_visible_start.json",
+      "sha256": "34fb6f6c9aa13fab6eaba535a0b3f93d341205ed6f9bf8d8cc35fdb80de49ed7",
+      "bytes": 8028
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_analyze_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r2_analyze_final.json",
+      "sha256": "89b11968a003c031e02c3c7c4571db80c306092d014adc701b5f98efb8ef7e79",
+      "bytes": 112611
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_analyze_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r2_analyze_start.json",
+      "sha256": "923088d7e667199fa476dba6a666f21be74f47ec40a24630570996bc9ee2ac77",
+      "bytes": 60775
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_analyze_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r2_analyze_trace.json",
+      "sha256": "2caf11fb65b82e7b236bf92cacfc945f9d68566b60ba90925325fcfcbdba33c4",
+      "bytes": 1943970
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_analyze_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r2_analyze_visible_start.json",
+      "sha256": "34fb6f6c9aa13fab6eaba535a0b3f93d341205ed6f9bf8d8cc35fdb80de49ed7",
+      "bytes": 8028
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_clarify_final.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r2_clarify_final.json",
+      "sha256": "1d965396fb4883f66687f02d1b70a73180b223cc044a1efb925f76b80763bb41",
+      "bytes": 96274
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_clarify_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r2_clarify_start.json",
+      "sha256": "923088d7e667199fa476dba6a666f21be74f47ec40a24630570996bc9ee2ac77",
+      "bytes": 60775
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_clarify_trace.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r2_clarify_trace.json",
+      "sha256": "12aecfe6d8f831673d7c60173d03530115ae114cf63dea1764d7f816d2301f34",
+      "bytes": 1449269
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_clarify_visible_start.json",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\B_t35_conflict_r2_clarify_visible_start.json",
+      "sha256": "34fb6f6c9aa13fab6eaba535a0b3f93d341205ed6f9bf8d8cc35fdb80de49ed7",
+      "bytes": 8028
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\model_calls.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\model_calls.jsonl",
+      "sha256": "0293e67387f0db95ad5eda6b0f1b3aec4bf5653066c44ce0975a91a5a154df36",
+      "bytes": 975283
+    },
+    {
+      "original": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\request_events.jsonl",
+      "external_copy": "D:\\experimentn\\research-raw-archives\\round23-framework-loop\\v2\\new01\\request_events.jsonl",
+      "sha256": "f90b6dbaf5be93bfd4dd4c4aa99c6f16ed630ed653b8d010b0449292364e7723",
+      "bytes": 896987
+    }
+  ],
+  "total_bytes": 130238570,
+  "restore_note": "Restore raw files to original results directories before rerunning reports. Source/configs/summary and representative Markdown traces are versioned in Git."
+}

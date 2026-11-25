@@ -1,0 +1,43 @@
+{
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": false,
+  "retries": 0,
+  "timeout": 60,
+  "tasks": [
+    "70",
+    "52"
+  ],
+  "states": [
+    "known",
+    "unknown"
+  ],
+  "repeats": 1,
+  "budget_each": {
+    "agent_calls": 24,
+    "agent_tokens": 60000,
+    "work_steps": 9
+  },
+  "first_work": {
+    "known": [
+      "screen",
+      "clarify"
+    ],
+    "unknown": [
+      "inventory",
+      "clarify"
+    ]
+  },
+  "execution_order": "70 known,70 unknown,52 known,52 unknown,70 dynamic; direct then candidate",
+  "prefix": "No online initial semantics. Hydrate checked public runtime JSON; compare all state/view/candidates to frozen snapshots before each branch.",
+  "sampling": "10 fresh autonomous trajectories: 8 fixed starts plus 2 dynamic",
+  "labels": false,
+  "experiment": "11_autonomous_dynamic",
+  "interfaces": "catalog-only enums with conservative aliases; separate original permission/current authorization sources",
+  "normalization_ambiguity": "pending verification, no forced guessing; initialization abort retained",
+  "initial_interpretation_source": "public user quotes and observed catalogue only; no private fallback or standard answer",
+  "snapshot_public": "snapshots/public",
+  "snapshot_private": "scenarios/private",
+  "evaluation": "10_v2 program evidence with separately preserved legacy judge; post-rollout only",
+  "offline_batch": "09 old16 separately rescored, no new Agent samples"
+}

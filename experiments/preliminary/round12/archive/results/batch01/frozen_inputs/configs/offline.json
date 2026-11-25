@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "tests": [
+    "selected-work feedback identifies stock observation gap",
+    "false conditional permission preserved and clarification available",
+    "current confirmation uses true stock, Decimal quote, real payment",
+    "original authorization invalid after change while identity/order/catalog/payment retained",
+    "simultaneous yes and changed requirements does not authorize old plan",
+    "all paired start constructions equal",
+    "historical-match label replaced by recomputed compatibility"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "tests": [
+    "public history differs only observation13 specified available false/null",
+    "all other product observations and user words equal",
+    "all serialized unknown runtime catalogue/rules/permission events scanned for stock leak",
+    "permission state recomputed false vs unknown",
+    "neutral unknown clarification accurate",
+    "real tool reveals false and updates conditional permission",
+    "prepare/submit blocked without permission and current authorization"
+  ],
+  "model_calls": 0,
+  "scan_occurrences": 10
+}

@@ -1,0 +1,196 @@
+{
+  "user_ref": 12,
+  "stock_query_ref": 13,
+  "pending_rule": {
+    "item_id": "5996159312",
+    "variant_id": "3892645120",
+    "options": {
+      "resolution": "30MP",
+      "zoom": "10x",
+      "storage": "CF card"
+    },
+    "condition": {
+      "product_id": "8940227892",
+      "variant_id": "3892645120",
+      "field": "available",
+      "value": true
+    },
+    "source": 12,
+    "source_quote": "If item 3892645120, the 30MP camera with CF card storage and 10x zoom, is in stock, I accept that variant. I have not accepted any lower-zoom alternative. Please check stock before making a plan.",
+    "sat": "未知",
+    "inventory_source": 8
+  },
+  "false_rule": {
+    "item_id": "5996159312",
+    "variant_id": "3892645120",
+    "options": {
+      "resolution": "30MP",
+      "zoom": "10x",
+      "storage": "CF card"
+    },
+    "condition": {
+      "product_id": "8940227892",
+      "variant_id": "3892645120",
+      "field": "available",
+      "value": true
+    },
+    "source": 12,
+    "source_quote": "If item 3892645120, the 30MP camera with CF card storage and 10x zoom, is in stock, I accept that variant. I have not accepted any lower-zoom alternative. Please check stock before making a plan.",
+    "sat": "未满足",
+    "inventory_source": 13
+  },
+  "official_tool_record": {
+    "official_tool": "get_product_details",
+    "arguments": {
+      "product_id": "8940227892"
+    },
+    "official_result": {
+      "name": "Digital Camera",
+      "product_id": "8940227892",
+      "variants": {
+        "6384525445": {
+          "item_id": "6384525445",
+          "options": {
+            "resolution": "30MP",
+            "zoom": "5x",
+            "storage": "CF card"
+          },
+          "available": true,
+          "price": 2929.62
+        },
+        "3892645120": {
+          "item_id": "3892645120",
+          "options": {
+            "resolution": "30MP",
+            "zoom": "10x",
+            "storage": "CF card"
+          },
+          "available": false,
+          "price": 3070.64
+        },
+        "1804581713": {
+          "item_id": "1804581713",
+          "options": {
+            "resolution": "30MP",
+            "zoom": "3x",
+            "storage": "SD card"
+          },
+          "available": true,
+          "price": 2875.61
+        },
+        "9644439410": {
+          "item_id": "9644439410",
+          "options": {
+            "resolution": "20MP",
+            "zoom": "5x",
+            "storage": "CF card"
+          },
+          "available": true,
+          "price": 3280.31
+        },
+        "5996159312": {
+          "item_id": "5996159312",
+          "options": {
+            "resolution": "24MP",
+            "zoom": "3x",
+            "storage": "SD card"
+          },
+          "available": true,
+          "price": 2895.55
+        },
+        "7255224608": {
+          "item_id": "7255224608",
+          "options": {
+            "resolution": "30MP",
+            "zoom": "3x",
+            "storage": "CF card"
+          },
+          "available": true,
+          "price": 2922.97
+        },
+        "2284404181": {
+          "item_id": "2284404181",
+          "options": {
+            "resolution": "20MP",
+            "zoom": "5x",
+            "storage": "SD card"
+          },
+          "available": false,
+          "price": 3204.43
+        },
+        "7583936705": {
+          "item_id": "7583936705",
+          "options": {
+            "resolution": "20MP",
+            "zoom": "10x",
+            "storage": "CF card"
+          },
+          "available": false,
+          "price": 3101.43
+        },
+        "9973034634": {
+          "item_id": "9973034634",
+          "options": {
+            "resolution": "20MP",
+            "zoom": "3x",
+            "storage": "CF card"
+          },
+          "available": false,
+          "price": 2850.32
+        },
+        "5484530610": {
+          "item_id": "5484530610",
+          "options": {
+            "resolution": "24MP",
+            "zoom": "10x",
+            "storage": "CF card"
+          },
+          "available": false,
+          "price": 3109.83
+        },
+        "4326528037": {
+          "item_id": "4326528037",
+          "options": {
+            "resolution": "24MP",
+            "zoom": "5x",
+            "storage": "CF card"
+          },
+          "available": true,
+          "price": 2714.51
+        },
+        "9228757377": {
+          "item_id": "9228757377",
+          "options": {
+            "resolution": "30MP",
+            "zoom": "10x",
+            "storage": "SD card"
+          },
+          "available": true,
+          "price": 3066.23
+        },
+        "7195021808": {
+          "item_id": "7195021808",
+          "options": {
+            "resolution": "30MP",
+            "zoom": "5x",
+            "storage": "SD card"
+          },
+          "available": false,
+          "price": 2909.87
+        },
+        "8363011723": {
+          "item_id": "8363011723",
+          "options": {
+            "resolution": "20MP",
+            "zoom": "3x",
+            "storage": "SD card"
+          },
+          "available": true,
+          "price": 2823.96
+        }
+      }
+    },
+    "source": 13
+  },
+  "public_source": "Adapted public task52 history plus synthetic public conditional user message; no private fallback answer used."
+}

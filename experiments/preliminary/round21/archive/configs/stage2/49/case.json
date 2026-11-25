@@ -1,0 +1,283 @@
+{
+  "task_id": "49",
+  "tier": "multistep",
+  "stage": "stage2",
+  "order_id": "#W3470184",
+  "user_id": "aarav_anderson_8794",
+  "scope": [
+    "2757705742"
+  ],
+  "targets": {
+    "2757705742": "2499294441"
+  },
+  "initial_options": {
+    "2757705742": {
+      "color": "black",
+      "battery life": "8 hours",
+      "water resistance": "IPX7"
+    }
+  },
+  "payment_method_id": "gift_card_7245904",
+  "change_type": "none",
+  "changed_item": "2757705742",
+  "changed_target": "9580569596",
+  "change_message": "Before submission, change the Wireless Earbuds (original item 2757705742) to item 9580569596 with options {\"color\": \"black\", \"battery life\": \"4 hours\", \"water resistance\": \"IPX7\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am aarav_anderson_8794; email aarav.anderson9752@example.com. In delivered order #W3470184, exchange ONLY these items in one complete request: [{\"item_id\": \"2757705742\", \"name\": \"Wireless Earbuds\", \"requested_variant\": \"2499294441\", \"options\": {\"color\": \"black\", \"battery life\": \"8 hours\", \"water resistance\": \"IPX7\"}}]. Keep every other item and order unchanged. Use original payment gift_card_7245904. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": false,
+  "environment": {
+    "orders": {
+      "#W3470184": {
+        "order_id": "#W3470184",
+        "user_id": "aarav_anderson_8794",
+        "address": {
+          "address1": "931 Maple Drive",
+          "address2": "Suite 985",
+          "city": "Philadelphia",
+          "country": "USA",
+          "state": "PA",
+          "zip": "19031"
+        },
+        "items": [
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "6452271382",
+            "price": 258.84,
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            }
+          },
+          {
+            "name": "Water Bottle",
+            "product_id": "8310926033",
+            "item_id": "2366567022",
+            "price": 54.04,
+            "options": {
+              "capacity": "1000ml",
+              "material": "stainless steel",
+              "color": "blue"
+            }
+          },
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "1646531091",
+            "price": 232.49,
+            "options": {
+              "color": "blue",
+              "battery life": "6 hours",
+              "water resistance": "IPX4"
+            }
+          },
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "2757705742",
+            "price": 258.97,
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            }
+          },
+          {
+            "name": "Bookshelf",
+            "product_id": "8600330539",
+            "item_id": "1768466237",
+            "price": 549.84,
+            "options": {
+              "material": "glass",
+              "color": "black",
+              "height": "3 ft"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "326433164179"
+            ],
+            "item_ids": [
+              "6452271382",
+              "2366567022",
+              "1646531091",
+              "2757705742",
+              "1768466237"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1354.18,
+            "payment_method_id": "gift_card_7245904"
+          }
+        ]
+      }
+    },
+    "users": {
+      "aarav_anderson_8794": {
+        "user_id": "aarav_anderson_8794",
+        "name": {
+          "first_name": "Aarav",
+          "last_name": "Anderson"
+        },
+        "address": {
+          "address1": "931 Maple Drive",
+          "address2": "Suite 985",
+          "city": "Philadelphia",
+          "country": "USA",
+          "state": "PA",
+          "zip": "19031"
+        },
+        "email": "aarav.anderson9752@example.com",
+        "payment_methods": {
+          "gift_card_7245904": {
+            "source": "gift_card",
+            "id": "gift_card_7245904",
+            "balance": 17.0
+          }
+        },
+        "orders": [
+          "#W4316152",
+          "#W9311069",
+          "#W9300146",
+          "#W3220203",
+          "#W3470184"
+        ]
+      }
+    },
+    "products": {
+      "9924732112": {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "variants": {
+          "9580569596": {
+            "item_id": "9580569596",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": true,
+            "price": 257.38
+          },
+          "2499294441": {
+            "item_id": "2499294441",
+            "options": {
+              "color": "black",
+              "battery life": "8 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.36
+          },
+          "1646531091": {
+            "item_id": "1646531091",
+            "options": {
+              "color": "blue",
+              "battery life": "6 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 232.49
+          },
+          "8555936349": {
+            "item_id": "8555936349",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 226.49
+          },
+          "5565631513": {
+            "item_id": "5565631513",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 267.9
+          },
+          "6077640618": {
+            "item_id": "6077640618",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 242.92
+          },
+          "9270970345": {
+            "item_id": "9270970345",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "not resistant"
+            },
+            "available": false,
+            "price": 259.03
+          },
+          "4063058357": {
+            "item_id": "4063058357",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 243.34
+          },
+          "3694871183": {
+            "item_id": "3694871183",
+            "options": {
+              "color": "white",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": false,
+            "price": 256.67
+          },
+          "6452271382": {
+            "item_id": "6452271382",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 258.84
+          },
+          "2052249669": {
+            "item_id": "2052249669",
+            "options": {
+              "color": "white",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 237.14
+          },
+          "2757705742": {
+            "item_id": "2757705742",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.97
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "old_t93_conflict_r1",
+    "task": "93",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 15.012731400027405
+  },
+  {
+    "id": "old_t93_conflict_r2",
+    "task": "93",
+    "state": "conflict",
+    "first": "analyze",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 13.264518800016958
+  },
+  {
+    "id": "old_t93_feasible_r1",
+    "task": "93",
+    "state": "feasible",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 8.8498795000487
+  },
+  {
+    "id": "old_t93_feasible_r2",
+    "task": "93",
+    "state": "feasible",
+    "first": "clarify",
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 7.417867499985732
+  },
+  {
+    "id": "old_t29_dynamic_r1",
+    "task": "29",
+    "state": "dynamic",
+    "first": null,
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 11.247184499981813
+  },
+  {
+    "id": "old_t29_dynamic_r2",
+    "task": "29",
+    "state": "dynamic",
+    "first": null,
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 12.931380700028967
+  },
+  {
+    "id": "old_t102_withdrawn_r1",
+    "task": "102",
+    "state": "withdrawn",
+    "first": null,
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 4.859603799995966
+  },
+  {
+    "id": "old_t102_withdrawn_r2",
+    "task": "102",
+    "state": "withdrawn",
+    "first": null,
+    "group": "direct",
+    "checkpoint": false,
+    "writes": 1,
+    "error": null,
+    "seconds": 5.389544600038789
+  }
+]

@@ -1,0 +1,1132 @@
+{
+  "model_training_performed": false,
+  "ready_training_labels_generated": false,
+  "demonstration_candidates": [
+    {
+      "id": "old_t93_conflict_r1/event1",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_conflict_r1/event5",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_conflict_r1/event7",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_conflict_r1/event11",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_conflict_r2/event1",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_conflict_r2/event5",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_conflict_r2/event7",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_conflict_r2/event11",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_feasible_r1/event3",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_feasible_r1/event5",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_feasible_r1/event9",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_feasible_r2/event3",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_feasible_r2/event5",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t93_feasible_r2/event9",
+      "base_task": "93",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_feasible_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r1/event0",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r1/event2",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r1/event7",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r1/event9",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r1/event13",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r2/event0",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r2/event2",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r2/event7",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r2/event9",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t29_dynamic_r2/event13",
+      "base_task": "29",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t102_withdrawn_r1/event0",
+      "base_task": "102",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t102_withdrawn_r1/event4",
+      "base_task": "102",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r1_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t102_withdrawn_r2/event0",
+      "base_task": "102",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "old_t102_withdrawn_r2/event4",
+      "base_task": "102",
+      "source_phase": "old01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r2_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r1_analyze/event1",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r1_analyze/event5",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r1_analyze/event7",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r1_analyze/event11",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r1_clarify/event3",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r1_clarify/event5",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r1_clarify/event9",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r2_clarify/event3",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r2_clarify/event5",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r2_clarify/event9",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r2_analyze/event1",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r2_analyze/event5",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r2_analyze/event7",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t26_conflict_r2_analyze/event11",
+      "base_task": "26",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r2_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r1_clarify/event3",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r1_clarify/event5",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r1_clarify/event9",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r1_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r2_clarify/event3",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r2_clarify/event5",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r2_clarify/event9",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_clarify_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r2_analyze/event1",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r2_analyze/event5",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r2_analyze/event7",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    },
+    {
+      "id": "B_t35_conflict_r2_analyze/event11",
+      "base_task": "35",
+      "source_phase": "new01",
+      "source_trace": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t35_conflict_r2_analyze_trace.json",
+      "state_field": "state (available before decision, no future outcomes)",
+      "decision_field": "model_output",
+      "final_checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      },
+      "status": "demonstration_candidate_requires_independent_review_and_base_task_split",
+      "not_forced_first_work": true
+    }
+  ],
+  "comparison_candidates": [
+    {
+      "base_task": "26",
+      "state": "conflict",
+      "pair_refs": [
+        "B_t26_conflict_r1_analyze vs B_t26_conflict_r1_clarify",
+        "B_t26_conflict_r2_analyze vs B_t26_conflict_r2_clarify"
+      ],
+      "calls_analyze": [
+        7,
+        7
+      ],
+      "calls_clarify": [
+        5,
+        5
+      ],
+      "status": "conditional_comparison_or_preference_candidate_NOT_READY_FOR_DPO",
+      "preferred_first_work": null,
+      "cost_only_direction": "clarify uses fewer requests under this controlled acceptance script",
+      "unresolved": [
+        "Final SKUs differ: analyze branch preserves more initially requested option fields; soft preference utility not scored.",
+        "All cap/stock-feasible offers are accepted by controlled user; not general human behavior.",
+        "Single assistant semantic audit, no independent blind review.",
+        "Do not choose preference direction until business utility/cost tradeoff is defined."
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "base_task": "35",
+      "reason": "First analysis continuation has ambiguous amount comparator; only second repeat strictly comparable, no repeated preference candidate."
+    }
+  ],
+  "task_partition_rule": "All states/branches/repeats of one base task must remain in one future partition; old repair cases are not unseen evaluation tasks."
+}

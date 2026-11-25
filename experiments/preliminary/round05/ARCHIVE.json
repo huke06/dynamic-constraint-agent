@@ -1,0 +1,206 @@
+{
+  "round": "05",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\audit.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\audit.py",
+      "sha256": "15c2b44e6d7571d670277b3cc93b0fc4f5dcab63fa6fb75118e0abf574d570c8",
+      "bytes": 8674
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\baseline_runner.py",
+      "sha256": "aaf2767a581d3127e8ebc842a1490ef3694c9d22262d69071c636f3347de7beb",
+      "bytes": 30233
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\checks.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\checks.py",
+      "sha256": "332f0394a63d026950beaffd2827321d7a1edc73159cf9923ab2efeae25d3978",
+      "bytes": 11419
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\engine.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\engine.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\exchange_core.py",
+      "sha256": "001ee00e5ad6afbf938ff6033a6ff7134123d1a123fda2bde3b88e04c6beabfc",
+      "bytes": 16485
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\README.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\README.md",
+      "sha256": "62fd5ec6ef11d89a32a2737e1edecacf472294683bd4b3a78b4d3a5f6ded116d",
+      "bytes": 2691
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\run.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\run.py",
+      "sha256": "eba2fcb5bd51363e9c3c5f0ae9612a931e9209e25f4c72bae74063b6cc4c7634",
+      "bytes": 14888
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\工程记录.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\工程记录.md",
+      "sha256": "641130143234e1240db8f9fa02ead23969d4f17823e9b8bf9e09758c57d627c5",
+      "bytes": 2740
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\summary.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\summary.md",
+      "sha256": "37c2d5b54d27996a30bdb79e0a9fd1c18d885a86dc69d3b5c434d6a77f84170e",
+      "bytes": 798
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\baseline_runner.py",
+      "sha256": "aaf2767a581d3127e8ebc842a1490ef3694c9d22262d69071c636f3347de7beb",
+      "bytes": 30233
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\checks.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\checks.py",
+      "sha256": "be05468958ba167364359f40c83153e489c533e24e24aecd6f5074c5fd39ee97",
+      "bytes": 8527
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\engine.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\engine.py",
+      "sha256": "58288ecb289fe8dc78bb691c9cfce6a2e0217ae60d88b8203661c07405b69be1",
+      "bytes": 5781
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\exchange_core.py",
+      "sha256": "001ee00e5ad6afbf938ff6033a6ff7134123d1a123fda2bde3b88e04c6beabfc",
+      "bytes": 16485
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\official_policy.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\protocol.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\protocol.md",
+      "sha256": "e11b2f71199f581b46d84135604182c6134cdb0489ee5c29113c3fdaeb1ddaeb",
+      "bytes": 3359
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\README.md",
+      "sha256": "b8654ac2fb19a22230d24c72fddaf0985926e065d41274fab2d0409191702229",
+      "bytes": 1688
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T055608126476Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T055608126476Z\\snapshot\\run.py",
+      "sha256": "87f148528b0075d2fdc8b6599a3f588fee34e15d470e864ec43f3a662b01e99c",
+      "bytes": 12863
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\summary.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\summary.md",
+      "sha256": "5e1a2491ce6502b92c57b0c7a8837d346cdf050670c067e38ef166a387f92833",
+      "bytes": 798
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\结果解读.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\结果解读.md",
+      "sha256": "85e9b752db843fd5cfce903468eaa94e0b39208b960a1c86da5b5386bcfd9380",
+      "bytes": 5702
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\baseline_runner.py",
+      "sha256": "aaf2767a581d3127e8ebc842a1490ef3694c9d22262d69071c636f3347de7beb",
+      "bytes": 30233
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\checks.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\checks.py",
+      "sha256": "332f0394a63d026950beaffd2827321d7a1edc73159cf9923ab2efeae25d3978",
+      "bytes": 11419
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\engine.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\engine.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\exchange_core.py",
+      "sha256": "001ee00e5ad6afbf938ff6033a6ff7134123d1a123fda2bde3b88e04c6beabfc",
+      "bytes": 16485
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\official_policy.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\protocol.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\protocol.md",
+      "sha256": "d32d90784aed07e66240df4eef718a44cc434b5725fe933341424ce27b0a4b5f",
+      "bytes": 3978
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\README.md",
+      "sha256": "b8654ac2fb19a22230d24c72fddaf0985926e065d41274fab2d0409191702229",
+      "bytes": 1688
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results\\20261121T060441772846Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round05\\archive\\results\\20261121T060441772846Z\\snapshot\\run.py",
+      "sha256": "eba2fcb5bd51363e9c3c5f0ae9612a931e9209e25f4c72bae74063b6cc4c7634",
+      "bytes": 14888
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\05_库存证据相邻状态\\results",
+    "files": 108,
+    "bytes": 43636867,
+    "git_storage": "external original directory, not moved"
+  }
+}

@@ -1,0 +1,625 @@
+[
+  {
+    "task": "11",
+    "repeat": 1,
+    "comparable": false,
+    "analyze": {
+      "id": "B_t11_conflict_r1_analyze",
+      "task": "11",
+      "state": "conflict",
+      "first": "analyze",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 14.898259299981873,
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_choice": null,
+      "first_raw_decision": {
+        "work_type": "clarify",
+        "object": "4579334072",
+        "parameters": {
+          "variant_id": "7661609223"
+        },
+        "evidence_refs": [
+          8
+        ],
+        "expected": "User grants new specification permission for a feasible alternative (e.g., 1000ml black stainless steel variant 7661609223) for original item 4579334072, since no exact match exists for the current 500ml black stainless steel request.",
+        "reason": "Current exact specification has no feasible match; a negotiable alternative within the -47.86 cap requires the user's new specification permission before any substitution."
+      },
+      "first_executed": true,
+      "strict_quality": false,
+      "fact_review": {
+        "status": "contradicted",
+        "issues": [
+          {
+            "kind": "semantic_clarification_factual_error",
+            "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+          }
+        ],
+        "reviewer": "post-run assistant evidence audit; no external judge API",
+        "simulation_deviation": []
+      },
+      "usage": {
+        "input": 17692,
+        "output": 1701,
+        "cache_hit": 7808,
+        "cache_miss": 9884,
+        "requests": 8,
+        "unknown": 0,
+        "model_seconds": 14.30127719999291
+      },
+      "rejections": [],
+      "repeated_work": [],
+      "processed_reference_reuse": [],
+      "unsafe_submit_attempts": [],
+      "actual_permission_checks": [
+        {
+          "item": "4579334072",
+          "variant": "7661609223",
+          "env_matches_actual_offer": true,
+          "new_actual_user_messages": [
+            {
+              "role": "user",
+              "content": "Replace my CURRENT request for original item 4579334072 with SKU 7661609223, if available and whole signed difference <= -47.86. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+            }
+          ]
+        }
+      ]
+    },
+    "clarify": {
+      "id": "B_t11_conflict_r1_clarify",
+      "task": "11",
+      "state": "conflict",
+      "first": "clarify",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 11.62883940001484,
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_choice": null,
+      "first_raw_decision": {
+        "work_type": "prepare",
+        "object": "#W5490111",
+        "parameters": {},
+        "evidence_refs": [
+          13,
+          8,
+          11
+        ],
+        "expected": "Store a feasible complete current exchange plan for order #W5490111: item 4579334072 → SKU 2439754078 (1000ml red stainless steel, $49.51, whole difference -48.00 ≤ -47.86) and item 1421289881 → SKU 3616838507 (tactile/white/full size, $226.11), refund to credit_card_3124723, pending separate final approval.",
+        "reason": "Current effective specification supersedes the earlier SKU for item 4579334072 with SKU 2439754078, which is in stock and satisfies the whole signed difference cap (-48.00 ≤ -47.86); the other item's initially requested replacement 3616838507 is available, so a complete feasible plan can be stored for later confirmation."
+      },
+      "first_executed": true,
+      "strict_quality": true,
+      "fact_review": {
+        "status": "supported",
+        "issues": [],
+        "reviewer": "post-run assistant evidence audit; no external judge API",
+        "simulation_deviation": []
+      },
+      "usage": {
+        "input": 12065,
+        "output": 885,
+        "cache_hit": 5376,
+        "cache_miss": 6689,
+        "requests": 6,
+        "unknown": 0,
+        "model_seconds": 11.136280400038231
+      },
+      "rejections": [],
+      "repeated_work": [],
+      "processed_reference_reuse": [],
+      "unsafe_submit_attempts": [],
+      "actual_permission_checks": [
+        {
+          "item": "4579334072",
+          "variant": "2439754078",
+          "env_matches_actual_offer": true,
+          "new_actual_user_messages": [
+            {
+              "role": "user",
+              "content": "Replace my CURRENT request for original item 4579334072 with SKU 2439754078, if available and whole signed difference <= -47.86. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "task": "11",
+    "repeat": 2,
+    "comparable": false,
+    "analyze": {
+      "id": "B_t11_conflict_r2_analyze",
+      "task": "11",
+      "state": "conflict",
+      "first": "analyze",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 17.465953600010835,
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_choice": null,
+      "first_raw_decision": {
+        "work_type": "clarify",
+        "object": "4579334072",
+        "parameters": {
+          "variant_id": "7533802601"
+        },
+        "evidence_refs": [
+          8
+        ],
+        "expected": "User grants new permission for a feasible alternative specification (500ml green stainless steel, variant 7533802601) for original item 4579334072, since no exact match exists for the requested 500ml black stainless steel within the signed amount cap.",
+        "reason": "Current effective specification for item 4579334072 has no exact feasible match; the closest negotiable option preserving capacity and material (500ml stainless steel, differing only in color) is variant 7533802601, which requires the user's new specification permission before any plan can be prepared."
+      },
+      "first_executed": true,
+      "strict_quality": false,
+      "fact_review": {
+        "status": "contradicted",
+        "issues": [
+          {
+            "kind": "semantic_clarification_factual_error",
+            "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+          }
+        ],
+        "reviewer": "post-run assistant evidence audit; no external judge API",
+        "simulation_deviation": []
+      },
+      "usage": {
+        "input": 17676,
+        "output": 1742,
+        "cache_hit": 8448,
+        "cache_miss": 9228,
+        "requests": 8,
+        "unknown": 0,
+        "model_seconds": 16.886351799883414
+      },
+      "rejections": [],
+      "repeated_work": [],
+      "processed_reference_reuse": [],
+      "unsafe_submit_attempts": [],
+      "actual_permission_checks": [
+        {
+          "item": "4579334072",
+          "variant": "7533802601",
+          "env_matches_actual_offer": true,
+          "new_actual_user_messages": [
+            {
+              "role": "user",
+              "content": "Replace my CURRENT request for original item 4579334072 with SKU 7533802601, if available and whole signed difference <= -47.86. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+            }
+          ]
+        }
+      ]
+    },
+    "clarify": {
+      "id": "B_t11_conflict_r2_clarify",
+      "task": "11",
+      "state": "conflict",
+      "first": "clarify",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 9.964384799997788,
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_choice": null,
+      "first_raw_decision": {
+        "work_type": "prepare",
+        "object": "#W5490111",
+        "parameters": {},
+        "evidence_refs": [
+          13,
+          8,
+          11
+        ],
+        "expected": "Store a feasible complete current exchange plan for order #W5490111: item 4579334072 → SKU 2439754078 (whole difference -48.00 ≤ -47.86) and item 1421289881 → SKU 3616838507, then present the full proposal for separate final approval.",
+        "reason": "Current effective specification supersedes the earlier SKU for item 4579334072 with SKU 2439754078, which is in stock and satisfies the signed whole-difference cap; the other item's initially requested replacement remains feasible, so a complete feasible plan can be stored pending explicit final authorization."
+      },
+      "first_executed": true,
+      "strict_quality": true,
+      "fact_review": {
+        "status": "supported",
+        "issues": [],
+        "reviewer": "post-run assistant evidence audit; no external judge API",
+        "simulation_deviation": []
+      },
+      "usage": {
+        "input": 12050,
+        "output": 758,
+        "cache_hit": 6016,
+        "cache_miss": 6034,
+        "requests": 6,
+        "unknown": 0,
+        "model_seconds": 9.484328699996695
+      },
+      "rejections": [],
+      "repeated_work": [],
+      "processed_reference_reuse": [],
+      "unsafe_submit_attempts": [],
+      "actual_permission_checks": [
+        {
+          "item": "4579334072",
+          "variant": "2439754078",
+          "env_matches_actual_offer": true,
+          "new_actual_user_messages": [
+            {
+              "role": "user",
+              "content": "Replace my CURRENT request for original item 4579334072 with SKU 2439754078, if available and whole signed difference <= -47.86. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "task": "16",
+    "repeat": 1,
+    "comparable": false,
+    "analyze": {
+      "id": "B_t16_conflict_r1_analyze",
+      "task": "16",
+      "state": "conflict",
+      "first": "analyze",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 12.075549000001047,
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_choice": null,
+      "first_raw_decision": {
+        "work_type": "clarify",
+        "object": "4127323219",
+        "parameters": {
+          "variant_id": "5676696062"
+        },
+        "evidence_refs": [
+          8,
+          11
+        ],
+        "expected": "User grants new specification permission for a feasible alternative variant (e.g., 5676696062: leather, size 11, non-waterproof) so a complete current proposal can be prepared.",
+        "reason": "No exact match exists for the requested leather/size-11/waterproof spec; the closest feasible alternative differing only on waterproof is variant 5676696062, which requires the user's new specification permission before it can be used."
+      },
+      "first_executed": true,
+      "strict_quality": true,
+      "fact_review": {
+        "status": "supported",
+        "issues": [],
+        "reviewer": "post-run assistant evidence audit; no external judge API",
+        "simulation_deviation": []
+      },
+      "usage": {
+        "input": 16458,
+        "output": 1385,
+        "cache_hit": 7808,
+        "cache_miss": 8650,
+        "requests": 8,
+        "unknown": 0,
+        "model_seconds": 11.539207400055602
+      },
+      "rejections": [],
+      "repeated_work": [],
+      "processed_reference_reuse": [],
+      "unsafe_submit_attempts": [],
+      "actual_permission_checks": [
+        {
+          "item": "4127323219",
+          "variant": "5676696062",
+          "env_matches_actual_offer": true,
+          "new_actual_user_messages": [
+            {
+              "role": "user",
+              "content": "Replace my CURRENT request for original item 4127323219 with SKU 5676696062, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+            }
+          ]
+        }
+      ]
+    },
+    "clarify": {
+      "id": "B_t16_conflict_r1_clarify",
+      "task": "16",
+      "state": "conflict",
+      "first": "clarify",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 10.62333979998948,
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_choice": null,
+      "first_raw_decision": {
+        "work_type": "prepare",
+        "object": "#W9389413",
+        "parameters": {},
+        "evidence_refs": [
+          13,
+          8,
+          11
+        ],
+        "expected": "Store a feasible complete current exchange plan for order #W9389413: item 4127323219 → SKU 3812493782 (leather/size 7/waterproof yes, $244.34, whole difference -59.25 ≤ -51.54) and item 2554056026 → SKU 2860956907 (black/silicone/LCD, $315.61), refund to paypal_5364164, then request final approval.",
+        "reason": "Current effective specification supersedes the historical SKU for item 4127323219 with SKU 3812493782, which is in stock and satisfies the whole-difference cap (-59.25 ≤ -51.54); the second item's current specification (2860956907) is in stock, so a complete feasible plan can be stored for separate final authorization."
+      },
+      "first_executed": true,
+      "strict_quality": false,
+      "fact_review": {
+        "status": "contradicted",
+        "issues": [
+          {
+            "kind": "semantic_clarification_factual_error",
+            "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+          }
+        ],
+        "reviewer": "post-run assistant evidence audit; no external judge API",
+        "simulation_deviation": []
+      },
+      "usage": {
+        "input": 11592,
+        "output": 847,
+        "cache_hit": 5376,
+        "cache_miss": 6216,
+        "requests": 6,
+        "unknown": 0,
+        "model_seconds": 10.181882400007453
+      },
+      "rejections": [],
+      "repeated_work": [],
+      "processed_reference_reuse": [],
+      "unsafe_submit_attempts": [],
+      "actual_permission_checks": [
+        {
+          "item": "4127323219",
+          "variant": "3812493782",
+          "env_matches_actual_offer": true,
+          "new_actual_user_messages": [
+            {
+              "role": "user",
+              "content": "Replace my CURRENT request for original item 4127323219 with SKU 3812493782, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "task": "16",
+    "repeat": 2,
+    "comparable": false,
+    "analyze": {
+      "id": "B_t16_conflict_r2_analyze",
+      "task": "16",
+      "state": "conflict",
+      "first": "analyze",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 14.024117499997374,
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_choice": null,
+      "first_raw_decision": {
+        "work_type": "clarify",
+        "object": "4127323219",
+        "parameters": {
+          "variant_id": "5676696062"
+        },
+        "evidence_refs": [
+          8,
+          11
+        ],
+        "expected": "User grants new specification permission for a feasible alternative variant (e.g., 5676696062: leather, size 11, waterproof no) within the -51.54 whole-amount cap, or declines.",
+        "reason": "No exact match exists for the current effective specification (size 11, leather, waterproof yes) for item 4127323219; the exact feasible set is empty. A negotiable alternative within the signed amount cap requires the user's new specification permission before any plan can be prepared."
+      },
+      "first_executed": true,
+      "strict_quality": false,
+      "fact_review": {
+        "status": "contradicted",
+        "issues": [
+          {
+            "kind": "semantic_clarification_factual_error",
+            "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+          }
+        ],
+        "reviewer": "post-run assistant evidence audit; no external judge API",
+        "simulation_deviation": []
+      },
+      "usage": {
+        "input": 16463,
+        "output": 1352,
+        "cache_hit": 8832,
+        "cache_miss": 7631,
+        "requests": 8,
+        "unknown": 0,
+        "model_seconds": 13.290285299997777
+      },
+      "rejections": [],
+      "repeated_work": [],
+      "processed_reference_reuse": [],
+      "unsafe_submit_attempts": [],
+      "actual_permission_checks": [
+        {
+          "item": "4127323219",
+          "variant": "5676696062",
+          "env_matches_actual_offer": true,
+          "new_actual_user_messages": [
+            {
+              "role": "user",
+              "content": "Replace my CURRENT request for original item 4127323219 with SKU 5676696062, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+            }
+          ]
+        }
+      ]
+    },
+    "clarify": {
+      "id": "B_t16_conflict_r2_clarify",
+      "task": "16",
+      "state": "conflict",
+      "first": "clarify",
+      "group": "direct",
+      "checkpoint": false,
+      "writes": 1,
+      "error": null,
+      "seconds": 9.210149199992884,
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_choice": null,
+      "first_raw_decision": {
+        "work_type": "prepare",
+        "object": "#W9389413",
+        "parameters": {},
+        "evidence_refs": [
+          13,
+          8,
+          11
+        ],
+        "expected": "Store feasible current exchange plan: item 4127323219 -> SKU 3812493782 (leather/size 7/waterproof yes, $244.34, whole difference -59.25 <= -51.54) and item 2554056026 -> SKU 2860956907 (black/silicone/LCD, $315.61), refund to paypal_5364164, pending separate final approval.",
+        "reason": "Current effective specification supersedes prior SKU with feasible exact-match SKU 3812493782 within the -51.54 cap; second item's initially requested replacement is available; plan is feasible and awaits explicit final authorization."
+      },
+      "first_executed": true,
+      "strict_quality": false,
+      "fact_review": {
+        "status": "contradicted",
+        "issues": [
+          {
+            "kind": "semantic_clarification_factual_error",
+            "evidence": "Actual model-generated clarification misstates current requested vs proposed SKU and/or says unavailable despite native stock=true; actual infeasibility was cap. See semantic_question text and visible_input. This is not a loop/DB failure but disqualifies strict acceptance."
+          }
+        ],
+        "reviewer": "post-run assistant evidence audit; no external judge API",
+        "simulation_deviation": []
+      },
+      "usage": {
+        "input": 11592,
+        "output": 762,
+        "cache_hit": 6016,
+        "cache_miss": 5576,
+        "requests": 6,
+        "unknown": 0,
+        "model_seconds": 8.7535029000137
+      },
+      "rejections": [],
+      "repeated_work": [],
+      "processed_reference_reuse": [],
+      "unsafe_submit_attempts": [],
+      "actual_permission_checks": [
+        {
+          "item": "4127323219",
+          "variant": "3812493782",
+          "env_matches_actual_offer": true,
+          "new_actual_user_messages": [
+            {
+              "role": "user",
+              "content": "Replace my CURRENT request for original item 4127323219 with SKU 3812493782, if available and whole signed difference <= -51.54. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate final approval."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

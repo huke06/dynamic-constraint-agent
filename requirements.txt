@@ -1,0 +1,4 @@
+openai==2.52.0
+httpx==0.28.1
+pydantic==2.13.4
+# Install tau2-official separately; frozen task configs include relevant simulated DB.

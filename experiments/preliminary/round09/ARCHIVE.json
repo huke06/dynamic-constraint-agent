@@ -1,0 +1,140 @@
+{
+  "round": "09",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\adjacent_reference.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\adjacent_reference.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\analyze.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\analyze.py",
+      "sha256": "51e0525e2a73c34fc4ab2bd41bb1883dae4a260b91b9e4af14e4a6afe8537087",
+      "bytes": 13111
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\baseline_runner.py",
+      "sha256": "ff508a529869961b267b6ef2ab978f06f1dc61d9f75ead33d8e02b62d577418b",
+      "bytes": 30342
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\build_inputs.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\build_inputs.py",
+      "sha256": "dc7f623ce5a8e3164ab82abde1be9a37428571a806bed285082e3538dfd57081",
+      "bytes": 6138
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\checks.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\checks.py",
+      "sha256": "d857cfccfedf69e9c0261fb2569648cce39fc299ad746158136efd79e15386a0",
+      "bytes": 14620
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\contracts08.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\contracts08.py",
+      "sha256": "1c119b2174fa4236c03c2083327c5fe6977d89066dfdc9759ab40c8e25566bd3",
+      "bytes": 1780
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\engine.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\engine.py",
+      "sha256": "a62577f45c76619c249a138a959df019419105e3a6cd4e4f19b878d64ab86ab2",
+      "bytes": 7100
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\input_boundary.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\input_boundary.py",
+      "sha256": "a56864dec8429b4932be05e15ece7993a88768f0ba8a682e4ef3a6208cf6385b",
+      "bytes": 1138
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\legacy_engine.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\legacy_engine.py",
+      "sha256": "7444f37891ddb4847d60c680302a685297de42f97f229977b7ef91164010ef15",
+      "bytes": 6947
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\normalization.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round09\\archive\\PROTOCOL.md",
+      "sha256": "7a088bcb0e3046dd0820b26384109228adb0aaad1fbce1e72da94105ade1b2dc",
+      "bytes": 6599
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\README.md",
+      "copy": "experiments\\preliminary\\round09\\archive\\README.md",
+      "sha256": "2a25eb9348adb42ec8b6db772c7695fdb20c3a3da2eb8234bf96431bc205ee48",
+      "bytes": 1679
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round09\\archive\\RESULTS.md",
+      "sha256": "e85ab1840960b204af670196ae0b34745a20099247362fd2b0e2145b4395e3f5",
+      "bytes": 14353
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\review.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\review.py",
+      "sha256": "37b057c5ab08a8485d6915a85e695fe8656d470951528db4ee2e5684c27aa6d4",
+      "bytes": 6077
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\run.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\run.py",
+      "sha256": "9b29e30925f739d9e3ec161acc6c32c4a09833b6a1df2177584828ae197f142b",
+      "bytes": 17847
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\snapshots.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\snapshots.py",
+      "sha256": "422711c0d154c3a315aa66c65fd77240ad80b3352f89763b6849a82f3454eb44",
+      "bytes": 4205
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\verify_delivery.py",
+      "copy": "experiments\\preliminary\\round09\\archive\\verify_delivery.py",
+      "sha256": "0315249a30a6883e40b7a6fd704926429d9975bfcc856c8000adfaa93d4fbd6b",
+      "bytes": 6733
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\results\\20261122T132951508463Z\\PAIRED_RESULTS.md",
+      "copy": "experiments\\preliminary\\round09\\archive\\results\\20261122T132951508463Z\\PAIRED_RESULTS.md",
+      "sha256": "20aac878b6db11c6800c608cf09679f5451f3e7fdc475c40efaa8fcc7b71d9c4",
+      "bytes": 840
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\results\\20261122T132951508463Z\\frozen\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round09\\archive\\results\\20261122T132951508463Z\\frozen\\PROTOCOL.md",
+      "sha256": "7a088bcb0e3046dd0820b26384109228adb0aaad1fbce1e72da94105ade1b2dc",
+      "bytes": 6599
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\09_固定起点续行复验\\results",
+    "files": 116,
+    "bytes": 52027874,
+    "git_storage": "external original directory, not moved"
+  }
+}

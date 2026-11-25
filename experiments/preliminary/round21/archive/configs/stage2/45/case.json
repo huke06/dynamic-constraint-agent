@@ -1,0 +1,291 @@
+{
+  "task_id": "45",
+  "tier": "multistep",
+  "stage": "stage2",
+  "order_id": "#W9502127",
+  "user_id": "daiki_johnson_9523",
+  "scope": [
+    "6259501109"
+  ],
+  "targets": {
+    "6259501109": "3019027053"
+  },
+  "initial_options": {
+    "6259501109": {
+      "type": "upright",
+      "bagged/bagless": "bagless",
+      "features": "cordless"
+    }
+  },
+  "payment_method_id": "paypal_2433177",
+  "change_type": "none",
+  "changed_item": "6259501109",
+  "changed_target": "4602305039",
+  "change_message": "Before submission, change the Vacuum Cleaner (original item 6259501109) to item 4602305039 with options {\"type\": \"robotic\", \"bagged/bagless\": \"bagged\", \"features\": \"cordless\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am daiki_johnson_9523; email daiki.johnson2279@example.com. In delivered order #W9502127, exchange ONLY these items in one complete request: [{\"item_id\": \"6259501109\", \"name\": \"Vacuum Cleaner\", \"requested_variant\": \"3019027053\", \"options\": {\"type\": \"upright\", \"bagged/bagless\": \"bagless\", \"features\": \"cordless\"}}]. Keep every other item and order unchanged. Use original payment paypal_2433177. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": false,
+  "environment": {
+    "orders": {
+      "#W9502127": {
+        "order_id": "#W9502127",
+        "user_id": "daiki_johnson_9523",
+        "address": {
+          "address1": "834 Park Avenue",
+          "address2": "Suite 947",
+          "city": "Denver",
+          "country": "USA",
+          "state": "CO",
+          "zip": "80273"
+        },
+        "items": [
+          {
+            "name": "Vacuum Cleaner",
+            "product_id": "1762337868",
+            "item_id": "2872451762",
+            "price": 622.12,
+            "options": {
+              "type": "canister",
+              "bagged/bagless": "bagged",
+              "features": "pet hair removal"
+            }
+          },
+          {
+            "name": "Air Purifier",
+            "product_id": "3821016478",
+            "item_id": "9534205511",
+            "price": 473.43,
+            "options": {
+              "room size": "large",
+              "filter type": "ionic",
+              "features": "smart sensors"
+            }
+          },
+          {
+            "name": "Patio Umbrella",
+            "product_id": "9743693396",
+            "item_id": "6243981804",
+            "price": 329.85,
+            "options": {
+              "size": "7 ft",
+              "color": "green",
+              "material": "sunbrella",
+              "tilt mechanism": "auto tilt"
+            }
+          },
+          {
+            "name": "Dumbbell Set",
+            "product_id": "7233192239",
+            "item_id": "3877338112",
+            "price": 545.68,
+            "options": {
+              "weight range": "5-25 lbs",
+              "material": "iron",
+              "set type": "adjustable"
+            }
+          },
+          {
+            "name": "Vacuum Cleaner",
+            "product_id": "1762337868",
+            "item_id": "6259501109",
+            "price": 652.61,
+            "options": {
+              "type": "robotic",
+              "bagged/bagless": "bagged",
+              "features": "pet hair removal"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "269178517234"
+            ],
+            "item_ids": [
+              "2872451762",
+              "9534205511",
+              "6243981804",
+              "3877338112",
+              "6259501109"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 2623.69,
+            "payment_method_id": "paypal_2433177"
+          }
+        ]
+      }
+    },
+    "users": {
+      "daiki_johnson_9523": {
+        "user_id": "daiki_johnson_9523",
+        "name": {
+          "first_name": "Daiki",
+          "last_name": "Johnson"
+        },
+        "address": {
+          "address1": "834 Park Avenue",
+          "address2": "Suite 947",
+          "city": "Denver",
+          "country": "USA",
+          "state": "CO",
+          "zip": "80273"
+        },
+        "email": "daiki.johnson2279@example.com",
+        "payment_methods": {
+          "paypal_2433177": {
+            "source": "paypal",
+            "id": "paypal_2433177"
+          }
+        },
+        "orders": [
+          "#W1436802",
+          "#W5282037",
+          "#W9502127"
+        ]
+      }
+    },
+    "products": {
+      "1762337868": {
+        "name": "Vacuum Cleaner",
+        "product_id": "1762337868",
+        "variants": {
+          "4602305039": {
+            "item_id": "4602305039",
+            "options": {
+              "type": "robotic",
+              "bagged/bagless": "bagged",
+              "features": "cordless"
+            },
+            "available": true,
+            "price": 561.05
+          },
+          "3019027053": {
+            "item_id": "3019027053",
+            "options": {
+              "type": "upright",
+              "bagged/bagless": "bagless",
+              "features": "cordless"
+            },
+            "available": false,
+            "price": 553.03
+          },
+          "1345513440": {
+            "item_id": "1345513440",
+            "options": {
+              "type": "canister",
+              "bagged/bagless": "bagged",
+              "features": "cordless"
+            },
+            "available": true,
+            "price": 655.59
+          },
+          "4806644905": {
+            "item_id": "4806644905",
+            "options": {
+              "type": "robotic",
+              "bagged/bagless": "bagless",
+              "features": "cordless"
+            },
+            "available": true,
+            "price": 658.89
+          },
+          "7407609582": {
+            "item_id": "7407609582",
+            "options": {
+              "type": "upright",
+              "bagged/bagless": "bagless",
+              "features": "HEPA filter"
+            },
+            "available": true,
+            "price": 602.48
+          },
+          "4965355367": {
+            "item_id": "4965355367",
+            "options": {
+              "type": "robotic",
+              "bagged/bagless": "bagless",
+              "features": "pet hair removal"
+            },
+            "available": true,
+            "price": 620.07
+          },
+          "3526747930": {
+            "item_id": "3526747930",
+            "options": {
+              "type": "upright",
+              "bagged/bagless": "bagged",
+              "features": "pet hair removal"
+            },
+            "available": true,
+            "price": 540.12
+          },
+          "2872451762": {
+            "item_id": "2872451762",
+            "options": {
+              "type": "canister",
+              "bagged/bagless": "bagged",
+              "features": "pet hair removal"
+            },
+            "available": true,
+            "price": 622.12
+          },
+          "7958300294": {
+            "item_id": "7958300294",
+            "options": {
+              "type": "canister",
+              "bagged/bagless": "bagless",
+              "features": "pet hair removal"
+            },
+            "available": true,
+            "price": 642.72
+          },
+          "9970989750": {
+            "item_id": "9970989750",
+            "options": {
+              "type": "upright",
+              "bagged/bagless": "bagged",
+              "features": "cordless"
+            },
+            "available": false,
+            "price": 569.43
+          },
+          "4725166838": {
+            "item_id": "4725166838",
+            "options": {
+              "type": "robotic",
+              "bagged/bagless": "bagless",
+              "features": "HEPA filter"
+            },
+            "available": true,
+            "price": 602.11
+          },
+          "1304426904": {
+            "item_id": "1304426904",
+            "options": {
+              "type": "canister",
+              "bagged/bagless": "bagless",
+              "features": "HEPA filter"
+            },
+            "available": false,
+            "price": 565.79
+          },
+          "6259501109": {
+            "item_id": "6259501109",
+            "options": {
+              "type": "robotic",
+              "bagged/bagless": "bagged",
+              "features": "pet hair removal"
+            },
+            "available": false,
+            "price": 652.61
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

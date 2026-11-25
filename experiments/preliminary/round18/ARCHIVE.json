@@ -1,0 +1,398 @@
+{
+  "round": "18",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\README.md",
+      "copy": "experiments\\preliminary\\round18\\archive\\README.md",
+      "sha256": "c56b81487eb53f5db83a373cd599e606770c5d7f7e358cb474d31075253dd3a5",
+      "bytes": 1806
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\additional_offline.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\additional_offline.json",
+      "sha256": "cfb766db25cbe5cecb6de8d4f45198edeb6f9cd75561afd2f36bd69e16a874b0",
+      "bytes": 958
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\budget.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\budget.json",
+      "sha256": "5d49ebf9abb82060488c4a14580e4aa25eff524ab9aae83864fe483db3619908",
+      "bytes": 474
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\freeze.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\freeze.json",
+      "sha256": "fcc37f43824df34f90904b7a9c4f3a3ecef1292a81bc8e282227e90202f02880",
+      "bytes": 639408
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\official_policy.md",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\offline.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\offline.json",
+      "sha256": "62122ee7ba861d84517010f4fe8185fec9dfe7d969c361aac5bdad5ae1fe860e",
+      "bytes": 336383
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\prompts.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\prompts.json",
+      "sha256": "384dc0a00186d6bd9814a1757323965e1c038d322544eb66dfaecc855ce57cae",
+      "bytes": 3710
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\PROTOCOL.md",
+      "sha256": "200e8da49a4e86305aadfa839b1bd5ed3003468c1a47dd3673b59435b04bd5e9",
+      "bytes": 7301
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks.json",
+      "sha256": "ca3d5cd216be57c3f939d6246f1abd0b7aafe1572256d9b558e0e7dc26e8ca39",
+      "bytes": 38
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks\\27\\adapted.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks\\27\\adapted.json",
+      "sha256": "5a47655c2107406251843eefb1c02fe02bdfc07041a5d4030717bdacee918b3b",
+      "bytes": 10403
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks\\27\\original_task.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks\\27\\original_task.json",
+      "sha256": "a4b6af53f2717955821357b5343491b4ba6d1689d60c0b8e2b5170781d8e9975",
+      "bytes": 2268
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks\\6\\adapted.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks\\6\\adapted.json",
+      "sha256": "b1532397283165b719e89d08adde2202f084045a3887d654106c93404908e39d",
+      "bytes": 7656
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks\\6\\original_task.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks\\6\\original_task.json",
+      "sha256": "75b40b003dcce49270f8286e5f8483485aa933e793ccb1db70e3a45e78e91493",
+      "bytes": 2157
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks\\75\\adapted.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks\\75\\adapted.json",
+      "sha256": "2c9bd073faac45f1f53be4e76d5b28a059f4fadf6134c0f1dadd894785769b17",
+      "bytes": 8512
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks\\75\\original_task.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks\\75\\original_task.json",
+      "sha256": "869edbe677d7a8b52df0e14775810a140c4ac2afcd33ca1b57fe22aa45b4ce12",
+      "bytes": 1218
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks\\77\\adapted.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks\\77\\adapted.json",
+      "sha256": "8904e0cd632ebc0e297202b2305c86cea05fe17238c380a2e6bf9ea4418a5f06",
+      "bytes": 6428
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\configs\\tasks\\77\\original_task.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\configs\\tasks\\77\\original_task.json",
+      "sha256": "340f8cc11d71d7dcadd0a2b93381ddeb3b4045b7d4714c1a23fbac2178b37d6c",
+      "bytes": 1190
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\PAIRED_RESULTS.md",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\PAIRED_RESULTS.md",
+      "sha256": "047bfc021e7177ad550e0d331463ec22c055f2289a197da2833490445fdb097f",
+      "bytes": 1724
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\RESULTS.md",
+      "sha256": "ded3c084074f19fc5a571e815ce3ea6ddcffedbef209fe4050329ad1f66831fe",
+      "bytes": 10328
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\freeze.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\freeze.json",
+      "sha256": "fcc37f43824df34f90904b7a9c4f3a3ecef1292a81bc8e282227e90202f02880",
+      "bytes": 639408
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\additional_offline.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\additional_offline.json",
+      "sha256": "cfb766db25cbe5cecb6de8d4f45198edeb6f9cd75561afd2f36bd69e16a874b0",
+      "bytes": 958
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\budget.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\budget.json",
+      "sha256": "5d49ebf9abb82060488c4a14580e4aa25eff524ab9aae83864fe483db3619908",
+      "bytes": 474
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\official_policy.md",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\offline.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\offline.json",
+      "sha256": "62122ee7ba861d84517010f4fe8185fec9dfe7d969c361aac5bdad5ae1fe860e",
+      "bytes": 336383
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\prompts.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\prompts.json",
+      "sha256": "384dc0a00186d6bd9814a1757323965e1c038d322544eb66dfaecc855ce57cae",
+      "bytes": 3710
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\PROTOCOL.md",
+      "sha256": "200e8da49a4e86305aadfa839b1bd5ed3003468c1a47dd3673b59435b04bd5e9",
+      "bytes": 7301
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks.json",
+      "sha256": "ca3d5cd216be57c3f939d6246f1abd0b7aafe1572256d9b558e0e7dc26e8ca39",
+      "bytes": 38
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks\\27\\adapted.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks\\27\\adapted.json",
+      "sha256": "5a47655c2107406251843eefb1c02fe02bdfc07041a5d4030717bdacee918b3b",
+      "bytes": 10403
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks\\27\\original_task.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks\\27\\original_task.json",
+      "sha256": "a4b6af53f2717955821357b5343491b4ba6d1689d60c0b8e2b5170781d8e9975",
+      "bytes": 2268
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks\\6\\adapted.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks\\6\\adapted.json",
+      "sha256": "b1532397283165b719e89d08adde2202f084045a3887d654106c93404908e39d",
+      "bytes": 7656
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks\\6\\original_task.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks\\6\\original_task.json",
+      "sha256": "75b40b003dcce49270f8286e5f8483485aa933e793ccb1db70e3a45e78e91493",
+      "bytes": 2157
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks\\75\\adapted.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks\\75\\adapted.json",
+      "sha256": "2c9bd073faac45f1f53be4e76d5b28a059f4fadf6134c0f1dadd894785769b17",
+      "bytes": 8512
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks\\75\\original_task.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks\\75\\original_task.json",
+      "sha256": "869edbe677d7a8b52df0e14775810a140c4ac2afcd33ca1b57fe22aa45b4ce12",
+      "bytes": 1218
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks\\77\\adapted.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks\\77\\adapted.json",
+      "sha256": "8904e0cd632ebc0e297202b2305c86cea05fe17238c380a2e6bf9ea4418a5f06",
+      "bytes": 6428
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\configs\\tasks\\77\\original_task.json",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\configs\\tasks\\77\\original_task.json",
+      "sha256": "340f8cc11d71d7dcadd0a2b93381ddeb3b4045b7d4714c1a23fbac2178b37d6c",
+      "bytes": 1190
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\baseline_runner.py",
+      "sha256": "42e364c3cd4babb5270c811cbfe9aa00b1f87865118815fc13af1a5dd37ddd7a",
+      "bytes": 648
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\check_additional18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\check_additional18.py",
+      "sha256": "a526773ec0338645a2a06bd6533e8ffa9130072458531326d808587b18d198bc",
+      "bytes": 1210
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\construct18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\construct18.py",
+      "sha256": "907e27bdce6f3bb80dd94a79cc6a922cd19d39d3c05d657af475742151b9c8e6",
+      "bytes": 3385
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\fact_verifier.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\fact_verifier.py",
+      "sha256": "e3e7179d73d386a4de8bc276c8525a52a9322d20392d54cf68db9e5aaa0668a0",
+      "bytes": 15373
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\logging16.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\logging16.py",
+      "sha256": "60b8acf9601aae48bf120faf9e216da3979d50bd203613a9e2ede845b6bbfc70",
+      "bytes": 3255
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\normalization.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\run18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\run18.py",
+      "sha256": "d9555ddff26cfe5c7c845a4ac738cd17c6befba458dab458b4168ad181abdad0",
+      "bytes": 5281
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\score18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\score18.py",
+      "sha256": "d7fcb3441ef426300a0c601dd59c0d83afb1c47cb3d39f4b731f1254cad9b4b5",
+      "bytes": 8329
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\setup18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\setup18.py",
+      "sha256": "e413cba4eb47d8f5cbd44eaeb8111ca51337e086a08895b8f93e1fedabe10bf1",
+      "bytes": 4166
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\tests18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\tests18.py",
+      "sha256": "f2453aef6dd69feaee4ebc3f4e79d529f5d8627915375dc1e4f16c34a6e240cd",
+      "bytes": 3838
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\frozen_inputs\\src\\world18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\results\\frozen_inputs\\src\\world18.py",
+      "sha256": "a3082d97a508b701f747d8ebb86ed290717c601407cf71d4035b041e78fef9a9",
+      "bytes": 12783
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\baseline_runner.py",
+      "sha256": "42e364c3cd4babb5270c811cbfe9aa00b1f87865118815fc13af1a5dd37ddd7a",
+      "bytes": 648
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\check_additional18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\check_additional18.py",
+      "sha256": "a526773ec0338645a2a06bd6533e8ffa9130072458531326d808587b18d198bc",
+      "bytes": 1210
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\construct18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\construct18.py",
+      "sha256": "907e27bdce6f3bb80dd94a79cc6a922cd19d39d3c05d657af475742151b9c8e6",
+      "bytes": 3385
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\facts18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\facts18.py",
+      "sha256": "1616e08d3980717c61f478c111482011f17a838c4c3543e1feb8a1bc341a64c7",
+      "bytes": 3388
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\fact_verifier.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\fact_verifier.py",
+      "sha256": "e3e7179d73d386a4de8bc276c8525a52a9322d20392d54cf68db9e5aaa0668a0",
+      "bytes": 15373
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\logging16.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\logging16.py",
+      "sha256": "60b8acf9601aae48bf120faf9e216da3979d50bd203613a9e2ede845b6bbfc70",
+      "bytes": 3255
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\normalization.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\post18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\post18.py",
+      "sha256": "583502ae4f285333add385408f91d736e117d659319ab99e949acc2078d75f41",
+      "bytes": 11624
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\report18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\report18.py",
+      "sha256": "94619be448fc997d496e58400305d74e3e58d75f4369164ffbd294b94bf00de7",
+      "bytes": 19669
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\review18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\review18.py",
+      "sha256": "ddb9e9b7aa2fa3bbd3a9baed1d82635d80423f5723a0ddf3c3f572fcd6597909",
+      "bytes": 3208
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\run18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\run18.py",
+      "sha256": "d9555ddff26cfe5c7c845a4ac738cd17c6befba458dab458b4168ad181abdad0",
+      "bytes": 5281
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\score18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\score18.py",
+      "sha256": "d7fcb3441ef426300a0c601dd59c0d83afb1c47cb3d39f4b731f1254cad9b4b5",
+      "bytes": 8329
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\setup18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\setup18.py",
+      "sha256": "e413cba4eb47d8f5cbd44eaeb8111ca51337e086a08895b8f93e1fedabe10bf1",
+      "bytes": 4166
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\tests18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\tests18.py",
+      "sha256": "f2453aef6dd69feaee4ebc3f4e79d529f5d8627915375dc1e4f16c34a6e240cd",
+      "bytes": 3838
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\src\\world18.py",
+      "copy": "experiments\\preliminary\\round18\\archive\\src\\world18.py",
+      "sha256": "a3082d97a508b701f747d8ebb86ed290717c601407cf71d4035b041e78fef9a9",
+      "bytes": 12783
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results\\TRACE_TASK6.md",
+      "copy": "experiments\\preliminary\\round18\\representative\\TRACE_TASK6.md",
+      "sha256": "21813dd15071b59ccd85f63ec4d607348163741257ece80923f733d7a84e6389",
+      "bytes": 64897
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\18_动态约束下完整框架对照\\results",
+    "files": 187,
+    "bytes": 40525159,
+    "git_storage": "external original directory, not moved"
+  }
+}

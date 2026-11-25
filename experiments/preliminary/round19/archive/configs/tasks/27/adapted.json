@@ -1,0 +1,339 @@
+{
+  "task_id": "27",
+  "change_type": "resource",
+  "user_id": "isabella_johansson_2152",
+  "order_id": "#W7181492",
+  "item_id": "8118291112",
+  "product_id": "7363354090",
+  "payment_method_id": "paypal_3024827",
+  "target": "8277474082",
+  "fallback": "6159919747",
+  "initial_message": "I am isabella_johansson_2152; my email is isabella.johansson9391@example.com. Exchange ONLY item 8118291112 in delivered order #W7181492 for item 8277474082, with options {\"size\": \"12\", \"material\": \"leather\", \"waterproof\": \"yes\"}, if it is in stock. Leave all other items and orders unchanged. Keep my original payment method paypal_3024827. This specifies the variant I accept, but is NOT final transaction approval: present the complete proposal and ask me to approve it. If this exact variant becomes unavailable, ask me about other options rather than assuming consent.",
+  "change_message": null,
+  "environment": {
+    "users": {
+      "isabella_johansson_2152": {
+        "user_id": "isabella_johansson_2152",
+        "name": {
+          "first_name": "Isabella",
+          "last_name": "Johansson"
+        },
+        "address": {
+          "address1": "313 Chestnut Street",
+          "address2": "Suite 537",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32286"
+        },
+        "email": "isabella.johansson9391@example.com",
+        "payment_methods": {
+          "paypal_3024827": {
+            "source": "paypal",
+            "id": "paypal_3024827"
+          }
+        },
+        "orders": [
+          "#W3792453",
+          "#W7181492",
+          "#W5565470",
+          "#W2575533"
+        ]
+      }
+    },
+    "orders": {
+      "#W7181492": {
+        "order_id": "#W7181492",
+        "user_id": "isabella_johansson_2152",
+        "address": {
+          "address1": "313 Chestnut Street",
+          "address2": "Suite 537",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32286"
+        },
+        "items": [
+          {
+            "name": "Garden Hose",
+            "product_id": "6679515468",
+            "item_id": "5753502325",
+            "price": 96.35,
+            "options": {
+              "length": "25ft",
+              "material": "rubber",
+              "color": "green"
+            }
+          },
+          {
+            "name": "Backpack",
+            "product_id": "2524789262",
+            "item_id": "9851293632",
+            "price": 193.38,
+            "options": {
+              "color": "green",
+              "size": "small",
+              "material": "polyester",
+              "compartment": "camera"
+            }
+          },
+          {
+            "name": "Bookshelf",
+            "product_id": "8600330539",
+            "item_id": "3778705663",
+            "price": 473.48,
+            "options": {
+              "material": "metal",
+              "color": "black",
+              "height": "6 ft"
+            }
+          },
+          {
+            "name": "Hiking Boots",
+            "product_id": "7363354090",
+            "item_id": "8118291112",
+            "price": 260.56,
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            }
+          },
+          {
+            "name": "Coffee Maker",
+            "product_id": "7996920482",
+            "item_id": "3020722515",
+            "price": 238.64,
+            "options": {
+              "color": "black",
+              "capacity": "1 cup",
+              "type": "french press",
+              "features": "auto shutoff"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "418708581751"
+            ],
+            "item_ids": [
+              "5753502325",
+              "9851293632",
+              "3778705663",
+              "8118291112",
+              "3020722515"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1262.41,
+            "payment_method_id": "paypal_3024827"
+          }
+        ]
+      }
+    },
+    "products": {
+      "7363354090": {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "variants": {
+          "1615379700": {
+            "item_id": "1615379700",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 253.89
+          },
+          "8106223139": {
+            "item_id": "8106223139",
+            "options": {
+              "size": "9",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 249.12
+          },
+          "2658930189": {
+            "item_id": "2658930189",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 241.68
+          },
+          "3812493782": {
+            "item_id": "3812493782",
+            "options": {
+              "size": "7",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 244.34
+          },
+          "2648909398": {
+            "item_id": "2648909398",
+            "options": {
+              "size": "8",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 240.87
+          },
+          "4582956489": {
+            "item_id": "4582956489",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 241.96
+          },
+          "7228247242": {
+            "item_id": "7228247242",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 251.38
+          },
+          "2185126308": {
+            "item_id": "2185126308",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 241.9
+          },
+          "6159919747": {
+            "item_id": "6159919747",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 259.75
+          },
+          "1437889264": {
+            "item_id": "1437889264",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 258.09
+          },
+          "8277474082": {
+            "item_id": "8277474082",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 236.57
+          },
+          "6546364613": {
+            "item_id": "6546364613",
+            "options": {
+              "size": "11",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 231.43
+          },
+          "1262139877": {
+            "item_id": "1262139877",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.99
+          },
+          "6595128475": {
+            "item_id": "6595128475",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 237.65
+          },
+          "5676696062": {
+            "item_id": "5676696062",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 245.99
+          },
+          "4694984344": {
+            "item_id": "4694984344",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.78
+          },
+          "3613716226": {
+            "item_id": "3613716226",
+            "options": {
+              "size": "8",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 253.54
+          },
+          "8118291112": {
+            "item_id": "8118291112",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 260.56
+          },
+          "4127323219": {
+            "item_id": "4127323219",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 251.82
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled exchange-only continuation. Initial identity/order/catalogue established using real simulated tools; no original private instructions or reference actions enter Agent. Task6 excludes bottle explicitly; task27 excludes return requests explicitly; task75 retains named initial specification but adds a later IPX7 request; task77 starts at exchange continuation rather than new-order enquiry. All user replies are controlled, not benchmark original simulator."
+}

@@ -1,0 +1,56 @@
+{
+  "round": "01",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试\\README.md",
+      "copy": "experiments\\preliminary\\round01\\archive\\README.md",
+      "sha256": "6ec00e4ce5341dc2a520b858eed0cb4af5c749d81b48518c0856c0fc636f8ec5",
+      "bytes": 2000
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试\\run.py",
+      "copy": "experiments\\preliminary\\round01\\archive\\run.py",
+      "sha256": "db69a8e43e7f8098334b95203715f653a79087e29742237c601c7b97cb94e7e2",
+      "bytes": 10193
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试\\results\\20261119T175057651633Z\\summary.md",
+      "copy": "experiments\\preliminary\\round01\\archive\\results\\20261119T175057651633Z\\summary.md",
+      "sha256": "0e443bf1e15c731f5b0b3cac17711e71b56d6e2b471a3defc61a3c9d2c30ec3f",
+      "bytes": 1174
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试\\results\\20261119T175057651633Z\\snapshot\\cases.json",
+      "copy": "experiments\\preliminary\\round01\\archive\\results\\20261119T175057651633Z\\snapshot\\cases.json",
+      "sha256": "e2e2dc29dc180e75bc442f1f8c364b4a6fdbc290b6335b0bfda5dc1e24be40aa",
+      "bytes": 4934
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试\\results\\20261119T175057651633Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round01\\archive\\results\\20261119T175057651633Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试\\results\\20261119T175057651633Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round01\\archive\\results\\20261119T175057651633Z\\snapshot\\README.md",
+      "sha256": "6ec00e4ce5341dc2a520b858eed0cb4af5c749d81b48518c0856c0fc636f8ec5",
+      "bytes": 2000
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试\\results\\20261119T175057651633Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round01\\archive\\results\\20261119T175057651633Z\\snapshot\\run.py",
+      "sha256": "db69a8e43e7f8098334b95203715f653a79087e29742237c601c7b97cb94e7e2",
+      "bytes": 10193
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\01_动态约束认知决策小试\\results",
+    "files": 8,
+    "bytes": 94437,
+    "git_storage": "external original directory, not moved"
+  }
+}

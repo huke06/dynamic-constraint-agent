@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "old_completion_defect_reproduced": true,
+  "tests": [
+    "old permission and source preserved, stock false and effective permission unknown",
+    "real tool confirms existing preferred SKU unavailable; alternatives available",
+    "clarify ready despite old false rule",
+    "old rule cannot complete current clarify before or after unclear reply",
+    "new grant / explicit rejection / unclear outcomes distinguished by current reply",
+    "new effective alternative permission does not imply complete-plan authorization",
+    "submit blocked without current authorization",
+    "identical runtime reconstruction across branches"
+  ]
+}

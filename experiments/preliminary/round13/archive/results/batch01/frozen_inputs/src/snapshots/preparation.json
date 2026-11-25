@@ -1,0 +1,8 @@
+{
+  "source": "checked public dialogue/observed tools only",
+  "online_initial_semantic_calls": 0,
+  "model_tokens": 0,
+  "wall_seconds": 0.25965950000681914,
+  "local_cpu_seconds": 0.21875,
+  "note": "Offline preparation, not rollout work; manual review effort is not converted into fabricated token/time cost."
+}

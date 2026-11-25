@@ -1,0 +1,294 @@
+{
+  "task_id": "18",
+  "tier": "multistep",
+  "stage": "stage2",
+  "order_id": "#W2890441",
+  "user_id": "mei_davis_8935",
+  "scope": [
+    "8069050545"
+  ],
+  "targets": {
+    "8069050545": "3609437808"
+  },
+  "initial_options": {
+    "8069050545": {
+      "material": "leather",
+      "color": "red",
+      "armrest": "none",
+      "backrest height": "high-back"
+    }
+  },
+  "payment_method_id": "credit_card_1061405",
+  "change_type": "none",
+  "changed_item": "8069050545",
+  "changed_target": "1793929609",
+  "change_message": "Before submission, change the Office Chair (original item 8069050545) to item 1793929609 with options {\"material\": \"fabric\", \"color\": \"black\", \"armrest\": \"none\", \"backrest height\": \"high-back\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am mei_davis_8935; email mei.davis6811@example.com. In delivered order #W2890441, exchange ONLY these items in one complete request: [{\"item_id\": \"8069050545\", \"name\": \"Office Chair\", \"requested_variant\": \"3609437808\", \"options\": {\"material\": \"leather\", \"color\": \"red\", \"armrest\": \"none\", \"backrest height\": \"high-back\"}}]. Keep every other item and order unchanged. Use original payment credit_card_1061405. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": false,
+  "environment": {
+    "orders": {
+      "#W2890441": {
+        "order_id": "#W2890441",
+        "user_id": "mei_davis_8935",
+        "address": {
+          "address1": "698 Maple Drive",
+          "address2": "Suite 465",
+          "city": "Denver",
+          "country": "USA",
+          "state": "CO",
+          "zip": "80217"
+        },
+        "items": [
+          {
+            "name": "Water Bottle",
+            "product_id": "8310926033",
+            "item_id": "2366567022",
+            "price": 54.04,
+            "options": {
+              "capacity": "1000ml",
+              "material": "stainless steel",
+              "color": "blue"
+            }
+          },
+          {
+            "name": "Pet Bed",
+            "product_id": "2747247837",
+            "item_id": "2751999929",
+            "price": 195.11,
+            "options": {
+              "size": "large",
+              "material": "memory foam",
+              "color": "grey"
+            }
+          },
+          {
+            "name": "Office Chair",
+            "product_id": "4794339885",
+            "item_id": "8069050545",
+            "price": 499.28,
+            "options": {
+              "material": "leather",
+              "color": "blue",
+              "armrest": "none",
+              "backrest height": "high-back"
+            }
+          },
+          {
+            "name": "Skateboard",
+            "product_id": "1968349452",
+            "item_id": "3877188862",
+            "price": 182.03,
+            "options": {
+              "deck material": "plastic",
+              "length": "31 inch",
+              "design": "plain"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "642796688644"
+            ],
+            "item_ids": [
+              "2366567022",
+              "2751999929",
+              "8069050545",
+              "3877188862"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 930.46,
+            "payment_method_id": "credit_card_1061405"
+          }
+        ]
+      }
+    },
+    "users": {
+      "mei_davis_8935": {
+        "user_id": "mei_davis_8935",
+        "name": {
+          "first_name": "Mei",
+          "last_name": "Davis"
+        },
+        "address": {
+          "address1": "698 Maple Drive",
+          "address2": "Suite 465",
+          "city": "Denver",
+          "country": "USA",
+          "state": "CO",
+          "zip": "80217"
+        },
+        "email": "mei.davis6811@example.com",
+        "payment_methods": {
+          "credit_card_1061405": {
+            "source": "credit_card",
+            "id": "credit_card_1061405",
+            "brand": "mastercard",
+            "last_four": "1037"
+          }
+        },
+        "orders": [
+          "#W2890441",
+          "#W1267569"
+        ]
+      }
+    },
+    "products": {
+      "4794339885": {
+        "name": "Office Chair",
+        "product_id": "4794339885",
+        "variants": {
+          "1793929609": {
+            "item_id": "1793929609",
+            "options": {
+              "material": "fabric",
+              "color": "black",
+              "armrest": "none",
+              "backrest height": "high-back"
+            },
+            "available": true,
+            "price": 514.34
+          },
+          "4274709903": {
+            "item_id": "4274709903",
+            "options": {
+              "material": "mesh",
+              "color": "red",
+              "armrest": "none",
+              "backrest height": "standard"
+            },
+            "available": true,
+            "price": 544.29
+          },
+          "8426249116": {
+            "item_id": "8426249116",
+            "options": {
+              "material": "fabric",
+              "color": "black",
+              "armrest": "fixed",
+              "backrest height": "standard"
+            },
+            "available": true,
+            "price": 488.81
+          },
+          "1071497737": {
+            "item_id": "1071497737",
+            "options": {
+              "material": "leather",
+              "color": "gray",
+              "armrest": "fixed",
+              "backrest height": "high-back"
+            },
+            "available": true,
+            "price": 483.95
+          },
+          "4168944673": {
+            "item_id": "4168944673",
+            "options": {
+              "material": "leather",
+              "color": "blue",
+              "armrest": "none",
+              "backrest height": "standard"
+            },
+            "available": true,
+            "price": 471.82
+          },
+          "3704016729": {
+            "item_id": "3704016729",
+            "options": {
+              "material": "mesh",
+              "color": "blue",
+              "armrest": "fixed",
+              "backrest height": "standard"
+            },
+            "available": true,
+            "price": 487.67
+          },
+          "8069050545": {
+            "item_id": "8069050545",
+            "options": {
+              "material": "leather",
+              "color": "blue",
+              "armrest": "none",
+              "backrest height": "high-back"
+            },
+            "available": true,
+            "price": 499.28
+          },
+          "8323284863": {
+            "item_id": "8323284863",
+            "options": {
+              "material": "fabric",
+              "color": "blue",
+              "armrest": "adjustable",
+              "backrest height": "standard"
+            },
+            "available": true,
+            "price": 511.24
+          },
+          "3609437808": {
+            "item_id": "3609437808",
+            "options": {
+              "material": "leather",
+              "color": "red",
+              "armrest": "none",
+              "backrest height": "high-back"
+            },
+            "available": false,
+            "price": 466.44
+          },
+          "4648362606": {
+            "item_id": "4648362606",
+            "options": {
+              "material": "leather",
+              "color": "black",
+              "armrest": "adjustable",
+              "backrest height": "high-back"
+            },
+            "available": true,
+            "price": 503.76
+          },
+          "2386562819": {
+            "item_id": "2386562819",
+            "options": {
+              "material": "mesh",
+              "color": "gray",
+              "armrest": "fixed",
+              "backrest height": "high-back"
+            },
+            "available": true,
+            "price": 508.21
+          },
+          "3915604618": {
+            "item_id": "3915604618",
+            "options": {
+              "material": "leather",
+              "color": "blue",
+              "armrest": "fixed",
+              "backrest height": "standard"
+            },
+            "available": true,
+            "price": 487.6
+          },
+          "9459890810": {
+            "item_id": "9459890810",
+            "options": {
+              "material": "fabric",
+              "color": "gray",
+              "armrest": "none",
+              "backrest height": "high-back"
+            },
+            "available": true,
+            "price": 510.1
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

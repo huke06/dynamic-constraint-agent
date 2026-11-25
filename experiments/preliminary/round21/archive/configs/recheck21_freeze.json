@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-11-24T13:27:27.206057+00:00",
+  "files": {
+    "src/baseline_runner.py": "42e364c3cd4babb5270c811cbfe9aa00b1f87865118815fc13af1a5dd37ddd7a",
+    "src/construct20.py": "b9e7c53f8425d47e1a8000693b5a44d36509d9a5e50190f9d51c685e3906754a",
+    "src/exchange_core.py": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+    "src/logging16.py": "60b8acf9601aae48bf120faf9e216da3979d50bd203613a9e2ede845b6bbfc70",
+    "src/logtests20.py": "d1ab12cc6421d2e8fa8ef859a41859b84d4b5763665508dea02f2e017e72a8e9",
+    "src/official20.py": "bf3769f5cbc175866770ce791042ce8d58c838caad1dd4e5606637f7a2fabdbf",
+    "src/prompts20.py": "90ef34ff3412d1c9b7d26b7fe313a8c9404b41940a416cd8aba4dc7891219e15",
+    "src/recheck21.py": "aae3f75d45f1d1ee40fa6922bff66e918bf535191f66b4cb9c0309051adb020a",
+    "src/runner20.py": "75adb7dddd779233a3a6f917ecb77d43929b7836ccc48f5fb86118c037e17907",
+    "src/score20.py": "88c5c0d1ea4b9f9f42170be550b3074fb1cd654a4add547e4accb7999c5f59c2",
+    "src/simulator21.py": "6567daf89ac596bd2293369e7a0b1604b1e5d858b77e5a975e8a48908c0a67f2",
+    "src/tests20.py": "6a25137e731f3308bbc66668d57b24aa0ae60fb52751a4302b6d66826911670e",
+    "src/tests21.py": "8a959956f428dd441cc624db9a2ec077208bcf4bd147dc4389ae6774b0a09a0a",
+    "src/transport20.py": "a8f994173c999bb7f274c38396abea72793455160fefb4da3034c91bf365341d",
+    "src/world20.py": "a0ab2fb01cfed05b0650f15761c5e04df15dd958eccbe0165d521645f314f498",
+    "configs/budget.json": "bf162be91751ed649789ba4c30dbab9fd406670692c33caea1eea6a7d1314d9a",
+    "configs/official_policy.md": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+    "configs/tasks.json": "af32cff53976ecac72b26f092ffe8adef1144f435c156f9cede9ba6dde7d2648",
+    "configs/stage1/0/case.json": "9eae70c61df383e8e43312c20c5dd08b3770bfcd507113638421a4ecbedaa1e4",
+    "configs/stage1/0/original_task.json": "0e1ebc26d7d0552390aeb12c046a6698d992c30bb885a8cab491d719702d2a3f",
+    "configs/stage1/106/case.json": "44c76013c3713f2e2520a5d17412521c6015038409b038390c62366bc39976aa",
+    "configs/stage1/106/original_task.json": "f58acf3b78888e24f7c3aeb08751e090769be06ff3befbb24cb56c895de82bd3",
+    "configs/stage1/58/case.json": "7b923d8a40f2ff70e62dfa246a52feb17c0d612b76c824bbeff0fe802b7af52b",
+    "configs/stage1/58/original_task.json": "98e443fd1391dd8e3512d8d56fe98b9adc093c362735ad607fa4000a51d943ae",
+    "configs/stage1/95/case.json": "ae1f8fa1e6ed619475a96500dafe5ab161ab9dcd2f50269333293539a0798df6",
+    "configs/stage1/95/original_task.json": "a0b0dfc138ab5588600b433a7f1a306c39555f246abd6084448c88827aecf570",
+    "configs/stage2/107/case.json": "3c5f1c2e7846ea213722812a34234a846284e50737cead2a2b6f6df6a3d09ab1",
+    "configs/stage2/107/original_task.json": "f4e571c6639c95ce4e47343a8a9f7f28b4faa8751883554a9e335e3bebe071ab",
+    "configs/stage2/18/case.json": "0e02754aa08924f54bba4857190ded482ddf32a90b95196261e1dde734ff12b4",
+    "configs/stage2/18/original_task.json": "e013cf975d3a486aa2949df7f5977b28d3068aba356ccec263acfbeed71077cc",
+    "configs/stage2/23/case.json": "54482d483a36dae463672ee14257e246c0d48e27612c66b4b54383204d5dd7a4",
+    "configs/stage2/23/original_task.json": "5bd95098e9054fdcf4a5b5a6eb73816cbc01b8a462f04458a64fd7065dfaebb0",
+    "configs/stage2/29/case.json": "b839b7b63ded905be32f77ebd8e953f2bfcae6247a31a052aafae7531973d02b",
+    "configs/stage2/29/original_task.json": "748901d8c6fa585979c7a4c728d3313fc027685b78d2d51b08123c4bf9214b26",
+    "configs/stage2/45/case.json": "808631ab20339b4f6fdf8c58fd5bcc35c98272469463afbeb7ed4f7b5552a4a8",
+    "configs/stage2/45/original_task.json": "0347035e32ab59c1f5117855f69632ce3a1d202ba3ca6a379cf6a408f384de79",
+    "configs/stage2/49/case.json": "17827146aefd2016812862f5e003598e31ba37ef65dcdbb4b02d526041d264fb",
+    "configs/stage2/49/original_task.json": "c294f25defcd72e6073fe1b45d67e59bd7824d0ebe32b739d0077e4b084e1469",
+    "configs/stage2/70/case.json": "5eb62d7730237fd00bdaadee236fced47aadbe2f71f5d8fc027995ed3f677d64",
+    "configs/stage2/70/original_task.json": "1ac91a0b5ff8b51504c836121bfede39e1a367d9700e00a5fbf6df0699f6865b",
+    "configs/stage2/77/case.json": "8899eda4f3bb42bb672d08de07caa66105b04199f03772e73f5bc5f539f2b406",
+    "configs/stage2/77/original_task.json": "340f8cc11d71d7dcadd0a2b93381ddeb3b4045b7d4714c1a23fbac2178b37d6c",
+    "configs/stage2/80/case.json": "3aaf0f8dc6f7361ca212572b97f6862cd75d1e8fca75c98c72a1d28767b886ba",
+    "configs/stage2/80/original_task.json": "46c90d037f8fc3329d50f60525a860fa17ad36a5f07e9c4efd92beac1461b4ca",
+    "results/offline_regression.json": "d88515d5df8c74a7e60e2a41130f01b206bb1e738e777f374eb939d0f5ffcb87"
+  },
+  "cases": {
+    "80": [
+      "stable",
+      "unchanged_basic_control"
+    ],
+    "49": [
+      "stable",
+      "missing_inventory_and_offer_choice"
+    ],
+    "23": [
+      "changed",
+      "inventory_change"
+    ],
+    "107": [
+      "changed",
+      "inventory_change"
+    ],
+    "29": [
+      "changed",
+      "requirement_change"
+    ]
+  },
+  "repeats": 2
+}

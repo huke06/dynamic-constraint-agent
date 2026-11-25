@@ -1,0 +1,74 @@
+{
+  "round": "02",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\audit.py",
+      "copy": "experiments\\preliminary\\round02\\archive\\audit.py",
+      "sha256": "8e56b0ad8330d36f6bb5edab529c1aebe9bc57a7e96749aabb8ddc0d0ed6d891",
+      "bytes": 4087
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\README.md",
+      "copy": "experiments\\preliminary\\round02\\archive\\README.md",
+      "sha256": "0ce6a15e90e993a297f0a99dd92607488179a92752bc8612b878a95497b8ecd3",
+      "bytes": 2501
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\run.py",
+      "copy": "experiments\\preliminary\\round02\\archive\\run.py",
+      "sha256": "d8bf6cdf12a38ba232aeb043b794d59d4703ebcb36c62bdaacb901dca39f8c72",
+      "bytes": 23837
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\results\\20261120T020405856922Z\\summary.md",
+      "copy": "experiments\\preliminary\\round02\\archive\\results\\20261120T020405856922Z\\summary.md",
+      "sha256": "61d8fb1f5d3a2bb867e6edb0f4f7bbed6a4b54a572dd4997d0aaf6ce6a9885d9",
+      "bytes": 2174
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\results\\20261120T020405856922Z\\结果解读.md",
+      "copy": "experiments\\preliminary\\round02\\archive\\results\\20261120T020405856922Z\\结果解读.md",
+      "sha256": "5babffcb439e24d42e09876a8c4d901c2ae8c26f2b0019a001c4385a07a7ed0b",
+      "bytes": 3469
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\results\\20261120T020405856922Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round02\\archive\\results\\20261120T020405856922Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\results\\20261120T020405856922Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round02\\archive\\results\\20261120T020405856922Z\\snapshot\\README.md",
+      "sha256": "14cff4d6b0a476ae62afd0808fb7cdc4dfc84d0b2eee45e04f0891b8566a9d15",
+      "bytes": 1631
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\results\\20261120T020405856922Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round02\\archive\\results\\20261120T020405856922Z\\snapshot\\run.py",
+      "sha256": "d8bf6cdf12a38ba232aeb043b794d59d4703ebcb36c62bdaacb901dca39f8c72",
+      "bytes": 23837
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\results\\20261120T020405856922Z\\snapshot\\scenarios.json",
+      "copy": "experiments\\preliminary\\round02\\archive\\results\\20261120T020405856922Z\\snapshot\\scenarios.json",
+      "sha256": "9f01c2abebf9f6f79ba8c6f04d4f57690c0dc524cd1efa4ee0eabe01f5c57eb4",
+      "bytes": 2475
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\results\\20261120T020405856922Z\\snapshot\\方案.md",
+      "copy": "experiments\\preliminary\\round02\\archive\\results\\20261120T020405856922Z\\snapshot\\方案.md",
+      "sha256": "0f09aeacff6277e5f671b09268d33db1503b3b3b04c0bea83ac9145d41dd7cd4",
+      "bytes": 5246
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\02_动态约束多轮小试\\results",
+    "files": 15,
+    "bytes": 282454,
+    "git_storage": "external original directory, not moved"
+  }
+}

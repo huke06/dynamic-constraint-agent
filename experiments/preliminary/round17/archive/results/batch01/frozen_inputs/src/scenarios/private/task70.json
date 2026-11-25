@@ -1,0 +1,31 @@
+{
+  "private_user_policy": {
+    "goal": "Exchange only the named item in the current order, preserving hard requirements and the same payment method.",
+    "hard_options": {
+      "color": "black",
+      "ventilation": "high"
+    },
+    "preferred_options": {
+      "size": "M"
+    },
+    "fallback": "If the preferred combination is unavailable, accept ONLY variant 1665571435 with options {\"size\": \"L\", \"color\": \"black\", \"ventilation\": \"high\"} if actually in stock. Do not accept other variants.",
+    "reply_rule": "When the agent names this specific acceptable variant with unknown stock, state willingness CONDITIONAL on stock and ask it to check; this grants a rule now but does not assert stock. If its stock is known true, allow it. If asked vaguely, ask for concrete options. Do not invent inventory/prices.",
+    "confirmation_rule": "Only explicitly approve a current complete proposal with exact item pair, amount and same payment disclosed. A variant permission is not approval. Reject contradictory payment descriptions; your payment method facts are {\"source\": \"credit_card\", \"id\": \"credit_card_7901829\", \"brand\": \"visa\", \"last_four\": \"7312\"}"
+  },
+  "evaluation": {
+    "acceptable_variant": "1665571435",
+    "payment_method": {
+      "source": "credit_card",
+      "id": "credit_card_7901829",
+      "brand": "visa",
+      "last_four": "7312"
+    },
+    "item_id": "3358616356",
+    "product_id": "7765186836",
+    "order_id": "#W3947049",
+    "hard_options": {
+      "color": "black",
+      "ventilation": "high"
+    }
+  }
+}

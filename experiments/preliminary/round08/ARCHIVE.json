@@ -1,0 +1,122 @@
+{
+  "round": "08",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\adjacent_reference.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\adjacent_reference.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\analyze.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\analyze.py",
+      "sha256": "2ab656dbca993e6e4f28f4a34da7274023405acb8e962a2a12f897e7f5b82c1c",
+      "bytes": 12825
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\baseline_runner.py",
+      "sha256": "ff508a529869961b267b6ef2ab978f06f1dc61d9f75ead33d8e02b62d577418b",
+      "bytes": 30342
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\checks.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\checks.py",
+      "sha256": "d137ca3e7cee49c4dea8dd88dd7e1ec28d5c5465854957f56811085c0eb4bf88",
+      "bytes": 11769
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\contracts08.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\contracts08.py",
+      "sha256": "1c119b2174fa4236c03c2083327c5fe6977d89066dfdc9759ab40c8e25566bd3",
+      "bytes": 1780
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\engine.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\engine.py",
+      "sha256": "a62577f45c76619c249a138a959df019419105e3a6cd4e4f19b878d64ab86ab2",
+      "bytes": 7100
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\legacy_engine.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\legacy_engine.py",
+      "sha256": "7444f37891ddb4847d60c680302a685297de42f97f229977b7ef91164010ef15",
+      "bytes": 6947
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\normalization.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round08\\archive\\PROTOCOL.md",
+      "sha256": "88ed3babd924501a31550c6c53ab8c5914504bea99d7b51f46b4eaa70888f459",
+      "bytes": 7446
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\README.md",
+      "copy": "experiments\\preliminary\\round08\\archive\\README.md",
+      "sha256": "f5c8b11a185ae242aa037ac2ea576f13b4e8b4c877e5196a0db17936cf8a54b5",
+      "bytes": 1438
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round08\\archive\\RESULTS.md",
+      "sha256": "cc5b85cd81018146452baaa80bdeac04a2782074507086723e8c198904b2e4f6",
+      "bytes": 12961
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\review08.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\review08.py",
+      "sha256": "31082f55574fbc2d2f73ae9e91c0be45e41b4187cbeaa39a03731ee1f47a14b2",
+      "bytes": 6417
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\run.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\run.py",
+      "sha256": "5ff975970548af495f314721f672d0852e61ffc2752287d434d6bf8a10f2d726",
+      "bytes": 18158
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\verify_delivery.py",
+      "copy": "experiments\\preliminary\\round08\\archive\\verify_delivery.py",
+      "sha256": "76f9c1abf271529d65feed654681402a376e1c9cebffbfeeb89b0fe09853794a",
+      "bytes": 5327
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\results\\20261122T125916414502Z\\PAIRED_RESULTS.md",
+      "copy": "experiments\\preliminary\\round08\\archive\\results\\20261122T125916414502Z\\PAIRED_RESULTS.md",
+      "sha256": "74681f5bfd4f201597bcfb3f5321c0c438b6f5af0a78fe1cce5c8c5609186211",
+      "bytes": 840
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\results\\20261122T125916414502Z\\frozen\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round08\\archive\\results\\20261122T125916414502Z\\frozen\\PROTOCOL.md",
+      "sha256": "88ed3babd924501a31550c6c53ab8c5914504bea99d7b51f46b4eaa70888f459",
+      "bytes": 7446
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\08_同任务配对复验\\results",
+    "files": 88,
+    "bytes": 26569543,
+    "git_storage": "external original directory, not moved"
+  }
+}

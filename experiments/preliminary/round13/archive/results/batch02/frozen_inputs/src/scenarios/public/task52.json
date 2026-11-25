@@ -1,0 +1,179 @@
+{
+  "task_id": "52",
+  "fixture": {
+    "task_id": "52",
+    "order_id": "#W4689314",
+    "shared_history": [
+      {
+        "role": "user",
+        "content": "The digital camera you received doesn't zoom as far as you expected. You use the camera for bird-watching and want to exchange it for a camera that has the maximum zoom capacity. Price is not an issue, but ensure all the other specifications of the camera to be exchanged are the same, except for the zoom capacity which has to be maximized. You want the exchange to be completed as soon as possible. You want to use your PayPal account for any additional payment."
+      },
+      {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "given_0",
+            "type": "function",
+            "function": {
+              "name": "find_user_id_by_name_zip",
+              "arguments": "{\"first_name\": \"Sofia\", \"last_name\": \"Li\", \"zip\": \"78260\"}"
+            }
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "given_0",
+        "content": "\"sofia_li_9219\""
+      },
+      {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "given_1",
+            "type": "function",
+            "function": {
+              "name": "get_user_details",
+              "arguments": "{\"user_id\": \"sofia_li_9219\"}"
+            }
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "given_1",
+        "content": "{\"user_id\": \"sofia_li_9219\", \"name\": {\"first_name\": \"Sofia\", \"last_name\": \"Li\"}, \"address\": {\"address1\": \"786 Elm Street\", \"address2\": \"Suite 546\", \"city\": \"San Antonio\", \"country\": \"USA\", \"state\": \"TX\", \"zip\": \"78260\"}, \"email\": \"sofia.li7352@example.com\", \"payment_methods\": {\"paypal_8194385\": {\"source\": \"paypal\", \"id\": \"paypal_8194385\"}, \"credit_card_3951670\": {\"source\": \"credit_card\", \"id\": \"credit_card_3951670\", \"brand\": \"visa\", \"last_four\": \"6791\"}, \"credit_card_8105988\": {\"source\": \"credit_card\", \"id\": \"credit_card_8105988\", \"brand\": \"mastercard\", \"last_four\": \"8484\"}}, \"orders\": [\"#W4689314\", \"#W8855135\", \"#W3916020\", \"#W5416052\"]}"
+      },
+      {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "given_2",
+            "type": "function",
+            "function": {
+              "name": "get_order_details",
+              "arguments": "{\"order_id\": \"#W4689314\"}"
+            }
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "given_2",
+        "content": "{\"order_id\": \"#W4689314\", \"user_id\": \"sofia_li_9219\", \"address\": {\"address1\": \"786 Elm Street\", \"address2\": \"Suite 546\", \"city\": \"San Antonio\", \"country\": \"USA\", \"state\": \"TX\", \"zip\": \"78260\"}, \"items\": [{\"name\": \"Digital Camera\", \"product_id\": \"8940227892\", \"item_id\": \"5996159312\", \"price\": 2895.55, \"options\": {\"resolution\": \"24MP\", \"zoom\": \"3x\", \"storage\": \"SD card\"}}], \"status\": \"delivered\", \"fulfillments\": [{\"tracking_id\": [\"689944590938\"], \"item_ids\": [\"5996159312\"]}], \"payment_history\": [{\"transaction_type\": \"payment\", \"amount\": 2895.55, \"payment_method_id\": \"credit_card_8105988\"}]}"
+      },
+      {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "given_3",
+            "type": "function",
+            "function": {
+              "name": "get_product_details",
+              "arguments": "{\"product_id\": \"8940227892\"}"
+            }
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "given_3",
+        "content": "{\"name\": \"Digital Camera\", \"product_id\": \"8940227892\", \"variants\": {\"6384525445\": {\"item_id\": \"6384525445\", \"options\": {\"resolution\": \"30MP\", \"zoom\": \"5x\", \"storage\": \"CF card\"}, \"available\": true, \"price\": 2929.62}, \"3892645120\": {\"item_id\": \"3892645120\", \"options\": {\"resolution\": \"30MP\", \"zoom\": \"10x\", \"storage\": \"CF card\"}, \"available\": false, \"price\": 3070.64}, \"1804581713\": {\"item_id\": \"1804581713\", \"options\": {\"resolution\": \"30MP\", \"zoom\": \"3x\", \"storage\": \"SD card\"}, \"available\": true, \"price\": 2875.61}, \"9644439410\": {\"item_id\": \"9644439410\", \"options\": {\"resolution\": \"20MP\", \"zoom\": \"5x\", \"storage\": \"CF card\"}, \"available\": true, \"price\": 3280.31}, \"5996159312\": {\"item_id\": \"5996159312\", \"options\": {\"resolution\": \"24MP\", \"zoom\": \"3x\", \"storage\": \"SD card\"}, \"available\": true, \"price\": 2895.55}, \"7255224608\": {\"item_id\": \"7255224608\", \"options\": {\"resolution\": \"30MP\", \"zoom\": \"3x\", \"storage\": \"CF card\"}, \"available\": true, \"price\": 2922.97}, \"2284404181\": {\"item_id\": \"2284404181\", \"options\": {\"resolution\": \"20MP\", \"zoom\": \"5x\", \"storage\": \"SD card\"}, \"available\": false, \"price\": 3204.43}, \"7583936705\": {\"item_id\": \"7583936705\", \"options\": {\"resolution\": \"20MP\", \"zoom\": \"10x\", \"storage\": \"CF card\"}, \"available\": false, \"price\": 3101.43}, \"9973034634\": {\"item_id\": \"9973034634\", \"options\": {\"resolution\": \"20MP\", \"zoom\": \"3x\", \"storage\": \"CF card\"}, \"available\": false, \"price\": 2850.32}, \"5484530610\": {\"item_id\": \"5484530610\", \"options\": {\"resolution\": \"24MP\", \"zoom\": \"10x\", \"storage\": \"CF card\"}, \"available\": false, \"price\": 3109.83}, \"4326528037\": {\"item_id\": \"4326528037\", \"options\": {\"resolution\": \"24MP\", \"zoom\": \"5x\", \"storage\": \"CF card\"}, \"available\": true, \"price\": 2714.51}, \"9228757377\": {\"item_id\": \"9228757377\", \"options\": {\"resolution\": \"30MP\", \"zoom\": \"10x\", \"storage\": \"SD card\"}, \"available\": true, \"price\": 3066.23}, \"7195021808\": {\"item_id\": \"7195021808\", \"options\": {\"resolution\": \"30MP\", \"zoom\": \"5x\", \"storage\": \"SD card\"}, \"available\": false, \"price\": 2909.87}, \"8363011723\": {\"item_id\": \"8363011723\", \"options\": {\"resolution\": \"20MP\", \"zoom\": \"3x\", \"storage\": \"SD card\"}, \"available\": true, \"price\": 2823.96}}}"
+      },
+      {
+        "role": "assistant",
+        "content": "Please confirm this exact exchange plan: {\"arguments\": {\"order_id\": \"#W4689314\", \"item_ids\": [\"5996159312\"], \"new_item_ids\": [\"9228757377\"], \"payment_method_id\": \"paypal_8194385\"}, \"difference\": 170.68, \"new_options\": {\"resolution\": \"30MP\", \"zoom\": \"10x\", \"storage\": \"SD card\"}, \"payment_method\": {\"source\": \"paypal\", \"id\": \"paypal_8194385\"}}. These are all the exchange items. Submission is one-time."
+      },
+      {
+        "role": "user",
+        "content": "Yes, I explicitly confirm that exact exchange, all listed items, the disclosed difference and payment method. Please proceed."
+      }
+    ],
+    "approved_prefix": {
+      "old_plan": {
+        "order_id": "#W4689314",
+        "item_ids": [
+          "5996159312"
+        ],
+        "new_item_ids": [
+          "9228757377"
+        ],
+        "payment_method_id": "paypal_8194385"
+      },
+      "old_difference": 170.68,
+      "old_confirmed": true
+    },
+    "change_message": {
+      "role": "user",
+      "content": "Before you submit, I need CF card storage instead of SD card, and I require 30MP resolution. I still prefer 10x zoom; do not assume I accept a lower zoom. Keep the same camera exchange and PayPal account. Tell me the alternatives before making a new plan."
+    }
+  },
+  "verified_interpretation": {
+    "item_id": "5996159312",
+    "hard_options": {
+      "resolution": "30MP",
+      "storage": "CF card"
+    },
+    "preferred_options": {
+      "zoom": "10x"
+    },
+    "alternative_permission": "unknown"
+  },
+  "item_id": "5996159312",
+  "product_id": "8940227892",
+  "order_id": "#W4689314",
+  "hard_options": {
+    "resolution": "30MP",
+    "storage": "CF card"
+  },
+  "preferred_options": {
+    "zoom": "10x"
+  },
+  "inventory_intervention": {
+    "history_index": 8,
+    "product_id": "8940227892",
+    "variant_id": "6384525445",
+    "field": "available",
+    "known": true,
+    "unknown": null,
+    "source": "public observed product record; intervention target, not acceptance/answer"
+  },
+  "user_claim_evidence": [
+    {
+      "field": "g.hard_options.resolution",
+      "normalized_value": "30MP",
+      "user_ref": 11,
+      "quote": "I require 30MP resolution.",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    },
+    {
+      "field": "g.hard_options.storage",
+      "normalized_value": "CF card",
+      "user_ref": 11,
+      "quote": "I need CF card storage instead of SD card",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    },
+    {
+      "field": "g.preferred_options.zoom",
+      "normalized_value": "10x",
+      "user_ref": 11,
+      "quote": "I still prefer 10x zoom; do not assume I accept a lower zoom.",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    },
+    {
+      "field": "g.alternative_permission",
+      "normalized_value": "unknown",
+      "user_ref": 11,
+      "quote": "do not assume I accept a lower zoom",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    },
+    {
+      "field": "scope/payment",
+      "normalized_value": "unchanged",
+      "user_ref": 11,
+      "quote": "Keep the same camera exchange and PayPal account.",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    }
+  ],
+  "construction": "Offline author-checked public starting condition, not online semantic accuracy or gold transaction answer."
+}

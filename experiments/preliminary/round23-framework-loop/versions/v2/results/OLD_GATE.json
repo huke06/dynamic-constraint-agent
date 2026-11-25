@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "scope": "v2 strict old-task loop and fact acceptance before unseen tasks26/35",
+  "checks": [
+    {
+      "id": "old_t93_conflict_r1",
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "processed_source_reuse": 0,
+      "speech_and_advice_review": "supported"
+    },
+    {
+      "id": "old_t93_conflict_r2",
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "processed_source_reuse": 0,
+      "speech_and_advice_review": "supported"
+    },
+    {
+      "id": "old_t93_feasible_r1",
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "processed_source_reuse": 0,
+      "speech_and_advice_review": "supported"
+    },
+    {
+      "id": "old_t93_feasible_r2",
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "processed_source_reuse": 0,
+      "speech_and_advice_review": "supported"
+    },
+    {
+      "id": "old_t29_dynamic_r1",
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "processed_source_reuse": 0,
+      "speech_and_advice_review": "supported"
+    },
+    {
+      "id": "old_t29_dynamic_r2",
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "processed_source_reuse": 0,
+      "speech_and_advice_review": "supported"
+    },
+    {
+      "id": "old_t102_withdrawn_r1",
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "processed_source_reuse": 0,
+      "speech_and_advice_review": "supported"
+    },
+    {
+      "id": "old_t102_withdrawn_r2",
+      "outcome": {
+        "correct_registered": true,
+        "checks": {
+          "one_write": true,
+          "current_authorization": true,
+          "current_user_goal": true,
+          "exact_amount": true,
+          "hard_cap": true,
+          "native_status": true,
+          "scope_unchanged": true,
+          "inventory_and_product": true,
+          "payment": true
+        }
+      },
+      "first_work_allowed": true,
+      "error": null,
+      "processed_source_reuse": 0,
+      "speech_and_advice_review": "supported"
+    }
+  ],
+  "old_v1_insufficient_gate_not_reused": true
+}

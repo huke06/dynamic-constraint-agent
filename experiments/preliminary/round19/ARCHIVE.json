@@ -1,0 +1,470 @@
+{
+  "round": "19",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\README.md",
+      "copy": "experiments\\preliminary\\round19\\archive\\README.md",
+      "sha256": "e55df6d8fbba36908d59fb10ee204b746d84318761013a54406fbaa4e0640f30",
+      "bytes": 1673
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\budget.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\budget.json",
+      "sha256": "4e3dc0bde6f373b2bfa6dc5d74e89bca5aa06626cbb7491fa7e3147b4231d350",
+      "bytes": 680
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\freeze.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\freeze.json",
+      "sha256": "cffcf5f3698868bc066e5292c68759cd83759a0c7f9336a1120c73c3c14c4fa9",
+      "bytes": 683786
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\official_integration.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\official_integration.json",
+      "sha256": "d863ef320449dba7100b5bd76381c1817b709372085bcd9a34ffa3e9fdf5a063",
+      "bytes": 888
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\official_policy.md",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\offline.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\offline.json",
+      "sha256": "332f24314e9a8d625f55d151d6761e29c84e5839ebebad2ee5bd1d4e114f6613",
+      "bytes": 1534
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\prompts18_reference.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\prompts18_reference.json",
+      "sha256": "384dc0a00186d6bd9814a1757323965e1c038d322544eb66dfaecc855ce57cae",
+      "bytes": 3710
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\prompts19.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\prompts19.json",
+      "sha256": "fdd90a2276028de726f41d3e863084886bf91d8d1c70bf5a7ea6b819db980ba9",
+      "bytes": 5217
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\PROTOCOL.md",
+      "sha256": "a25e3fc0191a41db06b4610f68291d6e67cff15624d940c9a62dc6457baf0508",
+      "bytes": 8143
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks.json",
+      "sha256": "ca3d5cd216be57c3f939d6246f1abd0b7aafe1572256d9b558e0e7dc26e8ca39",
+      "bytes": 38
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\snapshots\\task27.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\snapshots\\task27.json",
+      "sha256": "1ee8a17648dad302eb24d20bf698c8c09fcde102b928ddc14798692c0f5aeba7",
+      "bytes": 98496
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\snapshots\\task75.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\snapshots\\task75.json",
+      "sha256": "90569d6a69095cd2b3b4c6299407bf2b8ba92efd1d5c04a625664815b36b2b5e",
+      "bytes": 80302
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks\\27\\adapted.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks\\27\\adapted.json",
+      "sha256": "5a47655c2107406251843eefb1c02fe02bdfc07041a5d4030717bdacee918b3b",
+      "bytes": 10403
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks\\27\\original_task.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks\\27\\original_task.json",
+      "sha256": "a4b6af53f2717955821357b5343491b4ba6d1689d60c0b8e2b5170781d8e9975",
+      "bytes": 2268
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks\\6\\adapted.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks\\6\\adapted.json",
+      "sha256": "b1532397283165b719e89d08adde2202f084045a3887d654106c93404908e39d",
+      "bytes": 7656
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks\\6\\original_task.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks\\6\\original_task.json",
+      "sha256": "75b40b003dcce49270f8286e5f8483485aa933e793ccb1db70e3a45e78e91493",
+      "bytes": 2157
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks\\75\\adapted.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks\\75\\adapted.json",
+      "sha256": "2c9bd073faac45f1f53be4e76d5b28a059f4fadf6134c0f1dadd894785769b17",
+      "bytes": 8512
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks\\75\\original_task.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks\\75\\original_task.json",
+      "sha256": "869edbe677d7a8b52df0e14775810a140c4ac2afcd33ca1b57fe22aa45b4ce12",
+      "bytes": 1218
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks\\77\\adapted.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks\\77\\adapted.json",
+      "sha256": "8904e0cd632ebc0e297202b2305c86cea05fe17238c380a2e6bf9ea4418a5f06",
+      "bytes": 6428
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\configs\\tasks\\77\\original_task.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\configs\\tasks\\77\\original_task.json",
+      "sha256": "340f8cc11d71d7dcadd0a2b93381ddeb3b4045b7d4714c1a23fbac2178b37d6c",
+      "bytes": 1190
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\RESULTS.md",
+      "sha256": "1da20d44e1c2fd253021238ef67e5b723d8960d6feaf786c24f3068be0b13391",
+      "bytes": 11791
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\freeze.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\freeze.json",
+      "sha256": "cffcf5f3698868bc066e5292c68759cd83759a0c7f9336a1120c73c3c14c4fa9",
+      "bytes": 683786
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\budget.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\budget.json",
+      "sha256": "4e3dc0bde6f373b2bfa6dc5d74e89bca5aa06626cbb7491fa7e3147b4231d350",
+      "bytes": 680
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\official_integration.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\official_integration.json",
+      "sha256": "d863ef320449dba7100b5bd76381c1817b709372085bcd9a34ffa3e9fdf5a063",
+      "bytes": 888
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\official_policy.md",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\offline.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\offline.json",
+      "sha256": "332f24314e9a8d625f55d151d6761e29c84e5839ebebad2ee5bd1d4e114f6613",
+      "bytes": 1534
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\prompts18_reference.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\prompts18_reference.json",
+      "sha256": "384dc0a00186d6bd9814a1757323965e1c038d322544eb66dfaecc855ce57cae",
+      "bytes": 3710
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\prompts19.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\prompts19.json",
+      "sha256": "fdd90a2276028de726f41d3e863084886bf91d8d1c70bf5a7ea6b819db980ba9",
+      "bytes": 5217
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\PROTOCOL.md",
+      "sha256": "a25e3fc0191a41db06b4610f68291d6e67cff15624d940c9a62dc6457baf0508",
+      "bytes": 8143
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks.json",
+      "sha256": "ca3d5cd216be57c3f939d6246f1abd0b7aafe1572256d9b558e0e7dc26e8ca39",
+      "bytes": 38
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\snapshots\\task27.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\snapshots\\task27.json",
+      "sha256": "1ee8a17648dad302eb24d20bf698c8c09fcde102b928ddc14798692c0f5aeba7",
+      "bytes": 98496
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\snapshots\\task75.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\snapshots\\task75.json",
+      "sha256": "90569d6a69095cd2b3b4c6299407bf2b8ba92efd1d5c04a625664815b36b2b5e",
+      "bytes": 80302
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks\\27\\adapted.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks\\27\\adapted.json",
+      "sha256": "5a47655c2107406251843eefb1c02fe02bdfc07041a5d4030717bdacee918b3b",
+      "bytes": 10403
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks\\27\\original_task.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks\\27\\original_task.json",
+      "sha256": "a4b6af53f2717955821357b5343491b4ba6d1689d60c0b8e2b5170781d8e9975",
+      "bytes": 2268
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks\\6\\adapted.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks\\6\\adapted.json",
+      "sha256": "b1532397283165b719e89d08adde2202f084045a3887d654106c93404908e39d",
+      "bytes": 7656
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks\\6\\original_task.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks\\6\\original_task.json",
+      "sha256": "75b40b003dcce49270f8286e5f8483485aa933e793ccb1db70e3a45e78e91493",
+      "bytes": 2157
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks\\75\\adapted.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks\\75\\adapted.json",
+      "sha256": "2c9bd073faac45f1f53be4e76d5b28a059f4fadf6134c0f1dadd894785769b17",
+      "bytes": 8512
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks\\75\\original_task.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks\\75\\original_task.json",
+      "sha256": "869edbe677d7a8b52df0e14775810a140c4ac2afcd33ca1b57fe22aa45b4ce12",
+      "bytes": 1218
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks\\77\\adapted.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks\\77\\adapted.json",
+      "sha256": "8904e0cd632ebc0e297202b2305c86cea05fe17238c380a2e6bf9ea4418a5f06",
+      "bytes": 6428
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\configs\\tasks\\77\\original_task.json",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\configs\\tasks\\77\\original_task.json",
+      "sha256": "340f8cc11d71d7dcadd0a2b93381ddeb3b4045b7d4714c1a23fbac2178b37d6c",
+      "bytes": 1190
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\official_source\\llm_agent.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\official_source\\llm_agent.py",
+      "sha256": "f877698c0a5950630f6b005d999ca0e5e5cd6d5f659260cfd2c8cd7dc6b3885f",
+      "bytes": 16695
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\official_source\\llm_utils.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\official_source\\llm_utils.py",
+      "sha256": "a1945379cd9b230a376d135ecac503e6bb34eaf4bb04752bb12264763caf5183",
+      "bytes": 9095
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\baseline_runner.py",
+      "sha256": "42e364c3cd4babb5270c811cbfe9aa00b1f87865118815fc13af1a5dd37ddd7a",
+      "bytes": 648
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\construct18.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\construct18.py",
+      "sha256": "907e27bdce6f3bb80dd94a79cc6a922cd19d39d3c05d657af475742151b9c8e6",
+      "bytes": 3385
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\fact_verifier.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\fact_verifier.py",
+      "sha256": "e3e7179d73d386a4de8bc276c8525a52a9322d20392d54cf68db9e5aaa0668a0",
+      "bytes": 15373
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\logging16.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\logging16.py",
+      "sha256": "60b8acf9601aae48bf120faf9e216da3979d50bd203613a9e2ede845b6bbfc70",
+      "bytes": 3255
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\normalization.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\run19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\run19.py",
+      "sha256": "77bf8b3597239cbf729fafe19af28f7d187e9b7935cf4a05884f1819f427380c",
+      "bytes": 10317
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\score19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\score19.py",
+      "sha256": "8af65d4c530589ad2e555a62027a71bcb01eb610dbd7b164aceb9441048ab2d0",
+      "bytes": 5202
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\setup19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\setup19.py",
+      "sha256": "b5cf450e9f55c9d7f1733b92d6fd6c9efc710a40a822c081b8ab061df5ecb5a8",
+      "bytes": 3845
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\tests19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\tests19.py",
+      "sha256": "2ac75545432888bbed7d7df56dcd922e8c000bc59fca81c6d7039bb2e5453f7f",
+      "bytes": 4314
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\transport19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\transport19.py",
+      "sha256": "9081869968919cbbaa53c732b89c5bc80ea530c52411b3c4ec4a20f041008951",
+      "bytes": 2883
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\user19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\user19.py",
+      "sha256": "f49233a7e8eee7da290564c6ab3a14a2a0b8f50e03ec2cbc7f441691ec9996a5",
+      "bytes": 9124
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\world18.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\world18.py",
+      "sha256": "a3082d97a508b701f747d8ebb86ed290717c601407cf71d4035b041e78fef9a9",
+      "bytes": 12783
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\frozen_inputs\\src\\world19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\results\\frozen_inputs\\src\\world19.py",
+      "sha256": "e409872525d885577f321d6151fa02d0d6b080e3b79a340ad9240d24ab6e66ae",
+      "bytes": 7843
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\audit19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\audit19.py",
+      "sha256": "da07287bc3cdd7be589d79f5ebe60851348a73b32e322090417b11d3b2bcb24d",
+      "bytes": 2545
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\baseline_runner.py",
+      "sha256": "42e364c3cd4babb5270c811cbfe9aa00b1f87865118815fc13af1a5dd37ddd7a",
+      "bytes": 648
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\construct18.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\construct18.py",
+      "sha256": "907e27bdce6f3bb80dd94a79cc6a922cd19d39d3c05d657af475742151b9c8e6",
+      "bytes": 3385
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\fact_verifier.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\fact_verifier.py",
+      "sha256": "e3e7179d73d386a4de8bc276c8525a52a9322d20392d54cf68db9e5aaa0668a0",
+      "bytes": 15373
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\logging16.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\logging16.py",
+      "sha256": "60b8acf9601aae48bf120faf9e216da3979d50bd203613a9e2ede845b6bbfc70",
+      "bytes": 3255
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\normalization.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\normalization.py",
+      "sha256": "4d5d395b82bd31d001007f0ffc6d4a676d6f24d809cb584b7478ab600bff1515",
+      "bytes": 1909
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\post19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\post19.py",
+      "sha256": "4562fff42030de5633a730367b207e02daaa4325345f2bc8b6503915f83437b7",
+      "bytes": 8922
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\post_checks19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\post_checks19.py",
+      "sha256": "859ca79441aedde773fec4c41063ecd5d0ed96b755a2771d7c170f35a34c56a4",
+      "bytes": 1975
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\report19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\report19.py",
+      "sha256": "c88b3ce81192843ff01d1916ceec669a329896d0c43000c11571ade0dd93e432",
+      "bytes": 20925
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\review19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\review19.py",
+      "sha256": "ae01870149b6ea74f7c64cdfc13292564e5f73a9bab10b2d9bc98d9e4c1fa402",
+      "bytes": 4720
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\run19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\run19.py",
+      "sha256": "77bf8b3597239cbf729fafe19af28f7d187e9b7935cf4a05884f1819f427380c",
+      "bytes": 10317
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\score19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\score19.py",
+      "sha256": "8af65d4c530589ad2e555a62027a71bcb01eb610dbd7b164aceb9441048ab2d0",
+      "bytes": 5202
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\setup19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\setup19.py",
+      "sha256": "b5cf450e9f55c9d7f1733b92d6fd6c9efc710a40a822c081b8ab061df5ecb5a8",
+      "bytes": 3845
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\tests19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\tests19.py",
+      "sha256": "2ac75545432888bbed7d7df56dcd922e8c000bc59fca81c6d7039bb2e5453f7f",
+      "bytes": 4314
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\transport19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\transport19.py",
+      "sha256": "9081869968919cbbaa53c732b89c5bc80ea530c52411b3c4ec4a20f041008951",
+      "bytes": 2883
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\user19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\user19.py",
+      "sha256": "f49233a7e8eee7da290564c6ab3a14a2a0b8f50e03ec2cbc7f441691ec9996a5",
+      "bytes": 9124
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\world18.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\world18.py",
+      "sha256": "a3082d97a508b701f747d8ebb86ed290717c601407cf71d4035b041e78fef9a9",
+      "bytes": 12783
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\src\\world19.py",
+      "copy": "experiments\\preliminary\\round19\\archive\\src\\world19.py",
+      "sha256": "e409872525d885577f321d6151fa02d0d6b080e3b79a340ad9240d24ab6e66ae",
+      "bytes": 7843
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results\\TRACE_OFFICIAL_DYNAMIC.md",
+      "copy": "experiments\\preliminary\\round19\\representative\\TRACE_OFFICIAL_DYNAMIC.md",
+      "sha256": "e82af827144acf00e305fe371218cc70509e08fe819702d1e6e5fefaa8d5f9c8",
+      "bytes": 42287
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\19_官方Agent基线与上下文精简\\results",
+    "files": 222,
+    "bytes": 47498405,
+    "git_storage": "external original directory, not moved"
+  }
+}

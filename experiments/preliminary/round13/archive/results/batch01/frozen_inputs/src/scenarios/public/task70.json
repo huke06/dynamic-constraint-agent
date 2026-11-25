@@ -1,0 +1,194 @@
+{
+  "task_id": "70",
+  "fixture": {
+    "task_id": "70",
+    "order_id": "#W3947049",
+    "shared_history": [
+      {
+        "role": "user",
+        "content": "You recently received a helmet but you are not happy with it and want to exchange. The size is too small and you want medium, plus you want high ventilation. If multiple colors are available, you prefer blue. You do not want the  You prefer original payment to pay for the price difference, and you want to know how much you need to pay today."
+      },
+      {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "given_0",
+            "type": "function",
+            "function": {
+              "name": "find_user_id_by_name_zip",
+              "arguments": "{\"first_name\": \"Sofia\", \"last_name\": \"Hernandez\", \"zip\": \"98193\"}"
+            }
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "given_0",
+        "content": "\"sofia_hernandez_5364\""
+      },
+      {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "given_1",
+            "type": "function",
+            "function": {
+              "name": "get_user_details",
+              "arguments": "{\"user_id\": \"sofia_hernandez_5364\"}"
+            }
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "given_1",
+        "content": "{\"user_id\": \"sofia_hernandez_5364\", \"name\": {\"first_name\": \"Sofia\", \"last_name\": \"Hernandez\"}, \"address\": {\"address1\": \"652 Laurel Lane\", \"address2\": \"Suite 398\", \"city\": \"Seattle\", \"country\": \"USA\", \"state\": \"WA\", \"zip\": \"98193\"}, \"email\": \"sofia.hernandez3039@example.com\", \"payment_methods\": {\"credit_card_7901829\": {\"source\": \"credit_card\", \"id\": \"credit_card_7901829\", \"brand\": \"visa\", \"last_four\": \"7312\"}}, \"orders\": [\"#W3561391\", \"#W6876713\", \"#W9609649\", \"#W3947049\"]}"
+      },
+      {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "given_2",
+            "type": "function",
+            "function": {
+              "name": "get_order_details",
+              "arguments": "{\"order_id\": \"#W3947049\"}"
+            }
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "given_2",
+        "content": "{\"order_id\": \"#W3947049\", \"user_id\": \"sofia_hernandez_5364\", \"address\": {\"address1\": \"652 Laurel Lane\", \"address2\": \"Suite 398\", \"city\": \"Seattle\", \"country\": \"USA\", \"state\": \"WA\", \"zip\": \"98193\"}, \"items\": [{\"name\": \"Cycling Helmet\", \"product_id\": \"7765186836\", \"item_id\": \"3358616356\", \"price\": 197.33, \"options\": {\"size\": \"S\", \"color\": \"red\", \"ventilation\": \"low\"}}], \"status\": \"delivered\", \"fulfillments\": [{\"tracking_id\": [\"758823963547\"], \"item_ids\": [\"3358616356\"]}], \"payment_history\": [{\"transaction_type\": \"payment\", \"amount\": 197.33, \"payment_method_id\": \"credit_card_7901829\"}]}"
+      },
+      {
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "id": "given_3",
+            "type": "function",
+            "function": {
+              "name": "get_product_details",
+              "arguments": "{\"product_id\": \"7765186836\"}"
+            }
+          }
+        ]
+      },
+      {
+        "role": "tool",
+        "tool_call_id": "given_3",
+        "content": "{\"name\": \"Cycling Helmet\", \"product_id\": \"7765186836\", \"variants\": {\"3358616356\": {\"item_id\": \"3358616356\", \"options\": {\"size\": \"S\", \"color\": \"red\", \"ventilation\": \"low\"}, \"available\": true, \"price\": 197.33}, \"8573379326\": {\"item_id\": \"8573379326\", \"options\": {\"size\": \"M\", \"color\": \"red\", \"ventilation\": \"high\"}, \"available\": true, \"price\": 196.73}, \"1676105083\": {\"item_id\": \"1676105083\", \"options\": {\"size\": \"S\", \"color\": \"blue\", \"ventilation\": \"high\"}, \"available\": false, \"price\": 191.56}, \"7811981098\": {\"item_id\": \"7811981098\", \"options\": {\"size\": \"S\", \"color\": \"white\", \"ventilation\": \"medium\"}, \"available\": true, \"price\": 213.86}, \"8591113813\": {\"item_id\": \"8591113813\", \"options\": {\"size\": \"M\", \"color\": \"white\", \"ventilation\": \"low\"}, \"available\": true, \"price\": 192.65}, \"5537798301\": {\"item_id\": \"5537798301\", \"options\": {\"size\": \"S\", \"color\": \"black\", \"ventilation\": \"medium\"}, \"available\": true, \"price\": 204.47}, \"7907773809\": {\"item_id\": \"7907773809\", \"options\": {\"size\": \"L\", \"color\": \"blue\", \"ventilation\": \"low\"}, \"available\": false, \"price\": 209.69}, \"6048672633\": {\"item_id\": \"6048672633\", \"options\": {\"size\": \"L\", \"color\": \"black\", \"ventilation\": \"low\"}, \"available\": false, \"price\": 208.05}, \"9013366374\": {\"item_id\": \"9013366374\", \"options\": {\"size\": \"M\", \"color\": \"blue\", \"ventilation\": \"high\"}, \"available\": true, \"price\": 219.88}, \"7401244629\": {\"item_id\": \"7401244629\", \"options\": {\"size\": \"L\", \"color\": \"red\", \"ventilation\": \"high\"}, \"available\": false, \"price\": 188.92}, \"3339188619\": {\"item_id\": \"3339188619\", \"options\": {\"size\": \"M\", \"color\": \"blue\", \"ventilation\": \"low\"}, \"available\": false, \"price\": 200.24}, \"1596993217\": {\"item_id\": \"1596993217\", \"options\": {\"size\": \"S\", \"color\": \"white\", \"ventilation\": \"low\"}, \"available\": true, \"price\": 180.02}, \"2206116040\": {\"item_id\": \"2206116040\", \"options\": {\"size\": \"L\", \"color\": \"blue\", \"ventilation\": \"high\"}, \"available\": false, \"price\": 209.91}, \"1719127154\": {\"item_id\": \"1719127154\", \"options\": {\"size\": \"M\", \"color\": \"red\", \"ventilation\": \"medium\"}, \"available\": true, \"price\": 206.26}, \"1665571435\": {\"item_id\": \"1665571435\", \"options\": {\"size\": \"L\", \"color\": \"black\", \"ventilation\": \"high\"}, \"available\": true, \"price\": 196.89}, \"8153356023\": {\"item_id\": \"8153356023\", \"options\": {\"size\": \"L\", \"color\": \"blue\", \"ventilation\": \"medium\"}, \"available\": false, \"price\": 212.47}, \"5886093635\": {\"item_id\": \"5886093635\", \"options\": {\"size\": \"S\", \"color\": \"blue\", \"ventilation\": \"low\"}, \"available\": true, \"price\": 208.04}, \"6401214406\": {\"item_id\": \"6401214406\", \"options\": {\"size\": \"M\", \"color\": \"red\", \"ventilation\": \"low\"}, \"available\": false, \"price\": 187.02}, \"6697922351\": {\"item_id\": \"6697922351\", \"options\": {\"size\": \"L\", \"color\": \"white\", \"ventilation\": \"medium\"}, \"available\": true, \"price\": 194.47}, \"3264130640\": {\"item_id\": \"3264130640\", \"options\": {\"size\": \"M\", \"color\": \"black\", \"ventilation\": \"medium\"}, \"available\": false, \"price\": 211.41}}}"
+      },
+      {
+        "role": "assistant",
+        "content": "Please confirm this exact exchange plan: {\"arguments\": {\"order_id\": \"#W3947049\", \"item_ids\": [\"3358616356\"], \"new_item_ids\": [\"9013366374\"], \"payment_method_id\": \"credit_card_7901829\"}, \"difference\": 22.55, \"new_options\": {\"size\": \"M\", \"color\": \"blue\", \"ventilation\": \"high\"}, \"payment_method\": {\"source\": \"credit_card\", \"id\": \"credit_card_7901829\", \"brand\": \"visa\", \"last_four\": \"7312\"}}. These are all the exchange items. Submission is one-time."
+      },
+      {
+        "role": "user",
+        "content": "Yes, I explicitly confirm that exact exchange, all listed items, the disclosed difference and payment method. Please proceed."
+      }
+    ],
+    "approved_prefix": {
+      "old_plan": {
+        "order_id": "#W3947049",
+        "item_ids": [
+          "3358616356"
+        ],
+        "new_item_ids": [
+          "9013366374"
+        ],
+        "payment_method_id": "credit_card_7901829"
+      },
+      "old_difference": 22.55,
+      "old_confirmed": true
+    },
+    "change_message": {
+      "role": "user",
+      "content": "Before you submit, I no longer want blue. Black and high ventilation are now required. Medium remains my first choice; do not assume I accept large. Keep the same exchange item and original Visa payment method. Tell me the alternatives before making a new plan."
+    }
+  },
+  "verified_interpretation": {
+    "item_id": "3358616356",
+    "hard_options": {
+      "color": "black",
+      "ventilation": "high"
+    },
+    "preferred_options": {
+      "size": "M"
+    },
+    "alternative_permission": "unknown"
+  },
+  "item_id": "3358616356",
+  "product_id": "7765186836",
+  "order_id": "#W3947049",
+  "hard_options": {
+    "color": "black",
+    "ventilation": "high"
+  },
+  "preferred_options": {
+    "size": "M"
+  },
+  "inventory_intervention": {
+    "history_index": 8,
+    "product_id": "7765186836",
+    "variant_id": "1665571435",
+    "field": "available",
+    "known": true,
+    "unknown": null,
+    "source": "public observed product record; intervention target, not acceptance/answer"
+  },
+  "user_claim_evidence": [
+    {
+      "field": "g.hard_options.color",
+      "normalized_value": "black",
+      "user_ref": 11,
+      "quote": "Black and high ventilation are now required.",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    },
+    {
+      "field": "g.hard_options.ventilation",
+      "normalized_value": "high",
+      "user_ref": 11,
+      "quote": "Black and high ventilation are now required.",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    },
+    {
+      "field": "g.preferred_options.size",
+      "normalized_value": "M",
+      "user_ref": 11,
+      "quote": "Medium remains my first choice; do not assume I accept large.",
+      "interpretation": "Medium modifies size in the already discussed helmet sizing; not ventilation. Map to legal enum M.",
+      "supporting_context": [
+        {
+          "ref": 0,
+          "quote": "The size is too small and you want medium, plus you want high ventilation."
+        },
+        {
+          "ref": 8,
+          "catalogue_field": "variants.9013366374.options.size",
+          "value": "M"
+        },
+        {
+          "ref": 9,
+          "meaning": "given previous proposal explicitly lists size M, blue, high ventilation"
+        }
+      ]
+    },
+    {
+      "field": "g.alternative_permission",
+      "normalized_value": "unknown",
+      "user_ref": 11,
+      "quote": "do not assume I accept large",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    },
+    {
+      "field": "scope/payment",
+      "normalized_value": "unchanged",
+      "user_ref": 11,
+      "quote": "Keep the same exchange item and original Visa payment method.",
+      "interpretation": "public explicit requirement, preference or preserved scope/payment"
+    }
+  ],
+  "construction": "Offline author-checked public starting condition, not online semantic accuracy or gold transaction answer."
+}

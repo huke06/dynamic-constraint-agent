@@ -1,0 +1,24 @@
+{
+  "task": "52",
+  "groups": [
+    "direct",
+    "candidate"
+  ],
+  "private_simulator_modes": [
+    "accept",
+    "reject",
+    "ambiguous"
+  ],
+  "planned": 6,
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": false,
+  "timeout": 60,
+  "retries": 0,
+  "budget": {
+    "agent_calls": 24,
+    "agent_tokens_soft": 60000,
+    "work_steps": 9,
+    "decision_attempts": 12
+  }
+}

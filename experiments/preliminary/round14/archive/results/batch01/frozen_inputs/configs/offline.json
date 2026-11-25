@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "tests": [
+    "old false permission never activated",
+    "neutral clarification drawn from true tool records",
+    "ambiguous semantic outcome suppresses contradictory grant and cannot enable prepare/submit",
+    "explicit rejection terminates with no write",
+    "acceptance needs independent full proposal authorization",
+    "follow-up explicit acceptance can activate permission",
+    "same shared snapshot for every branch",
+    "user reply function triggered only by actual clarify/confirm; private branches remain outside Case and Agent payload"
+  ]
+}

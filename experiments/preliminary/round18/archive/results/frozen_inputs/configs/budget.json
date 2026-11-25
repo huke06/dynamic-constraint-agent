@@ -1,0 +1,15 @@
+{
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": false,
+  "timeout_seconds": 60,
+  "max_tokens_per_response": 1300,
+  "request_attempts": 24,
+  "returned_token_soft_limit": 60000,
+  "executed_work": 9,
+  "decision_opportunities": 12,
+  "sdk_retries": 0,
+  "application_retries": 0,
+  "missing_usage": "unknown; no zero imputation; disqualifies resource comparison",
+  "failure_policy": "retain original pair; no replacement or adaptive rerun"
+}

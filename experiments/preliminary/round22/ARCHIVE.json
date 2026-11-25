@@ -1,0 +1,206 @@
+{
+  "round": "22",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\README.md",
+      "copy": "experiments\\preliminary\\round22\\archive\\README.md",
+      "sha256": "6e8d55f7af05111e17b84b89dcf6898ed56ec2d74cede1cc0069cc79d515496e",
+      "bytes": 1132
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\checkpoints.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\checkpoints.json",
+      "sha256": "bcfe88c5f6a75b3213ced50b07cede3c9dafa94cdd9de18e0c14eaf9b6e39cb5",
+      "bytes": 503415
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\excluded105.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\excluded105.json",
+      "sha256": "7e841cd66c4f9ef59c9608246c66cd3b5d5bae79c7fd20b7e81d0c4fc713027b",
+      "bytes": 1817
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\FREEZE.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\FREEZE.json",
+      "sha256": "2aa19c071a580126e283bf74d94f5f2414b776f68e10ef865ef27f5ff0b4d884",
+      "bytes": 2611
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\HISTORY_AUDIT.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\HISTORY_AUDIT.json",
+      "sha256": "b97d9fff238457d7b3e74b6ec98b03716dea6b40d8da8518bd6b60bd2fc2e392",
+      "bytes": 8534
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\official_policy.md",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\PROTOCOL.md",
+      "sha256": "760a41688d4649ee584da2c78f188a62ac7645d8d7b68b09d7abc5f4fef6f109",
+      "bytes": 5966
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\scoring22.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\scoring22.json",
+      "sha256": "35fea17f506e0e4ea57692370cfa2692c4d01adaf15b54c489d725cc1ab937ba",
+      "bytes": 3704
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\tasks\\102\\case.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\tasks\\102\\case.json",
+      "sha256": "e133a3899cdeb86e7650183048cd472eefa6f65098b496f2abbc2648488a409e",
+      "bytes": 7768
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\tasks\\102\\original_task.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\tasks\\102\\original_task.json",
+      "sha256": "e1ec190981e1d62b2a9d318ff44e5af365cc9bebb3d868f47774955f83165342",
+      "bytes": 2195
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\tasks\\91\\case.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\tasks\\91\\case.json",
+      "sha256": "c4d32d63878048d3d43a5a5f782a1445e637c5c4c3429e4ea42953ebdc3e2431",
+      "bytes": 6578
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\tasks\\91\\original_task.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\tasks\\91\\original_task.json",
+      "sha256": "35b3fcbeaa776f4443bfb84fb460adeb1aac66d7c68c1ea3e6f2c801d8898fe8",
+      "bytes": 1770
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\tasks\\93\\case.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\tasks\\93\\case.json",
+      "sha256": "54128513ba6ed4da4d739c4188015d29ffa5821b7171ece3d810a964e6c9bb9c",
+      "bytes": 11170
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\tasks\\93\\original_task.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\tasks\\93\\original_task.json",
+      "sha256": "e5e37660dd11c6185ec77369bb5f9abeba02e7edd39768d065b848adb34c6a8c",
+      "bytes": 1135
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\tasks\\98\\case.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\tasks\\98\\case.json",
+      "sha256": "f03691477ee91a6173ec176a06208bd17777600069a9212fcac3781195682e9d",
+      "bytes": 11590
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\configs\\tasks\\98\\original_task.json",
+      "copy": "experiments\\preliminary\\round22\\archive\\configs\\tasks\\98\\original_task.json",
+      "sha256": "879086a54d770d2e4494861af3bf23404e4f4f1d54d78987ec76b20d213e2613",
+      "bytes": 2344
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\results\\CONTINUATION_PAIRS.md",
+      "copy": "experiments\\preliminary\\round22\\archive\\results\\CONTINUATION_PAIRS.md",
+      "sha256": "898b808b136aa2c64121f1b71c60a86ac5b82818ce21c0679388644247d0ce99",
+      "bytes": 702
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\results\\FIRST_DECISION_PAIRS.md",
+      "copy": "experiments\\preliminary\\round22\\archive\\results\\FIRST_DECISION_PAIRS.md",
+      "sha256": "6324fd89e029ff841be2ed8084dfa9d20cf3604e7793bab8c327016dcf3999d1",
+      "bytes": 1596
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\results\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round22\\archive\\results\\RESULTS.md",
+      "sha256": "ba78c53ecbfc07b3987252181f8ab27a016e6bc83dfac7c1e6d1c05e052650c0",
+      "bytes": 11032
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\baseline_runner.py",
+      "sha256": "42e364c3cd4babb5270c811cbfe9aa00b1f87865118815fc13af1a5dd37ddd7a",
+      "bytes": 648
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\construct20.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\construct20.py",
+      "sha256": "b9e7c53f8425d47e1a8000693b5a44d36509d9a5e50190f9d51c685e3906754a",
+      "bytes": 4874
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\experiment22.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\experiment22.py",
+      "sha256": "6fd332f5d7628b4b12972d9cbd1b1f6bb882366e2c01c53a620b8bc68436958f",
+      "bytes": 16552
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\logging16.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\logging16.py",
+      "sha256": "60b8acf9601aae48bf120faf9e216da3979d50bd203613a9e2ede845b6bbfc70",
+      "bytes": 3255
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\post22.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\post22.py",
+      "sha256": "72a086cd674dff1c715ab2d02bffbafe6692f3229b7c07507f0ac59ff047d068",
+      "bytes": 5215
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\prompts20.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\prompts20.py",
+      "sha256": "90ef34ff3412d1c9b7d26b7fe313a8c9404b41940a416cd8aba4dc7891219e15",
+      "bytes": 6389
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\runner20.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\runner20.py",
+      "sha256": "75adb7dddd779233a3a6f917ecb77d43929b7836ccc48f5fb86118c037e17907",
+      "bytes": 8113
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\score22.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\score22.py",
+      "sha256": "5692e240533b4a7fb6be47093b20c5bc0793c99cb7402a0578ae525a68385a19",
+      "bytes": 1687
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\simulator21.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\simulator21.py",
+      "sha256": "6567daf89ac596bd2293369e7a0b1604b1e5d858b77e5a975e8a48908c0a67f2",
+      "bytes": 2704
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\transport20.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\transport20.py",
+      "sha256": "a8f994173c999bb7f274c38396abea72793455160fefb4da3034c91bf365341d",
+      "bytes": 3671
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\src\\world20.py",
+      "copy": "experiments\\preliminary\\round22\\archive\\src\\world20.py",
+      "sha256": "a0ab2fb01cfed05b0650f15761c5e04df15dd958eccbe0165d521645f314f498",
+      "bytes": 20027
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\results\\TRACE_B_t93_conflict_r1_clarify.md",
+      "copy": "experiments\\preliminary\\round22\\representative\\TRACE_B_t93_conflict_r1_clarify.md",
+      "sha256": "8b6c4aad285d5faba254551e8ea097dcb50ed14d58c6b6ed244d6eb849ae81e0",
+      "bytes": 99992
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\22_状态驱动决策与同状态续行\\results",
+    "files": 138,
+    "bytes": 31399982,
+    "git_storage": "external original directory, not moved"
+  }
+}

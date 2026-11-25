@@ -1,0 +1,521 @@
+{
+  "task_id": "16",
+  "tier": "independent_controlled_exchange",
+  "order_id": "#W9389413",
+  "user_id": "fatima_johnson_7581",
+  "scope": [
+    "4127323219",
+    "2554056026"
+  ],
+  "targets": {
+    "4127323219": "6159919747",
+    "2554056026": "2860956907"
+  },
+  "initial_options": {
+    "4127323219": {
+      "size": "11",
+      "material": "leather",
+      "waterproof": "yes"
+    },
+    "2554056026": {
+      "color": "black",
+      "band material": "silicone",
+      "display": "LCD"
+    }
+  },
+  "payment_method_id": "paypal_5364164",
+  "initial_message": "I am fatima_johnson_7581, email fatima.johnson2300@example.com. In delivered order #W9389413 exchange ONLY this mapping of original items to initially requested replacements: {\"4127323219\": \"6159919747\", \"2554056026\": \"2860956907\"}. Requested options: {\"4127323219\": {\"size\": \"11\", \"material\": \"leather\", \"waterproof\": \"yes\"}, \"2554056026\": {\"color\": \"black\", \"band material\": \"silicone\", \"display\": \"LCD\"}}. Keep all other items and use original payment paypal_5364164. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization.",
+  "initial_catalogues": true,
+  "change_type": "none",
+  "caps": {
+    "conflict": -51.54,
+    "feasible": 10000.0
+  },
+  "states": [
+    "conflict",
+    "feasible"
+  ],
+  "environment": {
+    "orders": {
+      "#W9389413": {
+        "order_id": "#W9389413",
+        "user_id": "fatima_johnson_7581",
+        "address": {
+          "address1": "123 Elm Street",
+          "address2": "Suite 640",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78712"
+        },
+        "items": [
+          {
+            "name": "Hiking Boots",
+            "product_id": "7363354090",
+            "item_id": "4127323219",
+            "price": 251.82,
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "no"
+            }
+          },
+          {
+            "name": "Smart Watch",
+            "product_id": "6945232052",
+            "item_id": "2554056026",
+            "price": 367.38,
+            "options": {
+              "color": "gold",
+              "band material": "metal",
+              "display": "AMOLED"
+            }
+          },
+          {
+            "name": "Mechanical Keyboard",
+            "product_id": "1656367028",
+            "item_id": "6342039236",
+            "price": 244.91,
+            "options": {
+              "switch type": "clicky",
+              "backlight": "white",
+              "size": "full size"
+            }
+          },
+          {
+            "name": "T-Shirt",
+            "product_id": "9523456873",
+            "item_id": "5047954489",
+            "price": 54.84,
+            "options": {
+              "color": "blue",
+              "size": "S",
+              "material": "polyester",
+              "style": "v-neck"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "967556659983"
+            ],
+            "item_ids": [
+              "4127323219",
+              "2554056026",
+              "6342039236",
+              "5047954489"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 918.95,
+            "payment_method_id": "paypal_5364164"
+          }
+        ]
+      }
+    },
+    "users": {
+      "fatima_johnson_7581": {
+        "user_id": "fatima_johnson_7581",
+        "name": {
+          "first_name": "Fatima",
+          "last_name": "Johnson"
+        },
+        "address": {
+          "address1": "123 Elm Street",
+          "address2": "Suite 640",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78712"
+        },
+        "email": "fatima.johnson2300@example.com",
+        "payment_methods": {
+          "paypal_5364164": {
+            "source": "paypal",
+            "id": "paypal_5364164"
+          },
+          "gift_card_1675628": {
+            "source": "gift_card",
+            "id": "gift_card_1675628",
+            "balance": 99.0
+          }
+        },
+        "orders": [
+          "#W5199551",
+          "#W8665881",
+          "#W9389413"
+        ]
+      }
+    },
+    "products": {
+      "7363354090": {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "variants": {
+          "1615379700": {
+            "item_id": "1615379700",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 253.89
+          },
+          "8106223139": {
+            "item_id": "8106223139",
+            "options": {
+              "size": "9",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 249.12
+          },
+          "2658930189": {
+            "item_id": "2658930189",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 241.68
+          },
+          "3812493782": {
+            "item_id": "3812493782",
+            "options": {
+              "size": "7",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 244.34
+          },
+          "2648909398": {
+            "item_id": "2648909398",
+            "options": {
+              "size": "8",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 240.87
+          },
+          "4582956489": {
+            "item_id": "4582956489",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 241.96
+          },
+          "7228247242": {
+            "item_id": "7228247242",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 251.38
+          },
+          "2185126308": {
+            "item_id": "2185126308",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 241.9
+          },
+          "6159919747": {
+            "item_id": "6159919747",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 259.75
+          },
+          "1437889264": {
+            "item_id": "1437889264",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 258.09
+          },
+          "8277474082": {
+            "item_id": "8277474082",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 236.57
+          },
+          "6546364613": {
+            "item_id": "6546364613",
+            "options": {
+              "size": "11",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 231.43
+          },
+          "1262139877": {
+            "item_id": "1262139877",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.99
+          },
+          "6595128475": {
+            "item_id": "6595128475",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 237.65
+          },
+          "5676696062": {
+            "item_id": "5676696062",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 245.99
+          },
+          "4694984344": {
+            "item_id": "4694984344",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.78
+          },
+          "3613716226": {
+            "item_id": "3613716226",
+            "options": {
+              "size": "8",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 253.54
+          },
+          "8118291112": {
+            "item_id": "8118291112",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 260.56
+          },
+          "4127323219": {
+            "item_id": "4127323219",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 251.82
+          }
+        }
+      },
+      "6945232052": {
+        "name": "Smart Watch",
+        "product_id": "6945232052",
+        "variants": {
+          "4920090458": {
+            "item_id": "4920090458",
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 381.87
+          },
+          "9320099340": {
+            "item_id": "9320099340",
+            "options": {
+              "color": "black",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 375.03
+          },
+          "2860956907": {
+            "item_id": "2860956907",
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 315.61
+          },
+          "1631806422": {
+            "item_id": "1631806422",
+            "options": {
+              "color": "black",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 339.85
+          },
+          "9192177173": {
+            "item_id": "9192177173",
+            "options": {
+              "color": "gold",
+              "band material": "metal",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 335.99
+          },
+          "4900990404": {
+            "item_id": "4900990404",
+            "options": {
+              "color": "silver",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 336.71
+          },
+          "8739626972": {
+            "item_id": "8739626972",
+            "options": {
+              "color": "silver",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 370.87
+          },
+          "1706622510": {
+            "item_id": "1706622510",
+            "options": {
+              "color": "black",
+              "band material": "metal",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 328.67
+          },
+          "2540052208": {
+            "item_id": "2540052208",
+            "options": {
+              "color": "gold",
+              "band material": "silicone",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 346.42
+          },
+          "5694328282": {
+            "item_id": "5694328282",
+            "options": {
+              "color": "gold",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": true,
+            "price": 323.19
+          },
+          "9408160950": {
+            "item_id": "9408160950",
+            "options": {
+              "color": "gold",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 381.26
+          },
+          "2554056026": {
+            "item_id": "2554056026",
+            "options": {
+              "color": "gold",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 367.38
+          },
+          "1007724142": {
+            "item_id": "1007724142",
+            "options": {
+              "color": "black",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 382.41
+          },
+          "2993891288": {
+            "item_id": "2993891288",
+            "options": {
+              "color": "silver",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 383.08
+          },
+          "9811090008": {
+            "item_id": "9811090008",
+            "options": {
+              "color": "silver",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 370.38
+          },
+          "2681513500": {
+            "item_id": "2681513500",
+            "options": {
+              "color": "gold",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": true,
+            "price": 356.23
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Original task is return business. This explicit two-product exchange is a controlled dynamic-constraint variant derived from its untouched public order. Not an original tau2 benchmark success. These tasks were candidates in round21, not used for debugging/runs before this round."
+}

@@ -1,0 +1,534 @@
+{
+  "task_id": "107",
+  "tier": "dynamic",
+  "stage": "stage2",
+  "order_id": "#W8353027",
+  "user_id": "yara_ito_8499",
+  "scope": [
+    "6245746168",
+    "6130713659"
+  ],
+  "targets": {
+    "6245746168": "3112842858",
+    "6130713659": "2444431651"
+  },
+  "initial_options": {
+    "6245746168": {
+      "pieces": "1000",
+      "theme": "fantasy",
+      "difficulty level": "intermediate"
+    },
+    "6130713659": {
+      "weight range": "55-75 lbs",
+      "material": "iron",
+      "set type": "fixed"
+    }
+  },
+  "payment_method_id": "paypal_1679017",
+  "change_type": "resource",
+  "changed_item": "6245746168",
+  "changed_target": "4068787148",
+  "change_message": "Before submission, change the Jigsaw Puzzle (original item 6245746168) to item 4068787148 with options {\"pieces\": \"500\", \"theme\": \"art\", \"difficulty level\": \"intermediate\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am yara_ito_8499; email yara.ito7353@example.com. In delivered order #W8353027, exchange ONLY these items in one complete request: [{\"item_id\": \"6245746168\", \"name\": \"Jigsaw Puzzle\", \"requested_variant\": \"3112842858\", \"options\": {\"pieces\": \"1000\", \"theme\": \"fantasy\", \"difficulty level\": \"intermediate\"}}, {\"item_id\": \"6130713659\", \"name\": \"Dumbbell Set\", \"requested_variant\": \"2444431651\", \"options\": {\"weight range\": \"55-75 lbs\", \"material\": \"iron\", \"set type\": \"fixed\"}}]. Keep every other item and order unchanged. Use original payment paypal_1679017. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W8353027": {
+        "order_id": "#W8353027",
+        "user_id": "yara_ito_8499",
+        "address": {
+          "address1": "179 Broadway",
+          "address2": "Suite 256",
+          "city": "Dallas",
+          "country": "USA",
+          "state": "TX",
+          "zip": "75284"
+        },
+        "items": [
+          {
+            "name": "Electric Kettle",
+            "product_id": "1075968781",
+            "item_id": "9335834276",
+            "price": 137.92,
+            "options": {
+              "capacity": "2L",
+              "material": "glass",
+              "color": "black"
+            }
+          },
+          {
+            "name": "Grill",
+            "product_id": "6819683148",
+            "item_id": "7717598293",
+            "price": 985.66,
+            "options": {
+              "type": "electric",
+              "size": "medium",
+              "features": "rotisserie"
+            }
+          },
+          {
+            "name": "Jigsaw Puzzle",
+            "product_id": "1808611083",
+            "item_id": "6245746168",
+            "price": 46.0,
+            "options": {
+              "pieces": "1500",
+              "theme": "animals",
+              "difficulty level": "intermediate"
+            }
+          },
+          {
+            "name": "Dumbbell Set",
+            "product_id": "7233192239",
+            "item_id": "6130713659",
+            "price": 483.66,
+            "options": {
+              "weight range": "55-75 lbs",
+              "material": "urethane",
+              "set type": "adjustable"
+            }
+          },
+          {
+            "name": "Skateboard",
+            "product_id": "1968349452",
+            "item_id": "8176740019",
+            "price": 208.6,
+            "options": {
+              "deck material": "bamboo",
+              "length": "28 inch",
+              "design": "plain"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "778196182846"
+            ],
+            "item_ids": [
+              "9335834276",
+              "7717598293",
+              "6245746168",
+              "6130713659",
+              "8176740019"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1861.84,
+            "payment_method_id": "paypal_1679017"
+          }
+        ]
+      }
+    },
+    "users": {
+      "yara_ito_8499": {
+        "user_id": "yara_ito_8499",
+        "name": {
+          "first_name": "Yara",
+          "last_name": "Ito"
+        },
+        "address": {
+          "address1": "179 Broadway",
+          "address2": "Suite 256",
+          "city": "Dallas",
+          "country": "USA",
+          "state": "TX",
+          "zip": "75284"
+        },
+        "email": "yara.ito7353@example.com",
+        "payment_methods": {
+          "paypal_1679017": {
+            "source": "paypal",
+            "id": "paypal_1679017"
+          }
+        },
+        "orders": [
+          "#W1304208",
+          "#W8353027",
+          "#W3191978",
+          "#W1809337"
+        ]
+      }
+    },
+    "products": {
+      "1808611083": {
+        "name": "Jigsaw Puzzle",
+        "product_id": "1808611083",
+        "variants": {
+          "3614853563": {
+            "item_id": "3614853563",
+            "options": {
+              "pieces": "2000",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            },
+            "available": false,
+            "price": 46.99
+          },
+          "4772738468": {
+            "item_id": "4772738468",
+            "options": {
+              "pieces": "1000",
+              "theme": "animals",
+              "difficulty level": "beginner"
+            },
+            "available": false,
+            "price": 53.91
+          },
+          "4068787148": {
+            "item_id": "4068787148",
+            "options": {
+              "pieces": "500",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 52.01
+          },
+          "3112842858": {
+            "item_id": "3112842858",
+            "options": {
+              "pieces": "1000",
+              "theme": "fantasy",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 49.1
+          },
+          "7869640094": {
+            "item_id": "7869640094",
+            "options": {
+              "pieces": "2000",
+              "theme": "animals",
+              "difficulty level": "expert"
+            },
+            "available": false,
+            "price": 47.59
+          },
+          "1096508426": {
+            "item_id": "1096508426",
+            "options": {
+              "pieces": "500",
+              "theme": "art",
+              "difficulty level": "beginner"
+            },
+            "available": true,
+            "price": 46.13
+          },
+          "9237024510": {
+            "item_id": "9237024510",
+            "options": {
+              "pieces": "500",
+              "theme": "animals",
+              "difficulty level": "expert"
+            },
+            "available": true,
+            "price": 53.53
+          },
+          "5546244844": {
+            "item_id": "5546244844",
+            "options": {
+              "pieces": "1500",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 51.59
+          },
+          "1008948180": {
+            "item_id": "1008948180",
+            "options": {
+              "pieces": "1000",
+              "theme": "art",
+              "difficulty level": "beginner"
+            },
+            "available": false,
+            "price": 54.34
+          },
+          "6245746168": {
+            "item_id": "6245746168",
+            "options": {
+              "pieces": "1500",
+              "theme": "animals",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 46.0
+          },
+          "7127170374": {
+            "item_id": "7127170374",
+            "options": {
+              "pieces": "2000",
+              "theme": "fantasy",
+              "difficulty level": "beginner"
+            },
+            "available": false,
+            "price": 52.03
+          },
+          "9370300555": {
+            "item_id": "9370300555",
+            "options": {
+              "pieces": "1000",
+              "theme": "art",
+              "difficulty level": "expert"
+            },
+            "available": false,
+            "price": 45.9
+          },
+          "9665100170": {
+            "item_id": "9665100170",
+            "options": {
+              "pieces": "1500",
+              "theme": "animals",
+              "difficulty level": "beginner"
+            },
+            "available": true,
+            "price": 45.39
+          },
+          "4572024853": {
+            "item_id": "4572024853",
+            "options": {
+              "pieces": "1000",
+              "theme": "animals",
+              "difficulty level": "expert"
+            },
+            "available": true,
+            "price": 53.72
+          },
+          "5645314103": {
+            "item_id": "5645314103",
+            "options": {
+              "pieces": "2000",
+              "theme": "animals",
+              "difficulty level": "intermediate"
+            },
+            "available": true,
+            "price": 46.19
+          },
+          "9779102705": {
+            "item_id": "9779102705",
+            "options": {
+              "pieces": "1000",
+              "theme": "art",
+              "difficulty level": "intermediate"
+            },
+            "available": false,
+            "price": 54.11
+          },
+          "9030221155": {
+            "item_id": "9030221155",
+            "options": {
+              "pieces": "2000",
+              "theme": "art",
+              "difficulty level": "beginner"
+            },
+            "available": false,
+            "price": 51.98
+          },
+          "5172162216": {
+            "item_id": "5172162216",
+            "options": {
+              "pieces": "2000",
+              "theme": "landscape",
+              "difficulty level": "intermediate"
+            },
+            "available": false,
+            "price": 48.51
+          }
+        }
+      },
+      "7233192239": {
+        "name": "Dumbbell Set",
+        "product_id": "7233192239",
+        "variants": {
+          "8140269513": {
+            "item_id": "8140269513",
+            "options": {
+              "weight range": "55-75 lbs",
+              "material": "rubber",
+              "set type": "adjustable"
+            },
+            "available": false,
+            "price": 528.12
+          },
+          "2444431651": {
+            "item_id": "2444431651",
+            "options": {
+              "weight range": "55-75 lbs",
+              "material": "iron",
+              "set type": "fixed"
+            },
+            "available": true,
+            "price": 534.84
+          },
+          "8068777068": {
+            "item_id": "8068777068",
+            "options": {
+              "weight range": "5-25 lbs",
+              "material": "rubber",
+              "set type": "fixed"
+            },
+            "available": true,
+            "price": 507.13
+          },
+          "3333391894": {
+            "item_id": "3333391894",
+            "options": {
+              "weight range": "30-50 lbs",
+              "material": "iron",
+              "set type": "fixed"
+            },
+            "available": true,
+            "price": 534.14
+          },
+          "4422467033": {
+            "item_id": "4422467033",
+            "options": {
+              "weight range": "30-50 lbs",
+              "material": "urethane",
+              "set type": "adjustable"
+            },
+            "available": true,
+            "price": 483.47
+          },
+          "1300392224": {
+            "item_id": "1300392224",
+            "options": {
+              "weight range": "55-75 lbs",
+              "material": "rubber",
+              "set type": "fixed"
+            },
+            "available": false,
+            "price": 480.74
+          },
+          "6227345631": {
+            "item_id": "6227345631",
+            "options": {
+              "weight range": "55-75 lbs",
+              "material": "urethane",
+              "set type": "fixed"
+            },
+            "available": false,
+            "price": 483.45
+          },
+          "6130713659": {
+            "item_id": "6130713659",
+            "options": {
+              "weight range": "55-75 lbs",
+              "material": "urethane",
+              "set type": "adjustable"
+            },
+            "available": true,
+            "price": 483.66
+          },
+          "6245231688": {
+            "item_id": "6245231688",
+            "options": {
+              "weight range": "30-50 lbs",
+              "material": "iron",
+              "set type": "adjustable"
+            },
+            "available": true,
+            "price": 522.03
+          },
+          "3877338112": {
+            "item_id": "3877338112",
+            "options": {
+              "weight range": "5-25 lbs",
+              "material": "iron",
+              "set type": "adjustable"
+            },
+            "available": true,
+            "price": 545.68
+          },
+          "6171242004": {
+            "item_id": "6171242004",
+            "options": {
+              "weight range": "30-50 lbs",
+              "material": "rubber",
+              "set type": "fixed"
+            },
+            "available": true,
+            "price": 462.84
+          },
+          "7159180318": {
+            "item_id": "7159180318",
+            "options": {
+              "weight range": "30-50 lbs",
+              "material": "urethane",
+              "set type": "fixed"
+            },
+            "available": true,
+            "price": 512.88
+          },
+          "3735133539": {
+            "item_id": "3735133539",
+            "options": {
+              "weight range": "30-50 lbs",
+              "material": "rubber",
+              "set type": "adjustable"
+            },
+            "available": true,
+            "price": 508.37
+          },
+          "3275928196": {
+            "item_id": "3275928196",
+            "options": {
+              "weight range": "5-25 lbs",
+              "material": "urethane",
+              "set type": "adjustable"
+            },
+            "available": true,
+            "price": 511.63
+          },
+          "2194493783": {
+            "item_id": "2194493783",
+            "options": {
+              "weight range": "5-25 lbs",
+              "material": "iron",
+              "set type": "fixed"
+            },
+            "available": false,
+            "price": 471.64
+          },
+          "6921939887": {
+            "item_id": "6921939887",
+            "options": {
+              "weight range": "55-75 lbs",
+              "material": "iron",
+              "set type": "adjustable"
+            },
+            "available": false,
+            "price": 451.62
+          },
+          "7896397433": {
+            "item_id": "7896397433",
+            "options": {
+              "weight range": "5-25 lbs",
+              "material": "rubber",
+              "set type": "adjustable"
+            },
+            "available": true,
+            "price": 457.81
+          },
+          "6585768447": {
+            "item_id": "6585768447",
+            "options": {
+              "weight range": "5-25 lbs",
+              "material": "urethane",
+              "set type": "fixed"
+            },
+            "available": true,
+            "price": 467.69
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

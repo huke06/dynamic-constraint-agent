@@ -1,0 +1,348 @@
+{
+  "round": "03",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\audit.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\audit.py",
+      "sha256": "5d29a05f8d77ca2692c4af169b97bab80e5301d9cdf9713a45c323024ccf5701",
+      "bytes": 6210
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\README.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\README.md",
+      "sha256": "346ea96fdfe0ab12ae044c98560804852d252f2b806eb3e9b9f219b7c7aaf789",
+      "bytes": 3354
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\review.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\review.py",
+      "sha256": "7eab8680dbb40aa77d5712a198d2998e3f4d4568d4fe6749ba399884bcb7c2b6",
+      "bytes": 6019
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\run.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\run.py",
+      "sha256": "c533eb54f36f102308d61918a02d3737afcadd41b2cfc988b8f11bfd54916867",
+      "bytes": 26629
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\state.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\state.py",
+      "sha256": "ae666b73dc701e5775f293e0e7880b89c50b34217c6ce69f39c5ead3863a441c",
+      "bytes": 5075
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\工程记录.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\工程记录.md",
+      "sha256": "1d7bbe7d883363f7fb5a08a3f6add55cea87ce6f3dd7b0550ddd3dd32ec7f861",
+      "bytes": 2824
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\audit.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\audit.py",
+      "sha256": "78a30e4c3e636a3ce6734d69afacda38c33c12d5f0a49d3ca39cf27906b47846",
+      "bytes": 7105
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\checks.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\checks.py",
+      "sha256": "ffb714b437d0f7b606be4117016e26b13b18e3572b79ea5bfcc81e31b19cd19d",
+      "bytes": 6646
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\ledger.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\ledger.py",
+      "sha256": "001ee00e5ad6afbf938ff6033a6ff7134123d1a123fda2bde3b88e04c6beabfc",
+      "bytes": 16485
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\README.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\README.md",
+      "sha256": "a5750846f8ea65370859ceb0ac22e2893931e4288ec1091cace0a7be4db186f7",
+      "bytes": 2387
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\run.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\run.py",
+      "sha256": "c9af75a827e3a26aa10af858cf0f027bb2d22877ef230103e7794848cc35ff20",
+      "bytes": 22448
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\工程记录.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\工程记录.md",
+      "sha256": "5f1bac33ea479208c8072fd89aff6a239f456b51429be57249ee012818fa4b0b",
+      "bytes": 2929
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\checks.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\checks.py",
+      "sha256": "e58f8f2c54beace161e7a5208cd8720937f9054c8cc07bad24f56795d8f379ba",
+      "bytes": 5689
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\ledger.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\ledger.py",
+      "sha256": "6662bd9a074c7171b37e31fe367411909c362319e07de6495577e37ca41b634a",
+      "bytes": 14580
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\README.md",
+      "sha256": "d5a264f8a7197e16a46e2b7cb9a1422288a3a0ae2e5a8c2b2e3b3b11b1be6db9",
+      "bytes": 1542
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\run.py",
+      "sha256": "e53821adbf4457001612097efd1e468e971ea6f4f03f3ad7ffb7ec61e03e85c5",
+      "bytes": 20221
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\设计说明.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031121018448Z\\snapshot\\设计说明.md",
+      "sha256": "1e6d6837120c6f1b7287279e9f47d0492f9b5f07ad2e8736a4a250a4cd38e648",
+      "bytes": 4488
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\checks.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\checks.py",
+      "sha256": "638a1b16e7d0c8ffd87e4f635baa6e325866f56e12a2d7d558d207ed3f137956",
+      "bytes": 6232
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\ledger.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\ledger.py",
+      "sha256": "1ba5e7f76d592d878913a7c1e35389b505e8bfbc9eee746d378e7a246958004d",
+      "bytes": 15812
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\README.md",
+      "sha256": "d5a264f8a7197e16a46e2b7cb9a1422288a3a0ae2e5a8c2b2e3b3b11b1be6db9",
+      "bytes": 1542
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\run.py",
+      "sha256": "800b6c6b77a7bf35a9f86721c3b46efed333cf68e0b6fbf787380dc918b61f11",
+      "bytes": 22047
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\设计说明.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031435729449Z\\snapshot\\设计说明.md",
+      "sha256": "1e6d6837120c6f1b7287279e9f47d0492f9b5f07ad2e8736a4a250a4cd38e648",
+      "bytes": 4488
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031651138198Z\\summary.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031651138198Z\\summary.md",
+      "sha256": "330fd1b20be15910e05d693cf339ef9713ed4df2bb2a8feb0b214b620628ad32",
+      "bytes": 4880
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\checks.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\checks.py",
+      "sha256": "ffb714b437d0f7b606be4117016e26b13b18e3572b79ea5bfcc81e31b19cd19d",
+      "bytes": 6646
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\ledger.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\ledger.py",
+      "sha256": "001ee00e5ad6afbf938ff6033a6ff7134123d1a123fda2bde3b88e04c6beabfc",
+      "bytes": 16485
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\README.md",
+      "sha256": "d5a264f8a7197e16a46e2b7cb9a1422288a3a0ae2e5a8c2b2e3b3b11b1be6db9",
+      "bytes": 1542
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\run.py",
+      "sha256": "c9af75a827e3a26aa10af858cf0f027bb2d22877ef230103e7794848cc35ff20",
+      "bytes": 22448
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\设计说明.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\hybrid_v2\\results\\20261120T031651138198Z\\snapshot\\设计说明.md",
+      "sha256": "1e6d6837120c6f1b7287279e9f47d0492f9b5f07ad2e8736a4a250a4cd38e648",
+      "bytes": 4488
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023442721633Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023442721633Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023442721633Z\\snapshot\\official_policy.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023442721633Z\\snapshot\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023442721633Z\\snapshot\\official_task.json",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023442721633Z\\snapshot\\official_task.json",
+      "sha256": "3142b4196fdd86b8650078180d3ba39d667d7262af0d3ea25c66d92d7b3bf503",
+      "bytes": 2163
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023442721633Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023442721633Z\\snapshot\\README.md",
+      "sha256": "a3bf6f53e050dbd468ed5fb6414407b25277916e89837e4e3dfe0b4d8c25d641",
+      "bytes": 2272
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023442721633Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023442721633Z\\snapshot\\run.py",
+      "sha256": "2851fb5cb4b092d3d5cb6da67e92929de65a35d379f0ffb4668d715e70209790",
+      "bytes": 23030
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023442721633Z\\snapshot\\state.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023442721633Z\\snapshot\\state.py",
+      "sha256": "57a79978e5fd67481cd7341d09b9cf40f605069bacf28105569b663690aded61",
+      "bytes": 4083
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023442721633Z\\snapshot\\方案.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023442721633Z\\snapshot\\方案.md",
+      "sha256": "11b538e2e3d4bee929333026dd20702e1bf6d7ffdcdd89e37026af0d9bfb69a6",
+      "bytes": 5250
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023657496369Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023657496369Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023657496369Z\\snapshot\\official_policy.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023657496369Z\\snapshot\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023657496369Z\\snapshot\\official_task.json",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023657496369Z\\snapshot\\official_task.json",
+      "sha256": "3142b4196fdd86b8650078180d3ba39d667d7262af0d3ea25c66d92d7b3bf503",
+      "bytes": 2163
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023657496369Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023657496369Z\\snapshot\\README.md",
+      "sha256": "a3bf6f53e050dbd468ed5fb6414407b25277916e89837e4e3dfe0b4d8c25d641",
+      "bytes": 2272
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023657496369Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023657496369Z\\snapshot\\run.py",
+      "sha256": "a032a25815b3380fb9f2a86b168bf661c8e78dd0c30bd6ce96c2a2582d90e3df",
+      "bytes": 24792
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023657496369Z\\snapshot\\state.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023657496369Z\\snapshot\\state.py",
+      "sha256": "5f1505aafbaa63edd7bbead50c254fdf595433cb55b9c31b324b22b304ecb2f2",
+      "bytes": 4554
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023657496369Z\\snapshot\\方案.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023657496369Z\\snapshot\\方案.md",
+      "sha256": "11b538e2e3d4bee929333026dd20702e1bf6d7ffdcdd89e37026af0d9bfb69a6",
+      "bytes": 5250
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\summary.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023925255858Z\\summary.md",
+      "sha256": "1c09d14aa37109237405270c1cad088778af260662540e48ae592a1b9a447e19",
+      "bytes": 3479
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\snapshot\\llm.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023925255858Z\\snapshot\\llm.py",
+      "sha256": "a6e5eb18b593a5b3b5383c2557c286a794254cd892e3a065dcc848bcac193012",
+      "bytes": 3682
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\snapshot\\official_policy.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023925255858Z\\snapshot\\official_policy.md",
+      "sha256": "4313d3fef8acf919f555fa17fbce929cc3ed1cef2dd8f0d35ff5c8c3364de176",
+      "bytes": 6835
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\snapshot\\official_task.json",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023925255858Z\\snapshot\\official_task.json",
+      "sha256": "3142b4196fdd86b8650078180d3ba39d667d7262af0d3ea25c66d92d7b3bf503",
+      "bytes": 2163
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\snapshot\\README.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023925255858Z\\snapshot\\README.md",
+      "sha256": "a3bf6f53e050dbd468ed5fb6414407b25277916e89837e4e3dfe0b4d8c25d641",
+      "bytes": 2272
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\snapshot\\run.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023925255858Z\\snapshot\\run.py",
+      "sha256": "c533eb54f36f102308d61918a02d3737afcadd41b2cfc988b8f11bfd54916867",
+      "bytes": 26629
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\snapshot\\state.py",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023925255858Z\\snapshot\\state.py",
+      "sha256": "ae666b73dc701e5775f293e0e7880b89c50b34217c6ce69f39c5ead3863a441c",
+      "bytes": 5075
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\snapshot\\方案.md",
+      "copy": "experiments\\preliminary\\round03\\archive\\results\\20261120T023925255858Z\\snapshot\\方案.md",
+      "sha256": "11b538e2e3d4bee929333026dd20702e1bf6d7ffdcdd89e37026af0d9bfb69a6",
+      "bytes": 5250
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [
+    {
+      "path": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023442721633Z\\snapshot\\official_db.json",
+      "bytes": 2895367,
+      "reason": "large artifact kept at original path"
+    },
+    {
+      "path": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023657496369Z\\snapshot\\official_db.json",
+      "bytes": 2895367,
+      "reason": "large artifact kept at original path"
+    },
+    {
+      "path": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results\\20261120T023925255858Z\\snapshot\\official_db.json",
+      "bytes": 2895367,
+      "reason": "large artifact kept at original path"
+    }
+  ],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\03_确认后局部改规格\\results",
+    "files": 136,
+    "bytes": 13493520,
+    "git_storage": "external original directory, not moved"
+  }
+}

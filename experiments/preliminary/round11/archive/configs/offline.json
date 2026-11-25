@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "70 known identical",
+    "70 unknown identical",
+    "52 known identical",
+    "52 unknown identical"
+  ],
+  "dynamic_catalogue_exists": true,
+  "dynamic_underlying_stock": true,
+  "dynamic_visible_stock": null,
+  "old_authorization_invalidated": true,
+  "original_fingerprint": "e8c7401e111cd2b676de",
+  "boundary": "Original public task/dialogue and prepared original proposal supplied; original identity/catalogue search is not resampled."
+}

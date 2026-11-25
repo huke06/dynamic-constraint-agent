@@ -1,0 +1,104 @@
+{
+  "round": "07",
+  "original_root": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试",
+  "original_paths_preserved": true,
+  "copied_files": [
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\adjacent_reference.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\adjacent_reference.py",
+      "sha256": "5a33a57fc7d929e5caa909dbe608a68b6160c78d44646d48764ba3c1f9fabe31",
+      "bytes": 8749
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\analyze.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\analyze.py",
+      "sha256": "f843d5e21d69f2e706460b9b88841b56c355ec86c68061439f5a455cedd9381c",
+      "bytes": 11055
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\baseline_engine.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\baseline_engine.py",
+      "sha256": "d3098754ef41930232338f032b6f7f8d63a2ec96705d9e00947b0d73fe2a8217",
+      "bytes": 14296
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\baseline_runner.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\baseline_runner.py",
+      "sha256": "0c627860921772dd591099753c23d3490694de2b9e044b3a82c5b6a391f2da2b",
+      "bytes": 30241
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\build_scenarios.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\build_scenarios.py",
+      "sha256": "3735f342ef3591035dc27cf0dbd132ada45fcf71e2b3d79bc954961119a497af",
+      "bytes": 6359
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\checks.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\checks.py",
+      "sha256": "2337a5f84fbee1433db110524f715618fdf6594494965af51ccd1cd30085f365",
+      "bytes": 7236
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\engine.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\engine.py",
+      "sha256": "7444f37891ddb4847d60c680302a685297de42f97f229977b7ef91164010ef15",
+      "bytes": 6947
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\exchange_core.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\exchange_core.py",
+      "sha256": "46fe99a725adf3855a1b5ba5629e1288ec98ecdc7c4d20b40092b35064f8b757",
+      "bytes": 16736
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\posthoc_review.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\posthoc_review.py",
+      "sha256": "adc4098324420d7e70b32ad2926124d38f1531533476c9c4c3e53731e5dba184",
+      "bytes": 5870
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round07\\archive\\PROTOCOL.md",
+      "sha256": "acb644dcad70f334255c6cabf30a8a8a8a0abaedc46f9e502fe08d7cae18b9f9",
+      "bytes": 6283
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\README.md",
+      "copy": "experiments\\preliminary\\round07\\archive\\README.md",
+      "sha256": "25513b9d7dfda96c4477d3c0c0ddd60f76caf7ce528f0d1a68944694ceb4db03",
+      "bytes": 1449
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\RESULTS.md",
+      "copy": "experiments\\preliminary\\round07\\archive\\RESULTS.md",
+      "sha256": "715ba0f323fb18b8bf06440c9576a813d548bdcf5876efa63adbfe0d68818636",
+      "bytes": 15037
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\run.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\run.py",
+      "sha256": "c49bde5a684240fbb8e4c1859c32e4feca19457015d6e60dd2dfdfca4ae2a538",
+      "bytes": 16532
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\verify_delivery.py",
+      "copy": "experiments\\preliminary\\round07\\archive\\verify_delivery.py",
+      "sha256": "49bc8572f76093d5831d38dcc638da4e2996bfe48a8ae7b4858030fb0eeb416f",
+      "bytes": 3827
+    },
+    {
+      "original": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\results\\20261122T123400300210Z\\frozen\\PROTOCOL.md",
+      "copy": "experiments\\preliminary\\round07\\archive\\results\\20261122T123400300210Z\\frozen\\PROTOCOL.md",
+      "sha256": "acb644dcad70f334255c6cabf30a8a8a8a0abaedc46f9e502fe08d7cae18b9f9",
+      "bytes": 6283
+    }
+  ],
+  "not_copied_selected_large_or_sensitive": [],
+  "bulk_raw_archive": {
+    "root": "D:\\experimentn\\Codex工作区\\实验\\07_对照校验与跨任务小试\\results",
+    "files": 89,
+    "bytes": 37839022,
+    "git_storage": "external original directory, not moved"
+  }
+}

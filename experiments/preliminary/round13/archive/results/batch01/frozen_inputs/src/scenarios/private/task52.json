@@ -1,0 +1,29 @@
+{
+  "private_user_policy": {
+    "goal": "Exchange only the named item in the current order, preserving hard requirements and the same payment method.",
+    "hard_options": {
+      "resolution": "30MP",
+      "storage": "CF card"
+    },
+    "preferred_options": {
+      "zoom": "10x"
+    },
+    "fallback": "If the preferred combination is unavailable, accept ONLY variant 6384525445 with options {\"resolution\": \"30MP\", \"zoom\": \"5x\", \"storage\": \"CF card\"} if actually in stock. Do not accept other variants.",
+    "reply_rule": "When the agent names this specific acceptable variant with unknown stock, state willingness CONDITIONAL on stock and ask it to check; this grants a rule now but does not assert stock. If its stock is known true, allow it. If asked vaguely, ask for concrete options. Do not invent inventory/prices.",
+    "confirmation_rule": "Only explicitly approve a current complete proposal with exact item pair, amount and same payment disclosed. A variant permission is not approval. Reject contradictory payment descriptions; your payment method facts are {\"source\": \"paypal\", \"id\": \"paypal_8194385\"}"
+  },
+  "evaluation": {
+    "acceptable_variant": "6384525445",
+    "payment_method": {
+      "source": "paypal",
+      "id": "paypal_8194385"
+    },
+    "item_id": "5996159312",
+    "product_id": "8940227892",
+    "order_id": "#W4689314",
+    "hard_options": {
+      "resolution": "30MP",
+      "storage": "CF card"
+    }
+  }
+}
