@@ -1,0 +1,371 @@
+{
+  "task_id": "RDB01",
+  "business": "return",
+  "scenario": "payment",
+  "order_id": "#W1067251",
+  "user_id": "raj_sanchez_2970",
+  "scope": [
+    "6452271382",
+    "7848293342"
+  ],
+  "payment_method_id": "credit_card_3362387",
+  "original_payment": "credit_card_3362387",
+  "preferred_payment": "credit_card_3362387",
+  "initial_message": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. In order #W1067251, I want to return EXACTLY original items [\"6452271382\",\"7848293342\"] and keep every other item unchanged. Requested refund method is credit_card_3362387. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": false,
+  "event": {
+    "kind": "payment",
+    "payment_method_id": "gift_card_2259499"
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W1067251": {
+        "order_id": "#W1067251",
+        "user_id": "raj_sanchez_2970",
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "items": [
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "6452271382",
+            "price": 258.84,
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            }
+          },
+          {
+            "name": "Grill",
+            "product_id": "6819683148",
+            "item_id": "7848293342",
+            "price": 942.71,
+            "options": {
+              "type": "charcoal",
+              "size": "medium",
+              "features": "side burner"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "787450420748"
+            ],
+            "item_ids": [
+              "6452271382",
+              "7848293342"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1201.55,
+            "payment_method_id": "credit_card_3362387"
+          }
+        ]
+      }
+    },
+    "users": {
+      "raj_sanchez_2970": {
+        "user_id": "raj_sanchez_2970",
+        "name": {
+          "first_name": "Raj",
+          "last_name": "Sanchez"
+        },
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "email": "raj.sanchez2046@example.com",
+        "payment_methods": {
+          "credit_card_3362387": {
+            "source": "credit_card",
+            "id": "credit_card_3362387",
+            "brand": "mastercard",
+            "last_four": "2130"
+          },
+          "gift_card_2259499": {
+            "source": "gift_card",
+            "id": "gift_card_2259499",
+            "balance": 30.0
+          }
+        },
+        "orders": [
+          "#W7736708",
+          "#W4566809",
+          "#W1067251"
+        ]
+      }
+    },
+    "products": {
+      "9924732112": {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "variants": {
+          "9580569596": {
+            "item_id": "9580569596",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": true,
+            "price": 257.38
+          },
+          "2499294441": {
+            "item_id": "2499294441",
+            "options": {
+              "color": "black",
+              "battery life": "8 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.36
+          },
+          "1646531091": {
+            "item_id": "1646531091",
+            "options": {
+              "color": "blue",
+              "battery life": "6 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 232.49
+          },
+          "8555936349": {
+            "item_id": "8555936349",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 226.49
+          },
+          "5565631513": {
+            "item_id": "5565631513",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 267.9
+          },
+          "6077640618": {
+            "item_id": "6077640618",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 242.92
+          },
+          "9270970345": {
+            "item_id": "9270970345",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "not resistant"
+            },
+            "available": false,
+            "price": 259.03
+          },
+          "4063058357": {
+            "item_id": "4063058357",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 243.34
+          },
+          "3694871183": {
+            "item_id": "3694871183",
+            "options": {
+              "color": "white",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": false,
+            "price": 256.67
+          },
+          "6452271382": {
+            "item_id": "6452271382",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 258.84
+          },
+          "2052249669": {
+            "item_id": "2052249669",
+            "options": {
+              "color": "white",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 237.14
+          },
+          "2757705742": {
+            "item_id": "2757705742",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.97
+          }
+        }
+      },
+      "6819683148": {
+        "name": "Grill",
+        "product_id": "6819683148",
+        "variants": {
+          "4404981319": {
+            "item_id": "4404981319",
+            "options": {
+              "type": "electric",
+              "size": "large",
+              "features": "rotisserie"
+            },
+            "available": true,
+            "price": 1031.0
+          },
+          "3876764226": {
+            "item_id": "3876764226",
+            "options": {
+              "type": "electric",
+              "size": "portable",
+              "features": "side burner"
+            },
+            "available": true,
+            "price": 981.47
+          },
+          "5745575001": {
+            "item_id": "5745575001",
+            "options": {
+              "type": "electric",
+              "size": "portable",
+              "features": "rotisserie"
+            },
+            "available": true,
+            "price": 986.65
+          },
+          "5666020311": {
+            "item_id": "5666020311",
+            "options": {
+              "type": "electric",
+              "size": "medium",
+              "features": "side burner"
+            },
+            "available": false,
+            "price": 1058.86
+          },
+          "7082455361": {
+            "item_id": "7082455361",
+            "options": {
+              "type": "charcoal",
+              "size": "medium",
+              "features": "rotisserie"
+            },
+            "available": true,
+            "price": 962.69
+          },
+          "9724317332": {
+            "item_id": "9724317332",
+            "options": {
+              "type": "gas",
+              "size": "portable",
+              "features": "side burner"
+            },
+            "available": true,
+            "price": 1042.19
+          },
+          "7848293342": {
+            "item_id": "7848293342",
+            "options": {
+              "type": "charcoal",
+              "size": "medium",
+              "features": "side burner"
+            },
+            "available": true,
+            "price": 942.71
+          },
+          "1120917161": {
+            "item_id": "1120917161",
+            "options": {
+              "type": "electric",
+              "size": "portable",
+              "features": "none"
+            },
+            "available": false,
+            "price": 953.39
+          },
+          "5105441284": {
+            "item_id": "5105441284",
+            "options": {
+              "type": "charcoal",
+              "size": "portable",
+              "features": "none"
+            },
+            "available": true,
+            "price": 924.5
+          },
+          "5946177616": {
+            "item_id": "5946177616",
+            "options": {
+              "type": "gas",
+              "size": "portable",
+              "features": "none"
+            },
+            "available": true,
+            "price": 1057.24
+          },
+          "7717598293": {
+            "item_id": "7717598293",
+            "options": {
+              "type": "electric",
+              "size": "medium",
+              "features": "rotisserie"
+            },
+            "available": false,
+            "price": 985.66
+          },
+          "6589665742": {
+            "item_id": "6589665742",
+            "options": {
+              "type": "gas",
+              "size": "large",
+              "features": "rotisserie"
+            },
+            "available": false,
+            "price": 933.17
+          }
+        }
+      }
+    }
+  },
+  "source": "new controlled return from untouched public database order"
+}

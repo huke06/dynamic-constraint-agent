@@ -1,0 +1,56 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return? (yes/no)",
+      "proposal_quote": "Here are the return details for your approval:\n\n- **Order:** #W5565470 (status: delivered)\n- **Item to return:** 7602931732 — Electric Kettle (1L, black, stainless steel)\n- **Item price / refund amount:** **$153.25**\n- **Refund method:** Original payment method — **PayPal (paypal_3024827)**\n\nPlease note: only this one item will be returned; the other items in the order remain as-is. After confirmation, the order status will change to \"return requested\" and you'll receive an email with return instructions.\n\nDo you approve this return? (yes/no)",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Refund method: Original payment method — **PayPal (paypal_3024827)**",
+      "amount": -153.25,
+      "amount_quote": "**Item price / refund amount:** **$153.25**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "stop",
+    "reply": "Understood. Keep the database unchanged.",
+    "user_ref": 11,
+    "approved": false,
+    "extraction": {
+      "kind": "stop",
+      "asks": false,
+      "question_quote": "Is there anything else I can help you with?",
+      "proposal_quote": null,
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": "I will not submit any return. Your order #W5565470 remains unchanged and no return has been registered."
+    }
+  }
+]

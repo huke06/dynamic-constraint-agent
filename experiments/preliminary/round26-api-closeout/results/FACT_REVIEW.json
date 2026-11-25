@@ -1,0 +1,586 @@
+{
+  "A01/A_R_14_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_14_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_28_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_28_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_30_r1_official": {
+    "status": "simulator_bias",
+    "issues": [
+      "原始模拟器误判合法退款路径/具体选择追问/暂停后的继续询问；不得算框架优势"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_30_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_31_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_31_r1_official": {
+    "status": "simulator_bias",
+    "issues": [
+      "原始模拟器误判合法退款路径/具体选择追问/暂停后的继续询问；不得算框架优势"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_54_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_54_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_54_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_54_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_73_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_73_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_51_r1_official": {
+    "status": "simulator_bias",
+    "issues": [
+      "原始模拟器误判合法退款路径/具体选择追问/暂停后的继续询问；不得算框架优势"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_51_r1_framework": {
+    "status": "pending",
+    "issues": [
+      "模型把用户要求先解释/比较表述成Policy requires；操作合理但来源归因过强，不收SFT"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_55_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_55_r1_official": {
+    "status": "simulator_bias",
+    "issues": [
+      "原始模拟器误判合法退款路径/具体选择追问/暂停后的继续询问；不得算框架优势"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_82_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_82_r1_framework": {
+    "status": "pending",
+    "issues": [
+      "停止理由可由当前状态支持，但所引记录不是撤回原话；禁止作为准确引用示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_89_r1_framework": {
+    "status": "pending",
+    "issues": [
+      "停止理由可由当前状态支持，但所引记录不是撤回原话；禁止作为准确引用示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_89_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_RDB01_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_RDB01_r1_framework": {
+    "status": "program_or_semantic_failure",
+    "issues": [
+      "保留未办结：见实际semantic_update/拒绝反馈及pending原话，不导出正示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_RDB01_r2_framework": {
+    "status": "program_or_semantic_failure",
+    "issues": [
+      "保留未办结：见实际semantic_update/拒绝反馈及pending原话，不导出正示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_RDB01_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_RDB02_r1_framework": {
+    "status": "program_or_semantic_failure",
+    "issues": [
+      "保留未办结：见实际semantic_update/拒绝反馈及pending原话，不导出正示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_R_RDB02_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB01_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB01_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB02_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB02_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB03_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB03_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB04_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB04_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB05_r1_official": {
+    "status": "simulator_bias",
+    "issues": [
+      "原始模拟器误判合法退款路径/具体选择追问/暂停后的继续询问；不得算框架优势"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB05_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB05_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB05_r2_official": {
+    "status": "simulator_bias",
+    "issues": [
+      "原始模拟器误判合法退款路径/具体选择追问/暂停后的继续询问；不得算框架优势"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB06_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB06_r1_official": {
+    "status": "simulator_bias",
+    "issues": [
+      "首次多选替代问题被提取为information并给出无关cap提示；最终正确但过程投入被污染"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB07_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB07_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB08_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB08_r1_official": {
+    "status": "contradicted",
+    "issues": [
+      "事件0/1把整单差额+3.53/+4.09/+6.27/+9.18/+10.06标为满足<=1.10，最终写入虽正确，中间数值判断错误"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB08_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "A01/A_E_EDB08_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_E26_capacity_r1_analyze": {
+    "status": "contradicted",
+    "issues": [
+      "容量优先原话已可见，模型仍称color/material为最高优先、capacity为lowest-impact；第二次更称1L改1.5L保留容量。两次中间理由错误，不能凭正确写入导出偏好"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_E26_capacity_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_E26_capacity_r2_clarify": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_E26_capacity_r2_analyze": {
+    "status": "contradicted",
+    "issues": [
+      "容量优先原话已可见，模型仍称color/material为最高优先、capacity为lowest-impact；第二次更称1L改1.5L保留容量。两次中间理由错误，不能凭正确写入导出偏好"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_E26_appearance_r1_analyze": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_E26_appearance_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_E26_appearance_r2_clarify": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_E26_appearance_r2_analyze": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_R_refund_preference_r1_analyze": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_R_refund_preference_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_R_refund_preference_r2_clarify": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "B01/B_R_refund_preference_r2_analyze": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix1/recheck01/A_R_30_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix1/recheck01/A_R_30_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix1/recheck01/A_R_31_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix1/recheck01/A_R_31_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix2/recheck01/A_R_51_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix2/recheck01/A_R_51_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix2/recheck_R55/A_R_55_r1_official": {
+    "status": "mixed_model_simulator",
+    "issues": [
+      "第一次把退款路线许可和完整确认合问；模拟未回答其中明确的路线选择而仅要求纠正。后续模型重复完整确认，未取得独立路线许可；还声称礼品卡立即入账，原生工具仅登记return requested，不支持此事实"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix2/recheck_R55/A_R_55_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix3/recheck01/A_E_EDB05_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix3/recheck01/A_E_EDB05_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix3/recheck01/A_E_EDB05_r2_official": {
+    "status": "simulator_bias",
+    "issues": [
+      "含proceed的继续问题仍误记stop；simfix4另批复验"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix3/recheck01/A_E_EDB05_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix4/recheck01/A_E_EDB05_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "simfix4/recheck01/A_E_EDB05_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix1/recheck01/A_R_RDB01_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix1/recheck01/A_R_RDB01_r1_framework": {
+    "status": "program_or_semantic_failure",
+    "issues": [
+      "保留未办结：见实际semantic_update/拒绝反馈及pending原话，不导出正示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix1/recheck01/A_R_RDB01_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix1/recheck01/A_R_RDB01_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix1/recheck01/A_R_RDB02_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix1/recheck01/A_R_RDB02_r1_framework": {
+    "status": "program_or_semantic_failure",
+    "issues": [
+      "保留未办结：见实际semantic_update/拒绝反馈及pending原话，不导出正示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix2/recheck01/A_R_RDB01_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix2/recheck01/A_R_RDB01_r1_framework": {
+    "status": "program_or_semantic_failure",
+    "issues": [
+      "保留未办结：见实际semantic_update/拒绝反馈及pending原话，不导出正示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix2/recheck_RDB02/A_R_RDB02_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix2/recheck_RDB02/A_R_RDB02_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix3/recheck01/A_R_RDB01_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix3/recheck01/A_R_RDB01_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix3/recheck01/A_R_RDB01_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix3/recheck01/A_R_RDB01_r2_framework": {
+    "status": "program_or_semantic_failure",
+    "issues": [
+      "保留未办结：见实际semantic_update/拒绝反馈及pending原话，不导出正示范"
+    ],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix3/recheck01/A_R_RDB02_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  },
+  "statefix3/recheck01/A_R_RDB02_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "reviewer": "assistant evidence audit, not independent blind review",
+    "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+  }
+}

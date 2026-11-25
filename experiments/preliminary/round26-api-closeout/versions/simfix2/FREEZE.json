@@ -1,0 +1,11 @@
+{
+  "files": {
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\repair.py": "ed63be5389821db6bc42e1ea6494dd033065890262fac76d8954c4d70dbf57cf",
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\src\\repair.py": "e02cf5cdcda9ea7def44062d0da8d106e913c48ba45da5113eeba133aed56577"
+  },
+  "affected": [
+    "A_R_51_r1_official",
+    "A_R_51_r1_framework"
+  ],
+  "scope": "simulator classification only; original explicit question was already a valid offered choice"
+}

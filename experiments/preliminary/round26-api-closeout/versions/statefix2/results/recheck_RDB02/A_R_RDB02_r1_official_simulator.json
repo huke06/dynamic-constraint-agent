@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return request? Please reply **yes** to proceed.",
+      "proposal_quote": "**Return request scope:**\n- Returning: **9421195098** (Notebook) and **4920090458** (Smart Watch) — i.e., both items in the order\n- Keeping unchanged: none (these are the only two items in the order)\n- Refund method: **paypal_6262583** (PayPal)\n- **Exact refund total: $414.24** (32.37 + 381.87)",
+      "item_ids": [
+        "9421195098",
+        "4920090458"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_6262583",
+      "payment_quote": "Refund method: **paypal_6262583** (PayPal)",
+      "amount": -414.24,
+      "amount_quote": "**Exact refund total: $414.24** (32.37 + 381.87)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 13,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this new return proposal? Please reply **yes** to proceed.",
+      "proposal_quote": "**New return request scope:**\n- Returning: **9421195098** (Notebook) and **4920090458** (Smart Watch) — both items in the order\n- Keeping unchanged: none (these are the only two items)\n- Refund method: **gift_card_3324938** (existing gift card)\n- **Exact refund total: $414.24** (32.37 + 381.87)",
+      "item_ids": [
+        "9421195098",
+        "4920090458"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3324938",
+      "payment_quote": "Refund method: **gift_card_3324938** (existing gift card)",
+      "amount": -414.24,
+      "amount_quote": "**Exact refund total: $414.24** (32.37 + 381.87)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

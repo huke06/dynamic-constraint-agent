@@ -1,0 +1,20 @@
+{
+  "original_root": "D:\\experimentn\\dynamic-constraint-agent-round23",
+  "archive_root": "D:\\experimentn\\实验原始归档\\round26-api-closeout-20261126",
+  "manifest": "D:\\experimentn\\实验原始归档\\round26-api-closeout-20261126\\MANIFEST.json",
+  "manifest_sha256": "a6f86ad3a1b193ae73e445d1f21439369d2a21d92faf40de751e5cb6c2663c9b",
+  "copied_files": 792,
+  "copied_bytes": 170605540,
+  "verified_all_copied_bytes": true,
+  "originals_preserved": true,
+  "raw_patterns_not_in_git": [
+    "model_calls.jsonl",
+    "request_events.jsonl",
+    "*_start.json",
+    "*_visible_start.json",
+    "*_final.json",
+    "*_trace.json"
+  ],
+  "prior_round24_sources": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\RAW_ARCHIVES.json",
+  "replay_requires": "original relative paths (or restored files), prior frozen repository versions, and local tau2-official environment; no credentials stored"
+}

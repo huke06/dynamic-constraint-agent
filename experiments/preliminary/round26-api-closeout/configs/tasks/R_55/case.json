@@ -1,0 +1,298 @@
+{
+  "task_id": "55",
+  "business": "return",
+  "scenario": "conflict",
+  "order_id": "#W7773202",
+  "user_id": "amelia_silva_7726",
+  "scope": [
+    "8277474082"
+  ],
+  "payment_method_id": "credit_card_0000000",
+  "original_payment": "gift_card_3491931",
+  "preferred_payment": "gift_card_3491931",
+  "initial_message": "I am amelia_silva_7726, email amelia.silva7872@example.com. In order #W7773202, I want to return EXACTLY original items [\"8277474082\"] and keep every other item unchanged. Requested refund method is credit_card_0000000. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything. If that refund route is prohibited, please first compare the legal routes and explain the policy conflict, then ask which concrete permitted route I accept; do not silently substitute.",
+  "initial_missing": false,
+  "event": {
+    "kind": "none"
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W7773202": {
+        "order_id": "#W7773202",
+        "user_id": "amelia_silva_7726",
+        "address": {
+          "address1": "182 Elm Avenue",
+          "address2": "Suite 875",
+          "city": "Philadelphia",
+          "country": "USA",
+          "state": "PA",
+          "zip": "19117"
+        },
+        "items": [
+          {
+            "name": "Hiking Boots",
+            "product_id": "7363354090",
+            "item_id": "8277474082",
+            "price": 236.57,
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "yes"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "638927335105"
+            ],
+            "item_ids": [
+              "8277474082"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 236.57,
+            "payment_method_id": "gift_card_3491931"
+          }
+        ]
+      }
+    },
+    "users": {
+      "amelia_silva_7726": {
+        "user_id": "amelia_silva_7726",
+        "name": {
+          "first_name": "Amelia",
+          "last_name": "Silva"
+        },
+        "address": {
+          "address1": "182 Elm Avenue",
+          "address2": "Suite 875",
+          "city": "Philadelphia",
+          "country": "USA",
+          "state": "PA",
+          "zip": "19117"
+        },
+        "email": "amelia.silva7872@example.com",
+        "payment_methods": {
+          "gift_card_3491931": {
+            "source": "gift_card",
+            "id": "gift_card_3491931",
+            "balance": 73.0
+          }
+        },
+        "orders": [
+          "#W2586676",
+          "#W5400801",
+          "#W4597054",
+          "#W4836353",
+          "#W7773202",
+          "#W7342738"
+        ]
+      }
+    },
+    "products": {
+      "7363354090": {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "variants": {
+          "1615379700": {
+            "item_id": "1615379700",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 253.89
+          },
+          "8106223139": {
+            "item_id": "8106223139",
+            "options": {
+              "size": "9",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 249.12
+          },
+          "2658930189": {
+            "item_id": "2658930189",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 241.68
+          },
+          "3812493782": {
+            "item_id": "3812493782",
+            "options": {
+              "size": "7",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 244.34
+          },
+          "2648909398": {
+            "item_id": "2648909398",
+            "options": {
+              "size": "8",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 240.87
+          },
+          "4582956489": {
+            "item_id": "4582956489",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 241.96
+          },
+          "7228247242": {
+            "item_id": "7228247242",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 251.38
+          },
+          "2185126308": {
+            "item_id": "2185126308",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 241.9
+          },
+          "6159919747": {
+            "item_id": "6159919747",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 259.75
+          },
+          "1437889264": {
+            "item_id": "1437889264",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 258.09
+          },
+          "8277474082": {
+            "item_id": "8277474082",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 236.57
+          },
+          "6546364613": {
+            "item_id": "6546364613",
+            "options": {
+              "size": "11",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 231.43
+          },
+          "1262139877": {
+            "item_id": "1262139877",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.99
+          },
+          "6595128475": {
+            "item_id": "6595128475",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 237.65
+          },
+          "5676696062": {
+            "item_id": "5676696062",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 245.99
+          },
+          "4694984344": {
+            "item_id": "4694984344",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.78
+          },
+          "3613716226": {
+            "item_id": "3613716226",
+            "options": {
+              "size": "8",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 253.54
+          },
+          "8118291112": {
+            "item_id": "8118291112",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 260.56
+          },
+          "4127323219": {
+            "item_id": "4127323219",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 251.82
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "t80_r1_stepwise",
+    "task": "80",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 0,
+    "seconds": 17.508160100027453,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t80_r1_on_demand",
+    "task": "80",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 3,
+    "seconds": 4.2559230999904685,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t80_r2_on_demand",
+    "task": "80",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 3,
+    "seconds": 5.900582299975213,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t80_r2_stepwise",
+    "task": "80",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 0,
+    "seconds": 9.138636099989526,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t23_r1_stepwise",
+    "task": "23",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 0,
+    "seconds": 28.932214900036342,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t23_r1_on_demand",
+    "task": "23",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 5,
+    "seconds": 16.021722999983467,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t23_r2_on_demand",
+    "task": "23",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 5,
+    "seconds": 17.91160349996062,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t23_r2_stepwise",
+    "task": "23",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 0,
+    "seconds": 25.34186139999656,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t29_r1_stepwise",
+    "task": "29",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 0,
+    "seconds": 19.53153099998599,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t29_r1_on_demand",
+    "task": "29",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 5,
+    "seconds": 8.336846899997909,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t29_r2_on_demand",
+    "task": "29",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 5,
+    "seconds": 9.798278099973686,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t29_r2_stepwise",
+    "task": "29",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 0,
+    "seconds": 19.715916499961168,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t26_r1_stepwise",
+    "task": "26",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 0,
+    "seconds": 17.445132299966644,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t26_r1_on_demand",
+    "task": "26",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 3,
+    "seconds": 13.859500900027342,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t26_r2_on_demand",
+    "task": "26",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 3,
+    "seconds": 12.852578599995468,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "t26_r2_stepwise",
+    "task": "26",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 0,
+    "seconds": 19.042447899992112,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  }
+]

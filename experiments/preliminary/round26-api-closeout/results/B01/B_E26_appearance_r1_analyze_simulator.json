@@ -1,0 +1,86 @@
+[
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 7602931732 with SKU 2698416822, if in stock and whole signed difference <= -3.54. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 13,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Do you accept SKU 2698416822 as the new current specification for original item 7602931732?",
+      "proposal_quote": "Proposed SUBSTITUTE 2698416822 has options {\"capacity\":\"1.5L\",\"color\":\"white\",\"material\":\"plastic\"}, observed in-stock=True, price 149.45, and new whole signed difference -9.06 within the cap. Other exchange items remain as currently permitted.",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [
+        {
+          "item_id": "7602931732",
+          "new_item_id": "2698416822",
+          "quote": "Proposed SUBSTITUTE 2698416822 has options {\"capacity\":\"1.5L\",\"color\":\"white\",\"material\":\"plastic\"}, observed in-stock=True, price 149.45, and new whole signed difference -9.06 within the cap."
+        }
+      ],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "7602931732",
+          "variant_id": "2698416822",
+          "payment_method_id": null,
+          "quote": "Do you accept SKU 2698416822 as the new current specification for original item 7602931732?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "2243454707"
+      ],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "accepted_offer": "2698416822"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 17,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"7602931732\",\"9570044148\"],\"new_item_ids\":[\"2698416822\",\"3616838507\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"difference\":-9.06,\"fingerprint\":\"7d1dd0892776d6b8e259\",\"order_id\":\"#W5565470\",\"pairs\":[[\"7602931732\",\"2698416822\"],[\"9570044148\",\"3616838507\"]],\"payment_method_id\":\"paypal_3024827\",\"rows\":[{\"difference\":-3.8,\"item_id\":\"7602931732\",\"new_item_id\":\"2698416822\",\"new_price\":149.45,\"old_price\":153.25,\"options\":{\"capacity\":\"1.5L\",\"color\":\"white\",\"material\":\"plastic\"},\"sources\":[8]},{\"difference\":-5.26,\"item_id\":\"9570044148\",\"new_item_id\":\"3616838507\",\"new_price\":226.11,\"old_price\":231.37,\"options\":{\"backlight\":\"white\",\"size\":\"full size\",\"switch type\":\"tactile\"},\"sources\":[10]}]}. Original payment method paypal_3024827.",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "pairs": [
+        {
+          "item_id": "7602931732",
+          "new_item_id": "2698416822",
+          "quote": "[\"7602931732\",\"2698416822\"]"
+        },
+        {
+          "item_id": "9570044148",
+          "new_item_id": "3616838507",
+          "quote": "[\"9570044148\",\"3616838507\"]"
+        }
+      ],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method paypal_3024827.",
+      "amount": -9.06,
+      "amount_quote": "\"difference\":-9.06",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

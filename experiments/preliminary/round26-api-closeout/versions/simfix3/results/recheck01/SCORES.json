@@ -1,0 +1,483 @@
+[
+  {
+    "id": "A_E_EDB05_r1_official",
+    "task": "EDB05",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 35.64889200008474,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "simfix3/recheck01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\results\\recheck01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 7,
+      "input": 66019,
+      "output": 2259,
+      "cache_hit": 63488,
+      "cache_miss": 2531,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 20.883341999957338,
+      "roles": {
+        "cognitive": 7
+      }
+    },
+    "simulator": {
+      "requests": 5,
+      "input": 5555,
+      "output": 3138,
+      "cache_hit": 1408,
+      "cache_miss": 4147,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 13.315183200058527,
+      "roles": {
+        "simulator": 5
+      }
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work_type": "confirm",
+        "object": "actual speech",
+        "reason": "I've verified both requested replacement items against stock and your cap. Here's what I found:\n\n**Requested exchange mapping (order #W1335809, delivered):**\n\n| Original item | Options | Price | → Replacement | Options | Price | In stock? |\n|---|---|---|---|---|---|---|\n| 2185126308 (Hiking Boots) | leather / size 10 / waterproof no | $241.90 | 8277474082 | leather / size 12 / waterproof yes | $236.57 | ✅ Yes |\n| 4875647558 (Espresso Machine) | 1L / 15 bar / capsule | $2805.77 | 3951031513 | 1.5L / 19 bar / automatic | $3289.46 | ✅ Yes |\n\nBoth replacement items are **in stock** and match your specified options exactly.\n\n**Price difference calculation:**\n- Boots: 236.57 − 241.90 = **−5.33**\n- Espresso: 3289.46 − 2805.77 = **+483.69**\n- **Combined new-minus-old difference = +478.36**\n\nThis is a **positive difference of $478.36** (you would owe this amount), which is within your signed whole-amount cap of ≤ $10,000.00. ✅\n\n**Payment method for the difference:** paypal_3728317 (your original payment method).\n\n**All current items in the order (unchanged except the two above):**\n1. 4875647558 — Espresso Machine (1L / 15 bar / capsule) — $2805.77 → **exchanging to 3951031513**\n2. 2185126308 — Hiking Boots (leather / size 10 / waterproof no) — $241.90 → **exchanging to 8277474082**\n3. 7602931732 — Electric Kettle (1L / black / stainless steel) — $153.25 → **unchanged**\n\nThis is the specification/stock/cap check only — **not** transaction approval. Please give your **independent final approval** to proceed with this exchange (yes/no)."
+      },
+      {
+        "event": 2,
+        "work_type": "information",
+        "object": "actual speech",
+        "reason": "I need to stop before processing — the stock situation has changed since my earlier check.\n\n**Item 3951031513 (Espresso Machine, 1.5L / 19 bar / automatic) is now OUT OF STOCK.** ❌\n\nSince stock is a hard constraint, I cannot process the exchange exactly as approved. The other replacement (8277474082, Hiking Boots) is still in stock, but I won't proceed with a partial or altered exchange without your new permission.\n\nHere are the **in-stock** Espresso Machine alternatives (same product, different options) if you'd like to negotiate a substitute:\n\n| Item ID | Options | Price | Diff vs old ($2805.77) |\n|---|---|---|---|\n| 1157853815 | 2L / 19 bar / capsule | $3096.70 | +290.93 |\n| 2190871011 | 1.5L / 9 bar / manual | $3105.60 | +299.83 |\n| 3379843752 | 2L / 19 bar / manual | $3203.76 | +397.99 |\n| 3709608322 | 2L / 9 bar / automatic | $2744.70 | −61.07 |\n| 3714494375 | 1L / 15 bar / manual | $2709.83 | −95.94 |\n| 3815173328 | 1.5L / 9 bar / capsule | $2908.42 | +102.65 |\n| 6200867091 | 1L / 19 bar / capsule | $2955.17 | +149.40 |\n| 7407838442 | 1L / 9 bar / manual | $3081.91 | +276.14 |\n| 7774234341 | 2L / 9 bar / manual | $2719.16 | −86.61 |\n| 7806008610 | 1L / 9 bar / capsule | $2742.67 | −63.10 |\n| 9884666842 | 1L / 19 bar / manual | $2794.70 | −11.07 |\n\nWould you like to pick a different in-stock Espresso Machine option, or keep the original Espresso Machine unchanged? Please let me know how you'd like to proceed."
+      },
+      {
+        "event": 3,
+        "work_type": "correction",
+        "object": "actual speech",
+        "reason": "Understood — the cap is on the summed new-minus-original across all exchange items, ≤ $10,000.00, and I'll treat any negative value as a minimum refund. I won't process anything without your concrete specification permission and a later independent complete-plan approval.\n\nTo be clear on the current state:\n\n- **Original requested plan is no longer executable** because item **3951031513 is out of stock** (hard constraint).\n- The other replacement, **8277474082 (Hiking Boots, leather/12/waterproof yes)**, is still in stock.\n- The original requested whole difference was **+478.36** (within cap), but that plan can't proceed as-is.\n\nI need your **concrete specification permission** for a substitute Espresso Machine option (from the in-stock list I provided) — or your instruction to leave the Espresso Machine unchanged. Once you specify, I'll re-verify stock, recompute the exact combined new-minus-original difference against your ≤ $10,000.00 cap, and present the full plan for your independent final approval.\n\nHow would you like to proceed with the Espresso Machine?"
+      },
+      {
+        "event": 4,
+        "work_type": "clarify",
+        "object": "actual speech",
+        "reason": "Here is a **current active compliant option** — a concrete substitute I have not previously proposed or rejected, verified in stock just now:\n\n**Proposed complete exchange plan (order #W1335809, delivered):**\n\n| Original item | Options | Price | → Replacement | Options | Price | In stock? |\n|---|---|---|---|---|---|---|\n| 2185126308 (Hiking Boots) | leather / size 10 / waterproof no | $241.90 | 8277474082 | leather / size 12 / waterproof yes | $236.57 | ✅ Yes |\n| 4875647558 (Espresso Machine) | 1L / 15 bar / capsule | $2805.77 | **1157853815** | **2L / 19 bar / capsule** | $3096.70 | ✅ Yes |\n\n**Price difference (new minus original, summed over all exchange items):**\n- Boots: 236.57 − 241.90 = −5.33\n- Espresso: 3096.70 − 2805.77 = +290.93\n- **Combined difference = +285.60**\n\nThis is a **positive difference of $285.60** (you would owe this amount), which is **≤ $10,000.00** — within your signed cap. ✅\n\n**Payment method for the difference:** paypal_3728317 (your original payment method).\n\n**All current items in the order:**\n1. 4875647558 — Espresso Machine (1L / 15 bar / capsule) — $2805.77 → **exchanging to 1157853815**\n2. 2185126308 — Hiking Boots (leather / size 10 / waterproof no) — $241.90 → **exchanging to 8277474082**\n3. 7602931732 — Electric Kettle (1L / black / stainless steel) — $153.25 → **unchanged**\n\nThis is a specification/stock/cap proposal only — **not** transaction approval. If you accept this concrete specification, please give your **independent final approval** to proceed (yes/no)."
+      },
+      {
+        "event": 5,
+        "work_type": "get_product_details",
+        "object": {
+          "product_id": "4354588079"
+        },
+        "reason": ""
+      },
+      {
+        "event": 6,
+        "work_type": "confirm",
+        "object": "actual speech",
+        "reason": "Verified — SKU **1157853815 is in stock**. Here is the full updated proposal for your separate approval:\n\n**Proposed complete exchange plan (order #W1335809, delivered):**\n\n| Original item | Options | Price | → Replacement | Options | Price | In stock? |\n|---|---|---|---|---|---|---|\n| 2185126308 (Hiking Boots) | leather / size 10 / waterproof no | $241.90 | 8277474082 | leather / size 12 / waterproof yes | $236.57 | ✅ Yes |\n| 4875647558 (Espresso Machine) | 1L / 15 bar / capsule | $2805.77 | 1157853815 | 2L / 19 bar / capsule | $3096.70 | ✅ Yes |\n\n**Price difference (new minus original, summed over all exchange items):**\n- Boots: 236.57 − 241.90 = −5.33\n- Espresso: 3096.70 − 2805.77 = +290.93\n- **Combined difference = +285.60**\n\nThis is a **positive difference of $285.60** (you would owe this amount), which is **≤ $10,000.00** — within your signed cap. ✅\n\n**Payment method for the difference:** paypal_3728317 (your original payment method).\n\n**All current items in the order:**\n1. 4875647558 — Espresso Machine (1L / 15 bar / capsule) — $2805.77 → **exchanging to 1157853815**\n2. 2185126308 — Hiking Boots (leather / size 10 / waterproof no) — $241.90 → **exchanging to 8277474082**\n3. 7602931732 — Electric Kettle (1L / black / stainless steel) — $153.25 → **unchanged**\n\nThis is a specification/stock/cap proposal only — **not** transaction approval. Please give your **independent final approval** to proceed with this exact plan (yes/no)."
+      },
+      {
+        "event": 7,
+        "work_type": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W1335809",
+          "item_ids": [
+            "2185126308",
+            "4875647558"
+          ],
+          "new_item_ids": [
+            "8277474082",
+            "1157853815"
+          ],
+          "payment_method_id": "paypal_3728317"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": {
+      "event": 2,
+      "work_type": "information",
+      "object": "actual speech",
+      "reason": "I need to stop before processing — the stock situation has changed since my earlier check.\n\n**Item 3951031513 (Espresso Machine, 1.5L / 19 bar / automatic) is now OUT OF STOCK.** ❌\n\nSince stock is a hard constraint, I cannot process the exchange exactly as approved. The other replacement (8277474082, Hiking Boots) is still in stock, but I won't proceed with a partial or altered exchange without your new permission.\n\nHere are the **in-stock** Espresso Machine alternatives (same product, different options) if you'd like to negotiate a substitute:\n\n| Item ID | Options | Price | Diff vs old ($2805.77) |\n|---|---|---|---|\n| 1157853815 | 2L / 19 bar / capsule | $3096.70 | +290.93 |\n| 2190871011 | 1.5L / 9 bar / manual | $3105.60 | +299.83 |\n| 3379843752 | 2L / 19 bar / manual | $3203.76 | +397.99 |\n| 3709608322 | 2L / 9 bar / automatic | $2744.70 | −61.07 |\n| 3714494375 | 1L / 15 bar / manual | $2709.83 | −95.94 |\n| 3815173328 | 1.5L / 9 bar / capsule | $2908.42 | +102.65 |\n| 6200867091 | 1L / 19 bar / capsule | $2955.17 | +149.40 |\n| 7407838442 | 1L / 9 bar / manual | $3081.91 | +276.14 |\n| 7774234341 | 2L / 9 bar / manual | $2719.16 | −86.61 |\n| 7806008610 | 1L / 9 bar / capsule | $2742.67 | −63.10 |\n| 9884666842 | 1L / 19 bar / manual | $2794.70 | −11.07 |\n\nWould you like to pick a different in-stock Espresso Machine option, or keep the original Espresso Machine unchanged? Please let me know how you'd like to proceed."
+    },
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "A_E_EDB05_r1_framework",
+    "task": "EDB05",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 14.978057299973443,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "simfix3/recheck01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\results\\recheck01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 4,
+      "input": 7883,
+      "output": 469,
+      "cache_hit": 4224,
+      "cache_miss": 3659,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 5.599588699871674,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 1
+      }
+    },
+    "simulator": {
+      "requests": 3,
+      "input": 2930,
+      "output": 1457,
+      "cache_hit": 2304,
+      "cache_miss": 626,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 7.680070600123145,
+      "roles": {
+        "simulator": 3
+      }
+    },
+    "steps": [
+      {
+        "event": 0,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 2,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 6,
+        "source": "decision_model",
+        "work_type": "clarify",
+        "object": "4875647558",
+        "parameters": {
+          "variant_id": "3709608322"
+        },
+        "reason": "Current requested SKU 3951031513 is out of stock, so the exact specification is infeasible. Variant 3709608322 is observed available within the signed cap and is the closest negotiable alternative (matches type automatic, whole difference -66.40), but requires new user specification permission before any plan can be prepared."
+      },
+      {
+        "event": 9,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 11,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 14,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": {
+      "event": 6,
+      "source": "decision_model",
+      "work_type": "clarify",
+      "object": "4875647558",
+      "parameters": {
+        "variant_id": "3709608322"
+      },
+      "reason": "Current requested SKU 3951031513 is out of stock, so the exact specification is infeasible. Variant 3709608322 is observed available within the signed cap and is the closest negotiable alternative (matches type automatic, whole difference -66.40), but requires new user specification permission before any plan can be prepared."
+    },
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "A_E_EDB05_r2_official",
+    "task": "EDB05",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 9.630108800018206,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    },
+    "phase": "simfix3/recheck01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\results\\recheck01",
+    "strict_quality": false,
+    "fact_review": {
+      "status": "simulator_bias",
+      "issues": [
+        "含proceed的继续问题仍误记stop；simfix4另批复验"
+      ],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 2,
+      "input": 15728,
+      "output": 599,
+      "cache_hit": 14592,
+      "cache_miss": 1136,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 4.963808300090022,
+      "roles": {
+        "cognitive": 2
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 2048,
+      "output": 830,
+      "cache_hit": 512,
+      "cache_miss": 1536,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 4.30090819997713,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work_type": "confirm",
+        "object": "actual speech",
+        "reason": "I've verified both requested replacement items against stock and your cap. Here's what I found:\n\n**Requested exchanges (both in stock ✓):**\n\n| Original item | Original options | Original price | Replacement item | Replacement options | Replacement price | Difference |\n|---|---|---|---|---|---|---|\n| 2185126308 (Hiking Boots) | leather / size 10 / waterproof no | $241.90 | 8277474082 (Hiking Boots) | leather / size 12 / waterproof yes | $236.57 | −$5.33 |\n| 4875647558 (Espresso Machine) | 1L / 15 bar / capsule | $2,805.77 | 3951031513 (Espresso Machine) | 1.5L / 19 bar / automatic | $3,289.46 | +$483.69 |\n\n**Combined new-minus-old difference:** −$5.33 + $483.69 = **+$478.36**\n\n- This is a positive difference (you would owe $478.36), which is within your signed whole-amount cap of ≤ $10,000.00. ✓\n- Both replacement items are available in stock. ✓\n- Same product types only (boots→boots, espresso machine→espresso machine). ✓\n- Other item (7602931732 Electric Kettle) stays unchanged. ✓\n- Payment method for the difference: **paypal_3728317** (your original payment method).\n\n**Full current item list after exchange would be:**\n1. 8277474082 — Hiking Boots — leather / size 12 / waterproof yes — $236.57\n2. 3951031513 — Espresso Machine — 1.5L / 19 bar / automatic — $3,289.46\n3. 7602931732 — Electric Kettle — 1L / black / stainless steel — $153.25\n\nThis is the specification/stock/cap check only — **not** transaction approval. Please give your **independent final approval** to proceed with this exchange (yes/no)."
+      },
+      {
+        "event": 2,
+        "work_type": "stop",
+        "object": "actual speech",
+        "reason": "I need to stop before processing — the stock situation has changed since my earlier check.\n\n**Item 3951031513 (Espresso Machine, 1.5L / 19 bar / automatic) is now OUT OF STOCK.** Since stock is a hard constraint, I cannot process the exchange exactly as approved.\n\nThe other replacement (8277474082 Hiking Boots) is still in stock.\n\nBecause the approved proposal can no longer be fulfilled as specified, I won't proceed. Options:\n- You can choose a **different in-stock espresso machine option** (same product type), and I'll re-check the price difference against your cap and present a new proposal for your separate final approval.\n- Or we can leave the order unchanged.\n\nHow would you like to proceed?"
+      }
+    ],
+    "first_after_change": {
+      "event": 2,
+      "work_type": "stop",
+      "object": "actual speech",
+      "reason": "I need to stop before processing — the stock situation has changed since my earlier check.\n\n**Item 3951031513 (Espresso Machine, 1.5L / 19 bar / automatic) is now OUT OF STOCK.** Since stock is a hard constraint, I cannot process the exchange exactly as approved.\n\nThe other replacement (8277474082 Hiking Boots) is still in stock.\n\nBecause the approved proposal can no longer be fulfilled as specified, I won't proceed. Options:\n- You can choose a **different in-stock espresso machine option** (same product type), and I'll re-check the price difference against your cap and present a new proposal for your separate final approval.\n- Or we can leave the order unchanged.\n\nHow would you like to proceed?"
+    },
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "A_E_EDB05_r2_framework",
+    "task": "EDB05",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 13.375113100046292,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "simfix3/recheck01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\results\\recheck01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 4,
+      "input": 7883,
+      "output": 458,
+      "cache_hit": 7168,
+      "cache_miss": 715,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 5.272763499990106,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 1
+      }
+    },
+    "simulator": {
+      "requests": 3,
+      "input": 2930,
+      "output": 1602,
+      "cache_hit": 2304,
+      "cache_miss": 626,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 6.50182279990986,
+      "roles": {
+        "simulator": 3
+      }
+    },
+    "steps": [
+      {
+        "event": 0,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 2,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 6,
+        "source": "decision_model",
+        "work_type": "clarify",
+        "object": "4875647558",
+        "parameters": {
+          "variant_id": "3709608322"
+        },
+        "reason": "Current requested SKU 3951031513 is out of stock, so exact match is infeasible; variant 3709608322 is observed available within the signed cap and is the closest negotiable alternative (matches type automatic, negative difference = refund), requiring new user specification permission."
+      },
+      {
+        "event": 9,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 11,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 14,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W1335809",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": {
+      "event": 6,
+      "source": "decision_model",
+      "work_type": "clarify",
+      "object": "4875647558",
+      "parameters": {
+        "variant_id": "3709608322"
+      },
+      "reason": "Current requested SKU 3951031513 is out of stock, so exact match is infeasible; variant 3709608322 is observed available within the signed cap and is the closest negotiable alternative (matches type automatic, negative difference = refund), requiring new user specification permission."
+    },
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  }
+]

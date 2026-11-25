@@ -1,0 +1,257 @@
+{
+  "task_id": "51",
+  "business": "return",
+  "scenario": "conflict",
+  "order_id": "#W4689314",
+  "user_id": "sofia_li_9219",
+  "scope": [
+    "5996159312"
+  ],
+  "payment_method_id": "credit_card_0000000",
+  "original_payment": "credit_card_8105988",
+  "preferred_payment": "credit_card_8105988",
+  "initial_message": "I am sofia_li_9219, email sofia.li7352@example.com. In order #W4689314, I want to return EXACTLY original items [\"5996159312\"] and keep every other item unchanged. Requested refund method is credit_card_0000000. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything. If that refund route is prohibited, please first compare the legal routes and explain the policy conflict, then ask which concrete permitted route I accept; do not silently substitute.",
+  "initial_missing": false,
+  "event": {
+    "kind": "none"
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W4689314": {
+        "order_id": "#W4689314",
+        "user_id": "sofia_li_9219",
+        "address": {
+          "address1": "786 Elm Street",
+          "address2": "Suite 546",
+          "city": "San Antonio",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78260"
+        },
+        "items": [
+          {
+            "name": "Digital Camera",
+            "product_id": "8940227892",
+            "item_id": "5996159312",
+            "price": 2895.55,
+            "options": {
+              "resolution": "24MP",
+              "zoom": "3x",
+              "storage": "SD card"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "689944590938"
+            ],
+            "item_ids": [
+              "5996159312"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 2895.55,
+            "payment_method_id": "credit_card_8105988"
+          }
+        ]
+      }
+    },
+    "users": {
+      "sofia_li_9219": {
+        "user_id": "sofia_li_9219",
+        "name": {
+          "first_name": "Sofia",
+          "last_name": "Li"
+        },
+        "address": {
+          "address1": "786 Elm Street",
+          "address2": "Suite 546",
+          "city": "San Antonio",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78260"
+        },
+        "email": "sofia.li7352@example.com",
+        "payment_methods": {
+          "paypal_8194385": {
+            "source": "paypal",
+            "id": "paypal_8194385"
+          },
+          "credit_card_3951670": {
+            "source": "credit_card",
+            "id": "credit_card_3951670",
+            "brand": "visa",
+            "last_four": "6791"
+          },
+          "credit_card_8105988": {
+            "source": "credit_card",
+            "id": "credit_card_8105988",
+            "brand": "mastercard",
+            "last_four": "8484"
+          }
+        },
+        "orders": [
+          "#W4689314",
+          "#W8855135",
+          "#W3916020",
+          "#W5416052"
+        ]
+      }
+    },
+    "products": {
+      "8940227892": {
+        "name": "Digital Camera",
+        "product_id": "8940227892",
+        "variants": {
+          "6384525445": {
+            "item_id": "6384525445",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "5x",
+              "storage": "CF card"
+            },
+            "available": true,
+            "price": 2929.62
+          },
+          "3892645120": {
+            "item_id": "3892645120",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "10x",
+              "storage": "CF card"
+            },
+            "available": false,
+            "price": 3070.64
+          },
+          "1804581713": {
+            "item_id": "1804581713",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "3x",
+              "storage": "SD card"
+            },
+            "available": true,
+            "price": 2875.61
+          },
+          "9644439410": {
+            "item_id": "9644439410",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "5x",
+              "storage": "CF card"
+            },
+            "available": true,
+            "price": 3280.31
+          },
+          "5996159312": {
+            "item_id": "5996159312",
+            "options": {
+              "resolution": "24MP",
+              "zoom": "3x",
+              "storage": "SD card"
+            },
+            "available": true,
+            "price": 2895.55
+          },
+          "7255224608": {
+            "item_id": "7255224608",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "3x",
+              "storage": "CF card"
+            },
+            "available": true,
+            "price": 2922.97
+          },
+          "2284404181": {
+            "item_id": "2284404181",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "5x",
+              "storage": "SD card"
+            },
+            "available": false,
+            "price": 3204.43
+          },
+          "7583936705": {
+            "item_id": "7583936705",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "10x",
+              "storage": "CF card"
+            },
+            "available": false,
+            "price": 3101.43
+          },
+          "9973034634": {
+            "item_id": "9973034634",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "3x",
+              "storage": "CF card"
+            },
+            "available": false,
+            "price": 2850.32
+          },
+          "5484530610": {
+            "item_id": "5484530610",
+            "options": {
+              "resolution": "24MP",
+              "zoom": "10x",
+              "storage": "CF card"
+            },
+            "available": false,
+            "price": 3109.83
+          },
+          "4326528037": {
+            "item_id": "4326528037",
+            "options": {
+              "resolution": "24MP",
+              "zoom": "5x",
+              "storage": "CF card"
+            },
+            "available": true,
+            "price": 2714.51
+          },
+          "9228757377": {
+            "item_id": "9228757377",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "10x",
+              "storage": "SD card"
+            },
+            "available": true,
+            "price": 3066.23
+          },
+          "7195021808": {
+            "item_id": "7195021808",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "5x",
+              "storage": "SD card"
+            },
+            "available": false,
+            "price": 2909.87
+          },
+          "8363011723": {
+            "item_id": "8363011723",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "3x",
+              "storage": "SD card"
+            },
+            "available": true,
+            "price": 2823.96
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

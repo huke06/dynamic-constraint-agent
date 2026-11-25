@@ -1,0 +1,13 @@
+{
+  "original_freeze_sha256": "27495da3ca30afa69e5341f55f8b40b9e9d34b60cc41d8b1ae53f2f92557051e",
+  "files": {
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\src\\repair.py": "e02cf5cdcda9ea7def44062d0da8d106e913c48ba45da5113eeba133aed56577"
+  },
+  "affected": [
+    "A_R_30_r1_official",
+    "A_R_30_r1_framework",
+    "A_R_31_r1_official",
+    "A_R_31_r1_framework"
+  ],
+  "rule": "same native original payment proven by get_order_details, no need profile query; no model/policy/task/runtime changes"
+}

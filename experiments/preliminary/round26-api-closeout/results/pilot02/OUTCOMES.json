@@ -1,0 +1,172 @@
+[
+  {
+    "id": "pilot_return_scope_official",
+    "task": "pilot_return26",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 19.97978009993676,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "pilot_return_scope_framework",
+    "task": "pilot_return26",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 8.470635799923912,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "pilot_return_conflict_official",
+    "task": "pilot_return_conflict",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": null,
+    "seconds": 9.072065099957399,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "pilot_return_conflict_framework",
+    "task": "pilot_return_conflict",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": null,
+    "seconds": 9.209635599981993,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "pilot_withdraw_official",
+    "task": "pilot_withdraw",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 9.262506900005974,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  },
+  {
+    "id": "pilot_withdraw_framework",
+    "task": "pilot_withdraw",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 4.3953940999927,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  },
+  {
+    "id": "pilot_exchange_resource_official",
+    "task": "23",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 23.098870599991642,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "status": true
+    }
+  },
+  {
+    "id": "pilot_exchange_resource_framework",
+    "task": "23",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 15.828361399937421,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "status": true
+    }
+  }
+]

@@ -1,0 +1,511 @@
+{
+  "task_id": "EDB05",
+  "tier": "controlled_exchange",
+  "order_id": "#W1335809",
+  "user_id": "anya_lee_8315",
+  "scope": [
+    "4875647558",
+    "2185126308"
+  ],
+  "targets": {
+    "4875647558": "3951031513",
+    "2185126308": "8277474082"
+  },
+  "initial_options": {
+    "4875647558": {
+      "pressure": "19 bar",
+      "capacity": "1.5L",
+      "type": "automatic"
+    },
+    "2185126308": {
+      "size": "12",
+      "material": "leather",
+      "waterproof": "yes"
+    }
+  },
+  "payment_method_id": "paypal_3728317",
+  "initial_catalogues": true,
+  "change_type": "resource",
+  "environment": {
+    "orders": {
+      "#W1335809": {
+        "order_id": "#W1335809",
+        "user_id": "anya_lee_8315",
+        "address": {
+          "address1": "912 Elm Avenue",
+          "address2": "Suite 936",
+          "city": "San Antonio",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78227"
+        },
+        "items": [
+          {
+            "name": "Espresso Machine",
+            "product_id": "4354588079",
+            "item_id": "4875647558",
+            "price": 2805.77,
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            }
+          },
+          {
+            "name": "Hiking Boots",
+            "product_id": "7363354090",
+            "item_id": "2185126308",
+            "price": 241.9,
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "no"
+            }
+          },
+          {
+            "name": "Electric Kettle",
+            "product_id": "1075968781",
+            "item_id": "7602931732",
+            "price": 153.25,
+            "options": {
+              "capacity": "1L",
+              "material": "stainless steel",
+              "color": "black"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "465535118094"
+            ],
+            "item_ids": [
+              "4875647558",
+              "2185126308",
+              "7602931732"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 3200.92,
+            "payment_method_id": "paypal_3728317"
+          }
+        ]
+      }
+    },
+    "users": {
+      "anya_lee_8315": {
+        "user_id": "anya_lee_8315",
+        "name": {
+          "first_name": "Anya",
+          "last_name": "Lee"
+        },
+        "address": {
+          "address1": "912 Elm Avenue",
+          "address2": "Suite 936",
+          "city": "San Antonio",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78227"
+        },
+        "email": "anya.lee3013@example.com",
+        "payment_methods": {
+          "paypal_3728317": {
+            "source": "paypal",
+            "id": "paypal_3728317"
+          }
+        },
+        "orders": [
+          "#W3176007",
+          "#W1335809",
+          "#W2989580"
+        ]
+      }
+    },
+    "products": {
+      "4354588079": {
+        "name": "Espresso Machine",
+        "product_id": "4354588079",
+        "variants": {
+          "3709608322": {
+            "item_id": "3709608322",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "2L",
+              "type": "automatic"
+            },
+            "available": true,
+            "price": 2744.7
+          },
+          "7407838442": {
+            "item_id": "7407838442",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3081.91
+          },
+          "6324294385": {
+            "item_id": "6324294385",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2719.01
+          },
+          "1157853815": {
+            "item_id": "1157853815",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "2L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 3096.7
+          },
+          "2190871011": {
+            "item_id": "2190871011",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1.5L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3105.6
+          },
+          "3714494375": {
+            "item_id": "3714494375",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2709.83
+          },
+          "4875647558": {
+            "item_id": "4875647558",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": false,
+            "price": 2805.77
+          },
+          "7441167885": {
+            "item_id": "7441167885",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            },
+            "available": false,
+            "price": 2866.37
+          },
+          "3815173328": {
+            "item_id": "3815173328",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2908.42
+          },
+          "5839483328": {
+            "item_id": "5839483328",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "2L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2929.06
+          },
+          "7806008610": {
+            "item_id": "7806008610",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2742.67
+          },
+          "7774234341": {
+            "item_id": "7774234341",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "2L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2719.16
+          },
+          "3951031513": {
+            "item_id": "3951031513",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1.5L",
+              "type": "automatic"
+            },
+            "available": true,
+            "price": 3289.46
+          },
+          "6242772310": {
+            "item_id": "6242772310",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2996.03
+          },
+          "6200867091": {
+            "item_id": "6200867091",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2955.17
+          },
+          "9884666842": {
+            "item_id": "9884666842",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2794.7
+          },
+          "3379843752": {
+            "item_id": "3379843752",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "2L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3203.76
+          }
+        }
+      },
+      "7363354090": {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "variants": {
+          "1615379700": {
+            "item_id": "1615379700",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 253.89
+          },
+          "8106223139": {
+            "item_id": "8106223139",
+            "options": {
+              "size": "9",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 249.12
+          },
+          "2658930189": {
+            "item_id": "2658930189",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 241.68
+          },
+          "3812493782": {
+            "item_id": "3812493782",
+            "options": {
+              "size": "7",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 244.34
+          },
+          "2648909398": {
+            "item_id": "2648909398",
+            "options": {
+              "size": "8",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 240.87
+          },
+          "4582956489": {
+            "item_id": "4582956489",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 241.96
+          },
+          "7228247242": {
+            "item_id": "7228247242",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 251.38
+          },
+          "2185126308": {
+            "item_id": "2185126308",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 241.9
+          },
+          "6159919747": {
+            "item_id": "6159919747",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 259.75
+          },
+          "1437889264": {
+            "item_id": "1437889264",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 258.09
+          },
+          "8277474082": {
+            "item_id": "8277474082",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 236.57
+          },
+          "6546364613": {
+            "item_id": "6546364613",
+            "options": {
+              "size": "11",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 231.43
+          },
+          "1262139877": {
+            "item_id": "1262139877",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.99
+          },
+          "6595128475": {
+            "item_id": "6595128475",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 237.65
+          },
+          "5676696062": {
+            "item_id": "5676696062",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 245.99
+          },
+          "4694984344": {
+            "item_id": "4694984344",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.78
+          },
+          "3613716226": {
+            "item_id": "3613716226",
+            "options": {
+              "size": "8",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 253.54
+          },
+          "8118291112": {
+            "item_id": "8118291112",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 260.56
+          },
+          "4127323219": {
+            "item_id": "4127323219",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 251.82
+          }
+        }
+      }
+    }
+  },
+  "initial_message": "I am anya_lee_8315, email anya.lee3013@example.com. In delivered order #W1335809 exchange ONLY original-to-replacement mapping {\"2185126308\":\"8277474082\",\"4875647558\":\"3951031513\"}, options {\"2185126308\":{\"material\":\"leather\",\"size\":\"12\",\"waterproof\":\"yes\"},\"4875647558\":{\"capacity\":\"1.5L\",\"pressure\":\"19 bar\",\"type\":\"automatic\"}}. Other items stay unchanged. Use original payment paypal_3728317. These specifications are permitted only if in stock and within my signed whole-amount cap. Different specifications need new permission. After that, show ALL current items, exact combined new-minus-old difference and original payment for independent final approval. Initial preferences are negotiable; stock, cap, scope and separate final approval are hard. Maximum signed WHOLE new-minus-original difference <= 10000.00; a negative limit means MINIMUM refund, not maximum refund.",
+  "business": "exchange",
+  "scenario": "resource",
+  "source": "controlled exchange from untouched public database order; not an official benchmark task score",
+  "cap": "10000.00",
+  "changed_item": "4875647558",
+  "changed_target": "1157853815",
+  "change_message": "Before submission, change ONLY original item 4875647558 to SKU 1157853815, if in stock. Other item and original payment stay unchanged. My previous approval does not authorize this new complete plan; ask fresh approval."
+}

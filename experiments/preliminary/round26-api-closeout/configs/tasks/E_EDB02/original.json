@@ -1,0 +1,87 @@
+{
+  "public_db_order": {
+    "order_id": "#W1075114",
+    "user_id": "olivia_garcia_1208",
+    "address": {
+      "address1": "358 Laurel Lane",
+      "address2": "Suite 658",
+      "city": "Washington",
+      "country": "USA",
+      "state": "DC",
+      "zip": "20570"
+    },
+    "items": [
+      {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "item_id": "4582956489",
+        "price": 241.96,
+        "options": {
+          "size": "12",
+          "material": "synthetic",
+          "waterproof": "no"
+        }
+      },
+      {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "item_id": "5565631513",
+        "price": 267.9,
+        "options": {
+          "color": "black",
+          "battery life": "6 hours",
+          "water resistance": "IPX7"
+        }
+      },
+      {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "item_id": "2757705742",
+        "price": 258.97,
+        "options": {
+          "color": "blue",
+          "battery life": "4 hours",
+          "water resistance": "IPX7"
+        }
+      },
+      {
+        "name": "Smartphone",
+        "product_id": "1801728040",
+        "item_id": "3187628796",
+        "price": 1205.66,
+        "options": {
+          "color": "rose gold",
+          "storage": "128GB",
+          "RAM": "8GB",
+          "screen size": "6.1-inch"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "823383319422"
+        ],
+        "item_ids": [
+          "4582956489",
+          "5565631513",
+          "2757705742",
+          "3187628796"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1974.49,
+        "payment_method_id": "gift_card_5115976"
+      }
+    ]
+  },
+  "selected_scope": [
+    "4582956489",
+    "5565631513"
+  ],
+  "source_db_sha256": "dbde692e380bb4ad17f9f7841172cf1e69bebad2daa405628ccdc52a42b3b9b0"
+}

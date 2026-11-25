@@ -1,0 +1,86 @@
+{
+  "public_db_order": {
+    "order_id": "#W1326557",
+    "user_id": "sophia_hernandez_2054",
+    "address": {
+      "address1": "663 Willow Lane",
+      "address2": "Suite 886",
+      "city": "Washington",
+      "country": "USA",
+      "state": "DC",
+      "zip": "20335"
+    },
+    "items": [
+      {
+        "name": "Water Bottle",
+        "product_id": "8310926033",
+        "item_id": "6777246137",
+        "price": 47.76,
+        "options": {
+          "capacity": "750ml",
+          "material": "stainless steel",
+          "color": "red"
+        }
+      },
+      {
+        "name": "Tablet",
+        "product_id": "8024098596",
+        "item_id": "6501071631",
+        "price": 1018.68,
+        "options": {
+          "screen size": "7-inch",
+          "storage": "32GB",
+          "color": "gold"
+        }
+      },
+      {
+        "name": "Vacuum Cleaner",
+        "product_id": "1762337868",
+        "item_id": "6259501109",
+        "price": 652.61,
+        "options": {
+          "type": "robotic",
+          "bagged/bagless": "bagged",
+          "features": "pet hair removal"
+        }
+      },
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "1656367028",
+        "item_id": "1421289881",
+        "price": 268.77,
+        "options": {
+          "switch type": "linear",
+          "backlight": "none",
+          "size": "80%"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "365651976748"
+        ],
+        "item_ids": [
+          "6777246137",
+          "6501071631",
+          "6259501109",
+          "1421289881"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1987.82,
+        "payment_method_id": "gift_card_1139567"
+      }
+    ]
+  },
+  "selected_scope": [
+    "6777246137",
+    "6501071631"
+  ],
+  "source_db_sha256": "dbde692e380bb4ad17f9f7841172cf1e69bebad2daa405628ccdc52a42b3b9b0"
+}

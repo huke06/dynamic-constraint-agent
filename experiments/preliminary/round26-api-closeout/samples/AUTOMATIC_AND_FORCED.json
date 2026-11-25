@@ -1,0 +1,2788 @@
+[
+  {
+    "phase": "A01",
+    "id": "A_R_14_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W7387996",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_14_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W7387996",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_14_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W7387996",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_28_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W3792453",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_28_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W3792453",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_28_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W3792453",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_30_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "query",
+      "object": "olivia_lopez_3865",
+      "parameters": {
+        "tool": "get_user_details"
+      },
+      "evidence_refs": [],
+      "expected": "record formal native observation",
+      "reason": "known sole missing evidence"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_30_r1_framework",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W2692684",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_30_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W2692684",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_30_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W2692684",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_31_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "query",
+      "object": "olivia_lopez_3865",
+      "parameters": {
+        "tool": "get_user_details"
+      },
+      "evidence_refs": [],
+      "expected": "record formal native observation",
+      "reason": "known sole missing evidence"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_31_r1_framework",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W7449508",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_31_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W7449508",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_31_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W7449508",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r1_framework",
+    "event": 8,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r1_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r2_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r2_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r2_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r2_framework",
+    "event": 8,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_54_r2_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W4597054",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_73_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5272531",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_73_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5272531",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_73_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5272531",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_73_r1_framework",
+    "event": 8,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5272531",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_73_r1_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5272531",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_51_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W4689314",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_51_r1_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W4689314",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_51_r1_framework",
+    "event": 10,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W4689314",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_55_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W7773202",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_55_r1_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W7773202",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_55_r1_framework",
+    "event": 10,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W7773202",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_82_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W9571698",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_82_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W9571698",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_89_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W4680753",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_89_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W4680753",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB01_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1052399",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB01_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1052399",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB01_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1052399",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB02_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1075114",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB02_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1075114",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB02_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1075114",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB03_r1_framework",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "query",
+      "object": "1075968781",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "record current inventory",
+      "reason": "A unique required catalogue observation is missing and its product ID is known."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB03_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1166549",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB03_r1_framework",
+    "event": 8,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1166549",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB03_r1_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1166549",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB04_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "query",
+      "object": "8024098596",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "record current inventory",
+      "reason": "A unique required catalogue observation is missing and its product ID is known."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB04_r1_framework",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1326557",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB04_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1326557",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB04_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1326557",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 14,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 14,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB06_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1341845",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB06_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1341845",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB06_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1341845",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB06_r1_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1341845",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB06_r1_framework",
+    "event": 14,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1341845",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB07_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1483350",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB07_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1483350",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB07_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1483350",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB07_r1_framework",
+    "event": 8,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1483350",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB07_r1_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1483350",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB08_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1519594",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB08_r1_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1519594",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB08_r1_framework",
+    "event": 10,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1519594",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB08_r2_framework",
+    "event": 3,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1519594",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB08_r2_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1519594",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "A01",
+    "id": "A_E_EDB08_r2_framework",
+    "event": 8,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1519594",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r1_analyze",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "analyze",
+      "object": "7602931732",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "expected": "return a grounded comparison and negotiable alternatives, without granting authority",
+      "reason": "The current requested route conflicts with observed constraints. Compare the feasible alternatives against the public user preference before choosing what new permission to seek."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r1_analyze",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r1_analyze",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r1_analyze",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r1_clarify",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "clarify",
+      "object": "7602931732",
+      "parameters": {
+        "variant_id": "1240311797"
+      },
+      "evidence_refs": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "expected": "obtain concrete new permission or refusal, not transaction approval",
+      "reason": "Ask permission for this concrete observed compliant alternative, disclosing its tradeoff. Existing initial permission does not authorize this changed option or the whole transaction."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r1_clarify",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r1_clarify",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r1_clarify",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r2_clarify",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "clarify",
+      "object": "7602931732",
+      "parameters": {
+        "variant_id": "1240311797"
+      },
+      "evidence_refs": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "expected": "obtain concrete new permission or refusal, not transaction approval",
+      "reason": "Ask permission for this concrete observed compliant alternative, disclosing its tradeoff. Existing initial permission does not authorize this changed option or the whole transaction."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r2_clarify",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r2_clarify",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r2_clarify",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r2_analyze",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "analyze",
+      "object": "7602931732",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "expected": "return a grounded comparison and negotiable alternatives, without granting authority",
+      "reason": "The current requested route conflicts with observed constraints. Compare the feasible alternatives against the public user preference before choosing what new permission to seek."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r2_analyze",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r2_analyze",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_capacity_r2_analyze",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r1_analyze",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "analyze",
+      "object": "7602931732",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "expected": "return a grounded comparison and negotiable alternatives, without granting authority",
+      "reason": "The current requested route conflicts with observed constraints. Compare the feasible alternatives against the public user preference before choosing what new permission to seek."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r1_analyze",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r1_analyze",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r1_analyze",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r1_clarify",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "clarify",
+      "object": "7602931732",
+      "parameters": {
+        "variant_id": "1240311797"
+      },
+      "evidence_refs": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "expected": "obtain concrete new permission or refusal, not transaction approval",
+      "reason": "Ask permission for this concrete observed compliant alternative, disclosing its tradeoff. Existing initial permission does not authorize this changed option or the whole transaction."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r1_clarify",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r1_clarify",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r1_clarify",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r2_clarify",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "clarify",
+      "object": "7602931732",
+      "parameters": {
+        "variant_id": "1240311797"
+      },
+      "evidence_refs": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "expected": "obtain concrete new permission or refusal, not transaction approval",
+      "reason": "Ask permission for this concrete observed compliant alternative, disclosing its tradeoff. Existing initial permission does not authorize this changed option or the whole transaction."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r2_clarify",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r2_clarify",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r2_clarify",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r2_analyze",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "analyze",
+      "object": "7602931732",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        8,
+        10,
+        11
+      ],
+      "expected": "return a grounded comparison and negotiable alternatives, without granting authority",
+      "reason": "The current requested route conflicts with observed constraints. Compare the feasible alternatives against the public user preference before choosing what new permission to seek."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r2_analyze",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r2_analyze",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_E26_appearance_r2_analyze",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W5565470",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r1_analyze",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "analyze",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "expected": "return a grounded comparison and negotiable alternatives, without granting authority",
+      "reason": "The current requested route conflicts with observed constraints. Compare the feasible alternatives against the public user preference before choosing what new permission to seek."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r1_analyze",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r1_analyze",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r1_analyze",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r1_clarify",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "clarify",
+      "object": "#W1067251",
+      "parameters": {
+        "payment_method_id": "credit_card_3362387"
+      },
+      "evidence_refs": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "expected": "obtain concrete new permission or refusal, not transaction approval",
+      "reason": "Ask permission for this concrete observed compliant alternative, disclosing its tradeoff. Existing initial permission does not authorize this changed option or the whole transaction."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r1_clarify",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r1_clarify",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r1_clarify",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r2_clarify",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "clarify",
+      "object": "#W1067251",
+      "parameters": {
+        "payment_method_id": "credit_card_3362387"
+      },
+      "evidence_refs": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "expected": "obtain concrete new permission or refusal, not transaction approval",
+      "reason": "Ask permission for this concrete observed compliant alternative, disclosing its tradeoff. Existing initial permission does not authorize this changed option or the whole transaction."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r2_clarify",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r2_clarify",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r2_clarify",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r2_analyze",
+    "event": 0,
+    "kind": "experiment_forced_first",
+    "work": {
+      "work_type": "analyze",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "expected": "return a grounded comparison and negotiable alternatives, without granting authority",
+      "reason": "The current requested route conflicts with observed constraints. Compare the feasible alternatives against the public user preference before choosing what new permission to seek."
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r2_analyze",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r2_analyze",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "B01",
+    "id": "B_R_refund_preference_r2_analyze",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix1",
+    "id": "A_R_30_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "query",
+      "object": "olivia_lopez_3865",
+      "parameters": {
+        "tool": "get_user_details"
+      },
+      "evidence_refs": [],
+      "expected": "record formal native observation",
+      "reason": "known sole missing evidence"
+    }
+  },
+  {
+    "phase": "simfix1",
+    "id": "A_R_30_r1_framework",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W2692684",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix1",
+    "id": "A_R_30_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W2692684",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix1",
+    "id": "A_R_30_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W2692684",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix1",
+    "id": "A_R_31_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "query",
+      "object": "olivia_lopez_3865",
+      "parameters": {
+        "tool": "get_user_details"
+      },
+      "evidence_refs": [],
+      "expected": "record formal native observation",
+      "reason": "known sole missing evidence"
+    }
+  },
+  {
+    "phase": "simfix1",
+    "id": "A_R_31_r1_framework",
+    "event": 4,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W7449508",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix1",
+    "id": "A_R_31_r1_framework",
+    "event": 6,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W7449508",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix1",
+    "id": "A_R_31_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W7449508",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix2",
+    "id": "A_R_51_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W4689314",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix2",
+    "id": "A_R_51_r1_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W4689314",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix2",
+    "id": "A_R_51_r1_framework",
+    "event": 10,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W4689314",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix2",
+    "id": "A_R_55_r1_framework",
+    "event": 5,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W7773202",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix2",
+    "id": "A_R_55_r1_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W7773202",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix2",
+    "id": "A_R_55_r1_framework",
+    "event": 10,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W7773202",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r1_framework",
+    "event": 14,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "simfix3",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 14,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "simfix4",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "simfix4",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "simfix4",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "store a feasible current whole-order plan",
+      "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+    }
+  },
+  {
+    "phase": "simfix4",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 11,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "request independent approval of the current plan",
+      "reason": "The feasible current plan is complete and has not been presented for approval."
+    }
+  },
+  {
+    "phase": "simfix4",
+    "id": "A_E_EDB05_r2_framework",
+    "event": 14,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1335809",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "register the current authorized plan once",
+      "reason": "The current feasible plan has effective whole-order authorization."
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 12,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix1",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix2",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix2",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix2",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix2",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix2",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix2",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix2",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 12,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 5,
+    "kind": "program_history_archive"
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r1_framework",
+    "event": 18,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 5,
+    "kind": "program_history_archive"
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB01_r2_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1067251",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 0,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 2,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 5,
+    "kind": "program_history_archive"
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 7,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "prepare",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 9,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "confirm",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  },
+  {
+    "phase": "statefix3",
+    "id": "A_R_RDB02_r1_framework",
+    "event": 12,
+    "kind": "program_routine",
+    "work": {
+      "work_type": "submit",
+      "object": "#W1504875",
+      "parameters": {},
+      "evidence_refs": [],
+      "expected": "complete current contract",
+      "reason": "necessary current prerequisites program-verified"
+    }
+  }
+]

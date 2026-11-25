@@ -1,0 +1,61 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm: do you approve this exchange with these exact items and the $23.62 refund to gift_card_5115976? (yes/no)",
+      "proposal_quote": "Both requested replacement items are in stock and match your specified options exactly:\n\n- **4582956489** Hiking Boots (synthetic, size 12, waterproof no) → **6159919747** Hiking Boots (leather, size 11, waterproof yes) — $241.96 → $259.75\n- **5565631513** Wireless Earbuds (6h, black, IPX7) → **8555936349** Wireless Earbuds (8h, blue, IPX4) — $267.90 → $226.49\n\n**All current items in order #W1075114:**\n1. 4582956489 — Hiking Boots (synthetic, size 12, waterproof no) — $241.96 → exchanging\n2. 5565631513 — Wireless Earbuds (6h, black, IPX7) — $267.90 → exchanging\n3. 2757705742 — Wireless Earbuds (4h, blue, IPX7) — $258.97 → unchanged\n4. 3187628796 — Smartphone (8GB, rose gold, 6.1-inch, 128GB) — $1205.66 → unchanged\n\n**Combined new-minus-old difference:** (259.75 + 226.49) − (241.96 + 267.90) = **−$23.62** (a refund of $23.62 to you)\n\nThis is within your signed whole-amount cap of ≤ $10,000.00 (it's a negative difference, i.e., a refund).\n\n**Original payment method:** gift_card_5115976 (balance $92.00) — the $23.62 refund would go back to this gift card.\n\nPlease confirm: do you approve this exchange with these exact items and the $23.62 refund to gift_card_5115976? (yes/no)",
+      "item_ids": [
+        "4582956489",
+        "5565631513"
+      ],
+      "pairs": [
+        {
+          "item_id": "4582956489",
+          "new_item_id": "6159919747",
+          "quote": "**4582956489** Hiking Boots (synthetic, size 12, waterproof no) → **6159919747** Hiking Boots (leather, size 11, waterproof yes)"
+        },
+        {
+          "item_id": "5565631513",
+          "new_item_id": "8555936349",
+          "quote": "**5565631513** Wireless Earbuds (6h, black, IPX7) → **8555936349** Wireless Earbuds (8h, blue, IPX4)"
+        }
+      ],
+      "payment_method_id": "gift_card_5115976",
+      "payment_quote": "**Original payment method:** gift_card_5115976 (balance $92.00) — the $23.62 refund would go back to this gift card.",
+      "amount": -23.62,
+      "amount_quote": "**Combined new-minus-old difference:** (259.75 + 226.49) − (241.96 + 267.90) = **−$23.62** (a refund of $23.62 to you)",
+      "active_offers": [
+        {
+          "item_id": "4582956489",
+          "variant_id": "6159919747",
+          "payment_method_id": "gift_card_5115976",
+          "quote": "Please confirm: do you approve this exchange with these exact items and the $23.62 refund to gift_card_5115976? (yes/no)",
+          "status": "active"
+        },
+        {
+          "item_id": "5565631513",
+          "variant_id": "8555936349",
+          "payment_method_id": "gift_card_5115976",
+          "quote": "Please confirm: do you approve this exchange with these exact items and the $23.62 refund to gift_card_5115976? (yes/no)",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return? (yes/no)",
+      "proposal_quote": "**Return scope (exactly these two items, all others unchanged):**\n- 5669664287 — Air Purifier — $543.68\n- 4900990404 — Smart Watch — $336.71\n\n**Refund total: $880.39**\n**Refund method: gift_card_3491931** (current balance $73.00; refund will be added to this gift card)\n\nThe order status will change to **\"return requested\"**, and you'll receive a follow-up email on how/where to return the items.\n\nPlease note this is only a summary — nothing has been registered yet. **Do you approve this return? (yes/no)**",
+      "item_ids": [
+        "5669664287",
+        "4900990404"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "**Refund method: gift_card_3491931** (current balance $73.00; refund will be added to this gift card)",
+      "amount": -880.39,
+      "amount_quote": "**Refund total: $880.39**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 11,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this revised return? (yes/no)",
+      "proposal_quote": "**Revised return scope (exactly these two items, all others unchanged):**\n- 4900990404 — Smart Watch — $336.71\n- 9862136885 — Coffee Maker — $258.32\n\n**Refund total: $595.03**\n**Refund method: gift_card_3491931** (current balance $73.00; refund will be added to this gift card)",
+      "item_ids": [
+        "4900990404",
+        "9862136885"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "**Refund method: gift_card_3491931** (current balance $73.00; refund will be added to this gift card)",
+      "amount": -595.03,
+      "amount_quote": "**Refund total: $595.03**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

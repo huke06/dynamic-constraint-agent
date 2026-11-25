@@ -1,0 +1,71 @@
+[
+  {
+    "kind": "clarify",
+    "reply": "Use credit_card_3362387 as my permitted refund method. Keep exactly the latest return scope. This is method permission only; show the complete current return, amount and method for separate approval.",
+    "user_ref": 8,
+    "approved": false,
+    "extraction": {
+      "kind": "refund_permission",
+      "asks": true,
+      "question_quote": "do you accept refund method credit_card_3362387?",
+      "proposal_quote": "For the current return scope [\"6452271382\",\"7848293342\"], refund total 1201.55, do you accept refund method credit_card_3362387?",
+      "item_ids": [
+        "6452271382",
+        "7848293342"
+      ],
+      "pairs": [],
+      "payment_method_id": "credit_card_3362387",
+      "payment_quote": "do you accept refund method credit_card_3362387?",
+      "amount": -1201.55,
+      "amount_quote": "refund total 1201.55",
+      "active_offers": [
+        {
+          "item_id": null,
+          "variant_id": null,
+          "payment_method_id": "credit_card_3362387",
+          "quote": "Official policy permits original payment credit_card_3362387 or an existing gift card. For the current return scope [\"6452271382\",\"7848293342\"], refund total 1201.55, do you accept refund method credit_card_3362387?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "accepted_offer": "credit_card_3362387"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 10,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"6452271382\",\"7848293342\"],\"order_id\":\"#W1067251\",\"payment_method_id\":\"credit_card_3362387\"},\"epoch\":0,\"fingerprint\":\"17c8681a2b73defa599d5d2a701565db6dbed1f3813916a363c5688e1fe0cfee\",\"refund_amount\":\"1201.55\"}",
+      "item_ids": [
+        "6452271382",
+        "7848293342"
+      ],
+      "pairs": [],
+      "payment_method_id": "credit_card_3362387",
+      "payment_quote": "\"payment_method_id\":\"credit_card_3362387\"",
+      "amount": -1201.55,
+      "amount_quote": "\"refund_amount\":\"1201.55\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

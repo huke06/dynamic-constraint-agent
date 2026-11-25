@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"5669664287\",\"4900990404\"],\"order_id\":\"#W4597054\",\"payment_method_id\":\"gift_card_3491931\"},\"epoch\":0,\"fingerprint\":\"246df1c62f473a7f95395258d9941039e15282f783ee436a3e7803ac9003f0e8\",\"refund_amount\":\"880.39\"}",
+      "item_ids": [
+        "5669664287",
+        "4900990404"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "\"payment_method_id\":\"gift_card_3491931\"",
+      "amount": -880.39,
+      "amount_quote": "\"refund_amount\":\"880.39\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 11,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"4900990404\",\"9862136885\"],\"order_id\":\"#W4597054\",\"payment_method_id\":\"gift_card_3491931\"},\"epoch\":1,\"fingerprint\":\"d900eb3984cacf36c4dd69f50cb79d852a8526fbf78275f22780fa5012ff1c07\",\"refund_amount\":\"595.03\"}",
+      "item_ids": [
+        "4900990404",
+        "9862136885"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "\"payment_method_id\":\"gift_card_3491931\"",
+      "amount": -595.03,
+      "amount_quote": "\"refund_amount\":\"595.03\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

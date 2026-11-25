@@ -1,0 +1,118 @@
+[
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 15,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "8926329222",
+          "quote": "[\"6301799585\",\"8926329222\"]"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "[\"7082455361\",\"4404981319\"]"
+        }
+      ],
+      "offers": [],
+      "difference": 24.72,
+      "amount_quote": "\"difference\":24.72",
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "Original payment method credit_card_7901829",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  },
+  {
+    "reply": "Replace my CURRENT request for original item 6301799585 with SKU 7160999700, if in stock and whole signed difference <= 10000. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the complete new proposal for separate final approval.",
+    "user_ref": 19,
+    "kind": "clarify",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "Do you accept SKU 7160999700 as the new current specification for original item 6301799585?",
+      "pairs": [],
+      "offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "7160999700",
+          "quote": "Proposed SUBSTITUTE 7160999700"
+        }
+      ],
+      "difference": 71.73,
+      "amount_quote": "new whole signed difference 71.73",
+      "payment_method_id": null,
+      "payment_quote": null,
+      "stop_quote": null
+    },
+    "accepted_offer": "7160999700",
+    "program_resolved_original_item": "6301799585",
+    "extracted_original_item": "6301799585"
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 23,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "7160999700",
+          "quote": "[\"6301799585\",\"7160999700\"]"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "[\"7082455361\",\"4404981319\"]"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "7160999700",
+          "quote": "7160999700"
+        },
+        {
+          "item_id": "7082455361",
+          "variant_id": "4404981319",
+          "quote": "4404981319"
+        }
+      ],
+      "difference": 71.73,
+      "amount_quote": "71.73",
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "Original payment method credit_card_7901829",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  }
+]

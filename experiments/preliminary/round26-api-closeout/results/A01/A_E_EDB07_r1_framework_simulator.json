@@ -1,0 +1,89 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"9570044148\",\"4983901480\"],\"new_item_ids\":[\"1151293680\",\"4953074738\"],\"order_id\":\"#W1483350\",\"payment_method_id\":\"paypal_2319812\"},\"difference\":4.51,\"fingerprint\":\"36b73193e480e4038297\",\"order_id\":\"#W1483350\",\"pairs\":[[\"4983901480\",\"4953074738\"],[\"9570044148\",\"1151293680\"]],\"payment_method_id\":\"paypal_2319812\",\"rows\":[{\"difference\":-36.45,\"item_id\":\"4983901480\",\"new_item_id\":\"4953074738\",\"new_price\":226.02,\"old_price\":262.47,\"options\":{\"color\":\"black\",\"compatibility\":\"Amazon Alexa\"},\"sources\":[10]},{\"difference\":40.96,\"item_id\":\"9570044148\",\"new_item_id\":\"1151293680\",\"new_price\":272.33,\"old_price\":231.37,\"options\":{\"backlight\":\"RGB\",\"size\":\"full size\",\"switch type\":\"linear\"},\"sources\":[8]}]}. Original payment method paypal_2319812.",
+      "item_ids": [
+        "9570044148",
+        "4983901480"
+      ],
+      "pairs": [
+        {
+          "item_id": "4983901480",
+          "new_item_id": "4953074738",
+          "quote": "[\"4983901480\",\"4953074738\"]"
+        },
+        {
+          "item_id": "9570044148",
+          "new_item_id": "1151293680",
+          "quote": "[\"9570044148\",\"1151293680\"]"
+        }
+      ],
+      "payment_method_id": "paypal_2319812",
+      "payment_quote": "Original payment method paypal_2319812.",
+      "amount": 4.51,
+      "amount_quote": "\"difference\":4.51",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 20,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"9570044148\",\"4983901480\"],\"new_item_ids\":[\"1421289881\",\"4953074738\"],\"order_id\":\"#W1483350\",\"payment_method_id\":\"paypal_2319812\"},\"difference\":0.95,\"fingerprint\":\"1aeb3d51ffd6200fc779\",\"order_id\":\"#W1483350\",\"pairs\":[[\"4983901480\",\"4953074738\"],[\"9570044148\",\"1421289881\"]],\"payment_method_id\":\"paypal_2319812\",\"rows\":[{\"difference\":-36.45,\"item_id\":\"4983901480\",\"new_item_id\":\"4953074738\",\"new_price\":226.02,\"old_price\":262.47,\"options\":{\"color\":\"black\",\"compatibility\":\"Amazon Alexa\"},\"sources\":[10]},{\"difference\":37.4,\"item_id\":\"9570044148\",\"new_item_id\":\"1421289881\",\"new_price\":268.77,\"old_price\":231.37,\"options\":{\"backlight\":\"none\",\"size\":\"80%\",\"switch type\":\"linear\"},\"sources\":[8]}]}. Original payment method paypal_2319812.",
+      "item_ids": [
+        "9570044148",
+        "4983901480"
+      ],
+      "pairs": [
+        {
+          "item_id": "4983901480",
+          "new_item_id": "4953074738",
+          "quote": "[\"4983901480\",\"4953074738\"]"
+        },
+        {
+          "item_id": "9570044148",
+          "new_item_id": "1421289881",
+          "quote": "[\"9570044148\",\"1421289881\"]"
+        }
+      ],
+      "payment_method_id": "paypal_2319812",
+      "payment_quote": "Original payment method paypal_2319812.",
+      "amount": 0.95,
+      "amount_quote": "\"difference\":0.95",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

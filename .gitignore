@@ -29,3 +29,16 @@ experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/*_s
 experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/*_final.json
 experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/*_trace.json
 experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/*_visible_start.json
+# Round25/26 raw records remain at their original paths and in hash-indexed local archives.
+experiments/preliminary/round25-on-demand-v2/results/**/model_calls.jsonl
+experiments/preliminary/round25-on-demand-v2/results/**/request_events.jsonl
+experiments/preliminary/round25-on-demand-v2/results/**/*_start.json
+experiments/preliminary/round25-on-demand-v2/results/**/*_final.json
+experiments/preliminary/round25-on-demand-v2/results/**/*_trace.json
+experiments/preliminary/round25-on-demand-v2/results/**/*_visible_start.json
+experiments/preliminary/round26-api-closeout/**/model_calls.jsonl
+experiments/preliminary/round26-api-closeout/**/request_events.jsonl
+experiments/preliminary/round26-api-closeout/**/*_start.json
+experiments/preliminary/round26-api-closeout/**/*_final.json
+experiments/preliminary/round26-api-closeout/**/*_trace.json
+experiments/preliminary/round26-api-closeout/**/*_visible_start.json

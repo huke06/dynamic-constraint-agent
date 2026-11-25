@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-25T16:16:39.209002+00:00",
+  "files": {
+    "experiments\\preliminary\\round25-on-demand-v2\\run25.py": "1dae8f409631e40859ffa6ce168af69366b6eecfe6bf1b063bc7755a4edfd331",
+    "src\\dynamic_constraint_agent_runtime.py": "e2fcdb44c9b4f6ff76e2803889f561ffd06d97744c66e56dfe9956f91defe061",
+    "tests\\test_on_demand_runtime.py": "80f83a90112a70f0dbe6a8c7bf8b260197e1114f125508b87f7d8f0fc490914d"
+  },
+  "offline_tests_passed": 7,
+  "planned_trajectories": 16,
+  "budget": "round24-a2 inherited, unchanged"
+}

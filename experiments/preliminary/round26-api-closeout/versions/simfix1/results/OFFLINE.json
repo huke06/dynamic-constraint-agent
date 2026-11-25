@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "R_30 original method known from actual order, not private profile",
+    "R_30 no observed order still cannot obtain final approval",
+    "R_31 original method known from actual order, not private profile",
+    "R_31 no observed order still cannot obtain final approval"
+  ]
+}

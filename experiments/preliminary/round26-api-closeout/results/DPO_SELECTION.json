@@ -1,0 +1,41 @@
+[
+  {
+    "checkpoint": "E26_capacity",
+    "business": "exchange",
+    "base_task": "26",
+    "directions": [
+      "pending",
+      "pending"
+    ],
+    "stable": false,
+    "winner": null,
+    "status": "pending",
+    "specific_object_and_offer_matter": true
+  },
+  {
+    "checkpoint": "E26_appearance",
+    "business": "exchange",
+    "base_task": "26",
+    "directions": [
+      "analyze",
+      "analyze"
+    ],
+    "stable": true,
+    "winner": "analyze",
+    "status": "export_eligible",
+    "specific_object_and_offer_matter": true
+  },
+  {
+    "checkpoint": "R_refund_preference",
+    "business": "return",
+    "base_task": "RDB01",
+    "directions": [
+      "analyze",
+      "analyze"
+    ],
+    "stable": true,
+    "winner": "analyze",
+    "status": "export_eligible",
+    "specific_object_and_offer_matter": true
+  }
+]

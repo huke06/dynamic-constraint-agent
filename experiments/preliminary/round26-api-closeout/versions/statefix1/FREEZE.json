@@ -1,0 +1,21 @@
+{
+  "files": {
+    "experiments\\preliminary\\round26-api-closeout\\versions\\statefix1\\repair.py": "3d104a9e0dcbfe76ab17560843e1d92c0ca3052c8676090a65f45c2c3b8e8287",
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\src\\repair.py": "e02cf5cdcda9ea7def44062d0da8d106e913c48ba45da5113eeba133aed56577",
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\repair.py": "ed63be5389821db6bc42e1ea6494dd033065890262fac76d8954c4d70dbf57cf"
+  },
+  "affected_tasks": [
+    "R_RDB01",
+    "R_RDB02"
+  ],
+  "repeats": {
+    "R_RDB01": [
+      1,
+      2
+    ],
+    "R_RDB02": [
+      1
+    ]
+  },
+  "scope": "return semantic schema and source-bound withdrawal contract only; old snapshots/model/budgets/native tools unchanged"
+}

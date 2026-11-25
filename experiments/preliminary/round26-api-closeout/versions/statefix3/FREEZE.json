@@ -1,0 +1,22 @@
+{
+  "files": {
+    "experiments\\preliminary\\round26-api-closeout\\versions\\statefix3\\repair.py": "6d18bfe8919ea941bff577b1ae75c575f3c2c34d5d79bff33d1751b606e23738",
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\src\\repair.py": "e02cf5cdcda9ea7def44062d0da8d106e913c48ba45da5113eeba133aed56577",
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\repair.py": "ed63be5389821db6bc42e1ea6494dd033065890262fac76d8954c4d70dbf57cf",
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix4\\repair.py": "f69d1505c8a8ff657ac9eb708f76afe824fc1bfcc7c62e9364796c743c01a68b"
+  },
+  "affected_tasks": [
+    "R_RDB01",
+    "R_RDB02"
+  ],
+  "repeats": {
+    "R_RDB01": [
+      1,
+      2
+    ],
+    "R_RDB02": [
+      1
+    ]
+  },
+  "scope": "return same-items reference binding and specific rejection feedback; retains source-bound withdrawal guard; old snapshots/model/budgets/native tools unchanged"
+}

@@ -1,0 +1,708 @@
+{
+  "task_id": "82",
+  "business": "return",
+  "scenario": "withdraw",
+  "order_id": "#W9571698",
+  "user_id": "chen_silva_7485",
+  "scope": [
+    "9973034634",
+    "5952720925"
+  ],
+  "payment_method_id": "gift_card_7250692",
+  "original_payment": "gift_card_7250692",
+  "preferred_payment": "gift_card_7250692",
+  "initial_message": "I am chen_silva_7485, email chen.silva2698@example.com. In order #W9571698, I want to return EXACTLY original items [\"9973034634\",\"5952720925\"] and keep every other item unchanged. Requested refund method is gift_card_7250692. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": false,
+  "event": {
+    "kind": "withdraw"
+  },
+  "expected": "stop",
+  "environment": {
+    "orders": {
+      "#W9571698": {
+        "order_id": "#W9571698",
+        "user_id": "chen_silva_7485",
+        "address": {
+          "address1": "139 River Road",
+          "address2": "Suite 418",
+          "city": "Indianapolis",
+          "country": "USA",
+          "state": "IN",
+          "zip": "46281"
+        },
+        "items": [
+          {
+            "name": "Digital Camera",
+            "product_id": "8940227892",
+            "item_id": "9973034634",
+            "price": 2850.32,
+            "options": {
+              "resolution": "20MP",
+              "zoom": "3x",
+              "storage": "CF card"
+            }
+          },
+          {
+            "name": "Coffee Maker",
+            "product_id": "7996920482",
+            "item_id": "5952720925",
+            "price": 260.19,
+            "options": {
+              "color": "black",
+              "capacity": "4 cups",
+              "type": "espresso",
+              "features": "timer"
+            }
+          },
+          {
+            "name": "Pet Bed",
+            "product_id": "2747247837",
+            "item_id": "7381052709",
+            "price": 193.22,
+            "options": {
+              "size": "large",
+              "material": "memory foam",
+              "color": "brown"
+            }
+          },
+          {
+            "name": "Tablet",
+            "product_id": "8024098596",
+            "item_id": "6065192424",
+            "price": 989.7,
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "gold"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "304189154726"
+            ],
+            "item_ids": [
+              "9973034634",
+              "5952720925",
+              "7381052709",
+              "6065192424"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 4293.43,
+            "payment_method_id": "gift_card_7250692"
+          }
+        ]
+      }
+    },
+    "users": {
+      "chen_silva_7485": {
+        "user_id": "chen_silva_7485",
+        "name": {
+          "first_name": "Chen",
+          "last_name": "Silva"
+        },
+        "address": {
+          "address1": "139 River Road",
+          "address2": "Suite 418",
+          "city": "Indianapolis",
+          "country": "USA",
+          "state": "IN",
+          "zip": "46281"
+        },
+        "email": "chen.silva2698@example.com",
+        "payment_methods": {
+          "gift_card_7250692": {
+            "source": "gift_card",
+            "id": "gift_card_7250692",
+            "balance": 59.0
+          },
+          "credit_card_1565124": {
+            "source": "credit_card",
+            "id": "credit_card_1565124",
+            "brand": "mastercard",
+            "last_four": "2732"
+          }
+        },
+        "orders": [
+          "#W3069600",
+          "#W2598834",
+          "#W8171054",
+          "#W9571698"
+        ]
+      }
+    },
+    "products": {
+      "8940227892": {
+        "name": "Digital Camera",
+        "product_id": "8940227892",
+        "variants": {
+          "6384525445": {
+            "item_id": "6384525445",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "5x",
+              "storage": "CF card"
+            },
+            "available": true,
+            "price": 2929.62
+          },
+          "3892645120": {
+            "item_id": "3892645120",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "10x",
+              "storage": "CF card"
+            },
+            "available": false,
+            "price": 3070.64
+          },
+          "1804581713": {
+            "item_id": "1804581713",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "3x",
+              "storage": "SD card"
+            },
+            "available": true,
+            "price": 2875.61
+          },
+          "9644439410": {
+            "item_id": "9644439410",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "5x",
+              "storage": "CF card"
+            },
+            "available": true,
+            "price": 3280.31
+          },
+          "5996159312": {
+            "item_id": "5996159312",
+            "options": {
+              "resolution": "24MP",
+              "zoom": "3x",
+              "storage": "SD card"
+            },
+            "available": true,
+            "price": 2895.55
+          },
+          "7255224608": {
+            "item_id": "7255224608",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "3x",
+              "storage": "CF card"
+            },
+            "available": true,
+            "price": 2922.97
+          },
+          "2284404181": {
+            "item_id": "2284404181",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "5x",
+              "storage": "SD card"
+            },
+            "available": false,
+            "price": 3204.43
+          },
+          "7583936705": {
+            "item_id": "7583936705",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "10x",
+              "storage": "CF card"
+            },
+            "available": false,
+            "price": 3101.43
+          },
+          "9973034634": {
+            "item_id": "9973034634",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "3x",
+              "storage": "CF card"
+            },
+            "available": false,
+            "price": 2850.32
+          },
+          "5484530610": {
+            "item_id": "5484530610",
+            "options": {
+              "resolution": "24MP",
+              "zoom": "10x",
+              "storage": "CF card"
+            },
+            "available": false,
+            "price": 3109.83
+          },
+          "4326528037": {
+            "item_id": "4326528037",
+            "options": {
+              "resolution": "24MP",
+              "zoom": "5x",
+              "storage": "CF card"
+            },
+            "available": true,
+            "price": 2714.51
+          },
+          "9228757377": {
+            "item_id": "9228757377",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "10x",
+              "storage": "SD card"
+            },
+            "available": true,
+            "price": 3066.23
+          },
+          "7195021808": {
+            "item_id": "7195021808",
+            "options": {
+              "resolution": "30MP",
+              "zoom": "5x",
+              "storage": "SD card"
+            },
+            "available": false,
+            "price": 2909.87
+          },
+          "8363011723": {
+            "item_id": "8363011723",
+            "options": {
+              "resolution": "20MP",
+              "zoom": "3x",
+              "storage": "SD card"
+            },
+            "available": true,
+            "price": 2823.96
+          }
+        }
+      },
+      "7996920482": {
+        "name": "Coffee Maker",
+        "product_id": "7996920482",
+        "variants": {
+          "3020722515": {
+            "item_id": "3020722515",
+            "options": {
+              "color": "black",
+              "capacity": "1 cup",
+              "type": "french press",
+              "features": "auto shutoff"
+            },
+            "available": true,
+            "price": 238.64
+          },
+          "2115393569": {
+            "item_id": "2115393569",
+            "options": {
+              "color": "black",
+              "capacity": "1 cup",
+              "type": "drip",
+              "features": "timer"
+            },
+            "available": true,
+            "price": 270.91
+          },
+          "3039787582": {
+            "item_id": "3039787582",
+            "options": {
+              "color": "stainless steel",
+              "capacity": "4 cups",
+              "type": "drip",
+              "features": "auto shutoff"
+            },
+            "available": true,
+            "price": 256.94
+          },
+          "9862136885": {
+            "item_id": "9862136885",
+            "options": {
+              "color": "black",
+              "capacity": "2 cups",
+              "type": "espresso",
+              "features": "timer"
+            },
+            "available": true,
+            "price": 258.32
+          },
+          "3062461148": {
+            "item_id": "3062461148",
+            "options": {
+              "color": "stainless steel",
+              "capacity": "2 cups",
+              "type": "french press",
+              "features": "auto shutoff"
+            },
+            "available": false,
+            "price": 247.88
+          },
+          "5952720925": {
+            "item_id": "5952720925",
+            "options": {
+              "color": "black",
+              "capacity": "4 cups",
+              "type": "espresso",
+              "features": "timer"
+            },
+            "available": true,
+            "price": 260.19
+          },
+          "1323134954": {
+            "item_id": "1323134954",
+            "options": {
+              "color": "stainless steel",
+              "capacity": "4 cups",
+              "type": "drip",
+              "features": "built-in grinder"
+            },
+            "available": true,
+            "price": 236.95
+          },
+          "7211586944": {
+            "item_id": "7211586944",
+            "options": {
+              "color": "black",
+              "capacity": "8 cups",
+              "type": "espresso",
+              "features": "built-in grinder"
+            },
+            "available": true,
+            "price": 272.71
+          },
+          "1349017811": {
+            "item_id": "1349017811",
+            "options": {
+              "color": "white",
+              "capacity": "4 cups",
+              "type": "drip",
+              "features": "auto shutoff"
+            },
+            "available": true,
+            "price": 226.05
+          },
+          "4821837102": {
+            "item_id": "4821837102",
+            "options": {
+              "color": "white",
+              "capacity": "4 cups",
+              "type": "french press",
+              "features": "built-in grinder"
+            },
+            "available": false,
+            "price": 243.59
+          }
+        }
+      },
+      "2747247837": {
+        "name": "Pet Bed",
+        "product_id": "2747247837",
+        "variants": {
+          "3360679910": {
+            "item_id": "3360679910",
+            "options": {
+              "size": "medium",
+              "material": "memory foam",
+              "color": "beige"
+            },
+            "available": true,
+            "price": 195.26
+          },
+          "4537595158": {
+            "item_id": "4537595158",
+            "options": {
+              "size": "small",
+              "material": "fleece",
+              "color": "brown"
+            },
+            "available": false,
+            "price": 193.79
+          },
+          "6499892866": {
+            "item_id": "6499892866",
+            "options": {
+              "size": "medium",
+              "material": "polyester",
+              "color": "beige"
+            },
+            "available": true,
+            "price": 191.21
+          },
+          "4982943126": {
+            "item_id": "4982943126",
+            "options": {
+              "size": "small",
+              "material": "fleece",
+              "color": "beige"
+            },
+            "available": false,
+            "price": 214.33
+          },
+          "2751999929": {
+            "item_id": "2751999929",
+            "options": {
+              "size": "large",
+              "material": "memory foam",
+              "color": "grey"
+            },
+            "available": true,
+            "price": 195.11
+          },
+          "7729002517": {
+            "item_id": "7729002517",
+            "options": {
+              "size": "large",
+              "material": "polyester",
+              "color": "brown"
+            },
+            "available": true,
+            "price": 193.0
+          },
+          "8056198669": {
+            "item_id": "8056198669",
+            "options": {
+              "size": "small",
+              "material": "polyester",
+              "color": "brown"
+            },
+            "available": true,
+            "price": 208.32
+          },
+          "5067898160": {
+            "item_id": "5067898160",
+            "options": {
+              "size": "medium",
+              "material": "memory foam",
+              "color": "brown"
+            },
+            "available": false,
+            "price": 209.95
+          },
+          "6857426243": {
+            "item_id": "6857426243",
+            "options": {
+              "size": "medium",
+              "material": "fleece",
+              "color": "grey"
+            },
+            "available": true,
+            "price": 196.53
+          },
+          "2405281423": {
+            "item_id": "2405281423",
+            "options": {
+              "size": "medium",
+              "material": "polyester",
+              "color": "grey"
+            },
+            "available": true,
+            "price": 204.09
+          },
+          "7917269097": {
+            "item_id": "7917269097",
+            "options": {
+              "size": "large",
+              "material": "polyester",
+              "color": "grey"
+            },
+            "available": true,
+            "price": 184.25
+          },
+          "6942241102": {
+            "item_id": "6942241102",
+            "options": {
+              "size": "large",
+              "material": "memory foam",
+              "color": "beige"
+            },
+            "available": true,
+            "price": 180.93
+          },
+          "8941974610": {
+            "item_id": "8941974610",
+            "options": {
+              "size": "large",
+              "material": "fleece",
+              "color": "beige"
+            },
+            "available": false,
+            "price": 200.66
+          },
+          "7381052709": {
+            "item_id": "7381052709",
+            "options": {
+              "size": "large",
+              "material": "memory foam",
+              "color": "brown"
+            },
+            "available": true,
+            "price": 193.22
+          },
+          "5109407456": {
+            "item_id": "5109407456",
+            "options": {
+              "size": "small",
+              "material": "fleece",
+              "color": "grey"
+            },
+            "available": true,
+            "price": 182.48
+          }
+        }
+      },
+      "8024098596": {
+        "name": "Tablet",
+        "product_id": "8024098596",
+        "variants": {
+          "3788616824": {
+            "item_id": "3788616824",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 951.21
+          },
+          "2235648106": {
+            "item_id": "2235648106",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "32GB",
+              "color": "black"
+            },
+            "available": true,
+            "price": 1054.43
+          },
+          "7535423717": {
+            "item_id": "7535423717",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 904.46
+          },
+          "2106335193": {
+            "item_id": "2106335193",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 903.95
+          },
+          "6501071631": {
+            "item_id": "6501071631",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 1018.68
+          },
+          "2633090267": {
+            "item_id": "2633090267",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 1046.33
+          },
+          "4803681337": {
+            "item_id": "4803681337",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "64GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 962.34
+          },
+          "6065192424": {
+            "item_id": "6065192424",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 989.7
+          },
+          "7187199153": {
+            "item_id": "7187199153",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 983.62
+          },
+          "4913411651": {
+            "item_id": "4913411651",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": true,
+            "price": 941.03
+          },
+          "8551474201": {
+            "item_id": "8551474201",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 938.92
+          },
+          "4615543240": {
+            "item_id": "4615543240",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 1042.93
+          },
+          "6948061616": {
+            "item_id": "6948061616",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 950.96
+          },
+          "4131464125": {
+            "item_id": "4131464125",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 960.67
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

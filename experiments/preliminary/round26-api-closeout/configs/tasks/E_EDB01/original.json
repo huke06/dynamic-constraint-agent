@@ -1,0 +1,86 @@
+{
+  "public_db_order": {
+    "order_id": "#W1052399",
+    "user_id": "yusuf_patel_7767",
+    "address": {
+      "address1": "917 Hickory Lane",
+      "address2": "Suite 451",
+      "city": "Los Angeles",
+      "country": "USA",
+      "state": "CA",
+      "zip": "90625"
+    },
+    "items": [
+      {
+        "name": "Tea Kettle",
+        "product_id": "9832717871",
+        "item_id": "9747045638",
+        "price": 94.01,
+        "options": {
+          "material": "glass",
+          "capacity": "1 liter",
+          "stovetop compatibility": "electric"
+        }
+      },
+      {
+        "name": "Makeup Kit",
+        "product_id": "5149340237",
+        "item_id": "8090061879",
+        "price": 261.4,
+        "options": {
+          "skin tone": "light",
+          "kit size": "basic",
+          "brand": "Brand B"
+        }
+      },
+      {
+        "name": "Air Purifier",
+        "product_id": "3821016478",
+        "item_id": "8302289002",
+        "price": 547.55,
+        "options": {
+          "room size": "large",
+          "filter type": "HEPA",
+          "features": "night mode"
+        }
+      },
+      {
+        "name": "Digital Camera",
+        "product_id": "8940227892",
+        "item_id": "7195021808",
+        "price": 2909.87,
+        "options": {
+          "resolution": "30MP",
+          "zoom": "5x",
+          "storage": "SD card"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "956166462388"
+        ],
+        "item_ids": [
+          "9747045638",
+          "8090061879",
+          "8302289002",
+          "7195021808"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 3812.83,
+        "payment_method_id": "gift_card_3372949"
+      }
+    ]
+  },
+  "selected_scope": [
+    "9747045638",
+    "8090061879"
+  ],
+  "source_db_sha256": "dbde692e380bb4ad17f9f7841172cf1e69bebad2daa405628ccdc52a42b3b9b0"
+}

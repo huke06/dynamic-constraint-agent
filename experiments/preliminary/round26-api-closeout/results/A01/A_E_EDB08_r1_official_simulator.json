@@ -1,0 +1,226 @@
+[
+  {
+    "kind": "information",
+    "reply": "The signed limit is new minus ORIGINAL purchased prices summed over ALL exchange items, and must be <= 1.10. Negative cap means a MINIMUM refund, not a maximum refund. Current requested whole difference is 14.74. You may compare observed compliant substitutes, but need my concrete specification permission and later independent complete-plan approval.",
+    "user_ref": 13,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "Would you like to pick one of these kettle alternatives, or adjust the earbuds choice instead?",
+      "proposal_quote": "",
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "9472539378",
+          "variant_id": "1240311797",
+          "payment_method_id": null,
+          "quote": "Kettle → 1240311797 (1L/silver/glass, $137.17): diff −6.55 → combined −12.55 ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "2323972008",
+          "payment_method_id": null,
+          "quote": "Kettle → 2323972008 (1L/black/glass, $146.98): diff +3.26 → combined −2.74 ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "2698416822",
+          "payment_method_id": null,
+          "quote": "Kettle → 2698416822 (1.5L/white/plastic, $149.45): diff +5.73 → combined −0.27 ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "5428723833",
+          "payment_method_id": null,
+          "quote": "Kettle → 5428723833 (1.5L/black/plastic, $145.48): diff +1.76 → combined −4.24 ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "4458619711",
+          "payment_method_id": null,
+          "quote": "Kettle → 4458619711 (2L/white/stainless, $153.81): diff +10.09 → combined +4.09 ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "5268233322",
+          "payment_method_id": null,
+          "quote": "Kettle → 5268233322 (1L/white/glass, $155.99): diff +12.27 → combined +6.27 ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "9624127908",
+          "payment_method_id": null,
+          "quote": "Kettle → 9624127908 (1.5L/silver/plastic, $158.90): diff +15.18 → combined +9.18 ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "4064702754",
+          "payment_method_id": null,
+          "quote": "Kettle → 4064702754 (2L/white/glass, $159.78): diff +16.06 → combined +10.06 ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "7602931732",
+          "payment_method_id": null,
+          "quote": "Kettle → 7602931732 (1L/black/stainless, $153.25): diff +9.53 → combined +3.53 ✅",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "2243454707"
+      ],
+      "topic": "cap_direction",
+      "stop_quote": null
+    }
+  },
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 9472539378 with SKU 1240311797, if in stock and whole signed difference <= 1.10. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 15,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Please give me your **concrete specification permission** — i.e., tell me exactly which kettle replacement item id you want (or if you'd rather change the earbuds choice instead).",
+      "proposal_quote": "",
+      "item_ids": [
+        "9472539378",
+        "1646531091"
+      ],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "9472539378",
+          "variant_id": "1240311797",
+          "payment_method_id": null,
+          "quote": "1240311797 | 1L/silver/glass | −6.55 | **−12.55** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "5428723833",
+          "payment_method_id": null,
+          "quote": "5428723833 | 1.5L/black/plastic | +1.76 | **−4.24** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "2323972008",
+          "payment_method_id": null,
+          "quote": "2323972008 | 1L/black/glass | +3.26 | **−2.74** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "2698416822",
+          "payment_method_id": null,
+          "quote": "2698416822 | 1.5L/white/plastic | +5.73 | **−0.27** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "7602931732",
+          "payment_method_id": null,
+          "quote": "7602931732 | 1L/black/stainless | +9.53 | **+3.53** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "4458619711",
+          "payment_method_id": null,
+          "quote": "4458619711 | 2L/white/stainless | +10.09 | **+4.09** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "5268233322",
+          "payment_method_id": null,
+          "quote": "5268233322 | 1L/white/glass | +12.27 | **+6.27** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "9624127908",
+          "payment_method_id": null,
+          "quote": "9624127908 | 1.5L/silver/plastic | +15.18 | **+9.18** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "4064702754",
+          "payment_method_id": null,
+          "quote": "4064702754 | 2L/white/glass | +16.06 | **+10.06** | ✅",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "2243454707"
+      ],
+      "topic": "scope",
+      "stop_quote": null
+    },
+    "accepted_offer": "1240311797"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 19,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm with **yes** to proceed with this exchange, or let me know if you'd like any changes.",
+      "proposal_quote": "**Exchange for delivered order #W1519594**\n\n| # | Original item | Original options | Original price | → | New item | New options | New price | New − Old |\n|---|---|---|---|---|---|---|---|---|\n| 1 | 1646531091 (Wireless Earbuds) | 6h/blue/IPX4 | $232.49 | → | 8555936349 | 8h/blue/IPX4 | $226.49 | −6.00 |\n| 2 | 9472539378 (Electric Kettle) | 1.5L/white/glass | $143.72 | → | 1240311797 | 1L/silver/glass | $137.17 | −6.55 |\n\n**Stock:** Both replacement items are in stock. ✅\n\n**Exact combined new-minus-old difference:** −6.00 + (−6.55) = **−12.55**\n- This is a **refund of $12.55** to you.\n- Cap check: −12.55 ≤ 1.10 ✅ (compliant)\n\n**Original payment method:** gift_card_1711656 (balance $62.00) — the $12.55 refund will be returned to this gift card.\n\n**Other items:** unchanged (no other items in this order).",
+      "item_ids": [
+        "1646531091",
+        "9472539378"
+      ],
+      "pairs": [
+        {
+          "item_id": "1646531091",
+          "new_item_id": "8555936349",
+          "quote": "1646531091 (Wireless Earbuds) | 6h/blue/IPX4 | $232.49 | → | 8555936349 | 8h/blue/IPX4 | $226.49 | −6.00"
+        },
+        {
+          "item_id": "9472539378",
+          "new_item_id": "1240311797",
+          "quote": "9472539378 (Electric Kettle) | 1.5L/white/glass | $143.72 | → | 1240311797 | 1L/silver/glass | $137.17 | −6.55"
+        }
+      ],
+      "payment_method_id": "gift_card_1711656",
+      "payment_quote": "**Original payment method:** gift_card_1711656 (balance $62.00) — the $12.55 refund will be returned to this gift card.",
+      "amount": -12.55,
+      "amount_quote": "**Exact combined new-minus-old difference:** −6.00 + (−6.55) = **−12.55**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

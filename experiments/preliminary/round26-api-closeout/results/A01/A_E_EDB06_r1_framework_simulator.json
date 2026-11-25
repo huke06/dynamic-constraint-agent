@@ -1,0 +1,129 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"6206533187\",\"4402162122\"],\"new_item_ids\":[\"5570660360\",\"3616838507\"],\"order_id\":\"#W1341845\",\"payment_method_id\":\"credit_card_6450164\"},\"difference\":-4.08,\"fingerprint\":\"baa7d23a5b7ca58855d8\",\"order_id\":\"#W1341845\",\"pairs\":[[\"4402162122\",\"3616838507\"],[\"6206533187\",\"5570660360\"]],\"payment_method_id\":\"credit_card_6450164\",\"rows\":[{\"difference\":-7.79,\"item_id\":\"4402162122\",\"new_item_id\":\"3616838507\",\"new_price\":226.11,\"old_price\":233.9,\"options\":{\"backlight\":\"white\",\"size\":\"full size\",\"switch type\":\"tactile\"},\"sources\":[10]},{\"difference\":3.71,\"item_id\":\"6206533187\",\"new_item_id\":\"5570660360\",\"new_price\":51.54,\"old_price\":47.83,\"options\":{\"brightness\":\"60W equivalent\",\"color temperature\":\"daylight\",\"connectivity\":\"none\"},\"sources\":[8]}]}. Original payment method credit_card_6450164.",
+      "item_ids": [
+        "6206533187",
+        "4402162122"
+      ],
+      "pairs": [
+        {
+          "item_id": "4402162122",
+          "new_item_id": "3616838507",
+          "quote": "[\"4402162122\",\"3616838507\"]"
+        },
+        {
+          "item_id": "6206533187",
+          "new_item_id": "5570660360",
+          "quote": "[\"6206533187\",\"5570660360\"]"
+        }
+      ],
+      "payment_method_id": "credit_card_6450164",
+      "payment_quote": "Original payment method credit_card_6450164.",
+      "amount": -4.08,
+      "amount_quote": "\"difference\":-4.08",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 6206533187 with SKU 5111440845, if in stock and whole signed difference <= 10000.00. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 19,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Do you accept SKU 5111440845 as the new current specification for original item 6206533187?",
+      "proposal_quote": "Proposed SUBSTITUTE 5111440845 has options {\"brightness\":\"60W equivalent\",\"color temperature\":\"daylight\",\"connectivity\":\"Bluetooth\"}, observed in-stock=True, price 48.55, and new whole signed difference -7.07 within the cap. Other exchange items remain as currently permitted.",
+      "item_ids": [
+        "6206533187"
+      ],
+      "pairs": [
+        {
+          "item_id": "6206533187",
+          "new_item_id": "5111440845",
+          "quote": "Proposed SUBSTITUTE 5111440845 has options {\"brightness\":\"60W equivalent\",\"color temperature\":\"daylight\",\"connectivity\":\"Bluetooth\"}, observed in-stock=True, price 48.55, and new whole signed difference -7.07 within the cap."
+        }
+      ],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "6206533187",
+          "variant_id": "5111440845",
+          "payment_method_id": null,
+          "quote": "Do you accept SKU 5111440845 as the new current specification for original item 6206533187? This asks specification permission only; we will separately show the entire current proposal for final approval.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "5570660360"
+      ],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "accepted_offer": "5111440845"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 23,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"6206533187\",\"4402162122\"],\"new_item_ids\":[\"5111440845\",\"3616838507\"],\"order_id\":\"#W1341845\",\"payment_method_id\":\"credit_card_6450164\"},\"difference\":-7.07,\"fingerprint\":\"e0a00c118f81b5daf923\",\"order_id\":\"#W1341845\",\"pairs\":[[\"4402162122\",\"3616838507\"],[\"6206533187\",\"5111440845\"]],\"payment_method_id\":\"credit_card_6450164\",\"rows\":[{\"difference\":-7.79,\"item_id\":\"4402162122\",\"new_item_id\":\"3616838507\",\"new_price\":226.11,\"old_price\":233.9,\"options\":{\"backlight\":\"white\",\"size\":\"full size\",\"switch type\":\"tactile\"},\"sources\":[10]},{\"difference\":0.72,\"item_id\":\"6206533187\",\"new_item_id\":\"5111440845\",\"new_price\":48.55,\"old_price\":47.83,\"options\":{\"brightness\":\"60W equivalent\",\"color temperature\":\"daylight\",\"connectivity\":\"Bluetooth\"},\"sources\":[17]}]}. Original payment method credit_card_6450164.",
+      "item_ids": [
+        "6206533187",
+        "4402162122"
+      ],
+      "pairs": [
+        {
+          "item_id": "4402162122",
+          "new_item_id": "3616838507",
+          "quote": "[\"4402162122\",\"3616838507\"]"
+        },
+        {
+          "item_id": "6206533187",
+          "new_item_id": "5111440845",
+          "quote": "[\"6206533187\",\"5111440845\"]"
+        }
+      ],
+      "payment_method_id": "credit_card_6450164",
+      "payment_quote": "Original payment method credit_card_6450164.",
+      "amount": -7.07,
+      "amount_quote": "\"difference\":-7.07",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

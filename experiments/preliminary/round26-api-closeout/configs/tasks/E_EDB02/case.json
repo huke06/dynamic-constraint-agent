@@ -1,0 +1,473 @@
+{
+  "task_id": "EDB02",
+  "tier": "controlled_exchange",
+  "order_id": "#W1075114",
+  "user_id": "olivia_garcia_1208",
+  "scope": [
+    "4582956489",
+    "5565631513"
+  ],
+  "targets": {
+    "4582956489": "6159919747",
+    "5565631513": "8555936349"
+  },
+  "initial_options": {
+    "4582956489": {
+      "size": "11",
+      "material": "leather",
+      "waterproof": "yes"
+    },
+    "5565631513": {
+      "color": "blue",
+      "battery life": "8 hours",
+      "water resistance": "IPX4"
+    }
+  },
+  "payment_method_id": "gift_card_5115976",
+  "initial_catalogues": true,
+  "change_type": "none",
+  "environment": {
+    "orders": {
+      "#W1075114": {
+        "order_id": "#W1075114",
+        "user_id": "olivia_garcia_1208",
+        "address": {
+          "address1": "358 Laurel Lane",
+          "address2": "Suite 658",
+          "city": "Washington",
+          "country": "USA",
+          "state": "DC",
+          "zip": "20570"
+        },
+        "items": [
+          {
+            "name": "Hiking Boots",
+            "product_id": "7363354090",
+            "item_id": "4582956489",
+            "price": 241.96,
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "no"
+            }
+          },
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "5565631513",
+            "price": 267.9,
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "IPX7"
+            }
+          },
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "2757705742",
+            "price": 258.97,
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            }
+          },
+          {
+            "name": "Smartphone",
+            "product_id": "1801728040",
+            "item_id": "3187628796",
+            "price": 1205.66,
+            "options": {
+              "color": "rose gold",
+              "storage": "128GB",
+              "RAM": "8GB",
+              "screen size": "6.1-inch"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "823383319422"
+            ],
+            "item_ids": [
+              "4582956489",
+              "5565631513",
+              "2757705742",
+              "3187628796"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1974.49,
+            "payment_method_id": "gift_card_5115976"
+          }
+        ]
+      }
+    },
+    "users": {
+      "olivia_garcia_1208": {
+        "user_id": "olivia_garcia_1208",
+        "name": {
+          "first_name": "Olivia",
+          "last_name": "Garcia"
+        },
+        "address": {
+          "address1": "358 Laurel Lane",
+          "address2": "Suite 658",
+          "city": "Washington",
+          "country": "USA",
+          "state": "DC",
+          "zip": "20570"
+        },
+        "email": "olivia.garcia2695@example.com",
+        "payment_methods": {
+          "gift_card_5115976": {
+            "source": "gift_card",
+            "id": "gift_card_5115976",
+            "balance": 92.0
+          }
+        },
+        "orders": [
+          "#W1075114"
+        ]
+      }
+    },
+    "products": {
+      "7363354090": {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "variants": {
+          "1615379700": {
+            "item_id": "1615379700",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 253.89
+          },
+          "8106223139": {
+            "item_id": "8106223139",
+            "options": {
+              "size": "9",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 249.12
+          },
+          "2658930189": {
+            "item_id": "2658930189",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 241.68
+          },
+          "3812493782": {
+            "item_id": "3812493782",
+            "options": {
+              "size": "7",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 244.34
+          },
+          "2648909398": {
+            "item_id": "2648909398",
+            "options": {
+              "size": "8",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 240.87
+          },
+          "4582956489": {
+            "item_id": "4582956489",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 241.96
+          },
+          "7228247242": {
+            "item_id": "7228247242",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 251.38
+          },
+          "2185126308": {
+            "item_id": "2185126308",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 241.9
+          },
+          "6159919747": {
+            "item_id": "6159919747",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 259.75
+          },
+          "1437889264": {
+            "item_id": "1437889264",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 258.09
+          },
+          "8277474082": {
+            "item_id": "8277474082",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 236.57
+          },
+          "6546364613": {
+            "item_id": "6546364613",
+            "options": {
+              "size": "11",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 231.43
+          },
+          "1262139877": {
+            "item_id": "1262139877",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.99
+          },
+          "6595128475": {
+            "item_id": "6595128475",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 237.65
+          },
+          "5676696062": {
+            "item_id": "5676696062",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 245.99
+          },
+          "4694984344": {
+            "item_id": "4694984344",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.78
+          },
+          "3613716226": {
+            "item_id": "3613716226",
+            "options": {
+              "size": "8",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 253.54
+          },
+          "8118291112": {
+            "item_id": "8118291112",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 260.56
+          },
+          "4127323219": {
+            "item_id": "4127323219",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 251.82
+          }
+        }
+      },
+      "9924732112": {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "variants": {
+          "9580569596": {
+            "item_id": "9580569596",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": true,
+            "price": 257.38
+          },
+          "2499294441": {
+            "item_id": "2499294441",
+            "options": {
+              "color": "black",
+              "battery life": "8 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.36
+          },
+          "1646531091": {
+            "item_id": "1646531091",
+            "options": {
+              "color": "blue",
+              "battery life": "6 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 232.49
+          },
+          "8555936349": {
+            "item_id": "8555936349",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 226.49
+          },
+          "5565631513": {
+            "item_id": "5565631513",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 267.9
+          },
+          "6077640618": {
+            "item_id": "6077640618",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 242.92
+          },
+          "9270970345": {
+            "item_id": "9270970345",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "not resistant"
+            },
+            "available": false,
+            "price": 259.03
+          },
+          "4063058357": {
+            "item_id": "4063058357",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 243.34
+          },
+          "3694871183": {
+            "item_id": "3694871183",
+            "options": {
+              "color": "white",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": false,
+            "price": 256.67
+          },
+          "6452271382": {
+            "item_id": "6452271382",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 258.84
+          },
+          "2052249669": {
+            "item_id": "2052249669",
+            "options": {
+              "color": "white",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 237.14
+          },
+          "2757705742": {
+            "item_id": "2757705742",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.97
+          }
+        }
+      }
+    }
+  },
+  "initial_message": "I am olivia_garcia_1208, email olivia.garcia2695@example.com. In delivered order #W1075114 exchange ONLY original-to-replacement mapping {\"4582956489\":\"6159919747\",\"5565631513\":\"8555936349\"}, options {\"4582956489\":{\"material\":\"leather\",\"size\":\"11\",\"waterproof\":\"yes\"},\"5565631513\":{\"battery life\":\"8 hours\",\"color\":\"blue\",\"water resistance\":\"IPX4\"}}. Other items stay unchanged. Use original payment gift_card_5115976. These specifications are permitted only if in stock and within my signed whole-amount cap. Different specifications need new permission. After that, show ALL current items, exact combined new-minus-old difference and original payment for independent final approval. Initial preferences are negotiable; stock, cap, scope and separate final approval are hard. Maximum signed WHOLE new-minus-original difference <= 10000.00; a negative limit means MINIMUM refund, not maximum refund.",
+  "business": "exchange",
+  "scenario": "stable",
+  "source": "controlled exchange from untouched public database order; not an official benchmark task score",
+  "cap": "10000.00",
+  "changed_item": "4582956489",
+  "changed_target": "1437889264",
+  "change_message": "Before submission, change ONLY original item 4582956489 to SKU 1437889264, if in stock. Other item and original payment stay unchanged. My previous approval does not authorize this new complete plan; ask fresh approval."
+}

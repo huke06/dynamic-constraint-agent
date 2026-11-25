@@ -1,0 +1,247 @@
+{
+  "task_id": "30",
+  "business": "return",
+  "scenario": "evidence",
+  "order_id": "#W2692684",
+  "user_id": "olivia_lopez_3865",
+  "scope": [
+    "3788616824"
+  ],
+  "payment_method_id": "gift_card_7711863",
+  "original_payment": "gift_card_7711863",
+  "preferred_payment": "gift_card_7711863",
+  "initial_message": "I am olivia_lopez_3865, email olivia.lopez4535@example.com. In order #W2692684, I want to return EXACTLY original items [\"3788616824\"] and keep every other item unchanged. Requested refund method is gift_card_7711863. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": true,
+  "event": {
+    "kind": "none"
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W2692684": {
+        "order_id": "#W2692684",
+        "user_id": "olivia_lopez_3865",
+        "address": {
+          "address1": "310 Laurel Lane",
+          "address2": "Suite 480",
+          "city": "Fort Worth",
+          "country": "USA",
+          "state": "TX",
+          "zip": "76171"
+        },
+        "items": [
+          {
+            "name": "Tablet",
+            "product_id": "8024098596",
+            "item_id": "3788616824",
+            "price": 951.21,
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "black"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "746342064230"
+            ],
+            "item_ids": [
+              "3788616824"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 951.21,
+            "payment_method_id": "gift_card_7711863"
+          }
+        ]
+      }
+    },
+    "users": {
+      "olivia_lopez_3865": {
+        "user_id": "olivia_lopez_3865",
+        "name": {
+          "first_name": "Olivia",
+          "last_name": "Lopez"
+        },
+        "address": {
+          "address1": "310 Laurel Lane",
+          "address2": "Suite 480",
+          "city": "Fort Worth",
+          "country": "USA",
+          "state": "TX",
+          "zip": "76171"
+        },
+        "email": "olivia.lopez4535@example.com",
+        "payment_methods": {
+          "gift_card_7711863": {
+            "source": "gift_card",
+            "id": "gift_card_7711863",
+            "balance": 44.0
+          }
+        },
+        "orders": [
+          "#W9319364",
+          "#W9373487",
+          "#W2692684",
+          "#W5481803",
+          "#W7449508"
+        ]
+      }
+    },
+    "products": {
+      "8024098596": {
+        "name": "Tablet",
+        "product_id": "8024098596",
+        "variants": {
+          "3788616824": {
+            "item_id": "3788616824",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 951.21
+          },
+          "2235648106": {
+            "item_id": "2235648106",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "32GB",
+              "color": "black"
+            },
+            "available": true,
+            "price": 1054.43
+          },
+          "7535423717": {
+            "item_id": "7535423717",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 904.46
+          },
+          "2106335193": {
+            "item_id": "2106335193",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 903.95
+          },
+          "6501071631": {
+            "item_id": "6501071631",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 1018.68
+          },
+          "2633090267": {
+            "item_id": "2633090267",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 1046.33
+          },
+          "4803681337": {
+            "item_id": "4803681337",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "64GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 962.34
+          },
+          "6065192424": {
+            "item_id": "6065192424",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 989.7
+          },
+          "7187199153": {
+            "item_id": "7187199153",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 983.62
+          },
+          "4913411651": {
+            "item_id": "4913411651",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": true,
+            "price": 941.03
+          },
+          "8551474201": {
+            "item_id": "8551474201",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 938.92
+          },
+          "4615543240": {
+            "item_id": "4615543240",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 1042.93
+          },
+          "6948061616": {
+            "item_id": "6948061616",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 950.96
+          },
+          "4131464125": {
+            "item_id": "4131464125",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 960.67
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

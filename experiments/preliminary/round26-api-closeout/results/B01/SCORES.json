@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "B_E26_capacity_r1_analyze",
+    "task": "26",
+    "business": "exchange",
+    "scenario": "preference_conflict",
+    "group": "framework",
+    "forced_first": "analyze",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 21.981444700038992,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        "容量优先原话已可见，模型仍称color/material为最高优先、capacity为lowest-impact；第二次更称1L改1.5L保留容量。两次中间理由错误，不能凭正确写入导出偏好"
+      ],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 4,
+      "input": 9133,
+      "output": 963,
+      "cache_hit": 2688,
+      "cache_miss": 6445,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 15.191642899997532,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 1
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1978,
+      "output": 830,
+      "cache_hit": 512,
+      "cache_miss": 1466,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 4.821520199999213,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 1,
+        "source": "decision_model",
+        "work_type": "clarify",
+        "object": "7602931732",
+        "parameters": {
+          "variant_id": "2698416822"
+        },
+        "reason": "No exact match satisfies the signed amount cap (current +5.95 exceeds -3.54), so a negotiable alternative requires new user permission. Variant 2698416822 changes only the lowest-impact option (capacity 1L→1.5L) while preserving color and material, best honoring the stated soft preference priority."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 6,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 9,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_E26_capacity_r1_clarify",
+    "task": "26",
+    "business": "exchange",
+    "scenario": "preference_conflict",
+    "group": "framework",
+    "forced_first": "clarify",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 8.642313300049864,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 2,
+      "input": 2157,
+      "output": 227,
+      "cache_hit": 896,
+      "cache_miss": 1261,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 2.918332300032489,
+      "roles": {
+        "semantic": 2
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1975,
+      "output": 934,
+      "cache_hit": 512,
+      "cache_miss": 1463,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 4.829662000061944,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 2,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 7,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_E26_capacity_r2_clarify",
+    "task": "26",
+    "business": "exchange",
+    "scenario": "preference_conflict",
+    "group": "framework",
+    "forced_first": "clarify",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 9.969905399950221,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 2,
+      "input": 2157,
+      "output": 232,
+      "cache_hit": 1792,
+      "cache_miss": 365,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 3.166277699987404,
+      "roles": {
+        "semantic": 2
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1975,
+      "output": 1084,
+      "cache_hit": 1536,
+      "cache_miss": 439,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 5.422826399910264,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 2,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 7,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_E26_capacity_r2_analyze",
+    "task": "26",
+    "business": "exchange",
+    "scenario": "preference_conflict",
+    "group": "framework",
+    "forced_first": "analyze",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 16.600711099919863,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": false,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        "容量优先原话已可见，模型仍称color/material为最高优先、capacity为lowest-impact；第二次更称1L改1.5L保留容量。两次中间理由错误，不能凭正确写入导出偏好"
+      ],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 4,
+      "input": 9165,
+      "output": 1001,
+      "cache_hit": 5631,
+      "cache_miss": 3534,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 9.530133999767713,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 1
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1978,
+      "output": 833,
+      "cache_hit": 1536,
+      "cache_miss": 442,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 5.415791500010528,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 1,
+        "source": "decision_model",
+        "work_type": "clarify",
+        "object": "7602931732",
+        "parameters": {
+          "variant_id": "2698416822"
+        },
+        "reason": "Exact requested variant 2243454707 exceeds the signed amount cap (+5.95 > -3.54) with no exact-feasible option; variant 2698416822 is available within cap and preserves the highest-priority attribute (capacity 1L→1.5L is the only change, matching white/plastic), so it is the best-aligned negotiable alternative requiring new specification permission."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 6,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 9,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_E26_appearance_r1_analyze",
+    "task": "26",
+    "business": "exchange",
+    "scenario": "preference_conflict",
+    "group": "framework",
+    "forced_first": "analyze",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 16.568699099938385,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 4,
+      "input": 9147,
+      "output": 975,
+      "cache_hit": 4352,
+      "cache_miss": 4795,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 9.357413199963048,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 1
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1978,
+      "output": 838,
+      "cache_hit": 1536,
+      "cache_miss": 442,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 5.155067099956796,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 1,
+        "source": "decision_model",
+        "work_type": "clarify",
+        "object": "7602931732",
+        "parameters": {
+          "variant_id": "2698416822"
+        },
+        "reason": "Exact requested SKU 2243454707 exceeds the signed amount cap (+5.95 > -3.54), so no exact match is feasible. Variant 2698416822 is in stock, within cap (-9.06), and preserves the two highest-priority options (color white, material plastic), changing only capacity 1L→1.5L; it requires the user's new specification permission."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 6,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 9,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_E26_appearance_r1_clarify",
+    "task": "26",
+    "business": "exchange",
+    "scenario": "preference_conflict",
+    "group": "framework",
+    "forced_first": "clarify",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 9.640182299888693,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 2,
+      "input": 2157,
+      "output": 224,
+      "cache_hit": 1792,
+      "cache_miss": 365,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 3.632426799973473,
+      "roles": {
+        "semantic": 2
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1975,
+      "output": 1084,
+      "cache_hit": 1536,
+      "cache_miss": 439,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 5.13517599995248,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 2,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 7,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_E26_appearance_r2_clarify",
+    "task": "26",
+    "business": "exchange",
+    "scenario": "preference_conflict",
+    "group": "framework",
+    "forced_first": "clarify",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 14.203519199974835,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 2,
+      "input": 2157,
+      "output": 224,
+      "cache_hit": 1792,
+      "cache_miss": 365,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 5.759255700046197,
+      "roles": {
+        "semantic": 2
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1975,
+      "output": 842,
+      "cache_hit": 1536,
+      "cache_miss": 439,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 6.937803300097585,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 2,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 7,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_E26_appearance_r2_analyze",
+    "task": "26",
+    "business": "exchange",
+    "scenario": "preference_conflict",
+    "group": "framework",
+    "forced_first": "analyze",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 13.42111290001776,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "payment": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 4,
+      "input": 9176,
+      "output": 979,
+      "cache_hit": 5759,
+      "cache_miss": 3417,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 8.219351000152528,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 1
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1978,
+      "output": 833,
+      "cache_hit": 1536,
+      "cache_miss": 442,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 3.9452618999639526,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 1,
+        "source": "decision_model",
+        "work_type": "clarify",
+        "object": "7602931732",
+        "parameters": {
+          "variant_id": "2698416822"
+        },
+        "reason": "Exact requested replacement 2243454707 exceeds the signed amount cap (+5.95 vs -3.54), so no exact match is feasible; variant 2698416822 is in stock, within cap (-9.06), and preserves the highest-priority color and material preferences, changing only capacity."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "Every current item is specified and in stock, and the whole amount is within the cap."
+      },
+      {
+        "event": 6,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The feasible current plan is complete and has not been presented for approval."
+      },
+      {
+        "event": 9,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W5565470",
+        "parameters": {},
+        "reason": "The current feasible plan has effective whole-order authorization."
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 12,
+      "native_observations": 5
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_R_refund_preference_r1_analyze",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": "analyze",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 9.400135300005786,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "refund_method": true,
+      "native_items": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 4,
+      "input": 5680,
+      "output": 427,
+      "cache_hit": 1664,
+      "cache_miss": 4016,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 4.908187000080943,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 1
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1508,
+      "output": 450,
+      "cache_hit": 512,
+      "cache_miss": 996,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 3.966928799985908,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 1,
+        "source": "decision_model",
+        "work_type": "clarify",
+        "object": "#W1067251",
+        "parameters": {
+          "payment_method_id": "gift_card_2259499"
+        },
+        "reason": "The requested credit_card_0000000 is not a legal refund method; analysis resolved the comparison favoring the user's soft preference gift_card_2259499, but new method permission has not yet been granted."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      },
+      {
+        "event": 6,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      },
+      {
+        "event": 9,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 7,
+      "native_observations": 3
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_R_refund_preference_r1_clarify",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": "clarify",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 7.646785099990666,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "refund_method": true,
+      "native_items": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 2,
+      "input": 1857,
+      "output": 176,
+      "cache_hit": 512,
+      "cache_miss": 1345,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 3.7559710999485105,
+      "roles": {
+        "semantic": 2
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1512,
+      "output": 503,
+      "cache_hit": 512,
+      "cache_miss": 1000,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 3.4212456000968814,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 2,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      },
+      {
+        "event": 7,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 7,
+      "native_observations": 3
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_R_refund_preference_r2_clarify",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": "clarify",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 6.236946999910288,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "refund_method": true,
+      "native_items": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 2,
+      "input": 1857,
+      "output": 140,
+      "cache_hit": 1536,
+      "cache_miss": 321,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 2.1610718000447378,
+      "roles": {
+        "semantic": 2
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1512,
+      "output": 503,
+      "cache_hit": 1152,
+      "cache_miss": 360,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 3.704945300007239,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 2,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      },
+      {
+        "event": 7,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 7,
+      "native_observations": 3
+    },
+    "terminal_reason": null
+  },
+  {
+    "id": "B_R_refund_preference_r2_analyze",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": "analyze",
+    "event_triggered": false,
+    "error": null,
+    "seconds": 8.768590899999253,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "order": true,
+      "authorization": true,
+      "database_result": true,
+      "scope": true,
+      "refund_method": true,
+      "native_items": true,
+      "status": true
+    },
+    "phase": "B01",
+    "source_dir": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01",
+    "strict_quality": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "reviewer": "assistant evidence audit, not independent blind review",
+      "scope": "current tool amounts/stock/scope/payment/status; current intent and literal cited source; model reasons separate from end result"
+    },
+    "agent": {
+      "requests": 4,
+      "input": 5659,
+      "output": 413,
+      "cache_hit": 2816,
+      "cache_miss": 2843,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 5.789374599931762,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 1
+      }
+    },
+    "simulator": {
+      "requests": 2,
+      "input": 1508,
+      "output": 456,
+      "cache_hit": 1152,
+      "cache_miss": 356,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 2.51348679990042,
+      "roles": {
+        "simulator": 2
+      }
+    },
+    "steps": [
+      {
+        "event": 1,
+        "source": "decision_model",
+        "work_type": "clarify",
+        "object": "#W1067251",
+        "parameters": {
+          "payment_method_id": "gift_card_2259499"
+        },
+        "reason": "The requested credit_card_0000000 is not a legal refund method; the user's soft preference among legal routes is gift_card_2259499, but no new-method permission has been granted yet."
+      },
+      {
+        "event": 4,
+        "source": "program",
+        "work_type": "prepare",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      },
+      {
+        "event": 6,
+        "source": "program",
+        "work_type": "confirm",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      },
+      {
+        "event": 9,
+        "source": "program",
+        "work_type": "submit",
+        "object": "#W1067251",
+        "parameters": {},
+        "reason": "necessary current prerequisites program-verified"
+      }
+    ],
+    "first_after_change": null,
+    "bad_attempts": [],
+    "program_rejections": [],
+    "repeated_queries": 0,
+    "repeated_clarifications": 0,
+    "repeated_prepare": 0,
+    "initial_prefix": {
+      "messages": 7,
+      "native_observations": 3
+    },
+    "terminal_reason": null
+  }
+]

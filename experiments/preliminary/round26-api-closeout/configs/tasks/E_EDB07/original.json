@@ -1,0 +1,97 @@
+{
+  "public_db_order": {
+    "order_id": "#W1483350",
+    "user_id": "noah_khan_5763",
+    "address": {
+      "address1": "143 Highland Drive",
+      "address2": "Suite 928",
+      "city": "San Francisco",
+      "country": "USA",
+      "state": "CA",
+      "zip": "94140"
+    },
+    "items": [
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "1656367028",
+        "item_id": "9570044148",
+        "price": 231.37,
+        "options": {
+          "switch type": "linear",
+          "backlight": "none",
+          "size": "full size"
+        }
+      },
+      {
+        "name": "Smart Thermostat",
+        "product_id": "4896585277",
+        "item_id": "4983901480",
+        "price": 262.47,
+        "options": {
+          "compatibility": "Apple HomeKit",
+          "color": "black"
+        }
+      },
+      {
+        "name": "Digital Camera",
+        "product_id": "8940227892",
+        "item_id": "4326528037",
+        "price": 2714.51,
+        "options": {
+          "resolution": "24MP",
+          "zoom": "5x",
+          "storage": "CF card"
+        }
+      },
+      {
+        "name": "Cycling Helmet",
+        "product_id": "7765186836",
+        "item_id": "6697922351",
+        "price": 194.47,
+        "options": {
+          "size": "L",
+          "color": "white",
+          "ventilation": "medium"
+        }
+      },
+      {
+        "name": "Smart Watch",
+        "product_id": "6945232052",
+        "item_id": "9320099340",
+        "price": 375.03,
+        "options": {
+          "color": "black",
+          "band material": "leather",
+          "display": "AMOLED"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "151624030573"
+        ],
+        "item_ids": [
+          "9570044148",
+          "4983901480",
+          "4326528037",
+          "6697922351",
+          "9320099340"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 3777.85,
+        "payment_method_id": "paypal_2319812"
+      }
+    ]
+  },
+  "selected_scope": [
+    "9570044148",
+    "4983901480"
+  ],
+  "source_db_sha256": "dbde692e380bb4ad17f9f7841172cf1e69bebad2daa405628ccdc52a42b3b9b0"
+}

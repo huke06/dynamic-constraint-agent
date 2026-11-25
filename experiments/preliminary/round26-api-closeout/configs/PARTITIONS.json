@@ -1,0 +1,31 @@
+{
+  "by_base_task": {
+    "return:14": "validation",
+    "return:28": "validation",
+    "return:30": "train",
+    "return:31": "test",
+    "return:54": "train",
+    "return:73": "validation",
+    "return:51": "train",
+    "return:55": "train",
+    "return:82": "validation",
+    "return:89": "validation",
+    "return:RDB01": "train",
+    "return:RDB02": "test",
+    "exchange:EDB01": "train",
+    "exchange:EDB02": "validation",
+    "exchange:EDB03": "train",
+    "exchange:EDB04": "train",
+    "exchange:EDB05": "train",
+    "exchange:EDB06": "train",
+    "exchange:EDB07": "validation",
+    "exchange:EDB08": "test",
+    "exchange:93": "train",
+    "exchange:29": "train",
+    "exchange:102": "validation",
+    "exchange:26": "test",
+    "exchange:35": "test"
+  },
+  "rule": "same base task, all variants and repeats stay together; no actual training",
+  "prior24_reserved26_35_preserved": true
+}

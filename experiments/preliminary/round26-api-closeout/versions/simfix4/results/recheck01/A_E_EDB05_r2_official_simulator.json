@@ -1,0 +1,463 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm: **Do you approve this exchange** (items 2185126308→8277474082 and 4875647558→3951031513, other items unchanged, $478.36 charged to paypal_3728317)? Reply **yes** to proceed.",
+      "proposal_quote": "**Order #W1335809 (delivered) — Exchange**\n\nRequested mapping (both in stock, options exactly as specified):\n| Old item | Old options | Old price | New item | New options | New price |\n|---|---|---|---|---|---|\n| 2185126308 Hiking Boots | leather / 10 / no | $241.90 | 8277474082 | leather / 12 / yes | $236.57 |\n| 4875647558 Espresso Machine | 1L / 15 bar / capsule | $2,805.77 | 3951031513 | 1.5L / 19 bar / automatic | $3,289.46 |\n\n**All current items in the order (unchanged items noted):**\n1. 4875647558 Espresso Machine — 1L / 15 bar / capsule — $2,805.77 → **exchanging** to 3951031513\n2. 2185126308 Hiking Boots — leather / 10 / no — $241.90 → **exchanging** to 8277474082\n3. 7602931732 Electric Kettle — 1L / black / stainless steel — $153.25 → **unchanged**\n\n**Exact combined new-minus-old difference:** (236.57 + 3,289.46) − (241.90 + 2,805.77) = **+$478.36** (you pay this amount)\n\n- This is within your signed whole-amount cap of ≤ $10,000.00. ✅\n- **Original payment method:** paypal_3728317 (the only payment method on file) — used to charge the $478.36 difference.\n\nPlease confirm: **Do you approve this exchange** (items 2185126308→8277474082 and 4875647558→3951031513, other items unchanged, $478.36 charged to paypal_3728317)? Reply **yes** to proceed.",
+      "item_ids": [
+        "2185126308",
+        "4875647558"
+      ],
+      "pairs": [
+        {
+          "item_id": "2185126308",
+          "new_item_id": "8277474082",
+          "quote": "2185126308 Hiking Boots | leather / 10 / no | $241.90 | 8277474082 | leather / 12 / yes | $236.57"
+        },
+        {
+          "item_id": "4875647558",
+          "new_item_id": "3951031513",
+          "quote": "4875647558 Espresso Machine | 1L / 15 bar / capsule | $2,805.77 | 3951031513 | 1.5L / 19 bar / automatic | $3,289.46"
+        }
+      ],
+      "payment_method_id": "paypal_3728317",
+      "payment_quote": "**Original payment method:** paypal_3728317 (the only payment method on file) — used to charge the $478.36 difference.",
+      "amount": 478.36,
+      "amount_quote": "(236.57 + 3,289.46) − (241.90 + 2,805.77) = **+$478.36**",
+      "active_offers": [
+        {
+          "item_id": "2185126308",
+          "variant_id": "8277474082",
+          "payment_method_id": "paypal_3728317",
+          "quote": "Do you approve this exchange (items 2185126308→8277474082 and 4875647558→3951031513, other items unchanged, $478.36 charged to paypal_3728317)?",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3951031513",
+          "payment_method_id": "paypal_3728317",
+          "quote": "Do you approve this exchange (items 2185126308→8277474082 and 4875647558→3951031513, other items unchanged, $478.36 charged to paypal_3728317)?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "Yes, please show or compare currently available compliant alternatives for the affected item. Keep every other agreed item and payment unchanged. This is permission to discuss options, not acceptance of any new SKU and not transaction approval.",
+    "user_ref": 19,
+    "approved": false,
+    "extraction": {
+      "kind": "stop",
+      "asks": true,
+      "question_quote": "How would you like to proceed?",
+      "proposal_quote": null,
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [],
+      "rejected_offer_ids": [
+        "3951031513"
+      ],
+      "topic": "none",
+      "stop_quote": "I need to stop before processing."
+    },
+    "program_question_binding": "conditional pause plus actual request to discuss alternatives is not task termination"
+  },
+  {
+    "kind": "information",
+    "reply": "Please resolve my latest request from observed facts. If a policy or amount condition is unclear, ask that question; otherwise ask for specific permission or complete current-plan approval.",
+    "user_ref": 21,
+    "approved": false,
+    "extraction": {
+      "kind": "other",
+      "asks": true,
+      "question_quote": "Let me know which Espresso Machine option (if any) you'd like, and I'll present the full proposal for your separate final approval.",
+      "proposal_quote": null,
+      "item_ids": [
+        "4875647558"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3728317",
+      "payment_quote": "Payment stays paypal_3728317.",
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "4875647558",
+          "variant_id": "1157853815",
+          "payment_method_id": null,
+          "quote": "| 1157853815 | 2L | 19 bar | capsule | $3,096.70 | +$290.93 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "2190871011",
+          "payment_method_id": null,
+          "quote": "| 2190871011 | 1.5L | 9 bar | manual | $3,105.60 | +$299.83 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3379843752",
+          "payment_method_id": null,
+          "quote": "| 3379843752 | 2L | 19 bar | manual | $3,203.76 | +$397.99 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3709608322",
+          "payment_method_id": null,
+          "quote": "| 3709608322 | 2L | 9 bar | automatic | $2,744.70 | −$61.07 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3714494375",
+          "payment_method_id": null,
+          "quote": "| 3714494375 | 1L | 15 bar | manual | $2,709.83 | −$95.94 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3815173328",
+          "payment_method_id": null,
+          "quote": "| 3815173328 | 1.5L | 9 bar | capsule | $2,908.42 | +$102.65 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "6200867091",
+          "payment_method_id": null,
+          "quote": "| 6200867091 | 1L | 19 bar | capsule | $2,955.17 | +$149.40 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "7407838442",
+          "payment_method_id": null,
+          "quote": "| 7407838442 | 1L | 9 bar | manual | $3,081.91 | +$276.14 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "7774234341",
+          "payment_method_id": null,
+          "quote": "| 7774234341 | 2L | 9 bar | manual | $2,719.16 | −$86.61 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "7806008610",
+          "payment_method_id": null,
+          "quote": "| 7806008610 | 1L | 9 bar | capsule | $2,742.67 | −$63.10 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "9884666842",
+          "payment_method_id": null,
+          "quote": "| 9884666842 | 1L | 19 bar | manual | $2,794.70 | −$11.07 |",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "3951031513"
+      ],
+      "topic": "none",
+      "stop_quote": null
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have not accepted another specification or refund method. Please offer a CURRENT active compliant option; do not use an example or an option you have just rejected. My signed condition is total <= 10000.00.",
+    "user_ref": 23,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Which single in-stock Espresso Machine item ID would you like to use as the replacement for 4875647558?",
+      "proposal_quote": "",
+      "item_ids": [
+        "4875647558"
+      ],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "scope",
+      "stop_quote": null
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted. The maximum signed whole difference means <= 10000.00; negative means minimum refund. Your proposed total is -66.40. Ask about an active compliant substitute, then show the complete current proposal for separate approval.",
+    "user_ref": 25,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "**Do you approve this exact exchange** (2185126308→8277474082, 4875647558→3709608322, kettle unchanged, $66.40 refund to paypal_3728317)? Reply **yes** to proceed.",
+      "proposal_quote": "**Order #W1335809 (delivered) — Exchange**\n| Old item | Old options | Old price | New item | New options | New price |\n|---|---|---|---|---|---|\n| 2185126308 Hiking Boots | leather / 10 / no | $241.90 | 8277474082 | leather / 12 / yes | $236.57 |\n| 4875647558 Espresso Machine | 1L / 15 bar / capsule | $2,805.77 | 3709608322 | 2L / 9 bar / automatic | $2,744.70 |\n\n**All current items (unchanged noted):**\n1. 4875647558 Espresso Machine — 1L / 15 bar / capsule — $2,805.77 → exchanging to 3709608322\n2. 2185126308 Hiking Boots — leather / 10 / no — $241.90 → exchanging to 8277474082\n3. 7602931732 Electric Kettle — 1L / black / stainless steel — $153.25 → unchanged\n\n**Exact combined new-minus-old difference:** (236.57 + 2,744.70) − (241.90 + 2,805.77) = **−$66.40** (a refund of $66.40 to you)\n\n- Within your signed cap of ≤ $10,000.00. ✅\n- **Payment/refund method:** paypal_3728317 (your only method on file) — refund of $66.40.",
+      "item_ids": [
+        "2185126308",
+        "4875647558"
+      ],
+      "pairs": [
+        {
+          "item_id": "2185126308",
+          "new_item_id": "8277474082",
+          "quote": "| 2185126308 Hiking Boots | leather / 10 / no | $241.90 | 8277474082 | leather / 12 / yes | $236.57 |"
+        },
+        {
+          "item_id": "4875647558",
+          "new_item_id": "3709608322",
+          "quote": "| 4875647558 Espresso Machine | 1L / 15 bar / capsule | $2,805.77 | 3709608322 | 2L / 9 bar / automatic | $2,744.70 |"
+        }
+      ],
+      "payment_method_id": "paypal_3728317",
+      "payment_quote": "**Payment/refund method:** paypal_3728317 (your only method on file) — refund of $66.40.",
+      "amount": -66.4,
+      "amount_quote": "**Exact combined new-minus-old difference:** (236.57 + 2,744.70) − (241.90 + 2,805.77) = **−$66.40** (a refund of $66.40 to you)",
+      "active_offers": [
+        {
+          "item_id": "4875647558",
+          "variant_id": "3709608322",
+          "payment_method_id": "paypal_3728317",
+          "quote": "**Proposed Espresso Machine replacement: 3709608322** — 2L / 9 bar / automatic — $2,744.70 (in stock)",
+          "status": "active"
+        },
+        {
+          "item_id": "2185126308",
+          "variant_id": "8277474082",
+          "payment_method_id": "paypal_3728317",
+          "quote": "| 2185126308 Hiking Boots | leather / 10 / no | $241.90 | 8277474082 | leather / 12 / yes | $236.57 |",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "3951031513"
+      ],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": false,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "The signed limit is new minus ORIGINAL purchased prices summed over ALL exchange items, and must be <= 10000.00. Negative cap means a MINIMUM refund, not a maximum refund. Current requested whole difference is 478.36. You may compare observed compliant substitutes, but need my concrete specification permission and later independent complete-plan approval.",
+    "user_ref": 27,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "What is the required **minimum refund** amount (the negative limit) I should enforce?",
+      "proposal_quote": "",
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [],
+      "rejected_offer_ids": [
+        "3709608322"
+      ],
+      "topic": "amount_basis",
+      "stop_quote": null
+    }
+  },
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 4875647558 with SKU 1157853815, if in stock and whole signed difference <= 10000.00. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 29,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Please give me your concrete specification permission by naming the single Espresso Machine item ID you want",
+      "proposal_quote": "",
+      "item_ids": [
+        "4875647558"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3728317",
+      "payment_quote": "Payment/refund stays paypal_3728317.",
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "4875647558",
+          "variant_id": "1157853815",
+          "payment_method_id": null,
+          "quote": "| 1157853815 | 2L | 19 bar | capsule | $3,096.70 | +$285.60 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "2190871011",
+          "payment_method_id": null,
+          "quote": "| 2190871011 | 1.5L | 9 bar | manual | $3,105.60 | +$294.50 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3379843752",
+          "payment_method_id": null,
+          "quote": "| 3379843752 | 2L | 19 bar | manual | $3,203.76 | +$392.66 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3709608322",
+          "payment_method_id": null,
+          "quote": "| 3709608322 | 2L | 9 bar | automatic | $2,744.70 | −$66.40 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3714494375",
+          "payment_method_id": null,
+          "quote": "| 3714494375 | 1L | 15 bar | manual | $2,709.83 | −$101.27 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "3815173328",
+          "payment_method_id": null,
+          "quote": "| 3815173328 | 1.5L | 9 bar | capsule | $2,908.42 | +$97.32 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "6200867091",
+          "payment_method_id": null,
+          "quote": "| 6200867091 | 1L | 19 bar | capsule | $2,955.17 | +$144.07 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "7407838442",
+          "payment_method_id": null,
+          "quote": "| 7407838442 | 1L | 9 bar | manual | $3,081.91 | +$270.81 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "7774234341",
+          "payment_method_id": null,
+          "quote": "| 7774234341 | 2L | 9 bar | manual | $2,719.16 | −$91.94 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "7806008610",
+          "payment_method_id": null,
+          "quote": "| 7806008610 | 1L | 9 bar | capsule | $2,742.67 | −$68.43 |",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "9884666842",
+          "payment_method_id": null,
+          "quote": "| 9884666842 | 1L | 19 bar | manual | $2,794.70 | −$16.40 |",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "3951031513"
+      ],
+      "topic": "none",
+      "stop_quote": ""
+    },
+    "accepted_offer": "1157853815"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 35,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact exchange (2185126308→8277474082, 4875647558→1157853815, kettle unchanged, $285.60 charged to paypal_3728317)?",
+      "proposal_quote": "**Order #W1335809 (delivered) — Exchange**\n| Old item | Old options | Old price | New item | New options | New price |\n|---|---|---|---|---|---|\n| 2185126308 Hiking Boots | leather / 10 / no | $241.90 | 8277474082 | leather / 12 / yes | $236.57 |\n| 4875647558 Espresso Machine | 1L / 15 bar / capsule | $2,805.77 | 1157853815 | 2L / 19 bar / capsule | $3,096.70 |\n\n**All current items (unchanged noted):**\n1. 4875647558 Espresso Machine — 1L / 15 bar / capsule — $2,805.77 → exchanging to 1157853815\n2. 2185126308 Hiking Boots — leather / 10 / no — $241.90 → exchanging to 8277474082\n3. 7602931732 Electric Kettle — 1L / black / stainless steel — $153.25 → unchanged\n\n**Exact combined new-minus-old difference:** (236.57 + 3,096.70) − (241.90 + 2,805.77) = **+$285.60** (you pay this amount)\n\n- Within your signed cap of ≤ $10,000.00. ✅\n- **Payment method:** paypal_3728317 (your only method on file) — charged $285.60.\n\nThis is a proposal only — no transaction approved yet. **Do you approve this exact exchange** (2185126308→8277474082, 4875647558→1157853815, kettle unchanged, $285.60 charged to paypal_3728317)? Reply **yes** to proceed.",
+      "item_ids": [
+        "2185126308",
+        "4875647558"
+      ],
+      "pairs": [
+        {
+          "item_id": "2185126308",
+          "new_item_id": "8277474082",
+          "quote": "2185126308 Hiking Boots | leather / 10 / no | $241.90 | 8277474082 | leather / 12 / yes | $236.57"
+        },
+        {
+          "item_id": "4875647558",
+          "new_item_id": "1157853815",
+          "quote": "4875647558 Espresso Machine | 1L / 15 bar / capsule | $2,805.77 | 1157853815 | 2L / 19 bar / capsule | $3,096.70"
+        }
+      ],
+      "payment_method_id": "paypal_3728317",
+      "payment_quote": "**Payment method:** paypal_3728317 (your only method on file) — charged $285.60.",
+      "amount": 285.6,
+      "amount_quote": "**Exact combined new-minus-old difference:** (236.57 + 3,096.70) − (241.90 + 2,805.77) = **+$285.60** (you pay this amount)",
+      "active_offers": [
+        {
+          "item_id": "2185126308",
+          "variant_id": "8277474082",
+          "payment_method_id": "paypal_3728317",
+          "quote": "Do you approve this exact exchange (2185126308→8277474082, 4875647558→1157853815, kettle unchanged, $285.60 charged to paypal_3728317)?",
+          "status": "active"
+        },
+        {
+          "item_id": "4875647558",
+          "variant_id": "1157853815",
+          "payment_method_id": "paypal_3728317",
+          "quote": "Do you approve this exact exchange (2185126308→8277474082, 4875647558→1157853815, kettle unchanged, $285.60 charged to paypal_3728317)?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

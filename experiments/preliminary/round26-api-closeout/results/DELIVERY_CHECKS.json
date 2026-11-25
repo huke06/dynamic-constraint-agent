@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "freezes": [
+    {
+      "freeze": "experiments\\preliminary\\round25-on-demand-v2\\configs\\FREEZE.json",
+      "checked_files": 3,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\configs\\FREEZE.json",
+      "checked_files": 52,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\FREEZE.json",
+      "checked_files": 1,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\FREEZE.json",
+      "checked_files": 2,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\FREEZE.json",
+      "checked_files": 3,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\simfix4\\FREEZE.json",
+      "checked_files": 3,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\statefix1\\FREEZE.json",
+      "checked_files": 3,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\statefix2\\FREEZE.json",
+      "checked_files": 3,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\statefix3\\FREEZE.json",
+      "checked_files": 4,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\EXTRA_R55_FREEZE.json",
+      "extra_runner_checked": true,
+      "passed": true
+    },
+    {
+      "freeze": "experiments\\preliminary\\round26-api-closeout\\versions\\statefix2\\EXTRA_RDB02_FREEZE.json",
+      "extra_runner_checked": true,
+      "passed": true
+    }
+  ],
+  "prior_23_24_tracked_byte_changes": [],
+  "sample_validation": true,
+  "formal_counts": {
+    "round25": 16,
+    "A01": 48,
+    "B01": 12,
+    "targeted_rechecks": 30
+  },
+  "native_tau2_commit": "f8de30c298689cbe0117d76a378e7315a17e5bd8",
+  "native_agent_source_sha256": "f877698c0a5950630f6b005d999ca0e5e5cd6d5f659260cfd2c8cd7dc6b3885f",
+  "native_tools_source_sha256": "b8172221b4d523a4fab66e221f937099b65dd37b4c1aa6000ee0c3103e9a98c6"
+}

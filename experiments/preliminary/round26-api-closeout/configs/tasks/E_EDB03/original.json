@@ -1,0 +1,74 @@
+{
+  "public_db_order": {
+    "order_id": "#W1166549",
+    "user_id": "daiki_hernandez_1356",
+    "address": {
+      "address1": "243 Sunset Drive",
+      "address2": "Suite 890",
+      "city": "Los Angeles",
+      "country": "USA",
+      "state": "CA",
+      "zip": "91203"
+    },
+    "items": [
+      {
+        "name": "E-Reader",
+        "product_id": "3801771308",
+        "item_id": "5510402676",
+        "price": 267.07,
+        "options": {
+          "screen size": "6-inch",
+          "connectivity": "Wi-Fi",
+          "storage": "8GB"
+        }
+      },
+      {
+        "name": "Electric Kettle",
+        "product_id": "1075968781",
+        "item_id": "5268233322",
+        "price": 155.99,
+        "options": {
+          "capacity": "1L",
+          "material": "glass",
+          "color": "white"
+        }
+      },
+      {
+        "name": "Desk Lamp",
+        "product_id": "6817146515",
+        "item_id": "1569765161",
+        "price": 143.02,
+        "options": {
+          "color": "silver",
+          "brightness": "low",
+          "power source": "AC adapter"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "125889200563"
+        ],
+        "item_ids": [
+          "5510402676",
+          "5268233322",
+          "1569765161"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 566.08,
+        "payment_method_id": "credit_card_1289579"
+      }
+    ]
+  },
+  "selected_scope": [
+    "5510402676",
+    "5268233322"
+  ],
+  "source_db_sha256": "dbde692e380bb4ad17f9f7841172cf1e69bebad2daa405628ccdc52a42b3b9b0"
+}

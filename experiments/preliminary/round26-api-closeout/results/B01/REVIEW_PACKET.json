@@ -1,0 +1,4916 @@
+[
+  {
+    "id": "B_E26_capacity_r1_analyze",
+    "phase": "B01",
+    "event": 0,
+    "kind": "analysis",
+    "result": {
+      "kind": "analysis_result",
+      "facts": {
+        "comparison_scope_original_item_ids": [
+          "7602931732"
+        ],
+        "unaffected_items": [
+          {
+            "original_item_id": "9570044148",
+            "current_variant": "3616838507",
+            "local_spec_matches_observed_options": true,
+            "stock": true,
+            "need_new_spec_permission_due_to_this_comparison": false
+          }
+        ],
+        "status": "no_exact_match",
+        "exact_feasible": [],
+        "negotiable": [
+          {
+            "variant_id": "1240311797",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "price": 137.17,
+            "whole_difference": "-21.34",
+            "source_ref": 8,
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "changes_current": {
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              },
+              "color": {
+                "current": "white",
+                "offered": "silver"
+              }
+            }
+          },
+          {
+            "variant_id": "2323972008",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "black"
+            },
+            "price": 146.98,
+            "whole_difference": "-11.53",
+            "source_ref": 8,
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "changes_current": {
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            }
+          },
+          {
+            "variant_id": "2698416822",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "white"
+            },
+            "price": 149.45,
+            "whole_difference": "-9.06",
+            "source_ref": 8,
+            "matches_current": {
+              "material": "plastic",
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              }
+            }
+          },
+          {
+            "variant_id": "4458619711",
+            "options": {
+              "capacity": "2L",
+              "material": "stainless steel",
+              "color": "white"
+            },
+            "price": 153.81,
+            "whole_difference": "-4.70",
+            "source_ref": 8,
+            "matches_current": {
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "2L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "stainless steel"
+              }
+            }
+          },
+          {
+            "variant_id": "5428723833",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "black"
+            },
+            "price": 145.48,
+            "whole_difference": "-13.03",
+            "source_ref": 8,
+            "matches_current": {
+              "material": "plastic"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            }
+          },
+          {
+            "variant_id": "9472539378",
+            "options": {
+              "capacity": "1.5L",
+              "material": "glass",
+              "color": "white"
+            },
+            "price": 143.72,
+            "whole_difference": "-14.79",
+            "source_ref": 8,
+            "matches_current": {
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            }
+          }
+        ],
+        "empty_exact_set_is_valid": true,
+        "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+        "current_requested_sku": "2243454707",
+        "current_sku_exists": true,
+        "current_stock": true,
+        "current_whole_difference": "5.95",
+        "maximum_signed_whole_difference": "-3.54",
+        "conflict_cause": "signed_amount_cap",
+        "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements"
+      },
+      "model_advice": {
+        "comparison_scope": "current exact requirements vs negotiable relaxations",
+        "tradeoffs": [
+          {
+            "variant_id": "1240311797",
+            "observation": "Matches the current 1L capacity but changes color from white to silver and material from plastic to glass; whole difference -21.34 is within the -3.54 cap.",
+            "question": "Would you permit changing color to silver and material to glass for this item?"
+          },
+          {
+            "variant_id": "2323972008",
+            "observation": "Matches the current 1L capacity but changes color from white to black and material from plastic to glass; whole difference -11.53 is within the -3.54 cap.",
+            "question": "Would you permit changing color to black and material to glass for this item?"
+          },
+          {
+            "variant_id": "2698416822",
+            "observation": "Keeps color white and material plastic but changes capacity from 1L to 1.5L; whole difference -9.06 is within the -3.54 cap.",
+            "question": "Would you permit changing capacity from 1L to 1.5L for this item?"
+          },
+          {
+            "variant_id": "4458619711",
+            "observation": "Keeps color white but changes capacity from 1L to 2L and material from plastic to stainless steel; whole difference -4.70 is within the -3.54 cap.",
+            "question": "Would you permit changing capacity to 2L and material to stainless steel for this item?"
+          },
+          {
+            "variant_id": "5428723833",
+            "observation": "Keeps material plastic but changes capacity from 1L to 1.5L and color from white to black; whole difference -13.03 is within the -3.54 cap.",
+            "question": "Would you permit changing capacity to 1.5L and color to black for this item?"
+          },
+          {
+            "variant_id": "9472539378",
+            "observation": "Keeps color white but changes capacity from 1L to 1.5L and material from plastic to glass; whole difference -14.79 is within the -3.54 cap.",
+            "question": "Would you permit changing capacity to 1.5L and material to glass for this item?"
+          }
+        ],
+        "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 exists and is in stock, but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), which is a valid finding. The other exchange item 9570044148 (variant 3616838507) matches its observed options and is unaffected by this comparison. All listed negotiable variants fall within the cap but each changes at least one current specification (capacity, color, or material), so none may be used without your new permission. No transaction approval is granted by this analysis."
+      },
+      "not_authorization": true
+    },
+    "current_targets": {
+      "7602931732": "2243454707",
+      "9570044148": "3616838507"
+    },
+    "scope": null,
+    "cap": "-3.54",
+    "analysis_record": [
+      {
+        "kind": "analysis_result",
+        "facts": {
+          "comparison_scope_original_item_ids": [
+            "7602931732"
+          ],
+          "unaffected_items": [
+            {
+              "original_item_id": "9570044148",
+              "current_variant": "3616838507",
+              "local_spec_matches_observed_options": true,
+              "stock": true,
+              "need_new_spec_permission_due_to_this_comparison": false
+            }
+          ],
+          "status": "no_exact_match",
+          "exact_feasible": [],
+          "negotiable": [
+            {
+              "variant_id": "1240311797",
+              "options": {
+                "capacity": "1L",
+                "material": "glass",
+                "color": "silver"
+              },
+              "price": 137.17,
+              "whole_difference": "-21.34",
+              "source_ref": 8,
+              "matches_current": {
+                "capacity": "1L"
+              },
+              "changes_current": {
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "silver"
+                }
+              }
+            },
+            {
+              "variant_id": "2323972008",
+              "options": {
+                "capacity": "1L",
+                "material": "glass",
+                "color": "black"
+              },
+              "price": 146.98,
+              "whole_difference": "-11.53",
+              "source_ref": 8,
+              "matches_current": {
+                "capacity": "1L"
+              },
+              "changes_current": {
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "black"
+                }
+              }
+            },
+            {
+              "variant_id": "2698416822",
+              "options": {
+                "capacity": "1.5L",
+                "material": "plastic",
+                "color": "white"
+              },
+              "price": 149.45,
+              "whole_difference": "-9.06",
+              "source_ref": 8,
+              "matches_current": {
+                "material": "plastic",
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                }
+              }
+            },
+            {
+              "variant_id": "4458619711",
+              "options": {
+                "capacity": "2L",
+                "material": "stainless steel",
+                "color": "white"
+              },
+              "price": 153.81,
+              "whole_difference": "-4.70",
+              "source_ref": 8,
+              "matches_current": {
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "2L"
+                },
+                "material": {
+                  "current": "plastic",
+                  "offered": "stainless steel"
+                }
+              }
+            },
+            {
+              "variant_id": "5428723833",
+              "options": {
+                "capacity": "1.5L",
+                "material": "plastic",
+                "color": "black"
+              },
+              "price": 145.48,
+              "whole_difference": "-13.03",
+              "source_ref": 8,
+              "matches_current": {
+                "material": "plastic"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "black"
+                }
+              }
+            },
+            {
+              "variant_id": "9472539378",
+              "options": {
+                "capacity": "1.5L",
+                "material": "glass",
+                "color": "white"
+              },
+              "price": 143.72,
+              "whole_difference": "-14.79",
+              "source_ref": 8,
+              "matches_current": {
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                },
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                }
+              }
+            }
+          ],
+          "empty_exact_set_is_valid": true,
+          "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+          "current_requested_sku": "2243454707",
+          "current_sku_exists": true,
+          "current_stock": true,
+          "current_whole_difference": "5.95",
+          "maximum_signed_whole_difference": "-3.54",
+          "conflict_cause": "signed_amount_cap",
+          "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements"
+        },
+        "model_advice": {
+          "comparison_scope": "current exact requirements vs negotiable relaxations",
+          "tradeoffs": [
+            {
+              "variant_id": "1240311797",
+              "observation": "Matches the current 1L capacity but changes color from white to silver and material from plastic to glass; whole difference -21.34 is within the -3.54 cap.",
+              "question": "Would you permit changing color to silver and material to glass for this item?"
+            },
+            {
+              "variant_id": "2323972008",
+              "observation": "Matches the current 1L capacity but changes color from white to black and material from plastic to glass; whole difference -11.53 is within the -3.54 cap.",
+              "question": "Would you permit changing color to black and material to glass for this item?"
+            },
+            {
+              "variant_id": "2698416822",
+              "observation": "Keeps color white and material plastic but changes capacity from 1L to 1.5L; whole difference -9.06 is within the -3.54 cap.",
+              "question": "Would you permit changing capacity from 1L to 1.5L for this item?"
+            },
+            {
+              "variant_id": "4458619711",
+              "observation": "Keeps color white but changes capacity from 1L to 2L and material from plastic to stainless steel; whole difference -4.70 is within the -3.54 cap.",
+              "question": "Would you permit changing capacity to 2L and material to stainless steel for this item?"
+            },
+            {
+              "variant_id": "5428723833",
+              "observation": "Keeps material plastic but changes capacity from 1L to 1.5L and color from white to black; whole difference -13.03 is within the -3.54 cap.",
+              "question": "Would you permit changing capacity to 1.5L and color to black for this item?"
+            },
+            {
+              "variant_id": "9472539378",
+              "observation": "Keeps color white but changes capacity from 1L to 1.5L and material from plastic to glass; whole difference -14.79 is within the -3.54 cap.",
+              "question": "Would you permit changing capacity to 1.5L and material to glass for this item?"
+            }
+          ],
+          "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 exists and is in stock, but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), which is a valid finding. The other exchange item 9570044148 (variant 3616838507) matches its observed options and is unaffected by this comparison. All listed negotiable variants fall within the cap but each changes at least one current specification (capacity, color, or material), so none may be used without your new permission. No transaction approval is granted by this analysis."
+        },
+        "not_authorization": true
+      }
+    ]
+  },
+  {
+    "id": "B_E26_capacity_r1_analyze",
+    "phase": "B01",
+    "event": 1,
+    "kind": "decision",
+    "decision": {
+      "work_type": "clarify",
+      "object": "7602931732",
+      "parameters": {
+        "variant_id": "2698416822"
+      },
+      "evidence_refs": [
+        8
+      ],
+      "expected": "User grants or denies new specification permission for variant 2698416822 (1.5L, white, plastic), which keeps the two highest-priority options (color white, material plastic) and only changes capacity, staying within the -3.54 cap.",
+      "reason": "No exact match satisfies the signed amount cap (current +5.95 exceeds -3.54), so a negotiable alternative requires new user permission. Variant 2698416822 changes only the lowest-impact option (capacity 1L→1.5L) while preserving color and material, best honoring the stated soft preference priority."
+    },
+    "actual_input": {
+      "analysis_feedback": [
+        {
+          "facts": {
+            "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements",
+            "comparison_scope_original_item_ids": [
+              "7602931732"
+            ],
+            "conflict_cause": "signed_amount_cap",
+            "current_requested_sku": "2243454707",
+            "current_sku_exists": true,
+            "current_stock": true,
+            "current_whole_difference": "5.95",
+            "empty_exact_set_is_valid": true,
+            "exact_feasible": [],
+            "maximum_signed_whole_difference": "-3.54",
+            "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+            "negotiable": [
+              {
+                "changes_current": {
+                  "color": {
+                    "current": "white",
+                    "offered": "silver"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "capacity": "1L"
+                },
+                "options": {
+                  "capacity": "1L",
+                  "color": "silver",
+                  "material": "glass"
+                },
+                "price": 137.17,
+                "source_ref": 8,
+                "variant_id": "1240311797",
+                "whole_difference": "-21.34"
+              },
+              {
+                "changes_current": {
+                  "color": {
+                    "current": "white",
+                    "offered": "black"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "capacity": "1L"
+                },
+                "options": {
+                  "capacity": "1L",
+                  "color": "black",
+                  "material": "glass"
+                },
+                "price": 146.98,
+                "source_ref": 8,
+                "variant_id": "2323972008",
+                "whole_difference": "-11.53"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  }
+                },
+                "matches_current": {
+                  "color": "white",
+                  "material": "plastic"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "white",
+                  "material": "plastic"
+                },
+                "price": 149.45,
+                "source_ref": 8,
+                "variant_id": "2698416822",
+                "whole_difference": "-9.06"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "2L"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "stainless steel"
+                  }
+                },
+                "matches_current": {
+                  "color": "white"
+                },
+                "options": {
+                  "capacity": "2L",
+                  "color": "white",
+                  "material": "stainless steel"
+                },
+                "price": 153.81,
+                "source_ref": 8,
+                "variant_id": "4458619711",
+                "whole_difference": "-4.70"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  },
+                  "color": {
+                    "current": "white",
+                    "offered": "black"
+                  }
+                },
+                "matches_current": {
+                  "material": "plastic"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "black",
+                  "material": "plastic"
+                },
+                "price": 145.48,
+                "source_ref": 8,
+                "variant_id": "5428723833",
+                "whole_difference": "-13.03"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "color": "white"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "white",
+                  "material": "glass"
+                },
+                "price": 143.72,
+                "source_ref": 8,
+                "variant_id": "9472539378",
+                "whole_difference": "-14.79"
+              }
+            ],
+            "status": "no_exact_match",
+            "unaffected_items": [
+              {
+                "current_variant": "3616838507",
+                "local_spec_matches_observed_options": true,
+                "need_new_spec_permission_due_to_this_comparison": false,
+                "original_item_id": "9570044148",
+                "stock": true
+              }
+            ]
+          },
+          "kind": "analysis_result",
+          "model_advice": {
+            "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 exists and is in stock, but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), which is a valid finding. The other exchange item 9570044148 (variant 3616838507) matches its observed options and is unaffected by this comparison. All listed negotiable variants fall within the cap but each changes at least one current specification (capacity, color, or material), so none may be used without your new permission. No transaction approval is granted by this analysis.",
+            "comparison_scope": "current exact requirements vs negotiable relaxations",
+            "tradeoffs": [
+              {
+                "observation": "Matches the current 1L capacity but changes color from white to silver and material from plastic to glass; whole difference -21.34 is within the -3.54 cap.",
+                "question": "Would you permit changing color to silver and material to glass for this item?",
+                "variant_id": "1240311797"
+              },
+              {
+                "observation": "Matches the current 1L capacity but changes color from white to black and material from plastic to glass; whole difference -11.53 is within the -3.54 cap.",
+                "question": "Would you permit changing color to black and material to glass for this item?",
+                "variant_id": "2323972008"
+              },
+              {
+                "observation": "Keeps color white and material plastic but changes capacity from 1L to 1.5L; whole difference -9.06 is within the -3.54 cap.",
+                "question": "Would you permit changing capacity from 1L to 1.5L for this item?",
+                "variant_id": "2698416822"
+              },
+              {
+                "observation": "Keeps color white but changes capacity from 1L to 2L and material from plastic to stainless steel; whole difference -4.70 is within the -3.54 cap.",
+                "question": "Would you permit changing capacity to 2L and material to stainless steel for this item?",
+                "variant_id": "4458619711"
+              },
+              {
+                "observation": "Keeps material plastic but changes capacity from 1L to 1.5L and color from white to black; whole difference -13.03 is within the -3.54 cap.",
+                "question": "Would you permit changing capacity to 1.5L and color to black for this item?",
+                "variant_id": "5428723833"
+              },
+              {
+                "observation": "Keeps color white but changes capacity from 1L to 1.5L and material from plastic to glass; whole difference -14.79 is within the -3.54 cap.",
+                "question": "Would you permit changing capacity to 1.5L and material to glass for this item?",
+                "variant_id": "9472539378"
+              }
+            ]
+          },
+          "not_authorization": true
+        }
+      ],
+      "authorization_evidence": {
+        "current_bound_arguments": null,
+        "quoted_user_replies": [],
+        "sources": [],
+        "valid_for_current_plan": false
+      },
+      "budget": {
+        "calls": 39,
+        "operations": 23,
+        "tokens": 177753
+      },
+      "candidate_work": [
+        {
+          "effect": "compare exact feasibility and negotiable options; empty exact result valid",
+          "object": "7602931732",
+          "preconditions": {
+            "catalogue_observed": true
+          },
+          "work_type": "analyze"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "1240311797"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "2323972008"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "2698416822"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "4458619711"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "5428723833"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "9472539378"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask independent complete-plan approval",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_plan": false,
+            "pending_resolved": true
+          },
+          "work_type": "confirm"
+        },
+        {
+          "effect": "store ONLY feasible current plan; not a diagnostic draft",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_spec_feasible": false,
+            "pending_resolved": true
+          },
+          "work_type": "prepare"
+        },
+        {
+          "effect": "formal inventory evidence",
+          "object": "1075968781",
+          "preconditions": {
+            "scope_product": true
+          },
+          "work_type": "query"
+        },
+        {
+          "effect": "native write",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_authorization": false
+          },
+          "work_type": "submit"
+        }
+      ],
+      "change": null,
+      "constraint_judgments": {
+        "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements",
+        "comparison_scope_original_item_ids": [
+          "7602931732"
+        ],
+        "conflict_cause": "signed_amount_cap",
+        "current_requested_sku": "2243454707",
+        "current_sku_exists": true,
+        "current_stock": true,
+        "current_whole_difference": "5.95",
+        "empty_exact_set_is_valid": true,
+        "exact_feasible": [],
+        "maximum_signed_whole_difference": "-3.54",
+        "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+        "negotiable": [
+          {
+            "changes_current": {
+              "color": {
+                "current": "white",
+                "offered": "silver"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "options": {
+              "capacity": "1L",
+              "color": "silver",
+              "material": "glass"
+            },
+            "price": 137.17,
+            "source_ref": 8,
+            "variant_id": "1240311797",
+            "whole_difference": "-21.34"
+          },
+          {
+            "changes_current": {
+              "color": {
+                "current": "white",
+                "offered": "black"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "options": {
+              "capacity": "1L",
+              "color": "black",
+              "material": "glass"
+            },
+            "price": 146.98,
+            "source_ref": 8,
+            "variant_id": "2323972008",
+            "whole_difference": "-11.53"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              }
+            },
+            "matches_current": {
+              "color": "white",
+              "material": "plastic"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "white",
+              "material": "plastic"
+            },
+            "price": 149.45,
+            "source_ref": 8,
+            "variant_id": "2698416822",
+            "whole_difference": "-9.06"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "2L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "stainless steel"
+              }
+            },
+            "matches_current": {
+              "color": "white"
+            },
+            "options": {
+              "capacity": "2L",
+              "color": "white",
+              "material": "stainless steel"
+            },
+            "price": 153.81,
+            "source_ref": 8,
+            "variant_id": "4458619711",
+            "whole_difference": "-4.70"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            },
+            "matches_current": {
+              "material": "plastic"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "black",
+              "material": "plastic"
+            },
+            "price": 145.48,
+            "source_ref": 8,
+            "variant_id": "5428723833",
+            "whole_difference": "-13.03"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "color": "white"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "white",
+              "material": "glass"
+            },
+            "price": 143.72,
+            "source_ref": 8,
+            "variant_id": "9472539378",
+            "whole_difference": "-14.79"
+          }
+        ],
+        "status": "no_exact_match",
+        "unaffected_items": [
+          {
+            "current_variant": "3616838507",
+            "local_spec_matches_observed_options": true,
+            "need_new_spec_permission_due_to_this_comparison": false,
+            "original_item_id": "9570044148",
+            "stock": true
+          }
+        ]
+      },
+      "current_difference": "5.95",
+      "current_full_authorization": false,
+      "current_plan": null,
+      "current_plan_valid": false,
+      "evidence_index": {
+        "1075968781": 8,
+        "1656367028": 10
+      },
+      "execution_feedback": [
+        {
+          "allowed": true,
+          "historical_not_current_prerequisites": true,
+          "kind": "operation_result",
+          "reason": null,
+          "work_type": "analyze"
+        }
+      ],
+      "hard_constraint": {
+        "max_signed_whole_difference": "-3.54",
+        "source_ref": 11
+      },
+      "missing_prerequisites": [
+        "current requested specification violates stock or signed amount cap; analyze negotiable alternatives or clarify; prepare cannot fix infeasibility",
+        "feasible complete current proposal"
+      ],
+      "objects": [
+        {
+          "CURRENT_EFFECTIVE_SPECIFICATION": {
+            "literal_user_source": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In delivered order #W5565470 exchange ONLY this mapping of original items to initially requested replacements: {\"7602931732\": \"2243454707\", \"9570044148\": \"3616838507\"}. Requested options: {\"7602931732\": {\"capacity\": \"1L\", \"material\": \"plastic\", \"color\": \"white\"}, \"9570044148\": {\"switch type\": \"tactile\", \"backlight\": \"white\", \"size\": \"full size\"}}. Keep all other items and use original payment paypal_3024827. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization. SOFT preference priority highest first: [\"capacity\",\"color\",\"material\"]. These priorities remain for evaluating an explicitly accepted tradeoff; stock/cap/authorization are hard.",
+            "options": {
+              "capacity": "1L",
+              "color": "white",
+              "material": "plastic"
+            },
+            "price": 164.46,
+            "source_ref": 0,
+            "stock": true,
+            "variant_id": "2243454707"
+          },
+          "initial_request_history_only": {
+            "active": true,
+            "source_ref": 0,
+            "variant_id": "2243454707"
+          },
+          "original_item_id": "7602931732",
+          "product_id": "1075968781",
+          "purchased": {
+            "options": {
+              "capacity": "1L",
+              "color": "black",
+              "material": "stainless steel"
+            },
+            "price": 153.25,
+            "source_refs": [
+              6
+            ],
+            "variant_id": "7602931732"
+          }
+        },
+        {
+          "CURRENT_EFFECTIVE_SPECIFICATION": {
+            "literal_user_source": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In delivered order #W5565470 exchange ONLY this mapping of original items to initially requested replacements: {\"7602931732\": \"2243454707\", \"9570044148\": \"3616838507\"}. Requested options: {\"7602931732\": {\"capacity\": \"1L\", \"material\": \"plastic\", \"color\": \"white\"}, \"9570044148\": {\"switch type\": \"tactile\", \"backlight\": \"white\", \"size\": \"full size\"}}. Keep all other items and use original payment paypal_3024827. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization. SOFT preference priority highest first: [\"capacity\",\"color\",\"material\"]. These priorities remain for evaluating an explicitly accepted tradeoff; stock/cap/authorization are hard.",
+            "options": {
+              "backlight": "white",
+              "size": "full size",
+              "switch type": "tactile"
+            },
+            "price": 226.11,
+            "source_ref": 0,
+            "stock": true,
+            "variant_id": "3616838507"
+          },
+          "initial_request_history_only": {
+            "active": true,
+            "source_ref": 0,
+            "variant_id": "3616838507"
+          },
+          "original_item_id": "9570044148",
+          "product_id": "1656367028",
+          "purchased": {
+            "options": {
+              "backlight": "none",
+              "size": "full size",
+              "switch type": "linear"
+            },
+            "price": 231.37,
+            "source_refs": [
+              6
+            ],
+            "variant_id": "9570044148"
+          }
+        }
+      ],
+      "order_id": "#W5565470",
+      "order_status": "delivered",
+      "payment_method_id": "paypal_3024827",
+      "pending_user_messages": []
+    },
+    "response_id": "3eff564a-a593-40af-a5bc-e4280cfff518"
+  },
+  {
+    "id": "B_E26_capacity_r2_analyze",
+    "phase": "B01",
+    "event": 0,
+    "kind": "analysis",
+    "result": {
+      "kind": "analysis_result",
+      "facts": {
+        "comparison_scope_original_item_ids": [
+          "7602931732"
+        ],
+        "unaffected_items": [
+          {
+            "original_item_id": "9570044148",
+            "current_variant": "3616838507",
+            "local_spec_matches_observed_options": true,
+            "stock": true,
+            "need_new_spec_permission_due_to_this_comparison": false
+          }
+        ],
+        "status": "no_exact_match",
+        "exact_feasible": [],
+        "negotiable": [
+          {
+            "variant_id": "1240311797",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "price": 137.17,
+            "whole_difference": "-21.34",
+            "source_ref": 8,
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "changes_current": {
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              },
+              "color": {
+                "current": "white",
+                "offered": "silver"
+              }
+            }
+          },
+          {
+            "variant_id": "2323972008",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "black"
+            },
+            "price": 146.98,
+            "whole_difference": "-11.53",
+            "source_ref": 8,
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "changes_current": {
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            }
+          },
+          {
+            "variant_id": "2698416822",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "white"
+            },
+            "price": 149.45,
+            "whole_difference": "-9.06",
+            "source_ref": 8,
+            "matches_current": {
+              "material": "plastic",
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              }
+            }
+          },
+          {
+            "variant_id": "4458619711",
+            "options": {
+              "capacity": "2L",
+              "material": "stainless steel",
+              "color": "white"
+            },
+            "price": 153.81,
+            "whole_difference": "-4.70",
+            "source_ref": 8,
+            "matches_current": {
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "2L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "stainless steel"
+              }
+            }
+          },
+          {
+            "variant_id": "5428723833",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "black"
+            },
+            "price": 145.48,
+            "whole_difference": "-13.03",
+            "source_ref": 8,
+            "matches_current": {
+              "material": "plastic"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            }
+          },
+          {
+            "variant_id": "9472539378",
+            "options": {
+              "capacity": "1.5L",
+              "material": "glass",
+              "color": "white"
+            },
+            "price": 143.72,
+            "whole_difference": "-14.79",
+            "source_ref": 8,
+            "matches_current": {
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            }
+          }
+        ],
+        "empty_exact_set_is_valid": true,
+        "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+        "current_requested_sku": "2243454707",
+        "current_sku_exists": true,
+        "current_stock": true,
+        "current_whole_difference": "5.95",
+        "maximum_signed_whole_difference": "-3.54",
+        "conflict_cause": "signed_amount_cap",
+        "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements"
+      },
+      "model_advice": {
+        "comparison_scope": "current exact requirements vs negotiable relaxations",
+        "tradeoffs": [
+          {
+            "variant_id": "1240311797",
+            "observation": "Matches the current 1L capacity but changes color from white to silver and material from plastic to glass; whole difference -21.34 is within the -3.54 cap.",
+            "question": "Would you permit changing the color to silver and material to glass for this item?"
+          },
+          {
+            "variant_id": "2323972008",
+            "observation": "Matches the current 1L capacity but changes color from white to black and material from plastic to glass; whole difference -11.53 is within the -3.54 cap.",
+            "question": "Would you permit changing the color to black and material to glass for this item?"
+          },
+          {
+            "variant_id": "2698416822",
+            "observation": "Matches the current white color and plastic material but changes capacity from 1L to 1.5L; whole difference -9.06 is within the -3.54 cap.",
+            "question": "Would you permit changing the capacity to 1.5L for this item?"
+          },
+          {
+            "variant_id": "4458619711",
+            "observation": "Matches the current white color but changes capacity from 1L to 2L and material from plastic to stainless steel; whole difference -4.70 is within the -3.54 cap.",
+            "question": "Would you permit changing the capacity to 2L and material to stainless steel for this item?"
+          },
+          {
+            "variant_id": "5428723833",
+            "observation": "Matches the current plastic material but changes capacity from 1L to 1.5L and color from white to black; whole difference -13.03 is within the -3.54 cap.",
+            "question": "Would you permit changing the capacity to 1.5L and color to black for this item?"
+          },
+          {
+            "variant_id": "9472539378",
+            "observation": "Matches the current white color but changes capacity from 1L to 1.5L and material from plastic to glass; whole difference -14.79 is within the -3.54 cap.",
+            "question": "Would you permit changing the capacity to 1.5L and material to glass for this item?"
+          }
+        ],
+        "analysis": "The current exact request for original item 7602931732 (variant 2243454707: 1L, plastic, white at 164.46) produces a whole difference of +5.95 versus the original purchased price, which exceeds the maximum signed whole difference of -3.54. No exact-feasible option exists, so the exact request cannot proceed under the stated cap. The unaffected item 9570044148 (variant 3616838507) matches its observed options and is not part of this conflict. The listed negotiable variants each satisfy the cap and match at least one current attribute, but every one changes at least one current specification (color, material, or capacity), so none may be substituted without your new explicit permission. No permission is assumed here; this is only a request for your decision."
+      },
+      "not_authorization": true
+    },
+    "current_targets": {
+      "7602931732": "2243454707",
+      "9570044148": "3616838507"
+    },
+    "scope": null,
+    "cap": "-3.54",
+    "analysis_record": [
+      {
+        "kind": "analysis_result",
+        "facts": {
+          "comparison_scope_original_item_ids": [
+            "7602931732"
+          ],
+          "unaffected_items": [
+            {
+              "original_item_id": "9570044148",
+              "current_variant": "3616838507",
+              "local_spec_matches_observed_options": true,
+              "stock": true,
+              "need_new_spec_permission_due_to_this_comparison": false
+            }
+          ],
+          "status": "no_exact_match",
+          "exact_feasible": [],
+          "negotiable": [
+            {
+              "variant_id": "1240311797",
+              "options": {
+                "capacity": "1L",
+                "material": "glass",
+                "color": "silver"
+              },
+              "price": 137.17,
+              "whole_difference": "-21.34",
+              "source_ref": 8,
+              "matches_current": {
+                "capacity": "1L"
+              },
+              "changes_current": {
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "silver"
+                }
+              }
+            },
+            {
+              "variant_id": "2323972008",
+              "options": {
+                "capacity": "1L",
+                "material": "glass",
+                "color": "black"
+              },
+              "price": 146.98,
+              "whole_difference": "-11.53",
+              "source_ref": 8,
+              "matches_current": {
+                "capacity": "1L"
+              },
+              "changes_current": {
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "black"
+                }
+              }
+            },
+            {
+              "variant_id": "2698416822",
+              "options": {
+                "capacity": "1.5L",
+                "material": "plastic",
+                "color": "white"
+              },
+              "price": 149.45,
+              "whole_difference": "-9.06",
+              "source_ref": 8,
+              "matches_current": {
+                "material": "plastic",
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                }
+              }
+            },
+            {
+              "variant_id": "4458619711",
+              "options": {
+                "capacity": "2L",
+                "material": "stainless steel",
+                "color": "white"
+              },
+              "price": 153.81,
+              "whole_difference": "-4.70",
+              "source_ref": 8,
+              "matches_current": {
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "2L"
+                },
+                "material": {
+                  "current": "plastic",
+                  "offered": "stainless steel"
+                }
+              }
+            },
+            {
+              "variant_id": "5428723833",
+              "options": {
+                "capacity": "1.5L",
+                "material": "plastic",
+                "color": "black"
+              },
+              "price": 145.48,
+              "whole_difference": "-13.03",
+              "source_ref": 8,
+              "matches_current": {
+                "material": "plastic"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "black"
+                }
+              }
+            },
+            {
+              "variant_id": "9472539378",
+              "options": {
+                "capacity": "1.5L",
+                "material": "glass",
+                "color": "white"
+              },
+              "price": 143.72,
+              "whole_difference": "-14.79",
+              "source_ref": 8,
+              "matches_current": {
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                },
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                }
+              }
+            }
+          ],
+          "empty_exact_set_is_valid": true,
+          "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+          "current_requested_sku": "2243454707",
+          "current_sku_exists": true,
+          "current_stock": true,
+          "current_whole_difference": "5.95",
+          "maximum_signed_whole_difference": "-3.54",
+          "conflict_cause": "signed_amount_cap",
+          "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements"
+        },
+        "model_advice": {
+          "comparison_scope": "current exact requirements vs negotiable relaxations",
+          "tradeoffs": [
+            {
+              "variant_id": "1240311797",
+              "observation": "Matches the current 1L capacity but changes color from white to silver and material from plastic to glass; whole difference -21.34 is within the -3.54 cap.",
+              "question": "Would you permit changing the color to silver and material to glass for this item?"
+            },
+            {
+              "variant_id": "2323972008",
+              "observation": "Matches the current 1L capacity but changes color from white to black and material from plastic to glass; whole difference -11.53 is within the -3.54 cap.",
+              "question": "Would you permit changing the color to black and material to glass for this item?"
+            },
+            {
+              "variant_id": "2698416822",
+              "observation": "Matches the current white color and plastic material but changes capacity from 1L to 1.5L; whole difference -9.06 is within the -3.54 cap.",
+              "question": "Would you permit changing the capacity to 1.5L for this item?"
+            },
+            {
+              "variant_id": "4458619711",
+              "observation": "Matches the current white color but changes capacity from 1L to 2L and material from plastic to stainless steel; whole difference -4.70 is within the -3.54 cap.",
+              "question": "Would you permit changing the capacity to 2L and material to stainless steel for this item?"
+            },
+            {
+              "variant_id": "5428723833",
+              "observation": "Matches the current plastic material but changes capacity from 1L to 1.5L and color from white to black; whole difference -13.03 is within the -3.54 cap.",
+              "question": "Would you permit changing the capacity to 1.5L and color to black for this item?"
+            },
+            {
+              "variant_id": "9472539378",
+              "observation": "Matches the current white color but changes capacity from 1L to 1.5L and material from plastic to glass; whole difference -14.79 is within the -3.54 cap.",
+              "question": "Would you permit changing the capacity to 1.5L and material to glass for this item?"
+            }
+          ],
+          "analysis": "The current exact request for original item 7602931732 (variant 2243454707: 1L, plastic, white at 164.46) produces a whole difference of +5.95 versus the original purchased price, which exceeds the maximum signed whole difference of -3.54. No exact-feasible option exists, so the exact request cannot proceed under the stated cap. The unaffected item 9570044148 (variant 3616838507) matches its observed options and is not part of this conflict. The listed negotiable variants each satisfy the cap and match at least one current attribute, but every one changes at least one current specification (color, material, or capacity), so none may be substituted without your new explicit permission. No permission is assumed here; this is only a request for your decision."
+        },
+        "not_authorization": true
+      }
+    ]
+  },
+  {
+    "id": "B_E26_capacity_r2_analyze",
+    "phase": "B01",
+    "event": 1,
+    "kind": "decision",
+    "decision": {
+      "work_type": "clarify",
+      "object": "7602931732",
+      "parameters": {
+        "variant_id": "2698416822"
+      },
+      "evidence_refs": [
+        8
+      ],
+      "expected": "User grants or declines permission to change capacity from 1L to 1.5L for original item 7602931732, keeping white color and plastic material, within the -3.54 cap",
+      "reason": "Exact requested variant 2243454707 exceeds the signed amount cap (+5.95 > -3.54) with no exact-feasible option; variant 2698416822 is available within cap and preserves the highest-priority attribute (capacity 1L→1.5L is the only change, matching white/plastic), so it is the best-aligned negotiable alternative requiring new specification permission."
+    },
+    "actual_input": {
+      "analysis_feedback": [
+        {
+          "facts": {
+            "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements",
+            "comparison_scope_original_item_ids": [
+              "7602931732"
+            ],
+            "conflict_cause": "signed_amount_cap",
+            "current_requested_sku": "2243454707",
+            "current_sku_exists": true,
+            "current_stock": true,
+            "current_whole_difference": "5.95",
+            "empty_exact_set_is_valid": true,
+            "exact_feasible": [],
+            "maximum_signed_whole_difference": "-3.54",
+            "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+            "negotiable": [
+              {
+                "changes_current": {
+                  "color": {
+                    "current": "white",
+                    "offered": "silver"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "capacity": "1L"
+                },
+                "options": {
+                  "capacity": "1L",
+                  "color": "silver",
+                  "material": "glass"
+                },
+                "price": 137.17,
+                "source_ref": 8,
+                "variant_id": "1240311797",
+                "whole_difference": "-21.34"
+              },
+              {
+                "changes_current": {
+                  "color": {
+                    "current": "white",
+                    "offered": "black"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "capacity": "1L"
+                },
+                "options": {
+                  "capacity": "1L",
+                  "color": "black",
+                  "material": "glass"
+                },
+                "price": 146.98,
+                "source_ref": 8,
+                "variant_id": "2323972008",
+                "whole_difference": "-11.53"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  }
+                },
+                "matches_current": {
+                  "color": "white",
+                  "material": "plastic"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "white",
+                  "material": "plastic"
+                },
+                "price": 149.45,
+                "source_ref": 8,
+                "variant_id": "2698416822",
+                "whole_difference": "-9.06"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "2L"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "stainless steel"
+                  }
+                },
+                "matches_current": {
+                  "color": "white"
+                },
+                "options": {
+                  "capacity": "2L",
+                  "color": "white",
+                  "material": "stainless steel"
+                },
+                "price": 153.81,
+                "source_ref": 8,
+                "variant_id": "4458619711",
+                "whole_difference": "-4.70"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  },
+                  "color": {
+                    "current": "white",
+                    "offered": "black"
+                  }
+                },
+                "matches_current": {
+                  "material": "plastic"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "black",
+                  "material": "plastic"
+                },
+                "price": 145.48,
+                "source_ref": 8,
+                "variant_id": "5428723833",
+                "whole_difference": "-13.03"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "color": "white"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "white",
+                  "material": "glass"
+                },
+                "price": 143.72,
+                "source_ref": 8,
+                "variant_id": "9472539378",
+                "whole_difference": "-14.79"
+              }
+            ],
+            "status": "no_exact_match",
+            "unaffected_items": [
+              {
+                "current_variant": "3616838507",
+                "local_spec_matches_observed_options": true,
+                "need_new_spec_permission_due_to_this_comparison": false,
+                "original_item_id": "9570044148",
+                "stock": true
+              }
+            ]
+          },
+          "kind": "analysis_result",
+          "model_advice": {
+            "analysis": "The current exact request for original item 7602931732 (variant 2243454707: 1L, plastic, white at 164.46) produces a whole difference of +5.95 versus the original purchased price, which exceeds the maximum signed whole difference of -3.54. No exact-feasible option exists, so the exact request cannot proceed under the stated cap. The unaffected item 9570044148 (variant 3616838507) matches its observed options and is not part of this conflict. The listed negotiable variants each satisfy the cap and match at least one current attribute, but every one changes at least one current specification (color, material, or capacity), so none may be substituted without your new explicit permission. No permission is assumed here; this is only a request for your decision.",
+            "comparison_scope": "current exact requirements vs negotiable relaxations",
+            "tradeoffs": [
+              {
+                "observation": "Matches the current 1L capacity but changes color from white to silver and material from plastic to glass; whole difference -21.34 is within the -3.54 cap.",
+                "question": "Would you permit changing the color to silver and material to glass for this item?",
+                "variant_id": "1240311797"
+              },
+              {
+                "observation": "Matches the current 1L capacity but changes color from white to black and material from plastic to glass; whole difference -11.53 is within the -3.54 cap.",
+                "question": "Would you permit changing the color to black and material to glass for this item?",
+                "variant_id": "2323972008"
+              },
+              {
+                "observation": "Matches the current white color and plastic material but changes capacity from 1L to 1.5L; whole difference -9.06 is within the -3.54 cap.",
+                "question": "Would you permit changing the capacity to 1.5L for this item?",
+                "variant_id": "2698416822"
+              },
+              {
+                "observation": "Matches the current white color but changes capacity from 1L to 2L and material from plastic to stainless steel; whole difference -4.70 is within the -3.54 cap.",
+                "question": "Would you permit changing the capacity to 2L and material to stainless steel for this item?",
+                "variant_id": "4458619711"
+              },
+              {
+                "observation": "Matches the current plastic material but changes capacity from 1L to 1.5L and color from white to black; whole difference -13.03 is within the -3.54 cap.",
+                "question": "Would you permit changing the capacity to 1.5L and color to black for this item?",
+                "variant_id": "5428723833"
+              },
+              {
+                "observation": "Matches the current white color but changes capacity from 1L to 1.5L and material from plastic to glass; whole difference -14.79 is within the -3.54 cap.",
+                "question": "Would you permit changing the capacity to 1.5L and material to glass for this item?",
+                "variant_id": "9472539378"
+              }
+            ]
+          },
+          "not_authorization": true
+        }
+      ],
+      "authorization_evidence": {
+        "current_bound_arguments": null,
+        "quoted_user_replies": [],
+        "sources": [],
+        "valid_for_current_plan": false
+      },
+      "budget": {
+        "calls": 39,
+        "operations": 23,
+        "tokens": 177721
+      },
+      "candidate_work": [
+        {
+          "effect": "compare exact feasibility and negotiable options; empty exact result valid",
+          "object": "7602931732",
+          "preconditions": {
+            "catalogue_observed": true
+          },
+          "work_type": "analyze"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "1240311797"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "2323972008"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "2698416822"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "4458619711"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "5428723833"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "9472539378"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask independent complete-plan approval",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_plan": false,
+            "pending_resolved": true
+          },
+          "work_type": "confirm"
+        },
+        {
+          "effect": "store ONLY feasible current plan; not a diagnostic draft",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_spec_feasible": false,
+            "pending_resolved": true
+          },
+          "work_type": "prepare"
+        },
+        {
+          "effect": "formal inventory evidence",
+          "object": "1075968781",
+          "preconditions": {
+            "scope_product": true
+          },
+          "work_type": "query"
+        },
+        {
+          "effect": "native write",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_authorization": false
+          },
+          "work_type": "submit"
+        }
+      ],
+      "change": null,
+      "constraint_judgments": {
+        "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements",
+        "comparison_scope_original_item_ids": [
+          "7602931732"
+        ],
+        "conflict_cause": "signed_amount_cap",
+        "current_requested_sku": "2243454707",
+        "current_sku_exists": true,
+        "current_stock": true,
+        "current_whole_difference": "5.95",
+        "empty_exact_set_is_valid": true,
+        "exact_feasible": [],
+        "maximum_signed_whole_difference": "-3.54",
+        "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+        "negotiable": [
+          {
+            "changes_current": {
+              "color": {
+                "current": "white",
+                "offered": "silver"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "options": {
+              "capacity": "1L",
+              "color": "silver",
+              "material": "glass"
+            },
+            "price": 137.17,
+            "source_ref": 8,
+            "variant_id": "1240311797",
+            "whole_difference": "-21.34"
+          },
+          {
+            "changes_current": {
+              "color": {
+                "current": "white",
+                "offered": "black"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "options": {
+              "capacity": "1L",
+              "color": "black",
+              "material": "glass"
+            },
+            "price": 146.98,
+            "source_ref": 8,
+            "variant_id": "2323972008",
+            "whole_difference": "-11.53"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              }
+            },
+            "matches_current": {
+              "color": "white",
+              "material": "plastic"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "white",
+              "material": "plastic"
+            },
+            "price": 149.45,
+            "source_ref": 8,
+            "variant_id": "2698416822",
+            "whole_difference": "-9.06"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "2L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "stainless steel"
+              }
+            },
+            "matches_current": {
+              "color": "white"
+            },
+            "options": {
+              "capacity": "2L",
+              "color": "white",
+              "material": "stainless steel"
+            },
+            "price": 153.81,
+            "source_ref": 8,
+            "variant_id": "4458619711",
+            "whole_difference": "-4.70"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            },
+            "matches_current": {
+              "material": "plastic"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "black",
+              "material": "plastic"
+            },
+            "price": 145.48,
+            "source_ref": 8,
+            "variant_id": "5428723833",
+            "whole_difference": "-13.03"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "color": "white"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "white",
+              "material": "glass"
+            },
+            "price": 143.72,
+            "source_ref": 8,
+            "variant_id": "9472539378",
+            "whole_difference": "-14.79"
+          }
+        ],
+        "status": "no_exact_match",
+        "unaffected_items": [
+          {
+            "current_variant": "3616838507",
+            "local_spec_matches_observed_options": true,
+            "need_new_spec_permission_due_to_this_comparison": false,
+            "original_item_id": "9570044148",
+            "stock": true
+          }
+        ]
+      },
+      "current_difference": "5.95",
+      "current_full_authorization": false,
+      "current_plan": null,
+      "current_plan_valid": false,
+      "evidence_index": {
+        "1075968781": 8,
+        "1656367028": 10
+      },
+      "execution_feedback": [
+        {
+          "allowed": true,
+          "historical_not_current_prerequisites": true,
+          "kind": "operation_result",
+          "reason": null,
+          "work_type": "analyze"
+        }
+      ],
+      "hard_constraint": {
+        "max_signed_whole_difference": "-3.54",
+        "source_ref": 11
+      },
+      "missing_prerequisites": [
+        "current requested specification violates stock or signed amount cap; analyze negotiable alternatives or clarify; prepare cannot fix infeasibility",
+        "feasible complete current proposal"
+      ],
+      "objects": [
+        {
+          "CURRENT_EFFECTIVE_SPECIFICATION": {
+            "literal_user_source": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In delivered order #W5565470 exchange ONLY this mapping of original items to initially requested replacements: {\"7602931732\": \"2243454707\", \"9570044148\": \"3616838507\"}. Requested options: {\"7602931732\": {\"capacity\": \"1L\", \"material\": \"plastic\", \"color\": \"white\"}, \"9570044148\": {\"switch type\": \"tactile\", \"backlight\": \"white\", \"size\": \"full size\"}}. Keep all other items and use original payment paypal_3024827. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization. SOFT preference priority highest first: [\"capacity\",\"color\",\"material\"]. These priorities remain for evaluating an explicitly accepted tradeoff; stock/cap/authorization are hard.",
+            "options": {
+              "capacity": "1L",
+              "color": "white",
+              "material": "plastic"
+            },
+            "price": 164.46,
+            "source_ref": 0,
+            "stock": true,
+            "variant_id": "2243454707"
+          },
+          "initial_request_history_only": {
+            "active": true,
+            "source_ref": 0,
+            "variant_id": "2243454707"
+          },
+          "original_item_id": "7602931732",
+          "product_id": "1075968781",
+          "purchased": {
+            "options": {
+              "capacity": "1L",
+              "color": "black",
+              "material": "stainless steel"
+            },
+            "price": 153.25,
+            "source_refs": [
+              6
+            ],
+            "variant_id": "7602931732"
+          }
+        },
+        {
+          "CURRENT_EFFECTIVE_SPECIFICATION": {
+            "literal_user_source": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In delivered order #W5565470 exchange ONLY this mapping of original items to initially requested replacements: {\"7602931732\": \"2243454707\", \"9570044148\": \"3616838507\"}. Requested options: {\"7602931732\": {\"capacity\": \"1L\", \"material\": \"plastic\", \"color\": \"white\"}, \"9570044148\": {\"switch type\": \"tactile\", \"backlight\": \"white\", \"size\": \"full size\"}}. Keep all other items and use original payment paypal_3024827. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization. SOFT preference priority highest first: [\"capacity\",\"color\",\"material\"]. These priorities remain for evaluating an explicitly accepted tradeoff; stock/cap/authorization are hard.",
+            "options": {
+              "backlight": "white",
+              "size": "full size",
+              "switch type": "tactile"
+            },
+            "price": 226.11,
+            "source_ref": 0,
+            "stock": true,
+            "variant_id": "3616838507"
+          },
+          "initial_request_history_only": {
+            "active": true,
+            "source_ref": 0,
+            "variant_id": "3616838507"
+          },
+          "original_item_id": "9570044148",
+          "product_id": "1656367028",
+          "purchased": {
+            "options": {
+              "backlight": "none",
+              "size": "full size",
+              "switch type": "linear"
+            },
+            "price": 231.37,
+            "source_refs": [
+              6
+            ],
+            "variant_id": "9570044148"
+          }
+        }
+      ],
+      "order_id": "#W5565470",
+      "order_status": "delivered",
+      "payment_method_id": "paypal_3024827",
+      "pending_user_messages": []
+    },
+    "response_id": "688ec599-90f5-488f-91d2-88673e6811a6"
+  },
+  {
+    "id": "B_E26_appearance_r1_analyze",
+    "phase": "B01",
+    "event": 0,
+    "kind": "analysis",
+    "result": {
+      "kind": "analysis_result",
+      "facts": {
+        "comparison_scope_original_item_ids": [
+          "7602931732"
+        ],
+        "unaffected_items": [
+          {
+            "original_item_id": "9570044148",
+            "current_variant": "3616838507",
+            "local_spec_matches_observed_options": true,
+            "stock": true,
+            "need_new_spec_permission_due_to_this_comparison": false
+          }
+        ],
+        "status": "no_exact_match",
+        "exact_feasible": [],
+        "negotiable": [
+          {
+            "variant_id": "1240311797",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "price": 137.17,
+            "whole_difference": "-21.34",
+            "source_ref": 8,
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "changes_current": {
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              },
+              "color": {
+                "current": "white",
+                "offered": "silver"
+              }
+            }
+          },
+          {
+            "variant_id": "2323972008",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "black"
+            },
+            "price": 146.98,
+            "whole_difference": "-11.53",
+            "source_ref": 8,
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "changes_current": {
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            }
+          },
+          {
+            "variant_id": "2698416822",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "white"
+            },
+            "price": 149.45,
+            "whole_difference": "-9.06",
+            "source_ref": 8,
+            "matches_current": {
+              "material": "plastic",
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              }
+            }
+          },
+          {
+            "variant_id": "4458619711",
+            "options": {
+              "capacity": "2L",
+              "material": "stainless steel",
+              "color": "white"
+            },
+            "price": 153.81,
+            "whole_difference": "-4.70",
+            "source_ref": 8,
+            "matches_current": {
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "2L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "stainless steel"
+              }
+            }
+          },
+          {
+            "variant_id": "5428723833",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "black"
+            },
+            "price": 145.48,
+            "whole_difference": "-13.03",
+            "source_ref": 8,
+            "matches_current": {
+              "material": "plastic"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            }
+          },
+          {
+            "variant_id": "9472539378",
+            "options": {
+              "capacity": "1.5L",
+              "material": "glass",
+              "color": "white"
+            },
+            "price": 143.72,
+            "whole_difference": "-14.79",
+            "source_ref": 8,
+            "matches_current": {
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            }
+          }
+        ],
+        "empty_exact_set_is_valid": true,
+        "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+        "current_requested_sku": "2243454707",
+        "current_sku_exists": true,
+        "current_stock": true,
+        "current_whole_difference": "5.95",
+        "maximum_signed_whole_difference": "-3.54",
+        "conflict_cause": "signed_amount_cap",
+        "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements"
+      },
+      "model_advice": {
+        "comparison_scope": "current exact requirements vs negotiable relaxations",
+        "tradeoffs": [
+          {
+            "variant_id": "1240311797",
+            "observation": "Matches current capacity 1L but changes color white→silver and material plastic→glass; whole difference -21.34, within the -3.54 cap.",
+            "question": "May I offer this silver/glass 1L alternative for your consideration, understanding it differs from your current color and material?"
+          },
+          {
+            "variant_id": "2323972008",
+            "observation": "Matches current capacity 1L but changes color white→black and material plastic→glass; whole difference -11.53, within cap.",
+            "question": "May I offer this black/glass 1L alternative for your consideration, understanding it differs from your current color and material?"
+          },
+          {
+            "variant_id": "2698416822",
+            "observation": "Matches current color white and material plastic but changes capacity 1L→1.5L; whole difference -9.06, within cap.",
+            "question": "May I offer this 1.5L white plastic alternative for your consideration, understanding it differs from your current capacity?"
+          },
+          {
+            "variant_id": "4458619711",
+            "observation": "Matches current color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70, within cap.",
+            "question": "May I offer this 2L white stainless steel alternative for your consideration, understanding it differs from your current capacity and material?"
+          },
+          {
+            "variant_id": "5428723833",
+            "observation": "Matches current material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03, within cap.",
+            "question": "May I offer this 1.5L black plastic alternative for your consideration, understanding it differs from your current capacity and color?"
+          },
+          {
+            "variant_id": "9472539378",
+            "observation": "Matches current color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79, within cap.",
+            "question": "May I offer this 1.5L white glass alternative for your consideration, understanding it differs from your current capacity and material?"
+          }
+        ],
+        "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 (1L, plastic, white) is in stock but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), which is a valid finding. The six negotiable variants all fall within the cap but each changes at least one current option, so none may be substituted without your new specification permission. The other exchange item 9570044148 (3616838507) locally matches its observed options and is unaffected by this comparison; its alternatives are not an unmet requirement. No transaction approval is granted by this analysis."
+      },
+      "not_authorization": true
+    },
+    "current_targets": {
+      "7602931732": "2243454707",
+      "9570044148": "3616838507"
+    },
+    "scope": null,
+    "cap": "-3.54",
+    "analysis_record": [
+      {
+        "kind": "analysis_result",
+        "facts": {
+          "comparison_scope_original_item_ids": [
+            "7602931732"
+          ],
+          "unaffected_items": [
+            {
+              "original_item_id": "9570044148",
+              "current_variant": "3616838507",
+              "local_spec_matches_observed_options": true,
+              "stock": true,
+              "need_new_spec_permission_due_to_this_comparison": false
+            }
+          ],
+          "status": "no_exact_match",
+          "exact_feasible": [],
+          "negotiable": [
+            {
+              "variant_id": "1240311797",
+              "options": {
+                "capacity": "1L",
+                "material": "glass",
+                "color": "silver"
+              },
+              "price": 137.17,
+              "whole_difference": "-21.34",
+              "source_ref": 8,
+              "matches_current": {
+                "capacity": "1L"
+              },
+              "changes_current": {
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "silver"
+                }
+              }
+            },
+            {
+              "variant_id": "2323972008",
+              "options": {
+                "capacity": "1L",
+                "material": "glass",
+                "color": "black"
+              },
+              "price": 146.98,
+              "whole_difference": "-11.53",
+              "source_ref": 8,
+              "matches_current": {
+                "capacity": "1L"
+              },
+              "changes_current": {
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "black"
+                }
+              }
+            },
+            {
+              "variant_id": "2698416822",
+              "options": {
+                "capacity": "1.5L",
+                "material": "plastic",
+                "color": "white"
+              },
+              "price": 149.45,
+              "whole_difference": "-9.06",
+              "source_ref": 8,
+              "matches_current": {
+                "material": "plastic",
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                }
+              }
+            },
+            {
+              "variant_id": "4458619711",
+              "options": {
+                "capacity": "2L",
+                "material": "stainless steel",
+                "color": "white"
+              },
+              "price": 153.81,
+              "whole_difference": "-4.70",
+              "source_ref": 8,
+              "matches_current": {
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "2L"
+                },
+                "material": {
+                  "current": "plastic",
+                  "offered": "stainless steel"
+                }
+              }
+            },
+            {
+              "variant_id": "5428723833",
+              "options": {
+                "capacity": "1.5L",
+                "material": "plastic",
+                "color": "black"
+              },
+              "price": 145.48,
+              "whole_difference": "-13.03",
+              "source_ref": 8,
+              "matches_current": {
+                "material": "plastic"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "black"
+                }
+              }
+            },
+            {
+              "variant_id": "9472539378",
+              "options": {
+                "capacity": "1.5L",
+                "material": "glass",
+                "color": "white"
+              },
+              "price": 143.72,
+              "whole_difference": "-14.79",
+              "source_ref": 8,
+              "matches_current": {
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                },
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                }
+              }
+            }
+          ],
+          "empty_exact_set_is_valid": true,
+          "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+          "current_requested_sku": "2243454707",
+          "current_sku_exists": true,
+          "current_stock": true,
+          "current_whole_difference": "5.95",
+          "maximum_signed_whole_difference": "-3.54",
+          "conflict_cause": "signed_amount_cap",
+          "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements"
+        },
+        "model_advice": {
+          "comparison_scope": "current exact requirements vs negotiable relaxations",
+          "tradeoffs": [
+            {
+              "variant_id": "1240311797",
+              "observation": "Matches current capacity 1L but changes color white→silver and material plastic→glass; whole difference -21.34, within the -3.54 cap.",
+              "question": "May I offer this silver/glass 1L alternative for your consideration, understanding it differs from your current color and material?"
+            },
+            {
+              "variant_id": "2323972008",
+              "observation": "Matches current capacity 1L but changes color white→black and material plastic→glass; whole difference -11.53, within cap.",
+              "question": "May I offer this black/glass 1L alternative for your consideration, understanding it differs from your current color and material?"
+            },
+            {
+              "variant_id": "2698416822",
+              "observation": "Matches current color white and material plastic but changes capacity 1L→1.5L; whole difference -9.06, within cap.",
+              "question": "May I offer this 1.5L white plastic alternative for your consideration, understanding it differs from your current capacity?"
+            },
+            {
+              "variant_id": "4458619711",
+              "observation": "Matches current color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70, within cap.",
+              "question": "May I offer this 2L white stainless steel alternative for your consideration, understanding it differs from your current capacity and material?"
+            },
+            {
+              "variant_id": "5428723833",
+              "observation": "Matches current material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03, within cap.",
+              "question": "May I offer this 1.5L black plastic alternative for your consideration, understanding it differs from your current capacity and color?"
+            },
+            {
+              "variant_id": "9472539378",
+              "observation": "Matches current color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79, within cap.",
+              "question": "May I offer this 1.5L white glass alternative for your consideration, understanding it differs from your current capacity and material?"
+            }
+          ],
+          "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 (1L, plastic, white) is in stock but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), which is a valid finding. The six negotiable variants all fall within the cap but each changes at least one current option, so none may be substituted without your new specification permission. The other exchange item 9570044148 (3616838507) locally matches its observed options and is unaffected by this comparison; its alternatives are not an unmet requirement. No transaction approval is granted by this analysis."
+        },
+        "not_authorization": true
+      }
+    ]
+  },
+  {
+    "id": "B_E26_appearance_r1_analyze",
+    "phase": "B01",
+    "event": 1,
+    "kind": "decision",
+    "decision": {
+      "work_type": "clarify",
+      "object": "7602931732",
+      "parameters": {
+        "variant_id": "2698416822"
+      },
+      "evidence_refs": [
+        8
+      ],
+      "expected": "User grants new specification permission for variant 2698416822 (1.5L white plastic) or declines, enabling a feasible plan within the -3.54 cap.",
+      "reason": "Exact requested SKU 2243454707 exceeds the signed amount cap (+5.95 > -3.54), so no exact match is feasible. Variant 2698416822 is in stock, within cap (-9.06), and preserves the two highest-priority options (color white, material plastic), changing only capacity 1L→1.5L; it requires the user's new specification permission."
+    },
+    "actual_input": {
+      "analysis_feedback": [
+        {
+          "facts": {
+            "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements",
+            "comparison_scope_original_item_ids": [
+              "7602931732"
+            ],
+            "conflict_cause": "signed_amount_cap",
+            "current_requested_sku": "2243454707",
+            "current_sku_exists": true,
+            "current_stock": true,
+            "current_whole_difference": "5.95",
+            "empty_exact_set_is_valid": true,
+            "exact_feasible": [],
+            "maximum_signed_whole_difference": "-3.54",
+            "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+            "negotiable": [
+              {
+                "changes_current": {
+                  "color": {
+                    "current": "white",
+                    "offered": "silver"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "capacity": "1L"
+                },
+                "options": {
+                  "capacity": "1L",
+                  "color": "silver",
+                  "material": "glass"
+                },
+                "price": 137.17,
+                "source_ref": 8,
+                "variant_id": "1240311797",
+                "whole_difference": "-21.34"
+              },
+              {
+                "changes_current": {
+                  "color": {
+                    "current": "white",
+                    "offered": "black"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "capacity": "1L"
+                },
+                "options": {
+                  "capacity": "1L",
+                  "color": "black",
+                  "material": "glass"
+                },
+                "price": 146.98,
+                "source_ref": 8,
+                "variant_id": "2323972008",
+                "whole_difference": "-11.53"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  }
+                },
+                "matches_current": {
+                  "color": "white",
+                  "material": "plastic"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "white",
+                  "material": "plastic"
+                },
+                "price": 149.45,
+                "source_ref": 8,
+                "variant_id": "2698416822",
+                "whole_difference": "-9.06"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "2L"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "stainless steel"
+                  }
+                },
+                "matches_current": {
+                  "color": "white"
+                },
+                "options": {
+                  "capacity": "2L",
+                  "color": "white",
+                  "material": "stainless steel"
+                },
+                "price": 153.81,
+                "source_ref": 8,
+                "variant_id": "4458619711",
+                "whole_difference": "-4.70"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  },
+                  "color": {
+                    "current": "white",
+                    "offered": "black"
+                  }
+                },
+                "matches_current": {
+                  "material": "plastic"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "black",
+                  "material": "plastic"
+                },
+                "price": 145.48,
+                "source_ref": 8,
+                "variant_id": "5428723833",
+                "whole_difference": "-13.03"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "color": "white"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "white",
+                  "material": "glass"
+                },
+                "price": 143.72,
+                "source_ref": 8,
+                "variant_id": "9472539378",
+                "whole_difference": "-14.79"
+              }
+            ],
+            "status": "no_exact_match",
+            "unaffected_items": [
+              {
+                "current_variant": "3616838507",
+                "local_spec_matches_observed_options": true,
+                "need_new_spec_permission_due_to_this_comparison": false,
+                "original_item_id": "9570044148",
+                "stock": true
+              }
+            ]
+          },
+          "kind": "analysis_result",
+          "model_advice": {
+            "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 (1L, plastic, white) is in stock but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), which is a valid finding. The six negotiable variants all fall within the cap but each changes at least one current option, so none may be substituted without your new specification permission. The other exchange item 9570044148 (3616838507) locally matches its observed options and is unaffected by this comparison; its alternatives are not an unmet requirement. No transaction approval is granted by this analysis.",
+            "comparison_scope": "current exact requirements vs negotiable relaxations",
+            "tradeoffs": [
+              {
+                "observation": "Matches current capacity 1L but changes color white→silver and material plastic→glass; whole difference -21.34, within the -3.54 cap.",
+                "question": "May I offer this silver/glass 1L alternative for your consideration, understanding it differs from your current color and material?",
+                "variant_id": "1240311797"
+              },
+              {
+                "observation": "Matches current capacity 1L but changes color white→black and material plastic→glass; whole difference -11.53, within cap.",
+                "question": "May I offer this black/glass 1L alternative for your consideration, understanding it differs from your current color and material?",
+                "variant_id": "2323972008"
+              },
+              {
+                "observation": "Matches current color white and material plastic but changes capacity 1L→1.5L; whole difference -9.06, within cap.",
+                "question": "May I offer this 1.5L white plastic alternative for your consideration, understanding it differs from your current capacity?",
+                "variant_id": "2698416822"
+              },
+              {
+                "observation": "Matches current color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70, within cap.",
+                "question": "May I offer this 2L white stainless steel alternative for your consideration, understanding it differs from your current capacity and material?",
+                "variant_id": "4458619711"
+              },
+              {
+                "observation": "Matches current material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03, within cap.",
+                "question": "May I offer this 1.5L black plastic alternative for your consideration, understanding it differs from your current capacity and color?",
+                "variant_id": "5428723833"
+              },
+              {
+                "observation": "Matches current color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79, within cap.",
+                "question": "May I offer this 1.5L white glass alternative for your consideration, understanding it differs from your current capacity and material?",
+                "variant_id": "9472539378"
+              }
+            ]
+          },
+          "not_authorization": true
+        }
+      ],
+      "authorization_evidence": {
+        "current_bound_arguments": null,
+        "quoted_user_replies": [],
+        "sources": [],
+        "valid_for_current_plan": false
+      },
+      "budget": {
+        "calls": 39,
+        "operations": 23,
+        "tokens": 177739
+      },
+      "candidate_work": [
+        {
+          "effect": "compare exact feasibility and negotiable options; empty exact result valid",
+          "object": "7602931732",
+          "preconditions": {
+            "catalogue_observed": true
+          },
+          "work_type": "analyze"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "1240311797"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "2323972008"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "2698416822"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "4458619711"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "5428723833"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "9472539378"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask independent complete-plan approval",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_plan": false,
+            "pending_resolved": true
+          },
+          "work_type": "confirm"
+        },
+        {
+          "effect": "store ONLY feasible current plan; not a diagnostic draft",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_spec_feasible": false,
+            "pending_resolved": true
+          },
+          "work_type": "prepare"
+        },
+        {
+          "effect": "formal inventory evidence",
+          "object": "1075968781",
+          "preconditions": {
+            "scope_product": true
+          },
+          "work_type": "query"
+        },
+        {
+          "effect": "native write",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_authorization": false
+          },
+          "work_type": "submit"
+        }
+      ],
+      "change": null,
+      "constraint_judgments": {
+        "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements",
+        "comparison_scope_original_item_ids": [
+          "7602931732"
+        ],
+        "conflict_cause": "signed_amount_cap",
+        "current_requested_sku": "2243454707",
+        "current_sku_exists": true,
+        "current_stock": true,
+        "current_whole_difference": "5.95",
+        "empty_exact_set_is_valid": true,
+        "exact_feasible": [],
+        "maximum_signed_whole_difference": "-3.54",
+        "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+        "negotiable": [
+          {
+            "changes_current": {
+              "color": {
+                "current": "white",
+                "offered": "silver"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "options": {
+              "capacity": "1L",
+              "color": "silver",
+              "material": "glass"
+            },
+            "price": 137.17,
+            "source_ref": 8,
+            "variant_id": "1240311797",
+            "whole_difference": "-21.34"
+          },
+          {
+            "changes_current": {
+              "color": {
+                "current": "white",
+                "offered": "black"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "options": {
+              "capacity": "1L",
+              "color": "black",
+              "material": "glass"
+            },
+            "price": 146.98,
+            "source_ref": 8,
+            "variant_id": "2323972008",
+            "whole_difference": "-11.53"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              }
+            },
+            "matches_current": {
+              "color": "white",
+              "material": "plastic"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "white",
+              "material": "plastic"
+            },
+            "price": 149.45,
+            "source_ref": 8,
+            "variant_id": "2698416822",
+            "whole_difference": "-9.06"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "2L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "stainless steel"
+              }
+            },
+            "matches_current": {
+              "color": "white"
+            },
+            "options": {
+              "capacity": "2L",
+              "color": "white",
+              "material": "stainless steel"
+            },
+            "price": 153.81,
+            "source_ref": 8,
+            "variant_id": "4458619711",
+            "whole_difference": "-4.70"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            },
+            "matches_current": {
+              "material": "plastic"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "black",
+              "material": "plastic"
+            },
+            "price": 145.48,
+            "source_ref": 8,
+            "variant_id": "5428723833",
+            "whole_difference": "-13.03"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "color": "white"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "white",
+              "material": "glass"
+            },
+            "price": 143.72,
+            "source_ref": 8,
+            "variant_id": "9472539378",
+            "whole_difference": "-14.79"
+          }
+        ],
+        "status": "no_exact_match",
+        "unaffected_items": [
+          {
+            "current_variant": "3616838507",
+            "local_spec_matches_observed_options": true,
+            "need_new_spec_permission_due_to_this_comparison": false,
+            "original_item_id": "9570044148",
+            "stock": true
+          }
+        ]
+      },
+      "current_difference": "5.95",
+      "current_full_authorization": false,
+      "current_plan": null,
+      "current_plan_valid": false,
+      "evidence_index": {
+        "1075968781": 8,
+        "1656367028": 10
+      },
+      "execution_feedback": [
+        {
+          "allowed": true,
+          "historical_not_current_prerequisites": true,
+          "kind": "operation_result",
+          "reason": null,
+          "work_type": "analyze"
+        }
+      ],
+      "hard_constraint": {
+        "max_signed_whole_difference": "-3.54",
+        "source_ref": 11
+      },
+      "missing_prerequisites": [
+        "current requested specification violates stock or signed amount cap; analyze negotiable alternatives or clarify; prepare cannot fix infeasibility",
+        "feasible complete current proposal"
+      ],
+      "objects": [
+        {
+          "CURRENT_EFFECTIVE_SPECIFICATION": {
+            "literal_user_source": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In delivered order #W5565470 exchange ONLY this mapping of original items to initially requested replacements: {\"7602931732\": \"2243454707\", \"9570044148\": \"3616838507\"}. Requested options: {\"7602931732\": {\"capacity\": \"1L\", \"material\": \"plastic\", \"color\": \"white\"}, \"9570044148\": {\"switch type\": \"tactile\", \"backlight\": \"white\", \"size\": \"full size\"}}. Keep all other items and use original payment paypal_3024827. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization. SOFT preference priority highest first: [\"color\",\"material\",\"capacity\"]. These priorities remain for evaluating an explicitly accepted tradeoff; stock/cap/authorization are hard.",
+            "options": {
+              "capacity": "1L",
+              "color": "white",
+              "material": "plastic"
+            },
+            "price": 164.46,
+            "source_ref": 0,
+            "stock": true,
+            "variant_id": "2243454707"
+          },
+          "initial_request_history_only": {
+            "active": true,
+            "source_ref": 0,
+            "variant_id": "2243454707"
+          },
+          "original_item_id": "7602931732",
+          "product_id": "1075968781",
+          "purchased": {
+            "options": {
+              "capacity": "1L",
+              "color": "black",
+              "material": "stainless steel"
+            },
+            "price": 153.25,
+            "source_refs": [
+              6
+            ],
+            "variant_id": "7602931732"
+          }
+        },
+        {
+          "CURRENT_EFFECTIVE_SPECIFICATION": {
+            "literal_user_source": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In delivered order #W5565470 exchange ONLY this mapping of original items to initially requested replacements: {\"7602931732\": \"2243454707\", \"9570044148\": \"3616838507\"}. Requested options: {\"7602931732\": {\"capacity\": \"1L\", \"material\": \"plastic\", \"color\": \"white\"}, \"9570044148\": {\"switch type\": \"tactile\", \"backlight\": \"white\", \"size\": \"full size\"}}. Keep all other items and use original payment paypal_3024827. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization. SOFT preference priority highest first: [\"color\",\"material\",\"capacity\"]. These priorities remain for evaluating an explicitly accepted tradeoff; stock/cap/authorization are hard.",
+            "options": {
+              "backlight": "white",
+              "size": "full size",
+              "switch type": "tactile"
+            },
+            "price": 226.11,
+            "source_ref": 0,
+            "stock": true,
+            "variant_id": "3616838507"
+          },
+          "initial_request_history_only": {
+            "active": true,
+            "source_ref": 0,
+            "variant_id": "3616838507"
+          },
+          "original_item_id": "9570044148",
+          "product_id": "1656367028",
+          "purchased": {
+            "options": {
+              "backlight": "none",
+              "size": "full size",
+              "switch type": "linear"
+            },
+            "price": 231.37,
+            "source_refs": [
+              6
+            ],
+            "variant_id": "9570044148"
+          }
+        }
+      ],
+      "order_id": "#W5565470",
+      "order_status": "delivered",
+      "payment_method_id": "paypal_3024827",
+      "pending_user_messages": []
+    },
+    "response_id": "0566d512-cfbd-4179-83be-b5127a15e519"
+  },
+  {
+    "id": "B_E26_appearance_r2_analyze",
+    "phase": "B01",
+    "event": 0,
+    "kind": "analysis",
+    "result": {
+      "kind": "analysis_result",
+      "facts": {
+        "comparison_scope_original_item_ids": [
+          "7602931732"
+        ],
+        "unaffected_items": [
+          {
+            "original_item_id": "9570044148",
+            "current_variant": "3616838507",
+            "local_spec_matches_observed_options": true,
+            "stock": true,
+            "need_new_spec_permission_due_to_this_comparison": false
+          }
+        ],
+        "status": "no_exact_match",
+        "exact_feasible": [],
+        "negotiable": [
+          {
+            "variant_id": "1240311797",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "price": 137.17,
+            "whole_difference": "-21.34",
+            "source_ref": 8,
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "changes_current": {
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              },
+              "color": {
+                "current": "white",
+                "offered": "silver"
+              }
+            }
+          },
+          {
+            "variant_id": "2323972008",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "black"
+            },
+            "price": 146.98,
+            "whole_difference": "-11.53",
+            "source_ref": 8,
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "changes_current": {
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            }
+          },
+          {
+            "variant_id": "2698416822",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "white"
+            },
+            "price": 149.45,
+            "whole_difference": "-9.06",
+            "source_ref": 8,
+            "matches_current": {
+              "material": "plastic",
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              }
+            }
+          },
+          {
+            "variant_id": "4458619711",
+            "options": {
+              "capacity": "2L",
+              "material": "stainless steel",
+              "color": "white"
+            },
+            "price": 153.81,
+            "whole_difference": "-4.70",
+            "source_ref": 8,
+            "matches_current": {
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "2L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "stainless steel"
+              }
+            }
+          },
+          {
+            "variant_id": "5428723833",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "black"
+            },
+            "price": 145.48,
+            "whole_difference": "-13.03",
+            "source_ref": 8,
+            "matches_current": {
+              "material": "plastic"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            }
+          },
+          {
+            "variant_id": "9472539378",
+            "options": {
+              "capacity": "1.5L",
+              "material": "glass",
+              "color": "white"
+            },
+            "price": 143.72,
+            "whole_difference": "-14.79",
+            "source_ref": 8,
+            "matches_current": {
+              "color": "white"
+            },
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            }
+          }
+        ],
+        "empty_exact_set_is_valid": true,
+        "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+        "current_requested_sku": "2243454707",
+        "current_sku_exists": true,
+        "current_stock": true,
+        "current_whole_difference": "5.95",
+        "maximum_signed_whole_difference": "-3.54",
+        "conflict_cause": "signed_amount_cap",
+        "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements"
+      },
+      "model_advice": {
+        "comparison_scope": "current exact requirements vs negotiable relaxations",
+        "tradeoffs": [
+          {
+            "variant_id": "1240311797",
+            "observation": "Matches current capacity 1L but changes color white→silver and material plastic→glass; whole difference -21.34, within the -3.54 cap.",
+            "question": "May I offer this silver glass 1L option as an alternative, understanding it changes your color and material specifications?"
+          },
+          {
+            "variant_id": "2323972008",
+            "observation": "Matches current capacity 1L but changes color white→black and material plastic→glass; whole difference -11.53, within the -3.54 cap.",
+            "question": "May I offer this black glass 1L option as an alternative, understanding it changes your color and material specifications?"
+          },
+          {
+            "variant_id": "2698416822",
+            "observation": "Matches current color white and material plastic but changes capacity 1L→1.5L; whole difference -9.06, within the -3.54 cap.",
+            "question": "May I offer this white plastic 1.5L option as an alternative, understanding it changes your capacity specification?"
+          },
+          {
+            "variant_id": "4458619711",
+            "observation": "Matches current color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70, within the -3.54 cap.",
+            "question": "May I offer this white stainless steel 2L option as an alternative, understanding it changes your capacity and material specifications?"
+          },
+          {
+            "variant_id": "5428723833",
+            "observation": "Matches current material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03, within the -3.54 cap.",
+            "question": "May I offer this black plastic 1.5L option as an alternative, understanding it changes your capacity and color specifications?"
+          },
+          {
+            "variant_id": "9472539378",
+            "observation": "Matches current color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79, within the -3.54 cap.",
+            "question": "May I offer this white glass 1.5L option as an alternative, understanding it changes your capacity and material specifications?"
+          }
+        ],
+        "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 (1L, plastic, white) is in stock but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), and the current exact request cannot proceed as specified. The six negotiable variants all fall within the cap but each changes at least one current specification (color, material, and/or capacity), so none may be used without your new permission. The other exchange item 9570044148 (3616838507) matches its observed options locally and is unaffected by this comparison; its alternatives are not an unmet requirement here. No transaction approval is granted by this analysis."
+      },
+      "not_authorization": true
+    },
+    "current_targets": {
+      "7602931732": "2243454707",
+      "9570044148": "3616838507"
+    },
+    "scope": null,
+    "cap": "-3.54",
+    "analysis_record": [
+      {
+        "kind": "analysis_result",
+        "facts": {
+          "comparison_scope_original_item_ids": [
+            "7602931732"
+          ],
+          "unaffected_items": [
+            {
+              "original_item_id": "9570044148",
+              "current_variant": "3616838507",
+              "local_spec_matches_observed_options": true,
+              "stock": true,
+              "need_new_spec_permission_due_to_this_comparison": false
+            }
+          ],
+          "status": "no_exact_match",
+          "exact_feasible": [],
+          "negotiable": [
+            {
+              "variant_id": "1240311797",
+              "options": {
+                "capacity": "1L",
+                "material": "glass",
+                "color": "silver"
+              },
+              "price": 137.17,
+              "whole_difference": "-21.34",
+              "source_ref": 8,
+              "matches_current": {
+                "capacity": "1L"
+              },
+              "changes_current": {
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "silver"
+                }
+              }
+            },
+            {
+              "variant_id": "2323972008",
+              "options": {
+                "capacity": "1L",
+                "material": "glass",
+                "color": "black"
+              },
+              "price": 146.98,
+              "whole_difference": "-11.53",
+              "source_ref": 8,
+              "matches_current": {
+                "capacity": "1L"
+              },
+              "changes_current": {
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "black"
+                }
+              }
+            },
+            {
+              "variant_id": "2698416822",
+              "options": {
+                "capacity": "1.5L",
+                "material": "plastic",
+                "color": "white"
+              },
+              "price": 149.45,
+              "whole_difference": "-9.06",
+              "source_ref": 8,
+              "matches_current": {
+                "material": "plastic",
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                }
+              }
+            },
+            {
+              "variant_id": "4458619711",
+              "options": {
+                "capacity": "2L",
+                "material": "stainless steel",
+                "color": "white"
+              },
+              "price": 153.81,
+              "whole_difference": "-4.70",
+              "source_ref": 8,
+              "matches_current": {
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "2L"
+                },
+                "material": {
+                  "current": "plastic",
+                  "offered": "stainless steel"
+                }
+              }
+            },
+            {
+              "variant_id": "5428723833",
+              "options": {
+                "capacity": "1.5L",
+                "material": "plastic",
+                "color": "black"
+              },
+              "price": 145.48,
+              "whole_difference": "-13.03",
+              "source_ref": 8,
+              "matches_current": {
+                "material": "plastic"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                },
+                "color": {
+                  "current": "white",
+                  "offered": "black"
+                }
+              }
+            },
+            {
+              "variant_id": "9472539378",
+              "options": {
+                "capacity": "1.5L",
+                "material": "glass",
+                "color": "white"
+              },
+              "price": 143.72,
+              "whole_difference": "-14.79",
+              "source_ref": 8,
+              "matches_current": {
+                "color": "white"
+              },
+              "changes_current": {
+                "capacity": {
+                  "current": "1L",
+                  "offered": "1.5L"
+                },
+                "material": {
+                  "current": "plastic",
+                  "offered": "glass"
+                }
+              }
+            }
+          ],
+          "empty_exact_set_is_valid": true,
+          "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+          "current_requested_sku": "2243454707",
+          "current_sku_exists": true,
+          "current_stock": true,
+          "current_whole_difference": "5.95",
+          "maximum_signed_whole_difference": "-3.54",
+          "conflict_cause": "signed_amount_cap",
+          "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements"
+        },
+        "model_advice": {
+          "comparison_scope": "current exact requirements vs negotiable relaxations",
+          "tradeoffs": [
+            {
+              "variant_id": "1240311797",
+              "observation": "Matches current capacity 1L but changes color white→silver and material plastic→glass; whole difference -21.34, within the -3.54 cap.",
+              "question": "May I offer this silver glass 1L option as an alternative, understanding it changes your color and material specifications?"
+            },
+            {
+              "variant_id": "2323972008",
+              "observation": "Matches current capacity 1L but changes color white→black and material plastic→glass; whole difference -11.53, within the -3.54 cap.",
+              "question": "May I offer this black glass 1L option as an alternative, understanding it changes your color and material specifications?"
+            },
+            {
+              "variant_id": "2698416822",
+              "observation": "Matches current color white and material plastic but changes capacity 1L→1.5L; whole difference -9.06, within the -3.54 cap.",
+              "question": "May I offer this white plastic 1.5L option as an alternative, understanding it changes your capacity specification?"
+            },
+            {
+              "variant_id": "4458619711",
+              "observation": "Matches current color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70, within the -3.54 cap.",
+              "question": "May I offer this white stainless steel 2L option as an alternative, understanding it changes your capacity and material specifications?"
+            },
+            {
+              "variant_id": "5428723833",
+              "observation": "Matches current material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03, within the -3.54 cap.",
+              "question": "May I offer this black plastic 1.5L option as an alternative, understanding it changes your capacity and color specifications?"
+            },
+            {
+              "variant_id": "9472539378",
+              "observation": "Matches current color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79, within the -3.54 cap.",
+              "question": "May I offer this white glass 1.5L option as an alternative, understanding it changes your capacity and material specifications?"
+            }
+          ],
+          "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 (1L, plastic, white) is in stock but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), and the current exact request cannot proceed as specified. The six negotiable variants all fall within the cap but each changes at least one current specification (color, material, and/or capacity), so none may be used without your new permission. The other exchange item 9570044148 (3616838507) matches its observed options locally and is unaffected by this comparison; its alternatives are not an unmet requirement here. No transaction approval is granted by this analysis."
+        },
+        "not_authorization": true
+      }
+    ]
+  },
+  {
+    "id": "B_E26_appearance_r2_analyze",
+    "phase": "B01",
+    "event": 1,
+    "kind": "decision",
+    "decision": {
+      "work_type": "clarify",
+      "object": "7602931732",
+      "parameters": {
+        "variant_id": "2698416822"
+      },
+      "evidence_refs": [
+        8
+      ],
+      "expected": "User grants new specification permission for variant 2698416822 (1.5L white plastic) or declines, enabling a feasible plan or a justified stop",
+      "reason": "Exact requested replacement 2243454707 exceeds the signed amount cap (+5.95 vs -3.54), so no exact match is feasible; variant 2698416822 is in stock, within cap (-9.06), and preserves the highest-priority color and material preferences, changing only capacity."
+    },
+    "actual_input": {
+      "analysis_feedback": [
+        {
+          "facts": {
+            "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements",
+            "comparison_scope_original_item_ids": [
+              "7602931732"
+            ],
+            "conflict_cause": "signed_amount_cap",
+            "current_requested_sku": "2243454707",
+            "current_sku_exists": true,
+            "current_stock": true,
+            "current_whole_difference": "5.95",
+            "empty_exact_set_is_valid": true,
+            "exact_feasible": [],
+            "maximum_signed_whole_difference": "-3.54",
+            "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+            "negotiable": [
+              {
+                "changes_current": {
+                  "color": {
+                    "current": "white",
+                    "offered": "silver"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "capacity": "1L"
+                },
+                "options": {
+                  "capacity": "1L",
+                  "color": "silver",
+                  "material": "glass"
+                },
+                "price": 137.17,
+                "source_ref": 8,
+                "variant_id": "1240311797",
+                "whole_difference": "-21.34"
+              },
+              {
+                "changes_current": {
+                  "color": {
+                    "current": "white",
+                    "offered": "black"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "capacity": "1L"
+                },
+                "options": {
+                  "capacity": "1L",
+                  "color": "black",
+                  "material": "glass"
+                },
+                "price": 146.98,
+                "source_ref": 8,
+                "variant_id": "2323972008",
+                "whole_difference": "-11.53"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  }
+                },
+                "matches_current": {
+                  "color": "white",
+                  "material": "plastic"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "white",
+                  "material": "plastic"
+                },
+                "price": 149.45,
+                "source_ref": 8,
+                "variant_id": "2698416822",
+                "whole_difference": "-9.06"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "2L"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "stainless steel"
+                  }
+                },
+                "matches_current": {
+                  "color": "white"
+                },
+                "options": {
+                  "capacity": "2L",
+                  "color": "white",
+                  "material": "stainless steel"
+                },
+                "price": 153.81,
+                "source_ref": 8,
+                "variant_id": "4458619711",
+                "whole_difference": "-4.70"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  },
+                  "color": {
+                    "current": "white",
+                    "offered": "black"
+                  }
+                },
+                "matches_current": {
+                  "material": "plastic"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "black",
+                  "material": "plastic"
+                },
+                "price": 145.48,
+                "source_ref": 8,
+                "variant_id": "5428723833",
+                "whole_difference": "-13.03"
+              },
+              {
+                "changes_current": {
+                  "capacity": {
+                    "current": "1L",
+                    "offered": "1.5L"
+                  },
+                  "material": {
+                    "current": "plastic",
+                    "offered": "glass"
+                  }
+                },
+                "matches_current": {
+                  "color": "white"
+                },
+                "options": {
+                  "capacity": "1.5L",
+                  "color": "white",
+                  "material": "glass"
+                },
+                "price": 143.72,
+                "source_ref": 8,
+                "variant_id": "9472539378",
+                "whole_difference": "-14.79"
+              }
+            ],
+            "status": "no_exact_match",
+            "unaffected_items": [
+              {
+                "current_variant": "3616838507",
+                "local_spec_matches_observed_options": true,
+                "need_new_spec_permission_due_to_this_comparison": false,
+                "original_item_id": "9570044148",
+                "stock": true
+              }
+            ]
+          },
+          "kind": "analysis_result",
+          "model_advice": {
+            "analysis": "For original item 7602931732, the current exact requested replacement 2243454707 (1L, plastic, white) is in stock but its whole difference is +5.95, which exceeds the maximum signed whole difference of -3.54. Therefore no exact match satisfies the cap (exact_feasible is empty), and the current exact request cannot proceed as specified. The six negotiable variants all fall within the cap but each changes at least one current specification (color, material, and/or capacity), so none may be used without your new permission. The other exchange item 9570044148 (3616838507) matches its observed options locally and is unaffected by this comparison; its alternatives are not an unmet requirement here. No transaction approval is granted by this analysis.",
+            "comparison_scope": "current exact requirements vs negotiable relaxations",
+            "tradeoffs": [
+              {
+                "observation": "Matches current capacity 1L but changes color white→silver and material plastic→glass; whole difference -21.34, within the -3.54 cap.",
+                "question": "May I offer this silver glass 1L option as an alternative, understanding it changes your color and material specifications?",
+                "variant_id": "1240311797"
+              },
+              {
+                "observation": "Matches current capacity 1L but changes color white→black and material plastic→glass; whole difference -11.53, within the -3.54 cap.",
+                "question": "May I offer this black glass 1L option as an alternative, understanding it changes your color and material specifications?",
+                "variant_id": "2323972008"
+              },
+              {
+                "observation": "Matches current color white and material plastic but changes capacity 1L→1.5L; whole difference -9.06, within the -3.54 cap.",
+                "question": "May I offer this white plastic 1.5L option as an alternative, understanding it changes your capacity specification?",
+                "variant_id": "2698416822"
+              },
+              {
+                "observation": "Matches current color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70, within the -3.54 cap.",
+                "question": "May I offer this white stainless steel 2L option as an alternative, understanding it changes your capacity and material specifications?",
+                "variant_id": "4458619711"
+              },
+              {
+                "observation": "Matches current material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03, within the -3.54 cap.",
+                "question": "May I offer this black plastic 1.5L option as an alternative, understanding it changes your capacity and color specifications?",
+                "variant_id": "5428723833"
+              },
+              {
+                "observation": "Matches current color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79, within the -3.54 cap.",
+                "question": "May I offer this white glass 1.5L option as an alternative, understanding it changes your capacity and material specifications?",
+                "variant_id": "9472539378"
+              }
+            ]
+          },
+          "not_authorization": true
+        }
+      ],
+      "authorization_evidence": {
+        "current_bound_arguments": null,
+        "quoted_user_replies": [],
+        "sources": [],
+        "valid_for_current_plan": false
+      },
+      "budget": {
+        "calls": 39,
+        "operations": 23,
+        "tokens": 177710
+      },
+      "candidate_work": [
+        {
+          "effect": "compare exact feasibility and negotiable options; empty exact result valid",
+          "object": "7602931732",
+          "preconditions": {
+            "catalogue_observed": true
+          },
+          "work_type": "analyze"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "1240311797"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "2323972008"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "2698416822"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "4458619711"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "5428723833"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask permission for this specific alternative",
+          "object": "7602931732",
+          "parameters": {
+            "variant_id": "9472539378"
+          },
+          "preconditions": {
+            "observed_available_within_cap": true,
+            "specification_permission_needed": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "effect": "ask independent complete-plan approval",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_plan": false,
+            "pending_resolved": true
+          },
+          "work_type": "confirm"
+        },
+        {
+          "effect": "store ONLY feasible current plan; not a diagnostic draft",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_spec_feasible": false,
+            "pending_resolved": true
+          },
+          "work_type": "prepare"
+        },
+        {
+          "effect": "formal inventory evidence",
+          "object": "1075968781",
+          "preconditions": {
+            "scope_product": true
+          },
+          "work_type": "query"
+        },
+        {
+          "effect": "native write",
+          "object": "#W5565470",
+          "preconditions": {
+            "current_authorization": false
+          },
+          "work_type": "submit"
+        }
+      ],
+      "change": null,
+      "constraint_judgments": {
+        "comparison_baseline": "sum(new replacement price minus ORIGINAL purchased price) across ALL exchange items; not relative to old requested replacements",
+        "comparison_scope_original_item_ids": [
+          "7602931732"
+        ],
+        "conflict_cause": "signed_amount_cap",
+        "current_requested_sku": "2243454707",
+        "current_sku_exists": true,
+        "current_stock": true,
+        "current_whole_difference": "5.95",
+        "empty_exact_set_is_valid": true,
+        "exact_feasible": [],
+        "maximum_signed_whole_difference": "-3.54",
+        "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval",
+        "negotiable": [
+          {
+            "changes_current": {
+              "color": {
+                "current": "white",
+                "offered": "silver"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "options": {
+              "capacity": "1L",
+              "color": "silver",
+              "material": "glass"
+            },
+            "price": 137.17,
+            "source_ref": 8,
+            "variant_id": "1240311797",
+            "whole_difference": "-21.34"
+          },
+          {
+            "changes_current": {
+              "color": {
+                "current": "white",
+                "offered": "black"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "capacity": "1L"
+            },
+            "options": {
+              "capacity": "1L",
+              "color": "black",
+              "material": "glass"
+            },
+            "price": 146.98,
+            "source_ref": 8,
+            "variant_id": "2323972008",
+            "whole_difference": "-11.53"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              }
+            },
+            "matches_current": {
+              "color": "white",
+              "material": "plastic"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "white",
+              "material": "plastic"
+            },
+            "price": 149.45,
+            "source_ref": 8,
+            "variant_id": "2698416822",
+            "whole_difference": "-9.06"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "2L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "stainless steel"
+              }
+            },
+            "matches_current": {
+              "color": "white"
+            },
+            "options": {
+              "capacity": "2L",
+              "color": "white",
+              "material": "stainless steel"
+            },
+            "price": 153.81,
+            "source_ref": 8,
+            "variant_id": "4458619711",
+            "whole_difference": "-4.70"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "color": {
+                "current": "white",
+                "offered": "black"
+              }
+            },
+            "matches_current": {
+              "material": "plastic"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "black",
+              "material": "plastic"
+            },
+            "price": 145.48,
+            "source_ref": 8,
+            "variant_id": "5428723833",
+            "whole_difference": "-13.03"
+          },
+          {
+            "changes_current": {
+              "capacity": {
+                "current": "1L",
+                "offered": "1.5L"
+              },
+              "material": {
+                "current": "plastic",
+                "offered": "glass"
+              }
+            },
+            "matches_current": {
+              "color": "white"
+            },
+            "options": {
+              "capacity": "1.5L",
+              "color": "white",
+              "material": "glass"
+            },
+            "price": 143.72,
+            "source_ref": 8,
+            "variant_id": "9472539378",
+            "whole_difference": "-14.79"
+          }
+        ],
+        "status": "no_exact_match",
+        "unaffected_items": [
+          {
+            "current_variant": "3616838507",
+            "local_spec_matches_observed_options": true,
+            "need_new_spec_permission_due_to_this_comparison": false,
+            "original_item_id": "9570044148",
+            "stock": true
+          }
+        ]
+      },
+      "current_difference": "5.95",
+      "current_full_authorization": false,
+      "current_plan": null,
+      "current_plan_valid": false,
+      "evidence_index": {
+        "1075968781": 8,
+        "1656367028": 10
+      },
+      "execution_feedback": [
+        {
+          "allowed": true,
+          "historical_not_current_prerequisites": true,
+          "kind": "operation_result",
+          "reason": null,
+          "work_type": "analyze"
+        }
+      ],
+      "hard_constraint": {
+        "max_signed_whole_difference": "-3.54",
+        "source_ref": 11
+      },
+      "missing_prerequisites": [
+        "current requested specification violates stock or signed amount cap; analyze negotiable alternatives or clarify; prepare cannot fix infeasibility",
+        "feasible complete current proposal"
+      ],
+      "objects": [
+        {
+          "CURRENT_EFFECTIVE_SPECIFICATION": {
+            "literal_user_source": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In delivered order #W5565470 exchange ONLY this mapping of original items to initially requested replacements: {\"7602931732\": \"2243454707\", \"9570044148\": \"3616838507\"}. Requested options: {\"7602931732\": {\"capacity\": \"1L\", \"material\": \"plastic\", \"color\": \"white\"}, \"9570044148\": {\"switch type\": \"tactile\", \"backlight\": \"white\", \"size\": \"full size\"}}. Keep all other items and use original payment paypal_3024827. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization. SOFT preference priority highest first: [\"color\",\"material\",\"capacity\"]. These priorities remain for evaluating an explicitly accepted tradeoff; stock/cap/authorization are hard.",
+            "options": {
+              "capacity": "1L",
+              "color": "white",
+              "material": "plastic"
+            },
+            "price": 164.46,
+            "source_ref": 0,
+            "stock": true,
+            "variant_id": "2243454707"
+          },
+          "initial_request_history_only": {
+            "active": true,
+            "source_ref": 0,
+            "variant_id": "2243454707"
+          },
+          "original_item_id": "7602931732",
+          "product_id": "1075968781",
+          "purchased": {
+            "options": {
+              "capacity": "1L",
+              "color": "black",
+              "material": "stainless steel"
+            },
+            "price": 153.25,
+            "source_refs": [
+              6
+            ],
+            "variant_id": "7602931732"
+          }
+        },
+        {
+          "CURRENT_EFFECTIVE_SPECIFICATION": {
+            "literal_user_source": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In delivered order #W5565470 exchange ONLY this mapping of original items to initially requested replacements: {\"7602931732\": \"2243454707\", \"9570044148\": \"3616838507\"}. Requested options: {\"7602931732\": {\"capacity\": \"1L\", \"material\": \"plastic\", \"color\": \"white\"}, \"9570044148\": {\"switch type\": \"tactile\", \"backlight\": \"white\", \"size\": \"full size\"}}. Keep all other items and use original payment paypal_3024827. I accept the initially requested specifications ONLY if available within the separately stated whole-amount cap; otherwise discuss feasible alternatives with me. Different specifications require my new permission. Show the complete current proposal for independent final authorization. SOFT preference priority highest first: [\"color\",\"material\",\"capacity\"]. These priorities remain for evaluating an explicitly accepted tradeoff; stock/cap/authorization are hard.",
+            "options": {
+              "backlight": "white",
+              "size": "full size",
+              "switch type": "tactile"
+            },
+            "price": 226.11,
+            "source_ref": 0,
+            "stock": true,
+            "variant_id": "3616838507"
+          },
+          "initial_request_history_only": {
+            "active": true,
+            "source_ref": 0,
+            "variant_id": "3616838507"
+          },
+          "original_item_id": "9570044148",
+          "product_id": "1656367028",
+          "purchased": {
+            "options": {
+              "backlight": "none",
+              "size": "full size",
+              "switch type": "linear"
+            },
+            "price": 231.37,
+            "source_refs": [
+              6
+            ],
+            "variant_id": "9570044148"
+          }
+        }
+      ],
+      "order_id": "#W5565470",
+      "order_status": "delivered",
+      "payment_method_id": "paypal_3024827",
+      "pending_user_messages": []
+    },
+    "response_id": "fe329751-cd44-49fa-b009-e6daa8d07cab"
+  },
+  {
+    "id": "B_R_refund_preference_r1_analyze",
+    "phase": "B01",
+    "event": 0,
+    "kind": "analysis",
+    "result": {
+      "analysis": "The current method credit_card_0000000 is not legal, so it cannot be used. The two observed legal methods are credit_card_3362387 (the original method) and gift_card_2259499. The user's soft preference is refund to gift_card_2259499 over the original credit_card_3362387, so the grounded local route comparison favors gift_card_2259499 as the preferred legal route, with credit_card_3362387 as the alternative legal route. No faster timing, fees, permission, or refund settlement is established by the provided facts.",
+      "recommended_method": "gift_card_2259499",
+      "not_authorization": true
+    },
+    "current_targets": null,
+    "scope": [
+      "6452271382",
+      "7848293342"
+    ],
+    "cap": null,
+    "analysis_record": [
+      {
+        "facts": {
+          "current_method": "credit_card_0000000",
+          "current_method_legal": false,
+          "legal_methods": [
+            "credit_card_3362387",
+            "gift_card_2259499"
+          ],
+          "original_method": "credit_card_3362387",
+          "refund_total": "1201.55",
+          "current_scope": [
+            "6452271382",
+            "7848293342"
+          ],
+          "public_user_request": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. Return exactly [\"6452271382\",\"7848293342\"] in #W1067251. I initially request credit_card_0000000; if not permitted, compare legal routes. My SOFT preference is refund to existing gift card gift_card_2259499 over original credit_card_3362387. I may explicitly accept a legal tradeoff but retain that priority for evaluating the route. Ask new method permission and separate complete return approval.",
+          "no_approval_granted": true
+        },
+        "advice": {
+          "analysis": "The current method credit_card_0000000 is not legal, so it cannot be used. The two observed legal methods are credit_card_3362387 (the original method) and gift_card_2259499. The user's soft preference is refund to gift_card_2259499 over the original credit_card_3362387, so the grounded local route comparison favors gift_card_2259499 as the preferred legal route, with credit_card_3362387 as the alternative legal route. No faster timing, fees, permission, or refund settlement is established by the provided facts.",
+          "recommended_method": "gift_card_2259499",
+          "not_authorization": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "B_R_refund_preference_r1_analyze",
+    "phase": "B01",
+    "event": 1,
+    "kind": "decision",
+    "decision": {
+      "work_type": "clarify",
+      "object": "#W1067251",
+      "parameters": {
+        "payment_method_id": "gift_card_2259499"
+      },
+      "evidence_refs": [
+        0,
+        4,
+        6
+      ],
+      "expected": "obtain explicit user permission to use gift_card_2259499 as the refund method for the return",
+      "reason": "The requested credit_card_0000000 is not a legal refund method; analysis resolved the comparison favoring the user's soft preference gift_card_2259499, but new method permission has not yet been granted."
+    },
+    "actual_input": {
+      "analysis_feedback": [
+        {
+          "advice": {
+            "analysis": "The current method credit_card_0000000 is not legal, so it cannot be used. The two observed legal methods are credit_card_3362387 (the original method) and gift_card_2259499. The user's soft preference is refund to gift_card_2259499 over the original credit_card_3362387, so the grounded local route comparison favors gift_card_2259499 as the preferred legal route, with credit_card_3362387 as the alternative legal route. No faster timing, fees, permission, or refund settlement is established by the provided facts.",
+            "not_authorization": true,
+            "recommended_method": "gift_card_2259499"
+          },
+          "facts": {
+            "current_method": "credit_card_0000000",
+            "current_method_legal": false,
+            "current_scope": [
+              "6452271382",
+              "7848293342"
+            ],
+            "legal_methods": [
+              "credit_card_3362387",
+              "gift_card_2259499"
+            ],
+            "no_approval_granted": true,
+            "original_method": "credit_card_3362387",
+            "public_user_request": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. Return exactly [\"6452271382\",\"7848293342\"] in #W1067251. I initially request credit_card_0000000; if not permitted, compare legal routes. My SOFT preference is refund to existing gift card gift_card_2259499 over original credit_card_3362387. I may explicitly accept a legal tradeoff but retain that priority for evaluating the route. Ask new method permission and separate complete return approval.",
+            "refund_total": "1201.55"
+          }
+        }
+      ],
+      "authorization_evidence": null,
+      "budget": {
+        "calls": 39,
+        "operations": 23,
+        "tokens": 179583
+      },
+      "business": "return",
+      "candidate_work": [
+        {
+          "missing": false,
+          "necessary_precondition": "known public object ID",
+          "object": "#W1067251",
+          "parameters": {
+            "tool": "get_order_details"
+          },
+          "work_type": "query"
+        },
+        {
+          "missing": false,
+          "necessary_precondition": "known public object ID",
+          "object": "raj_sanchez_2970",
+          "parameters": {
+            "tool": "get_user_details"
+          },
+          "work_type": "query"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "analyze"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "prepare"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "confirm"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "submit"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "stop"
+        },
+        {
+          "object": "#W1067251",
+          "parameters": {
+            "payment_method_id": "credit_card_3362387"
+          },
+          "preconditions": {
+            "needs_new_method_permission": true,
+            "observed_legal": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "object": "#W1067251",
+          "parameters": {
+            "payment_method_id": "gift_card_2259499"
+          },
+          "preconditions": {
+            "needs_new_method_permission": true,
+            "observed_legal": true
+          },
+          "work_type": "clarify"
+        }
+      ],
+      "current_full_authorization": false,
+      "current_plan": null,
+      "current_refund_method": "credit_card_0000000",
+      "current_scope": [
+        "6452271382",
+        "7848293342"
+      ],
+      "evidence_index": {
+        "find_user_id_by_email": 2,
+        "get_order_details": 6,
+        "get_user_details": 4
+      },
+      "execution_feedback": [
+        {
+          "allowed": true,
+          "reason": null,
+          "result": {
+            "analysis": "The current method credit_card_0000000 is not legal, so it cannot be used. The two observed legal methods are credit_card_3362387 (the original method) and gift_card_2259499. The user's soft preference is refund to gift_card_2259499 over the original credit_card_3362387, so the grounded local route comparison favors gift_card_2259499 as the preferred legal route, with credit_card_3362387 as the alternative legal route. No faster timing, fees, permission, or refund settlement is established by the provided facts.",
+            "not_authorization": true,
+            "recommended_method": "gift_card_2259499"
+          },
+          "selected_work": {
+            "evidence_refs": [
+              0,
+              2,
+              4,
+              6
+            ],
+            "expected": "return a grounded comparison and negotiable alternatives, without granting authority",
+            "object": "#W1067251",
+            "parameters": {},
+            "reason": "The current requested route conflicts with observed constraints. Compare the feasible alternatives against the public user preference before choosing what new permission to seek.",
+            "work_type": "analyze"
+          }
+        }
+      ],
+      "legal_refund_methods": [
+        "credit_card_3362387",
+        "gift_card_2259499"
+      ],
+      "missing_prerequisites": [
+        "current return scope/method/order is not yet feasible",
+        "current complete proposal missing"
+      ],
+      "observed_order": {
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "cancel_reason": null,
+        "exchange_items": null,
+        "exchange_new_items": null,
+        "exchange_payment_method_id": null,
+        "exchange_price_difference": null,
+        "fulfillments": [
+          {
+            "item_ids": [
+              "6452271382",
+              "7848293342"
+            ],
+            "tracking_id": [
+              "787450420748"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item_id": "6452271382",
+            "name": "Wireless Earbuds",
+            "options": {
+              "battery life": "4 hours",
+              "color": "blue",
+              "water resistance": "IPX4"
+            },
+            "price": 258.84,
+            "product_id": "9924732112"
+          },
+          {
+            "item_id": "7848293342",
+            "name": "Grill",
+            "options": {
+              "features": "side burner",
+              "size": "medium",
+              "type": "charcoal"
+            },
+            "price": 942.71,
+            "product_id": "6819683148"
+          }
+        ],
+        "order_id": "#W1067251",
+        "payment_history": [
+          {
+            "amount": 1201.55,
+            "payment_method_id": "credit_card_3362387",
+            "transaction_type": "payment"
+          }
+        ],
+        "return_items": null,
+        "return_payment_method_id": null,
+        "status": "delivered",
+        "user_id": "raj_sanchez_2970"
+      },
+      "observed_profile": {
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "email": "raj.sanchez2046@example.com",
+        "name": {
+          "first_name": "Raj",
+          "last_name": "Sanchez"
+        },
+        "orders": [
+          "#W7736708",
+          "#W4566809",
+          "#W1067251"
+        ],
+        "payment_methods": {
+          "credit_card_3362387": {
+            "brand": "mastercard",
+            "id": "credit_card_3362387",
+            "last_four": "2130",
+            "source": "credit_card"
+          },
+          "gift_card_2259499": {
+            "balance": 30.0,
+            "id": "gift_card_2259499",
+            "source": "gift_card"
+          }
+        },
+        "user_id": "raj_sanchez_2970"
+      },
+      "order_id": "#W1067251",
+      "pending_user_messages": [],
+      "refund_total": "1201.55",
+      "requirement_sources": {
+        "payment": {
+          "quote": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. Return exactly [\"6452271382\",\"7848293342\"] in #W1067251. I initially request credit_card_0000000; if not permitted, compare legal routes. My SOFT preference is refund to existing gift card gift_card_2259499 over original credit_card_3362387. I may explicitly accept a legal tradeoff but retain that priority for evaluating the route. Ask new method permission and separate complete return approval.",
+          "ref": 0
+        },
+        "scope": {
+          "quote": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. Return exactly [\"6452271382\",\"7848293342\"] in #W1067251. I initially request credit_card_0000000; if not permitted, compare legal routes. My SOFT preference is refund to existing gift card gift_card_2259499 over original credit_card_3362387. I may explicitly accept a legal tradeoff but retain that priority for evaluating the route. Ask new method permission and separate complete return approval.",
+          "ref": 0
+        }
+      },
+      "user_id": "raj_sanchez_2970",
+      "withdrawn": false
+    },
+    "response_id": "76bc4297-8da1-43bb-b4f7-bd74c0291164"
+  },
+  {
+    "id": "B_R_refund_preference_r2_analyze",
+    "phase": "B01",
+    "event": 0,
+    "kind": "analysis",
+    "result": {
+      "analysis": "Grounded local route comparison: the initially requested credit_card_0000000 is not legal, so it cannot be used. The observed legal routes are credit_card_3362387 (the original method) and gift_card_2259499 (the user's soft preference). The user's stated priority favors gift_card_2259499 over the original credit_card_3362387, but no new-method permission or complete return approval has been granted. No faster timing, fees, permission, or refund settlement is verified.",
+      "recommended_method": "gift_card_2259499",
+      "not_authorization": true
+    },
+    "current_targets": null,
+    "scope": [
+      "6452271382",
+      "7848293342"
+    ],
+    "cap": null,
+    "analysis_record": [
+      {
+        "facts": {
+          "current_method": "credit_card_0000000",
+          "current_method_legal": false,
+          "legal_methods": [
+            "credit_card_3362387",
+            "gift_card_2259499"
+          ],
+          "original_method": "credit_card_3362387",
+          "refund_total": "1201.55",
+          "current_scope": [
+            "6452271382",
+            "7848293342"
+          ],
+          "public_user_request": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. Return exactly [\"6452271382\",\"7848293342\"] in #W1067251. I initially request credit_card_0000000; if not permitted, compare legal routes. My SOFT preference is refund to existing gift card gift_card_2259499 over original credit_card_3362387. I may explicitly accept a legal tradeoff but retain that priority for evaluating the route. Ask new method permission and separate complete return approval.",
+          "no_approval_granted": true
+        },
+        "advice": {
+          "analysis": "Grounded local route comparison: the initially requested credit_card_0000000 is not legal, so it cannot be used. The observed legal routes are credit_card_3362387 (the original method) and gift_card_2259499 (the user's soft preference). The user's stated priority favors gift_card_2259499 over the original credit_card_3362387, but no new-method permission or complete return approval has been granted. No faster timing, fees, permission, or refund settlement is verified.",
+          "recommended_method": "gift_card_2259499",
+          "not_authorization": true
+        }
+      }
+    ]
+  },
+  {
+    "id": "B_R_refund_preference_r2_analyze",
+    "phase": "B01",
+    "event": 1,
+    "kind": "decision",
+    "decision": {
+      "work_type": "clarify",
+      "object": "#W1067251",
+      "parameters": {
+        "payment_method_id": "gift_card_2259499"
+      },
+      "evidence_refs": [
+        0,
+        4,
+        6
+      ],
+      "expected": "obtain explicit permission to use gift_card_2259499 as the refund method for the return",
+      "reason": "The requested credit_card_0000000 is not a legal refund method; the user's soft preference among legal routes is gift_card_2259499, but no new-method permission has been granted yet."
+    },
+    "actual_input": {
+      "analysis_feedback": [
+        {
+          "advice": {
+            "analysis": "Grounded local route comparison: the initially requested credit_card_0000000 is not legal, so it cannot be used. The observed legal routes are credit_card_3362387 (the original method) and gift_card_2259499 (the user's soft preference). The user's stated priority favors gift_card_2259499 over the original credit_card_3362387, but no new-method permission or complete return approval has been granted. No faster timing, fees, permission, or refund settlement is verified.",
+            "not_authorization": true,
+            "recommended_method": "gift_card_2259499"
+          },
+          "facts": {
+            "current_method": "credit_card_0000000",
+            "current_method_legal": false,
+            "current_scope": [
+              "6452271382",
+              "7848293342"
+            ],
+            "legal_methods": [
+              "credit_card_3362387",
+              "gift_card_2259499"
+            ],
+            "no_approval_granted": true,
+            "original_method": "credit_card_3362387",
+            "public_user_request": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. Return exactly [\"6452271382\",\"7848293342\"] in #W1067251. I initially request credit_card_0000000; if not permitted, compare legal routes. My SOFT preference is refund to existing gift card gift_card_2259499 over original credit_card_3362387. I may explicitly accept a legal tradeoff but retain that priority for evaluating the route. Ask new method permission and separate complete return approval.",
+            "refund_total": "1201.55"
+          }
+        }
+      ],
+      "authorization_evidence": null,
+      "budget": {
+        "calls": 39,
+        "operations": 23,
+        "tokens": 179596
+      },
+      "business": "return",
+      "candidate_work": [
+        {
+          "missing": false,
+          "necessary_precondition": "known public object ID",
+          "object": "#W1067251",
+          "parameters": {
+            "tool": "get_order_details"
+          },
+          "work_type": "query"
+        },
+        {
+          "missing": false,
+          "necessary_precondition": "known public object ID",
+          "object": "raj_sanchez_2970",
+          "parameters": {
+            "tool": "get_user_details"
+          },
+          "work_type": "query"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "analyze"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "prepare"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "confirm"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "submit"
+        },
+        {
+          "object": "#W1067251",
+          "preconditions": {
+            "analysis_has_order_and_profile": true,
+            "confirm_current_plan": false,
+            "prepare_feasible": false,
+            "stop_on_withdrawal": false,
+            "submit_current_authorization": false
+          },
+          "work_type": "stop"
+        },
+        {
+          "object": "#W1067251",
+          "parameters": {
+            "payment_method_id": "credit_card_3362387"
+          },
+          "preconditions": {
+            "needs_new_method_permission": true,
+            "observed_legal": true
+          },
+          "work_type": "clarify"
+        },
+        {
+          "object": "#W1067251",
+          "parameters": {
+            "payment_method_id": "gift_card_2259499"
+          },
+          "preconditions": {
+            "needs_new_method_permission": true,
+            "observed_legal": true
+          },
+          "work_type": "clarify"
+        }
+      ],
+      "current_full_authorization": false,
+      "current_plan": null,
+      "current_refund_method": "credit_card_0000000",
+      "current_scope": [
+        "6452271382",
+        "7848293342"
+      ],
+      "evidence_index": {
+        "find_user_id_by_email": 2,
+        "get_order_details": 6,
+        "get_user_details": 4
+      },
+      "execution_feedback": [
+        {
+          "allowed": true,
+          "reason": null,
+          "result": {
+            "analysis": "Grounded local route comparison: the initially requested credit_card_0000000 is not legal, so it cannot be used. The observed legal routes are credit_card_3362387 (the original method) and gift_card_2259499 (the user's soft preference). The user's stated priority favors gift_card_2259499 over the original credit_card_3362387, but no new-method permission or complete return approval has been granted. No faster timing, fees, permission, or refund settlement is verified.",
+            "not_authorization": true,
+            "recommended_method": "gift_card_2259499"
+          },
+          "selected_work": {
+            "evidence_refs": [
+              0,
+              2,
+              4,
+              6
+            ],
+            "expected": "return a grounded comparison and negotiable alternatives, without granting authority",
+            "object": "#W1067251",
+            "parameters": {},
+            "reason": "The current requested route conflicts with observed constraints. Compare the feasible alternatives against the public user preference before choosing what new permission to seek.",
+            "work_type": "analyze"
+          }
+        }
+      ],
+      "legal_refund_methods": [
+        "credit_card_3362387",
+        "gift_card_2259499"
+      ],
+      "missing_prerequisites": [
+        "current return scope/method/order is not yet feasible",
+        "current complete proposal missing"
+      ],
+      "observed_order": {
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "cancel_reason": null,
+        "exchange_items": null,
+        "exchange_new_items": null,
+        "exchange_payment_method_id": null,
+        "exchange_price_difference": null,
+        "fulfillments": [
+          {
+            "item_ids": [
+              "6452271382",
+              "7848293342"
+            ],
+            "tracking_id": [
+              "787450420748"
+            ]
+          }
+        ],
+        "items": [
+          {
+            "item_id": "6452271382",
+            "name": "Wireless Earbuds",
+            "options": {
+              "battery life": "4 hours",
+              "color": "blue",
+              "water resistance": "IPX4"
+            },
+            "price": 258.84,
+            "product_id": "9924732112"
+          },
+          {
+            "item_id": "7848293342",
+            "name": "Grill",
+            "options": {
+              "features": "side burner",
+              "size": "medium",
+              "type": "charcoal"
+            },
+            "price": 942.71,
+            "product_id": "6819683148"
+          }
+        ],
+        "order_id": "#W1067251",
+        "payment_history": [
+          {
+            "amount": 1201.55,
+            "payment_method_id": "credit_card_3362387",
+            "transaction_type": "payment"
+          }
+        ],
+        "return_items": null,
+        "return_payment_method_id": null,
+        "status": "delivered",
+        "user_id": "raj_sanchez_2970"
+      },
+      "observed_profile": {
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "email": "raj.sanchez2046@example.com",
+        "name": {
+          "first_name": "Raj",
+          "last_name": "Sanchez"
+        },
+        "orders": [
+          "#W7736708",
+          "#W4566809",
+          "#W1067251"
+        ],
+        "payment_methods": {
+          "credit_card_3362387": {
+            "brand": "mastercard",
+            "id": "credit_card_3362387",
+            "last_four": "2130",
+            "source": "credit_card"
+          },
+          "gift_card_2259499": {
+            "balance": 30.0,
+            "id": "gift_card_2259499",
+            "source": "gift_card"
+          }
+        },
+        "user_id": "raj_sanchez_2970"
+      },
+      "order_id": "#W1067251",
+      "pending_user_messages": [],
+      "refund_total": "1201.55",
+      "requirement_sources": {
+        "payment": {
+          "quote": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. Return exactly [\"6452271382\",\"7848293342\"] in #W1067251. I initially request credit_card_0000000; if not permitted, compare legal routes. My SOFT preference is refund to existing gift card gift_card_2259499 over original credit_card_3362387. I may explicitly accept a legal tradeoff but retain that priority for evaluating the route. Ask new method permission and separate complete return approval.",
+          "ref": 0
+        },
+        "scope": {
+          "quote": "I am raj_sanchez_2970, email raj.sanchez2046@example.com. Return exactly [\"6452271382\",\"7848293342\"] in #W1067251. I initially request credit_card_0000000; if not permitted, compare legal routes. My SOFT preference is refund to existing gift card gift_card_2259499 over original credit_card_3362387. I may explicitly accept a legal tradeoff but retain that priority for evaluating the route. Ask new method permission and separate complete return approval.",
+          "ref": 0
+        }
+      },
+      "user_id": "raj_sanchez_2970",
+      "withdrawn": false
+    },
+    "response_id": "c4252a6c-5099-40d5-aa23-50e0180b96f6"
+  }
+]

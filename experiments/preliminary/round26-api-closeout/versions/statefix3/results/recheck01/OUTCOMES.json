@@ -1,0 +1,132 @@
+[
+  {
+    "id": "A_R_RDB01_r1_official",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 15.336254400084727,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_RDB01_r1_framework",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 13.333466499927454,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_RDB01_r2_official",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 9.562625500024296,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_RDB01_r2_framework",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": "loop_limit",
+    "seconds": 36.355386700015515,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  },
+  {
+    "id": "A_R_RDB02_r1_official",
+    "task": "RDB02",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 8.473933700006455,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_RDB02_r1_framework",
+    "task": "RDB02",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 5.939171200036071,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  }
+]

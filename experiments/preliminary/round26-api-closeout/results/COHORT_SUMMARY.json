@@ -1,0 +1,76 @@
+{
+  "raw_A01": {
+    "exchange/official": {
+      "n": 10,
+      "correct": 8,
+      "strict": 6,
+      "event_triggered": 4,
+      "bad_attempts": 0,
+      "program_rejections": 0
+    },
+    "exchange/framework": {
+      "n": 10,
+      "correct": 10,
+      "strict": 10,
+      "event_triggered": 4,
+      "bad_attempts": 0,
+      "program_rejections": 0
+    },
+    "return/official": {
+      "n": 14,
+      "correct": 10,
+      "strict": 10,
+      "event_triggered": 8,
+      "bad_attempts": 0,
+      "program_rejections": 0
+    },
+    "return/framework": {
+      "n": 14,
+      "correct": 11,
+      "strict": 8,
+      "event_triggered": 8,
+      "bad_attempts": 0,
+      "program_rejections": 0
+    }
+  },
+  "raw_same_quality_costs": {
+    "requests": [
+      36,
+      20
+    ],
+    "input": [
+      243679,
+      28769
+    ],
+    "output": [
+      7543,
+      2139
+    ],
+    "cache_hit": [
+      221824,
+      13568
+    ],
+    "cache_miss": [
+      21855,
+      15201
+    ],
+    "seconds": [
+      81.27466740075033,
+      30.778061399701983
+    ],
+    "pairs": 11,
+    "bases": 10,
+    "end_to_end_seconds": [
+      125.5359807999339,
+      71.16751390032005
+    ]
+  },
+  "main_40": {
+    "official": 15,
+    "framework": 18
+  },
+  "repeats_8": {
+    "official": 3,
+    "framework": 3
+  }
+}

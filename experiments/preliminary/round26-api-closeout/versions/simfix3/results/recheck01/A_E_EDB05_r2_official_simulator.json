@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 13,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please give your **independent final approval** to proceed with this exchange (yes/no).",
+      "proposal_quote": "**Requested exchanges (both in stock ✓):**\n\n| Original item | Original options | Original price | Replacement item | Replacement options | Replacement price | Difference |\n|---|---|---|---|---|---|---|\n| 2185126308 (Hiking Boots) | leather / size 10 / waterproof no | $241.90 | 8277474082 (Hiking Boots) | leather / size 12 / waterproof yes | $236.57 | −$5.33 |\n| 4875647558 (Espresso Machine) | 1L / 15 bar / capsule | $2,805.77 | 3951031513 (Espresso Machine) | 1.5L / 19 bar / automatic | $3,289.46 | +$483.69 |\n\n**Combined new-minus-old difference:** −$5.33 + $483.69 = **+$478.36**\n\n- This is a positive difference (you would owe $478.36), which is within your signed whole-amount cap of ≤ $10,000.00. ✓\n- Both replacement items are available in stock. ✓\n- Same product types only (boots→boots, espresso machine→espresso machine). ✓\n- Other item (7602931732 Electric Kettle) stays unchanged. ✓\n- Payment method for the difference: **paypal_3728317** (your original payment method).\n\n**Full current item list after exchange would be:**\n1. 8277474082 — Hiking Boots — leather / size 12 / waterproof yes — $236.57\n2. 3951031513 — Espresso Machine — 1.5L / 19 bar / automatic — $3,289.46\n3. 7602931732 — Electric Kettle — 1L / black / stainless steel — $153.25",
+      "item_ids": [
+        "2185126308",
+        "4875647558"
+      ],
+      "pairs": [
+        {
+          "item_id": "2185126308",
+          "new_item_id": "8277474082",
+          "quote": "| 2185126308 (Hiking Boots) | leather / size 10 / waterproof no | $241.90 | 8277474082 (Hiking Boots) | leather / size 12 / waterproof yes | $236.57 | −$5.33 |"
+        },
+        {
+          "item_id": "4875647558",
+          "new_item_id": "3951031513",
+          "quote": "| 4875647558 (Espresso Machine) | 1L / 15 bar / capsule | $2,805.77 | 3951031513 (Espresso Machine) | 1.5L / 19 bar / automatic | $3,289.46 | +$483.69 |"
+        }
+      ],
+      "payment_method_id": "paypal_3728317",
+      "payment_quote": "Payment method for the difference: **paypal_3728317** (your original payment method).",
+      "amount": 478.36,
+      "amount_quote": "**Combined new-minus-old difference:** −$5.33 + $483.69 = **+$478.36**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "stop",
+    "reply": "Understood. Keep the database unchanged.",
+    "user_ref": 17,
+    "approved": false,
+    "extraction": {
+      "kind": "stop",
+      "asks": true,
+      "question_quote": "How would you like to proceed?",
+      "proposal_quote": "",
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": "I need to stop before processing — the stock situation has changed since my earlier check."
+    }
+  }
+]

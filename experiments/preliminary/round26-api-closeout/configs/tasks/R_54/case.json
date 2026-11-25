@@ -1,0 +1,728 @@
+{
+  "task_id": "54",
+  "business": "return",
+  "scenario": "scope",
+  "order_id": "#W4597054",
+  "user_id": "amelia_silva_7726",
+  "scope": [
+    "5669664287",
+    "4900990404"
+  ],
+  "payment_method_id": "gift_card_3491931",
+  "original_payment": "gift_card_3491931",
+  "preferred_payment": "gift_card_3491931",
+  "initial_message": "I am amelia_silva_7726, email amelia.silva7872@example.com. In order #W4597054, I want to return EXACTLY original items [\"5669664287\",\"4900990404\"] and keep every other item unchanged. Requested refund method is gift_card_3491931. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": false,
+  "event": {
+    "kind": "scope",
+    "item_ids": [
+      "4900990404",
+      "9862136885"
+    ]
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W4597054": {
+        "order_id": "#W4597054",
+        "user_id": "amelia_silva_7726",
+        "address": {
+          "address1": "182 Elm Avenue",
+          "address2": "Suite 875",
+          "city": "Philadelphia",
+          "country": "USA",
+          "state": "PA",
+          "zip": "19117"
+        },
+        "items": [
+          {
+            "name": "Air Purifier",
+            "product_id": "3821016478",
+            "item_id": "5669664287",
+            "price": 543.68,
+            "options": {
+              "room size": "small",
+              "filter type": "ionic",
+              "features": "quiet operation"
+            }
+          },
+          {
+            "name": "Smart Watch",
+            "product_id": "6945232052",
+            "item_id": "4900990404",
+            "price": 336.71,
+            "options": {
+              "color": "silver",
+              "band material": "metal",
+              "display": "AMOLED"
+            }
+          },
+          {
+            "name": "Coffee Maker",
+            "product_id": "7996920482",
+            "item_id": "9862136885",
+            "price": 258.32,
+            "options": {
+              "color": "black",
+              "capacity": "2 cups",
+              "type": "espresso",
+              "features": "timer"
+            }
+          },
+          {
+            "name": "Water Bottle",
+            "product_id": "8310926033",
+            "item_id": "6777246137",
+            "price": 47.76,
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "red"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "561724567137"
+            ],
+            "item_ids": [
+              "5669664287",
+              "4900990404",
+              "9862136885",
+              "6777246137"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1186.47,
+            "payment_method_id": "gift_card_3491931"
+          }
+        ]
+      }
+    },
+    "users": {
+      "amelia_silva_7726": {
+        "user_id": "amelia_silva_7726",
+        "name": {
+          "first_name": "Amelia",
+          "last_name": "Silva"
+        },
+        "address": {
+          "address1": "182 Elm Avenue",
+          "address2": "Suite 875",
+          "city": "Philadelphia",
+          "country": "USA",
+          "state": "PA",
+          "zip": "19117"
+        },
+        "email": "amelia.silva7872@example.com",
+        "payment_methods": {
+          "gift_card_3491931": {
+            "source": "gift_card",
+            "id": "gift_card_3491931",
+            "balance": 73.0
+          }
+        },
+        "orders": [
+          "#W2586676",
+          "#W5400801",
+          "#W4597054",
+          "#W4836353",
+          "#W7773202",
+          "#W7342738"
+        ]
+      }
+    },
+    "products": {
+      "3821016478": {
+        "name": "Air Purifier",
+        "product_id": "3821016478",
+        "variants": {
+          "8302289002": {
+            "item_id": "8302289002",
+            "options": {
+              "room size": "large",
+              "filter type": "HEPA",
+              "features": "night mode"
+            },
+            "available": true,
+            "price": 547.55
+          },
+          "3676786561": {
+            "item_id": "3676786561",
+            "options": {
+              "room size": "small",
+              "filter type": "HEPA",
+              "features": "quiet operation"
+            },
+            "available": true,
+            "price": 502.7
+          },
+          "5669664287": {
+            "item_id": "5669664287",
+            "options": {
+              "room size": "small",
+              "filter type": "ionic",
+              "features": "quiet operation"
+            },
+            "available": true,
+            "price": 543.68
+          },
+          "6341716129": {
+            "item_id": "6341716129",
+            "options": {
+              "room size": "large",
+              "filter type": "HEPA",
+              "features": "smart sensors"
+            },
+            "available": false,
+            "price": 523.31
+          },
+          "4035304400": {
+            "item_id": "4035304400",
+            "options": {
+              "room size": "medium",
+              "filter type": "HEPA",
+              "features": "smart sensors"
+            },
+            "available": false,
+            "price": 504.19
+          },
+          "5826601160": {
+            "item_id": "5826601160",
+            "options": {
+              "room size": "medium",
+              "filter type": "carbon",
+              "features": "night mode"
+            },
+            "available": false,
+            "price": 506.15
+          },
+          "3076708684": {
+            "item_id": "3076708684",
+            "options": {
+              "room size": "medium",
+              "filter type": "HEPA",
+              "features": "quiet operation"
+            },
+            "available": true,
+            "price": 535.97
+          },
+          "7166996157": {
+            "item_id": "7166996157",
+            "options": {
+              "room size": "small",
+              "filter type": "HEPA",
+              "features": "night mode"
+            },
+            "available": true,
+            "price": 518.31
+          },
+          "1327854740": {
+            "item_id": "1327854740",
+            "options": {
+              "room size": "medium",
+              "filter type": "HEPA",
+              "features": "night mode"
+            },
+            "available": true,
+            "price": 492.65
+          },
+          "9534205511": {
+            "item_id": "9534205511",
+            "options": {
+              "room size": "large",
+              "filter type": "ionic",
+              "features": "smart sensors"
+            },
+            "available": true,
+            "price": 473.43
+          },
+          "9375701158": {
+            "item_id": "9375701158",
+            "options": {
+              "room size": "medium",
+              "filter type": "carbon",
+              "features": "quiet operation"
+            },
+            "available": true,
+            "price": 489.5
+          }
+        }
+      },
+      "6945232052": {
+        "name": "Smart Watch",
+        "product_id": "6945232052",
+        "variants": {
+          "4920090458": {
+            "item_id": "4920090458",
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 381.87
+          },
+          "9320099340": {
+            "item_id": "9320099340",
+            "options": {
+              "color": "black",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 375.03
+          },
+          "2860956907": {
+            "item_id": "2860956907",
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 315.61
+          },
+          "1631806422": {
+            "item_id": "1631806422",
+            "options": {
+              "color": "black",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 339.85
+          },
+          "9192177173": {
+            "item_id": "9192177173",
+            "options": {
+              "color": "gold",
+              "band material": "metal",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 335.99
+          },
+          "4900990404": {
+            "item_id": "4900990404",
+            "options": {
+              "color": "silver",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 336.71
+          },
+          "8739626972": {
+            "item_id": "8739626972",
+            "options": {
+              "color": "silver",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 370.87
+          },
+          "1706622510": {
+            "item_id": "1706622510",
+            "options": {
+              "color": "black",
+              "band material": "metal",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 328.67
+          },
+          "2540052208": {
+            "item_id": "2540052208",
+            "options": {
+              "color": "gold",
+              "band material": "silicone",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 346.42
+          },
+          "5694328282": {
+            "item_id": "5694328282",
+            "options": {
+              "color": "gold",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": true,
+            "price": 323.19
+          },
+          "9408160950": {
+            "item_id": "9408160950",
+            "options": {
+              "color": "gold",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 381.26
+          },
+          "2554056026": {
+            "item_id": "2554056026",
+            "options": {
+              "color": "gold",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 367.38
+          },
+          "1007724142": {
+            "item_id": "1007724142",
+            "options": {
+              "color": "black",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 382.41
+          },
+          "2993891288": {
+            "item_id": "2993891288",
+            "options": {
+              "color": "silver",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 383.08
+          },
+          "9811090008": {
+            "item_id": "9811090008",
+            "options": {
+              "color": "silver",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 370.38
+          },
+          "2681513500": {
+            "item_id": "2681513500",
+            "options": {
+              "color": "gold",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": true,
+            "price": 356.23
+          }
+        }
+      },
+      "7996920482": {
+        "name": "Coffee Maker",
+        "product_id": "7996920482",
+        "variants": {
+          "3020722515": {
+            "item_id": "3020722515",
+            "options": {
+              "color": "black",
+              "capacity": "1 cup",
+              "type": "french press",
+              "features": "auto shutoff"
+            },
+            "available": true,
+            "price": 238.64
+          },
+          "2115393569": {
+            "item_id": "2115393569",
+            "options": {
+              "color": "black",
+              "capacity": "1 cup",
+              "type": "drip",
+              "features": "timer"
+            },
+            "available": true,
+            "price": 270.91
+          },
+          "3039787582": {
+            "item_id": "3039787582",
+            "options": {
+              "color": "stainless steel",
+              "capacity": "4 cups",
+              "type": "drip",
+              "features": "auto shutoff"
+            },
+            "available": true,
+            "price": 256.94
+          },
+          "9862136885": {
+            "item_id": "9862136885",
+            "options": {
+              "color": "black",
+              "capacity": "2 cups",
+              "type": "espresso",
+              "features": "timer"
+            },
+            "available": true,
+            "price": 258.32
+          },
+          "3062461148": {
+            "item_id": "3062461148",
+            "options": {
+              "color": "stainless steel",
+              "capacity": "2 cups",
+              "type": "french press",
+              "features": "auto shutoff"
+            },
+            "available": false,
+            "price": 247.88
+          },
+          "5952720925": {
+            "item_id": "5952720925",
+            "options": {
+              "color": "black",
+              "capacity": "4 cups",
+              "type": "espresso",
+              "features": "timer"
+            },
+            "available": true,
+            "price": 260.19
+          },
+          "1323134954": {
+            "item_id": "1323134954",
+            "options": {
+              "color": "stainless steel",
+              "capacity": "4 cups",
+              "type": "drip",
+              "features": "built-in grinder"
+            },
+            "available": true,
+            "price": 236.95
+          },
+          "7211586944": {
+            "item_id": "7211586944",
+            "options": {
+              "color": "black",
+              "capacity": "8 cups",
+              "type": "espresso",
+              "features": "built-in grinder"
+            },
+            "available": true,
+            "price": 272.71
+          },
+          "1349017811": {
+            "item_id": "1349017811",
+            "options": {
+              "color": "white",
+              "capacity": "4 cups",
+              "type": "drip",
+              "features": "auto shutoff"
+            },
+            "available": true,
+            "price": 226.05
+          },
+          "4821837102": {
+            "item_id": "4821837102",
+            "options": {
+              "color": "white",
+              "capacity": "4 cups",
+              "type": "french press",
+              "features": "built-in grinder"
+            },
+            "available": false,
+            "price": 243.59
+          }
+        }
+      },
+      "8310926033": {
+        "name": "Water Bottle",
+        "product_id": "8310926033",
+        "variants": {
+          "1434748144": {
+            "item_id": "1434748144",
+            "options": {
+              "capacity": "1000ml",
+              "material": "glass",
+              "color": "red"
+            },
+            "available": false,
+            "price": 49.72
+          },
+          "4579334072": {
+            "item_id": "4579334072",
+            "options": {
+              "capacity": "750ml",
+              "material": "glass",
+              "color": "black"
+            },
+            "available": true,
+            "price": 54.85
+          },
+          "6469567736": {
+            "item_id": "6469567736",
+            "options": {
+              "capacity": "1000ml",
+              "material": "glass",
+              "color": "blue"
+            },
+            "available": false,
+            "price": 47.84
+          },
+          "3453331371": {
+            "item_id": "3453331371",
+            "options": {
+              "capacity": "500ml",
+              "material": "stainless steel",
+              "color": "black"
+            },
+            "available": true,
+            "price": 52.79
+          },
+          "2439754078": {
+            "item_id": "2439754078",
+            "options": {
+              "capacity": "1000ml",
+              "material": "stainless steel",
+              "color": "red"
+            },
+            "available": true,
+            "price": 49.51
+          },
+          "7843064651": {
+            "item_id": "7843064651",
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "blue"
+            },
+            "available": true,
+            "price": 50.14
+          },
+          "7918497119": {
+            "item_id": "7918497119",
+            "options": {
+              "capacity": "500ml",
+              "material": "glass",
+              "color": "blue"
+            },
+            "available": false,
+            "price": 54.51
+          },
+          "5758737025": {
+            "item_id": "5758737025",
+            "options": {
+              "capacity": "500ml",
+              "material": "glass",
+              "color": "green"
+            },
+            "available": true,
+            "price": 45.09
+          },
+          "7533802601": {
+            "item_id": "7533802601",
+            "options": {
+              "capacity": "500ml",
+              "material": "stainless steel",
+              "color": "green"
+            },
+            "available": true,
+            "price": 48.59
+          },
+          "3229676465": {
+            "item_id": "3229676465",
+            "options": {
+              "capacity": "500ml",
+              "material": "plastic",
+              "color": "black"
+            },
+            "available": true,
+            "price": 51.94
+          },
+          "2366567022": {
+            "item_id": "2366567022",
+            "options": {
+              "capacity": "1000ml",
+              "material": "stainless steel",
+              "color": "blue"
+            },
+            "available": false,
+            "price": 54.04
+          },
+          "6974536207": {
+            "item_id": "6974536207",
+            "options": {
+              "capacity": "750ml",
+              "material": "plastic",
+              "color": "blue"
+            },
+            "available": true,
+            "price": 49.3
+          },
+          "6777246137": {
+            "item_id": "6777246137",
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "red"
+            },
+            "available": true,
+            "price": 47.76
+          },
+          "8538875209": {
+            "item_id": "8538875209",
+            "options": {
+              "capacity": "500ml",
+              "material": "glass",
+              "color": "black"
+            },
+            "available": true,
+            "price": 45.13
+          },
+          "9127591879": {
+            "item_id": "9127591879",
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "black"
+            },
+            "available": false,
+            "price": 48.47
+          },
+          "7661609223": {
+            "item_id": "7661609223",
+            "options": {
+              "capacity": "1000ml",
+              "material": "stainless steel",
+              "color": "black"
+            },
+            "available": true,
+            "price": 46.51
+          },
+          "4947921075": {
+            "item_id": "4947921075",
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "green"
+            },
+            "available": false,
+            "price": 49.57
+          },
+          "7199146548": {
+            "item_id": "7199146548",
+            "options": {
+              "capacity": "750ml",
+              "material": "plastic",
+              "color": "black"
+            },
+            "available": true,
+            "price": 48.02
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

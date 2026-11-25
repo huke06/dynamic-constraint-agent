@@ -1,0 +1,74 @@
+{
+  "public_db_order": {
+    "order_id": "#W1341845",
+    "user_id": "yara_lee_7701",
+    "address": {
+      "address1": "490 Highland Drive",
+      "address2": "Suite 496",
+      "city": "Fort Worth",
+      "country": "USA",
+      "state": "TX",
+      "zip": "76153"
+    },
+    "items": [
+      {
+        "name": "LED Light Bulb",
+        "product_id": "2696197613",
+        "item_id": "6206533187",
+        "price": 47.83,
+        "options": {
+          "brightness": "75W equivalent",
+          "color temperature": "warm white",
+          "connectivity": "none"
+        }
+      },
+      {
+        "name": "Mechanical Keyboard",
+        "product_id": "1656367028",
+        "item_id": "4402162122",
+        "price": 233.9,
+        "options": {
+          "switch type": "tactile",
+          "backlight": "RGB",
+          "size": "60%"
+        }
+      },
+      {
+        "name": "Bluetooth Speaker",
+        "product_id": "4768869376",
+        "item_id": "6704763132",
+        "price": 305.45,
+        "options": {
+          "color": "blue",
+          "battery life": "10 hours",
+          "water resistance": "no"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "712388952344"
+        ],
+        "item_ids": [
+          "6206533187",
+          "4402162122",
+          "6704763132"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 587.18,
+        "payment_method_id": "credit_card_6450164"
+      }
+    ]
+  },
+  "selected_scope": [
+    "6206533187",
+    "4402162122"
+  ],
+  "source_db_sha256": "dbde692e380bb4ad17f9f7841172cf1e69bebad2daa405628ccdc52a42b3b9b0"
+}

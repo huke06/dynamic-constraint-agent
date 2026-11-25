@@ -1,0 +1,295 @@
+{
+  "task_id": "28",
+  "business": "return",
+  "scenario": "stable",
+  "order_id": "#W3792453",
+  "user_id": "isabella_johansson_2152",
+  "scope": [
+    "4293355847"
+  ],
+  "payment_method_id": "paypal_3024827",
+  "original_payment": "paypal_3024827",
+  "preferred_payment": "paypal_3024827",
+  "initial_message": "I am isabella_johansson_2152, email isabella.johansson9391@example.com. In order #W3792453, I want to return EXACTLY original items [\"4293355847\"] and keep every other item unchanged. Requested refund method is paypal_3024827. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": false,
+  "event": {
+    "kind": "none"
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W3792453": {
+        "order_id": "#W3792453",
+        "user_id": "isabella_johansson_2152",
+        "address": {
+          "address1": "313 Chestnut Street",
+          "address2": "Suite 537",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32286"
+        },
+        "items": [
+          {
+            "name": "Skateboard",
+            "product_id": "1968349452",
+            "item_id": "4293355847",
+            "price": 200.8,
+            "options": {
+              "deck material": "bamboo",
+              "length": "31 inch",
+              "design": "plain"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "908856694334"
+            ],
+            "item_ids": [
+              "4293355847"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 200.8,
+            "payment_method_id": "paypal_3024827"
+          }
+        ]
+      }
+    },
+    "users": {
+      "isabella_johansson_2152": {
+        "user_id": "isabella_johansson_2152",
+        "name": {
+          "first_name": "Isabella",
+          "last_name": "Johansson"
+        },
+        "address": {
+          "address1": "313 Chestnut Street",
+          "address2": "Suite 537",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32286"
+        },
+        "email": "isabella.johansson9391@example.com",
+        "payment_methods": {
+          "paypal_3024827": {
+            "source": "paypal",
+            "id": "paypal_3024827"
+          }
+        },
+        "orders": [
+          "#W3792453",
+          "#W7181492",
+          "#W5565470",
+          "#W2575533"
+        ]
+      }
+    },
+    "products": {
+      "1968349452": {
+        "name": "Skateboard",
+        "product_id": "1968349452",
+        "variants": {
+          "6843647669": {
+            "item_id": "6843647669",
+            "options": {
+              "deck material": "bamboo",
+              "length": "28 inch",
+              "design": "graphic"
+            },
+            "available": true,
+            "price": 180.1
+          },
+          "3232433601": {
+            "item_id": "3232433601",
+            "options": {
+              "deck material": "maple",
+              "length": "28 inch",
+              "design": "plain"
+            },
+            "available": true,
+            "price": 204.14
+          },
+          "3098764622": {
+            "item_id": "3098764622",
+            "options": {
+              "deck material": "plastic",
+              "length": "34 inch",
+              "design": "plain"
+            },
+            "available": true,
+            "price": 202.13
+          },
+          "3541421151": {
+            "item_id": "3541421151",
+            "options": {
+              "deck material": "bamboo",
+              "length": "34 inch",
+              "design": "graphic"
+            },
+            "available": true,
+            "price": 193.79
+          },
+          "4545791457": {
+            "item_id": "4545791457",
+            "options": {
+              "deck material": "plastic",
+              "length": "28 inch",
+              "design": "plain"
+            },
+            "available": true,
+            "price": 186.06
+          },
+          "6313971174": {
+            "item_id": "6313971174",
+            "options": {
+              "deck material": "bamboo",
+              "length": "31 inch",
+              "design": "custom"
+            },
+            "available": true,
+            "price": 193.97
+          },
+          "3877188862": {
+            "item_id": "3877188862",
+            "options": {
+              "deck material": "plastic",
+              "length": "31 inch",
+              "design": "plain"
+            },
+            "available": true,
+            "price": 182.03
+          },
+          "5038485381": {
+            "item_id": "5038485381",
+            "options": {
+              "deck material": "plastic",
+              "length": "31 inch",
+              "design": "custom"
+            },
+            "available": true,
+            "price": 189.65
+          },
+          "9594745976": {
+            "item_id": "9594745976",
+            "options": {
+              "deck material": "plastic",
+              "length": "34 inch",
+              "design": "custom"
+            },
+            "available": true,
+            "price": 184.13
+          },
+          "6673921677": {
+            "item_id": "6673921677",
+            "options": {
+              "deck material": "bamboo",
+              "length": "28 inch",
+              "design": "custom"
+            },
+            "available": true,
+            "price": 189.57
+          },
+          "6956751343": {
+            "item_id": "6956751343",
+            "options": {
+              "deck material": "bamboo",
+              "length": "34 inch",
+              "design": "custom"
+            },
+            "available": true,
+            "price": 217.06
+          },
+          "5489028872": {
+            "item_id": "5489028872",
+            "options": {
+              "deck material": "plastic",
+              "length": "34 inch",
+              "design": "graphic"
+            },
+            "available": true,
+            "price": 187.71
+          },
+          "8176740019": {
+            "item_id": "8176740019",
+            "options": {
+              "deck material": "bamboo",
+              "length": "28 inch",
+              "design": "plain"
+            },
+            "available": true,
+            "price": 208.6
+          },
+          "5120532699": {
+            "item_id": "5120532699",
+            "options": {
+              "deck material": "maple",
+              "length": "31 inch",
+              "design": "graphic"
+            },
+            "available": true,
+            "price": 187.23
+          },
+          "5312063289": {
+            "item_id": "5312063289",
+            "options": {
+              "deck material": "bamboo",
+              "length": "31 inch",
+              "design": "graphic"
+            },
+            "available": true,
+            "price": 195.15
+          },
+          "4293355847": {
+            "item_id": "4293355847",
+            "options": {
+              "deck material": "bamboo",
+              "length": "31 inch",
+              "design": "plain"
+            },
+            "available": true,
+            "price": 200.8
+          },
+          "2819462352": {
+            "item_id": "2819462352",
+            "options": {
+              "deck material": "maple",
+              "length": "28 inch",
+              "design": "graphic"
+            },
+            "available": true,
+            "price": 180.66
+          },
+          "2177997696": {
+            "item_id": "2177997696",
+            "options": {
+              "deck material": "plastic",
+              "length": "28 inch",
+              "design": "custom"
+            },
+            "available": true,
+            "price": 206.6
+          },
+          "2343503231": {
+            "item_id": "2343503231",
+            "options": {
+              "deck material": "maple",
+              "length": "34 inch",
+              "design": "graphic"
+            },
+            "available": false,
+            "price": 196.86
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

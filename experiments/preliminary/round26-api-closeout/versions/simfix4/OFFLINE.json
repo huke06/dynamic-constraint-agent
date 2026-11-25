@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checks": [
+    "continuation question answered, not ended",
+    "no SKU permission or transaction approval invented"
+  ]
+}

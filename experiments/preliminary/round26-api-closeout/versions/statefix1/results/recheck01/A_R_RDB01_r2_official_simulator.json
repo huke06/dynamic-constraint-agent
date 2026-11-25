@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return for items 6452271382 and 7848293342, with a $1,201.55 refund to credit_card_3362387?",
+      "proposal_quote": "**Return scope (exactly these items, all others unchanged):**\n- 6452271382 — Wireless Earbuds — $258.84\n- 7848293342 — Grill — $942.71\n\nSince these are the only two items in the order, the return covers the entire order.\n\n**Refund total:** $258.84 + $942.71 = **$1,201.55**\n**Refund method:** credit_card_3362387 (Mastercard ending 2130) — this is the original payment method, which is permitted.",
+      "item_ids": [
+        "6452271382",
+        "7848293342"
+      ],
+      "pairs": [],
+      "payment_method_id": "credit_card_3362387",
+      "payment_quote": "**Refund method:** credit_card_3362387 (Mastercard ending 2130)",
+      "amount": -1201.55,
+      "amount_quote": "**Refund total:** $258.84 + $942.71 = **$1,201.55**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 13,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return for items 6452271382 and 7848293342, with a $1,201.55 refund to gift_card_2259499?",
+      "proposal_quote": "**Order #W1067251** — Status: **delivered** (eligible for return)\n\n**Return scope (exactly these items, all others unchanged):**\n| Item ID | Name | Options | Price |\n|---|---|---|---|\n| 6452271382 | Wireless Earbuds | blue, 4 hours, IPX4 | $258.84 |\n| 7848293342 | Grill | charcoal, medium, side burner | $942.71 |\n\nThese are the only two items in the order, so the return covers the entire order.\n\n**Refund total:** $258.84 + $942.71 = **$1,201.55**\n**Refund method (changed):** gift_card_2259499 (current balance: $30.00)",
+      "item_ids": [
+        "6452271382",
+        "7848293342"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_2259499",
+      "payment_quote": "**Refund method (changed):** gift_card_2259499 (current balance: $30.00)",
+      "amount": -1201.55,
+      "amount_quote": "**Refund total:** $258.84 + $942.71 = **$1,201.55**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

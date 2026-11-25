@@ -1,0 +1,94 @@
+[
+  {
+    "id": "A_R_30_r1_official",
+    "task": "30",
+    "business": "return",
+    "scenario": "evidence",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": null,
+    "seconds": 17.067849999992177,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_30_r1_framework",
+    "task": "30",
+    "business": "return",
+    "scenario": "evidence",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": null,
+    "seconds": 4.910762900020927,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_31_r1_official",
+    "task": "31",
+    "business": "return",
+    "scenario": "evidence",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": null,
+    "seconds": 9.54580259998329,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_31_r1_framework",
+    "task": "31",
+    "business": "return",
+    "scenario": "evidence",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": null,
+    "seconds": 4.288033400080167,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  }
+]

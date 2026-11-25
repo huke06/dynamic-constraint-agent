@@ -1,0 +1,45 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"4582956489\",\"5565631513\"],\"new_item_ids\":[\"6159919747\",\"8555936349\"],\"order_id\":\"#W1075114\",\"payment_method_id\":\"gift_card_5115976\"},\"difference\":-23.62,\"fingerprint\":\"95471c3609f489cfd117\",\"order_id\":\"#W1075114\",\"pairs\":[[\"4582956489\",\"6159919747\"],[\"5565631513\",\"8555936349\"]],\"payment_method_id\":\"gift_card_5115976\",\"rows\":[{\"difference\":17.79,\"item_id\":\"4582956489\",\"new_item_id\":\"6159919747\",\"new_price\":259.75,\"old_price\":241.96,\"options\":{\"material\":\"leather\",\"size\":\"11\",\"waterproof\":\"yes\"},\"sources\":[8]},{\"difference\":-41.41,\"item_id\":\"5565631513\",\"new_item_id\":\"8555936349\",\"new_price\":226.49,\"old_price\":267.9,\"options\":{\"battery life\":\"8 hours\",\"color\":\"blue\",\"water resistance\":\"IPX4\"},\"sources\":[10]}]}. Original payment method gift_card_5115976.",
+      "item_ids": [
+        "4582956489",
+        "5565631513"
+      ],
+      "pairs": [
+        {
+          "item_id": "4582956489",
+          "new_item_id": "6159919747",
+          "quote": "[\"4582956489\",\"6159919747\"]"
+        },
+        {
+          "item_id": "5565631513",
+          "new_item_id": "8555936349",
+          "quote": "[\"5565631513\",\"8555936349\"]"
+        }
+      ],
+      "payment_method_id": "gift_card_5115976",
+      "payment_quote": "Original payment method gift_card_5115976.",
+      "amount": -23.62,
+      "amount_quote": "\"difference\":-23.62",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

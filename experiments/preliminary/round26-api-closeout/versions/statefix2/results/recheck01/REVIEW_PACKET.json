@@ -1,0 +1,412 @@
+[
+  {
+    "id": "A_R_RDB01_r1_official",
+    "phase": "statefix2/recheck01",
+    "event": 0,
+    "kind": "speech",
+    "text": "I've verified your identity and the order. Here's the complete current scope:\n\n**Order #W1067251** — Status: **delivered** (eligible for return)\n\nItems in the order:\n| Item ID | Name | Options | Price |\n|---|---|---|---|\n| 6452271382 | Wireless Earbuds | blue, 4 hours, IPX4 | $258.84 |\n| 7848293342 | Grill | charcoal, medium, side burner | $942.71 |\n\n**Return request scope:**\n- Items to return: **6452271382** (Wireless Earbuds) and **7848293342** (Grill) — i.e., all items in the order\n- Items kept unchanged: none (these are the only two items in the order)\n- Refund method: **credit_card_3362387** (Mastercard ending 2130) — this is the original payment method, which is permitted\n- **Exact refund total: $1,201.55** ($258.84 + $942.71)\n\nAfter confirmation, the order status will change to **'return requested'**, and you'll receive a follow-up email on how and where to return the items.\n\nPlease note: this is your return request, not a final transaction authorization. **Do you approve registering this return? (yes/no)**",
+    "user_result": {
+      "kind": "confirm",
+      "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+      "user_ref": 8,
+      "approved": true,
+      "extraction": {
+        "kind": "proposal",
+        "asks": true,
+        "question_quote": "Do you approve registering this return? (yes/no)",
+        "proposal_quote": "**Return request scope:**\n- Items to return: **6452271382** (Wireless Earbuds) and **7848293342** (Grill) — i.e., all items in the order\n- Items kept unchanged: none (these are the only two items in the order)\n- Refund method: **credit_card_3362387** (Mastercard ending 2130) — this is the original payment method, which is permitted\n- **Exact refund total: $1,201.55** ($258.84 + $942.71)",
+        "item_ids": [
+          "6452271382",
+          "7848293342"
+        ],
+        "pairs": [],
+        "payment_method_id": "credit_card_3362387",
+        "payment_quote": "Refund method: **credit_card_3362387** (Mastercard ending 2130)",
+        "amount": -1201.55,
+        "amount_quote": "**Exact refund total: $1,201.55** ($258.84 + $942.71)",
+        "active_offers": [],
+        "rejected_offer_ids": [],
+        "topic": "none",
+        "stop_quote": null
+      },
+      "checks": {
+        "complete_scope": true,
+        "legal_method": true,
+        "permitted": true,
+        "observed_delivered": true,
+        "payment": true,
+        "amount": true
+      }
+    },
+    "observed_order": {
+      "order_id": "#W1067251",
+      "user_id": "raj_sanchez_2970",
+      "address": {
+        "address1": "557 Sunset Drive",
+        "address2": "Suite 454",
+        "city": "San Diego",
+        "country": "USA",
+        "state": "CA",
+        "zip": "92147"
+      },
+      "items": [
+        {
+          "name": "Wireless Earbuds",
+          "product_id": "9924732112",
+          "item_id": "6452271382",
+          "price": 258.84,
+          "options": {
+            "color": "blue",
+            "battery life": "4 hours",
+            "water resistance": "IPX4"
+          }
+        },
+        {
+          "name": "Grill",
+          "product_id": "6819683148",
+          "item_id": "7848293342",
+          "price": 942.71,
+          "options": {
+            "type": "charcoal",
+            "size": "medium",
+            "features": "side burner"
+          }
+        }
+      ],
+      "status": "delivered",
+      "fulfillments": [
+        {
+          "tracking_id": [
+            "787450420748"
+          ],
+          "item_ids": [
+            "6452271382",
+            "7848293342"
+          ]
+        }
+      ],
+      "payment_history": [
+        {
+          "transaction_type": "payment",
+          "amount": 1201.55,
+          "payment_method_id": "credit_card_3362387"
+        }
+      ],
+      "cancel_reason": null,
+      "exchange_items": null,
+      "exchange_new_items": null,
+      "exchange_payment_method_id": null,
+      "exchange_price_difference": null,
+      "return_items": null,
+      "return_payment_method_id": null
+    },
+    "visible_facts": {
+      "find_user_id_by_email": "raj_sanchez_2970",
+      "get_user_details": {
+        "user_id": "raj_sanchez_2970",
+        "name": {
+          "first_name": "Raj",
+          "last_name": "Sanchez"
+        },
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "email": "raj.sanchez2046@example.com",
+        "payment_methods": {
+          "credit_card_3362387": {
+            "source": "credit_card",
+            "id": "credit_card_3362387",
+            "brand": "mastercard",
+            "last_four": "2130"
+          },
+          "gift_card_2259499": {
+            "source": "gift_card",
+            "id": "gift_card_2259499",
+            "balance": 30.0
+          }
+        },
+        "orders": [
+          "#W7736708",
+          "#W4566809",
+          "#W1067251"
+        ]
+      },
+      "get_order_details": {
+        "order_id": "#W1067251",
+        "user_id": "raj_sanchez_2970",
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "items": [
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "6452271382",
+            "price": 258.84,
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            }
+          },
+          {
+            "name": "Grill",
+            "product_id": "6819683148",
+            "item_id": "7848293342",
+            "price": 942.71,
+            "options": {
+              "type": "charcoal",
+              "size": "medium",
+              "features": "side burner"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "787450420748"
+            ],
+            "item_ids": [
+              "6452271382",
+              "7848293342"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1201.55,
+            "payment_method_id": "credit_card_3362387"
+          }
+        ],
+        "cancel_reason": null,
+        "exchange_items": null,
+        "exchange_new_items": null,
+        "exchange_payment_method_id": null,
+        "exchange_price_difference": null,
+        "return_items": null,
+        "return_payment_method_id": null
+      }
+    },
+    "recent_user_messages": [
+      "I am raj_sanchez_2970, email raj.sanchez2046@example.com. In order #W1067251, I want to return EXACTLY original items [\"6452271382\",\"7848293342\"] and keep every other item unchanged. Requested refund method is credit_card_3362387. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything."
+    ]
+  },
+  {
+    "id": "A_R_RDB01_r1_official",
+    "phase": "statefix2/recheck01",
+    "event": 3,
+    "kind": "speech",
+    "text": "Understood — your previous approval is withdrawn. Here is the **new complete proposal** for your review:\n\n**Order #W1067251** — Status: **delivered** (eligible for return)\n\nItems to return (all items in the order):\n| Item ID | Name | Options | Price |\n|---|---|---|---|\n| 6452271382 | Wireless Earbuds | blue, 4 hours, IPX4 | $258.84 |\n| 7848293342 | Grill | charcoal, medium, side burner | $942.71 |\n\n- Items kept unchanged: none (these are the only two items)\n- **Refund method: gift_card_2259499** (gift card, current balance $30.00)\n- **Exact refund total: $1,201.55**\n\nAfter confirmation, the order status will change to **'return requested'**, and you'll receive a follow-up email on how and where to return the items.\n\nThis is your return request, not a final transaction authorization. **Do you approve registering this return with the refund going to gift_card_2259499? (yes/no)**",
+    "user_result": {
+      "kind": "confirm",
+      "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+      "user_ref": 13,
+      "approved": true,
+      "extraction": {
+        "kind": "proposal",
+        "asks": true,
+        "question_quote": "Do you approve registering this return with the refund going to gift_card_2259499? (yes/no)",
+        "proposal_quote": "**Order #W1067251** — Status: **delivered** (eligible for return)\n\nItems to return (all items in the order):\n| Item ID | Name | Options | Price |\n|---|---|---|---|\n| 6452271382 | Wireless Earbuds | blue, 4 hours, IPX4 | $258.84 |\n| 7848293342 | Grill | charcoal, medium, side burner | $942.71 |\n\n- Items kept unchanged: none (these are the only two items)\n- **Refund method: gift_card_2259499** (gift card, current balance $30.00)\n- **Exact refund total: $1,201.55**",
+        "item_ids": [
+          "6452271382",
+          "7848293342"
+        ],
+        "pairs": [],
+        "payment_method_id": "gift_card_2259499",
+        "payment_quote": "**Refund method: gift_card_2259499** (gift card, current balance $30.00)",
+        "amount": -1201.55,
+        "amount_quote": "**Exact refund total: $1,201.55**",
+        "active_offers": [],
+        "rejected_offer_ids": [],
+        "topic": "none",
+        "stop_quote": null
+      },
+      "checks": {
+        "complete_scope": true,
+        "legal_method": true,
+        "permitted": true,
+        "observed_delivered": true,
+        "payment": true,
+        "amount": true
+      }
+    },
+    "observed_order": {
+      "order_id": "#W1067251",
+      "user_id": "raj_sanchez_2970",
+      "address": {
+        "address1": "557 Sunset Drive",
+        "address2": "Suite 454",
+        "city": "San Diego",
+        "country": "USA",
+        "state": "CA",
+        "zip": "92147"
+      },
+      "items": [
+        {
+          "name": "Wireless Earbuds",
+          "product_id": "9924732112",
+          "item_id": "6452271382",
+          "price": 258.84,
+          "options": {
+            "color": "blue",
+            "battery life": "4 hours",
+            "water resistance": "IPX4"
+          }
+        },
+        {
+          "name": "Grill",
+          "product_id": "6819683148",
+          "item_id": "7848293342",
+          "price": 942.71,
+          "options": {
+            "type": "charcoal",
+            "size": "medium",
+            "features": "side burner"
+          }
+        }
+      ],
+      "status": "delivered",
+      "fulfillments": [
+        {
+          "tracking_id": [
+            "787450420748"
+          ],
+          "item_ids": [
+            "6452271382",
+            "7848293342"
+          ]
+        }
+      ],
+      "payment_history": [
+        {
+          "transaction_type": "payment",
+          "amount": 1201.55,
+          "payment_method_id": "credit_card_3362387"
+        }
+      ],
+      "cancel_reason": null,
+      "exchange_items": null,
+      "exchange_new_items": null,
+      "exchange_payment_method_id": null,
+      "exchange_price_difference": null,
+      "return_items": null,
+      "return_payment_method_id": null
+    },
+    "visible_facts": {
+      "find_user_id_by_email": "raj_sanchez_2970",
+      "get_user_details": {
+        "user_id": "raj_sanchez_2970",
+        "name": {
+          "first_name": "Raj",
+          "last_name": "Sanchez"
+        },
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "email": "raj.sanchez2046@example.com",
+        "payment_methods": {
+          "credit_card_3362387": {
+            "source": "credit_card",
+            "id": "credit_card_3362387",
+            "brand": "mastercard",
+            "last_four": "2130"
+          },
+          "gift_card_2259499": {
+            "source": "gift_card",
+            "id": "gift_card_2259499",
+            "balance": 30.0
+          }
+        },
+        "orders": [
+          "#W7736708",
+          "#W4566809",
+          "#W1067251"
+        ]
+      },
+      "get_order_details": {
+        "order_id": "#W1067251",
+        "user_id": "raj_sanchez_2970",
+        "address": {
+          "address1": "557 Sunset Drive",
+          "address2": "Suite 454",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92147"
+        },
+        "items": [
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "6452271382",
+            "price": 258.84,
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            }
+          },
+          {
+            "name": "Grill",
+            "product_id": "6819683148",
+            "item_id": "7848293342",
+            "price": 942.71,
+            "options": {
+              "type": "charcoal",
+              "size": "medium",
+              "features": "side burner"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "787450420748"
+            ],
+            "item_ids": [
+              "6452271382",
+              "7848293342"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1201.55,
+            "payment_method_id": "credit_card_3362387"
+          }
+        ],
+        "cancel_reason": null,
+        "exchange_items": null,
+        "exchange_new_items": null,
+        "exchange_payment_method_id": null,
+        "exchange_price_difference": null,
+        "return_items": null,
+        "return_payment_method_id": null
+      }
+    },
+    "recent_user_messages": [
+      "I am raj_sanchez_2970, email raj.sanchez2046@example.com. In order #W1067251, I want to return EXACTLY original items [\"6452271382\",\"7848293342\"] and keep every other item unchanged. Requested refund method is credit_card_3362387. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+      "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+      "Before submission, change the refund method to gift_card_2259499. Return the same items. Old approval is withdrawn for this new proposal; ask for new complete approval."
+    ]
+  }
+]

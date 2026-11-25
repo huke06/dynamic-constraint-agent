@@ -1,0 +1,213 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm: proceed with this exchange? (yes/no)",
+      "proposal_quote": "Both requested replacements are in stock and match your specified options exactly:\n\n- **4402162122** (Mechanical Keyboard, RGB/60%/tactile, $233.90) → **3616838507** (white/full size/tactile, $226.11)\n- **6206533187** (LED Light Bulb, 75W/warm white/none, $47.83) → **5570660360** (60W/daylight/none, $51.54)\n\nOther item (6704763132 Bluetooth Speaker) stays unchanged.\n\n**Combined new-minus-old difference: −$4.08** (a refund of $4.08 to you). This is within your signed cap of ≤ $10,000.00 (negative = minimum refund, satisfied).\n\n**Refund method:** original payment `credit_card_6450164`.\n\nPlease confirm: proceed with this exchange? (yes/no)",
+      "item_ids": [
+        "4402162122",
+        "6206533187"
+      ],
+      "pairs": [
+        {
+          "item_id": "4402162122",
+          "new_item_id": "3616838507",
+          "quote": "**4402162122** (Mechanical Keyboard, RGB/60%/tactile, $233.90) → **3616838507** (white/full size/tactile, $226.11)"
+        },
+        {
+          "item_id": "6206533187",
+          "new_item_id": "5570660360",
+          "quote": "**6206533187** (LED Light Bulb, 75W/warm white/none, $47.83) → **5570660360** (60W/daylight/none, $51.54)"
+        }
+      ],
+      "payment_method_id": "credit_card_6450164",
+      "payment_quote": "**Refund method:** original payment `credit_card_6450164`.",
+      "amount": -4.08,
+      "amount_quote": "**Combined new-minus-old difference: −$4.08** (a refund of $4.08 to you).",
+      "active_offers": [
+        {
+          "item_id": "4402162122",
+          "variant_id": "3616838507",
+          "payment_method_id": "credit_card_6450164",
+          "quote": "**4402162122** (Mechanical Keyboard, RGB/60%/tactile, $233.90) → **3616838507** (white/full size/tactile, $226.11)",
+          "status": "active"
+        },
+        {
+          "item_id": "6206533187",
+          "variant_id": "5570660360",
+          "payment_method_id": "credit_card_6450164",
+          "quote": "**6206533187** (LED Light Bulb, 75W/warm white/none, $47.83) → **5570660360** (60W/daylight/none, $51.54)",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "The signed limit is new minus ORIGINAL purchased prices summed over ALL exchange items, and must be <= 10000.00. Negative cap means a MINIMUM refund, not a maximum refund. Current requested whole difference is -4.08. You may compare observed compliant substitutes, but need my concrete specification permission and later independent complete-plan approval.",
+    "user_ref": 19,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "Would you like to pick one of these for the bulb, or adjust the proposal?",
+      "proposal_quote": "",
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "6206533187",
+          "variant_id": "4938013542",
+          "payment_method_id": null,
+          "quote": "Available LED Light Bulb alternatives (same product, different options) currently in stock:\n- **4938013542** — 100W equivalent / warm white / none — $47.20",
+          "status": "active"
+        },
+        {
+          "item_id": "6206533187",
+          "variant_id": "5111440845",
+          "payment_method_id": null,
+          "quote": "- **5111440845** — 60W equivalent / daylight / Bluetooth — $48.55",
+          "status": "active"
+        },
+        {
+          "item_id": "6206533187",
+          "variant_id": "7445824652",
+          "payment_method_id": null,
+          "quote": "- **7445824652** — 75W equivalent / daylight / Wi-Fi — $49.80",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "5570660360"
+      ],
+      "topic": "scope",
+      "stop_quote": null
+    }
+  },
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 6206533187 with SKU 4938013542, if in stock and whole signed difference <= 10000.00. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 21,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Please tell me which bulb option you authorize (or if you want to keep the original bulb unchanged).",
+      "proposal_quote": "",
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "6206533187",
+          "variant_id": "4938013542",
+          "payment_method_id": null,
+          "quote": "In-stock bulb substitutes (same product, different options):\n- **4938013542** — 100W equivalent / warm white / none — $47.20",
+          "status": "active"
+        },
+        {
+          "item_id": "6206533187",
+          "variant_id": "5111440845",
+          "payment_method_id": null,
+          "quote": "- **5111440845** — 60W equivalent / daylight / Bluetooth — $48.55",
+          "status": "active"
+        },
+        {
+          "item_id": "6206533187",
+          "variant_id": "7445824652",
+          "payment_method_id": null,
+          "quote": "- **7445824652** — 75W equivalent / daylight / Wi-Fi — $49.80",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "5570660360"
+      ],
+      "topic": "scope",
+      "stop_quote": null
+    },
+    "accepted_offer": "4938013542"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 25,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm: proceed with this exact exchange? (yes/no)",
+      "proposal_quote": "Here is the full updated proposal for your separate approval:\n\n**Exchange — Order #W1341845 (delivered)**\n\n| Original item | Original options | Original price | → New item | New options | New price |\n|---|---|---|---|---|---|\n| 4402162122 (Mechanical Keyboard) | RGB / 60% / tactile | $233.90 | **3616838507** | white / full size / tactile | $226.11 |\n| 6206533187 (LED Light Bulb) | 75W / warm white / none | $47.83 | **4938013542** | 100W equivalent / warm white / none | $47.20 |\n\n**Unchanged item:** 6704763132 (Bluetooth Speaker, blue / 10 hours / no water resistance) — $305.45\n\n**Stock:** Both replacements (3616838507, 4938013542) are in stock.\n\n**Combined new-minus-old difference:** (226.11 − 233.90) + (47.20 − 47.83) = **−$8.42** → a refund of $8.42 to you. This is within your signed cap (≤ $10,000.00; negative = minimum refund, satisfied).\n\n**Refund method:** original payment `credit_card_6450164`.\n\nPlease confirm: proceed with this exact exchange? (yes/no)",
+      "item_ids": [
+        "4402162122",
+        "6206533187"
+      ],
+      "pairs": [
+        {
+          "item_id": "4402162122",
+          "new_item_id": "3616838507",
+          "quote": "| 4402162122 (Mechanical Keyboard) | RGB / 60% / tactile | $233.90 | **3616838507** | white / full size / tactile | $226.11 |"
+        },
+        {
+          "item_id": "6206533187",
+          "new_item_id": "4938013542",
+          "quote": "| 6206533187 (LED Light Bulb) | 75W / warm white / none | $47.83 | **4938013542** | 100W equivalent / warm white / none | $47.20 |"
+        }
+      ],
+      "payment_method_id": "credit_card_6450164",
+      "payment_quote": "**Refund method:** original payment `credit_card_6450164`.",
+      "amount": -8.42,
+      "amount_quote": "**Combined new-minus-old difference:** (226.11 − 233.90) + (47.20 − 47.83) = **−$8.42** → a refund of $8.42 to you.",
+      "active_offers": [
+        {
+          "item_id": "4402162122",
+          "variant_id": "3616838507",
+          "payment_method_id": "credit_card_6450164",
+          "quote": "| 4402162122 (Mechanical Keyboard) | RGB / 60% / tactile | $233.90 | **3616838507** | white / full size / tactile | $226.11 |",
+          "status": "active"
+        },
+        {
+          "item_id": "6206533187",
+          "variant_id": "4938013542",
+          "payment_method_id": "credit_card_6450164",
+          "quote": "| 6206533187 (LED Light Bulb) | 75W / warm white / none | $47.83 | **4938013542** | 100W equivalent / warm white / none | $47.20 |",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

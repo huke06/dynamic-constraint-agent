@@ -1,0 +1,46 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"5510402676\",\"5268233322\"],\"new_item_ids\":[\"5418781403\",\"1240311797\"],\"order_id\":\"#W1166549\",\"payment_method_id\":\"credit_card_1289579\"},\"difference\":-18.31,\"fingerprint\":\"8226880f9bca56eb886f\",\"order_id\":\"#W1166549\",\"pairs\":[[\"5268233322\",\"1240311797\"],[\"5510402676\",\"5418781403\"]],\"payment_method_id\":\"credit_card_1289579\",\"rows\":[{\"difference\":-18.82,\"item_id\":\"5268233322\",\"new_item_id\":\"1240311797\",\"new_price\":137.17,\"old_price\":155.99,\"options\":{\"capacity\":\"1L\",\"color\":\"silver\",\"material\":\"glass\"},\"sources\":[11]},{\"difference\":0.51,\"item_id\":\"5510402676\",\"new_item_id\":\"5418781403\",\"new_price\":267.58,\"old_price\":267.07,\"options\":{\"connectivity\":\"Wi-Fi + Cellular\",\"screen size\":\"7-inch\",\"storage\":\"8GB\"},\"sources\":[9]}]}. Original payment method credit_card_1289579. Do you approve this exact combined proposal?",
+      "item_ids": [
+        "5510402676",
+        "5268233322"
+      ],
+      "pairs": [
+        {
+          "item_id": "5268233322",
+          "new_item_id": "1240311797",
+          "quote": "[\"5268233322\",\"1240311797\"]"
+        },
+        {
+          "item_id": "5510402676",
+          "new_item_id": "5418781403",
+          "quote": "[\"5510402676\",\"5418781403\"]"
+        }
+      ],
+      "payment_method_id": "credit_card_1289579",
+      "payment_quote": "Original payment method credit_card_1289579.",
+      "amount": -18.31,
+      "amount_quote": "\"difference\":-18.31",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

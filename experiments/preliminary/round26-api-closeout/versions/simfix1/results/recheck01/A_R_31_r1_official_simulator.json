@@ -1,0 +1,35 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 6,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return for items 6200867091 and 6477915553, with a $3,141.62 refund to gift_card_7711863?",
+      "proposal_quote": "**Return scope (exactly these items, all others unchanged):**\n- 6200867091 — Espresso Machine — $2,955.17\n- 6477915553 — Sneakers — $186.45\n\nSince these are the only two items in the order, the return covers the entire order.\n\n**Refund total:** $2,955.17 + $186.45 = **$3,141.62**\n**Refund method:** gift_card_7711863 (this matches the original payment method used)\n\n**Rules confirmed:**\n- Order is delivered, so a return is allowed.\n- Refund goes to the original payment method (gift card), which is permitted.\n- After registration, the order status will change to \"return requested\" and you'll receive an email on how/where to return the items.\n\nThis is your return request, not yet a final transaction. **Do you approve registering this return** for items 6200867091 and 6477915553, with a $3,141.62 refund to gift_card_7711863? Please reply **yes** to proceed.",
+      "item_ids": [
+        "6200867091",
+        "6477915553"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7711863",
+      "payment_quote": "**Refund method:** gift_card_7711863 (this matches the original payment method used)",
+      "amount": -3141.62,
+      "amount_quote": "**Refund total:** $2,955.17 + $186.45 = **$3,141.62**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

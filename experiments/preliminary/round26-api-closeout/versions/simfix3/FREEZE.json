@@ -1,0 +1,14 @@
+{
+  "files": {
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\repair.py": "522215e1e4c616d48130e915956650b545780aad1505a7f8db92527b962c92ad",
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\src\\repair.py": "e02cf5cdcda9ea7def44062d0da8d106e913c48ba45da5113eeba133aed56577",
+    "experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\repair.py": "ed63be5389821db6bc42e1ea6494dd033065890262fac76d8954c4d70dbf57cf"
+  },
+  "affected_tasks": {
+    "E_EDB05": [
+      1,
+      2
+    ]
+  },
+  "scope": "simulator termination/continuation binding only; no Agent policy/runtime change"
+}

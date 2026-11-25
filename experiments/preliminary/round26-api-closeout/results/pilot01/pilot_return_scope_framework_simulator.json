@@ -1,0 +1,539 @@
+[
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 8,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 10,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 12,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 14,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 16,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 18,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 20,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 22,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 24,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 26,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 28,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 30,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 32,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 34,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 36,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 38,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 40,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"7602931732\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"epoch\":0,\"fingerprint\":\"9998a0298d62cf98f901d6e0f9224f26ddf080cf89cfc68d5a3fb933bd0d076b\",\"refund_amount\":\"153.25\"}",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "\"payment_method_id\":\"paypal_3024827\"",
+      "amount": -153.25,
+      "amount_quote": "\"refund_amount\":\"153.25\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  }
+]

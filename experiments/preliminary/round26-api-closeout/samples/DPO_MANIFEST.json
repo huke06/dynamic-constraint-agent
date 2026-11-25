@@ -1,0 +1,116 @@
+[
+  {
+    "id": "E26_appearance",
+    "base_task": "exchange:26",
+    "partition": "test",
+    "line": 1,
+    "file": "dpo_all.jsonl",
+    "prompt_sha256": "1c8c72aa061f9fe30790a88333e90058a6247e855bd1c9749ace419765e78c43",
+    "visible_snapshot": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_E26_appearance_r1_analyze_visible_start.json",
+    "snapshot_sha256": "4bcd7e21bbad48b422b33296bc57ff9009a2ad798df6680f11e46250ad870ea0",
+    "chosen_source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_E26_appearance_r1_analyze_trace.json",
+    "rejected_source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_E26_appearance_r1_clarify_trace.json",
+    "candidate_generation": "predeclared_executable_first_work_not_autonomous_model_response",
+    "supporting_repeats": [
+      {
+        "state": "E26_appearance",
+        "repeat": 1,
+        "ids": [
+          "B_E26_appearance_r1_analyze",
+          "B_E26_appearance_r1_clarify"
+        ],
+        "direction": "analyze",
+        "preference_vectors": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "same_input": true
+      },
+      {
+        "state": "E26_appearance",
+        "repeat": 2,
+        "ids": [
+          "B_E26_appearance_r2_analyze",
+          "B_E26_appearance_r2_clarify"
+        ],
+        "direction": "analyze",
+        "preference_vectors": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "same_input": true
+      }
+    ],
+    "comparison_rule": "hard correctness, end result, public preference, then cost",
+    "not_trained": true
+  },
+  {
+    "id": "R_refund_preference",
+    "base_task": "return:RDB01",
+    "partition": "train",
+    "line": 2,
+    "file": "dpo_all.jsonl",
+    "prompt_sha256": "a8a7c0e3a587322a091dc10f12778e7414bf06716332e10a0ebc20f2749bf95a",
+    "visible_snapshot": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_R_refund_preference_r1_analyze_visible_start.json",
+    "snapshot_sha256": "8e8094e7b1818d05eabbcfdbe822c2d67936a18107f085bba34fdde309b40634",
+    "chosen_source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_R_refund_preference_r1_analyze_trace.json",
+    "rejected_source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_R_refund_preference_r1_clarify_trace.json",
+    "candidate_generation": "predeclared_executable_first_work_not_autonomous_model_response",
+    "supporting_repeats": [
+      {
+        "state": "R_refund_preference",
+        "repeat": 1,
+        "ids": [
+          "B_R_refund_preference_r1_analyze",
+          "B_R_refund_preference_r1_clarify"
+        ],
+        "direction": "analyze",
+        "preference_vectors": [
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "same_input": true
+      },
+      {
+        "state": "R_refund_preference",
+        "repeat": 2,
+        "ids": [
+          "B_R_refund_preference_r2_analyze",
+          "B_R_refund_preference_r2_clarify"
+        ],
+        "direction": "analyze",
+        "preference_vectors": [
+          [
+            1
+          ],
+          [
+            0
+          ]
+        ],
+        "same_input": true
+      }
+    ],
+    "comparison_rule": "hard correctness, end result, public preference, then cost",
+    "not_trained": true
+  }
+]

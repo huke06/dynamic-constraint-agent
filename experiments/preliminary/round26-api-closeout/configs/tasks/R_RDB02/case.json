@@ -1,0 +1,333 @@
+{
+  "task_id": "RDB02",
+  "business": "return",
+  "scenario": "payment",
+  "order_id": "#W1504875",
+  "user_id": "ava_nguyen_2175",
+  "scope": [
+    "9421195098",
+    "4920090458"
+  ],
+  "payment_method_id": "paypal_6262583",
+  "original_payment": "paypal_6262583",
+  "preferred_payment": "paypal_6262583",
+  "initial_message": "I am ava_nguyen_2175, email ava.nguyen3664@example.com. In order #W1504875, I want to return EXACTLY original items [\"9421195098\",\"4920090458\"] and keep every other item unchanged. Requested refund method is paypal_6262583. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": false,
+  "event": {
+    "kind": "payment",
+    "payment_method_id": "gift_card_3324938"
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W1504875": {
+        "order_id": "#W1504875",
+        "user_id": "ava_nguyen_2175",
+        "address": {
+          "address1": "346 Laurel Lane",
+          "address2": "Suite 175",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78786"
+        },
+        "items": [
+          {
+            "name": "Notebook",
+            "product_id": "2892623495",
+            "item_id": "9421195098",
+            "price": 32.37,
+            "options": {
+              "size": "A6",
+              "cover type": "soft cover"
+            }
+          },
+          {
+            "name": "Smart Watch",
+            "product_id": "6945232052",
+            "item_id": "4920090458",
+            "price": 381.87,
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "AMOLED"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "608198747686"
+            ],
+            "item_ids": [
+              "9421195098",
+              "4920090458"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 414.24,
+            "payment_method_id": "paypal_6262583"
+          }
+        ]
+      }
+    },
+    "users": {
+      "ava_nguyen_2175": {
+        "user_id": "ava_nguyen_2175",
+        "name": {
+          "first_name": "Ava",
+          "last_name": "Nguyen"
+        },
+        "address": {
+          "address1": "346 Laurel Lane",
+          "address2": "Suite 175",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78786"
+        },
+        "email": "ava.nguyen3664@example.com",
+        "payment_methods": {
+          "paypal_6262583": {
+            "source": "paypal",
+            "id": "paypal_6262583"
+          },
+          "gift_card_3324938": {
+            "source": "gift_card",
+            "id": "gift_card_3324938",
+            "balance": 1.0
+          }
+        },
+        "orders": [
+          "#W1504875",
+          "#W3779151",
+          "#W9126675"
+        ]
+      }
+    },
+    "products": {
+      "2892623495": {
+        "name": "Notebook",
+        "product_id": "2892623495",
+        "variants": {
+          "1199058591": {
+            "item_id": "1199058591",
+            "options": {
+              "size": "A4",
+              "cover type": "hard cover"
+            },
+            "available": true,
+            "price": 32.29
+          },
+          "6574183535": {
+            "item_id": "6574183535",
+            "options": {
+              "size": "A6",
+              "cover type": "hard cover"
+            },
+            "available": false,
+            "price": 28.14
+          },
+          "9421195098": {
+            "item_id": "9421195098",
+            "options": {
+              "size": "A6",
+              "cover type": "soft cover"
+            },
+            "available": false,
+            "price": 32.37
+          },
+          "9799386954": {
+            "item_id": "9799386954",
+            "options": {
+              "size": "A5",
+              "cover type": "soft cover"
+            },
+            "available": true,
+            "price": 28.59
+          },
+          "7579176349": {
+            "item_id": "7579176349",
+            "options": {
+              "size": "A4",
+              "cover type": "soft cover"
+            },
+            "available": true,
+            "price": 29.28
+          }
+        }
+      },
+      "6945232052": {
+        "name": "Smart Watch",
+        "product_id": "6945232052",
+        "variants": {
+          "4920090458": {
+            "item_id": "4920090458",
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 381.87
+          },
+          "9320099340": {
+            "item_id": "9320099340",
+            "options": {
+              "color": "black",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 375.03
+          },
+          "2860956907": {
+            "item_id": "2860956907",
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 315.61
+          },
+          "1631806422": {
+            "item_id": "1631806422",
+            "options": {
+              "color": "black",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 339.85
+          },
+          "9192177173": {
+            "item_id": "9192177173",
+            "options": {
+              "color": "gold",
+              "band material": "metal",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 335.99
+          },
+          "4900990404": {
+            "item_id": "4900990404",
+            "options": {
+              "color": "silver",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 336.71
+          },
+          "8739626972": {
+            "item_id": "8739626972",
+            "options": {
+              "color": "silver",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 370.87
+          },
+          "1706622510": {
+            "item_id": "1706622510",
+            "options": {
+              "color": "black",
+              "band material": "metal",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 328.67
+          },
+          "2540052208": {
+            "item_id": "2540052208",
+            "options": {
+              "color": "gold",
+              "band material": "silicone",
+              "display": "LCD"
+            },
+            "available": false,
+            "price": 346.42
+          },
+          "5694328282": {
+            "item_id": "5694328282",
+            "options": {
+              "color": "gold",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": true,
+            "price": 323.19
+          },
+          "9408160950": {
+            "item_id": "9408160950",
+            "options": {
+              "color": "gold",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 381.26
+          },
+          "2554056026": {
+            "item_id": "2554056026",
+            "options": {
+              "color": "gold",
+              "band material": "metal",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 367.38
+          },
+          "1007724142": {
+            "item_id": "1007724142",
+            "options": {
+              "color": "black",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 382.41
+          },
+          "2993891288": {
+            "item_id": "2993891288",
+            "options": {
+              "color": "silver",
+              "band material": "leather",
+              "display": "AMOLED"
+            },
+            "available": false,
+            "price": 383.08
+          },
+          "9811090008": {
+            "item_id": "9811090008",
+            "options": {
+              "color": "silver",
+              "band material": "leather",
+              "display": "LCD"
+            },
+            "available": true,
+            "price": 370.38
+          },
+          "2681513500": {
+            "item_id": "2681513500",
+            "options": {
+              "color": "gold",
+              "band material": "silicone",
+              "display": "AMOLED"
+            },
+            "available": true,
+            "price": 356.23
+          }
+        }
+      }
+    }
+  },
+  "source": "new controlled return from untouched public database order"
+}

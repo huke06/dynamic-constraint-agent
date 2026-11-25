@@ -1,0 +1,69 @@
+[
+  {
+    "kind": "clarify",
+    "reply": "Use gift_card_3491931 as my permitted refund method. Keep exactly the latest return scope. This is method permission only; show the complete current return, amount and method for separate approval.",
+    "user_ref": 8,
+    "approved": false,
+    "extraction": {
+      "kind": "refund_permission",
+      "asks": true,
+      "question_quote": "do you accept refund method gift_card_3491931?",
+      "proposal_quote": "For the current return scope [\"8277474082\"], refund total 236.57, do you accept refund method gift_card_3491931?",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund method gift_card_3491931",
+      "amount": -236.57,
+      "amount_quote": "refund total 236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "Official policy permits original payment gift_card_3491931 or an existing gift card. For the current return scope [\"8277474082\"], refund total 236.57, do you accept refund method gift_card_3491931?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "accepted_offer": "gift_card_3491931"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 10,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"8277474082\"],\"order_id\":\"#W7773202\",\"payment_method_id\":\"gift_card_3491931\"},\"epoch\":0,\"fingerprint\":\"bd0538b05a08697a1359e8e06286926f190f1462edf042ee00a99e350c6fc74a\",\"refund_amount\":\"236.57\"}",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "\"payment_method_id\":\"gift_card_3491931\"",
+      "amount": -236.57,
+      "amount_quote": "\"refund_amount\":\"236.57\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

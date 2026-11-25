@@ -1,0 +1,46 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"9747045638\",\"8090061879\"],\"new_item_ids\":[\"9647374798\",\"1763705424\"],\"order_id\":\"#W1052399\",\"payment_method_id\":\"gift_card_3372949\"},\"difference\":-10.39,\"fingerprint\":\"00a17669c164838a2d72\",\"order_id\":\"#W1052399\",\"pairs\":[[\"8090061879\",\"1763705424\"],[\"9747045638\",\"9647374798\"]],\"payment_method_id\":\"gift_card_3372949\",\"rows\":[{\"difference\":-25.96,\"item_id\":\"8090061879\",\"new_item_id\":\"1763705424\",\"new_price\":235.44,\"old_price\":261.4,\"options\":{\"brand\":\"Brand C\",\"kit size\":\"professional\",\"skin tone\":\"dark\"},\"sources\":[10]},{\"difference\":15.57,\"item_id\":\"9747045638\",\"new_item_id\":\"9647374798\",\"new_price\":109.58,\"old_price\":94.01,\"options\":{\"capacity\":\"1.5 liters\",\"material\":\"glass\",\"stovetop compatibility\":\"gas\"},\"sources\":[8]}]}. Original payment method gift_card_3372949.",
+      "item_ids": [
+        "9747045638",
+        "8090061879"
+      ],
+      "pairs": [
+        {
+          "item_id": "8090061879",
+          "new_item_id": "1763705424",
+          "quote": "[\"8090061879\",\"1763705424\"]"
+        },
+        {
+          "item_id": "9747045638",
+          "new_item_id": "9647374798",
+          "quote": "[\"9747045638\",\"9647374798\"]"
+        }
+      ],
+      "payment_method_id": "gift_card_3372949",
+      "payment_quote": "Original payment method gift_card_3372949.",
+      "amount": -10.39,
+      "amount_quote": "\"difference\":-10.39",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

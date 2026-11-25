@@ -1,0 +1,775 @@
+{
+  "task_id": "73",
+  "business": "return",
+  "scenario": "scope",
+  "order_id": "#W5272531",
+  "user_id": "fatima_wilson_7472",
+  "scope": [
+    "3320557165",
+    "2698416822"
+  ],
+  "payment_method_id": "credit_card_6824399",
+  "original_payment": "credit_card_6824399",
+  "preferred_payment": "credit_card_6824399",
+  "initial_message": "I am fatima_wilson_7472, email fatima.wilson5721@example.com. In order #W5272531, I want to return EXACTLY original items [\"3320557165\",\"2698416822\"] and keep every other item unchanged. Requested refund method is credit_card_6824399. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": false,
+  "event": {
+    "kind": "scope",
+    "item_ids": [
+      "2698416822",
+      "8098621301"
+    ]
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W5272531": {
+        "order_id": "#W5272531",
+        "user_id": "fatima_wilson_7472",
+        "address": {
+          "address1": "167 Willow Lane",
+          "address2": "Suite 624",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92183"
+        },
+        "items": [
+          {
+            "name": "Electric Toothbrush",
+            "product_id": "7352963235",
+            "item_id": "3320557165",
+            "price": 188.67,
+            "options": {
+              "color": "blue",
+              "speed settings": "high",
+              "battery type": "AA batteries"
+            }
+          },
+          {
+            "name": "Electric Kettle",
+            "product_id": "1075968781",
+            "item_id": "2698416822",
+            "price": 149.45,
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "white"
+            }
+          },
+          {
+            "name": "Electric Toothbrush",
+            "product_id": "7352963235",
+            "item_id": "8098621301",
+            "price": 192.15,
+            "options": {
+              "color": "black",
+              "speed settings": "high",
+              "battery type": "rechargeable"
+            }
+          },
+          {
+            "name": "Hiking Boots",
+            "product_id": "7363354090",
+            "item_id": "7228247242",
+            "price": 251.38,
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "yes"
+            }
+          },
+          {
+            "name": "Espresso Machine",
+            "product_id": "4354588079",
+            "item_id": "7441167885",
+            "price": 2866.37,
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "848454071657"
+            ],
+            "item_ids": [
+              "3320557165",
+              "2698416822",
+              "8098621301",
+              "7228247242",
+              "7441167885"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 3648.02,
+            "payment_method_id": "credit_card_6824399"
+          }
+        ]
+      }
+    },
+    "users": {
+      "fatima_wilson_7472": {
+        "user_id": "fatima_wilson_7472",
+        "name": {
+          "first_name": "Fatima",
+          "last_name": "Wilson"
+        },
+        "address": {
+          "address1": "167 Willow Lane",
+          "address2": "Suite 624",
+          "city": "San Diego",
+          "country": "USA",
+          "state": "CA",
+          "zip": "92183"
+        },
+        "email": "fatima.wilson5721@example.com",
+        "payment_methods": {
+          "credit_card_6824399": {
+            "source": "credit_card",
+            "id": "credit_card_6824399",
+            "brand": "visa",
+            "last_four": "8991"
+          }
+        },
+        "orders": [
+          "#W5272531"
+        ]
+      }
+    },
+    "products": {
+      "7352963235": {
+        "name": "Electric Toothbrush",
+        "product_id": "7352963235",
+        "variants": {
+          "2645006275": {
+            "item_id": "2645006275",
+            "options": {
+              "color": "white",
+              "speed settings": "high",
+              "battery type": "AA batteries"
+            },
+            "available": true,
+            "price": 183.11
+          },
+          "1583904702": {
+            "item_id": "1583904702",
+            "options": {
+              "color": "blue",
+              "speed settings": "low",
+              "battery type": "AA batteries"
+            },
+            "available": true,
+            "price": 195.84
+          },
+          "6555827912": {
+            "item_id": "6555827912",
+            "options": {
+              "color": "black",
+              "speed settings": "low",
+              "battery type": "AA batteries"
+            },
+            "available": false,
+            "price": 199.42
+          },
+          "8098621301": {
+            "item_id": "8098621301",
+            "options": {
+              "color": "black",
+              "speed settings": "high",
+              "battery type": "rechargeable"
+            },
+            "available": true,
+            "price": 192.15
+          },
+          "7144237253": {
+            "item_id": "7144237253",
+            "options": {
+              "color": "blue",
+              "speed settings": "low",
+              "battery type": "rechargeable"
+            },
+            "available": false,
+            "price": 210.53
+          },
+          "3320557165": {
+            "item_id": "3320557165",
+            "options": {
+              "color": "blue",
+              "speed settings": "high",
+              "battery type": "AA batteries"
+            },
+            "available": false,
+            "price": 188.67
+          },
+          "8798690242": {
+            "item_id": "8798690242",
+            "options": {
+              "color": "black",
+              "speed settings": "high",
+              "battery type": "AA batteries"
+            },
+            "available": true,
+            "price": 208.07
+          },
+          "6164262152": {
+            "item_id": "6164262152",
+            "options": {
+              "color": "white",
+              "speed settings": "low",
+              "battery type": "rechargeable"
+            },
+            "available": true,
+            "price": 211.11
+          }
+        }
+      },
+      "1075968781": {
+        "name": "Electric Kettle",
+        "product_id": "1075968781",
+        "variants": {
+          "4064702754": {
+            "item_id": "4064702754",
+            "options": {
+              "capacity": "2L",
+              "material": "glass",
+              "color": "white"
+            },
+            "available": true,
+            "price": 159.78
+          },
+          "8142779083": {
+            "item_id": "8142779083",
+            "options": {
+              "capacity": "1L",
+              "material": "stainless steel",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 157.53
+          },
+          "5428723833": {
+            "item_id": "5428723833",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "black"
+            },
+            "available": true,
+            "price": 145.48
+          },
+          "1240311797": {
+            "item_id": "1240311797",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 137.17
+          },
+          "9132333852": {
+            "item_id": "9132333852",
+            "options": {
+              "capacity": "1L",
+              "material": "plastic",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 139.47
+          },
+          "9472539378": {
+            "item_id": "9472539378",
+            "options": {
+              "capacity": "1.5L",
+              "material": "glass",
+              "color": "white"
+            },
+            "available": true,
+            "price": 143.72
+          },
+          "2243454707": {
+            "item_id": "2243454707",
+            "options": {
+              "capacity": "1L",
+              "material": "plastic",
+              "color": "white"
+            },
+            "available": true,
+            "price": 164.46
+          },
+          "5268233322": {
+            "item_id": "5268233322",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "white"
+            },
+            "available": true,
+            "price": 155.99
+          },
+          "2698416822": {
+            "item_id": "2698416822",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "white"
+            },
+            "available": true,
+            "price": 149.45
+          },
+          "9335834276": {
+            "item_id": "9335834276",
+            "options": {
+              "capacity": "2L",
+              "material": "glass",
+              "color": "black"
+            },
+            "available": false,
+            "price": 137.92
+          },
+          "2323972008": {
+            "item_id": "2323972008",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "black"
+            },
+            "available": true,
+            "price": 146.98
+          },
+          "9624127908": {
+            "item_id": "9624127908",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 158.9
+          },
+          "3015420423": {
+            "item_id": "3015420423",
+            "options": {
+              "capacity": "2L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 141.76
+          },
+          "4458619711": {
+            "item_id": "4458619711",
+            "options": {
+              "capacity": "2L",
+              "material": "stainless steel",
+              "color": "white"
+            },
+            "available": true,
+            "price": 153.81
+          },
+          "5930656038": {
+            "item_id": "5930656038",
+            "options": {
+              "capacity": "1.5L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 142.3
+          },
+          "7602931732": {
+            "item_id": "7602931732",
+            "options": {
+              "capacity": "1L",
+              "material": "stainless steel",
+              "color": "black"
+            },
+            "available": true,
+            "price": 153.25
+          }
+        }
+      },
+      "7363354090": {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "variants": {
+          "1615379700": {
+            "item_id": "1615379700",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 253.89
+          },
+          "8106223139": {
+            "item_id": "8106223139",
+            "options": {
+              "size": "9",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 249.12
+          },
+          "2658930189": {
+            "item_id": "2658930189",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 241.68
+          },
+          "3812493782": {
+            "item_id": "3812493782",
+            "options": {
+              "size": "7",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 244.34
+          },
+          "2648909398": {
+            "item_id": "2648909398",
+            "options": {
+              "size": "8",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 240.87
+          },
+          "4582956489": {
+            "item_id": "4582956489",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 241.96
+          },
+          "7228247242": {
+            "item_id": "7228247242",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 251.38
+          },
+          "2185126308": {
+            "item_id": "2185126308",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 241.9
+          },
+          "6159919747": {
+            "item_id": "6159919747",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 259.75
+          },
+          "1437889264": {
+            "item_id": "1437889264",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 258.09
+          },
+          "8277474082": {
+            "item_id": "8277474082",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 236.57
+          },
+          "6546364613": {
+            "item_id": "6546364613",
+            "options": {
+              "size": "11",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 231.43
+          },
+          "1262139877": {
+            "item_id": "1262139877",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.99
+          },
+          "6595128475": {
+            "item_id": "6595128475",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 237.65
+          },
+          "5676696062": {
+            "item_id": "5676696062",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 245.99
+          },
+          "4694984344": {
+            "item_id": "4694984344",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.78
+          },
+          "3613716226": {
+            "item_id": "3613716226",
+            "options": {
+              "size": "8",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 253.54
+          },
+          "8118291112": {
+            "item_id": "8118291112",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 260.56
+          },
+          "4127323219": {
+            "item_id": "4127323219",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 251.82
+          }
+        }
+      },
+      "4354588079": {
+        "name": "Espresso Machine",
+        "product_id": "4354588079",
+        "variants": {
+          "3709608322": {
+            "item_id": "3709608322",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "2L",
+              "type": "automatic"
+            },
+            "available": true,
+            "price": 2744.7
+          },
+          "7407838442": {
+            "item_id": "7407838442",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3081.91
+          },
+          "6324294385": {
+            "item_id": "6324294385",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2719.01
+          },
+          "1157853815": {
+            "item_id": "1157853815",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "2L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 3096.7
+          },
+          "2190871011": {
+            "item_id": "2190871011",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1.5L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3105.6
+          },
+          "3714494375": {
+            "item_id": "3714494375",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2709.83
+          },
+          "4875647558": {
+            "item_id": "4875647558",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": false,
+            "price": 2805.77
+          },
+          "7441167885": {
+            "item_id": "7441167885",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            },
+            "available": false,
+            "price": 2866.37
+          },
+          "3815173328": {
+            "item_id": "3815173328",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2908.42
+          },
+          "5839483328": {
+            "item_id": "5839483328",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "2L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2929.06
+          },
+          "7806008610": {
+            "item_id": "7806008610",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2742.67
+          },
+          "7774234341": {
+            "item_id": "7774234341",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "2L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2719.16
+          },
+          "3951031513": {
+            "item_id": "3951031513",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1.5L",
+              "type": "automatic"
+            },
+            "available": true,
+            "price": 3289.46
+          },
+          "6242772310": {
+            "item_id": "6242772310",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2996.03
+          },
+          "6200867091": {
+            "item_id": "6200867091",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2955.17
+          },
+          "9884666842": {
+            "item_id": "9884666842",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2794.7
+          },
+          "3379843752": {
+            "item_id": "3379843752",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "2L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3203.76
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

@@ -1,0 +1,57 @@
+{
+  "public_db_order": {
+    "order_id": "#W1504875",
+    "user_id": "ava_nguyen_2175",
+    "address": {
+      "address1": "346 Laurel Lane",
+      "address2": "Suite 175",
+      "city": "Austin",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78786"
+    },
+    "items": [
+      {
+        "name": "Notebook",
+        "product_id": "2892623495",
+        "item_id": "9421195098",
+        "price": 32.37,
+        "options": {
+          "size": "A6",
+          "cover type": "soft cover"
+        }
+      },
+      {
+        "name": "Smart Watch",
+        "product_id": "6945232052",
+        "item_id": "4920090458",
+        "price": 381.87,
+        "options": {
+          "color": "black",
+          "band material": "silicone",
+          "display": "AMOLED"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "608198747686"
+        ],
+        "item_ids": [
+          "9421195098",
+          "4920090458"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 414.24,
+        "payment_method_id": "paypal_6262583"
+      }
+    ]
+  },
+  "user_id": "ava_nguyen_2175"
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "953dd2866e9df1212a809b03d2f967a7ebb99fb44dbcd27c05feec793bbb816f",
+  "simfix2_freeze_sha256": "3ad216bcc2d4713be27a35f5ef430aa0fb9ade8e6afa46c631ce87c621cc6eb2",
+  "affected": [
+    "A_R_55_r1_official",
+    "A_R_55_r1_framework"
+  ],
+  "reason": "same explicit refund-choice question misclassified as constraint question in original R55; both sides rerun, old failure retained"
+}

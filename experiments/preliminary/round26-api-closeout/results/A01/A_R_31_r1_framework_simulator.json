@@ -1,0 +1,35 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve the exact complete scope, amount and refund method?",
+      "proposal_quote": "{\"arguments\":{\"item_ids\":[\"6200867091\",\"6477915553\"],\"order_id\":\"#W7449508\",\"payment_method_id\":\"gift_card_7711863\"},\"epoch\":0,\"fingerprint\":\"f952a1916ce158ec82e3b7e60eb0e88a54d675f35483ae5e6cd96e10a2fc55b1\",\"refund_amount\":\"3141.62\"}",
+      "item_ids": [
+        "6200867091",
+        "6477915553"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7711863",
+      "payment_quote": "\"payment_method_id\":\"gift_card_7711863\"",
+      "amount": -3141.62,
+      "amount_quote": "\"refund_amount\":\"3141.62\"",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

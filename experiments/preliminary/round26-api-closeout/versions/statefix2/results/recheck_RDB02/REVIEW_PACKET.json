@@ -1,0 +1,404 @@
+[
+  {
+    "id": "A_R_RDB02_r1_official",
+    "phase": "statefix2/recheck_RDB02",
+    "event": 0,
+    "kind": "speech",
+    "text": "I've verified your identity and the order. Here's the complete current scope:\n\n**Order #W1504875** — Status: **delivered** (eligible for return)\n\nItems in the order:\n| Item ID | Name | Options | Price |\n|---|---|---|---|\n| 9421195098 | Notebook | soft cover, A6 | $32.37 |\n| 4920090458 | Smart Watch | silicone band, black, AMOLED | $381.87 |\n\n**Return request scope:**\n- Returning: **9421195098** (Notebook) and **4920090458** (Smart Watch) — i.e., both items in the order\n- Keeping unchanged: none (these are the only two items in the order)\n- Refund method: **paypal_6262583** (PayPal)\n- **Exact refund total: $414.24** (32.37 + 381.87)\n\nNote: The refund must go to the original payment method or an existing gift card. Your original payment method was paypal_6262583, so this is valid.\n\nThis is not yet registered. Do you approve this return request? Please reply **yes** to proceed.",
+    "user_result": {
+      "kind": "confirm",
+      "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+      "user_ref": 8,
+      "approved": true,
+      "extraction": {
+        "kind": "proposal",
+        "asks": true,
+        "question_quote": "Do you approve this return request? Please reply **yes** to proceed.",
+        "proposal_quote": "**Return request scope:**\n- Returning: **9421195098** (Notebook) and **4920090458** (Smart Watch) — i.e., both items in the order\n- Keeping unchanged: none (these are the only two items in the order)\n- Refund method: **paypal_6262583** (PayPal)\n- **Exact refund total: $414.24** (32.37 + 381.87)",
+        "item_ids": [
+          "9421195098",
+          "4920090458"
+        ],
+        "pairs": [],
+        "payment_method_id": "paypal_6262583",
+        "payment_quote": "Refund method: **paypal_6262583** (PayPal)",
+        "amount": -414.24,
+        "amount_quote": "**Exact refund total: $414.24** (32.37 + 381.87)",
+        "active_offers": [],
+        "rejected_offer_ids": [],
+        "topic": "none",
+        "stop_quote": null
+      },
+      "checks": {
+        "complete_scope": true,
+        "legal_method": true,
+        "permitted": true,
+        "observed_delivered": true,
+        "payment": true,
+        "amount": true
+      }
+    },
+    "observed_order": {
+      "order_id": "#W1504875",
+      "user_id": "ava_nguyen_2175",
+      "address": {
+        "address1": "346 Laurel Lane",
+        "address2": "Suite 175",
+        "city": "Austin",
+        "country": "USA",
+        "state": "TX",
+        "zip": "78786"
+      },
+      "items": [
+        {
+          "name": "Notebook",
+          "product_id": "2892623495",
+          "item_id": "9421195098",
+          "price": 32.37,
+          "options": {
+            "size": "A6",
+            "cover type": "soft cover"
+          }
+        },
+        {
+          "name": "Smart Watch",
+          "product_id": "6945232052",
+          "item_id": "4920090458",
+          "price": 381.87,
+          "options": {
+            "color": "black",
+            "band material": "silicone",
+            "display": "AMOLED"
+          }
+        }
+      ],
+      "status": "delivered",
+      "fulfillments": [
+        {
+          "tracking_id": [
+            "608198747686"
+          ],
+          "item_ids": [
+            "9421195098",
+            "4920090458"
+          ]
+        }
+      ],
+      "payment_history": [
+        {
+          "transaction_type": "payment",
+          "amount": 414.24,
+          "payment_method_id": "paypal_6262583"
+        }
+      ],
+      "cancel_reason": null,
+      "exchange_items": null,
+      "exchange_new_items": null,
+      "exchange_payment_method_id": null,
+      "exchange_price_difference": null,
+      "return_items": null,
+      "return_payment_method_id": null
+    },
+    "visible_facts": {
+      "find_user_id_by_email": "ava_nguyen_2175",
+      "get_user_details": {
+        "user_id": "ava_nguyen_2175",
+        "name": {
+          "first_name": "Ava",
+          "last_name": "Nguyen"
+        },
+        "address": {
+          "address1": "346 Laurel Lane",
+          "address2": "Suite 175",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78786"
+        },
+        "email": "ava.nguyen3664@example.com",
+        "payment_methods": {
+          "paypal_6262583": {
+            "source": "paypal",
+            "id": "paypal_6262583"
+          },
+          "gift_card_3324938": {
+            "source": "gift_card",
+            "id": "gift_card_3324938",
+            "balance": 1.0
+          }
+        },
+        "orders": [
+          "#W1504875",
+          "#W3779151",
+          "#W9126675"
+        ]
+      },
+      "get_order_details": {
+        "order_id": "#W1504875",
+        "user_id": "ava_nguyen_2175",
+        "address": {
+          "address1": "346 Laurel Lane",
+          "address2": "Suite 175",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78786"
+        },
+        "items": [
+          {
+            "name": "Notebook",
+            "product_id": "2892623495",
+            "item_id": "9421195098",
+            "price": 32.37,
+            "options": {
+              "size": "A6",
+              "cover type": "soft cover"
+            }
+          },
+          {
+            "name": "Smart Watch",
+            "product_id": "6945232052",
+            "item_id": "4920090458",
+            "price": 381.87,
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "AMOLED"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "608198747686"
+            ],
+            "item_ids": [
+              "9421195098",
+              "4920090458"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 414.24,
+            "payment_method_id": "paypal_6262583"
+          }
+        ],
+        "cancel_reason": null,
+        "exchange_items": null,
+        "exchange_new_items": null,
+        "exchange_payment_method_id": null,
+        "exchange_price_difference": null,
+        "return_items": null,
+        "return_payment_method_id": null
+      }
+    },
+    "recent_user_messages": [
+      "I am ava_nguyen_2175, email ava.nguyen3664@example.com. In order #W1504875, I want to return EXACTLY original items [\"9421195098\",\"4920090458\"] and keep every other item unchanged. Requested refund method is paypal_6262583. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything."
+    ]
+  },
+  {
+    "id": "A_R_RDB02_r1_official",
+    "phase": "statefix2/recheck_RDB02",
+    "event": 3,
+    "kind": "speech",
+    "text": "Understood — your previous approval is withdrawn. Here is the **new complete proposal** for your review:\n\n**Order #W1504875** — Status: **delivered** (eligible for return)\n\nItems in the order:\n| Item ID | Name | Options | Price |\n|---|---|---|---|\n| 9421195098 | Notebook | soft cover, A6 | $32.37 |\n| 4920090458 | Smart Watch | silicone band, black, AMOLED | $381.87 |\n\n**New return request scope:**\n- Returning: **9421195098** (Notebook) and **4920090458** (Smart Watch) — both items in the order\n- Keeping unchanged: none (these are the only two items)\n- Refund method: **gift_card_3324938** (existing gift card)\n- **Exact refund total: $414.24** (32.37 + 381.87)\n\nNote: The refund must go to the original payment method or an existing gift card. gift_card_3324938 is an existing gift card, so this is valid.\n\nThis is not yet registered. Do you approve this new return proposal? Please reply **yes** to proceed.",
+    "user_result": {
+      "kind": "confirm",
+      "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+      "user_ref": 13,
+      "approved": true,
+      "extraction": {
+        "kind": "proposal",
+        "asks": true,
+        "question_quote": "Do you approve this new return proposal? Please reply **yes** to proceed.",
+        "proposal_quote": "**New return request scope:**\n- Returning: **9421195098** (Notebook) and **4920090458** (Smart Watch) — both items in the order\n- Keeping unchanged: none (these are the only two items)\n- Refund method: **gift_card_3324938** (existing gift card)\n- **Exact refund total: $414.24** (32.37 + 381.87)",
+        "item_ids": [
+          "9421195098",
+          "4920090458"
+        ],
+        "pairs": [],
+        "payment_method_id": "gift_card_3324938",
+        "payment_quote": "Refund method: **gift_card_3324938** (existing gift card)",
+        "amount": -414.24,
+        "amount_quote": "**Exact refund total: $414.24** (32.37 + 381.87)",
+        "active_offers": [],
+        "rejected_offer_ids": [],
+        "topic": "none",
+        "stop_quote": null
+      },
+      "checks": {
+        "complete_scope": true,
+        "legal_method": true,
+        "permitted": true,
+        "observed_delivered": true,
+        "payment": true,
+        "amount": true
+      }
+    },
+    "observed_order": {
+      "order_id": "#W1504875",
+      "user_id": "ava_nguyen_2175",
+      "address": {
+        "address1": "346 Laurel Lane",
+        "address2": "Suite 175",
+        "city": "Austin",
+        "country": "USA",
+        "state": "TX",
+        "zip": "78786"
+      },
+      "items": [
+        {
+          "name": "Notebook",
+          "product_id": "2892623495",
+          "item_id": "9421195098",
+          "price": 32.37,
+          "options": {
+            "size": "A6",
+            "cover type": "soft cover"
+          }
+        },
+        {
+          "name": "Smart Watch",
+          "product_id": "6945232052",
+          "item_id": "4920090458",
+          "price": 381.87,
+          "options": {
+            "color": "black",
+            "band material": "silicone",
+            "display": "AMOLED"
+          }
+        }
+      ],
+      "status": "delivered",
+      "fulfillments": [
+        {
+          "tracking_id": [
+            "608198747686"
+          ],
+          "item_ids": [
+            "9421195098",
+            "4920090458"
+          ]
+        }
+      ],
+      "payment_history": [
+        {
+          "transaction_type": "payment",
+          "amount": 414.24,
+          "payment_method_id": "paypal_6262583"
+        }
+      ],
+      "cancel_reason": null,
+      "exchange_items": null,
+      "exchange_new_items": null,
+      "exchange_payment_method_id": null,
+      "exchange_price_difference": null,
+      "return_items": null,
+      "return_payment_method_id": null
+    },
+    "visible_facts": {
+      "find_user_id_by_email": "ava_nguyen_2175",
+      "get_user_details": {
+        "user_id": "ava_nguyen_2175",
+        "name": {
+          "first_name": "Ava",
+          "last_name": "Nguyen"
+        },
+        "address": {
+          "address1": "346 Laurel Lane",
+          "address2": "Suite 175",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78786"
+        },
+        "email": "ava.nguyen3664@example.com",
+        "payment_methods": {
+          "paypal_6262583": {
+            "source": "paypal",
+            "id": "paypal_6262583"
+          },
+          "gift_card_3324938": {
+            "source": "gift_card",
+            "id": "gift_card_3324938",
+            "balance": 1.0
+          }
+        },
+        "orders": [
+          "#W1504875",
+          "#W3779151",
+          "#W9126675"
+        ]
+      },
+      "get_order_details": {
+        "order_id": "#W1504875",
+        "user_id": "ava_nguyen_2175",
+        "address": {
+          "address1": "346 Laurel Lane",
+          "address2": "Suite 175",
+          "city": "Austin",
+          "country": "USA",
+          "state": "TX",
+          "zip": "78786"
+        },
+        "items": [
+          {
+            "name": "Notebook",
+            "product_id": "2892623495",
+            "item_id": "9421195098",
+            "price": 32.37,
+            "options": {
+              "size": "A6",
+              "cover type": "soft cover"
+            }
+          },
+          {
+            "name": "Smart Watch",
+            "product_id": "6945232052",
+            "item_id": "4920090458",
+            "price": 381.87,
+            "options": {
+              "color": "black",
+              "band material": "silicone",
+              "display": "AMOLED"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "608198747686"
+            ],
+            "item_ids": [
+              "9421195098",
+              "4920090458"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 414.24,
+            "payment_method_id": "paypal_6262583"
+          }
+        ],
+        "cancel_reason": null,
+        "exchange_items": null,
+        "exchange_new_items": null,
+        "exchange_payment_method_id": null,
+        "exchange_price_difference": null,
+        "return_items": null,
+        "return_payment_method_id": null
+      }
+    },
+    "recent_user_messages": [
+      "I am ava_nguyen_2175, email ava.nguyen3664@example.com. In order #W1504875, I want to return EXACTLY original items [\"9421195098\",\"4920090458\"] and keep every other item unchanged. Requested refund method is paypal_6262583. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+      "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+      "Before submission, change the refund method to gift_card_3324938. Return the same items. Old approval is withdrawn for this new proposal; ask for new complete approval."
+    ]
+  }
+]

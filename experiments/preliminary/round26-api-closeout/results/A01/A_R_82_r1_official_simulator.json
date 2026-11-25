@@ -1,0 +1,57 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return? Please reply **yes** to confirm.",
+      "proposal_quote": "**Return scope (exactly these two items, all others unchanged):**\n- 9973034634 — Digital Camera — $2,850.32\n- 5952720925 — Coffee Maker — $260.19\n\n**Refund total: $3,110.51**\n**Refund method: gift_card_7250692** (current balance $59.00; refund will be added to this gift card)\n\nIf you approve, the order status will change to **\"return requested\"**, and you'll receive a follow-up email on how/where to return the items.\n\nDo you approve this return? Please reply **yes** to confirm.",
+      "item_ids": [
+        "9973034634",
+        "5952720925"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7250692",
+      "payment_quote": "**Refund method: gift_card_7250692**",
+      "amount": -3110.51,
+      "amount_quote": "**Refund total: $3,110.51**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "stop",
+    "reply": "Understood. Keep the database unchanged.",
+    "user_ref": 11,
+    "approved": false,
+    "extraction": {
+      "kind": "stop",
+      "asks": false,
+      "question_quote": "Is there anything else I can help you with?",
+      "proposal_quote": null,
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": "you've withdrawn the return request. I will **not** register any return, and order #W9571698 remains unchanged"
+    }
+  }
+]

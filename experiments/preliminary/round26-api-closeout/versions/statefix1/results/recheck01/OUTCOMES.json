@@ -1,0 +1,124 @@
+[
+  {
+    "id": "A_R_RDB01_r1_official",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 17.447195400018245,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_RDB01_r1_framework",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": "loop_limit",
+    "seconds": 51.39936429995578,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  },
+  {
+    "id": "A_R_RDB01_r2_official",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 11.447879099985585,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_RDB01_r2_framework",
+    "task": "RDB01",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 9.501161699998192,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_RDB02_r1_official",
+    "task": "RDB02",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 15.549235299928114,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  },
+  {
+    "id": "A_R_RDB02_r1_framework",
+    "task": "RDB02",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": "loop_limit",
+    "seconds": 51.68360429990571,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  }
+]

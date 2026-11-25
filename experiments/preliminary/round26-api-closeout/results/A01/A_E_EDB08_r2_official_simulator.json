@@ -1,0 +1,131 @@
+[
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 9472539378 with SKU 2698416822, if in stock and whole signed difference <= 1.10. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 13,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Would you like to:\n1. Approve a **different kettle specification** from the feasible list above (please tell me which), or\n2. Keep the kettle unchanged and only exchange the earbuds?",
+      "proposal_quote": "The closest feasible option to your original request (white kettle, plastic material) is **`2698416822` — 1.5L, white, plastic at $149.45**, giving a combined difference of **−0.27** (a small refund), which is within your cap.",
+      "item_ids": [
+        "1646531091",
+        "9472539378"
+      ],
+      "pairs": [
+        {
+          "item_id": "1646531091",
+          "new_item_id": "8555936349",
+          "quote": "Earbuds `1646531091` (6h, blue, IPX4, $232.49) → `8555936349` (8h, blue, IPX4, $226.49) — **in stock** ✅"
+        },
+        {
+          "item_id": "9472539378",
+          "new_item_id": "2698416822",
+          "quote": "`2698416822` — 1.5L, white, plastic at $149.45"
+        }
+      ],
+      "payment_method_id": "gift_card_1711656",
+      "payment_quote": "original payment for your **separate final approval**",
+      "amount": -0.27,
+      "amount_quote": "combined difference of **−0.27** (a small refund)",
+      "active_offers": [
+        {
+          "item_id": "9472539378",
+          "variant_id": "2698416822",
+          "payment_method_id": null,
+          "quote": "`2698416822` | 1.5L, white, plastic | 149.45 | +5.73 | **−0.27** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "5428723833",
+          "payment_method_id": null,
+          "quote": "`5428723833` | 1.5L, black, plastic | 145.48 | +1.76 | **−4.24** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "2323972008",
+          "payment_method_id": null,
+          "quote": "`2323972008` | 1L, black, glass | 146.98 | +3.26 | **−2.74** | ✅",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "1240311797",
+          "payment_method_id": null,
+          "quote": "`1240311797` | 1L, silver, glass | 137.17 | −6.55 | **−12.55** | ✅",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "2243454707",
+        "5268233322",
+        "4064702754"
+      ],
+      "topic": "cap_direction",
+      "stop_quote": null
+    },
+    "accepted_offer": "2698416822"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 17,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm: **Do you approve this exchange** (earbuds `1646531091`→`8555936349`, kettle `9472539378`→`2698416822`, refund $0.27 to gift_card_1711656)? Reply **yes** to proceed.",
+      "proposal_quote": "Here is the full updated proposal for order **#W1519594** (delivered), for your separate final approval:\n\n**Exchange mapping (2 items):**\n| Original item | Options | Price | → New item | Options | Price | Δ |\n|---|---|---|---|---|---|---|\n| `1646531091` (Wireless Earbuds) | 8h... wait — 6h, blue, IPX4 | $232.49 | `8555936349` | 8h, blue, IPX4 | $226.49 | −6.00 |\n| `9472539378` (Electric Kettle) | 1.5L, white, glass | $143.72 | `2698416822` | 1.5L, white, plastic | $149.45 | +5.73 |\n\n**Stock:** Both replacements are in stock ✅\n\n**Exact combined new-minus-old difference:** −6.00 + 5.73 = **−0.27** (a refund of $0.27 to you)\n- This is within your signed cap (≤ 1.10) ✅\n\n**Payment method for the difference:** `gift_card_1711656` (original payment) — receives the $0.27 refund.\n\n**All other items in the order stay unchanged.**\n\nPlease confirm: **Do you approve this exchange** (earbuds `1646531091`→`8555936349`, kettle `9472539378`→`2698416822`, refund $0.27 to gift_card_1711656)? Reply **yes** to proceed.",
+      "item_ids": [
+        "1646531091",
+        "9472539378"
+      ],
+      "pairs": [
+        {
+          "item_id": "1646531091",
+          "new_item_id": "8555936349",
+          "quote": "`1646531091` (Wireless Earbuds) | 8h... wait — 6h, blue, IPX4 | $232.49 | `8555936349` | 8h, blue, IPX4 | $226.49 | −6.00"
+        },
+        {
+          "item_id": "9472539378",
+          "new_item_id": "2698416822",
+          "quote": "`9472539378` (Electric Kettle) | 1.5L, white, glass | $143.72 | `2698416822` | 1.5L, white, plastic | $149.45 | +5.73"
+        }
+      ],
+      "payment_method_id": "gift_card_1711656",
+      "payment_quote": "**Payment method for the difference:** `gift_card_1711656` (original payment) — receives the $0.27 refund.",
+      "amount": -0.27,
+      "amount_quote": "**Exact combined new-minus-old difference:** −6.00 + 5.73 = **−0.27** (a refund of $0.27 to you)",
+      "active_offers": [
+        {
+          "item_id": "1646531091",
+          "variant_id": "8555936349",
+          "payment_method_id": "gift_card_1711656",
+          "quote": "Do you approve this exchange (earbuds `1646531091`→`8555936349`, kettle `9472539378`→`2698416822`, refund $0.27 to gift_card_1711656)?",
+          "status": "active"
+        },
+        {
+          "item_id": "9472539378",
+          "variant_id": "2698416822",
+          "payment_method_id": "gift_card_1711656",
+          "quote": "Do you approve this exchange (earbuds `1646531091`→`8555936349`, kettle `9472539378`→`2698416822`, refund $0.27 to gift_card_1711656)?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

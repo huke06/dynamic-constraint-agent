@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return? Reply **yes** to proceed.",
+      "proposal_quote": "**Return scope:**\n- Returning: item `5796612084` (the only item in the order)\n- Keeping unchanged: none — this is the entire order\n\n**Refund:**\n- Amount: **$158.89**\n- Method: **paypal_9497703** (PayPal — an existing payment method on your profile; this is also the original payment method)\n\n**What happens if approved:** The order status will change to **\"return requested\"**, and you'll receive a follow-up email with instructions on how and where to return the item.\n\nPlease note this is not yet registered. Do you approve this return? Reply **yes** to proceed.",
+      "item_ids": [
+        "5796612084"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_9497703",
+      "payment_quote": "Method: **paypal_9497703** (PayPal — an existing payment method on your profile; this is also the original payment method)",
+      "amount": -158.89,
+      "amount_quote": "Amount: **$158.89**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

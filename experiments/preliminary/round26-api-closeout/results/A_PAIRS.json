@@ -1,0 +1,362 @@
+[
+  {
+    "business": "exchange",
+    "id": "A_E_EDB01_r1_official",
+    "task": "EDB01",
+    "scenario": "stable",
+    "ids": [
+      "A_E_EDB01_r1_official",
+      "A_E_EDB01_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB02_r1_official",
+    "task": "EDB02",
+    "scenario": "stable",
+    "ids": [
+      "A_E_EDB02_r1_official",
+      "A_E_EDB02_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB03_r1_official",
+    "task": "EDB03",
+    "scenario": "evidence",
+    "ids": [
+      "A_E_EDB03_r1_official",
+      "A_E_EDB03_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB04_r1_official",
+    "task": "EDB04",
+    "scenario": "evidence",
+    "ids": [
+      "A_E_EDB04_r1_official",
+      "A_E_EDB04_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB05_r1_official",
+    "task": "EDB05",
+    "scenario": "resource",
+    "ids": [
+      "A_E_EDB05_r1_official",
+      "A_E_EDB05_r1_framework"
+    ],
+    "phases": [
+      "simfix3/recheck01",
+      "simfix3/recheck01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB05_r2_official",
+    "task": "EDB05",
+    "scenario": "resource",
+    "ids": [
+      "A_E_EDB05_r2_official",
+      "A_E_EDB05_r2_framework"
+    ],
+    "phases": [
+      "simfix4/recheck01",
+      "simfix4/recheck01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB06_r1_official",
+    "task": "EDB06",
+    "scenario": "resource",
+    "ids": [
+      "A_E_EDB06_r1_official",
+      "A_E_EDB06_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": false
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB07_r1_official",
+    "task": "EDB07",
+    "scenario": "requirement",
+    "ids": [
+      "A_E_EDB07_r1_official",
+      "A_E_EDB07_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB08_r1_official",
+    "task": "EDB08",
+    "scenario": "conflict",
+    "ids": [
+      "A_E_EDB08_r1_official",
+      "A_E_EDB08_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": false
+  },
+  {
+    "business": "exchange",
+    "id": "A_E_EDB08_r2_official",
+    "task": "EDB08",
+    "scenario": "conflict",
+    "ids": [
+      "A_E_EDB08_r2_official",
+      "A_E_EDB08_r2_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_14_r1_official",
+    "task": "14",
+    "scenario": "stable",
+    "ids": [
+      "A_R_14_r1_official",
+      "A_R_14_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_28_r1_official",
+    "task": "28",
+    "scenario": "stable",
+    "ids": [
+      "A_R_28_r1_official",
+      "A_R_28_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_30_r1_official",
+    "task": "30",
+    "scenario": "evidence",
+    "ids": [
+      "A_R_30_r1_official",
+      "A_R_30_r1_framework"
+    ],
+    "phases": [
+      "simfix1/recheck01",
+      "simfix1/recheck01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_31_r1_official",
+    "task": "31",
+    "scenario": "evidence",
+    "ids": [
+      "A_R_31_r1_official",
+      "A_R_31_r1_framework"
+    ],
+    "phases": [
+      "simfix1/recheck01",
+      "simfix1/recheck01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_54_r1_official",
+    "task": "54",
+    "scenario": "scope",
+    "ids": [
+      "A_R_54_r1_official",
+      "A_R_54_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_54_r2_official",
+    "task": "54",
+    "scenario": "scope",
+    "ids": [
+      "A_R_54_r2_official",
+      "A_R_54_r2_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_73_r1_official",
+    "task": "73",
+    "scenario": "scope",
+    "ids": [
+      "A_R_73_r1_official",
+      "A_R_73_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_51_r1_official",
+    "task": "51",
+    "scenario": "conflict",
+    "ids": [
+      "A_R_51_r1_official",
+      "A_R_51_r1_framework"
+    ],
+    "phases": [
+      "simfix2/recheck01",
+      "simfix2/recheck01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_55_r1_official",
+    "task": "55",
+    "scenario": "conflict",
+    "ids": [
+      "A_R_55_r1_official",
+      "A_R_55_r1_framework"
+    ],
+    "phases": [
+      "simfix2/recheck_R55",
+      "simfix2/recheck_R55"
+    ],
+    "comparable": false
+  },
+  {
+    "business": "return",
+    "id": "A_R_82_r1_official",
+    "task": "82",
+    "scenario": "withdraw",
+    "ids": [
+      "A_R_82_r1_official",
+      "A_R_82_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": false
+  },
+  {
+    "business": "return",
+    "id": "A_R_89_r1_official",
+    "task": "89",
+    "scenario": "withdraw",
+    "ids": [
+      "A_R_89_r1_official",
+      "A_R_89_r1_framework"
+    ],
+    "phases": [
+      "A01",
+      "A01"
+    ],
+    "comparable": false
+  },
+  {
+    "business": "return",
+    "id": "A_R_RDB01_r1_official",
+    "task": "RDB01",
+    "scenario": "payment",
+    "ids": [
+      "A_R_RDB01_r1_official",
+      "A_R_RDB01_r1_framework"
+    ],
+    "phases": [
+      "statefix3/recheck01",
+      "statefix3/recheck01"
+    ],
+    "comparable": true
+  },
+  {
+    "business": "return",
+    "id": "A_R_RDB01_r2_official",
+    "task": "RDB01",
+    "scenario": "payment",
+    "ids": [
+      "A_R_RDB01_r2_official",
+      "A_R_RDB01_r2_framework"
+    ],
+    "phases": [
+      "statefix3/recheck01",
+      "statefix3/recheck01"
+    ],
+    "comparable": false
+  },
+  {
+    "business": "return",
+    "id": "A_R_RDB02_r1_official",
+    "task": "RDB02",
+    "scenario": "payment",
+    "ids": [
+      "A_R_RDB02_r1_official",
+      "A_R_RDB02_r1_framework"
+    ],
+    "phases": [
+      "statefix3/recheck01",
+      "statefix3/recheck01"
+    ],
+    "comparable": true
+  }
+]

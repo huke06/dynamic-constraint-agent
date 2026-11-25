@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return for items `6452271382` and `7848293342`, with a $1,201.55 refund to credit_card_3362387? Please reply **yes** or **no**.",
+      "proposal_quote": "**Return scope:** EXACTLY the two items above — `6452271382` and `7848293342`. Since these are the only items in the order, this covers the entire order; there are no other items to keep unchanged.\n\n**Refund total:** $258.84 + $942.71 = **$1,201.55**\n**Refund method:** credit_card_3362387 (Mastercard ending 2130) — this is the original payment method, which is permitted.\n\n**What will happen if you approve:** The order status will change to **'return requested'**, and you'll receive a follow-up email on how and where to return the items. This is a return request only — not a final transaction authorization.\n\nDo you approve registering this return for items `6452271382` and `7848293342`, with a $1,201.55 refund to credit_card_3362387? Please reply **yes** or **no**.",
+      "item_ids": [
+        "6452271382",
+        "7848293342"
+      ],
+      "pairs": [],
+      "payment_method_id": "credit_card_3362387",
+      "payment_quote": "**Refund method:** credit_card_3362387 (Mastercard ending 2130)",
+      "amount": -1201.55,
+      "amount_quote": "**Refund total:** $258.84 + $942.71 = **$1,201.55**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 11,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this revised return — items `6452271382` and `7848293342`, $1,201.55 refund to **gift_card_2259499**? Please reply **yes** or **no**.",
+      "proposal_quote": "**Order #W1067251** — Status: **delivered** (eligible for return)\n\n**Return scope:** EXACTLY items `6452271382` (Wireless Earbuds, $258.84) and `7848293342` (Grill, $942.71) — all items in the order, nothing else.\n\n**Refund total:** **$1,201.55**\n**Refund method (revised):** gift_card_2259499 (current balance $30.00)\n\n**What will happen if you approve:** The order status will change to **'return requested'**, and you'll receive a follow-up email on how and where to return the items. This is a return request only — not a final transaction authorization.\n\nDo you approve this revised return — items `6452271382` and `7848293342`, $1,201.55 refund to **gift_card_2259499**? Please reply **yes** or **no**.",
+      "item_ids": [
+        "6452271382",
+        "7848293342"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_2259499",
+      "payment_quote": "**Refund method (revised):** gift_card_2259499 (current balance $30.00)",
+      "amount": -1201.55,
+      "amount_quote": "**Refund total:** **$1,201.55**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

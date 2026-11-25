@@ -1,0 +1,62 @@
+{
+  "public_db_order": {
+    "order_id": "#W1519594",
+    "user_id": "ivan_khan_7475",
+    "address": {
+      "address1": "159 Hickory Lane",
+      "address2": "Suite 995",
+      "city": "Charlotte",
+      "country": "USA",
+      "state": "NC",
+      "zip": "28243"
+    },
+    "items": [
+      {
+        "name": "Electric Kettle",
+        "product_id": "1075968781",
+        "item_id": "9472539378",
+        "price": 143.72,
+        "options": {
+          "capacity": "1.5L",
+          "material": "glass",
+          "color": "white"
+        }
+      },
+      {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "item_id": "1646531091",
+        "price": 232.49,
+        "options": {
+          "color": "blue",
+          "battery life": "6 hours",
+          "water resistance": "IPX4"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "772875761698"
+        ],
+        "item_ids": [
+          "9472539378",
+          "1646531091"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 376.21,
+        "payment_method_id": "gift_card_1711656"
+      }
+    ]
+  },
+  "selected_scope": [
+    "9472539378",
+    "1646531091"
+  ],
+  "source_db_sha256": "dbde692e380bb4ad17f9f7841172cf1e69bebad2daa405628ccdc52a42b3b9b0"
+}

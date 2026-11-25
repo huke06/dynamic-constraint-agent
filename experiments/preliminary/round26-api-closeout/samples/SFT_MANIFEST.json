@@ -1,0 +1,1046 @@
+[
+  {
+    "sample_id": "round24/old_t93_conflict_r1/event1",
+    "base_task": "exchange:93",
+    "partition": "train",
+    "line": 1,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "c9e03bf254c0e22ff77241fc04105b3a393bec7caf84b99089d98d1979c50ae6",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 1,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "bbc64b62-975c-4b0b-b8b6-75369b97f410",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "trace_event": 1,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/old_t93_conflict_r1/event5",
+    "base_task": "exchange:93",
+    "partition": "train",
+    "line": 2,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "a73fea7598b83cb8c10a788fe457dc1aa81f24d61229896a46b881c829830c9a",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 3,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "2ada6ab9-8381-44a9-b5dd-05955bad12dc",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "trace_event": 5,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/old_t93_conflict_r1/event7",
+    "base_task": "exchange:93",
+    "partition": "train",
+    "line": 3,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "06222b3fa1bc7c963df4e310ab0344c15946003cdb49fa067371e6ec791d3da0",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 4,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "b1eccf16-b630-40c3-b7a5-18f87ad3d98d",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "trace_event": 7,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/old_t93_conflict_r1/event11",
+    "base_task": "exchange:93",
+    "partition": "train",
+    "line": 4,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "349563d81faf4e294f1ae2ca2efa2800403745a1051799db4bf714d961755d8b",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 6,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "57759b69-6330-4fe7-b51b-b4818ba9bd43",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t93_conflict_r1_trace.json",
+      "trace_event": 11,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/old_t29_dynamic_r1/event0",
+    "base_task": "exchange:29",
+    "partition": "train",
+    "line": 5,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "10695d1bc42468e756f684d37a3ba6182ecc759bba67a6f9fda026b472761dc6",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 24,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "3a923db2-459c-4c0c-bbc6-eefc746eba0d",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/old_t29_dynamic_r1/event2",
+    "base_task": "exchange:29",
+    "partition": "train",
+    "line": 6,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "3202728d1d6d4984bd770fd31b52541d40aeb42e6eeff3c92b3259f594b2651a",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 25,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "0352ff50-d9d5-45d5-ab08-7b7b9b40cfd2",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "trace_event": 2,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/old_t29_dynamic_r1/event13",
+    "base_task": "exchange:29",
+    "partition": "train",
+    "line": 7,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "997ebc69f646bee972e7fe10fdd22ce2c7e1d4259fdb0acd6d0abe5c2dfe157f",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 30,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "8fe31caa-f8ab-4bd5-925e-b109f098bac1",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t29_dynamic_r1_trace.json",
+      "trace_event": 13,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/old_t102_withdrawn_r1/event0",
+    "base_task": "exchange:102",
+    "partition": "validation",
+    "line": 1,
+    "file": "sft_validation.jsonl",
+    "messages_sha256": "88a61d6fe9590056bbf30bcad39b5d9881d7fffdb5bb155a342420363a6b53a2",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 38,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "53ab664b-cbc2-4586-a46f-d32414a88cf3",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r1_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/old_t102_withdrawn_r1/event4",
+    "base_task": "exchange:102",
+    "partition": "validation",
+    "line": 2,
+    "file": "sft_validation.jsonl",
+    "messages_sha256": "cba1516cc0e8e439b0e1e35d8c0b75b388f60a3e5a3ef0200469aa0861c4b2b7",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\model_calls.jsonl",
+      "request_row": 40,
+      "request_sha256": "fc84396fed841866580c9e68125d6842a55052e369431355df566b852c5bf485",
+      "response_id": "fe6b4424-98b2-488b-81ca-4faa83da3da9",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\old01\\old_t102_withdrawn_r1_trace.json",
+      "trace_event": 4,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/B_t26_conflict_r1_analyze/event1",
+    "base_task": "exchange:26",
+    "partition": "test",
+    "line": 1,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "41abbfcac3162e65163d41eb8fd0188ddf2d1da1de709dfca8edb6aad164bbe2",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\model_calls.jsonl",
+      "request_row": 22,
+      "request_sha256": "0293e67387f0db95ad5eda6b0f1b3aec4bf5653066c44ce0975a91a5a154df36",
+      "response_id": "7130fdb2-33b0-44d6-b76d-c92bace83273",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "trace_event": 1,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/B_t26_conflict_r1_analyze/event5",
+    "base_task": "exchange:26",
+    "partition": "test",
+    "line": 2,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "74e51cfd9b575d72542b52bc32948f5b1e1826bfa149a7f3d4d5e7b83b859264",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\model_calls.jsonl",
+      "request_row": 24,
+      "request_sha256": "0293e67387f0db95ad5eda6b0f1b3aec4bf5653066c44ce0975a91a5a154df36",
+      "response_id": "cbbdf244-2697-4b62-baf6-cf102d2be0fa",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "trace_event": 5,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "round24/B_t26_conflict_r1_analyze/event7",
+    "base_task": "exchange:26",
+    "partition": "test",
+    "line": 3,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "845fab77aa8ac1857b242022fa1cbd375ccab46adc507baa5006076b389bf73e",
+    "source": {
+      "phase": "round24",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\model_calls.jsonl",
+      "request_row": 25,
+      "request_sha256": "0293e67387f0db95ad5eda6b0f1b3aec4bf5653066c44ce0975a91a5a154df36",
+      "response_id": "4f5d2038-88b3-4b25-b39d-2811b6590c0f",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\versions\\v2\\results\\new01\\B_t26_conflict_r1_analyze_trace.json",
+      "trace_event": 7,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "autonomous": true,
+      "final_quality": true,
+      "native_outcome": true,
+      "execution_allowed": true,
+      "raw_not_program_corrected": true,
+      "references_valid": true,
+      "appropriate": true,
+      "actual_request_found": true,
+      "exact_actual_visible_input": true
+    }
+  },
+  {
+    "sample_id": "A01/A_R_30_r1_framework/event0",
+    "base_task": "return:30",
+    "partition": "train",
+    "line": 8,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "f93996b8cccf5c5c4bebb97286d99ebe5f18cc062b48b4d914c0e422f5547b47",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 24,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "7e1d4754-4410-4930-99b8-e9fa5b1d0237",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_R_30_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_R_31_r1_framework/event0",
+    "base_task": "return:31",
+    "partition": "test",
+    "line": 4,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "f8b276b98bffd221583f8af4a3c04b6f69dbe0f1380ad388b4f40c107dd7f6eb",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 27,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "ce089e2b-aba7-4cf9-8a83-e02a73600fe6",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_R_31_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_R_55_r1_framework/event0",
+    "base_task": "return:55",
+    "partition": "train",
+    "line": 9,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "be994f6bc581484c66ea1a2b1cf1089407dafcc42a7dcc2ecc6bce34e0c17cf9",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 143,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "08cef83e-3afa-4bab-b76b-466eb7a775b4",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_R_55_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_R_55_r1_framework/event2",
+    "base_task": "return:55",
+    "partition": "train",
+    "line": 10,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "eb4bf467d30bb270bdd92ec2dbe54e2f41397906334e93d7ec6e0140e4896da4",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 145,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "c30f6797-0373-4a5c-a244-86acae874f7d",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_R_55_r1_framework_trace.json",
+      "trace_event": 2,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB03_r1_framework/event0",
+    "base_task": "exchange:EDB03",
+    "partition": "train",
+    "line": 11,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "3921d5eee2925cb2db4893293a571b166e968970651ac501d54ce6f1b9f0caa4",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 244,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "f5e78834-14e7-43fa-9f42-db27c7b2b801",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB03_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB03_r1_framework/event2",
+    "base_task": "exchange:EDB03",
+    "partition": "train",
+    "line": 12,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "eea7c8f7ecf3fadb06a281eab3f36b1061f476bf633a2ef3b37570c2483c9a6d",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 245,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "a20f746d-2b76-43a3-bfc3-1dab5941db43",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB03_r1_framework_trace.json",
+      "trace_event": 2,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB04_r1_framework/event0",
+    "base_task": "exchange:EDB04",
+    "partition": "train",
+    "line": 13,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "9797e795bd4dea0f733e2c8d1c00a946d3cabd3dbe10833007b3a017bb854285",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 248,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "f0fcb6f1-a68f-4430-ae08-bc1457e0f6b1",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB04_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB05_r1_framework/event6",
+    "base_task": "exchange:EDB05",
+    "partition": "train",
+    "line": 14,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "af282318ce81cfaf48ebdebcc18e72d6f1a80ab97889a14503a38858a0594f2c",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 262,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "c7b82262-4b29-442f-b3d8-568f7d632b9b",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB05_r1_framework_trace.json",
+      "trace_event": 6,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB05_r2_framework/event6",
+    "base_task": "exchange:EDB05",
+    "partition": "train",
+    "line": 15,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "41358a01fc465260f3f57a0c6e937c4cc98fac5017af41a3ea3d4522b6ab5a8d",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 269,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "60d2f0c1-df7e-4766-b763-312f04b31232",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB05_r2_framework_trace.json",
+      "trace_event": 6,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB06_r1_framework/event6",
+    "base_task": "exchange:EDB06",
+    "partition": "train",
+    "line": 16,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "60d8b9c1a1b6ddb07f4b9b1ce273471d829b77c7b57bc721edcdfba670f111a3",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 280,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "93bd8c62-9828-463d-b5f8-e981de407486",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB06_r1_framework_trace.json",
+      "trace_event": 6,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB08_r1_framework/event0",
+    "base_task": "exchange:EDB08",
+    "partition": "test",
+    "line": 5,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "a4432bcf68a1793a2ebcbc9c02a6b92cfe9b2454b3e1b5adb745524757dd1149",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 308,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "3f1f89c6-3e99-4152-a290-b59a0c46e254",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB08_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB08_r1_framework/event2",
+    "base_task": "exchange:EDB08",
+    "partition": "test",
+    "line": 6,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "d6a9fc79dc48347b21eb35351303ae4adda7a7e6f19a93c6247b837463961bea",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 310,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "5c59ec90-1501-4e51-9367-48ef5b2c0321",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB08_r1_framework_trace.json",
+      "trace_event": 2,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "A01/A_E_EDB08_r2_framework/event0",
+    "base_task": "exchange:EDB08",
+    "partition": "test",
+    "line": 7,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "27c2d27dbd20a1f4c843bb47c44d20d8e10cfa91a16219c8e4d3ac7c95473f9b",
+    "source": {
+      "phase": "A01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\model_calls.jsonl",
+      "request_row": 329,
+      "request_sha256": "12373403e452cb993e4131e9f6ddf3b21b1ed0bd95d2c9f6116ab6b55c098481",
+      "response_id": "cf2d1209-2348-4863-b785-18fc512f1430",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\A01\\A_E_EDB08_r2_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "B01/B_E26_appearance_r1_analyze/event1",
+    "base_task": "exchange:26",
+    "partition": "test",
+    "line": 8,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "99e8145f5c407bcaf38c2b15cf8ec380096110423a0cd548f494bc012c9da4af",
+    "source": {
+      "phase": "B01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\model_calls.jsonl",
+      "request_row": 21,
+      "request_sha256": "82327dc0b3d9efe8ca6d1f3b81a62bd1303cd393cb9cb96b6d4c2e6ebcf06284",
+      "response_id": "0566d512-cfbd-4179-83be-b5127a15e519",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_E26_appearance_r1_analyze_trace.json",
+      "trace_event": 1,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "B01/B_E26_appearance_r2_analyze/event1",
+    "base_task": "exchange:26",
+    "partition": "test",
+    "line": 9,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "d41c959f84b6029a9e9821c43f68d96c53c6504260b81f506d01c0a03d75f2b6",
+    "source": {
+      "phase": "B01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\model_calls.jsonl",
+      "request_row": 35,
+      "request_sha256": "82327dc0b3d9efe8ca6d1f3b81a62bd1303cd393cb9cb96b6d4c2e6ebcf06284",
+      "response_id": "fe329751-cd44-49fa-b009-e6daa8d07cab",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_E26_appearance_r2_analyze_trace.json",
+      "trace_event": 1,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "B01/B_R_refund_preference_r1_analyze/event1",
+    "base_task": "return:RDB01",
+    "partition": "train",
+    "line": 17,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "a06fd8dcf7e593a5822ecab5f49879e6d3642941523bd298febf27c62a9ecad0",
+    "source": {
+      "phase": "B01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\model_calls.jsonl",
+      "request_row": 41,
+      "request_sha256": "82327dc0b3d9efe8ca6d1f3b81a62bd1303cd393cb9cb96b6d4c2e6ebcf06284",
+      "response_id": "76bc4297-8da1-43bb-b4f7-bd74c0291164",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_R_refund_preference_r1_analyze_trace.json",
+      "trace_event": 1,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "B01/B_R_refund_preference_r2_analyze/event1",
+    "base_task": "return:RDB01",
+    "partition": "train",
+    "line": 18,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "be055e5f3fd20ef0851c1638538832ee26a9c4f2b85d932f1cf94291e00d782b",
+    "source": {
+      "phase": "B01",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\model_calls.jsonl",
+      "request_row": 55,
+      "request_sha256": "82327dc0b3d9efe8ca6d1f3b81a62bd1303cd393cb9cb96b6d4c2e6ebcf06284",
+      "response_id": "c4252a6c-5099-40d5-aa23-50e0180b96f6",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\results\\B01\\B_R_refund_preference_r2_analyze_trace.json",
+      "trace_event": 1,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "simfix1/A_R_30_r1_framework/event0",
+    "base_task": "return:30",
+    "partition": "train",
+    "line": 19,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "89a132e2aa0d4838abf7a21eec3dcdab5ff9b1c8150d54d626a6000353f42e4a",
+    "source": {
+      "phase": "simfix1",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\results\\recheck01\\model_calls.jsonl",
+      "request_row": 4,
+      "request_sha256": "d62fb008c65a1442d7e5371e9a372f423d024e2f8e392fc6655f7ab53fd42878",
+      "response_id": "de4e7df6-fc01-4400-ba5f-a7a221e64216",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\results\\recheck01\\A_R_30_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "simfix1/A_R_31_r1_framework/event0",
+    "base_task": "return:31",
+    "partition": "test",
+    "line": 10,
+    "file": "sft_test.jsonl",
+    "messages_sha256": "bf909319ebca7305024bf5a199f8fec193442a1caf002f299356f05ad18ceceb",
+    "source": {
+      "phase": "simfix1",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\results\\recheck01\\model_calls.jsonl",
+      "request_row": 11,
+      "request_sha256": "d62fb008c65a1442d7e5371e9a372f423d024e2f8e392fc6655f7ab53fd42878",
+      "response_id": "378a79a0-b104-47b4-890f-277f71f285db",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix1\\results\\recheck01\\A_R_31_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "simfix2/A_R_51_r1_framework/event0",
+    "base_task": "return:51",
+    "partition": "train",
+    "line": 20,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "a435440862b240360693e0913e6c3c8dcbb99cd482107f8b7fad6a5040193e22",
+    "source": {
+      "phase": "simfix2",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\results\\recheck01\\model_calls.jsonl",
+      "request_row": 5,
+      "request_sha256": "126c97544df898af6fb35cf29d0342d9e917bf0b59da68ff886fbd478bbd9fa4",
+      "response_id": "888ed71c-63e5-4c7d-9767-1f07592f4d04",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\results\\recheck01\\A_R_51_r1_framework_trace.json",
+      "trace_event": 0,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "simfix2/A_R_51_r1_framework/event2",
+    "base_task": "return:51",
+    "partition": "train",
+    "line": 21,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "22f8b6c2d5e59e278b90ab6bd31ce099571440a3eb7be1484a09c9b5365baf07",
+    "source": {
+      "phase": "simfix2",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\results\\recheck01\\model_calls.jsonl",
+      "request_row": 7,
+      "request_sha256": "126c97544df898af6fb35cf29d0342d9e917bf0b59da68ff886fbd478bbd9fa4",
+      "response_id": "1675a3b6-61b7-44f7-a97c-a305921f5e17",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix2\\results\\recheck01\\A_R_51_r1_framework_trace.json",
+      "trace_event": 2,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "simfix3/A_E_EDB05_r1_framework/event6",
+    "base_task": "exchange:EDB05",
+    "partition": "train",
+    "line": 22,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "8484b88dec09d2689d540dd118c555fd43ebbd5dfc42703cade7981b2707ed83",
+    "source": {
+      "phase": "simfix3",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\results\\recheck01\\model_calls.jsonl",
+      "request_row": 14,
+      "request_sha256": "632b810e63f20d47f556c9639311a96831248fbbe796524ec45aa19abcb32828",
+      "response_id": "36bb7229-df65-408e-8767-82048756a139",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\results\\recheck01\\A_E_EDB05_r1_framework_trace.json",
+      "trace_event": 6,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "simfix3/A_E_EDB05_r2_framework/event6",
+    "base_task": "exchange:EDB05",
+    "partition": "train",
+    "line": 23,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "21202963538607a88f2730db17b94591557eb3116994860685d5d4de11eabc64",
+    "source": {
+      "phase": "simfix3",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\results\\recheck01\\model_calls.jsonl",
+      "request_row": 25,
+      "request_sha256": "632b810e63f20d47f556c9639311a96831248fbbe796524ec45aa19abcb32828",
+      "response_id": "90b50b39-34c6-4c56-b5b1-3c64ef49d280",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix3\\results\\recheck01\\A_E_EDB05_r2_framework_trace.json",
+      "trace_event": 6,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  },
+  {
+    "sample_id": "simfix4/A_E_EDB05_r2_framework/event6",
+    "base_task": "exchange:EDB05",
+    "partition": "train",
+    "line": 24,
+    "file": "sft_train.jsonl",
+    "messages_sha256": "1c77cb7c89943b6bbb4bc5b7fcfa8b94d47bd75c057fc270124fa1baac67dd90",
+    "source": {
+      "phase": "simfix4",
+      "request_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix4\\results\\recheck01\\model_calls.jsonl",
+      "request_row": 22,
+      "request_sha256": "a9793ffdbb1aefd8ef2022f19eb204bb56a1345033a5c1ccc180f49acbbfbcd7",
+      "response_id": "7c4e24f2-14f4-4b37-9681-c664c02de18b",
+      "trace_file": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round26-api-closeout\\versions\\simfix4\\results\\recheck01\\A_E_EDB05_r2_framework_trace.json",
+      "trace_event": 6,
+      "generation": "model_autonomous"
+    },
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    }
+  }
+]

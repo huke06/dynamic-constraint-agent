@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pilot_return_scope_official",
+    "task": "pilot_return26",
+    "business": "return",
+    "scenario": "payment",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": null,
+    "seconds": 52.77731249993667,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  },
+  {
+    "id": "pilot_return_scope_framework",
+    "task": "pilot_return26",
+    "business": "return",
+    "scenario": "payment",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": "loop_limit",
+    "seconds": 63.51840109995101,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  }
+]

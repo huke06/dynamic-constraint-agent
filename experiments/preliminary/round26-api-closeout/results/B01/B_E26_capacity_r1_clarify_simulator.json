@@ -1,0 +1,100 @@
+[
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 7602931732 with SKU 1240311797, if in stock and whole signed difference <= -3.54. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 13,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Do you accept SKU 1240311797 as the new current specification for original item 7602931732?",
+      "proposal_quote": "Proposed SUBSTITUTE 1240311797 has options {\"capacity\":\"1L\",\"color\":\"silver\",\"material\":\"glass\"}, observed in-stock=True, price 137.17, and new whole signed difference -21.34 within the cap. Other exchange items remain as currently permitted.",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [
+        {
+          "item_id": "7602931732",
+          "new_item_id": "1240311797",
+          "quote": "Proposed SUBSTITUTE 1240311797 has options {\"capacity\":\"1L\",\"color\":\"silver\",\"material\":\"glass\"}, observed in-stock=True, price 137.17, and new whole signed difference -21.34 within the cap."
+        }
+      ],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "7602931732",
+          "variant_id": "1240311797",
+          "payment_method_id": null,
+          "quote": "Do you accept SKU 1240311797 as the new current specification for original item 7602931732?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "accepted_offer": "1240311797"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 17,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"7602931732\",\"9570044148\"],\"new_item_ids\":[\"1240311797\",\"3616838507\"],\"order_id\":\"#W5565470\",\"payment_method_id\":\"paypal_3024827\"},\"difference\":-21.34,\"fingerprint\":\"a8b84b809e719c206f81\",\"order_id\":\"#W5565470\",\"pairs\":[[\"7602931732\",\"1240311797\"],[\"9570044148\",\"3616838507\"]],\"payment_method_id\":\"paypal_3024827\",\"rows\":[{\"difference\":-16.08,\"item_id\":\"7602931732\",\"new_item_id\":\"1240311797\",\"new_price\":137.17,\"old_price\":153.25,\"options\":{\"capacity\":\"1L\",\"color\":\"silver\",\"material\":\"glass\"},\"sources\":[8]},{\"difference\":-5.26,\"item_id\":\"9570044148\",\"new_item_id\":\"3616838507\",\"new_price\":226.11,\"old_price\":231.37,\"options\":{\"backlight\":\"white\",\"size\":\"full size\",\"switch type\":\"tactile\"},\"sources\":[10]}]}. Original payment method paypal_3024827. Do you approve this exact combined proposal?",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "pairs": [
+        {
+          "item_id": "7602931732",
+          "new_item_id": "1240311797",
+          "quote": "[\"7602931732\",\"1240311797\"]"
+        },
+        {
+          "item_id": "9570044148",
+          "new_item_id": "3616838507",
+          "quote": "[\"9570044148\",\"3616838507\"]"
+        }
+      ],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method paypal_3024827.",
+      "amount": -21.34,
+      "amount_quote": "\"difference\":-21.34",
+      "active_offers": [
+        {
+          "item_id": "7602931732",
+          "variant_id": "1240311797",
+          "payment_method_id": "paypal_3024827",
+          "quote": "Please approve this complete exchange proposal, covering all exchange items",
+          "status": "active"
+        },
+        {
+          "item_id": "9570044148",
+          "variant_id": "3616838507",
+          "payment_method_id": "paypal_3024827",
+          "quote": "Please approve this complete exchange proposal, covering all exchange items",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

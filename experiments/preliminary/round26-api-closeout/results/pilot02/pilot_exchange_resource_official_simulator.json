@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 13,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exchange? (yes/no)",
+      "proposal_quote": "Both requested variants are in stock. Here is the complete combined exchange proposal:\n\n**Order #W6876713 (delivered) — Exchange proposal**\n\n| Item | Old item | Old price | New item | New price | Difference |\n|---|---|---|---|---|---|\n| Luggage Set | 6301799585 — blue / softshell / 3-piece | $495.87 | 8926329222 — black / softshell / 2-piece | $452.28 | −$43.59 |\n| Grill | 7082455361 — charcoal / medium / rotisserie | $962.69 | 4404981319 — electric / large / rotisserie | $1,031.00 | +$68.31 |\n\n- **Net difference:** +$24.72 (you pay)\n- **Payment method:** credit_card_7901829 (Visa ending 7312)\n- All other items and the order otherwise remain unchanged.\n- This is within your $10,000.00 signed difference limit.\n\nBoth requested specifications are in stock, so no substitutions are needed.\n\nDo you approve this exchange? (yes/no)",
+      "item_ids": [
+        "6301799585",
+        "7082455361"
+      ],
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "8926329222",
+          "quote": "| Luggage Set | 6301799585 — blue / softshell / 3-piece | $495.87 | 8926329222 — black / softshell / 2-piece | $452.28 | −$43.59 |"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "| Grill | 7082455361 — charcoal / medium / rotisserie | $962.69 | 4404981319 — electric / large / rotisserie | $1,031.00 | +$68.31 |"
+        }
+      ],
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "**Payment method:** credit_card_7901829 (Visa ending 7312)",
+      "amount": 24.72,
+      "amount_quote": "**Net difference:** +$24.72 (you pay)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "The signed limit is new minus ORIGINAL purchased prices summed over ALL exchange items, and must be <= 10000.00. Negative cap means a MINIMUM refund, not a maximum refund. Current requested whole difference is 24.72. You may compare observed compliant substitutes, but need my concrete specification permission and later independent complete-plan approval.",
+    "user_ref": 17,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "How would you like to proceed with the Luggage Set? Please tell me which option (if any) you'd like, or whether you want to drop the Luggage Set from this exchange.",
+      "proposal_quote": "",
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "7160999700",
+          "payment_method_id": null,
+          "quote": "| 7160999700 | red / softshell / 2-piece | $499.29 | +$3.42 |",
+          "status": "active"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "8759627937",
+          "payment_method_id": null,
+          "quote": "| 8759627937 | blue / softshell / 4-piece | $501.65 | +$5.78 |",
+          "status": "active"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "8964750292",
+          "payment_method_id": null,
+          "quote": "| 8964750292 | red / hardshell / 2-piece | $532.58 | +$36.71 |",
+          "status": "active"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "9956648681",
+          "payment_method_id": null,
+          "quote": "| 9956648681 | red / hardshell / 4-piece | $452.62 | −$43.25 |",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "8926329222"
+      ],
+      "topic": "scope",
+      "stop_quote": null
+    }
+  },
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 6301799585 with SKU 7160999700, if in stock and whole signed difference <= 10000.00. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 19,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Which Luggage Set specification do you grant permission for (or should I drop the Luggage Set from the exchange)?",
+      "proposal_quote": "Here are the compliant in-stock Luggage Set substitutes, with the resulting whole-order difference (Luggage Set difference + Grill's +$68.31):\n\n| Item ID | Options | Price | Luggage diff vs. old ($495.87) | Whole-order diff |\n|---|---|---|---|---|\n| 7160999700 | red / softshell / 2-piece | $499.29 | +$3.42 | +$71.73 |\n| 8759627937 | blue / softshell / 4-piece | $501.65 | +$5.78 | +$74.09 |\n| 8964750292 | red / hardshell / 2-piece | $532.58 | +$36.71 | +$105.02 |\n| 9956648681 | red / hardshell / 4-piece | $452.62 | −$43.25 | +$25.06 |\n\nAll are within the $10,000.00 signed limit. The Grill exchange (7082455361 → 4404981319, +$68.31) remains unchanged.",
+      "item_ids": [
+        "6301799585"
+      ],
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "7160999700",
+          "quote": "| 7160999700 | red / softshell / 2-piece | $499.29 | +$3.42 | +$71.73 |"
+        },
+        {
+          "item_id": "6301799585",
+          "new_item_id": "8759627937",
+          "quote": "| 8759627937 | blue / softshell / 4-piece | $501.65 | +$5.78 | +$74.09 |"
+        },
+        {
+          "item_id": "6301799585",
+          "new_item_id": "8964750292",
+          "quote": "| 8964750292 | red / hardshell / 2-piece | $532.58 | +$36.71 | +$105.02 |"
+        },
+        {
+          "item_id": "6301799585",
+          "new_item_id": "9956648681",
+          "quote": "| 9956648681 | red / hardshell / 4-piece | $452.62 | −$43.25 | +$25.06 |"
+        }
+      ],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "7160999700",
+          "payment_method_id": null,
+          "quote": "| 7160999700 | red / softshell / 2-piece | $499.29 | +$3.42 | +$71.73 |",
+          "status": "active"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "8759627937",
+          "payment_method_id": null,
+          "quote": "| 8759627937 | blue / softshell / 4-piece | $501.65 | +$5.78 | +$74.09 |",
+          "status": "active"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "8964750292",
+          "payment_method_id": null,
+          "quote": "| 8964750292 | red / hardshell / 2-piece | $532.58 | +$36.71 | +$105.02 |",
+          "status": "active"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "9956648681",
+          "payment_method_id": null,
+          "quote": "| 9956648681 | red / hardshell / 4-piece | $452.62 | −$43.25 | +$25.06 |",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "scope",
+      "stop_quote": null
+    },
+    "accepted_offer": "7160999700"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 23,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this complete exchange plan? (yes/no)",
+      "proposal_quote": "**Order #W6876713 (delivered) — Complete Exchange Proposal**\n\n| Item | Old item | Old price | New item | New price | Difference |\n|---|---|---|---|---|---|\n| Luggage Set | 6301799585 — blue / softshell / 3-piece | $495.87 | 7160999700 — red / softshell / 2-piece | $499.29 | +$3.42 |\n| Grill | 7082455361 — charcoal / medium / rotisserie | $962.69 | 4404981319 — electric / large / rotisserie | $1,031.00 | +$68.31 |\n\n- **Net difference:** +$71.73 (you pay)\n- **Signed difference check:** +$71.73 ≤ $10,000.00 ✓\n- **Payment method:** credit_card_7901829 (Visa ending 7312)\n- All other items and the order otherwise remain unchanged.\n- These are all the items to be exchanged.",
+      "item_ids": [
+        "6301799585",
+        "7082455361"
+      ],
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "7160999700",
+          "quote": "| Luggage Set | 6301799585 — blue / softshell / 3-piece | $495.87 | 7160999700 — red / softshell / 2-piece | $499.29 | +$3.42 |"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "| Grill | 7082455361 — charcoal / medium / rotisserie | $962.69 | 4404981319 — electric / large / rotisserie | $1,031.00 | +$68.31 |"
+        }
+      ],
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "**Payment method:** credit_card_7901829 (Visa ending 7312)",
+      "amount": 71.73,
+      "amount_quote": "**Net difference:** +$71.73 (you pay)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

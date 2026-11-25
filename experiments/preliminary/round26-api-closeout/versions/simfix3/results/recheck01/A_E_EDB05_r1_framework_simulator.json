@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"4875647558\",\"2185126308\"],\"new_item_ids\":[\"3951031513\",\"8277474082\"],\"order_id\":\"#W1335809\",\"payment_method_id\":\"paypal_3728317\"},\"difference\":478.36,\"fingerprint\":\"aede05a2816f1afb3518\",\"order_id\":\"#W1335809\",\"pairs\":[[\"2185126308\",\"8277474082\"],[\"4875647558\",\"3951031513\"]],\"payment_method_id\":\"paypal_3728317\",\"rows\":[{\"difference\":-5.33,\"item_id\":\"2185126308\",\"new_item_id\":\"8277474082\",\"new_price\":236.57,\"old_price\":241.9,\"options\":{\"material\":\"leather\",\"size\":\"12\",\"waterproof\":\"yes\"},\"sources\":[10]},{\"difference\":483.69,\"item_id\":\"4875647558\",\"new_item_id\":\"3951031513\",\"new_price\":3289.46,\"old_price\":2805.77,\"options\":{\"capacity\":\"1.5L\",\"pressure\":\"19 bar\",\"type\":\"automatic\"},\"sources\":[8]}]}. Original payment method paypal_3728317.",
+      "item_ids": [
+        "4875647558",
+        "2185126308"
+      ],
+      "pairs": [
+        {
+          "item_id": "2185126308",
+          "new_item_id": "8277474082",
+          "quote": "[\"2185126308\",\"8277474082\"]"
+        },
+        {
+          "item_id": "4875647558",
+          "new_item_id": "3951031513",
+          "quote": "[\"4875647558\",\"3951031513\"]"
+        }
+      ],
+      "payment_method_id": "paypal_3728317",
+      "payment_quote": "Original payment method paypal_3728317.",
+      "amount": 478.36,
+      "amount_quote": "\"difference\":478.36",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 4875647558 with SKU 3709608322, if in stock and whole signed difference <= 10000.00. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 19,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Do you accept SKU 3709608322 as the new current specification for original item 4875647558?",
+      "proposal_quote": "Proposed SUBSTITUTE 3709608322 has options {\"capacity\":\"2L\",\"pressure\":\"9 bar\",\"type\":\"automatic\"}, observed in-stock=True, price 2744.7, and new whole signed difference -66.40 within the cap. Other exchange items remain as currently permitted.",
+      "item_ids": [
+        "4875647558"
+      ],
+      "pairs": [
+        {
+          "item_id": "4875647558",
+          "new_item_id": "3709608322",
+          "quote": "Proposed SUBSTITUTE 3709608322 has options {\"capacity\":\"2L\",\"pressure\":\"9 bar\",\"type\":\"automatic\"}, observed in-stock=True, price 2744.7, and new whole signed difference -66.40 within the cap."
+        }
+      ],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "4875647558",
+          "variant_id": "3709608322",
+          "payment_method_id": null,
+          "quote": "Do you accept SKU 3709608322 as the new current specification for original item 4875647558?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "3951031513"
+      ],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "accepted_offer": "3709608322"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 23,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"4875647558\",\"2185126308\"],\"new_item_ids\":[\"3709608322\",\"8277474082\"],\"order_id\":\"#W1335809\",\"payment_method_id\":\"paypal_3728317\"},\"difference\":-66.4,\"fingerprint\":\"148c688e12c051f257d2\",\"order_id\":\"#W1335809\",\"pairs\":[[\"2185126308\",\"8277474082\"],[\"4875647558\",\"3709608322\"]],\"payment_method_id\":\"paypal_3728317\",\"rows\":[{\"difference\":-5.33,\"item_id\":\"2185126308\",\"new_item_id\":\"8277474082\",\"new_price\":236.57,\"old_price\":241.9,\"options\":{\"material\":\"leather\",\"size\":\"12\",\"waterproof\":\"yes\"},\"sources\":[10]},{\"difference\":-61.07,\"item_id\":\"4875647558\",\"new_item_id\":\"3709608322\",\"new_price\":2744.7,\"old_price\":2805.77,\"options\":{\"capacity\":\"2L\",\"pressure\":\"9 bar\",\"type\":\"automatic\"},\"sources\":[17]}]}. Original payment method paypal_3728317.",
+      "item_ids": [
+        "4875647558",
+        "2185126308"
+      ],
+      "pairs": [
+        {
+          "item_id": "4875647558",
+          "new_item_id": "3709608322",
+          "quote": "[\"4875647558\",\"3709608322\"]"
+        },
+        {
+          "item_id": "2185126308",
+          "new_item_id": "8277474082",
+          "quote": "[\"2185126308\",\"8277474082\"]"
+        }
+      ],
+      "payment_method_id": "paypal_3728317",
+      "payment_quote": "Original payment method paypal_3728317",
+      "amount": -66.4,
+      "amount_quote": "\"difference\":-66.4",
+      "active_offers": [
+        {
+          "item_id": "4875647558",
+          "variant_id": "3709608322",
+          "payment_method_id": "paypal_3728317",
+          "quote": "Please approve this complete exchange proposal, covering all exchange items",
+          "status": "active"
+        },
+        {
+          "item_id": "2185126308",
+          "variant_id": "8277474082",
+          "payment_method_id": "paypal_3728317",
+          "quote": "Please approve this complete exchange proposal, covering all exchange items",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

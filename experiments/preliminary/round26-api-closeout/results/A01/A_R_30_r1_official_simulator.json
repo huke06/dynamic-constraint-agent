@@ -1,0 +1,184 @@
+[
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct legal_method. Return only my latest scope [\"3788616824\"] and refund to gift_card_7711863. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 6,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return — returning item `3788616824` with a $951.21 refund to gift card `7711863`? Please reply yes or no.",
+      "proposal_quote": "**Return scope (exactly as requested):**\n- Items to return: `[\"3788616824\"]` (the Tablet)\n- Items kept unchanged: none (no other items exist in this order)\n\n**Refund:**\n- Refund method: `gift_card_7711863` (this is also the original payment method)\n- Refund total: **$951.21**",
+      "item_ids": [
+        "3788616824"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7711863",
+      "payment_quote": "Refund method: `gift_card_7711863` (this is also the original payment method)",
+      "amount": -951.21,
+      "amount_quote": "Refund total: **$951.21**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": false,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct legal_method. Return only my latest scope [\"3788616824\"] and refund to gift_card_7711863. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 8,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give fresh, complete approval to register this return — returning item `3788616824` with a $951.21 refund to gift card `7711863`? Please reply yes or no.",
+      "proposal_quote": "**Corrected / current scope:**\n- Order: #W2692684 — status **delivered** (return-eligible)\n- Items to return: `[\"3788616824\"]` (Tablet — black, 10-inch, 128GB) — the only item in the order\n- Items kept unchanged: none (no other items exist)\n- Refund method: `gift_card_7711863`\n- Refund total: **$951.21**\n- After confirmation: status → \"return requested\"; you'll receive an email on how/where to return the item.\n\nThis is still just your request — nothing has been registered. **Do you give fresh, complete approval to register this return** — returning item `3788616824` with a $951.21 refund to gift card `7711863`? Please reply yes or no.",
+      "item_ids": [
+        "3788616824"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7711863",
+      "payment_quote": "Refund method: `gift_card_7711863`",
+      "amount": -951.21,
+      "amount_quote": "Refund total: **$951.21**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": false,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "Refund only to original payment gift_card_7711863 or an existing gift card. My preferred permitted method is gift_card_7711863. Current requested scope is [\"3788616824\"]. The refund total is the sum of original purchased line prices, not replacement prices. Please obtain independent complete approval; this clarification is not approval.",
+    "user_ref": 10,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "**what do you mean by \"legal_method\"?**",
+      "proposal_quote": "",
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": "",
+      "amount": null,
+      "amount_quote": "",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "refund_policy",
+      "stop_quote": ""
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct legal_method. Return only my latest scope [\"3788616824\"] and refund to gift_card_7711863. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 12,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give independent, complete approval to register this return — returning item `3788616824` with a $951.21 refund to gift card `7711863`? Please reply yes or no.",
+      "proposal_quote": "**Complete current scope:**\n- Order: #W2692684 — status **delivered** (return-eligible)\n- Items to return: `[\"3788616824\"]` (Tablet — black, 10-inch, 128GB) — the only item in the order\n- Items kept unchanged: none (no other items exist)\n- Refund method: `gift_card_7711863`\n- Refund total: **$951.21** (original purchased line price)\n- After confirmation: status → \"return requested\"; you'll receive an email on how/where to return the item.",
+      "item_ids": [
+        "3788616824"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7711863",
+      "payment_quote": "Refund method: `gift_card_7711863`",
+      "amount": -951.21,
+      "amount_quote": "Refund total: **$951.21** (original purchased line price)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": false,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct legal_method. Return only my latest scope [\"3788616824\"] and refund to gift_card_7711863. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 14,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "**Do you give fresh, complete approval to register this return** — returning item `3788616824` with a $951.21 refund to gift card `7711863`? Please reply **yes** or **no**.",
+      "proposal_quote": "**Complete current scope (nothing registered):**\n- Order: #W2692684 — status **delivered** (return-eligible)\n- Items to return: `[\"3788616824\"]` (Tablet — black, 10-inch, 128GB) — the only item in the order\n- Items kept unchanged: none (no other items exist)\n- Refund method: `gift_card_7711863`\n- Refund total: **$951.21** (original purchased line price)\n\n**Do you give fresh, complete approval to register this return** — returning item `3788616824` with a $951.21 refund to gift card `7711863`? Please reply **yes** or **no**.",
+      "item_ids": [
+        "3788616824"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7711863",
+      "payment_quote": "Refund method: `gift_card_7711863`",
+      "amount": -951.21,
+      "amount_quote": "Refund total: **$951.21** (original purchased line price)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": false,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct legal_method. Return only my latest scope [\"3788616824\"] and refund to gift_card_7711863. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 16,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please reply with either the specific correction you want, or **yes**/**no** to approve the return above.",
+      "proposal_quote": "**Current scope (nothing registered):**\n- Order: #W2692684 — status **delivered** (return-eligible)\n- Items to return: `[\"3788616824\"]` (Tablet — black, 10-inch, 128GB) — the only item in the order\n- Items kept unchanged: none\n- Refund method: `gift_card_7711863` (original payment method, also an existing gift card — permitted, no conflict)\n- Refund total: **$951.21** (original purchased line price)",
+      "item_ids": [
+        "3788616824"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7711863",
+      "payment_quote": "Refund method: `gift_card_7711863` (original payment method, also an existing gift card — permitted, no conflict)",
+      "amount": -951.21,
+      "amount_quote": "Refund total: **$951.21** (original purchased line price)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": false,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

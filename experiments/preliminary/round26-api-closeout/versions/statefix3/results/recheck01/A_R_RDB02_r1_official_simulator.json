@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return for the two items above, with a $414.24 refund to paypal_6262583?",
+      "proposal_quote": "This is a return request only — nothing has been registered yet. Do you approve registering this return for the two items above, with a $414.24 refund to paypal_6262583? Please reply **yes** to confirm.",
+      "item_ids": [
+        "9421195098",
+        "4920090458"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_6262583",
+      "payment_quote": "Refund method: paypal_6262583 (PayPal)",
+      "amount": -414.24,
+      "amount_quote": "Refund total: $32.37 + $381.87 = **$414.24**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 11,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return for the two items above, with a $414.24 refund to gift_card_3324938?",
+      "proposal_quote": "**Order #W1504875** — Status: **delivered**\n\n**Return scope (exactly these items, all others unchanged):**\n- 9421195098 — Notebook — $32.37\n- 4920090458 — Smart Watch — $381.87\n\n**Refund total:** **$414.24**\n**Refund method:** **gift_card_3324938** (existing gift card)",
+      "item_ids": [
+        "9421195098",
+        "4920090458"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3324938",
+      "payment_quote": "**Refund method:** **gift_card_3324938** (existing gift card)",
+      "amount": -414.24,
+      "amount_quote": "**Refund total:** **$414.24**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

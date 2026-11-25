@@ -1,0 +1,484 @@
+{
+  "task_id": "EDB04",
+  "tier": "controlled_exchange",
+  "order_id": "#W1326557",
+  "user_id": "sophia_hernandez_2054",
+  "scope": [
+    "6777246137",
+    "6501071631"
+  ],
+  "targets": {
+    "6777246137": "4579334072",
+    "6501071631": "2106335193"
+  },
+  "initial_options": {
+    "6777246137": {
+      "capacity": "750ml",
+      "material": "glass",
+      "color": "black"
+    },
+    "6501071631": {
+      "screen size": "10-inch",
+      "storage": "64GB",
+      "color": "silver"
+    }
+  },
+  "payment_method_id": "gift_card_1139567",
+  "initial_catalogues": false,
+  "change_type": "none",
+  "environment": {
+    "orders": {
+      "#W1326557": {
+        "order_id": "#W1326557",
+        "user_id": "sophia_hernandez_2054",
+        "address": {
+          "address1": "663 Willow Lane",
+          "address2": "Suite 886",
+          "city": "Washington",
+          "country": "USA",
+          "state": "DC",
+          "zip": "20335"
+        },
+        "items": [
+          {
+            "name": "Water Bottle",
+            "product_id": "8310926033",
+            "item_id": "6777246137",
+            "price": 47.76,
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "red"
+            }
+          },
+          {
+            "name": "Tablet",
+            "product_id": "8024098596",
+            "item_id": "6501071631",
+            "price": 1018.68,
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "gold"
+            }
+          },
+          {
+            "name": "Vacuum Cleaner",
+            "product_id": "1762337868",
+            "item_id": "6259501109",
+            "price": 652.61,
+            "options": {
+              "type": "robotic",
+              "bagged/bagless": "bagged",
+              "features": "pet hair removal"
+            }
+          },
+          {
+            "name": "Mechanical Keyboard",
+            "product_id": "1656367028",
+            "item_id": "1421289881",
+            "price": 268.77,
+            "options": {
+              "switch type": "linear",
+              "backlight": "none",
+              "size": "80%"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "365651976748"
+            ],
+            "item_ids": [
+              "6777246137",
+              "6501071631",
+              "6259501109",
+              "1421289881"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1987.82,
+            "payment_method_id": "gift_card_1139567"
+          }
+        ]
+      }
+    },
+    "users": {
+      "sophia_hernandez_2054": {
+        "user_id": "sophia_hernandez_2054",
+        "name": {
+          "first_name": "Sophia",
+          "last_name": "Hernandez"
+        },
+        "address": {
+          "address1": "318 Laurel Lane",
+          "address2": "Suite 297",
+          "city": "Fort Worth",
+          "country": "USA",
+          "state": "TX",
+          "zip": "76197"
+        },
+        "email": "sophia.hernandez3499@example.com",
+        "payment_methods": {
+          "gift_card_1139567": {
+            "source": "gift_card",
+            "id": "gift_card_1139567",
+            "balance": 75.0
+          }
+        },
+        "orders": [
+          "#W4614740",
+          "#W1748126",
+          "#W1326557"
+        ]
+      }
+    },
+    "products": {
+      "8310926033": {
+        "name": "Water Bottle",
+        "product_id": "8310926033",
+        "variants": {
+          "1434748144": {
+            "item_id": "1434748144",
+            "options": {
+              "capacity": "1000ml",
+              "material": "glass",
+              "color": "red"
+            },
+            "available": false,
+            "price": 49.72
+          },
+          "4579334072": {
+            "item_id": "4579334072",
+            "options": {
+              "capacity": "750ml",
+              "material": "glass",
+              "color": "black"
+            },
+            "available": true,
+            "price": 54.85
+          },
+          "6469567736": {
+            "item_id": "6469567736",
+            "options": {
+              "capacity": "1000ml",
+              "material": "glass",
+              "color": "blue"
+            },
+            "available": false,
+            "price": 47.84
+          },
+          "3453331371": {
+            "item_id": "3453331371",
+            "options": {
+              "capacity": "500ml",
+              "material": "stainless steel",
+              "color": "black"
+            },
+            "available": true,
+            "price": 52.79
+          },
+          "2439754078": {
+            "item_id": "2439754078",
+            "options": {
+              "capacity": "1000ml",
+              "material": "stainless steel",
+              "color": "red"
+            },
+            "available": true,
+            "price": 49.51
+          },
+          "7843064651": {
+            "item_id": "7843064651",
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "blue"
+            },
+            "available": true,
+            "price": 50.14
+          },
+          "7918497119": {
+            "item_id": "7918497119",
+            "options": {
+              "capacity": "500ml",
+              "material": "glass",
+              "color": "blue"
+            },
+            "available": false,
+            "price": 54.51
+          },
+          "5758737025": {
+            "item_id": "5758737025",
+            "options": {
+              "capacity": "500ml",
+              "material": "glass",
+              "color": "green"
+            },
+            "available": true,
+            "price": 45.09
+          },
+          "7533802601": {
+            "item_id": "7533802601",
+            "options": {
+              "capacity": "500ml",
+              "material": "stainless steel",
+              "color": "green"
+            },
+            "available": true,
+            "price": 48.59
+          },
+          "3229676465": {
+            "item_id": "3229676465",
+            "options": {
+              "capacity": "500ml",
+              "material": "plastic",
+              "color": "black"
+            },
+            "available": true,
+            "price": 51.94
+          },
+          "2366567022": {
+            "item_id": "2366567022",
+            "options": {
+              "capacity": "1000ml",
+              "material": "stainless steel",
+              "color": "blue"
+            },
+            "available": false,
+            "price": 54.04
+          },
+          "6974536207": {
+            "item_id": "6974536207",
+            "options": {
+              "capacity": "750ml",
+              "material": "plastic",
+              "color": "blue"
+            },
+            "available": true,
+            "price": 49.3
+          },
+          "6777246137": {
+            "item_id": "6777246137",
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "red"
+            },
+            "available": true,
+            "price": 47.76
+          },
+          "8538875209": {
+            "item_id": "8538875209",
+            "options": {
+              "capacity": "500ml",
+              "material": "glass",
+              "color": "black"
+            },
+            "available": true,
+            "price": 45.13
+          },
+          "9127591879": {
+            "item_id": "9127591879",
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "black"
+            },
+            "available": false,
+            "price": 48.47
+          },
+          "7661609223": {
+            "item_id": "7661609223",
+            "options": {
+              "capacity": "1000ml",
+              "material": "stainless steel",
+              "color": "black"
+            },
+            "available": true,
+            "price": 46.51
+          },
+          "4947921075": {
+            "item_id": "4947921075",
+            "options": {
+              "capacity": "750ml",
+              "material": "stainless steel",
+              "color": "green"
+            },
+            "available": false,
+            "price": 49.57
+          },
+          "7199146548": {
+            "item_id": "7199146548",
+            "options": {
+              "capacity": "750ml",
+              "material": "plastic",
+              "color": "black"
+            },
+            "available": true,
+            "price": 48.02
+          }
+        }
+      },
+      "8024098596": {
+        "name": "Tablet",
+        "product_id": "8024098596",
+        "variants": {
+          "3788616824": {
+            "item_id": "3788616824",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 951.21
+          },
+          "2235648106": {
+            "item_id": "2235648106",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "32GB",
+              "color": "black"
+            },
+            "available": true,
+            "price": 1054.43
+          },
+          "7535423717": {
+            "item_id": "7535423717",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 904.46
+          },
+          "2106335193": {
+            "item_id": "2106335193",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 903.95
+          },
+          "6501071631": {
+            "item_id": "6501071631",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 1018.68
+          },
+          "2633090267": {
+            "item_id": "2633090267",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 1046.33
+          },
+          "4803681337": {
+            "item_id": "4803681337",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "64GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 962.34
+          },
+          "6065192424": {
+            "item_id": "6065192424",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 989.7
+          },
+          "7187199153": {
+            "item_id": "7187199153",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 983.62
+          },
+          "4913411651": {
+            "item_id": "4913411651",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": true,
+            "price": 941.03
+          },
+          "8551474201": {
+            "item_id": "8551474201",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 938.92
+          },
+          "4615543240": {
+            "item_id": "4615543240",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 1042.93
+          },
+          "6948061616": {
+            "item_id": "6948061616",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 950.96
+          },
+          "4131464125": {
+            "item_id": "4131464125",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 960.67
+          }
+        }
+      }
+    }
+  },
+  "initial_message": "I am sophia_hernandez_2054, email sophia.hernandez3499@example.com. In delivered order #W1326557 exchange ONLY original-to-replacement mapping {\"6501071631\":\"2106335193\",\"6777246137\":\"4579334072\"}, options {\"6501071631\":{\"color\":\"silver\",\"screen size\":\"10-inch\",\"storage\":\"64GB\"},\"6777246137\":{\"capacity\":\"750ml\",\"color\":\"black\",\"material\":\"glass\"}}. Other items stay unchanged. Use original payment gift_card_1139567. These specifications are permitted only if in stock and within my signed whole-amount cap. Different specifications need new permission. After that, show ALL current items, exact combined new-minus-old difference and original payment for independent final approval. Initial preferences are negotiable; stock, cap, scope and separate final approval are hard. Maximum signed WHOLE new-minus-original difference <= 10000.00; a negative limit means MINIMUM refund, not maximum refund.",
+  "business": "exchange",
+  "scenario": "evidence",
+  "source": "controlled exchange from untouched public database order; not an official benchmark task score",
+  "cap": "10000.00",
+  "changed_item": "6777246137",
+  "changed_target": "2439754078",
+  "change_message": "Before submission, change ONLY original item 6777246137 to SKU 2439754078, if in stock. Other item and original payment stay unchanged. My previous approval does not authorize this new complete plan; ask fresh approval."
+}

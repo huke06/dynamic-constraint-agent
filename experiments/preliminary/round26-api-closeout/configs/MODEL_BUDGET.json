@@ -1,0 +1,16 @@
+{
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": false,
+  "agent_request_attempts": 40,
+  "known_agent_tokens": 180000,
+  "operations": 24,
+  "turns": 35,
+  "max_agent_output": 1700,
+  "max_simulator_output": 2100,
+  "timeout_seconds": 60,
+  "transport_attempts": 2,
+  "SDK_retries": 0,
+  "stop": "first actual business write or explicit withdrawal acknowledgement; no post-write receipt generation",
+  "old_v2_sha256": "eaf8981bc9e3b4c13a9db69c36c1688b7a83a4626bc2813ded9dbc54041572ff"
+}

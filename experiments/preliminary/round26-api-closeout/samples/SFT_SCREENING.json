@@ -1,0 +1,657 @@
+[
+  {
+    "sample_id": "A01/A_R_30_r1_framework/event0",
+    "base_task": "return:30",
+    "work_type": "query",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_R_31_r1_framework/event0",
+    "base_task": "return:31",
+    "work_type": "query",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_R_51_r1_framework/event0",
+    "base_task": "return:51",
+    "work_type": "analyze",
+    "selected": false,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "A01/A_R_51_r1_framework/event2",
+    "base_task": "return:51",
+    "work_type": "clarify",
+    "selected": false,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "A01/A_R_55_r1_framework/event0",
+    "base_task": "return:55",
+    "work_type": "analyze",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_R_55_r1_framework/event2",
+    "base_task": "return:55",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_R_82_r1_framework/event6",
+    "base_task": "return:82",
+    "work_type": "stop",
+    "selected": false,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "A01/A_R_89_r1_framework/event6",
+    "base_task": "return:89",
+    "work_type": "stop",
+    "selected": false,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "A01/A_R_RDB01_r1_framework/event6",
+    "base_task": "return:RDB01",
+    "work_type": "stop",
+    "selected": false,
+    "checks": {
+      "correct_end": false,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "correct_end",
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "A01/A_R_RDB01_r2_framework/event6",
+    "base_task": "return:RDB01",
+    "work_type": "stop",
+    "selected": false,
+    "checks": {
+      "correct_end": false,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "correct_end",
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "A01/A_R_RDB02_r1_framework/event6",
+    "base_task": "return:RDB02",
+    "work_type": "stop",
+    "selected": false,
+    "checks": {
+      "correct_end": false,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "correct_end",
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "A01/A_E_EDB03_r1_framework/event0",
+    "base_task": "exchange:EDB03",
+    "work_type": "analyze",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_E_EDB03_r1_framework/event2",
+    "base_task": "exchange:EDB03",
+    "work_type": "query",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_E_EDB04_r1_framework/event0",
+    "base_task": "exchange:EDB04",
+    "work_type": "query",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_E_EDB05_r1_framework/event6",
+    "base_task": "exchange:EDB05",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_E_EDB05_r2_framework/event6",
+    "base_task": "exchange:EDB05",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_E_EDB06_r1_framework/event6",
+    "base_task": "exchange:EDB06",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_E_EDB08_r1_framework/event0",
+    "base_task": "exchange:EDB08",
+    "work_type": "analyze",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_E_EDB08_r1_framework/event2",
+    "base_task": "exchange:EDB08",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "A01/A_E_EDB08_r2_framework/event0",
+    "base_task": "exchange:EDB08",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "B01/B_E26_capacity_r1_analyze/event1",
+    "base_task": "exchange:26",
+    "work_type": "clarify",
+    "selected": false,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "B01/B_E26_capacity_r2_analyze/event1",
+    "base_task": "exchange:26",
+    "work_type": "clarify",
+    "selected": false,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "B01/B_E26_appearance_r1_analyze/event1",
+    "base_task": "exchange:26",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "B01/B_E26_appearance_r2_analyze/event1",
+    "base_task": "exchange:26",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "B01/B_R_refund_preference_r1_analyze/event1",
+    "base_task": "return:RDB01",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "B01/B_R_refund_preference_r2_analyze/event1",
+    "base_task": "return:RDB01",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "simfix1/A_R_30_r1_framework/event0",
+    "base_task": "return:30",
+    "work_type": "query",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "simfix1/A_R_31_r1_framework/event0",
+    "base_task": "return:31",
+    "work_type": "query",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "simfix2/A_R_51_r1_framework/event0",
+    "base_task": "return:51",
+    "work_type": "analyze",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "simfix2/A_R_51_r1_framework/event2",
+    "base_task": "return:51",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "simfix2/A_R_55_r1_framework/event0",
+    "base_task": "return:55",
+    "work_type": "analyze",
+    "selected": false,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "simfix2/A_R_55_r1_framework/event2",
+    "base_task": "return:55",
+    "work_type": "clarify",
+    "selected": false,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": false,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": [
+      "clean_trajectory"
+    ]
+  },
+  {
+    "sample_id": "simfix3/A_E_EDB05_r1_framework/event6",
+    "base_task": "exchange:EDB05",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "simfix3/A_E_EDB05_r2_framework/event6",
+    "base_task": "exchange:EDB05",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  },
+  {
+    "sample_id": "simfix4/A_E_EDB05_r2_framework/event6",
+    "base_task": "exchange:EDB05",
+    "work_type": "clarify",
+    "selected": true,
+    "checks": {
+      "correct_end": true,
+      "clean_trajectory": true,
+      "actual_output": true,
+      "execution_allowed": true,
+      "no_program_replacement": true,
+      "exact_before_input": true,
+      "references_in_past": true,
+      "required_fields": true,
+      "advances_current_work": true
+    },
+    "reason_if_rejected": []
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "phase": "development pilot, not formal",
+  "reason": "simulator extracted return refund as negative signed exchange delta and rejected correct refund magnitude; Markdown quote formatting also caused false rejection; stopped remaining cases to repair before formal freeze",
+  "completed": 2
+}

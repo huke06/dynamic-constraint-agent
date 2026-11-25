@@ -1,0 +1,18 @@
+{
+  "SFT": {
+    "train": 24,
+    "validation": 2,
+    "test": 10
+  },
+  "SFT_work_types": {
+    "clarify": 16,
+    "prepare": 3,
+    "confirm": 4,
+    "submit": 3,
+    "query": 6,
+    "analyze": 4
+  },
+  "DPO": 2,
+  "automatic_or_forced_not_SFT": 195,
+  "actual_training": false
+}

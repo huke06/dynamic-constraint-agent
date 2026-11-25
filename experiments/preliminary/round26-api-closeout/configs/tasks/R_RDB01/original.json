@@ -1,0 +1,58 @@
+{
+  "public_db_order": {
+    "order_id": "#W1067251",
+    "user_id": "raj_sanchez_2970",
+    "address": {
+      "address1": "557 Sunset Drive",
+      "address2": "Suite 454",
+      "city": "San Diego",
+      "country": "USA",
+      "state": "CA",
+      "zip": "92147"
+    },
+    "items": [
+      {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "item_id": "6452271382",
+        "price": 258.84,
+        "options": {
+          "color": "blue",
+          "battery life": "4 hours",
+          "water resistance": "IPX4"
+        }
+      },
+      {
+        "name": "Grill",
+        "product_id": "6819683148",
+        "item_id": "7848293342",
+        "price": 942.71,
+        "options": {
+          "type": "charcoal",
+          "size": "medium",
+          "features": "side burner"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "787450420748"
+        ],
+        "item_ids": [
+          "6452271382",
+          "7848293342"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 1201.55,
+        "payment_method_id": "credit_card_3362387"
+      }
+    ]
+  },
+  "user_id": "raj_sanchez_2970"
+}

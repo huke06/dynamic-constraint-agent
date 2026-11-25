@@ -1,0 +1,189 @@
+{
+  "task_id": "14",
+  "business": "return",
+  "scenario": "stable",
+  "order_id": "#W7387996",
+  "user_id": "mia_garcia_4516",
+  "scope": [
+    "5796612084"
+  ],
+  "payment_method_id": "paypal_9497703",
+  "original_payment": "paypal_9497703",
+  "preferred_payment": "paypal_9497703",
+  "initial_message": "I am mia_garcia_4516, email mia.garcia2723@example.com. In order #W7387996, I want to return EXACTLY original items [\"5796612084\"] and keep every other item unchanged. Requested refund method is paypal_9497703. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": false,
+  "event": {
+    "kind": "none"
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W7387996": {
+        "order_id": "#W7387996",
+        "user_id": "mia_garcia_4516",
+        "address": {
+          "address1": "537 Main Street",
+          "address2": "Suite 572",
+          "city": "Indianapolis",
+          "country": "USA",
+          "state": "IN",
+          "zip": "46229"
+        },
+        "items": [
+          {
+            "name": "Gaming Mouse",
+            "product_id": "5713490933",
+            "item_id": "5796612084",
+            "price": 158.89,
+            "options": {
+              "color": "RGB",
+              "sensor type": "optical",
+              "connectivity": "wired"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "200246490130"
+            ],
+            "item_ids": [
+              "5796612084"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 158.89,
+            "payment_method_id": "paypal_9497703"
+          }
+        ]
+      }
+    },
+    "users": {
+      "mia_garcia_4516": {
+        "user_id": "mia_garcia_4516",
+        "name": {
+          "first_name": "Mia",
+          "last_name": "Garcia"
+        },
+        "address": {
+          "address1": "537 Main Street",
+          "address2": "Suite 572",
+          "city": "Indianapolis",
+          "country": "USA",
+          "state": "IN",
+          "zip": "46229"
+        },
+        "email": "mia.garcia2723@example.com",
+        "payment_methods": {
+          "paypal_9497703": {
+            "source": "paypal",
+            "id": "paypal_9497703"
+          },
+          "credit_card_3124723": {
+            "source": "credit_card",
+            "id": "credit_card_3124723",
+            "brand": "visa",
+            "last_four": "7285"
+          }
+        },
+        "orders": [
+          "#W5490111",
+          "#W7387996"
+        ]
+      }
+    },
+    "products": {
+      "5713490933": {
+        "name": "Gaming Mouse",
+        "product_id": "5713490933",
+        "variants": {
+          "8896479688": {
+            "item_id": "8896479688",
+            "options": {
+              "color": "white",
+              "sensor type": "optical",
+              "connectivity": "wireless"
+            },
+            "available": true,
+            "price": 143.15
+          },
+          "8214883393": {
+            "item_id": "8214883393",
+            "options": {
+              "color": "black",
+              "sensor type": "laser",
+              "connectivity": "wireless"
+            },
+            "available": true,
+            "price": 150.58
+          },
+          "7420906769": {
+            "item_id": "7420906769",
+            "options": {
+              "color": "white",
+              "sensor type": "laser",
+              "connectivity": "wireless"
+            },
+            "available": false,
+            "price": 138.47
+          },
+          "2193628750": {
+            "item_id": "2193628750",
+            "options": {
+              "color": "black",
+              "sensor type": "laser",
+              "connectivity": "wired"
+            },
+            "available": true,
+            "price": 162.15
+          },
+          "2880340443": {
+            "item_id": "2880340443",
+            "options": {
+              "color": "white",
+              "sensor type": "optical",
+              "connectivity": "wired"
+            },
+            "available": true,
+            "price": 137.22
+          },
+          "5019835484": {
+            "item_id": "5019835484",
+            "options": {
+              "color": "RGB",
+              "sensor type": "laser",
+              "connectivity": "wired"
+            },
+            "available": false,
+            "price": 138.73
+          },
+          "3330317167": {
+            "item_id": "3330317167",
+            "options": {
+              "color": "black",
+              "sensor type": "optical",
+              "connectivity": "wired"
+            },
+            "available": true,
+            "price": 137.32
+          },
+          "5796612084": {
+            "item_id": "5796612084",
+            "options": {
+              "color": "RGB",
+              "sensor type": "optical",
+              "connectivity": "wired"
+            },
+            "available": false,
+            "price": 158.89
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

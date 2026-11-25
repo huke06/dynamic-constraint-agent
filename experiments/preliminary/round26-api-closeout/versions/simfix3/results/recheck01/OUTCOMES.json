@@ -1,0 +1,89 @@
+[
+  {
+    "id": "A_E_EDB05_r1_official",
+    "task": "EDB05",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 35.64889200008474,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "status": true
+    }
+  },
+  {
+    "id": "A_E_EDB05_r1_framework",
+    "task": "EDB05",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 14.978057299973443,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "status": true
+    }
+  },
+  {
+    "id": "A_E_EDB05_r2_official",
+    "task": "EDB05",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 9.630108800018206,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  },
+  {
+    "id": "A_E_EDB05_r2_framework",
+    "task": "EDB05",
+    "business": "exchange",
+    "scenario": "resource",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 13.375113100046292,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "current_targets": true,
+      "inventory_product": true,
+      "amount": true,
+      "cap": true,
+      "status": true
+    }
+  }
+]

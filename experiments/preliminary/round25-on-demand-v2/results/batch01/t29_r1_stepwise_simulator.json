@@ -1,0 +1,102 @@
+[
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 15,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "pairs": [
+        {
+          "item_id": "5753502325",
+          "new_item_id": "5206946487",
+          "quote": "[\"5753502325\",\"5206946487\"]"
+        },
+        {
+          "item_id": "8118291112",
+          "new_item_id": "8277474082",
+          "quote": "[\"8118291112\",\"8277474082\"]"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "5753502325",
+          "variant_id": "5206946487",
+          "quote": "5206946487"
+        },
+        {
+          "item_id": "8118291112",
+          "variant_id": "8277474082",
+          "quote": "8277474082"
+        }
+      ],
+      "difference": -25.26,
+      "amount_quote": "-25.26",
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method paypal_3024827",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 20,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "pairs": [
+        {
+          "item_id": "5753502325",
+          "new_item_id": "8481719475",
+          "quote": "[\"5753502325\",\"8481719475\"]"
+        },
+        {
+          "item_id": "8118291112",
+          "new_item_id": "8277474082",
+          "quote": "[\"8118291112\",\"8277474082\"]"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "5753502325",
+          "variant_id": "8481719475",
+          "quote": "8481719475"
+        },
+        {
+          "item_id": "8118291112",
+          "variant_id": "8277474082",
+          "quote": "8277474082"
+        }
+      ],
+      "difference": -21.73,
+      "amount_quote": "-21.73",
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method paypal_3024827",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  }
+]

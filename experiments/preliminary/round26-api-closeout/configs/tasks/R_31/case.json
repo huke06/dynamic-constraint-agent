@@ -1,0 +1,346 @@
+{
+  "task_id": "31",
+  "business": "return",
+  "scenario": "evidence",
+  "order_id": "#W7449508",
+  "user_id": "olivia_lopez_3865",
+  "scope": [
+    "6200867091",
+    "6477915553"
+  ],
+  "payment_method_id": "gift_card_7711863",
+  "original_payment": "gift_card_7711863",
+  "preferred_payment": "gift_card_7711863",
+  "initial_message": "I am olivia_lopez_3865, email olivia.lopez4535@example.com. In order #W7449508, I want to return EXACTLY original items [\"6200867091\",\"6477915553\"] and keep every other item unchanged. Requested refund method is gift_card_7711863. This is my return request, not final transaction authorization. Verify the native order and refund rules, show the complete current scope, exact refund total and method, then ask independent approval before registering anything.",
+  "initial_missing": true,
+  "event": {
+    "kind": "none"
+  },
+  "expected": "write",
+  "environment": {
+    "orders": {
+      "#W7449508": {
+        "order_id": "#W7449508",
+        "user_id": "olivia_lopez_3865",
+        "address": {
+          "address1": "310 Laurel Lane",
+          "address2": "Suite 480",
+          "city": "Fort Worth",
+          "country": "USA",
+          "state": "TX",
+          "zip": "76171"
+        },
+        "items": [
+          {
+            "name": "Espresso Machine",
+            "product_id": "4354588079",
+            "item_id": "6200867091",
+            "price": 2955.17,
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            }
+          },
+          {
+            "name": "Sneakers",
+            "product_id": "7471004230",
+            "item_id": "6477915553",
+            "price": 186.45,
+            "options": {
+              "size": "6",
+              "color": "black",
+              "material": "synthetic"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "194496721133"
+            ],
+            "item_ids": [
+              "6200867091",
+              "6477915553"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 3141.62,
+            "payment_method_id": "gift_card_7711863"
+          }
+        ]
+      }
+    },
+    "users": {
+      "olivia_lopez_3865": {
+        "user_id": "olivia_lopez_3865",
+        "name": {
+          "first_name": "Olivia",
+          "last_name": "Lopez"
+        },
+        "address": {
+          "address1": "310 Laurel Lane",
+          "address2": "Suite 480",
+          "city": "Fort Worth",
+          "country": "USA",
+          "state": "TX",
+          "zip": "76171"
+        },
+        "email": "olivia.lopez4535@example.com",
+        "payment_methods": {
+          "gift_card_7711863": {
+            "source": "gift_card",
+            "id": "gift_card_7711863",
+            "balance": 44.0
+          }
+        },
+        "orders": [
+          "#W9319364",
+          "#W9373487",
+          "#W2692684",
+          "#W5481803",
+          "#W7449508"
+        ]
+      }
+    },
+    "products": {
+      "4354588079": {
+        "name": "Espresso Machine",
+        "product_id": "4354588079",
+        "variants": {
+          "3709608322": {
+            "item_id": "3709608322",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "2L",
+              "type": "automatic"
+            },
+            "available": true,
+            "price": 2744.7
+          },
+          "7407838442": {
+            "item_id": "7407838442",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3081.91
+          },
+          "6324294385": {
+            "item_id": "6324294385",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2719.01
+          },
+          "1157853815": {
+            "item_id": "1157853815",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "2L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 3096.7
+          },
+          "2190871011": {
+            "item_id": "2190871011",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1.5L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3105.6
+          },
+          "3714494375": {
+            "item_id": "3714494375",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2709.83
+          },
+          "4875647558": {
+            "item_id": "4875647558",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": false,
+            "price": 2805.77
+          },
+          "7441167885": {
+            "item_id": "7441167885",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            },
+            "available": false,
+            "price": 2866.37
+          },
+          "3815173328": {
+            "item_id": "3815173328",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1.5L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2908.42
+          },
+          "5839483328": {
+            "item_id": "5839483328",
+            "options": {
+              "pressure": "15 bar",
+              "capacity": "2L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2929.06
+          },
+          "7806008610": {
+            "item_id": "7806008610",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2742.67
+          },
+          "7774234341": {
+            "item_id": "7774234341",
+            "options": {
+              "pressure": "9 bar",
+              "capacity": "2L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2719.16
+          },
+          "3951031513": {
+            "item_id": "3951031513",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1.5L",
+              "type": "automatic"
+            },
+            "available": true,
+            "price": 3289.46
+          },
+          "6242772310": {
+            "item_id": "6242772310",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "automatic"
+            },
+            "available": false,
+            "price": 2996.03
+          },
+          "6200867091": {
+            "item_id": "6200867091",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            },
+            "available": true,
+            "price": 2955.17
+          },
+          "9884666842": {
+            "item_id": "9884666842",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 2794.7
+          },
+          "3379843752": {
+            "item_id": "3379843752",
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "2L",
+              "type": "manual"
+            },
+            "available": true,
+            "price": 3203.76
+          }
+        }
+      },
+      "7471004230": {
+        "name": "Sneakers",
+        "product_id": "7471004230",
+        "variants": {
+          "3631875806": {
+            "item_id": "3631875806",
+            "options": {
+              "size": "11",
+              "color": "red",
+              "material": "leather"
+            },
+            "available": false,
+            "price": 203.82
+          },
+          "9727387530": {
+            "item_id": "9727387530",
+            "options": {
+              "size": "11",
+              "color": "black",
+              "material": "synthetic"
+            },
+            "available": false,
+            "price": 207.75
+          },
+          "2509076505": {
+            "item_id": "2509076505",
+            "options": {
+              "size": "10",
+              "color": "gray",
+              "material": "leather"
+            },
+            "available": true,
+            "price": 189.5
+          },
+          "6477915553": {
+            "item_id": "6477915553",
+            "options": {
+              "size": "6",
+              "color": "black",
+              "material": "synthetic"
+            },
+            "available": true,
+            "price": 186.45
+          },
+          "4410138384": {
+            "item_id": "4410138384",
+            "options": {
+              "size": "8",
+              "color": "gray",
+              "material": "canvas"
+            },
+            "available": false,
+            "price": 197.37
+          }
+        }
+      }
+    }
+  },
+  "source": "official task controlled single-order return subtask"
+}

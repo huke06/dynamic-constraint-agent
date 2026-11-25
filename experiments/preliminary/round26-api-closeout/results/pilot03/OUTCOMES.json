@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pilot_withdraw_official",
+    "task": "pilot_withdraw",
+    "business": "return",
+    "scenario": "withdraw",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 11.216287299990654,
+    "correct": true,
+    "checks": {
+      "expected_withdrawal_observed": true,
+      "no_write": true,
+      "database_unchanged": true,
+      "acknowledged": true
+    }
+  },
+  {
+    "id": "pilot_withdraw_framework",
+    "task": "pilot_withdraw",
+    "business": "return",
+    "scenario": "withdraw",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": true,
+    "error": null,
+    "seconds": 5.031637900043279,
+    "correct": true,
+    "checks": {
+      "expected_withdrawal_observed": true,
+      "no_write": true,
+      "database_unchanged": true,
+      "acknowledged": true
+    }
+  }
+]

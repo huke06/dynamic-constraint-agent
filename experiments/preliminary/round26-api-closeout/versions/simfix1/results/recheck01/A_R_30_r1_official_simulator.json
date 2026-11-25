@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 6,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return — returning item `3788616824` with a $951.21 refund to gift_card_7711863? Please reply yes or no.",
+      "proposal_quote": "**Your return request scope:**\n- Return item: `3788616824` (Tablet) — the entire order contents\n- Items kept unchanged: none (this is the only item)\n- Refund method: **gift_card_7711863** (this is also the original payment method)\n- **Exact refund total: $951.21**",
+      "item_ids": [
+        "3788616824"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_7711863",
+      "payment_quote": "Refund method: **gift_card_7711863**",
+      "amount": -951.21,
+      "amount_quote": "**Exact refund total: $951.21**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

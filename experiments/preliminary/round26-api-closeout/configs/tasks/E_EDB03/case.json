@@ -1,0 +1,372 @@
+{
+  "task_id": "EDB03",
+  "tier": "controlled_exchange",
+  "order_id": "#W1166549",
+  "user_id": "daiki_hernandez_1356",
+  "scope": [
+    "5510402676",
+    "5268233322"
+  ],
+  "targets": {
+    "5510402676": "5418781403",
+    "5268233322": "1240311797"
+  },
+  "initial_options": {
+    "5510402676": {
+      "screen size": "7-inch",
+      "connectivity": "Wi-Fi + Cellular",
+      "storage": "8GB"
+    },
+    "5268233322": {
+      "capacity": "1L",
+      "material": "glass",
+      "color": "silver"
+    }
+  },
+  "payment_method_id": "credit_card_1289579",
+  "initial_catalogues": false,
+  "change_type": "none",
+  "environment": {
+    "orders": {
+      "#W1166549": {
+        "order_id": "#W1166549",
+        "user_id": "daiki_hernandez_1356",
+        "address": {
+          "address1": "243 Sunset Drive",
+          "address2": "Suite 890",
+          "city": "Los Angeles",
+          "country": "USA",
+          "state": "CA",
+          "zip": "91203"
+        },
+        "items": [
+          {
+            "name": "E-Reader",
+            "product_id": "3801771308",
+            "item_id": "5510402676",
+            "price": 267.07,
+            "options": {
+              "screen size": "6-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "8GB"
+            }
+          },
+          {
+            "name": "Electric Kettle",
+            "product_id": "1075968781",
+            "item_id": "5268233322",
+            "price": 155.99,
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "white"
+            }
+          },
+          {
+            "name": "Desk Lamp",
+            "product_id": "6817146515",
+            "item_id": "1569765161",
+            "price": 143.02,
+            "options": {
+              "color": "silver",
+              "brightness": "low",
+              "power source": "AC adapter"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "125889200563"
+            ],
+            "item_ids": [
+              "5510402676",
+              "5268233322",
+              "1569765161"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 566.08,
+            "payment_method_id": "credit_card_1289579"
+          }
+        ]
+      }
+    },
+    "users": {
+      "daiki_hernandez_1356": {
+        "user_id": "daiki_hernandez_1356",
+        "name": {
+          "first_name": "Daiki",
+          "last_name": "Hernandez"
+        },
+        "address": {
+          "address1": "243 Sunset Drive",
+          "address2": "Suite 890",
+          "city": "Los Angeles",
+          "country": "USA",
+          "state": "CA",
+          "zip": "91203"
+        },
+        "email": "daiki.hernandez2148@example.com",
+        "payment_methods": {
+          "credit_card_1289579": {
+            "source": "credit_card",
+            "id": "credit_card_1289579",
+            "brand": "visa",
+            "last_four": "9104"
+          }
+        },
+        "orders": [
+          "#W1166549",
+          "#W9228376"
+        ]
+      }
+    },
+    "products": {
+      "3801771308": {
+        "name": "E-Reader",
+        "product_id": "3801771308",
+        "variants": {
+          "9494281769": {
+            "item_id": "9494281769",
+            "options": {
+              "screen size": "8-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "8GB"
+            },
+            "available": true,
+            "price": 252.06
+          },
+          "4273929280": {
+            "item_id": "4273929280",
+            "options": {
+              "screen size": "7-inch",
+              "connectivity": "Wi-Fi + Cellular",
+              "storage": "32GB"
+            },
+            "available": true,
+            "price": 244.95
+          },
+          "6268080249": {
+            "item_id": "6268080249",
+            "options": {
+              "screen size": "7-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "8GB"
+            },
+            "available": false,
+            "price": 244.02
+          },
+          "5510402676": {
+            "item_id": "5510402676",
+            "options": {
+              "screen size": "6-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "8GB"
+            },
+            "available": true,
+            "price": 267.07
+          },
+          "7609274509": {
+            "item_id": "7609274509",
+            "options": {
+              "screen size": "8-inch",
+              "connectivity": "Wi-Fi",
+              "storage": "32GB"
+            },
+            "available": true,
+            "price": 243.4
+          },
+          "5418781403": {
+            "item_id": "5418781403",
+            "options": {
+              "screen size": "7-inch",
+              "connectivity": "Wi-Fi + Cellular",
+              "storage": "8GB"
+            },
+            "available": true,
+            "price": 267.58
+          }
+        }
+      },
+      "1075968781": {
+        "name": "Electric Kettle",
+        "product_id": "1075968781",
+        "variants": {
+          "4064702754": {
+            "item_id": "4064702754",
+            "options": {
+              "capacity": "2L",
+              "material": "glass",
+              "color": "white"
+            },
+            "available": true,
+            "price": 159.78
+          },
+          "8142779083": {
+            "item_id": "8142779083",
+            "options": {
+              "capacity": "1L",
+              "material": "stainless steel",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 157.53
+          },
+          "5428723833": {
+            "item_id": "5428723833",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "black"
+            },
+            "available": true,
+            "price": 145.48
+          },
+          "1240311797": {
+            "item_id": "1240311797",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 137.17
+          },
+          "9132333852": {
+            "item_id": "9132333852",
+            "options": {
+              "capacity": "1L",
+              "material": "plastic",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 139.47
+          },
+          "9472539378": {
+            "item_id": "9472539378",
+            "options": {
+              "capacity": "1.5L",
+              "material": "glass",
+              "color": "white"
+            },
+            "available": true,
+            "price": 143.72
+          },
+          "2243454707": {
+            "item_id": "2243454707",
+            "options": {
+              "capacity": "1L",
+              "material": "plastic",
+              "color": "white"
+            },
+            "available": true,
+            "price": 164.46
+          },
+          "5268233322": {
+            "item_id": "5268233322",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "white"
+            },
+            "available": true,
+            "price": 155.99
+          },
+          "2698416822": {
+            "item_id": "2698416822",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "white"
+            },
+            "available": true,
+            "price": 149.45
+          },
+          "9335834276": {
+            "item_id": "9335834276",
+            "options": {
+              "capacity": "2L",
+              "material": "glass",
+              "color": "black"
+            },
+            "available": false,
+            "price": 137.92
+          },
+          "2323972008": {
+            "item_id": "2323972008",
+            "options": {
+              "capacity": "1L",
+              "material": "glass",
+              "color": "black"
+            },
+            "available": true,
+            "price": 146.98
+          },
+          "9624127908": {
+            "item_id": "9624127908",
+            "options": {
+              "capacity": "1.5L",
+              "material": "plastic",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 158.9
+          },
+          "3015420423": {
+            "item_id": "3015420423",
+            "options": {
+              "capacity": "2L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 141.76
+          },
+          "4458619711": {
+            "item_id": "4458619711",
+            "options": {
+              "capacity": "2L",
+              "material": "stainless steel",
+              "color": "white"
+            },
+            "available": true,
+            "price": 153.81
+          },
+          "5930656038": {
+            "item_id": "5930656038",
+            "options": {
+              "capacity": "1.5L",
+              "material": "glass",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 142.3
+          },
+          "7602931732": {
+            "item_id": "7602931732",
+            "options": {
+              "capacity": "1L",
+              "material": "stainless steel",
+              "color": "black"
+            },
+            "available": true,
+            "price": 153.25
+          }
+        }
+      }
+    }
+  },
+  "initial_message": "I am daiki_hernandez_1356, email daiki.hernandez2148@example.com. In delivered order #W1166549 exchange ONLY original-to-replacement mapping {\"5268233322\":\"1240311797\",\"5510402676\":\"5418781403\"}, options {\"5268233322\":{\"capacity\":\"1L\",\"color\":\"silver\",\"material\":\"glass\"},\"5510402676\":{\"connectivity\":\"Wi-Fi + Cellular\",\"screen size\":\"7-inch\",\"storage\":\"8GB\"}}. Other items stay unchanged. Use original payment credit_card_1289579. These specifications are permitted only if in stock and within my signed whole-amount cap. Different specifications need new permission. After that, show ALL current items, exact combined new-minus-old difference and original payment for independent final approval. Initial preferences are negotiable; stock, cap, scope and separate final approval are hard. Maximum signed WHOLE new-minus-original difference <= 10000.00; a negative limit means MINIMUM refund, not maximum refund.",
+  "business": "exchange",
+  "scenario": "evidence",
+  "source": "controlled exchange from untouched public database order; not an official benchmark task score",
+  "cap": "10000.00",
+  "changed_item": "5510402676",
+  "changed_target": "4273929280",
+  "change_message": "Before submission, change ONLY original item 5510402676 to SKU 4273929280, if in stock. Other item and original payment stay unchanged. My previous approval does not authorize this new complete plan; ask fresh approval."
+}

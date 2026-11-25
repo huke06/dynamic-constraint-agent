@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this return for exactly items 3320557165 and 2698416822, with a $338.12 refund to credit_card_6824399? Please reply **yes** to confirm.",
+      "proposal_quote": "If approved, the order status will change to **\"return requested\"**, and you'll receive a follow-up email on how/where to return the items.\n\nDo you approve registering this return for exactly items 3320557165 and 2698416822, with a $338.12 refund to credit_card_6824399? Please reply **yes** to confirm.",
+      "item_ids": [
+        "3320557165",
+        "2698416822"
+      ],
+      "pairs": [],
+      "payment_method_id": "credit_card_6824399",
+      "payment_quote": "**Refund method:** credit_card_6824399 (Visa ending 8991) — this is the original payment method, which is permitted.",
+      "amount": -338.12,
+      "amount_quote": "**Refund total:** $188.67 + $149.45 = **$338.12**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 11,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve registering this **revised** return for exactly items 2698416822 and 8098621301, with a $341.60 refund to credit_card_6824399? Please reply **yes** to confirm.",
+      "proposal_quote": "**Revised return scope (exactly these 2 items):**\n| Item ID | Product | Options | Price |\n|---|---|---|---|\n| 2698416822 | Electric Kettle | 1.5L, white, plastic | $149.45 |\n| 8098621301 | Electric Toothbrush | rechargeable, black, high | $192.15 |\n\n**Items kept unchanged (not returned):**\n- 3320557165 — Electric Toothbrush (AA batteries, blue, high) — $188.67\n- 7228247242 — Hiking Boots (leather, size 10, waterproof) — $251.38\n- 7441167885 — Espresso Machine (1.5L, 15 bar, capsule) — $2866.37\n\n**Refund total:** $149.45 + $192.15 = **$341.60**\n**Refund method:** credit_card_6824399 (Visa ending 8991) — original payment method, permitted.\n\nIf approved, the order status will change to **\"return requested\"**, and you'll receive a follow-up email on how/where to return the items.",
+      "item_ids": [
+        "2698416822",
+        "8098621301"
+      ],
+      "pairs": [],
+      "payment_method_id": "credit_card_6824399",
+      "payment_quote": "**Refund method:** credit_card_6824399 (Visa ending 8991) — original payment method, permitted.",
+      "amount": -341.6,
+      "amount_quote": "**Refund total:** $149.45 + $192.15 = **$341.60**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

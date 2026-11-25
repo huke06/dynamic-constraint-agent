@@ -1,0 +1,594 @@
+[
+  {
+    "phase": "results\\A01",
+    "logged_requests": 334,
+    "request_started": 334,
+    "request_finished": 334,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 334
+    },
+    "agent": {
+      "requests": 194,
+      "input": 1147031,
+      "output": 45039,
+      "cache_hit": 1032448,
+      "cache_miss": 114583,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 399.5126702010166,
+      "roles": {
+        "cognitive": 153,
+        "semantic": 41
+      }
+    },
+    "simulator": {
+      "requests": 140,
+      "input": 134938,
+      "output": 50011,
+      "cache_hit": 63093,
+      "cache_miss": 71845,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 309.98014879983384,
+      "roles": {
+        "simulator": 140
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 334
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "results\\B01",
+    "logged_requests": 60,
+    "request_started": 60,
+    "request_finished": 60,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 60
+    },
+    "agent": {
+      "requests": 36,
+      "input": 60302,
+      "output": 5981,
+      "cache_hit": 31230,
+      "cache_miss": 29072,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 74.38943809992634,
+      "roles": {
+        "semantic": 30,
+        "cognitive": 6
+      }
+    },
+    "simulator": {
+      "requests": 24,
+      "input": 21852,
+      "output": 9190,
+      "cache_hit": 13568,
+      "cache_miss": 8284,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 55.26971489994321,
+      "roles": {
+        "simulator": 24
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 60
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "results\\pilot01",
+    "logged_requests": 90,
+    "request_started": 91,
+    "request_finished": 90,
+    "unfinished_usage_unknown": 1,
+    "status_counts": {
+      "success": 90
+    },
+    "agent": {
+      "requests": 46,
+      "input": 227438,
+      "output": 8969,
+      "cache_hit": 215424,
+      "cache_miss": 12014,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 90.99516569974367,
+      "roles": {
+        "cognitive": 29,
+        "semantic": 17
+      }
+    },
+    "simulator": {
+      "requests": 44,
+      "input": 37254,
+      "output": 9252,
+      "cache_hit": 23752,
+      "cache_miss": 13502,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 78.42484649992548,
+      "roles": {
+        "simulator": 44
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 90
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "results\\pilot02",
+    "logged_requests": 46,
+    "request_started": 46,
+    "request_finished": 46,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 46
+    },
+    "agent": {
+      "requests": 27,
+      "input": 119801,
+      "output": 3439,
+      "cache_hit": 106496,
+      "cache_miss": 13305,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 55.37010390020441,
+      "roles": {
+        "cognitive": 19,
+        "semantic": 8
+      }
+    },
+    "simulator": {
+      "requests": 19,
+      "input": 15796,
+      "output": 6974,
+      "cache_hit": 5888,
+      "cache_miss": 9908,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 38.289838000317104,
+      "roles": {
+        "simulator": 19
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 46
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "results\\pilot03",
+    "logged_requests": 7,
+    "request_started": 7,
+    "request_finished": 7,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 7
+    },
+    "agent": {
+      "requests": 4,
+      "input": 14753,
+      "output": 315,
+      "cache_hit": 12544,
+      "cache_miss": 2209,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 11.294958499958739,
+      "roles": {
+        "cognitive": 3,
+        "semantic": 1
+      }
+    },
+    "simulator": {
+      "requests": 3,
+      "input": 2084,
+      "output": 616,
+      "cache_hit": 1152,
+      "cache_miss": 932,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 4.616918100044131,
+      "roles": {
+        "simulator": 3
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 7
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "versions\\simfix1\\results\\recheck01",
+    "logged_requests": 14,
+    "request_started": 14,
+    "request_finished": 14,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 14
+    },
+    "agent": {
+      "requests": 10,
+      "input": 37646,
+      "output": 1152,
+      "cache_hit": 36088,
+      "cache_miss": 1558,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 25.019193599931896,
+      "roles": {
+        "cognitive": 8,
+        "semantic": 2
+      }
+    },
+    "simulator": {
+      "requests": 4,
+      "input": 3294,
+      "output": 1128,
+      "cache_hit": 1536,
+      "cache_miss": 1758,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 9.679497900069691,
+      "roles": {
+        "simulator": 4
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 14
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "versions\\simfix2\\results\\recheck01",
+    "logged_requests": 12,
+    "request_started": 12,
+    "request_finished": 12,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 12
+    },
+    "agent": {
+      "requests": 8,
+      "input": 25927,
+      "output": 1220,
+      "cache_hit": 22400,
+      "cache_miss": 3527,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 18.186833700048737,
+      "roles": {
+        "cognitive": 5,
+        "semantic": 3
+      }
+    },
+    "simulator": {
+      "requests": 4,
+      "input": 3325,
+      "output": 935,
+      "cache_hit": 1664,
+      "cache_miss": 1661,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 6.177280199946836,
+      "roles": {
+        "simulator": 4
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 12
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "versions\\simfix2\\results\\recheck_R55",
+    "logged_requests": 48,
+    "request_started": 48,
+    "request_finished": 48,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 47,
+      "failed": 1
+    },
+    "agent": {
+      "requests": 25,
+      "input": 188310,
+      "output": 7122,
+      "cache_hit": 181244,
+      "cache_miss": 7066,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 64.19659309997223,
+      "roles": {
+        "cognitive": 22,
+        "semantic": 3
+      }
+    },
+    "simulator": {
+      "requests": 23,
+      "input": 20279,
+      "output": 5915,
+      "cache_hit": 14976,
+      "cache_miss": 5303,
+      "usage_complete": false,
+      "failed": 1,
+      "seconds": 147.43341889977455,
+      "roles": {
+        "simulator": 23
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 47,
+      "not_returned": 1
+    },
+    "diagnostics": [
+      {
+        "branch": "A_R_55_r1_framework",
+        "role": "simulator",
+        "diagnostic": {
+          "kind": "network_error",
+          "exception_type": "APIConnectionError",
+          "summary": "Connection error.",
+          "status_code": null,
+          "request_id": null,
+          "retry_after": null
+        },
+        "usage": null,
+        "status": "failed",
+        "provider_request_id": null
+      }
+    ]
+  },
+  {
+    "phase": "versions\\simfix3\\results\\recheck01",
+    "logged_requests": 30,
+    "request_started": 30,
+    "request_finished": 30,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 30
+    },
+    "agent": {
+      "requests": 17,
+      "input": 97513,
+      "output": 3785,
+      "cache_hit": 89472,
+      "cache_miss": 8041,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 36.71950249990914,
+      "roles": {
+        "cognitive": 11,
+        "semantic": 6
+      }
+    },
+    "simulator": {
+      "requests": 13,
+      "input": 13463,
+      "output": 7027,
+      "cache_hit": 6528,
+      "cache_miss": 6935,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 31.79798480006866,
+      "roles": {
+        "simulator": 13
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 30
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "versions\\simfix4\\results\\recheck01",
+    "logged_requests": 27,
+    "request_started": 27,
+    "request_finished": 27,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 27
+    },
+    "agent": {
+      "requests": 16,
+      "input": 128164,
+      "output": 3948,
+      "cache_hit": 119296,
+      "cache_miss": 8868,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 36.53498369967565,
+      "roles": {
+        "cognitive": 13,
+        "semantic": 3
+      }
+    },
+    "simulator": {
+      "requests": 11,
+      "input": 11389,
+      "output": 5964,
+      "cache_hit": 3584,
+      "cache_miss": 7805,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 26.75250209996011,
+      "roles": {
+        "simulator": 11
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 27
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "versions\\statefix1\\results\\recheck01",
+    "logged_requests": 89,
+    "request_started": 89,
+    "request_finished": 89,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 89
+    },
+    "agent": {
+      "requests": 79,
+      "input": 112481,
+      "output": 8361,
+      "cache_hit": 97906,
+      "cache_miss": 14575,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 128.65567320003174,
+      "roles": {
+        "cognitive": 10,
+        "semantic": 69
+      }
+    },
+    "simulator": {
+      "requests": 10,
+      "input": 8331,
+      "output": 2664,
+      "cache_hit": 3840,
+      "cache_miss": 4491,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 25.31916179996915,
+      "roles": {
+        "simulator": 10
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 89
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "versions\\statefix2\\results\\recheck01",
+    "logged_requests": 40,
+    "request_started": 40,
+    "request_finished": 40,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 40
+    },
+    "agent": {
+      "requests": 37,
+      "input": 48180,
+      "output": 1338,
+      "cache_hit": 39808,
+      "cache_miss": 8372,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 47.978400700725615,
+      "roles": {
+        "cognitive": 4,
+        "semantic": 33
+      }
+    },
+    "simulator": {
+      "requests": 3,
+      "input": 2501,
+      "output": 824,
+      "cache_hit": 1536,
+      "cache_miss": 965,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 4.970299000036903,
+      "roles": {
+        "simulator": 3
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 40
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "versions\\statefix2\\results\\recheck_RDB02",
+    "logged_requests": 11,
+    "request_started": 11,
+    "request_finished": 11,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 11
+    },
+    "agent": {
+      "requests": 7,
+      "input": 26260,
+      "output": 938,
+      "cache_hit": 24064,
+      "cache_miss": 2196,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 16.060377699905075,
+      "roles": {
+        "cognitive": 4,
+        "semantic": 3
+      }
+    },
+    "simulator": {
+      "requests": 4,
+      "input": 3200,
+      "output": 966,
+      "cache_hit": 1280,
+      "cache_miss": 1920,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 7.129259899724275,
+      "roles": {
+        "simulator": 4
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 11
+    },
+    "diagnostics": []
+  },
+  {
+    "phase": "versions\\statefix3\\results\\recheck01",
+    "logged_requests": 63,
+    "request_started": 63,
+    "request_finished": 63,
+    "unfinished_usage_unknown": 0,
+    "status_counts": {
+      "success": 63
+    },
+    "agent": {
+      "requests": 51,
+      "input": 83228,
+      "output": 2657,
+      "cache_hit": 70528,
+      "cache_miss": 12700,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 64.87304829992354,
+      "roles": {
+        "cognitive": 10,
+        "semantic": 41
+      }
+    },
+    "simulator": {
+      "requests": 12,
+      "input": 9548,
+      "output": 3060,
+      "cache_hit": 5120,
+      "cache_miss": 4428,
+      "usage_complete": true,
+      "failed": 0,
+      "seconds": 21.170445899944752,
+      "roles": {
+        "simulator": 12
+      }
+    },
+    "actual_model_values": {
+      "deepseek-flash": 63
+    },
+    "diagnostics": []
+  }
+]

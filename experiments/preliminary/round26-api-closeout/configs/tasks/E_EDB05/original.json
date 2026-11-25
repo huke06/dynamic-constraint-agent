@@ -1,0 +1,74 @@
+{
+  "public_db_order": {
+    "order_id": "#W1335809",
+    "user_id": "anya_lee_8315",
+    "address": {
+      "address1": "912 Elm Avenue",
+      "address2": "Suite 936",
+      "city": "San Antonio",
+      "country": "USA",
+      "state": "TX",
+      "zip": "78227"
+    },
+    "items": [
+      {
+        "name": "Espresso Machine",
+        "product_id": "4354588079",
+        "item_id": "4875647558",
+        "price": 2805.77,
+        "options": {
+          "pressure": "15 bar",
+          "capacity": "1L",
+          "type": "capsule"
+        }
+      },
+      {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "item_id": "2185126308",
+        "price": 241.9,
+        "options": {
+          "size": "10",
+          "material": "leather",
+          "waterproof": "no"
+        }
+      },
+      {
+        "name": "Electric Kettle",
+        "product_id": "1075968781",
+        "item_id": "7602931732",
+        "price": 153.25,
+        "options": {
+          "capacity": "1L",
+          "material": "stainless steel",
+          "color": "black"
+        }
+      }
+    ],
+    "status": "delivered",
+    "fulfillments": [
+      {
+        "tracking_id": [
+          "465535118094"
+        ],
+        "item_ids": [
+          "4875647558",
+          "2185126308",
+          "7602931732"
+        ]
+      }
+    ],
+    "payment_history": [
+      {
+        "transaction_type": "payment",
+        "amount": 3200.92,
+        "payment_method_id": "paypal_3728317"
+      }
+    ]
+  },
+  "selected_scope": [
+    "4875647558",
+    "2185126308"
+  ],
+  "source_db_sha256": "dbde692e380bb4ad17f9f7841172cf1e69bebad2daa405628ccdc52a42b3b9b0"
+}

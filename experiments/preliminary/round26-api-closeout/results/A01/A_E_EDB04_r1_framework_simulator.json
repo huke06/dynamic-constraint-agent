@@ -1,0 +1,45 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"6777246137\",\"6501071631\"],\"new_item_ids\":[\"4579334072\",\"2106335193\"],\"order_id\":\"#W1326557\",\"payment_method_id\":\"gift_card_1139567\"},\"difference\":-107.64,\"fingerprint\":\"b0fa37c487c2bef687a6\",\"order_id\":\"#W1326557\",\"pairs\":[[\"6501071631\",\"2106335193\"],[\"6777246137\",\"4579334072\"]],\"payment_method_id\":\"gift_card_1139567\",\"rows\":[{\"difference\":-114.73,\"item_id\":\"6501071631\",\"new_item_id\":\"2106335193\",\"new_price\":903.95,\"old_price\":1018.68,\"options\":{\"color\":\"silver\",\"screen size\":\"10-inch\",\"storage\":\"64GB\"},\"sources\":[11]},{\"difference\":7.09,\"item_id\":\"6777246137\",\"new_item_id\":\"4579334072\",\"new_price\":54.85,\"old_price\":47.76,\"options\":{\"capacity\":\"750ml\",\"color\":\"black\",\"material\":\"glass\"},\"sources\":[9]}]}. Original payment method gift_card_1139567.",
+      "item_ids": [
+        "6777246137",
+        "6501071631"
+      ],
+      "pairs": [
+        {
+          "item_id": "6501071631",
+          "new_item_id": "2106335193",
+          "quote": "[\"6501071631\",\"2106335193\"]"
+        },
+        {
+          "item_id": "6777246137",
+          "new_item_id": "4579334072",
+          "quote": "[\"6777246137\",\"4579334072\"]"
+        }
+      ],
+      "payment_method_id": "gift_card_1139567",
+      "payment_quote": "Original payment method gift_card_1139567.",
+      "amount": -107.64,
+      "amount_quote": "\"difference\":-107.64",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none"
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

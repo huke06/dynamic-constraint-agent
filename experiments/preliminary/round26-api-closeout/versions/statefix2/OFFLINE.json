@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": [
+    "new method + approval-only withdrawal keeps business active",
+    "quote of old approval cannot cancel business",
+    "rejection is fed back and pending message retained"
+  ]
+}

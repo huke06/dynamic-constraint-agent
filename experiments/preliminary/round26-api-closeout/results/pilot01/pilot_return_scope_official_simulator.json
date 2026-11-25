@@ -1,0 +1,346 @@
+[
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 8,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm: do you approve returning this item with the refund as shown above? (yes/no)",
+      "proposal_quote": "Here are the return details for your approval:\n\n- **Order:** #W5565470 (status: delivered)\n- **Item to return:** 7602931732 — Electric Kettle (1L, black, stainless steel)\n- **Refund amount:** $153.25\n- **Refund method:** Original payment method — PayPal (paypal_3024827)\n\nPlease confirm: do you approve returning this item with the refund as shown above? (yes/no)",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "**Refund method:** Original payment method — PayPal (paypal_3024827)",
+      "amount": -153.25,
+      "amount_quote": "**Refund amount:** $153.25",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct payment, amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 10,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return and refund? (yes/no)",
+      "proposal_quote": "Here is the fresh, complete approval request:\n\n- **Order:** #W5565470 (status: delivered)\n- **Item to return:** 7602931732 — Electric Kettle (1L, black, stainless steel)\n- **Refund amount:** $153.25\n- **Refund method:** Original payment method — PayPal (paypal_3024827)\n\nDo you approve this return and refund? (yes/no)",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Refund method: Original payment method — PayPal (paypal_3024827)",
+      "amount": -153.25,
+      "amount_quote": "Refund amount: $153.25",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": false
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "Refund only to original payment paypal_3024827 or an existing gift card. My preferred permitted method is paypal_3024827. Current requested scope is [\"7602931732\"]. The refund total is the sum of original purchased line prices, not replacement prices. Please obtain independent complete approval; this clarification is not approval.",
+    "user_ref": 12,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "Could you tell me specifically what you believe the correct amount should be, or what about the payment method you want corrected?",
+      "proposal_quote": "",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "refund to paypal_3024827",
+      "amount": 153.25,
+      "amount_quote": "$153.25",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "amount_basis",
+      "stop_quote": ""
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 14,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return and refund? (yes/no)",
+      "proposal_quote": "Here is the fresh, complete approval request:\n\n- **Order:** #W5565470 (status: delivered)\n- **Item to return:** 7602931732 — Electric Kettle (1L, black, stainless steel)\n- **Refund amount:** $153.25 (the original purchased line price for this item)\n- **Refund method:** Original payment method — PayPal (paypal_3024827)\n\nNo policy conflict: single-item return from a delivered order, refunded to the original payment method, is permitted.\n\nDo you approve this return and refund? (yes/no)",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method — PayPal (paypal_3024827)",
+      "amount": -153.25,
+      "amount_quote": "$153.25 (the original purchased line price for this item)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "Refund only to original payment paypal_3024827 or an existing gift card. My preferred permitted method is paypal_3024827. Current requested scope is [\"7602931732\"]. The refund total is the sum of original purchased line prices, not replacement prices. Please obtain independent complete approval; this clarification is not approval.",
+    "user_ref": 16,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "please tell me one of the following:\n1. The specific dollar amount you believe is correct (and why), so I can check whether any record supports it, or\n2. Confirmation that $153.25 is acceptable.",
+      "proposal_quote": "",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "both are permitted as you've stated",
+      "amount": 153.25,
+      "amount_quote": "The only price on record for item 7602931732 in order #W5565470 is **$153.25**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "amount_basis",
+      "stop_quote": ""
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 18,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return and refund? (yes/no)",
+      "proposal_quote": "- **Order:** #W5565470 (status: delivered)\n- **Item to return:** 7602931732 — Electric Kettle (1L, black, stainless steel)\n- **Refund amount:** $153.25 (original purchased line price for this item)\n- **Refund method:** Original payment method — PayPal (paypal_3024827)",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method — PayPal (paypal_3024827)",
+      "amount": -153.25,
+      "amount_quote": "$153.25 (original purchased line price for this item)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "Refund only to original payment paypal_3024827 or an existing gift card. My preferred permitted method is paypal_3024827. Current requested scope is [\"7602931732\"]. The refund total is the sum of original purchased line prices, not replacement prices. Please obtain independent complete approval; this clarification is not approval.",
+    "user_ref": 20,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "Tell me the exact dollar amount you believe is correct, so I can verify whether any record supports it, or\n2. Confirm $153.25 is acceptable.",
+      "proposal_quote": null,
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "your payment method (paypal_3024827)",
+      "amount": 153.25,
+      "amount_quote": "The only recorded price for item 7602931732 in order #W5565470 is **$153.25**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "amount_basis",
+      "stop_quote": null
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 22,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return and refund? (yes/no)",
+      "proposal_quote": "- **Order:** #W5565470 (status: delivered)\n- **Item to return:** 7602931732 — Electric Kettle (1L, black, stainless steel)\n- **Refund amount:** $153.25 (original purchased line price for this item)\n- **Refund method:** Original payment method — PayPal (paypal_3024827)",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method — PayPal (paypal_3024827)",
+      "amount": -153.25,
+      "amount_quote": "$153.25 (original purchased line price for this item)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "Refund only to original payment paypal_3024827 or an existing gift card. My preferred permitted method is paypal_3024827. Current requested scope is [\"7602931732\"]. The refund total is the sum of original purchased line prices, not replacement prices. Please obtain independent complete approval; this clarification is not approval.",
+    "user_ref": 24,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "Please either:\n1. State the exact dollar amount you believe is correct, so I can check whether any record supports it, or\n2. Confirm $153.25 is acceptable.",
+      "proposal_quote": null,
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "both are permitted",
+      "amount": null,
+      "amount_quote": "The only price on record for item 7602931732 in order #W5565470 is $153.25",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "amount_basis",
+      "stop_quote": "Until you do one of those, I have no action to take."
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 26,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return and refund? (yes/no)",
+      "proposal_quote": "- **Order:** #W5565470 (status: delivered)\n- **Item to return:** 7602931732 — Electric Kettle (1L, black, stainless steel)\n- **Refund amount:** $153.25 (original purchased line price for this item)\n- **Refund method:** Original payment method — PayPal (paypal_3024827)",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method — PayPal (paypal_3024827)",
+      "amount": -153.25,
+      "amount_quote": "$153.25 (original purchased line price for this item)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  },
+  {
+    "kind": "information",
+    "reply": "Refund only to original payment paypal_3024827 or an existing gift card. My preferred permitted method is paypal_3024827. Current requested scope is [\"7602931732\"]. The refund total is the sum of original purchased line prices, not replacement prices. Please obtain independent complete approval; this clarification is not approval.",
+    "user_ref": 28,
+    "approved": false,
+    "extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "To proceed, you must either:\n1. State the exact dollar amount you believe is correct, so I can verify it against records, or\n2. Confirm $153.25 is acceptable.",
+      "proposal_quote": "",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "payment method (paypal_3024827)",
+      "amount": 153.25,
+      "amount_quote": "the refund total for your scope",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "amount_basis",
+      "stop_quote": ""
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct amount. Return only my latest scope [\"7602931732\"] and refund to paypal_3024827. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 30,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return and refund? (yes/no)",
+      "proposal_quote": "- **Order:** #W5565470 (status: delivered)\n- **Item to return:** 7602931732 — Electric Kettle (1L, black, stainless steel)\n- **Refund amount:** $153.25 (original purchased line price for this item)\n- **Refund method:** Original payment method — PayPal (paypal_3024827)\n\nNo policy conflict: single-item return from a delivered order, refunded to the original payment method, is permitted.\n\nDo you approve this return and refund? (yes/no)",
+      "item_ids": [
+        "7602931732"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "Original payment method — PayPal (paypal_3024827)",
+      "amount": -153.25,
+      "amount_quote": "$153.25 (original purchased line price for this item)",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": false
+    }
+  }
+]

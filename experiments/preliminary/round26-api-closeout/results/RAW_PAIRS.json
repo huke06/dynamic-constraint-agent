@@ -1,0 +1,1026 @@
+[
+  {
+    "task": "14",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_14_r1_official",
+      "A_R_14_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 2,
+        "input": 10908,
+        "output": 298,
+        "cache_hit": 9856,
+        "cache_miss": 1052,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 8.741450699977577,
+        "roles": {
+          "cognitive": 2
+        }
+      },
+      {
+        "requests": 1,
+        "input": 823,
+        "output": 79,
+        "cache_hit": 0,
+        "cache_miss": 823,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 1.1338946999749169,
+        "roles": {
+          "semantic": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      10.684707499924116,
+      2.9392350999405608
+    ]
+  },
+  {
+    "task": "28",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_28_r1_official",
+      "A_R_28_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 2,
+        "input": 10880,
+        "output": 278,
+        "cache_hit": 9856,
+        "cache_miss": 1024,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.8606086000800133,
+        "roles": {
+          "cognitive": 2
+        }
+      },
+      {
+        "requests": 1,
+        "input": 832,
+        "output": 79,
+        "cache_hit": 0,
+        "cache_miss": 832,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 1.9831253999145702,
+        "roles": {
+          "semantic": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      6.184354800032452,
+      3.7507122000679374
+    ]
+  },
+  {
+    "task": "30",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_30_r1_official",
+      "A_R_30_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 8,
+        "input": 48480,
+        "output": 2166,
+        "cache_hit": 46592,
+        "cache_miss": 1888,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 20.03229900007136,
+        "roles": {
+          "cognitive": 8
+        }
+      },
+      {
+        "requests": 2,
+        "input": 3270,
+        "output": 155,
+        "cache_hit": 1536,
+        "cache_miss": 1734,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.1453016001032665,
+        "roles": {
+          "cognitive": 1,
+          "semantic": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      31.110109300003387,
+      4.792939100065269
+    ]
+  },
+  {
+    "task": "31",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_31_r1_official",
+      "A_R_31_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 20,
+        "input": 178924,
+        "output": 7446,
+        "cache_hit": 174720,
+        "cache_miss": 4204,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 52.46036259981338,
+        "roles": {
+          "cognitive": 20
+        }
+      },
+      {
+        "requests": 2,
+        "input": 3362,
+        "output": 158,
+        "cache_hit": 1536,
+        "cache_miss": 1826,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 2.598465000046417,
+        "roles": {
+          "cognitive": 1,
+          "semantic": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      97.71322899998631,
+      4.690307899960317
+    ]
+  },
+  {
+    "task": "54",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_54_r1_official",
+      "A_R_54_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 3,
+        "input": 17474,
+        "output": 557,
+        "cache_hit": 16000,
+        "cache_miss": 1474,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 5.194632600178011,
+        "roles": {
+          "cognitive": 3
+        }
+      },
+      {
+        "requests": 2,
+        "input": 2082,
+        "output": 255,
+        "cache_hit": 384,
+        "cache_miss": 1698,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 2.520792600000277,
+        "roles": {
+          "semantic": 2
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      9.295760700013489,
+      6.34597800008487
+    ]
+  },
+  {
+    "task": "54",
+    "business": "return",
+    "repeat": 2,
+    "ids": [
+      "A_R_54_r2_official",
+      "A_R_54_r2_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 3,
+        "input": 17702,
+        "output": 720,
+        "cache_hit": 17152,
+        "cache_miss": 550,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 6.4161512000719085,
+        "roles": {
+          "cognitive": 3
+        }
+      },
+      {
+        "requests": 2,
+        "input": 2082,
+        "output": 240,
+        "cache_hit": 1664,
+        "cache_miss": 418,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.7923513000132516,
+        "roles": {
+          "semantic": 2
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      11.248815200058743,
+      9.297260500025004
+    ]
+  },
+  {
+    "task": "73",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_73_r1_official",
+      "A_R_73_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 3,
+        "input": 17800,
+        "output": 761,
+        "cache_hit": 16384,
+        "cache_miss": 1416,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 6.744457499939017,
+        "roles": {
+          "cognitive": 3
+        }
+      },
+      {
+        "requests": 2,
+        "input": 2174,
+        "output": 252,
+        "cache_hit": 384,
+        "cache_miss": 1790,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.4766049998579547,
+        "roles": {
+          "semantic": 2
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      11.668616599985398,
+      7.781883500050753
+    ]
+  },
+  {
+    "task": "51",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_51_r1_official",
+      "A_R_51_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 20,
+        "input": 182968,
+        "output": 6897,
+        "cache_hit": 178304,
+        "cache_miss": 4664,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 46.29199530009646,
+        "roles": {
+          "cognitive": 20
+        }
+      },
+      {
+        "requests": 5,
+        "input": 8679,
+        "output": 618,
+        "cache_hit": 3200,
+        "cache_miss": 5479,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 6.963907900266349,
+        "roles": {
+          "cognitive": 2,
+          "semantic": 3
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      87.9436691000592,
+      10.859137399937026
+    ]
+  },
+  {
+    "task": "55",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_55_r1_official",
+      "A_R_55_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 20,
+        "input": 184574,
+        "output": 7054,
+        "cache_hit": 179968,
+        "cache_miss": 4606,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 43.90967600024305,
+        "roles": {
+          "cognitive": 20
+        }
+      },
+      {
+        "requests": 5,
+        "input": 8505,
+        "output": 569,
+        "cache_hit": 3200,
+        "cache_miss": 5305,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 8.506268300116062,
+        "roles": {
+          "cognitive": 2,
+          "semantic": 3
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      82.95582290005405,
+      11.965406800038181
+    ]
+  },
+  {
+    "task": "82",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_82_r1_official",
+      "A_R_82_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 2,
+        "input": 11401,
+        "output": 337,
+        "cache_hit": 10112,
+        "cache_miss": 1289,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.0270406999625266,
+        "roles": {
+          "cognitive": 2
+        }
+      },
+      {
+        "requests": 2,
+        "input": 4441,
+        "output": 191,
+        "cache_hit": 1536,
+        "cache_miss": 2905,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 2.7216401000041515,
+        "roles": {
+          "semantic": 1,
+          "cognitive": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      5.7502395999617875,
+      4.706961099989712
+    ]
+  },
+  {
+    "task": "89",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_89_r1_official",
+      "A_R_89_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 2,
+        "input": 11176,
+        "output": 322,
+        "cache_hit": 9984,
+        "cache_miss": 1192,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.1716645000269637,
+        "roles": {
+          "cognitive": 2
+        }
+      },
+      {
+        "requests": 2,
+        "input": 4267,
+        "output": 189,
+        "cache_hit": 1536,
+        "cache_miss": 2731,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.1541581999044865,
+        "roles": {
+          "semantic": 1,
+          "cognitive": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      7.00414550001733,
+      5.133712999988347
+    ]
+  },
+  {
+    "task": "RDB01",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_RDB01_r1_official",
+      "A_R_RDB01_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 3,
+        "input": 17260,
+        "output": 627,
+        "cache_hit": 16000,
+        "cache_miss": 1260,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 6.164691899903119,
+        "roles": {
+          "cognitive": 3
+        }
+      },
+      {
+        "requests": 2,
+        "input": 4222,
+        "output": 259,
+        "cache_hit": 1792,
+        "cache_miss": 2430,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.0122962000314146,
+        "roles": {
+          "semantic": 1,
+          "cognitive": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      11.129700599936768,
+      4.952517000027001
+    ]
+  },
+  {
+    "task": "RDB01",
+    "business": "return",
+    "repeat": 2,
+    "ids": [
+      "A_R_RDB01_r2_official",
+      "A_R_RDB01_r2_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 3,
+        "input": 17188,
+        "output": 583,
+        "cache_hit": 16640,
+        "cache_miss": 548,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 4.898339899955317,
+        "roles": {
+          "cognitive": 3
+        }
+      },
+      {
+        "requests": 2,
+        "input": 4222,
+        "output": 291,
+        "cache_hit": 3840,
+        "cache_miss": 382,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 2.954562999890186,
+        "roles": {
+          "semantic": 1,
+          "cognitive": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      8.55288890004158,
+      4.904821300064214
+    ]
+  },
+  {
+    "task": "RDB02",
+    "business": "return",
+    "repeat": 1,
+    "ids": [
+      "A_R_RDB02_r1_official",
+      "A_R_RDB02_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 3,
+        "input": 17264,
+        "output": 704,
+        "cache_hit": 15872,
+        "cache_miss": 1392,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 5.931847500032745,
+        "roles": {
+          "cognitive": 3
+        }
+      },
+      {
+        "requests": 2,
+        "input": 4188,
+        "output": 261,
+        "cache_hit": 1536,
+        "cache_miss": 2652,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 2.989341999986209,
+        "roles": {
+          "semantic": 1,
+          "cognitive": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      9.944425499998033,
+      4.551567299989983
+    ]
+  },
+  {
+    "task": "EDB01",
+    "business": "exchange",
+    "repeat": 1,
+    "ids": [
+      "A_E_EDB01_r1_official",
+      "A_E_EDB01_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 2,
+        "input": 14656,
+        "output": 562,
+        "cache_hit": 11904,
+        "cache_miss": 2752,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 4.453020700137131,
+        "roles": {
+          "cognitive": 2
+        }
+      },
+      {
+        "requests": 1,
+        "input": 793,
+        "output": 80,
+        "cache_hit": 128,
+        "cache_miss": 665,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 1.2223669999511912,
+        "roles": {
+          "semantic": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      7.32875690003857,
+      3.9232913000741974
+    ]
+  },
+  {
+    "task": "EDB02",
+    "business": "exchange",
+    "repeat": 1,
+    "ids": [
+      "A_E_EDB02_r1_official",
+      "A_E_EDB02_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 3,
+        "input": 21885,
+        "output": 586,
+        "cache_hit": 18816,
+        "cache_miss": 3069,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 7.326543500064872,
+        "roles": {
+          "cognitive": 3
+        }
+      },
+      {
+        "requests": 1,
+        "input": 790,
+        "output": 81,
+        "cache_hit": 128,
+        "cache_miss": 662,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 1.4236132999649271,
+        "roles": {
+          "semantic": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      10.968537299893796,
+      4.486691900063306
+    ]
+  },
+  {
+    "task": "EDB03",
+    "business": "exchange",
+    "repeat": 1,
+    "ids": [
+      "A_E_EDB03_r1_official",
+      "A_E_EDB03_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 4,
+        "input": 26290,
+        "output": 701,
+        "cache_hit": 23808,
+        "cache_miss": 2482,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 9.266046600067057,
+        "roles": {
+          "cognitive": 4
+        }
+      },
+      {
+        "requests": 3,
+        "input": 6996,
+        "output": 278,
+        "cache_hit": 3456,
+        "cache_miss": 3540,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 4.827948200050741,
+        "roles": {
+          "cognitive": 2,
+          "semantic": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      12.366021999972872,
+      8.045243799919263
+    ]
+  },
+  {
+    "task": "EDB04",
+    "business": "exchange",
+    "repeat": 1,
+    "ids": [
+      "A_E_EDB04_r1_official",
+      "A_E_EDB04_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 4,
+        "input": 27928,
+        "output": 800,
+        "cache_hit": 24832,
+        "cache_miss": 3096,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 7.1265000000130385,
+        "roles": {
+          "cognitive": 4
+        }
+      },
+      {
+        "requests": 2,
+        "input": 3804,
+        "output": 183,
+        "cache_hit": 1792,
+        "cache_miss": 2012,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 2.621044399915263,
+        "roles": {
+          "cognitive": 1,
+          "semantic": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      10.6731927000219,
+      5.669133799965493
+    ]
+  },
+  {
+    "task": "EDB05",
+    "business": "exchange",
+    "repeat": 1,
+    "ids": [
+      "A_E_EDB05_r1_official",
+      "A_E_EDB05_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 2,
+        "input": 15758,
+        "output": 653,
+        "cache_hit": 12160,
+        "cache_miss": 3598,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 5.163024899899028,
+        "roles": {
+          "cognitive": 2
+        }
+      },
+      {
+        "requests": 4,
+        "input": 7883,
+        "output": 457,
+        "cache_hit": 2048,
+        "cache_miss": 5835,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 5.288027499918826,
+        "roles": {
+          "semantic": 3,
+          "cognitive": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      8.787981800036505,
+      13.83692010003142
+    ]
+  },
+  {
+    "task": "EDB05",
+    "business": "exchange",
+    "repeat": 2,
+    "ids": [
+      "A_E_EDB05_r2_official",
+      "A_E_EDB05_r2_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 2,
+        "input": 15761,
+        "output": 650,
+        "cache_hit": 14720,
+        "cache_miss": 1041,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 4.6910566000733525,
+        "roles": {
+          "cognitive": 2
+        }
+      },
+      {
+        "requests": 4,
+        "input": 7883,
+        "output": 454,
+        "cache_hit": 7168,
+        "cache_miss": 715,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 5.747629000106826,
+        "roles": {
+          "semantic": 3,
+          "cognitive": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      9.538191800005734,
+      14.89302299998235
+    ]
+  },
+  {
+    "task": "EDB06",
+    "business": "exchange",
+    "repeat": 1,
+    "ids": [
+      "A_E_EDB06_r1_official",
+      "A_E_EDB06_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 7,
+        "input": 54270,
+        "output": 1190,
+        "cache_hit": 50432,
+        "cache_miss": 3838,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 14.283675599959679,
+        "roles": {
+          "cognitive": 7
+        }
+      },
+      {
+        "requests": 4,
+        "input": 6259,
+        "output": 432,
+        "cache_hit": 2048,
+        "cache_miss": 4211,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 6.596476900042035,
+        "roles": {
+          "semantic": 3,
+          "cognitive": 1
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      25.153718299930915,
+      15.533617299981415
+    ]
+  },
+  {
+    "task": "EDB07",
+    "business": "exchange",
+    "repeat": 1,
+    "ids": [
+      "A_E_EDB07_r1_official",
+      "A_E_EDB07_r1_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 6,
+        "input": 47594,
+        "output": 1044,
+        "cache_hit": 43392,
+        "cache_miss": 4202,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 10.836985400295816,
+        "roles": {
+          "cognitive": 6
+        }
+      },
+      {
+        "requests": 2,
+        "input": 2511,
+        "output": 264,
+        "cache_hit": 256,
+        "cache_miss": 2255,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 3.090239700046368,
+        "roles": {
+          "semantic": 2
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      17.281318200053647,
+      9.178478200105019
+    ]
+  },
+  {
+    "task": "EDB08",
+    "business": "exchange",
+    "repeat": 1,
+    "ids": [
+      "A_E_EDB08_r1_official",
+      "A_E_EDB08_r1_framework"
+    ],
+    "comparable": false,
+    "agent": [
+      {
+        "requests": 5,
+        "input": 40227,
+        "output": 1781,
+        "cache_hit": 36992,
+        "cache_miss": 3235,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 14.24030739988666,
+        "roles": {
+          "cognitive": 5
+        }
+      },
+      {
+        "requests": 5,
+        "input": 12151,
+        "output": 913,
+        "cache_hit": 3584,
+        "cache_miss": 8567,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 9.515883800224401,
+        "roles": {
+          "cognitive": 2,
+          "semantic": 3
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      49.30408269993495,
+      14.856413200031966
+    ]
+  },
+  {
+    "task": "EDB08",
+    "business": "exchange",
+    "repeat": 2,
+    "ids": [
+      "A_E_EDB08_r2_official",
+      "A_E_EDB08_r2_framework"
+    ],
+    "comparable": true,
+    "agent": [
+      {
+        "requests": 4,
+        "input": 30562,
+        "output": 1236,
+        "cache_hit": 29824,
+        "cache_miss": 738,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 11.30827059992589,
+        "roles": {
+          "cognitive": 4
+        }
+      },
+      {
+        "requests": 3,
+        "input": 5882,
+        "output": 348,
+        "cache_hit": 5376,
+        "cache_miss": 506,
+        "usage_complete": true,
+        "failed": 0,
+        "seconds": 4.6860798000125214,
+        "roles": {
+          "cognitive": 1,
+          "semantic": 2
+        }
+      }
+    ],
+    "end_to_end_seconds": [
+      17.83589889993891,
+      9.749605600023642
+    ]
+  }
+]

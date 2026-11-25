@@ -1,0 +1,61 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 14,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm: **do you approve this exchange** (refund of $18.31 to credit_card_1289579, Desk Lamp unchanged)? Reply **yes** to proceed.",
+      "proposal_quote": "**Requested exchange (only these two; Desk Lamp unchanged):**\n- 5268233322 → **1240311797** (Kettle 1L/silver/glass) — 137.17\n- 5510402676 → **5418781403** (E-Reader Wi-Fi+Cellular/7-inch/8GB) — 267.58\n\n**Exact combined new-minus-old difference:**\n(137.17 + 267.58) − (155.99 + 267.07) = **−18.31**\n\nThis is a **refund of $18.31** to your original payment method, **credit_card_1289579** (Visa ••••9104).",
+      "item_ids": [
+        "5268233322",
+        "5510402676"
+      ],
+      "pairs": [
+        {
+          "item_id": "5268233322",
+          "new_item_id": "1240311797",
+          "quote": "5268233322 → **1240311797** (Kettle 1L/silver/glass) — 137.17"
+        },
+        {
+          "item_id": "5510402676",
+          "new_item_id": "5418781403",
+          "quote": "5510402676 → **5418781403** (E-Reader Wi-Fi+Cellular/7-inch/8GB) — 267.58"
+        }
+      ],
+      "payment_method_id": "credit_card_1289579",
+      "payment_quote": "refund of $18.31 to credit_card_1289579",
+      "amount": -18.31,
+      "amount_quote": "(137.17 + 267.58) − (155.99 + 267.07) = **−18.31**",
+      "active_offers": [
+        {
+          "item_id": "5268233322",
+          "variant_id": "1240311797",
+          "payment_method_id": "credit_card_1289579",
+          "quote": "5268233322 → **1240311797** (Kettle 1L/silver/glass) — 137.17",
+          "status": "active"
+        },
+        {
+          "item_id": "5510402676",
+          "variant_id": "5418781403",
+          "payment_method_id": "credit_card_1289579",
+          "quote": "5510402676 → **5418781403** (E-Reader Wi-Fi+Cellular/7-inch/8GB) — 267.58",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

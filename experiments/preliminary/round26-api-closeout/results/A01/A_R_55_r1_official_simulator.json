@@ -1,0 +1,842 @@
+[
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 8,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Which permitted route do you accept — refund to gift card `gift_card_3491931`? And do you confirm returning item `8277474082` (the full order contents)?",
+      "proposal_quote": "**Legal refund routes:**\n1. **Original payment method** — gift card `gift_card_3491931` (refund of **$236.57** added to that gift card)\n2. **An existing gift card** — you have `gift_card_3491931` (balance $73.00), which is the same card as the original method\n\n**Exact refund total:** $236.57\n\nSince the credit card route is prohibited, I won't substitute anything silently. Which permitted route do you accept — refund to gift card `gift_card_3491931`? And do you confirm returning item `8277474082` (the full order contents)?",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "Which permitted route do you accept — refund to gift card `gift_card_3491931`? And do you confirm returning item `8277474082` (the full order contents)?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 10,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh approval request:** Since the credit card route is prohibited, please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 12,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 14,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 16,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 18,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 20,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 22,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 24,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 26,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 28,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 30,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 32,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 34,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 36,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 38,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 40,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 42,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 44,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  },
+  {
+    "kind": "correction",
+    "reply": "I have NOT approved. Please correct permitted, payment. Return only my latest scope [\"8277474082\"] and refund to credit_card_0000000. Explain any policy conflict before asking about a different permitted route; ask fresh complete approval.",
+    "user_ref": 46,
+    "approved": false,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+      "proposal_quote": "**Fresh complete approval request:** The credit card route is prohibited, so please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`. I will only register the return after you give explicit approval.",
+      "item_ids": [
+        "8277474082"
+      ],
+      "pairs": [],
+      "payment_method_id": "gift_card_3491931",
+      "payment_quote": "refund to gift card `gift_card_3491931`",
+      "amount": -236.57,
+      "amount_quote": "**Exact refund total:** $236.57",
+      "active_offers": [
+        {
+          "item_id": "8277474082",
+          "variant_id": null,
+          "payment_method_id": "gift_card_3491931",
+          "quote": "please tell me which permitted route you accept (refund to gift card `gift_card_3491931`), and confirm you want to return item `8277474082`.",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": false,
+      "observed_delivered": true,
+      "payment": false,
+      "amount": true
+    }
+  }
+]

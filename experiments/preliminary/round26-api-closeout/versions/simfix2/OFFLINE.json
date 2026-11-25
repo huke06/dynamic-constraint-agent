@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checks": [
+    "mixed explanation + explicit current choice binds permission",
+    "still no full transaction authorization"
+  ]
+}

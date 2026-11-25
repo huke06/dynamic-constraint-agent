@@ -1,0 +1,61 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 13,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please give your **independent final approval** to proceed with this exchange (yes/no).",
+      "proposal_quote": "**Requested exchanges (both in stock ✓):**\n\n| Item | Old | New | Old price | New price | Difference |\n|---|---|---|---|---|---|\n| Makeup Kit | 8090061879 (Brand B, basic, light) | 1763705424 (Brand C, professional, dark) | 261.40 | 235.44 | −25.96 |\n| Tea Kettle | 9747045638 (1 liter, glass, electric) | 9647374798 (1.5 liters, glass, gas) | 94.01 | 109.58 | +15.57 |\n\n**Combined new-minus-old difference: −25.96 + 15.57 = −10.39**\n\nThat's a **net refund of $10.39** to your original payment method, **gift_card_3372949**.",
+      "item_ids": [
+        "8090061879",
+        "9747045638"
+      ],
+      "pairs": [
+        {
+          "item_id": "8090061879",
+          "new_item_id": "1763705424",
+          "quote": "Makeup Kit | 8090061879 (Brand B, basic, light) | 1763705424 (Brand C, professional, dark)"
+        },
+        {
+          "item_id": "9747045638",
+          "new_item_id": "9647374798",
+          "quote": "Tea Kettle | 9747045638 (1 liter, glass, electric) | 9647374798 (1.5 liters, glass, gas)"
+        }
+      ],
+      "payment_method_id": "gift_card_3372949",
+      "payment_quote": "net refund of $10.39** to your original payment method, **gift_card_3372949**",
+      "amount": -10.39,
+      "amount_quote": "Combined new-minus-old difference: −25.96 + 15.57 = −10.39",
+      "active_offers": [
+        {
+          "item_id": "8090061879",
+          "variant_id": "1763705424",
+          "payment_method_id": "gift_card_3372949",
+          "quote": "Makeup Kit | 8090061879 (Brand B, basic, light) | 1763705424 (Brand C, professional, dark)",
+          "status": "active"
+        },
+        {
+          "item_id": "9747045638",
+          "variant_id": "9647374798",
+          "payment_method_id": "gift_card_3372949",
+          "quote": "Tea Kettle | 9747045638 (1 liter, glass, electric) | 9647374798 (1.5 liters, glass, gas)",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 8,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return? Please reply **yes** to confirm, or **no** to cancel.",
+      "proposal_quote": "**Return scope (exactly these items, all others unchanged):**\n- 8590708195 — Fleece Jacket — $157.61\n- 9690244451 — Mechanical Keyboard — $236.51\n- Item 4859937227 (Action Camera) will remain in your possession, unchanged.\n\n**Refund total:** $157.61 + $236.51 = **$394.12**\n**Refund method:** paypal_2417743 (PayPal)\n\nIf approved, the order status will change to **\"return requested\"**, and you'll receive a follow-up email on how and where to return the items.\n\nDo you approve this return? Please reply **yes** to confirm, or **no** to cancel.",
+      "item_ids": [
+        "8590708195",
+        "9690244451"
+      ],
+      "pairs": [],
+      "payment_method_id": "paypal_2417743",
+      "payment_quote": "**Refund method:** paypal_2417743 (PayPal)",
+      "amount": -394.12,
+      "amount_quote": "**Refund total:** $157.61 + $236.51 = **$394.12**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "stop",
+    "reply": "Understood. Keep the database unchanged.",
+    "user_ref": 11,
+    "approved": false,
+    "extraction": {
+      "kind": "stop",
+      "asks": false,
+      "question_quote": "Is there anything else I can help you with?",
+      "proposal_quote": null,
+      "item_ids": [],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": "I will not register any return. Your order **#W4680753** remains unchanged and delivered, with no return requested. Nothing was submitted."
+    }
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 15,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"6301799585\",\"7082455361\"],\"new_item_ids\":[\"8926329222\",\"4404981319\"],\"order_id\":\"#W6876713\",\"payment_method_id\":\"credit_card_7901829\"},\"difference\":24.72,\"fingerprint\":\"487d6efaeabd72f4ab8a\",\"order_id\":\"#W6876713\",\"pairs\":[[\"6301799585\",\"8926329222\"],[\"7082455361\",\"4404981319\"]],\"payment_method_id\":\"credit_card_7901829\",\"rows\":[{\"difference\":-43.59,\"item_id\":\"6301799585\",\"new_item_id\":\"8926329222\",\"new_price\":452.28,\"old_price\":495.87,\"options\":{\"color\":\"black\",\"material\":\"softshell\",\"piece count\":\"2-piece\"},\"sources\":[8]},{\"difference\":68.31,\"item_id\":\"7082455361\",\"new_item_id\":\"4404981319\",\"new_price\":1031.0,\"old_price\":962.69,\"options\":{\"features\":\"rotisserie\",\"size\":\"large\",\"type\":\"electric\"},\"sources\":[10]}]}. Original payment method credit_card_7901829. Do you approve this exact combined proposal?",
+      "item_ids": [
+        "6301799585",
+        "7082455361"
+      ],
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "8926329222",
+          "quote": "[\"6301799585\",\"8926329222\"]"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "[\"7082455361\",\"4404981319\"]"
+        }
+      ],
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "Original payment method credit_card_7901829.",
+      "amount": 24.72,
+      "amount_quote": "\"difference\":24.72",
+      "active_offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "8926329222",
+          "payment_method_id": "credit_card_7901829",
+          "quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"6301799585\",\"7082455361\"],\"new_item_ids\":[\"8926329222\",\"4404981319\"],\"order_id\":\"#W6876713\",\"payment_method_id\":\"credit_card_7901829\"},\"difference\":24.72,\"fingerprint\":\"487d6efaeabd72f4ab8a\",\"order_id\":\"#W6876713\",\"pairs\":[[\"6301799585\",\"8926329222\"],[\"7082455361\",\"4404981319\"]],\"payment_method_id\":\"credit_card_7901829\",\"rows\":[{\"difference\":-43.59,\"item_id\":\"6301799585\",\"new_item_id\":\"8926329222\",\"new_price\":452.28,\"old_price\":495.87,\"options\":{\"color\":\"black\",\"material\":\"softshell\",\"piece count\":\"2-piece\"},\"sources\":[8]},{\"difference\":68.31,\"item_id\":\"7082455361\",\"new_item_id\":\"4404981319\",\"new_price\":1031.0,\"old_price\":962.69,\"options\":{\"features\":\"rotisserie\",\"size\":\"large\",\"type\":\"electric\"},\"sources\":[10]}]}. Original payment method credit_card_7901829. Do you approve this exact combined proposal?",
+          "status": "active"
+        },
+        {
+          "item_id": "7082455361",
+          "variant_id": "4404981319",
+          "payment_method_id": "credit_card_7901829",
+          "quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"6301799585\",\"7082455361\"],\"new_item_ids\":[\"8926329222\",\"4404981319\"],\"order_id\":\"#W6876713\",\"payment_method_id\":\"credit_card_7901829\"},\"difference\":24.72,\"fingerprint\":\"487d6efaeabd72f4ab8a\",\"order_id\":\"#W6876713\",\"pairs\":[[\"6301799585\",\"8926329222\"],[\"7082455361\",\"4404981319\"]],\"payment_method_id\":\"credit_card_7901829\",\"rows\":[{\"difference\":-43.59,\"item_id\":\"6301799585\",\"new_item_id\":\"8926329222\",\"new_price\":452.28,\"old_price\":495.87,\"options\":{\"color\":\"black\",\"material\":\"softshell\",\"piece count\":\"2-piece\"},\"sources\":[8]},{\"difference\":68.31,\"item_id\":\"7082455361\",\"new_item_id\":\"4404981319\",\"new_price\":1031.0,\"old_price\":962.69,\"options\":{\"features\":\"rotisserie\",\"size\":\"large\",\"type\":\"electric\"},\"sources\":[10]}]}. Original payment method credit_card_7901829. Do you approve this exact combined proposal?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  },
+  {
+    "kind": "clarify",
+    "reply": "Replace my CURRENT request for original item 6301799585 with SKU 7160999700, if in stock and whole signed difference <= 10000.00. This supersedes my previous specification for this item. Other items stay as agreed. This is specification permission only; show the full new proposal for separate approval.",
+    "user_ref": 19,
+    "approved": false,
+    "extraction": {
+      "kind": "spec_permission",
+      "asks": true,
+      "question_quote": "Do you accept SKU 7160999700 as the new current specification for original item 6301799585?",
+      "proposal_quote": "Proposed SUBSTITUTE 7160999700 has options {\"color\":\"red\",\"material\":\"softshell\",\"piece count\":\"2-piece\"}, observed in-stock=True, price 499.29, and new whole signed difference 71.73 within the cap. Other exchange items remain as currently permitted.",
+      "item_ids": [
+        "6301799585"
+      ],
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "7160999700",
+          "quote": "Proposed SUBSTITUTE 7160999700 has options {\"color\":\"red\",\"material\":\"softshell\",\"piece count\":\"2-piece\"}, observed in-stock=True, price 499.29, and new whole signed difference 71.73 within the cap."
+        }
+      ],
+      "payment_method_id": null,
+      "payment_quote": null,
+      "amount": null,
+      "amount_quote": null,
+      "active_offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "7160999700",
+          "payment_method_id": null,
+          "quote": "Do you accept SKU 7160999700 as the new current specification for original item 6301799585?",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "8926329222"
+      ],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "accepted_offer": "7160999700"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current exchange proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 23,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "proposal_quote": "Please approve this complete exchange proposal, covering all exchange items: {\"arguments\":{\"item_ids\":[\"6301799585\",\"7082455361\"],\"new_item_ids\":[\"7160999700\",\"4404981319\"],\"order_id\":\"#W6876713\",\"payment_method_id\":\"credit_card_7901829\"},\"difference\":71.73,\"fingerprint\":\"8db150873d73ce731488\",\"order_id\":\"#W6876713\",\"pairs\":[[\"6301799585\",\"7160999700\"],[\"7082455361\",\"4404981319\"]],\"payment_method_id\":\"credit_card_7901829\",\"rows\":[{\"difference\":3.42,\"item_id\":\"6301799585\",\"new_item_id\":\"7160999700\",\"new_price\":499.29,\"old_price\":495.87,\"options\":{\"color\":\"red\",\"material\":\"softshell\",\"piece count\":\"2-piece\"},\"sources\":[17]},{\"difference\":68.31,\"item_id\":\"7082455361\",\"new_item_id\":\"4404981319\",\"new_price\":1031.0,\"old_price\":962.69,\"options\":{\"features\":\"rotisserie\",\"size\":\"large\",\"type\":\"electric\"},\"sources\":[10]}]}. Original payment method credit_card_7901829.",
+      "item_ids": [
+        "6301799585",
+        "7082455361"
+      ],
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "7160999700",
+          "quote": "[\"6301799585\",\"7160999700\"]"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "[\"7082455361\",\"4404981319\"]"
+        }
+      ],
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "Original payment method credit_card_7901829.",
+      "amount": 71.73,
+      "amount_quote": "\"difference\":71.73",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "permitted": true,
+      "stock": true,
+      "cap": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

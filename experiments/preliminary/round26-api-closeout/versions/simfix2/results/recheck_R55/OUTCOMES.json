@@ -1,0 +1,40 @@
+[
+  {
+    "id": "A_R_55_r1_official",
+    "task": "55",
+    "business": "return",
+    "scenario": "conflict",
+    "group": "official",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": "budget_exhausted",
+    "seconds": 86.21862179995514,
+    "correct": false,
+    "checks": {
+      "one_write": false
+    }
+  },
+  {
+    "id": "A_R_55_r1_framework",
+    "task": "55",
+    "business": "return",
+    "scenario": "conflict",
+    "group": "framework",
+    "forced_first": null,
+    "event_triggered": false,
+    "error": null,
+    "seconds": 132.93765250011347,
+    "correct": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "database_result": true,
+      "payment": true,
+      "scope": true,
+      "method": true,
+      "status": true,
+      "native_return_items": true,
+      "native_refund_method": true
+    }
+  }
+]

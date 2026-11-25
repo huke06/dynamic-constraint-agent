@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "trajectories": 16,
+  "hard_correct": 16,
+  "dispatch_violations": [],
+  "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round25-on-demand-v2\\results\\batch01",
+  "scope": "scheduler safety/semantic return/current authorization, not all optional tradeoff reasons proven correct"
+}

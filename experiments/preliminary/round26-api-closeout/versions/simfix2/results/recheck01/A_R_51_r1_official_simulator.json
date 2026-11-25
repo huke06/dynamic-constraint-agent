@@ -1,0 +1,112 @@
+[
+  {
+    "kind": "clarify",
+    "reply": "Use credit_card_8105988 as my permitted refund method. Keep exactly the latest return scope. This is method permission only; show the complete current return, amount and method for separate approval.",
+    "user_ref": 8,
+    "approved": false,
+    "extraction": {
+      "kind": "refund_permission",
+      "asks": true,
+      "question_quote": "Which concrete permitted route do you accept?",
+      "proposal_quote": "",
+      "item_ids": [
+        "5996159312"
+      ],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": "",
+      "amount": null,
+      "amount_quote": "",
+      "active_offers": [
+        {
+          "item_id": "5996159312",
+          "variant_id": null,
+          "payment_method_id": "credit_card_8105988",
+          "quote": "1. Refund to the **original payment method** — credit_card_8105988 (Visa ending 8484).",
+          "status": "active"
+        },
+        {
+          "item_id": "5996159312",
+          "variant_id": null,
+          "payment_method_id": null,
+          "quote": "2. Refund to an **existing gift card** (you currently have none on file, so this would require one to exist).",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": ""
+    },
+    "accepted_offer": "credit_card_8105988",
+    "raw_semantic_extraction": {
+      "kind": "constraint_question",
+      "asks": true,
+      "question_quote": "Which concrete permitted route do you accept?",
+      "proposal_quote": "",
+      "item_ids": [
+        "5996159312"
+      ],
+      "pairs": [],
+      "payment_method_id": null,
+      "payment_quote": "",
+      "amount": null,
+      "amount_quote": "",
+      "active_offers": [
+        {
+          "item_id": "5996159312",
+          "variant_id": null,
+          "payment_method_id": "credit_card_8105988",
+          "quote": "1. Refund to the **original payment method** — credit_card_8105988 (Visa ending 8484).",
+          "status": "active"
+        },
+        {
+          "item_id": "5996159312",
+          "variant_id": null,
+          "payment_method_id": null,
+          "quote": "2. Refund to an **existing gift card** (you currently have none on file, so this would require one to exist).",
+          "status": "active"
+        }
+      ],
+      "rejected_offer_ids": [
+        "credit_card_0000000"
+      ],
+      "topic": "refund_policy",
+      "stop_quote": ""
+    },
+    "program_question_binding": "actual explicit accept/choose question plus active concrete refund offer; not a generic policy inquiry"
+  },
+  {
+    "kind": "confirm",
+    "reply": "Yes, I approve exactly that complete current return proposal, all listed items, stated exact amount and refund/payment method. Those are all the items I want processed.",
+    "user_ref": 10,
+    "approved": true,
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this return? Please reply **yes** to proceed.",
+      "proposal_quote": "**Return — Order #W4689314** (Status: delivered)\n- Items to return: **[\"5996159312\"]** — Digital Camera (24MP, SD card, 3x zoom)\n- All other items: none exist in this order, so nothing else is affected\n- Refund amount: **$2,895.55**\n- Refund method: **credit_card_8105988** (Visa ending 8484 — the original payment method)",
+      "item_ids": [
+        "5996159312"
+      ],
+      "pairs": [],
+      "payment_method_id": "credit_card_8105988",
+      "payment_quote": "Refund method: **credit_card_8105988** (Visa ending 8484 — the original payment method)",
+      "amount": -2895.55,
+      "amount_quote": "Refund amount: **$2,895.55**",
+      "active_offers": [],
+      "rejected_offer_ids": [],
+      "topic": "none",
+      "stop_quote": null
+    },
+    "checks": {
+      "complete_scope": true,
+      "legal_method": true,
+      "permitted": true,
+      "observed_delivered": true,
+      "payment": true,
+      "amount": true
+    }
+  }
+]

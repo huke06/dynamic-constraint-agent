@@ -1,0 +1,126 @@
+[
+  {
+    "state": "E26_capacity",
+    "repeat": 1,
+    "ids": [
+      "B_E26_capacity_r1_analyze",
+      "B_E26_capacity_r1_clarify"
+    ],
+    "direction": "pending",
+    "preference_vectors": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "same_input": true
+  },
+  {
+    "state": "E26_capacity",
+    "repeat": 2,
+    "ids": [
+      "B_E26_capacity_r2_analyze",
+      "B_E26_capacity_r2_clarify"
+    ],
+    "direction": "pending",
+    "preference_vectors": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "same_input": true
+  },
+  {
+    "state": "E26_appearance",
+    "repeat": 1,
+    "ids": [
+      "B_E26_appearance_r1_analyze",
+      "B_E26_appearance_r1_clarify"
+    ],
+    "direction": "analyze",
+    "preference_vectors": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "same_input": true
+  },
+  {
+    "state": "E26_appearance",
+    "repeat": 2,
+    "ids": [
+      "B_E26_appearance_r2_analyze",
+      "B_E26_appearance_r2_clarify"
+    ],
+    "direction": "analyze",
+    "preference_vectors": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "same_input": true
+  },
+  {
+    "state": "R_refund_preference",
+    "repeat": 1,
+    "ids": [
+      "B_R_refund_preference_r1_analyze",
+      "B_R_refund_preference_r1_clarify"
+    ],
+    "direction": "analyze",
+    "preference_vectors": [
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ],
+    "same_input": true
+  },
+  {
+    "state": "R_refund_preference",
+    "repeat": 2,
+    "ids": [
+      "B_R_refund_preference_r2_analyze",
+      "B_R_refund_preference_r2_clarify"
+    ],
+    "direction": "analyze",
+    "preference_vectors": [
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ],
+    "same_input": true
+  }
+]

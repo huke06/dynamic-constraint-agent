@@ -1,0 +1,482 @@
+[
+  {
+    "id": "t80_r1_stepwise",
+    "task": "80",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 0,
+    "seconds": 17.508160100027453,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 4,
+      "input": 13175,
+      "output": 389,
+      "cache_hit": 10112,
+      "cache_miss": 3063
+    },
+    "simulator_calls": 1
+  },
+  {
+    "id": "t80_r1_on_demand",
+    "task": "80",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 3,
+    "seconds": 4.2559230999904685,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 1,
+      "input": 670,
+      "output": 79,
+      "cache_hit": 512,
+      "cache_miss": 158
+    },
+    "simulator_calls": 1
+  },
+  {
+    "id": "t80_r2_on_demand",
+    "task": "80",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 3,
+    "seconds": 5.900582299975213,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 1,
+      "input": 670,
+      "output": 79,
+      "cache_hit": 512,
+      "cache_miss": 158
+    },
+    "simulator_calls": 1
+  },
+  {
+    "id": "t80_r2_stepwise",
+    "task": "80",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 0,
+    "seconds": 9.138636099989526,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 4,
+      "input": 13175,
+      "output": 386,
+      "cache_hit": 12416,
+      "cache_miss": 759
+    },
+    "simulator_calls": 1
+  },
+  {
+    "id": "t23_r1_stepwise",
+    "task": "23",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 0,
+    "seconds": 28.932214900036342,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 9,
+      "input": 24659,
+      "output": 1003,
+      "cache_hit": 13952,
+      "cache_miss": 10707
+    },
+    "simulator_calls": 3
+  },
+  {
+    "id": "t23_r1_on_demand",
+    "task": "23",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 5,
+    "seconds": 16.021722999983467,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 4,
+      "input": 6335,
+      "output": 413,
+      "cache_hit": 3840,
+      "cache_miss": 2495
+    },
+    "simulator_calls": 3
+  },
+  {
+    "id": "t23_r2_on_demand",
+    "task": "23",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 5,
+    "seconds": 17.91160349996062,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 4,
+      "input": 6335,
+      "output": 422,
+      "cache_hit": 3840,
+      "cache_miss": 2495
+    },
+    "simulator_calls": 3
+  },
+  {
+    "id": "t23_r2_stepwise",
+    "task": "23",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 0,
+    "seconds": 25.34186139999656,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 9,
+      "input": 24659,
+      "output": 1013,
+      "cache_hit": 16000,
+      "cache_miss": 8659
+    },
+    "simulator_calls": 3
+  },
+  {
+    "id": "t29_r1_stepwise",
+    "task": "29",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 0,
+    "seconds": 19.53153099998599,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 7,
+      "input": 21535,
+      "output": 854,
+      "cache_hit": 14208,
+      "cache_miss": 7327
+    },
+    "simulator_calls": 2
+  },
+  {
+    "id": "t29_r1_on_demand",
+    "task": "29",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 5,
+    "seconds": 8.336846899997909,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 2,
+      "input": 2090,
+      "output": 289,
+      "cache_hit": 1792,
+      "cache_miss": 298
+    },
+    "simulator_calls": 2
+  },
+  {
+    "id": "t29_r2_on_demand",
+    "task": "29",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 5,
+    "seconds": 9.798278099973686,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 2,
+      "input": 2090,
+      "output": 280,
+      "cache_hit": 1792,
+      "cache_miss": 298
+    },
+    "simulator_calls": 2
+  },
+  {
+    "id": "t29_r2_stepwise",
+    "task": "29",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": true,
+    "program_steps": 0,
+    "seconds": 19.715916499961168,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 7,
+      "input": 21535,
+      "output": 867,
+      "cache_hit": 14208,
+      "cache_miss": 7327
+    },
+    "simulator_calls": 2
+  },
+  {
+    "id": "t26_r1_stepwise",
+    "task": "26",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 0,
+    "seconds": 17.445132299966644,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 6,
+      "input": 17545,
+      "output": 720,
+      "cache_hit": 8960,
+      "cache_miss": 8585
+    },
+    "simulator_calls": 2
+  },
+  {
+    "id": "t26_r1_on_demand",
+    "task": "26",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 3,
+    "seconds": 13.859500900027342,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 3,
+      "input": 5962,
+      "output": 346,
+      "cache_hit": 5376,
+      "cache_miss": 586
+    },
+    "simulator_calls": 2
+  },
+  {
+    "id": "t26_r2_on_demand",
+    "task": "26",
+    "mode": "on_demand",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 3,
+    "seconds": 12.852578599995468,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 3,
+      "input": 5962,
+      "output": 347,
+      "cache_hit": 5376,
+      "cache_miss": 586
+    },
+    "simulator_calls": 2
+  },
+  {
+    "id": "t26_r2_stepwise",
+    "task": "26",
+    "mode": "stepwise",
+    "error": null,
+    "event_triggered": false,
+    "program_steps": 0,
+    "seconds": 19.042447899992112,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "dispatch_violations": [],
+    "agent": {
+      "calls": 6,
+      "input": 17545,
+      "output": 735,
+      "cache_hit": 12160,
+      "cache_miss": 5385
+    },
+    "simulator_calls": 2
+  }
+]

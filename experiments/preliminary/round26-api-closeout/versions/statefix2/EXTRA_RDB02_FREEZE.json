@@ -1,0 +1,9 @@
+{
+  "source_sha256": "b09eea8c10ef3d6234e475dbb49d71c7aa51dc4b96583f23f9927fa162e9bedb",
+  "statefix2_freeze_sha256": "ceb912f522c145039c598d97172c8e01ee04a0c93a5f36fdfbb4d90539496ce2",
+  "affected": [
+    "A_R_RDB02_r1_official",
+    "A_R_RDB02_r1_framework"
+  ],
+  "reason": "same anaphoric same-items rejection observed in statefix1 RDB02; no other tasks"
+}

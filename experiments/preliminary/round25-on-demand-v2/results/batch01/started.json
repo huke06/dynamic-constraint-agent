@@ -1,0 +1,34 @@
+{
+  "runner_sha256": "1dae8f409631e40859ffa6ce168af69366b6eecfe6bf1b063bc7755a4edfd331",
+  "scheduler_sha256": "e2fcdb44c9b4f6ff76e2803889f561ffd06d97744c66e56dfe9956f91defe061",
+  "cases": {
+    "80": {
+      "source": "experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\configs\\A\\80\\case.json",
+      "version": "stable",
+      "cap_state": null,
+      "sha256": "3aaf0f8dc6f7361ca212572b97f6862cd75d1e8fca75c98c72a1d28767b886ba"
+    },
+    "23": {
+      "source": "experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\configs\\A\\23\\case.json",
+      "version": "changed",
+      "cap_state": null,
+      "sha256": "54482d483a36dae463672ee14257e246c0d48e27612c66b4b54383204d5dd7a4"
+    },
+    "29": {
+      "source": "experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\configs\\A\\29\\case.json",
+      "version": "changed",
+      "cap_state": null,
+      "sha256": "b839b7b63ded905be32f77ebd8e953f2bfcae6247a31a052aafae7531973d02b"
+    },
+    "26": {
+      "source": "experiments\\preliminary\\round23-framework-loop\\versions\\v2\\configs\\tasks\\26\\case.json",
+      "version": "stable",
+      "cap_state": "conflict",
+      "sha256": "ad67df5c4bfe1c522273c75209a19c8367e31901104aca77a0b9205daf64f147"
+    }
+  },
+  "round23_v2_freeze_sha256": "eaf8981bc9e3b4c13a9db69c36c1688b7a83a4626bc2813ded9dbc54041572ff",
+  "round24_a2_freeze_sha256": "460c1821127d45a092d98bd72f5dcb847b683a1db27b8ffd3f0b05f9c60e1d6c",
+  "model_alias": "deepseek-flash",
+  "repetitions": 2
+}
