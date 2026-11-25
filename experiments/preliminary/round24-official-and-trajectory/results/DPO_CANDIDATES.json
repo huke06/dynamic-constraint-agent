@@ -1,0 +1,155 @@
+[
+  {
+    "state": "26_capacity",
+    "base_task": "26",
+    "priorities": [
+      "capacity",
+      "color",
+      "material"
+    ],
+    "repeat_directions": [
+      "clarify",
+      "clarify"
+    ],
+    "status": "stable_candidate",
+    "direction": "clarify",
+    "not_training_label": true,
+    "independent_review_required": true,
+    "forced_first_work": true,
+    "first_work_instructions": {
+      "analyze": {
+        "work_type": "analyze",
+        "object": "7602931732",
+        "parameters": {},
+        "evidence_refs": [],
+        "expected": "obtain the defined result and feed it back",
+        "reason": "predeclared executable first work, not an autonomous model choice"
+      },
+      "clarify": {
+        "work_type": "clarify",
+        "object": "7602931732",
+        "parameters": {
+          "variant_id": "1240311797"
+        },
+        "evidence_refs": [],
+        "expected": "obtain the defined result and feed it back",
+        "reason": "predeclared executable first work, not an autonomous model choice"
+      }
+    },
+    "source_visible_snapshot": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_visible_start.json",
+    "visible_input_sha256": "b9db141cd7c2d13d5370129e57383eac58ba5c205ba79041fbc8a29fd771363b",
+    "repetitions": [
+      {
+        "analyze": "B_26_capacity_r1_analyze",
+        "clarify": "B_26_capacity_r1_clarify"
+      },
+      {
+        "analyze": "B_26_capacity_r2_analyze",
+        "clarify": "B_26_capacity_r2_clarify"
+      }
+    ],
+    "qualification": "Full work+object+offered SKU and common continuation are compared, not a universal work-type ranking. Inferior soft preference is scored, not filtered as hard failure. No chosen/rejected training pairs emitted."
+  },
+  {
+    "state": "26_appearance",
+    "base_task": "26",
+    "priorities": [
+      "color",
+      "material",
+      "capacity"
+    ],
+    "repeat_directions": [
+      "analyze",
+      "analyze"
+    ],
+    "status": "stable_candidate",
+    "direction": "analyze",
+    "not_training_label": true,
+    "independent_review_required": true,
+    "forced_first_work": true,
+    "first_work_instructions": {
+      "analyze": {
+        "work_type": "analyze",
+        "object": "7602931732",
+        "parameters": {},
+        "evidence_refs": [],
+        "expected": "obtain the defined result and feed it back",
+        "reason": "predeclared executable first work, not an autonomous model choice"
+      },
+      "clarify": {
+        "work_type": "clarify",
+        "object": "7602931732",
+        "parameters": {
+          "variant_id": "1240311797"
+        },
+        "evidence_refs": [],
+        "expected": "obtain the defined result and feed it back",
+        "reason": "predeclared executable first work, not an autonomous model choice"
+      }
+    },
+    "source_visible_snapshot": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_visible_start.json",
+    "visible_input_sha256": "129b67307a6e55effd2613ec0d8de687f12d7b23d77d04130b4787a3e02d92df",
+    "repetitions": [
+      {
+        "analyze": "B_26_appearance_r1_analyze",
+        "clarify": "B_26_appearance_r1_clarify"
+      },
+      {
+        "analyze": "B_26_appearance_r2_analyze",
+        "clarify": "B_26_appearance_r2_clarify"
+      }
+    ],
+    "qualification": "Full work+object+offered SKU and common continuation are compared, not a universal work-type ranking. Inferior soft preference is scored, not filtered as hard failure. No chosen/rejected training pairs emitted."
+  },
+  {
+    "state": "35_waterproof",
+    "base_task": "35",
+    "priorities": [
+      "color",
+      "battery life",
+      "water resistance"
+    ],
+    "repeat_directions": [
+      "pending_quality",
+      "pending_quality"
+    ],
+    "status": "pending_quality",
+    "direction": null,
+    "not_training_label": true,
+    "independent_review_required": true,
+    "forced_first_work": true,
+    "first_work_instructions": {
+      "analyze": {
+        "work_type": "analyze",
+        "object": "4716977452",
+        "parameters": {},
+        "evidence_refs": [],
+        "expected": "obtain the defined result and feed it back",
+        "reason": "predeclared executable first work, not an autonomous model choice"
+      },
+      "clarify": {
+        "work_type": "clarify",
+        "object": "4716977452",
+        "parameters": {
+          "variant_id": "1052700637"
+        },
+        "evidence_refs": [],
+        "expected": "obtain the defined result and feed it back",
+        "reason": "predeclared executable first work, not an autonomous model choice"
+      }
+    },
+    "source_visible_snapshot": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_visible_start.json",
+    "visible_input_sha256": "00345b44788caa49125215f6ffb437f6242e6d9460da030c29197b2afe589e5a",
+    "repetitions": [
+      {
+        "analyze": "B_35_waterproof_r1_analyze",
+        "clarify": "B_35_waterproof_r1_clarify"
+      },
+      {
+        "analyze": "B_35_waterproof_r2_analyze",
+        "clarify": "B_35_waterproof_r2_clarify"
+      }
+    ],
+    "qualification": "Full work+object+offered SKU and common continuation are compared, not a universal work-type ranking. Inferior soft preference is scored, not filtered as hard failure. No chosen/rejected training pairs emitted."
+  }
+]

@@ -2,8 +2,9 @@
 
 围绕原申报书2.1的两个问题，研究动态业务状态如何支持认知决策，以及执行反馈如何支持决策评价和后续学习。当前处于前期探索和三个模块闭环验收，不是已经完成的训练方法或标准基准总分。
 
-- [01–23轮前期探索索引](experiments/preliminary/README.md)
+- [01–24轮前期探索索引](experiments/preliminary/README.md)
 - [第23轮结果与版本边界](experiments/preliminary/round23-framework-loop/RESULTS.md)
+- [第24轮官方对照与轨迹验收](experiments/preliminary/round24-official-and-trajectory/RESULTS.md)
 - [研究定位](docs/research_basis.md)、[研究计划与日志](docs/research_log.md)
 - [复现说明](docs/REPRODUCIBILITY.md)
 

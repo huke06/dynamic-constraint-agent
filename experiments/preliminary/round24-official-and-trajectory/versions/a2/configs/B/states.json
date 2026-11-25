@@ -1,0 +1,29 @@
+[
+  {
+    "id": "26_capacity",
+    "task": "26",
+    "priorities": [
+      "capacity",
+      "color",
+      "material"
+    ]
+  },
+  {
+    "id": "26_appearance",
+    "task": "26",
+    "priorities": [
+      "color",
+      "material",
+      "capacity"
+    ]
+  },
+  {
+    "id": "35_waterproof",
+    "task": "35",
+    "priorities": [
+      "color",
+      "battery life",
+      "water resistance"
+    ]
+  }
+]

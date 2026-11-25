@@ -1,0 +1,162 @@
+[
+  {
+    "task": "80",
+    "repeat": 1,
+    "comparable": true,
+    "ids": [
+      "A_t80_r1_official",
+      "A_t80_r1_framework"
+    ],
+    "after_change": [
+      null,
+      null
+    ]
+  },
+  {
+    "task": "80",
+    "repeat": 2,
+    "comparable": true,
+    "ids": [
+      "A_t80_r2_official",
+      "A_t80_r2_framework"
+    ],
+    "after_change": [
+      null,
+      null
+    ]
+  },
+  {
+    "task": "23",
+    "repeat": 1,
+    "comparable": false,
+    "ids": [
+      "A_t23_r1_official",
+      "A_t23_r1_framework"
+    ],
+    "after_change": [
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "5426915165"
+        },
+        "reason": "I need to verify current stock before proceeding, since the inventory information you provided indicates the Luggage Set variant 8926329222 may now be unavailable. Let me check."
+      },
+      {
+        "event": 6,
+        "work": "clarify",
+        "object": "6301799585",
+        "reason": "Requested variant 8926329222 is out of stock; exact match set is empty, so a negotiable in-stock alternative within the signed cap requires new user specification permission before any plan can be prepared.",
+        "parameters": {
+          "variant_id": "7160999700"
+        }
+      }
+    ]
+  },
+  {
+    "task": "23",
+    "repeat": 2,
+    "comparable": false,
+    "ids": [
+      "A_t23_r2_official",
+      "A_t23_r2_framework"
+    ],
+    "after_change": [
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "5426915165"
+        },
+        "reason": "I can't rely on inventory data pasted into the chat — I need to verify stock through the official tool before proceeding. Let me re-check the Luggage Set availability."
+      },
+      {
+        "event": 6,
+        "work": "clarify",
+        "object": "6301799585",
+        "reason": "Requested variant 8926329222 is out of stock; exact match set is empty. Variant 7160999700 is the closest negotiable alternative (only color changes, within cap) and requires new user specification permission before preparing a feasible plan.",
+        "parameters": {
+          "variant_id": "7160999700"
+        }
+      }
+    ]
+  },
+  {
+    "task": "29",
+    "repeat": 1,
+    "comparable": true,
+    "ids": [
+      "A_t29_r1_official",
+      "A_t29_r1_framework"
+    ],
+    "after_change": [
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "6679515468"
+        },
+        "reason": ""
+      },
+      {
+        "event": 6,
+        "work": "prepare",
+        "object": "#W7181492",
+        "reason": "The current effective specification (ref 16) names an exact in-stock variant 8481719475 matching the requested options, and the other item 8277474082 is in stock; the plan is feasible, so it should be stored before asking for new final approval.",
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "task": "29",
+    "repeat": 2,
+    "comparable": true,
+    "ids": [
+      "A_t29_r2_official",
+      "A_t29_r2_framework"
+    ],
+    "after_change": [
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "6679515468"
+        },
+        "reason": ""
+      },
+      {
+        "event": 6,
+        "work": "prepare",
+        "object": "#W7181492",
+        "reason": "Current effective specification is exact-feasible and in stock; plan is feasible and pending resolution is complete, so store it before asking for new final approval.",
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "task": "39",
+    "repeat": 1,
+    "comparable": false,
+    "ids": [
+      "A_t39_r1_official",
+      "A_t39_r1_framework"
+    ],
+    "after_change": [
+      null,
+      null
+    ]
+  },
+  {
+    "task": "39",
+    "repeat": 2,
+    "comparable": false,
+    "ids": [
+      "A_t39_r2_official",
+      "A_t39_r2_framework"
+    ],
+    "after_change": [
+      null,
+      null
+    ]
+  }
+]

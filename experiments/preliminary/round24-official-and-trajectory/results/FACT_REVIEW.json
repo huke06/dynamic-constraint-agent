@@ -1,0 +1,207 @@
+{
+  "A_t80_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t80_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t80_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t80_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t23_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer.",
+    "environment_issue": "Resource event delivered as native tool record to framework but user-wrapped JSON to official. First stock re-query cannot be attributed to state module; exclude path-cost comparison."
+  },
+  "A_t23_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer.",
+    "environment_issue": "Resource event delivered as native tool record to framework but user-wrapped JSON to official. First stock re-query cannot be attributed to state module; exclude path-cost comparison."
+  },
+  "A_t23_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer.",
+    "environment_issue": "Resource event delivered as native tool record to framework but user-wrapped JSON to official. First stock re-query cannot be attributed to state module; exclude path-cost comparison."
+  },
+  "A_t23_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer.",
+    "environment_issue": "Resource event delivered as native tool record to framework but user-wrapped JSON to official. First stock re-query cannot be attributed to state module; exclude path-cost comparison."
+  },
+  "A_t29_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t29_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t29_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t29_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t39_r1_official": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "cap_direction",
+        "quote": "This is within your signed cap of −$151.16 (i.e., the refund is not smaller than the required minimum refund).",
+        "evidence": "Actual difference -134.98 > frozen cap -151.155; original user explicitly requires a minimum refund. User correctly withholds approval; Agent later corrects."
+      }
+    ],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t39_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t39_r2_framework": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "stock_vs_cap",
+        "quote": "no in-stock variant exactly matches the current effective specification (battery life 4 hours, color blue, water resistance IPX4)",
+        "evidence": "Current 6452271382 exists, is in stock and has exactly those options. Whole delta -134.98 violates -151.155. The exact-feasible set is empty because of cap, not inventory. Known frozen-v2 local analysis issue remains; not repaired in this round."
+      }
+    ],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "A_t39_r2_official": {
+    "status": "contradicted_and_simulator_contaminated",
+    "issues": [
+      {
+        "kind": "cap_direction",
+        "quote": "−$134.98 ≥ −$151.16 → within cap",
+        "evidence": "Signed maximum is <=, not >=. This error occurred BEFORE simulator false rejection and is independently attributable to Agent."
+      },
+      {
+        "kind": "nonexhaustive_claim",
+        "quote": "the only in-stock Earbuds option that, combined with the Tablet substitute, satisfies your cap",
+        "evidence": "Visible alternatives 1646531091, 2052249669 and 8555936349 all satisfy cap, so only is false."
+      },
+      {
+        "kind": "simulator_false_rejection",
+        "quote": "Please correct scope, stock, cap, amount, literal_amount, spec_permission.",
+        "evidence": "After actual specification permission the complete correct -167.33 proposal was falsely rejected because semantic extractor invented pair quotes containing table text not literally present. The final later explicit proposal was correctly approved. Keep trajectory, exclude causal/cost comparison."
+      },
+      {
+        "kind": "legacy_evaluator_order_error",
+        "evidence": "Native arguments legitimately list Tablet before Earbuds; frozen outcome() compared arrays to fixed scope order. Canonical zipped mapping and same scope set are valid. Raw OUTCOMES false retained; independent SCORES correct_registered true."
+      }
+    ],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_26_capacity_r1_analyze": {
+    "status": "supported",
+    "issues": [
+      {
+        "kind": "preference_ranking_error_separate_from_facts",
+        "quote": "preserves the two lower-priority attributes ... relaxing only the highest-priority capacity ... so it is the best tradeoff",
+        "evidence": "Attribute and stock/amount statements true, but the predeclared public lexicographic capacity priority favors 1240311797 or 2323972008. This is the lower-preference path being compared, not an inventory/auth error. Do not exclude inferior preference solely because it is inferior."
+      }
+    ],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_26_capacity_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_26_capacity_r2_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_26_capacity_r2_analyze": {
+    "status": "supported",
+    "issues": [
+      {
+        "kind": "lower_preference_choice",
+        "quote": "preserves color and material while relaxing only the top-priority capacity",
+        "evidence": "Literal observation true. It still chooses lower-priority preservation despite analysis identifying capacity-preserving alternatives. One redundant prepare also retained. Outcome is hard-correct and preference-inferior."
+      }
+    ],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_26_appearance_r1_analyze": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_26_appearance_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_26_appearance_r2_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_26_appearance_r2_analyze": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_35_waterproof_r1_analyze": {
+    "status": "pending",
+    "issues": [
+      {
+        "kind": "amount_reference_ambiguous",
+        "quote": "whole-amount difference of -16.22 versus the current requested item",
+        "evidence": "-16.22 is combined difference vs purchased originals including hose. Current requested speaker 321.18 to 285.94 is -35.24. Isolated whole figure is correct, reference is ambiguous; do not call clean or automatically mark amount arithmetic wrong."
+      }
+    ],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_35_waterproof_r1_clarify": {
+    "status": "supported",
+    "issues": [],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_35_waterproof_r2_clarify": {
+    "status": "supported_with_logging_exception",
+    "issues": [
+      {
+        "kind": "logging_IO_after_write",
+        "evidence": "OSError Errno22 while saving trace after valid native write; exception/final state subsequently saved. Correct DB and authorization are retained; not a model/API/simulator error, and not eligible for clean cost/preference comparison."
+      }
+    ],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  },
+  "B_35_waterproof_r2_analyze": {
+    "status": "contradicted",
+    "issues": [
+      {
+        "kind": "amount_reference_wrong",
+        "quote": "All listed prices are within the stated whole-amount cap of 1.4 relative to the current requested price of 321.18.",
+        "evidence": "Cap is signed combined replacement-minus-original amount including hose, not price difference relative to current requested SKU. Programme supplies correct amounts; local explanation changes reference."
+      }
+    ],
+    "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+  }
+}

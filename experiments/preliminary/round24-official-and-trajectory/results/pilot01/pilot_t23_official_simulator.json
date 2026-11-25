@@ -1,0 +1,202 @@
+[
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 13,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exchange? (yes/no)",
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "8926329222",
+          "quote": "6301799585 — 3-piece, blue, softshell | $495.87 | 8926329222 — 2-piece, black, softshell"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "7082455361 — medium, charcoal, rotisserie | $962.69 | 4404981319 — large, electric, rotisserie"
+        }
+      ],
+      "offers": [],
+      "difference": 24.72,
+      "amount_quote": "Net difference (new − old): +$24.72",
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "credit_card_7901829 (Visa ending 7312)",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "I have not accepted any new specification. Please ask about a specific observed in-stock substitute within my hard whole-amount limit. Keep the other items unchanged.",
+    "user_ref": 17,
+    "kind": "correction",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "Would you like to substitute one of these for the Luggage Set, or should I hold off on the Luggage Set exchange?",
+      "pairs": [],
+      "offers": [
+        {
+          "item_id": "7082455361",
+          "variant_id": "7160999700",
+          "quote": "7160999700"
+        },
+        {
+          "item_id": "7082455361",
+          "variant_id": "8759627937",
+          "quote": "8759627937"
+        },
+        {
+          "item_id": "7082455361",
+          "variant_id": "8964750292",
+          "quote": "8964750292"
+        },
+        {
+          "item_id": "7082455361",
+          "variant_id": "9956648681",
+          "quote": "9956648681"
+        }
+      ],
+      "difference": null,
+      "amount_quote": null,
+      "payment_method_id": null,
+      "payment_quote": null,
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "I have not approved this transaction. Please correct spec_permission. If a different specification is needed, ask my specification permission first. Then show all current items, correct signed combined difference and original payment for separate final approval.",
+    "user_ref": 19,
+    "kind": "correction",
+    "approved": false,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": false
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this revised combined proposal with the Luggage Set substituted to 9956648681?",
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "9956648681",
+          "quote": "Old: 6301799585 — 3-piece, blue, softshell — $495.87\n- New: **9956648681 — 4-piece, red, hardshell — $452.62**"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "Old: 7082455361 — medium, charcoal, rotisserie — $962.69\n- New: 4404981319 — large, electric, rotisserie — $1,031.00"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "9956648681",
+          "quote": "9956648681 — 4-piece, red, hardshell"
+        },
+        {
+          "item_id": "7082455361",
+          "variant_id": "4404981319",
+          "quote": "4404981319 — large, electric, rotisserie"
+        }
+      ],
+      "difference": 25.06,
+      "amount_quote": "**Combined net difference (new − old): +$25.06**",
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "Payment method: credit_card_7901829 (Visa ending 7312)",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "Replace my CURRENT request for original item 6301799585 with SKU 9956648681, if in stock and whole signed difference <= 10000. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the complete new proposal for separate final approval.",
+    "user_ref": 21,
+    "kind": "clarify",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "May I have your specification permission to use **9956648681 — 4-piece, red, hardshell — $452.62** as the substitute for the Luggage Set?",
+      "pairs": [],
+      "offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "9956648681",
+          "quote": "9956648681 — 4-piece, red, hardshell — $452.62"
+        }
+      ],
+      "difference": null,
+      "amount_quote": null,
+      "payment_method_id": null,
+      "payment_quote": null,
+      "stop_quote": null
+    },
+    "accepted_offer": "9956648681"
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 25,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give final approval to execute this exchange? (yes/no)",
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "9956648681",
+          "quote": "6301799585 — 3-piece, blue, softshell | $495.87 | 9956648681 — 4-piece, red, hardshell"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "7082455361 — medium, charcoal, rotisserie | $962.69 | 4404981319 — large, electric, rotisserie"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "9956648681",
+          "quote": "9956648681 — 4-piece, red, hardshell"
+        },
+        {
+          "item_id": "7082455361",
+          "variant_id": "4404981319",
+          "quote": "4404981319 — large, electric, rotisserie"
+        }
+      ],
+      "difference": 25.06,
+      "amount_quote": "**Net difference (new − old): +$25.06**",
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "credit_card_7901829 (Visa ending 7312)",
+      "stop_quote": null
+    }
+  }
+]

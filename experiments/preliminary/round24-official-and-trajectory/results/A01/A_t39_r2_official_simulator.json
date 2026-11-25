@@ -1,0 +1,248 @@
+[
+  {
+    "reply": "I have not approved this transaction. Please correct cap. If a different specification is needed, ask my specification permission first. Then show all current items, correct signed combined difference and original payment for separate final approval.",
+    "user_ref": 15,
+    "kind": "correction",
+    "approved": false,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": false,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please give your **independent final approval** to proceed with this exchange (yes/no).",
+      "pairs": [
+        {
+          "item_id": "2235648106",
+          "new_item_id": "2106335193",
+          "quote": "2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet) | silver, 10-inch, 64GB | $903.95"
+        },
+        {
+          "item_id": "4063058357",
+          "new_item_id": "6452271382",
+          "quote": "4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | 6452271382 (Wireless Earbuds) | 4h, blue, IPX4 | $258.84"
+        }
+      ],
+      "offers": [],
+      "difference": -134.98,
+      "amount_quote": "−$134.98",
+      "payment_method_id": "credit_card_7952624",
+      "payment_quote": "credit_card_7952624 (Visa ending 7684)",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "I have not approved this transaction. Please correct cap. If a different specification is needed, ask my specification permission first. Then show all current items, correct signed combined difference and original payment for separate final approval.",
+    "user_ref": 17,
+    "kind": "correction",
+    "approved": false,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": false,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exchange (yes/no)?",
+      "pairs": [
+        {
+          "item_id": "2235648106",
+          "new_item_id": "2106335193",
+          "quote": "2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet) | silver, 10-inch, 64GB | $903.95"
+        },
+        {
+          "item_id": "4063058357",
+          "new_item_id": "6452271382",
+          "quote": "4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | 6452271382 (Wireless Earbuds) | 4h, blue, IPX4 | $258.84"
+        }
+      ],
+      "offers": [],
+      "difference": -134.98,
+      "amount_quote": "**−$134.98** (refund to you)",
+      "payment_method_id": "credit_card_7952624",
+      "payment_quote": "credit_card_7952624 (Visa ending 7684)",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "I have not accepted any new specification. Please ask about a specific observed in-stock substitute within my hard whole-amount limit. Keep the other items unchanged.",
+    "user_ref": 19,
+    "kind": "correction",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "do I have your specification permission to look for different in-stock options",
+      "pairs": [
+        {
+          "item_id": "2235648106",
+          "new_item_id": "2106335193",
+          "quote": "2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet)"
+        },
+        {
+          "item_id": "4063058357",
+          "new_item_id": "6452271382",
+          "quote": "4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | 6452271382 (Wireless Earbuds)"
+        }
+      ],
+      "offers": [],
+      "difference": -134.98,
+      "amount_quote": "−$134.98",
+      "payment_method_id": "credit_card_7952624",
+      "payment_quote": "credit_card_7952624 (Visa ending 7684)",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "Replace my CURRENT request for original item 4063058357 with SKU 8555936349, if in stock and whole signed difference <= -151.155. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the complete new proposal for separate final approval.",
+    "user_ref": 29,
+    "kind": "clarify",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "Do I have your **specification permission** for this substitute?",
+      "pairs": [
+        {
+          "item_id": "2235648106",
+          "new_item_id": "2106335193",
+          "quote": "2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet)"
+        },
+        {
+          "item_id": "4063058357",
+          "new_item_id": "8555936349",
+          "quote": "4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | **8555936349 (Wireless Earbuds)**"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "2235648106",
+          "variant_id": "2106335193",
+          "quote": "2106335193"
+        },
+        {
+          "item_id": "4063058357",
+          "variant_id": "8555936349",
+          "quote": "8555936349"
+        }
+      ],
+      "difference": -167.33,
+      "amount_quote": "−$167.33",
+      "payment_method_id": "credit_card_7952624",
+      "payment_quote": "credit_card_7952624 (Visa ending 7684)",
+      "stop_quote": null
+    },
+    "accepted_offer": "8555936349",
+    "program_resolved_original_item": "4063058357",
+    "extracted_original_item": "4063058357"
+  },
+  {
+    "reply": "I have not approved this transaction. Please correct scope, stock, cap, amount, literal_amount, spec_permission. If a different specification is needed, ask my specification permission first. Then show all current items, correct signed combined difference and original payment for separate final approval.",
+    "user_ref": 33,
+    "kind": "correction",
+    "approved": false,
+    "checks": {
+      "scope": false,
+      "payment": true,
+      "stock": false,
+      "cap": false,
+      "amount": false,
+      "literal_amount": false,
+      "spec_permission": false
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give your **separate final approval** to proceed with this exchange (yes/no)?",
+      "pairs": [
+        {
+          "item_id": "2235648106",
+          "new_item_id": "2106335193",
+          "quote": "2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | → New | 2106335193 (Tablet)"
+        },
+        {
+          "item_id": "4063058357",
+          "new_item_id": "8555936349",
+          "quote": "4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | 8555936349 (Wireless Earbuds)"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "4063058357",
+          "variant_id": "8555936349",
+          "quote": "8555936349"
+        },
+        {
+          "item_id": "2235648106",
+          "variant_id": "2106335193",
+          "quote": "2106335193"
+        }
+      ],
+      "difference": -167.33,
+      "amount_quote": "−$167.33",
+      "payment_method_id": "credit_card_7952624",
+      "payment_quote": "credit_card_7952624 (Visa ending 7684)",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 35,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give your **separate final approval** to proceed with this exchange (yes/no)?",
+      "pairs": [
+        {
+          "item_id": "4063058357",
+          "new_item_id": "8555936349",
+          "quote": "4063058357 — Wireless Earbuds — 4h, black, not resistant — $243.34 → **exchanging** to 8555936349"
+        },
+        {
+          "item_id": "2235648106",
+          "new_item_id": "2106335193",
+          "quote": "2235648106 — Tablet — black, 10-inch, 32GB — $1054.43 → **exchanging** to 2106335193"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "4063058357",
+          "variant_id": "8555936349",
+          "quote": "8555936349"
+        },
+        {
+          "item_id": "2235648106",
+          "variant_id": "2106335193",
+          "quote": "2106335193"
+        }
+      ],
+      "difference": -167.33,
+      "amount_quote": "−167.33",
+      "payment_method_id": "credit_card_7952624",
+      "payment_quote": "credit_card_7952624 (Visa ending 7684)",
+      "stop_quote": null
+    }
+  }
+]

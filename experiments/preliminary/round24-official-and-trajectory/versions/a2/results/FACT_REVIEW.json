@@ -1,0 +1,112 @@
+{
+  "A_t80_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t80_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t80_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t80_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t23_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t23_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t23_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t23_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t29_r1_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t29_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t29_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t29_r2_official": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer"
+  },
+  "A_t43_r1_official": {
+    "status": "contradicted_and_simulator_contaminated",
+    "issues": [
+      {
+        "kind": "cap_direction",
+        "quote": "−27.65 ≥ −56.10 ... within cap",
+        "evidence": "Actual signed maximum -56.105 requires difference <= -56.105, minimum refund. Initial -27.65 plan violates cap. This Agent error precedes simulator contamination."
+      },
+      {
+        "kind": "simulator_nonresponsive_constraint_clarification",
+        "evidence": "Agent explicitly asks minimum-vs-maximum refund interpretation. Simulator lacks a constraint-clarification response and repeats generic request for a specific SKU. Recovery loops/time are not a clean Agent-only effect."
+      }
+    ],
+    "environment_issue": "Constraint clarification not answered appropriately; exclude comparative recovery cost and causal success conclusions. Initial cap precision differs: program/state -56.105, literal user message -56.10. No observed feasible classification flips; still not strict identical numeric input."
+  },
+  "A_t43_r1_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer",
+    "environment_issue": " Initial cap precision differs: program/state -56.105, literal user message -56.10. No observed feasible classification flips; still not strict identical numeric input."
+  },
+  "A_t43_r2_framework": {
+    "status": "supported",
+    "issues": [],
+    "method": "Assistant post-run evidence review, no external judge or independent blind reviewer",
+    "environment_issue": " Initial cap precision differs: program/state -56.105, literal user message -56.10. No observed feasible classification flips; still not strict identical numeric input."
+  },
+  "A_t43_r2_official": {
+    "status": "contradicted_and_simulator_contaminated",
+    "issues": [
+      {
+        "kind": "cap_direction",
+        "quote": "−27.65 ≥ −56.10 ... within cap",
+        "evidence": "Actual signed maximum -56.105 requires difference <= -56.105, minimum refund. Initial -27.65 plan violates cap. This Agent error precedes simulator contamination."
+      },
+      {
+        "kind": "simulator_nonresponsive_constraint_clarification",
+        "evidence": "Agent explicitly asks minimum-vs-maximum refund interpretation. Simulator lacks a constraint-clarification response and repeats generic request for a specific SKU. Recovery loops/time are not a clean Agent-only effect."
+      },
+      {
+        "kind": "simulator_offer_scope",
+        "evidence": "Agent discusses and rejects 6700049080 and 6117189161 under its mistaken cap interpretation, finally asks permission only for 9391733462. Extractor treats earlier mentioned candidates as active offers; simulator accepts 6700049080. Actual final explicit user permission/approval and write agree, but offer selection deviates from actual final question."
+      },
+      {
+        "kind": "legacy_evaluator_order_error",
+        "evidence": "Keyboard-first native array order is legal. Preserve raw false outcome and independently score zipped canonical mapping as correct."
+      }
+    ],
+    "environment_issue": "Constraint clarification not answered appropriately; exclude comparative recovery cost and causal success conclusions. Initial cap precision differs: program/state -56.105, literal user message -56.10. No observed feasible classification flips; still not strict identical numeric input."
+  }
+}

@@ -1,0 +1,1848 @@
+[
+  {
+    "id": "B_26_capacity_r1_analyze",
+    "event": 0,
+    "module": "analysis",
+    "advice": {
+      "comparison_scope": "current exact requirements vs negotiable relaxations",
+      "tradeoffs": [
+        {
+          "variant_id": "1240311797",
+          "observation": "Matches the highest-priority capacity (1L) but changes color white→silver and material plastic→glass; whole difference -21.34.",
+          "question": "May I offer this 1L silver glass option as an alternative, even though it changes your color and material preferences?"
+        },
+        {
+          "variant_id": "2323972008",
+          "observation": "Matches capacity (1L) but changes color white→black and material plastic→glass; whole difference -11.53.",
+          "question": "May I offer this 1L black glass option as an alternative, even though it changes your color and material preferences?"
+        },
+        {
+          "variant_id": "2698416822",
+          "observation": "Preserves color white and material plastic but changes capacity 1L→1.5L, relaxing the highest-priority attribute; whole difference -9.06.",
+          "question": "May I offer this 1.5L white plastic option as an alternative, even though it changes your highest-priority capacity preference?"
+        },
+        {
+          "variant_id": "4458619711",
+          "observation": "Preserves color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70.",
+          "question": "May I offer this 2L white stainless steel option as an alternative, even though it changes your capacity and material preferences?"
+        },
+        {
+          "variant_id": "5428723833",
+          "observation": "Preserves material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03.",
+          "question": "May I offer this 1.5L black plastic option as an alternative, even though it changes your capacity and color preferences?"
+        },
+        {
+          "variant_id": "9472539378",
+          "observation": "Preserves color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79.",
+          "question": "May I offer this 1.5L white glass option as an alternative, even though it changes your capacity and material preferences?"
+        }
+      ],
+      "analysis": "For original item 7602931732, no exact match to the current requested specification (1L, white, plastic) is feasible. The verified negotiable options all differ from the current request in at least one attribute; none preserves all three current values. Under your soft priority order (capacity, color, material), the options that keep capacity at 1L (1240311797 and 2323972008) best preserve the highest priority but change both color and material. Options 2698416822 and 9472539378 preserve color white but relax capacity to 1.5L; 2698416822 also preserves material plastic. Option 4458619711 preserves only color white while changing capacity to 2L and material to stainless steel. Option 5428723833 preserves only material plastic. These are alternatives only and require your new specification permission; they are not transaction approvals. The other original item 9570044148 remains matched to its current requested options and is unaffected by this comparison."
+    },
+    "program_facts": {
+      "comparison_scope_original_item_ids": [
+        "7602931732"
+      ],
+      "unaffected_items": [
+        {
+          "original_item_id": "9570044148",
+          "current_variant": "3616838507",
+          "local_spec_matches_observed_options": true,
+          "stock": true,
+          "need_new_spec_permission_due_to_this_comparison": false
+        }
+      ],
+      "status": "no_exact_match",
+      "exact_feasible": [],
+      "negotiable": [
+        {
+          "variant_id": "1240311797",
+          "options": {
+            "capacity": "1L",
+            "material": "glass",
+            "color": "silver"
+          },
+          "price": 137.17,
+          "whole_difference": "-21.34",
+          "source_ref": 8,
+          "matches_current": {
+            "capacity": "1L"
+          },
+          "changes_current": {
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            },
+            "color": {
+              "current": "white",
+              "offered": "silver"
+            }
+          }
+        },
+        {
+          "variant_id": "2323972008",
+          "options": {
+            "capacity": "1L",
+            "material": "glass",
+            "color": "black"
+          },
+          "price": 146.98,
+          "whole_difference": "-11.53",
+          "source_ref": 8,
+          "matches_current": {
+            "capacity": "1L"
+          },
+          "changes_current": {
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            },
+            "color": {
+              "current": "white",
+              "offered": "black"
+            }
+          }
+        },
+        {
+          "variant_id": "2698416822",
+          "options": {
+            "capacity": "1.5L",
+            "material": "plastic",
+            "color": "white"
+          },
+          "price": 149.45,
+          "whole_difference": "-9.06",
+          "source_ref": 8,
+          "matches_current": {
+            "material": "plastic",
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            }
+          }
+        },
+        {
+          "variant_id": "4458619711",
+          "options": {
+            "capacity": "2L",
+            "material": "stainless steel",
+            "color": "white"
+          },
+          "price": 153.81,
+          "whole_difference": "-4.70",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "2L"
+            },
+            "material": {
+              "current": "plastic",
+              "offered": "stainless steel"
+            }
+          }
+        },
+        {
+          "variant_id": "5428723833",
+          "options": {
+            "capacity": "1.5L",
+            "material": "plastic",
+            "color": "black"
+          },
+          "price": 145.48,
+          "whole_difference": "-13.03",
+          "source_ref": 8,
+          "matches_current": {
+            "material": "plastic"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            },
+            "color": {
+              "current": "white",
+              "offered": "black"
+            }
+          }
+        },
+        {
+          "variant_id": "9472539378",
+          "options": {
+            "capacity": "1.5L",
+            "material": "glass",
+            "color": "white"
+          },
+          "price": 143.72,
+          "whole_difference": "-14.79",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            },
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            }
+          }
+        }
+      ],
+      "empty_exact_set_is_valid": true,
+      "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval"
+    },
+    "before_targets": {
+      "7602931732": "2243454707",
+      "9570044148": "3616838507"
+    }
+  },
+  {
+    "id": "B_26_capacity_r1_analyze",
+    "event": 1,
+    "module": "cognitive_decision",
+    "reason": "No exact match exists for the current 1L/white/plastic spec; this alternative preserves the two lower-priority attributes (color white, material plastic) while relaxing only the highest-priority capacity to 1.5L, and is in stock within the signed amount cap, so it is the best tradeoff to propose for new specification permission.",
+    "current_difference": "5.95",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r1_analyze",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification names SKU 2698416822, which is in stock and within the signed whole-difference cap, so the complete current plan is feasible and can be stored for later confirmation.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r1_analyze",
+    "event": 6,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the actual user.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r1_analyze",
+    "event": 9,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and fully authorized by the user's explicit approval (ref 17) of the complete combined proposal; submit is enabled.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r1_clarify",
+    "event": 2,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification for 7602931732 is variant 1240311797, which is in stock and its whole signed difference -21.34 satisfies the cap -3.54; the other item's current spec 3616838507 is unchanged and feasible, so a complete feasible current plan can be stored.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r1_clarify",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the actual user.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r1_clarify",
+    "event": 7,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and valid, and current_full_authorization=true with quoted explicit approval of the complete combined proposal; submit is enabled.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r2_clarify",
+    "event": 2,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification for 7602931732 is variant 1240311797, which is in stock and its whole signed difference -21.34 satisfies the cap -3.54; the other item's current spec is feasible, so a complete feasible current plan can be stored.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r2_clarify",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so ask the user to confirm.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r2_clarify",
+    "event": 7,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and valid; current_full_authorization=true with quoted explicit approval of the exact complete combined proposal, so submit is enabled.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r2_analyze",
+    "event": 0,
+    "module": "analysis",
+    "advice": {
+      "comparison_scope": "current exact requirements vs negotiable relaxations",
+      "tradeoffs": [
+        {
+          "variant_id": "1240311797",
+          "observation": "Matches the highest-priority capacity (1L) but changes color white→silver and material plastic→glass; whole difference -21.34.",
+          "question": "May I consider this 1L silver glass option as an alternative to your current white plastic request?"
+        },
+        {
+          "variant_id": "2323972008",
+          "observation": "Matches capacity (1L) but changes color white→black and material plastic→glass; whole difference -11.53.",
+          "question": "May I consider this 1L black glass option as an alternative to your current white plastic request?"
+        },
+        {
+          "variant_id": "2698416822",
+          "observation": "Preserves color white and material plastic but changes capacity 1L→1.5L, relaxing the highest-priority attribute; whole difference -9.06.",
+          "question": "May I consider this 1.5L white plastic option, which changes your top-priority capacity, as an alternative?"
+        },
+        {
+          "variant_id": "4458619711",
+          "observation": "Preserves color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70.",
+          "question": "May I consider this 2L white stainless steel option as an alternative to your current 1L white plastic request?"
+        },
+        {
+          "variant_id": "5428723833",
+          "observation": "Preserves material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03.",
+          "question": "May I consider this 1.5L black plastic option as an alternative?"
+        },
+        {
+          "variant_id": "9472539378",
+          "observation": "Preserves color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79.",
+          "question": "May I consider this 1.5L white glass option as an alternative?"
+        }
+      ],
+      "analysis": "For original item 7602931732, no exact match to the current effective specification (1L, white, plastic) is feasible; the exact feasible set is empty. All six negotiable options change at least one current attribute and therefore require your new specification permission before any can be proposed as a replacement. The highest-priority attribute is capacity (1L): variants 1240311797 and 2323972008 preserve it, but both change color and material. The remaining variants relax capacity to 1.5L or 2L. The other original item 9570044148 remains matched to its current specification and is unaffected by this comparison. No option is authorized or accepted by this analysis; each listed question is a request for your permission to consider the alternative."
+    },
+    "program_facts": {
+      "comparison_scope_original_item_ids": [
+        "7602931732"
+      ],
+      "unaffected_items": [
+        {
+          "original_item_id": "9570044148",
+          "current_variant": "3616838507",
+          "local_spec_matches_observed_options": true,
+          "stock": true,
+          "need_new_spec_permission_due_to_this_comparison": false
+        }
+      ],
+      "status": "no_exact_match",
+      "exact_feasible": [],
+      "negotiable": [
+        {
+          "variant_id": "1240311797",
+          "options": {
+            "capacity": "1L",
+            "material": "glass",
+            "color": "silver"
+          },
+          "price": 137.17,
+          "whole_difference": "-21.34",
+          "source_ref": 8,
+          "matches_current": {
+            "capacity": "1L"
+          },
+          "changes_current": {
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            },
+            "color": {
+              "current": "white",
+              "offered": "silver"
+            }
+          }
+        },
+        {
+          "variant_id": "2323972008",
+          "options": {
+            "capacity": "1L",
+            "material": "glass",
+            "color": "black"
+          },
+          "price": 146.98,
+          "whole_difference": "-11.53",
+          "source_ref": 8,
+          "matches_current": {
+            "capacity": "1L"
+          },
+          "changes_current": {
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            },
+            "color": {
+              "current": "white",
+              "offered": "black"
+            }
+          }
+        },
+        {
+          "variant_id": "2698416822",
+          "options": {
+            "capacity": "1.5L",
+            "material": "plastic",
+            "color": "white"
+          },
+          "price": 149.45,
+          "whole_difference": "-9.06",
+          "source_ref": 8,
+          "matches_current": {
+            "material": "plastic",
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            }
+          }
+        },
+        {
+          "variant_id": "4458619711",
+          "options": {
+            "capacity": "2L",
+            "material": "stainless steel",
+            "color": "white"
+          },
+          "price": 153.81,
+          "whole_difference": "-4.70",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "2L"
+            },
+            "material": {
+              "current": "plastic",
+              "offered": "stainless steel"
+            }
+          }
+        },
+        {
+          "variant_id": "5428723833",
+          "options": {
+            "capacity": "1.5L",
+            "material": "plastic",
+            "color": "black"
+          },
+          "price": 145.48,
+          "whole_difference": "-13.03",
+          "source_ref": 8,
+          "matches_current": {
+            "material": "plastic"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            },
+            "color": {
+              "current": "white",
+              "offered": "black"
+            }
+          }
+        },
+        {
+          "variant_id": "9472539378",
+          "options": {
+            "capacity": "1.5L",
+            "material": "glass",
+            "color": "white"
+          },
+          "price": 143.72,
+          "whole_difference": "-14.79",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            },
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            }
+          }
+        }
+      ],
+      "empty_exact_set_is_valid": true,
+      "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval"
+    },
+    "before_targets": {
+      "7602931732": "2243454707",
+      "9570044148": "3616838507"
+    }
+  },
+  {
+    "id": "B_26_capacity_r2_analyze",
+    "event": 1,
+    "module": "cognitive_decision",
+    "reason": "No exact match exists for the current 1L white plastic specification; this alternative preserves color and material while relaxing only the top-priority capacity, and requires new user specification permission before it can be proposed.",
+    "current_difference": "5.95",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r2_analyze",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification for 7602931732 maps to exact-feasible variant 2698416822 which is in stock and satisfies the -3.54 cap; the other item's current spec (3616838507) is unaffected and in stock, so a feasible complete current plan exists to store.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r2_analyze",
+    "event": 6,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification for item 7602931732 is SKU 2698416822, which is in stock and yields whole signed difference -9.06 ≤ -3.54 cap; other item unchanged and feasible, so the current plan is feasible and should be stored before seeking authorization.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r2_analyze",
+    "event": 8,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the actual user.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_capacity_r2_analyze",
+    "event": 11,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and fully authorized by the user's explicit approval (ref 19) of the complete combined proposal; submit is enabled.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r1_analyze",
+    "event": 0,
+    "module": "analysis",
+    "advice": {
+      "comparison_scope": "current exact requirements vs negotiable relaxations",
+      "tradeoffs": [
+        {
+          "variant_id": "1240311797",
+          "observation": "Matches current capacity 1L but changes color white→silver and material plastic→glass; whole difference -21.34.",
+          "question": "May I offer this silver/glass 1L option as an alternative, even though it changes your highest-priority color and material?"
+        },
+        {
+          "variant_id": "2323972008",
+          "observation": "Matches current capacity 1L but changes color white→black and material plastic→glass; whole difference -11.53.",
+          "question": "May I offer this black/glass 1L option as an alternative, even though it changes your highest-priority color and material?"
+        },
+        {
+          "variant_id": "2698416822",
+          "observation": "Preserves current color white and material plastic but changes capacity 1L→1.5L; whole difference -9.06.",
+          "question": "May I offer this 1.5L white plastic option, which preserves your top two priorities but changes capacity?"
+        },
+        {
+          "variant_id": "4458619711",
+          "observation": "Preserves current color white but changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70.",
+          "question": "May I offer this 2L white stainless-steel option, which preserves color but changes material and capacity?"
+        },
+        {
+          "variant_id": "5428723833",
+          "observation": "Preserves current material plastic but changes capacity 1L→1.5L and color white→black; whole difference -13.03.",
+          "question": "May I offer this 1.5L black plastic option, which changes your highest-priority color and capacity?"
+        },
+        {
+          "variant_id": "9472539378",
+          "observation": "Preserves current color white but changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79.",
+          "question": "May I offer this 1.5L white glass option, which preserves color but changes material and capacity?"
+        }
+      ],
+      "analysis": "For original item 7602931732, no exact match to the current requested specification (1L, plastic, white) is feasible. The six negotiable options all match at least one current attribute but each changes at least one; none preserves all three. Under your soft priority order color > material > capacity, the options preserving color white (2698416822, 4458619711, 9472539378) best protect the highest priority, though each changes capacity and possibly material. Options 1240311797 and 2323972008 change the top-priority color and material, and 5428723833 changes color and capacity. These are observations only; different specifications require your new permission, and no alternative is proposed as accepted. Original item 9570044148 remains matched to its current requested specification and is unaffected by this comparison."
+    },
+    "program_facts": {
+      "comparison_scope_original_item_ids": [
+        "7602931732"
+      ],
+      "unaffected_items": [
+        {
+          "original_item_id": "9570044148",
+          "current_variant": "3616838507",
+          "local_spec_matches_observed_options": true,
+          "stock": true,
+          "need_new_spec_permission_due_to_this_comparison": false
+        }
+      ],
+      "status": "no_exact_match",
+      "exact_feasible": [],
+      "negotiable": [
+        {
+          "variant_id": "1240311797",
+          "options": {
+            "capacity": "1L",
+            "material": "glass",
+            "color": "silver"
+          },
+          "price": 137.17,
+          "whole_difference": "-21.34",
+          "source_ref": 8,
+          "matches_current": {
+            "capacity": "1L"
+          },
+          "changes_current": {
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            },
+            "color": {
+              "current": "white",
+              "offered": "silver"
+            }
+          }
+        },
+        {
+          "variant_id": "2323972008",
+          "options": {
+            "capacity": "1L",
+            "material": "glass",
+            "color": "black"
+          },
+          "price": 146.98,
+          "whole_difference": "-11.53",
+          "source_ref": 8,
+          "matches_current": {
+            "capacity": "1L"
+          },
+          "changes_current": {
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            },
+            "color": {
+              "current": "white",
+              "offered": "black"
+            }
+          }
+        },
+        {
+          "variant_id": "2698416822",
+          "options": {
+            "capacity": "1.5L",
+            "material": "plastic",
+            "color": "white"
+          },
+          "price": 149.45,
+          "whole_difference": "-9.06",
+          "source_ref": 8,
+          "matches_current": {
+            "material": "plastic",
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            }
+          }
+        },
+        {
+          "variant_id": "4458619711",
+          "options": {
+            "capacity": "2L",
+            "material": "stainless steel",
+            "color": "white"
+          },
+          "price": 153.81,
+          "whole_difference": "-4.70",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "2L"
+            },
+            "material": {
+              "current": "plastic",
+              "offered": "stainless steel"
+            }
+          }
+        },
+        {
+          "variant_id": "5428723833",
+          "options": {
+            "capacity": "1.5L",
+            "material": "plastic",
+            "color": "black"
+          },
+          "price": 145.48,
+          "whole_difference": "-13.03",
+          "source_ref": 8,
+          "matches_current": {
+            "material": "plastic"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            },
+            "color": {
+              "current": "white",
+              "offered": "black"
+            }
+          }
+        },
+        {
+          "variant_id": "9472539378",
+          "options": {
+            "capacity": "1.5L",
+            "material": "glass",
+            "color": "white"
+          },
+          "price": 143.72,
+          "whole_difference": "-14.79",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            },
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            }
+          }
+        }
+      ],
+      "empty_exact_set_is_valid": true,
+      "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval"
+    },
+    "before_targets": {
+      "7602931732": "2243454707",
+      "9570044148": "3616838507"
+    }
+  },
+  {
+    "id": "B_26_appearance_r1_analyze",
+    "event": 1,
+    "module": "cognitive_decision",
+    "reason": "No exact match exists for the current 1L/plastic/white spec; this option preserves the top two soft priorities (color white, material plastic) while changing only capacity, and is within the signed whole-difference cap (-9.06 vs -3.54 limit).",
+    "current_difference": "5.95",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r1_analyze",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification names SKU 2698416822, which is in stock and satisfies the whole signed difference cap (-9.06 ≤ -3.54); the other item's requested replacement 3616838507 is in stock and unchanged. This is a feasible complete current plan, so prepare stores it pending independent final authorization.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r1_analyze",
+    "event": 6,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the actual user.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r1_analyze",
+    "event": 9,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted approval at ref 17 covering the exact complete proposal.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r1_clarify",
+    "event": 2,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification for 7602931732 (SKU 1240311797) is in stock and whole signed difference -21.34 satisfies the -3.54 cap; the other item's current spec is feasible and unaffected, so a complete feasible current plan can be stored.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r1_clarify",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so ask the user to confirm.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r1_clarify",
+    "event": 7,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted user approval of the exact complete proposal; submit is enabled.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r2_clarify",
+    "event": 2,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification for 7602931732 is variant 1240311797, which is in stock and its whole signed difference -21.34 satisfies the cap -3.54; the other item's current spec 3616838507 is unchanged and feasible, so a complete feasible current plan can be stored.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r2_clarify",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only missing prerequisite is independent current complete-plan authorization, so confirm asks the actual user.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r2_clarify",
+    "event": 7,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted explicit approval of the complete combined proposal; submit is enabled.",
+    "current_difference": "-21.34",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r2_analyze",
+    "event": 0,
+    "module": "analysis",
+    "advice": {
+      "comparison_scope": "current exact requirements vs negotiable relaxations",
+      "tradeoffs": [
+        {
+          "variant_id": "1240311797",
+          "observation": "Matches capacity 1L but changes color white→silver and material plastic→glass; whole difference -21.34.",
+          "question": "May I offer this silver/glass 1L variant as an alternative, or would you prefer to keep the current white/plastic specification?"
+        },
+        {
+          "variant_id": "2323972008",
+          "observation": "Matches capacity 1L but changes color white→black and material plastic→glass; whole difference -11.53.",
+          "question": "May I offer this black/glass 1L variant as an alternative, or would you prefer to keep the current white/plastic specification?"
+        },
+        {
+          "variant_id": "2698416822",
+          "observation": "Matches color white and material plastic but changes capacity 1L→1.5L; whole difference -9.06.",
+          "question": "May I offer this white/plastic 1.5L variant as an alternative, or would you prefer to keep the current 1L capacity?"
+        },
+        {
+          "variant_id": "4458619711",
+          "observation": "Matches color white only; changes capacity 1L→2L and material plastic→stainless steel; whole difference -4.70.",
+          "question": "May I offer this white/stainless-steel 2L variant as an alternative, or would you prefer to keep the current 1L plastic specification?"
+        },
+        {
+          "variant_id": "5428723833",
+          "observation": "Matches material plastic only; changes capacity 1L→1.5L and color white→black; whole difference -13.03.",
+          "question": "May I offer this black/plastic 1.5L variant as an alternative, or would you prefer to keep the current white 1L specification?"
+        },
+        {
+          "variant_id": "9472539378",
+          "observation": "Matches color white only; changes capacity 1L→1.5L and material plastic→glass; whole difference -14.79.",
+          "question": "May I offer this white/glass 1.5L variant as an alternative, or would you prefer to keep the current 1L plastic specification?"
+        }
+      ],
+      "analysis": "For original item 7602931732, no exact match exists for the current requested specification (1L, plastic, white). All six negotiable variants change at least one current option, so each requires your new permission before it can be proposed as a replacement. The soft priority order is color, then material, then capacity: variants 2698416822 and 9472539378 preserve the highest-priority color (white); 2698416822 additionally preserves material (plastic) and only relaxes capacity to 1.5L, making it the closest preservation of your stated priorities. Variants 1240311797 and 2323972008 preserve capacity but change both color and material. Variant 4458619711 preserves only color and changes both material and capacity. Variant 5428723833 preserves only material and changes color and capacity. The whole-amount differences shown are all within the stated -3.54 cap direction. Original item 9570044148 remains matched to its current requested specification and is unaffected by this comparison; no new specification permission is needed for it here. This is not a transaction approval; please indicate which, if any, alternative you permit."
+    },
+    "program_facts": {
+      "comparison_scope_original_item_ids": [
+        "7602931732"
+      ],
+      "unaffected_items": [
+        {
+          "original_item_id": "9570044148",
+          "current_variant": "3616838507",
+          "local_spec_matches_observed_options": true,
+          "stock": true,
+          "need_new_spec_permission_due_to_this_comparison": false
+        }
+      ],
+      "status": "no_exact_match",
+      "exact_feasible": [],
+      "negotiable": [
+        {
+          "variant_id": "1240311797",
+          "options": {
+            "capacity": "1L",
+            "material": "glass",
+            "color": "silver"
+          },
+          "price": 137.17,
+          "whole_difference": "-21.34",
+          "source_ref": 8,
+          "matches_current": {
+            "capacity": "1L"
+          },
+          "changes_current": {
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            },
+            "color": {
+              "current": "white",
+              "offered": "silver"
+            }
+          }
+        },
+        {
+          "variant_id": "2323972008",
+          "options": {
+            "capacity": "1L",
+            "material": "glass",
+            "color": "black"
+          },
+          "price": 146.98,
+          "whole_difference": "-11.53",
+          "source_ref": 8,
+          "matches_current": {
+            "capacity": "1L"
+          },
+          "changes_current": {
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            },
+            "color": {
+              "current": "white",
+              "offered": "black"
+            }
+          }
+        },
+        {
+          "variant_id": "2698416822",
+          "options": {
+            "capacity": "1.5L",
+            "material": "plastic",
+            "color": "white"
+          },
+          "price": 149.45,
+          "whole_difference": "-9.06",
+          "source_ref": 8,
+          "matches_current": {
+            "material": "plastic",
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            }
+          }
+        },
+        {
+          "variant_id": "4458619711",
+          "options": {
+            "capacity": "2L",
+            "material": "stainless steel",
+            "color": "white"
+          },
+          "price": 153.81,
+          "whole_difference": "-4.70",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "2L"
+            },
+            "material": {
+              "current": "plastic",
+              "offered": "stainless steel"
+            }
+          }
+        },
+        {
+          "variant_id": "5428723833",
+          "options": {
+            "capacity": "1.5L",
+            "material": "plastic",
+            "color": "black"
+          },
+          "price": 145.48,
+          "whole_difference": "-13.03",
+          "source_ref": 8,
+          "matches_current": {
+            "material": "plastic"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            },
+            "color": {
+              "current": "white",
+              "offered": "black"
+            }
+          }
+        },
+        {
+          "variant_id": "9472539378",
+          "options": {
+            "capacity": "1.5L",
+            "material": "glass",
+            "color": "white"
+          },
+          "price": 143.72,
+          "whole_difference": "-14.79",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "white"
+          },
+          "changes_current": {
+            "capacity": {
+              "current": "1L",
+              "offered": "1.5L"
+            },
+            "material": {
+              "current": "plastic",
+              "offered": "glass"
+            }
+          }
+        }
+      ],
+      "empty_exact_set_is_valid": true,
+      "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval"
+    },
+    "before_targets": {
+      "7602931732": "2243454707",
+      "9570044148": "3616838507"
+    }
+  },
+  {
+    "id": "B_26_appearance_r2_analyze",
+    "event": 1,
+    "module": "cognitive_decision",
+    "reason": "No exact match exists for the current 1L/plastic/white specification; this variant best preserves the stated soft priority (color white, material plastic) while staying within the -3.54 whole-amount cap, and requires new user specification permission before it can be proposed.",
+    "current_difference": "5.95",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r2_analyze",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification names SKU 2698416822, which is in stock and satisfies the whole-difference cap (-9.06 ≤ -3.54); the other item's requested replacement 3616838507 is in stock and unchanged, so a feasible complete current plan exists to store.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r2_analyze",
+    "event": 6,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only missing prerequisite is independent complete-plan authorization, so ask the user to confirm.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_26_appearance_r2_analyze",
+    "event": 9,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible (exact match, difference -9.06 within cap -3.54) and current_full_authorization is true with quoted approval for exactly this complete plan.",
+    "current_difference": "-9.06",
+    "cap": {
+      "max_signed_whole_difference": "-3.54",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r1_analyze",
+    "event": 0,
+    "module": "analysis",
+    "advice": {
+      "comparison_scope": "current exact requirements vs negotiable relaxations",
+      "tradeoffs": [
+        {
+          "variant_id": "7617930199",
+          "observation": "Preserves the highest-priority color (red) and water resistance (yes), but changes battery life from the current 10 hours to 20 hours; price is 285.94, a whole-amount difference of -16.22 versus the current requested item.",
+          "question": "May I offer variant 7617930199, which keeps red and water resistance but changes battery life to 20 hours, for your consideration?"
+        },
+        {
+          "variant_id": "3254583681",
+          "observation": "Preserves water resistance (yes) but changes the highest-priority color from red to blue and battery life from 10 hours to 20 hours; price is 302.67, a whole-amount difference of +0.51.",
+          "question": "May I offer variant 3254583681, which keeps water resistance but changes color to blue and battery life to 20 hours, for your consideration?"
+        },
+        {
+          "variant_id": "1052700637",
+          "observation": "Preserves the highest-priority color (red) but changes battery life from 10 hours to 20 hours and water resistance from yes to no; price is 285.81, a whole-amount difference of -16.35.",
+          "question": "May I offer variant 1052700637, which keeps red but changes battery life to 20 hours and water resistance to no, for your consideration?"
+        },
+        {
+          "variant_id": "2635605237",
+          "observation": "Changes all three current options: color red to blue, battery life 10 to 20 hours, and water resistance yes to no; price is 271.89, a whole-amount difference of -30.27.",
+          "question": "May I offer variant 2635605237, which changes color to blue, battery life to 20 hours, and water resistance to no, for your consideration?"
+        },
+        {
+          "variant_id": "9440686670",
+          "observation": "Changes all three current options: color red to green, battery life 10 to 20 hours, and water resistance yes to no; price is 298.91, a whole-amount difference of -3.25.",
+          "question": "May I offer variant 9440686670, which changes color to green, battery life to 20 hours, and water resistance to no, for your consideration?"
+        }
+      ],
+      "analysis": "For original item 4716977452, no exact match to the current requested specification (red, 10 hours, yes) is available, so the exact-feasible set is empty. The listed negotiable variants all change at least battery life to 20 hours; none preserves the current 10-hour value. Variant 7617930199 best preserves your stated soft priority order because it keeps the highest-priority color red and also keeps water resistance yes, while relaxing only battery life. Variant 3254583681 keeps water resistance but changes the top-priority color to blue. The remaining variants change color and/or water resistance as well. All listed whole-amount differences are within the stated cap of 1.4. Original item 4024196380 remains matched to its current requested options and is unaffected by this comparison. These are options only; different specifications require your new permission, and no transaction approval is granted here."
+    },
+    "program_facts": {
+      "comparison_scope_original_item_ids": [
+        "4716977452"
+      ],
+      "unaffected_items": [
+        {
+          "original_item_id": "4024196380",
+          "current_variant": "9829827210",
+          "local_spec_matches_observed_options": true,
+          "stock": true,
+          "need_new_spec_permission_due_to_this_comparison": false
+        }
+      ],
+      "status": "no_exact_match",
+      "exact_feasible": [],
+      "negotiable": [
+        {
+          "variant_id": "1052700637",
+          "options": {
+            "color": "red",
+            "battery life": "20 hours",
+            "water resistance": "no"
+          },
+          "price": 285.81,
+          "whole_difference": "-16.35",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "red"
+          },
+          "changes_current": {
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            },
+            "water resistance": {
+              "current": "yes",
+              "offered": "no"
+            }
+          }
+        },
+        {
+          "variant_id": "2635605237",
+          "options": {
+            "color": "blue",
+            "battery life": "20 hours",
+            "water resistance": "no"
+          },
+          "price": 271.89,
+          "whole_difference": "-30.27",
+          "source_ref": 8,
+          "matches_current": {},
+          "changes_current": {
+            "color": {
+              "current": "red",
+              "offered": "blue"
+            },
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            },
+            "water resistance": {
+              "current": "yes",
+              "offered": "no"
+            }
+          }
+        },
+        {
+          "variant_id": "3254583681",
+          "options": {
+            "color": "blue",
+            "battery life": "20 hours",
+            "water resistance": "yes"
+          },
+          "price": 302.67,
+          "whole_difference": "0.51",
+          "source_ref": 8,
+          "matches_current": {
+            "water resistance": "yes"
+          },
+          "changes_current": {
+            "color": {
+              "current": "red",
+              "offered": "blue"
+            },
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            }
+          }
+        },
+        {
+          "variant_id": "7617930199",
+          "options": {
+            "color": "red",
+            "battery life": "20 hours",
+            "water resistance": "yes"
+          },
+          "price": 285.94,
+          "whole_difference": "-16.22",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "red",
+            "water resistance": "yes"
+          },
+          "changes_current": {
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            }
+          }
+        },
+        {
+          "variant_id": "9440686670",
+          "options": {
+            "color": "green",
+            "battery life": "20 hours",
+            "water resistance": "no"
+          },
+          "price": 298.91,
+          "whole_difference": "-3.25",
+          "source_ref": 8,
+          "matches_current": {},
+          "changes_current": {
+            "color": {
+              "current": "red",
+              "offered": "green"
+            },
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            },
+            "water resistance": {
+              "current": "yes",
+              "offered": "no"
+            }
+          }
+        }
+      ],
+      "empty_exact_set_is_valid": true,
+      "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval"
+    },
+    "before_targets": {
+      "4716977452": "7751905257",
+      "4024196380": "9829827210"
+    }
+  },
+  {
+    "id": "B_35_waterproof_r1_analyze",
+    "event": 1,
+    "module": "cognitive_decision",
+    "reason": "No exact match exists for the current requested spec (red, 10 hours, water resistant); variant 7617930199 best preserves the soft priority order (keeps red and water resistance, only relaxing battery life) and is in stock within the signed amount cap, so it is the strongest negotiable option to offer for new permission.",
+    "current_difference": "19.02",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r1_analyze",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "CURRENT_EFFECTIVE_SPECIFICATION for 4716977452 (SKU 7617930199) is in stock and within the signed whole-difference cap, and the other item's current spec is feasible; a complete feasible current plan can be stored for later independent approval.",
+    "current_difference": "-16.22",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r1_analyze",
+    "event": 6,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and the plan is stored and valid; the only missing prerequisite is independent current complete-plan authorization, so confirm asks the actual user.",
+    "current_difference": "-16.22",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r1_analyze",
+    "event": 9,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and fully authorized by the user's explicit approval of the complete combined proposal; submit is enabled.",
+    "current_difference": "-16.22",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r1_clarify",
+    "event": 2,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification for 4716977452 maps to exact feasible variant 1052700637 within the signed whole-difference cap; other item 4024196380 remains as agreed and in stock. Plan is feasible, so prepare stores it pending independent final authorization.",
+    "current_difference": "-16.35",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r1_clarify",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only missing prerequisite is independent complete-plan authorization, so ask the user to confirm.",
+    "current_difference": "-16.35",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r1_clarify",
+    "event": 7,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible (exact match, in stock, difference -16.35 within cap 1.4), plan is stored and valid, and current_full_authorization=true with quoted explicit approval of the complete combined proposal.",
+    "current_difference": "-16.35",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r2_clarify",
+    "event": 2,
+    "module": "cognitive_decision",
+    "reason": "CURRENT_EFFECTIVE_SPECIFICATION supersedes prior SKU with 1052700637, which is in stock and within the signed whole-difference cap; the other item's spec is unchanged and feasible, so a complete feasible plan can be stored.",
+    "current_difference": "-16.35",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r2_clarify",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "CURRENT_EFFECTIVE_SPECIFICATION for item 4716977452 is SKU 1052700637, which is in stock and within the <=1.4 whole-difference cap (-16.35); the other item's plan is unchanged and feasible, so the complete current plan is feasible and can be stored.",
+    "current_difference": "-16.35",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r2_clarify",
+    "event": 6,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the user for that approval.",
+    "current_difference": "-16.35",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r2_clarify",
+    "event": 9,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted explicit approval of the exact complete proposal; submit is enabled.",
+    "current_difference": "-16.35",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r2_analyze",
+    "event": 0,
+    "module": "analysis",
+    "advice": {
+      "comparison_scope": "current exact requirements vs negotiable relaxations",
+      "tradeoffs": [
+        {
+          "variant_id": "1052700637",
+          "observation": "Matches the highest-priority color (red) but changes battery life from 10 to 20 hours and water resistance from yes to no; price is 285.81, a whole difference of -16.35.",
+          "question": "Would you be willing to accept 20-hour battery life and no water resistance in exchange for keeping red, at 285.81?"
+        },
+        {
+          "variant_id": "2635605237",
+          "observation": "Changes color from red to blue, battery life from 10 to 20 hours, and water resistance from yes to no; price is 271.89, a whole difference of -30.27.",
+          "question": "Would you be willing to accept blue, 20-hour battery life, and no water resistance at 271.89?"
+        },
+        {
+          "variant_id": "3254583681",
+          "observation": "Keeps water resistance yes but changes color from red to blue and battery life from 10 to 20 hours; price is 302.67, a whole difference of 0.51.",
+          "question": "Would you be willing to accept blue and 20-hour battery life while keeping water resistance, at 302.67?"
+        },
+        {
+          "variant_id": "7617930199",
+          "observation": "Keeps the highest-priority color red and water resistance yes, changing only battery life from 10 to 20 hours; price is 285.94, a whole difference of -16.22.",
+          "question": "Would you be willing to accept 20-hour battery life instead of 10 hours while keeping red and water resistance, at 285.94?"
+        },
+        {
+          "variant_id": "9440686670",
+          "observation": "Changes color from red to green, battery life from 10 to 20 hours, and water resistance from yes to no; price is 298.91, a whole difference of -3.25.",
+          "question": "Would you be willing to accept green, 20-hour battery life, and no water resistance at 298.91?"
+        }
+      ],
+      "analysis": "For original item 4716977452, no option exactly matches the current requested specification (red, 10 hours, water resistance yes), so exact_feasible is empty. The five negotiable options all change at least battery life to 20 hours; none preserves the 10-hour value. Variant 7617930199 best preserves your stated soft priority order, keeping color red (highest priority) and water resistance yes while changing only battery life. Variant 1052700637 keeps red but drops water resistance. The others change color away from red. All listed prices are within the stated whole-amount cap of 1.4 relative to the current requested price of 321.18. These are observations only; any different specification requires your new permission, and no option is approved for transaction. Original item 4024196380 remains matched to its current requested specification and is unaffected."
+    },
+    "program_facts": {
+      "comparison_scope_original_item_ids": [
+        "4716977452"
+      ],
+      "unaffected_items": [
+        {
+          "original_item_id": "4024196380",
+          "current_variant": "9829827210",
+          "local_spec_matches_observed_options": true,
+          "stock": true,
+          "need_new_spec_permission_due_to_this_comparison": false
+        }
+      ],
+      "status": "no_exact_match",
+      "exact_feasible": [],
+      "negotiable": [
+        {
+          "variant_id": "1052700637",
+          "options": {
+            "color": "red",
+            "battery life": "20 hours",
+            "water resistance": "no"
+          },
+          "price": 285.81,
+          "whole_difference": "-16.35",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "red"
+          },
+          "changes_current": {
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            },
+            "water resistance": {
+              "current": "yes",
+              "offered": "no"
+            }
+          }
+        },
+        {
+          "variant_id": "2635605237",
+          "options": {
+            "color": "blue",
+            "battery life": "20 hours",
+            "water resistance": "no"
+          },
+          "price": 271.89,
+          "whole_difference": "-30.27",
+          "source_ref": 8,
+          "matches_current": {},
+          "changes_current": {
+            "color": {
+              "current": "red",
+              "offered": "blue"
+            },
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            },
+            "water resistance": {
+              "current": "yes",
+              "offered": "no"
+            }
+          }
+        },
+        {
+          "variant_id": "3254583681",
+          "options": {
+            "color": "blue",
+            "battery life": "20 hours",
+            "water resistance": "yes"
+          },
+          "price": 302.67,
+          "whole_difference": "0.51",
+          "source_ref": 8,
+          "matches_current": {
+            "water resistance": "yes"
+          },
+          "changes_current": {
+            "color": {
+              "current": "red",
+              "offered": "blue"
+            },
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            }
+          }
+        },
+        {
+          "variant_id": "7617930199",
+          "options": {
+            "color": "red",
+            "battery life": "20 hours",
+            "water resistance": "yes"
+          },
+          "price": 285.94,
+          "whole_difference": "-16.22",
+          "source_ref": 8,
+          "matches_current": {
+            "color": "red",
+            "water resistance": "yes"
+          },
+          "changes_current": {
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            }
+          }
+        },
+        {
+          "variant_id": "9440686670",
+          "options": {
+            "color": "green",
+            "battery life": "20 hours",
+            "water resistance": "no"
+          },
+          "price": 298.91,
+          "whole_difference": "-3.25",
+          "source_ref": 8,
+          "matches_current": {},
+          "changes_current": {
+            "color": {
+              "current": "red",
+              "offered": "green"
+            },
+            "battery life": {
+              "current": "10 hours",
+              "offered": "20 hours"
+            },
+            "water resistance": {
+              "current": "yes",
+              "offered": "no"
+            }
+          }
+        }
+      ],
+      "empty_exact_set_is_valid": true,
+      "meaning": "negotiable alternatives require NEW user specification permission; neither set grants transaction approval"
+    },
+    "before_targets": {
+      "4716977452": "7751905257",
+      "4024196380": "9829827210"
+    }
+  },
+  {
+    "id": "B_35_waterproof_r2_analyze",
+    "event": 1,
+    "module": "cognitive_decision",
+    "reason": "No exact match for current spec (red/10h/water-resistant); variant 7617930199 best preserves soft priority order (keeps red and water resistance, only battery life changes) and is within the 1.4 whole-amount cap, so ask permission for this specific alternative.",
+    "current_difference": "19.02",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r2_analyze",
+    "event": 4,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification for 4716977452 (SKU 7617930199) is in stock and whole signed difference -16.22 is within cap 1.4; other item's current spec 9829827210 is feasible, so a complete feasible current plan exists to store.",
+    "current_difference": "-16.22",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r2_analyze",
+    "event": 6,
+    "module": "cognitive_decision",
+    "reason": "Current effective specification is feasible and the plan is stored; the only missing prerequisite is independent current complete-plan authorization, which requires asking the actual user.",
+    "current_difference": "-16.22",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "B_35_waterproof_r2_analyze",
+    "event": 9,
+    "module": "cognitive_decision",
+    "reason": "Current plan is feasible and fully authorized by the user's explicit approval (ref 17) of the complete combined proposal; submit is enabled.",
+    "current_difference": "-16.22",
+    "cap": {
+      "max_signed_whole_difference": "1.4",
+      "source_ref": 11
+    },
+    "stocks": [
+      true,
+      true
+    ]
+  }
+]

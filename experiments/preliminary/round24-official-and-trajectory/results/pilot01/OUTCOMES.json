@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pilot_t80_official",
+    "task": "80",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 9.008509600011166,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "pilot_t80_framework",
+    "task": "80",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 6.794685600034427,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "pilot_t23_official",
+    "task": "23",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 20.345491699990816,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "pilot_t23_framework",
+    "task": "23",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 16.191188600030728,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  }
+]

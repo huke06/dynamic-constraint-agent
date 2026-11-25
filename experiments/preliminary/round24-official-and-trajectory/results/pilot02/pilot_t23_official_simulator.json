@@ -1,0 +1,120 @@
+[
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 13,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exchange?",
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "8926329222",
+          "quote": "Luggage Set | 3-piece, blue, softshell (6301799585) | 2-piece, black, softshell (8926329222)"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "Grill | medium, charcoal, rotisserie (7082455361) | large, electric, rotisserie (4404981319)"
+        }
+      ],
+      "offers": [],
+      "difference": 24.72,
+      "amount_quote": "Net difference: +$24.72",
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "Payment method: **credit_card_7901829**",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "Replace my CURRENT request for original item 6301799585 with SKU 7160999700, if in stock and whole signed difference <= 10000. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the complete new proposal for separate final approval.",
+    "user_ref": 19,
+    "kind": "clarify",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "Would you like to choose a different Luggage Set specification from the list above?",
+      "pairs": [],
+      "offers": [
+        {
+          "item_id": "6301799585",
+          "variant_id": "7160999700",
+          "quote": "7160999700"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "8759627937",
+          "quote": "8759627937"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "8964750292",
+          "quote": "8964750292"
+        },
+        {
+          "item_id": "6301799585",
+          "variant_id": "9956648681",
+          "quote": "9956648681"
+        }
+      ],
+      "difference": null,
+      "amount_quote": null,
+      "payment_method_id": null,
+      "payment_quote": null,
+      "stop_quote": null
+    },
+    "accepted_offer": "7160999700",
+    "program_resolved_original_item": "6301799585",
+    "extracted_original_item": "6301799585"
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 23,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exchange?",
+      "pairs": [
+        {
+          "item_id": "6301799585",
+          "new_item_id": "7160999700",
+          "quote": "Luggage Set | 3-piece, blue, softshell (6301799585) | 2-piece, red, softshell (7160999700)"
+        },
+        {
+          "item_id": "7082455361",
+          "new_item_id": "4404981319",
+          "quote": "Grill | medium, charcoal, rotisserie (7082455361) | large, electric, rotisserie (4404981319)"
+        }
+      ],
+      "offers": [],
+      "difference": 71.73,
+      "amount_quote": "Net difference: +$71.73",
+      "payment_method_id": "credit_card_7901829",
+      "payment_quote": "Payment method: **credit_card_7901829**",
+      "stop_quote": null
+    }
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "state": "26_capacity",
+    "repeat": 1,
+    "priorities": [
+      "capacity",
+      "color",
+      "material"
+    ],
+    "ids": [
+      "B_26_capacity_r1_analyze",
+      "B_26_capacity_r1_clarify"
+    ],
+    "direction": "clarify",
+    "reason": "公开软优先级字典序保持度",
+    "preference_vectors": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "state": "26_capacity",
+    "repeat": 2,
+    "priorities": [
+      "capacity",
+      "color",
+      "material"
+    ],
+    "ids": [
+      "B_26_capacity_r2_analyze",
+      "B_26_capacity_r2_clarify"
+    ],
+    "direction": "clarify",
+    "reason": "公开软优先级字典序保持度",
+    "preference_vectors": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "state": "26_appearance",
+    "repeat": 1,
+    "priorities": [
+      "color",
+      "material",
+      "capacity"
+    ],
+    "ids": [
+      "B_26_appearance_r1_analyze",
+      "B_26_appearance_r1_clarify"
+    ],
+    "direction": "analyze",
+    "reason": "公开软优先级字典序保持度",
+    "preference_vectors": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "state": "26_appearance",
+    "repeat": 2,
+    "priorities": [
+      "color",
+      "material",
+      "capacity"
+    ],
+    "ids": [
+      "B_26_appearance_r2_analyze",
+      "B_26_appearance_r2_clarify"
+    ],
+    "direction": "analyze",
+    "reason": "公开软优先级字典序保持度",
+    "preference_vectors": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "state": "35_waterproof",
+    "repeat": 1,
+    "priorities": [
+      "color",
+      "battery life",
+      "water resistance"
+    ],
+    "ids": [
+      "B_35_waterproof_r1_analyze",
+      "B_35_waterproof_r1_clarify"
+    ],
+    "direction": "pending_quality",
+    "reason": "事实/完整用量待核实",
+    "preference_vectors": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "state": "35_waterproof",
+    "repeat": 2,
+    "priorities": [
+      "color",
+      "battery life",
+      "water resistance"
+    ],
+    "ids": [
+      "B_35_waterproof_r2_analyze",
+      "B_35_waterproof_r2_clarify"
+    ],
+    "direction": "pending_quality",
+    "reason": "事实/完整用量待核实",
+    "preference_vectors": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  }
+]

@@ -1,0 +1,1635 @@
+[
+  {
+    "id": "B_26_capacity_r1_analyze",
+    "task": "26",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 16.799496299994644,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [
+        {
+          "kind": "preference_ranking_error_separate_from_facts",
+          "quote": "preserves the two lower-priority attributes ... relaxing only the highest-priority capacity ... so it is the best tradeoff",
+          "evidence": "Attribute and stock/amount statements true, but the predeclared public lexicographic capacity priority favors 1240311797 or 2323972008. This is the lower-preference path being compared, not an inventory/auth error. Do not exclude inferior preference solely because it is inferior."
+        }
+      ],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 7,
+      "input": 20796,
+      "output": 1349,
+      "cache_hit": 8448,
+      "cache_miss": 12348,
+      "usage_complete": true,
+      "seconds": 13.209559300041292,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 4
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1245,
+      "output": 333,
+      "cache_hit": 256,
+      "cache_miss": 989,
+      "usage_complete": true,
+      "seconds": 2.2888080999837257,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 1,
+        "work": "clarify",
+        "object": "7602931732",
+        "reason": "No exact match exists for the current 1L/white/plastic spec; this alternative preserves the two lower-priority attributes (color white, material plastic) while relaxing only the highest-priority capacity to 1.5L, and is in stock within the signed amount cap, so it is the best tradeoff to propose for new specification permission.",
+        "parameters": {
+          "variant_id": "2698416822"
+        }
+      },
+      {
+        "event": 4,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification names SKU 2698416822, which is in stock and within the signed whole-difference cap, so the complete current plan is feasible and can be stored for later confirmation.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "confirm",
+        "object": "#W5565470",
+        "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 9,
+        "work": "submit",
+        "object": "#W5565470",
+        "reason": "Current plan is feasible and fully authorized by the user's explicit approval (ref 17) of the complete combined proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      0,
+      1,
+      1
+    ],
+    "final_options": {
+      "capacity": "1.5L",
+      "material": "plastic",
+      "color": "white"
+    },
+    "final_arguments": {
+      "order_id": "#W5565470",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "new_item_ids": [
+        "2698416822",
+        "3616838507"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  },
+  {
+    "id": "B_26_capacity_r1_clarify",
+    "task": "26",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 10.53949230001308,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 5,
+      "input": 13905,
+      "output": 605,
+      "cache_hit": 6016,
+      "cache_miss": 7889,
+      "usage_complete": true,
+      "seconds": 6.833045200037304,
+      "roles": {
+        "semantic": 2,
+        "cognitive": 3
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1242,
+      "output": 340,
+      "cache_hit": 256,
+      "cache_miss": 986,
+      "usage_complete": true,
+      "seconds": 2.4121619000216015,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 2,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification for 7602931732 is variant 1240311797, which is in stock and its whole signed difference -21.34 satisfies the cap -3.54; the other item's current spec 3616838507 is unchanged and feasible, so a complete feasible current plan can be stored.",
+        "parameters": {}
+      },
+      {
+        "event": 4,
+        "work": "confirm",
+        "object": "#W5565470",
+        "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 7,
+        "work": "submit",
+        "object": "#W5565470",
+        "reason": "Current plan is feasible and valid, and current_full_authorization=true with quoted explicit approval of the complete combined proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      1,
+      0,
+      0
+    ],
+    "final_options": {
+      "capacity": "1L",
+      "material": "glass",
+      "color": "silver"
+    },
+    "final_arguments": {
+      "order_id": "#W5565470",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "new_item_ids": [
+        "1240311797",
+        "3616838507"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 3
+    }
+  },
+  {
+    "id": "B_26_capacity_r2_clarify",
+    "task": "26",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 9.735645800014026,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 5,
+      "input": 13905,
+      "output": 594,
+      "cache_hit": 8704,
+      "cache_miss": 5201,
+      "usage_complete": true,
+      "seconds": 6.222522299969569,
+      "roles": {
+        "semantic": 2,
+        "cognitive": 3
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1242,
+      "output": 340,
+      "cache_hit": 896,
+      "cache_miss": 346,
+      "usage_complete": true,
+      "seconds": 2.3185036999639124,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 2,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification for 7602931732 is variant 1240311797, which is in stock and its whole signed difference -21.34 satisfies the cap -3.54; the other item's current spec is feasible, so a complete feasible current plan can be stored.",
+        "parameters": {}
+      },
+      {
+        "event": 4,
+        "work": "confirm",
+        "object": "#W5565470",
+        "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so ask the user to confirm.",
+        "parameters": {}
+      },
+      {
+        "event": 7,
+        "work": "submit",
+        "object": "#W5565470",
+        "reason": "Current plan is feasible and valid; current_full_authorization=true with quoted explicit approval of the exact complete combined proposal, so submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      1,
+      0,
+      0
+    ],
+    "final_options": {
+      "capacity": "1L",
+      "material": "glass",
+      "color": "silver"
+    },
+    "final_arguments": {
+      "order_id": "#W5565470",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "new_item_ids": [
+        "1240311797",
+        "3616838507"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 3
+    }
+  },
+  {
+    "id": "B_26_capacity_r2_analyze",
+    "task": "26",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 21.850953799963463,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [
+        {
+          "kind": "lower_preference_choice",
+          "quote": "preserves color and material while relaxing only the top-priority capacity",
+          "evidence": "Literal observation true. It still chooses lower-priority preservation despite analysis identifying capacity-preserving alternatives. One redundant prepare also retained. Outcome is hard-correct and preference-inferior."
+        }
+      ],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 8,
+      "input": 24672,
+      "output": 1408,
+      "cache_hit": 11520,
+      "cache_miss": 13152,
+      "usage_complete": true,
+      "seconds": 11.167152799898759,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 5
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1245,
+      "output": 310,
+      "cache_hit": 896,
+      "cache_miss": 349,
+      "usage_complete": true,
+      "seconds": 6.518871899985243,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 1,
+        "work": "clarify",
+        "object": "7602931732",
+        "reason": "No exact match exists for the current 1L white plastic specification; this alternative preserves color and material while relaxing only the top-priority capacity, and requires new user specification permission before it can be proposed.",
+        "parameters": {
+          "variant_id": "2698416822"
+        }
+      },
+      {
+        "event": 4,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification for 7602931732 maps to exact-feasible variant 2698416822 which is in stock and satisfies the -3.54 cap; the other item's current spec (3616838507) is unaffected and in stock, so a feasible complete current plan exists to store.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification for item 7602931732 is SKU 2698416822, which is in stock and yields whole signed difference -9.06 ≤ -3.54 cap; other item unchanged and feasible, so the current plan is feasible and should be stored before seeking authorization.",
+        "parameters": {}
+      },
+      {
+        "event": 8,
+        "work": "confirm",
+        "object": "#W5565470",
+        "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 11,
+        "work": "submit",
+        "object": "#W5565470",
+        "reason": "Current plan is feasible and fully authorized by the user's explicit approval (ref 19) of the complete combined proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 1,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      0,
+      1,
+      1
+    ],
+    "final_options": {
+      "capacity": "1.5L",
+      "material": "plastic",
+      "color": "white"
+    },
+    "final_arguments": {
+      "order_id": "#W5565470",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "new_item_ids": [
+        "2698416822",
+        "3616838507"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 5
+    }
+  },
+  {
+    "id": "B_26_appearance_r1_analyze",
+    "task": "26",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 16.360213899984956,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 7,
+      "input": 20748,
+      "output": 1324,
+      "cache_hit": 9216,
+      "cache_miss": 11532,
+      "usage_complete": true,
+      "seconds": 11.916217200050596,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 4
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1245,
+      "output": 390,
+      "cache_hit": 896,
+      "cache_miss": 349,
+      "usage_complete": true,
+      "seconds": 2.4833194999955595,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 1,
+        "work": "clarify",
+        "object": "7602931732",
+        "reason": "No exact match exists for the current 1L/plastic/white spec; this option preserves the top two soft priorities (color white, material plastic) while changing only capacity, and is within the signed whole-difference cap (-9.06 vs -3.54 limit).",
+        "parameters": {
+          "variant_id": "2698416822"
+        }
+      },
+      {
+        "event": 4,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification names SKU 2698416822, which is in stock and satisfies the whole signed difference cap (-9.06 ≤ -3.54); the other item's requested replacement 3616838507 is in stock and unchanged. This is a feasible complete current plan, so prepare stores it pending independent final authorization.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "confirm",
+        "object": "#W5565470",
+        "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 9,
+        "work": "submit",
+        "object": "#W5565470",
+        "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted approval at ref 17 covering the exact complete proposal.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      1,
+      1,
+      0
+    ],
+    "final_options": {
+      "capacity": "1.5L",
+      "material": "plastic",
+      "color": "white"
+    },
+    "final_arguments": {
+      "order_id": "#W5565470",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "new_item_ids": [
+        "2698416822",
+        "3616838507"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  },
+  {
+    "id": "B_26_appearance_r1_clarify",
+    "task": "26",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 9.528273899981286,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 5,
+      "input": 13905,
+      "output": 597,
+      "cache_hit": 6784,
+      "cache_miss": 7121,
+      "usage_complete": true,
+      "seconds": 6.0410359999514185,
+      "roles": {
+        "semantic": 2,
+        "cognitive": 3
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1242,
+      "output": 340,
+      "cache_hit": 896,
+      "cache_miss": 346,
+      "usage_complete": true,
+      "seconds": 2.273613400000613,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 2,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification for 7602931732 (SKU 1240311797) is in stock and whole signed difference -21.34 satisfies the -3.54 cap; the other item's current spec is feasible and unaffected, so a complete feasible current plan can be stored.",
+        "parameters": {}
+      },
+      {
+        "event": 4,
+        "work": "confirm",
+        "object": "#W5565470",
+        "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so ask the user to confirm.",
+        "parameters": {}
+      },
+      {
+        "event": 7,
+        "work": "submit",
+        "object": "#W5565470",
+        "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted user approval of the exact complete proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      0,
+      0,
+      1
+    ],
+    "final_options": {
+      "capacity": "1L",
+      "material": "glass",
+      "color": "silver"
+    },
+    "final_arguments": {
+      "order_id": "#W5565470",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "new_item_ids": [
+        "1240311797",
+        "3616838507"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 3
+    }
+  },
+  {
+    "id": "B_26_appearance_r2_clarify",
+    "task": "26",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 8.712162300013006,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 5,
+      "input": 13905,
+      "output": 605,
+      "cache_hit": 10368,
+      "cache_miss": 3537,
+      "usage_complete": true,
+      "seconds": 5.741923799971119,
+      "roles": {
+        "semantic": 2,
+        "cognitive": 3
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1242,
+      "output": 293,
+      "cache_hit": 896,
+      "cache_miss": 346,
+      "usage_complete": true,
+      "seconds": 2.0713310999562964,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 2,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification for 7602931732 is variant 1240311797, which is in stock and its whole signed difference -21.34 satisfies the cap -3.54; the other item's current spec 3616838507 is unchanged and feasible, so a complete feasible current plan can be stored.",
+        "parameters": {}
+      },
+      {
+        "event": 4,
+        "work": "confirm",
+        "object": "#W5565470",
+        "reason": "Current effective specification is feasible and stored as the current plan; only missing prerequisite is independent current complete-plan authorization, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 7,
+        "work": "submit",
+        "object": "#W5565470",
+        "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted explicit approval of the complete combined proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      0,
+      0,
+      1
+    ],
+    "final_options": {
+      "capacity": "1L",
+      "material": "glass",
+      "color": "silver"
+    },
+    "final_arguments": {
+      "order_id": "#W5565470",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "new_item_ids": [
+        "1240311797",
+        "3616838507"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 3
+    }
+  },
+  {
+    "id": "B_26_appearance_r2_analyze",
+    "task": "26",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 15.023261399997864,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 7,
+      "input": 20846,
+      "output": 1440,
+      "cache_hit": 10368,
+      "cache_miss": 10478,
+      "usage_complete": true,
+      "seconds": 10.476939300016966,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 4
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1245,
+      "output": 266,
+      "cache_hit": 896,
+      "cache_miss": 349,
+      "usage_complete": true,
+      "seconds": 1.820843400026206,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 1,
+        "work": "clarify",
+        "object": "7602931732",
+        "reason": "No exact match exists for the current 1L/plastic/white specification; this variant best preserves the stated soft priority (color white, material plastic) while staying within the -3.54 whole-amount cap, and requires new user specification permission before it can be proposed.",
+        "parameters": {
+          "variant_id": "2698416822"
+        }
+      },
+      {
+        "event": 4,
+        "work": "prepare",
+        "object": "#W5565470",
+        "reason": "Current effective specification names SKU 2698416822, which is in stock and satisfies the whole-difference cap (-9.06 ≤ -3.54); the other item's requested replacement 3616838507 is in stock and unchanged, so a feasible complete current plan exists to store.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "confirm",
+        "object": "#W5565470",
+        "reason": "Current effective specification is feasible and stored as the current plan; only missing prerequisite is independent complete-plan authorization, so ask the user to confirm.",
+        "parameters": {}
+      },
+      {
+        "event": 9,
+        "work": "submit",
+        "object": "#W5565470",
+        "reason": "Current plan is feasible (exact match, difference -9.06 within cap -3.54) and current_full_authorization is true with quoted approval for exactly this complete plan.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      1,
+      1,
+      0
+    ],
+    "final_options": {
+      "capacity": "1.5L",
+      "material": "plastic",
+      "color": "white"
+    },
+    "final_arguments": {
+      "order_id": "#W5565470",
+      "item_ids": [
+        "7602931732",
+        "9570044148"
+      ],
+      "new_item_ids": [
+        "2698416822",
+        "3616838507"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  },
+  {
+    "id": "B_35_waterproof_r1_analyze",
+    "task": "35",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 15.251371600024868,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": false,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "pending",
+      "issues": [
+        {
+          "kind": "amount_reference_ambiguous",
+          "quote": "whole-amount difference of -16.22 versus the current requested item",
+          "evidence": "-16.22 is combined difference vs purchased originals including hose. Current requested speaker 321.18 to 285.94 is -35.24. Isolated whole figure is correct, reference is ambiguous; do not call clean or automatically mark amount arithmetic wrong."
+        }
+      ],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 7,
+      "input": 20158,
+      "output": 1422,
+      "cache_hit": 8448,
+      "cache_miss": 11710,
+      "usage_complete": true,
+      "seconds": 10.895859199983533,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 4
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1243,
+      "output": 313,
+      "cache_hit": 256,
+      "cache_miss": 987,
+      "usage_complete": true,
+      "seconds": 2.5218977999757044,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 1,
+        "work": "clarify",
+        "object": "4716977452",
+        "reason": "No exact match exists for the current requested spec (red, 10 hours, water resistant); variant 7617930199 best preserves the soft priority order (keeps red and water resistance, only relaxing battery life) and is in stock within the signed amount cap, so it is the strongest negotiable option to offer for new permission.",
+        "parameters": {
+          "variant_id": "7617930199"
+        }
+      },
+      {
+        "event": 4,
+        "work": "prepare",
+        "object": "#W8528674",
+        "reason": "CURRENT_EFFECTIVE_SPECIFICATION for 4716977452 (SKU 7617930199) is in stock and within the signed whole-difference cap, and the other item's current spec is feasible; a complete feasible current plan can be stored for later independent approval.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "confirm",
+        "object": "#W8528674",
+        "reason": "Current effective specification is feasible and the plan is stored and valid; the only missing prerequisite is independent current complete-plan authorization, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 9,
+        "work": "submit",
+        "object": "#W8528674",
+        "reason": "Current plan is feasible and fully authorized by the user's explicit approval of the complete combined proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      1,
+      0,
+      1
+    ],
+    "final_options": {
+      "color": "red",
+      "battery life": "20 hours",
+      "water resistance": "yes"
+    },
+    "final_arguments": {
+      "order_id": "#W8528674",
+      "item_ids": [
+        "4716977452",
+        "4024196380"
+      ],
+      "new_item_ids": [
+        "7617930199",
+        "9829827210"
+      ],
+      "payment_method_id": "paypal_7664977"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  },
+  {
+    "id": "B_35_waterproof_r1_clarify",
+    "task": "35",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 11.35401470004581,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 5,
+      "input": 13372,
+      "output": 622,
+      "cache_hit": 6016,
+      "cache_miss": 7356,
+      "usage_complete": true,
+      "seconds": 7.562177799991332,
+      "roles": {
+        "semantic": 2,
+        "cognitive": 3
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1243,
+      "output": 293,
+      "cache_hit": 256,
+      "cache_miss": 987,
+      "usage_complete": true,
+      "seconds": 2.850253699987661,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 2,
+        "work": "prepare",
+        "object": "#W8528674",
+        "reason": "Current effective specification for 4716977452 maps to exact feasible variant 1052700637 within the signed whole-difference cap; other item 4024196380 remains as agreed and in stock. Plan is feasible, so prepare stores it pending independent final authorization.",
+        "parameters": {}
+      },
+      {
+        "event": 4,
+        "work": "confirm",
+        "object": "#W8528674",
+        "reason": "Current effective specification is feasible and stored as the current plan; only missing prerequisite is independent complete-plan authorization, so ask the user to confirm.",
+        "parameters": {}
+      },
+      {
+        "event": 7,
+        "work": "submit",
+        "object": "#W8528674",
+        "reason": "Current effective specification is feasible (exact match, in stock, difference -16.35 within cap 1.4), plan is stored and valid, and current_full_authorization=true with quoted explicit approval of the complete combined proposal.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      1,
+      0,
+      0
+    ],
+    "final_options": {
+      "color": "red",
+      "battery life": "20 hours",
+      "water resistance": "no"
+    },
+    "final_arguments": {
+      "order_id": "#W8528674",
+      "item_ids": [
+        "4716977452",
+        "4024196380"
+      ],
+      "new_item_ids": [
+        "1052700637",
+        "9829827210"
+      ],
+      "payment_method_id": "paypal_7664977"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 3
+    }
+  },
+  {
+    "id": "B_35_waterproof_r2_clarify",
+    "task": "35",
+    "group": "framework",
+    "first": "clarify",
+    "error": "OSError: [Errno 22] Invalid argument: 'D:\\\\experimentn\\\\dynamic-constraint-agent-round23\\\\experiments\\\\preliminary\\\\round24-official-and-trajectory\\\\results\\\\B01\\\\B_35_waterproof_r2_clarify_trace.json'",
+    "event_triggered": false,
+    "seconds": 11.606485299998894,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": false,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported_with_logging_exception",
+      "issues": [
+        {
+          "kind": "logging_IO_after_write",
+          "evidence": "OSError Errno22 while saving trace after valid native write; exception/final state subsequently saved. Correct DB and authorization are retained; not a model/API/simulator error, and not eligible for clean cost/preference comparison."
+        }
+      ],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 6,
+      "input": 17155,
+      "output": 750,
+      "cache_hit": 7936,
+      "cache_miss": 9219,
+      "usage_complete": true,
+      "seconds": 8.763664199970663,
+      "roles": {
+        "semantic": 2,
+        "cognitive": 4
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1243,
+      "output": 293,
+      "cache_hit": 896,
+      "cache_miss": 347,
+      "usage_complete": true,
+      "seconds": 1.9932794000487775,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 2,
+        "work": "prepare",
+        "object": "#W8528674",
+        "reason": "CURRENT_EFFECTIVE_SPECIFICATION supersedes prior SKU with 1052700637, which is in stock and within the signed whole-difference cap; the other item's spec is unchanged and feasible, so a complete feasible plan can be stored.",
+        "parameters": {}
+      },
+      {
+        "event": 4,
+        "work": "prepare",
+        "object": "#W8528674",
+        "reason": "CURRENT_EFFECTIVE_SPECIFICATION for item 4716977452 is SKU 1052700637, which is in stock and within the <=1.4 whole-difference cap (-16.35); the other item's plan is unchanged and feasible, so the complete current plan is feasible and can be stored.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "confirm",
+        "object": "#W8528674",
+        "reason": "Current effective specification is feasible and stored as the current plan; only independent complete-plan authorization is missing, so confirm asks the user for that approval.",
+        "parameters": {}
+      },
+      {
+        "event": 9,
+        "work": "submit",
+        "object": "#W8528674",
+        "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted explicit approval of the exact complete proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 1,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      1,
+      0,
+      0
+    ],
+    "final_options": {
+      "color": "red",
+      "battery life": "20 hours",
+      "water resistance": "no"
+    },
+    "final_arguments": {
+      "order_id": "#W8528674",
+      "item_ids": [
+        "4716977452",
+        "4024196380"
+      ],
+      "new_item_ids": [
+        "1052700637",
+        "9829827210"
+      ],
+      "payment_method_id": "paypal_7664977"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  },
+  {
+    "id": "B_35_waterproof_r2_analyze",
+    "task": "35",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 14.612393499992322,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": false,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "amount_reference_wrong",
+          "quote": "All listed prices are within the stated whole-amount cap of 1.4 relative to the current requested price of 321.18.",
+          "evidence": "Cap is signed combined replacement-minus-original amount including hose, not price difference relative to current requested SKU. Programme supplies correct amounts; local explanation changes reference."
+        }
+      ],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 7,
+      "input": 20087,
+      "output": 1352,
+      "cache_hit": 10368,
+      "cache_miss": 9719,
+      "usage_complete": true,
+      "seconds": 11.131934200006071,
+      "roles": {
+        "semantic": 3,
+        "cognitive": 4
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1243,
+      "output": 342,
+      "cache_hit": 896,
+      "cache_miss": 347,
+      "usage_complete": true,
+      "seconds": 2.6413121999939904,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 1,
+        "work": "clarify",
+        "object": "4716977452",
+        "reason": "No exact match for current spec (red/10h/water-resistant); variant 7617930199 best preserves soft priority order (keeps red and water resistance, only battery life changes) and is within the 1.4 whole-amount cap, so ask permission for this specific alternative.",
+        "parameters": {
+          "variant_id": "7617930199"
+        }
+      },
+      {
+        "event": 4,
+        "work": "prepare",
+        "object": "#W8528674",
+        "reason": "Current effective specification for 4716977452 (SKU 7617930199) is in stock and whole signed difference -16.22 is within cap 1.4; other item's current spec 9829827210 is feasible, so a complete feasible current plan exists to store.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "confirm",
+        "object": "#W8528674",
+        "reason": "Current effective specification is feasible and the plan is stored; the only missing prerequisite is independent current complete-plan authorization, which requires asking the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 9,
+        "work": "submit",
+        "object": "#W8528674",
+        "reason": "Current plan is feasible and fully authorized by the user's explicit approval (ref 17) of the complete combined proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": [
+      1,
+      0,
+      1
+    ],
+    "final_options": {
+      "color": "red",
+      "battery life": "20 hours",
+      "water resistance": "yes"
+    },
+    "final_arguments": {
+      "order_id": "#W8528674",
+      "item_ids": [
+        "4716977452",
+        "4024196380"
+      ],
+      "new_item_ids": [
+        "7617930199",
+        "9829827210"
+      ],
+      "payment_method_id": "paypal_7664977"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  }
+]

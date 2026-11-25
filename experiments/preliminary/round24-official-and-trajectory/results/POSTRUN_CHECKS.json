@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    "legacy array-order false negative corrected by canonical mapping",
+    "joint permutation preserves exchange semantics",
+    "changed mapping remains wrong",
+    "historical invalidated authorization cannot pass",
+    "12 examples exact actual input, no correction, no future evaluation payload",
+    "12 SFT event ordinals match actual response IDs and requests, not merely identical action text",
+    "35 scored against actual visible priority order"
+  ],
+  "precision_limitations": [
+    {
+      "batch": "A01",
+      "task": "39",
+      "framework_model_cap": "-151.155",
+      "initial_literal_user_cap": "-151.16",
+      "strict_numeric_input_equality": false,
+      "feasibility_classification_flips_on_observed_variants": [],
+      "disposition": "explicit input precision limitation; do not use task for clean group effect/cost claims"
+    },
+    {
+      "batch": "A2",
+      "task": "43",
+      "framework_model_cap": "-56.105",
+      "initial_literal_user_cap": "-56.10",
+      "strict_numeric_input_equality": false,
+      "feasibility_classification_flips_on_observed_variants": [],
+      "disposition": "explicit input precision limitation; do not use task for clean group effect/cost claims"
+    }
+  ],
+  "execution_not_changed": true
+}

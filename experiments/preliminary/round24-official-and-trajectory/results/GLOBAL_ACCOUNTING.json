@@ -1,0 +1,237 @@
+{
+  "phases": {
+    "pilot01": {
+      "agent": {
+        "requests": 22,
+        "input": 106174,
+        "output": 3056,
+        "cache_hit": 81152,
+        "cache_miss": 25022,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 35.032911400077865,
+        "roles": {
+          "cognitive": 18,
+          "semantic": 4
+        }
+      },
+      "simulator": {
+        "requests": 10,
+        "input": 5540,
+        "output": 1953,
+        "cache_hit": 1152,
+        "cache_miss": 4388,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 13.167699399986304,
+        "roles": {
+          "simulator": 10
+        }
+      },
+      "trajectory_count": 4
+    },
+    "pilot02": {
+      "agent": {
+        "requests": 22,
+        "input": 105756,
+        "output": 3221,
+        "cache_hit": 86656,
+        "cache_miss": 19100,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 35.33859409991419,
+        "roles": {
+          "cognitive": 18,
+          "semantic": 4
+        }
+      },
+      "simulator": {
+        "requests": 9,
+        "input": 5785,
+        "output": 1448,
+        "cache_hit": 2304,
+        "cache_miss": 3481,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 9.799548200157005,
+        "roles": {
+          "simulator": 9
+        }
+      },
+      "trajectory_count": 4
+    },
+    "pilot03": {
+      "agent": {
+        "requests": 6,
+        "input": 25697,
+        "output": 768,
+        "cache_hit": 19712,
+        "cache_miss": 5985,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 10.564808600000106,
+        "roles": {
+          "cognitive": 5,
+          "semantic": 1
+        }
+      },
+      "simulator": {
+        "requests": 2,
+        "input": 1158,
+        "output": 305,
+        "cache_hit": 512,
+        "cache_miss": 646,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 2.6333935000002384,
+        "roles": {
+          "simulator": 2
+        }
+      },
+      "trajectory_count": 2
+    },
+    "A01": {
+      "agent": {
+        "requests": 97,
+        "input": 495502,
+        "output": 15212,
+        "cache_hit": 410624,
+        "cache_miss": 84878,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 145.31063730013557,
+        "roles": {
+          "cognitive": 80,
+          "semantic": 17
+        }
+      },
+      "simulator": {
+        "requests": 38,
+        "input": 25284,
+        "output": 7264,
+        "cache_hit": 8192,
+        "cache_miss": 17092,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 57.25733229989419,
+        "roles": {
+          "simulator": 38
+        }
+      },
+      "trajectory_count": 16
+    },
+    "B01": {
+      "agent": {
+        "requests": 74,
+        "input": 213454,
+        "output": 12068,
+        "cache_hit": 104192,
+        "cache_miss": 109262,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 109.96203129988862,
+        "roles": {
+          "semantic": 30,
+          "cognitive": 44
+        }
+      },
+      "simulator": {
+        "requests": 24,
+        "input": 14920,
+        "output": 3853,
+        "cache_hit": 8192,
+        "cache_miss": 6728,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 32.19419609993929,
+        "roles": {
+          "simulator": 24
+        }
+      },
+      "trajectory_count": 12
+    },
+    "a2/pilot04": {
+      "agent": {
+        "requests": 14,
+        "input": 63201,
+        "output": 1817,
+        "cache_hit": 52864,
+        "cache_miss": 10337,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 23.931389899982605,
+        "roles": {
+          "cognitive": 11,
+          "semantic": 3
+        }
+      },
+      "simulator": {
+        "requests": 6,
+        "input": 3675,
+        "output": 1051,
+        "cache_hit": 1792,
+        "cache_miss": 1883,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 8.12630770006217,
+        "roles": {
+          "simulator": 6
+        }
+      },
+      "trajectory_count": 2
+    },
+    "a2/A01": {
+      "agent": {
+        "requests": 97,
+        "input": 504869,
+        "output": 16040,
+        "cache_hit": 433024,
+        "cache_miss": 71845,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 203.42336659983266,
+        "roles": {
+          "cognitive": 80,
+          "semantic": 17
+        }
+      },
+      "simulator": {
+        "requests": 39,
+        "input": 26712,
+        "output": 7332,
+        "cache_hit": 11520,
+        "cache_miss": 15192,
+        "unknown_usage": 0,
+        "failed": 0,
+        "seconds": 66.3022115000058,
+        "roles": {
+          "simulator": 39
+        }
+      },
+      "trajectory_count": 16
+    }
+  },
+  "all": {
+    "requests": 460,
+    "input": 1597727,
+    "output": 75388,
+    "cache_hit": 1221888,
+    "cache_miss": 375839,
+    "unknown_usage": 0,
+    "failed": 0,
+    "seconds": 753.0444278998766,
+    "roles": {
+      "cognitive": 256,
+      "simulator": 128,
+      "semantic": 76
+    }
+  },
+  "returned_models": {
+    "deepseek-flash": 460
+  },
+  "external_judge_api_calls": 0,
+  "orchestration_chat_cost": "unknown, excluded",
+  "formal_trajectories": 44,
+  "development_trajectories": 12,
+  "no_training": true
+}

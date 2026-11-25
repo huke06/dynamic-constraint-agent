@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pilot_t80_official",
+    "task": "80",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 6.088268999999855,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "pilot_t80_framework",
+    "task": "80",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 7.631581499997992,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  }
+]

@@ -1,0 +1,668 @@
+[
+  {
+    "id": "A_t23_r1_framework",
+    "event": {
+      "source_ref": 17,
+      "public_text": "{\"arguments\":{\"product_id\":\"5426915165\"},\"official_result\":{\"name\":\"Luggage Set\",\"product_id\":\"5426915165\",\"variants\":{\"5209958006\":{\"available\":false,\"item_id\":\"5209958006\",\"options\":{\"color\":\"silver\",\"material\":\"hardshell\",\"piece count\":\"2-piece\"},\"price\":514.72},\"6301799585\":{\"available\":true,\"item_id\":\"6301799585\",\"options\":{\"color\":\"blue\",\"material\":\"softshell\",\"piece count\":\"3-piece\"},\"price\":495.87},\"6690069155\":{\"available\":false,\"item_id\":\"6690069155\",\"options\":{\"color\":\"silver\",\"material\":\"softshell\",\"piece count\":\"3-piece\"},\"price\":466.47},\"7160999700\":{\"available\":true,\"item_id\":\"7160999700\",\"options\":{\"color\":\"red\",\"material\":\"softshell\",\"piece count\":\"2-piece\"},\"price\":499.29},\"8759627937\":{\"available\":true,\"item_id\":\"8759627937\",\"options\":{\"color\":\"blue\",\"material\":\"softshell\",\"piece count\":\"4-piece\"},\"price\":501.65},\"8926329222\":{\"available\":false,\"item_id\":\"8926329222\",\"options\":{\"color\":\"black\",\"material\":\"softshell\",\"piece count\":\"2-piece\"},\"price\":452.28},\"8964750292\":{\"available\":true,\"item_id\":\"8964750292\",\"options\":{\"color\":\"red\",\"material\":\"hardshell\",\"piece count\":\"2-piece\"},\"price\":532.58},\"9692325258\":{\"available\":false,\"item_id\":\"9692325258\",\"options\":{\"color\":\"black\",\"material\":\"softshell\",\"piece count\":\"3-piece\"},\"price\":528.63},\"9956648681\":{\"available\":true,\"item_id\":\"9956648681\",\"options\":{\"color\":\"red\",\"material\":\"hardshell\",\"piece count\":\"4-piece\"},\"price\":452.62}}},\"official_tool\":\"get_product_details\"}",
+      "observed_kind": "inventory_observation",
+      "unparsed_user_change": false
+    },
+    "unaffected_original_item": "7082455361",
+    "unaffected_requirement_same": true,
+    "identity_value_same": true,
+    "payment_value_same": true,
+    "before_targets": {
+      "6301799585": "8926329222",
+      "7082455361": "4404981319"
+    },
+    "after_semantic_targets": {
+      "6301799585": "8926329222",
+      "7082455361": "4404981319"
+    },
+    "old_authorization_after_event": null,
+    "current_complete_write": [
+      {
+        "arguments": {
+          "order_id": "#W6876713",
+          "item_ids": [
+            "6301799585",
+            "7082455361"
+          ],
+          "new_item_ids": [
+            "7160999700",
+            "4404981319"
+          ],
+          "payment_method_id": "credit_card_7901829"
+        },
+        "gate": {
+          "allowed": true,
+          "fingerprint": "8db150873d73ce731488",
+          "confirmation_sources": [
+            22,
+            23
+          ]
+        },
+        "independent": {
+          "independent_valid_authorization": true,
+          "expected_arguments": {
+            "order_id": "#W6876713",
+            "item_ids": [
+              "6301799585",
+              "7082455361"
+            ],
+            "new_item_ids": [
+              "7160999700",
+              "4404981319"
+            ],
+            "payment_method_id": "credit_card_7901829"
+          }
+        },
+        "result": {
+          "order_id": "#W6876713",
+          "user_id": "sofia_hernandez_5364",
+          "address": {
+            "address1": "652 Laurel Lane",
+            "address2": "Suite 398",
+            "city": "Seattle",
+            "country": "USA",
+            "state": "WA",
+            "zip": "98193"
+          },
+          "items": [
+            {
+              "name": "Espresso Machine",
+              "product_id": "4354588079",
+              "item_id": "6200867091",
+              "price": 2955.17,
+              "options": {
+                "pressure": "19 bar",
+                "capacity": "1L",
+                "type": "capsule"
+              }
+            },
+            {
+              "name": "T-Shirt",
+              "product_id": "9523456873",
+              "item_id": "3234800602",
+              "price": 46.66,
+              "options": {
+                "color": "red",
+                "size": "L",
+                "material": "cotton",
+                "style": "v-neck"
+              }
+            },
+            {
+              "name": "Vacuum Cleaner",
+              "product_id": "1762337868",
+              "item_id": "1345513440",
+              "price": 655.59,
+              "options": {
+                "type": "canister",
+                "bagged/bagless": "bagged",
+                "features": "cordless"
+              }
+            },
+            {
+              "name": "Luggage Set",
+              "product_id": "5426915165",
+              "item_id": "6301799585",
+              "price": 495.87,
+              "options": {
+                "piece count": "3-piece",
+                "color": "blue",
+                "material": "softshell"
+              }
+            },
+            {
+              "name": "Grill",
+              "product_id": "6819683148",
+              "item_id": "7082455361",
+              "price": 962.69,
+              "options": {
+                "type": "charcoal",
+                "size": "medium",
+                "features": "rotisserie"
+              }
+            }
+          ],
+          "status": "exchange requested",
+          "fulfillments": [
+            {
+              "tracking_id": [
+                "970329203674"
+              ],
+              "item_ids": [
+                "6200867091",
+                "3234800602",
+                "1345513440",
+                "6301799585",
+                "7082455361"
+              ]
+            }
+          ],
+          "payment_history": [
+            {
+              "transaction_type": "payment",
+              "amount": 5115.98,
+              "payment_method_id": "credit_card_7901829"
+            }
+          ],
+          "cancel_reason": null,
+          "exchange_items": [
+            "6301799585",
+            "7082455361"
+          ],
+          "exchange_new_items": [
+            "4404981319",
+            "7160999700"
+          ],
+          "exchange_payment_method_id": "credit_card_7901829",
+          "exchange_price_difference": 71.73,
+          "return_items": null,
+          "return_payment_method_id": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "A_t23_r2_framework",
+    "event": {
+      "source_ref": 17,
+      "public_text": "{\"arguments\":{\"product_id\":\"5426915165\"},\"official_result\":{\"name\":\"Luggage Set\",\"product_id\":\"5426915165\",\"variants\":{\"5209958006\":{\"available\":false,\"item_id\":\"5209958006\",\"options\":{\"color\":\"silver\",\"material\":\"hardshell\",\"piece count\":\"2-piece\"},\"price\":514.72},\"6301799585\":{\"available\":true,\"item_id\":\"6301799585\",\"options\":{\"color\":\"blue\",\"material\":\"softshell\",\"piece count\":\"3-piece\"},\"price\":495.87},\"6690069155\":{\"available\":false,\"item_id\":\"6690069155\",\"options\":{\"color\":\"silver\",\"material\":\"softshell\",\"piece count\":\"3-piece\"},\"price\":466.47},\"7160999700\":{\"available\":true,\"item_id\":\"7160999700\",\"options\":{\"color\":\"red\",\"material\":\"softshell\",\"piece count\":\"2-piece\"},\"price\":499.29},\"8759627937\":{\"available\":true,\"item_id\":\"8759627937\",\"options\":{\"color\":\"blue\",\"material\":\"softshell\",\"piece count\":\"4-piece\"},\"price\":501.65},\"8926329222\":{\"available\":false,\"item_id\":\"8926329222\",\"options\":{\"color\":\"black\",\"material\":\"softshell\",\"piece count\":\"2-piece\"},\"price\":452.28},\"8964750292\":{\"available\":true,\"item_id\":\"8964750292\",\"options\":{\"color\":\"red\",\"material\":\"hardshell\",\"piece count\":\"2-piece\"},\"price\":532.58},\"9692325258\":{\"available\":false,\"item_id\":\"9692325258\",\"options\":{\"color\":\"black\",\"material\":\"softshell\",\"piece count\":\"3-piece\"},\"price\":528.63},\"9956648681\":{\"available\":true,\"item_id\":\"9956648681\",\"options\":{\"color\":\"red\",\"material\":\"hardshell\",\"piece count\":\"4-piece\"},\"price\":452.62}}},\"official_tool\":\"get_product_details\"}",
+      "observed_kind": "inventory_observation",
+      "unparsed_user_change": false
+    },
+    "unaffected_original_item": "7082455361",
+    "unaffected_requirement_same": true,
+    "identity_value_same": true,
+    "payment_value_same": true,
+    "before_targets": {
+      "6301799585": "8926329222",
+      "7082455361": "4404981319"
+    },
+    "after_semantic_targets": {
+      "6301799585": "8926329222",
+      "7082455361": "4404981319"
+    },
+    "old_authorization_after_event": null,
+    "current_complete_write": [
+      {
+        "arguments": {
+          "order_id": "#W6876713",
+          "item_ids": [
+            "6301799585",
+            "7082455361"
+          ],
+          "new_item_ids": [
+            "7160999700",
+            "4404981319"
+          ],
+          "payment_method_id": "credit_card_7901829"
+        },
+        "gate": {
+          "allowed": true,
+          "fingerprint": "8db150873d73ce731488",
+          "confirmation_sources": [
+            22,
+            23
+          ]
+        },
+        "independent": {
+          "independent_valid_authorization": true,
+          "expected_arguments": {
+            "order_id": "#W6876713",
+            "item_ids": [
+              "6301799585",
+              "7082455361"
+            ],
+            "new_item_ids": [
+              "7160999700",
+              "4404981319"
+            ],
+            "payment_method_id": "credit_card_7901829"
+          }
+        },
+        "result": {
+          "order_id": "#W6876713",
+          "user_id": "sofia_hernandez_5364",
+          "address": {
+            "address1": "652 Laurel Lane",
+            "address2": "Suite 398",
+            "city": "Seattle",
+            "country": "USA",
+            "state": "WA",
+            "zip": "98193"
+          },
+          "items": [
+            {
+              "name": "Espresso Machine",
+              "product_id": "4354588079",
+              "item_id": "6200867091",
+              "price": 2955.17,
+              "options": {
+                "pressure": "19 bar",
+                "capacity": "1L",
+                "type": "capsule"
+              }
+            },
+            {
+              "name": "T-Shirt",
+              "product_id": "9523456873",
+              "item_id": "3234800602",
+              "price": 46.66,
+              "options": {
+                "color": "red",
+                "size": "L",
+                "material": "cotton",
+                "style": "v-neck"
+              }
+            },
+            {
+              "name": "Vacuum Cleaner",
+              "product_id": "1762337868",
+              "item_id": "1345513440",
+              "price": 655.59,
+              "options": {
+                "type": "canister",
+                "bagged/bagless": "bagged",
+                "features": "cordless"
+              }
+            },
+            {
+              "name": "Luggage Set",
+              "product_id": "5426915165",
+              "item_id": "6301799585",
+              "price": 495.87,
+              "options": {
+                "piece count": "3-piece",
+                "color": "blue",
+                "material": "softshell"
+              }
+            },
+            {
+              "name": "Grill",
+              "product_id": "6819683148",
+              "item_id": "7082455361",
+              "price": 962.69,
+              "options": {
+                "type": "charcoal",
+                "size": "medium",
+                "features": "rotisserie"
+              }
+            }
+          ],
+          "status": "exchange requested",
+          "fulfillments": [
+            {
+              "tracking_id": [
+                "970329203674"
+              ],
+              "item_ids": [
+                "6200867091",
+                "3234800602",
+                "1345513440",
+                "6301799585",
+                "7082455361"
+              ]
+            }
+          ],
+          "payment_history": [
+            {
+              "transaction_type": "payment",
+              "amount": 5115.98,
+              "payment_method_id": "credit_card_7901829"
+            }
+          ],
+          "cancel_reason": null,
+          "exchange_items": [
+            "6301799585",
+            "7082455361"
+          ],
+          "exchange_new_items": [
+            "4404981319",
+            "7160999700"
+          ],
+          "exchange_payment_method_id": "credit_card_7901829",
+          "exchange_price_difference": 71.73,
+          "return_items": null,
+          "return_payment_method_id": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "A_t29_r1_framework",
+    "event": {
+      "source_ref": 16,
+      "public_text": "Before submission, change the Garden Hose (original item 5753502325) to item 8481719475 with options {\"length\": \"100ft\", \"material\": \"latex\", \"color\": \"blue\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+      "observed_kind": "user_message",
+      "unparsed_user_change": true
+    },
+    "unaffected_original_item": "8118291112",
+    "unaffected_requirement_same": true,
+    "identity_value_same": true,
+    "payment_value_same": true,
+    "before_targets": {
+      "5753502325": "5206946487",
+      "8118291112": "8277474082"
+    },
+    "after_semantic_targets": {
+      "5753502325": "8481719475",
+      "8118291112": "8277474082"
+    },
+    "old_authorization_after_event": null,
+    "current_complete_write": [
+      {
+        "arguments": {
+          "order_id": "#W7181492",
+          "item_ids": [
+            "5753502325",
+            "8118291112"
+          ],
+          "new_item_ids": [
+            "8481719475",
+            "8277474082"
+          ],
+          "payment_method_id": "paypal_3024827"
+        },
+        "gate": {
+          "allowed": true,
+          "fingerprint": "d10355b9a14ca99ebb87",
+          "confirmation_sources": [
+            19,
+            20
+          ]
+        },
+        "independent": {
+          "independent_valid_authorization": true,
+          "expected_arguments": {
+            "order_id": "#W7181492",
+            "item_ids": [
+              "5753502325",
+              "8118291112"
+            ],
+            "new_item_ids": [
+              "8481719475",
+              "8277474082"
+            ],
+            "payment_method_id": "paypal_3024827"
+          }
+        },
+        "result": {
+          "order_id": "#W7181492",
+          "user_id": "isabella_johansson_2152",
+          "address": {
+            "address1": "313 Chestnut Street",
+            "address2": "Suite 537",
+            "city": "Jacksonville",
+            "country": "USA",
+            "state": "FL",
+            "zip": "32286"
+          },
+          "items": [
+            {
+              "name": "Garden Hose",
+              "product_id": "6679515468",
+              "item_id": "5753502325",
+              "price": 96.35,
+              "options": {
+                "length": "25ft",
+                "material": "rubber",
+                "color": "green"
+              }
+            },
+            {
+              "name": "Backpack",
+              "product_id": "2524789262",
+              "item_id": "9851293632",
+              "price": 193.38,
+              "options": {
+                "color": "green",
+                "size": "small",
+                "material": "polyester",
+                "compartment": "camera"
+              }
+            },
+            {
+              "name": "Bookshelf",
+              "product_id": "8600330539",
+              "item_id": "3778705663",
+              "price": 473.48,
+              "options": {
+                "material": "metal",
+                "color": "black",
+                "height": "6 ft"
+              }
+            },
+            {
+              "name": "Hiking Boots",
+              "product_id": "7363354090",
+              "item_id": "8118291112",
+              "price": 260.56,
+              "options": {
+                "size": "12",
+                "material": "leather",
+                "waterproof": "no"
+              }
+            },
+            {
+              "name": "Coffee Maker",
+              "product_id": "7996920482",
+              "item_id": "3020722515",
+              "price": 238.64,
+              "options": {
+                "color": "black",
+                "capacity": "1 cup",
+                "type": "french press",
+                "features": "auto shutoff"
+              }
+            }
+          ],
+          "status": "exchange requested",
+          "fulfillments": [
+            {
+              "tracking_id": [
+                "418708581751"
+              ],
+              "item_ids": [
+                "5753502325",
+                "9851293632",
+                "3778705663",
+                "8118291112",
+                "3020722515"
+              ]
+            }
+          ],
+          "payment_history": [
+            {
+              "transaction_type": "payment",
+              "amount": 1262.41,
+              "payment_method_id": "paypal_3024827"
+            }
+          ],
+          "cancel_reason": null,
+          "exchange_items": [
+            "5753502325",
+            "8118291112"
+          ],
+          "exchange_new_items": [
+            "8277474082",
+            "8481719475"
+          ],
+          "exchange_payment_method_id": "paypal_3024827",
+          "exchange_price_difference": -21.73,
+          "return_items": null,
+          "return_payment_method_id": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "A_t29_r2_framework",
+    "event": {
+      "source_ref": 16,
+      "public_text": "Before submission, change the Garden Hose (original item 5753502325) to item 8481719475 with options {\"length\": \"100ft\", \"material\": \"latex\", \"color\": \"blue\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+      "observed_kind": "user_message",
+      "unparsed_user_change": true
+    },
+    "unaffected_original_item": "8118291112",
+    "unaffected_requirement_same": true,
+    "identity_value_same": true,
+    "payment_value_same": true,
+    "before_targets": {
+      "5753502325": "5206946487",
+      "8118291112": "8277474082"
+    },
+    "after_semantic_targets": {
+      "5753502325": "8481719475",
+      "8118291112": "8277474082"
+    },
+    "old_authorization_after_event": null,
+    "current_complete_write": [
+      {
+        "arguments": {
+          "order_id": "#W7181492",
+          "item_ids": [
+            "5753502325",
+            "8118291112"
+          ],
+          "new_item_ids": [
+            "8481719475",
+            "8277474082"
+          ],
+          "payment_method_id": "paypal_3024827"
+        },
+        "gate": {
+          "allowed": true,
+          "fingerprint": "d10355b9a14ca99ebb87",
+          "confirmation_sources": [
+            19,
+            20
+          ]
+        },
+        "independent": {
+          "independent_valid_authorization": true,
+          "expected_arguments": {
+            "order_id": "#W7181492",
+            "item_ids": [
+              "5753502325",
+              "8118291112"
+            ],
+            "new_item_ids": [
+              "8481719475",
+              "8277474082"
+            ],
+            "payment_method_id": "paypal_3024827"
+          }
+        },
+        "result": {
+          "order_id": "#W7181492",
+          "user_id": "isabella_johansson_2152",
+          "address": {
+            "address1": "313 Chestnut Street",
+            "address2": "Suite 537",
+            "city": "Jacksonville",
+            "country": "USA",
+            "state": "FL",
+            "zip": "32286"
+          },
+          "items": [
+            {
+              "name": "Garden Hose",
+              "product_id": "6679515468",
+              "item_id": "5753502325",
+              "price": 96.35,
+              "options": {
+                "length": "25ft",
+                "material": "rubber",
+                "color": "green"
+              }
+            },
+            {
+              "name": "Backpack",
+              "product_id": "2524789262",
+              "item_id": "9851293632",
+              "price": 193.38,
+              "options": {
+                "color": "green",
+                "size": "small",
+                "material": "polyester",
+                "compartment": "camera"
+              }
+            },
+            {
+              "name": "Bookshelf",
+              "product_id": "8600330539",
+              "item_id": "3778705663",
+              "price": 473.48,
+              "options": {
+                "material": "metal",
+                "color": "black",
+                "height": "6 ft"
+              }
+            },
+            {
+              "name": "Hiking Boots",
+              "product_id": "7363354090",
+              "item_id": "8118291112",
+              "price": 260.56,
+              "options": {
+                "size": "12",
+                "material": "leather",
+                "waterproof": "no"
+              }
+            },
+            {
+              "name": "Coffee Maker",
+              "product_id": "7996920482",
+              "item_id": "3020722515",
+              "price": 238.64,
+              "options": {
+                "color": "black",
+                "capacity": "1 cup",
+                "type": "french press",
+                "features": "auto shutoff"
+              }
+            }
+          ],
+          "status": "exchange requested",
+          "fulfillments": [
+            {
+              "tracking_id": [
+                "418708581751"
+              ],
+              "item_ids": [
+                "5753502325",
+                "9851293632",
+                "3778705663",
+                "8118291112",
+                "3020722515"
+              ]
+            }
+          ],
+          "payment_history": [
+            {
+              "transaction_type": "payment",
+              "amount": 1262.41,
+              "payment_method_id": "paypal_3024827"
+            }
+          ],
+          "cancel_reason": null,
+          "exchange_items": [
+            "5753502325",
+            "8118291112"
+          ],
+          "exchange_new_items": [
+            "8277474082",
+            "8481719475"
+          ],
+          "exchange_payment_method_id": "paypal_3024827",
+          "exchange_price_difference": -21.73,
+          "return_items": null,
+          "return_payment_method_id": null
+        }
+      }
+    ]
+  }
+]

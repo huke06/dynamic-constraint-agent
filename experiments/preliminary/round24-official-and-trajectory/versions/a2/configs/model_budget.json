@@ -1,0 +1,20 @@
+{
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": false,
+  "agent_attempts": 40,
+  "known_total_tokens_soft_limit": 180000,
+  "business_operations": 24,
+  "output_limit": 1700,
+  "request_timeout_seconds": 60,
+  "transport_attempts": 2,
+  "sdk_retries": 0,
+  "loop_limit": 35,
+  "installed_packages": {
+    "openai": "2.52.0",
+    "httpx": "0.28.1",
+    "pydantic": "2.13.4"
+  },
+  "tau2_root_default": "D:/experimentn/tau2-official",
+  "credentials": "DEEPSEEK_API_KEY env; local-only fallback resolver; no credentials in repository"
+}

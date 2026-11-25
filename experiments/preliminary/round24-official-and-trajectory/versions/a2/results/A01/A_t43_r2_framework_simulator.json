@@ -1,0 +1,74 @@
+[
+  {
+    "reply": "Replace my CURRENT request for original item 8725040869 with SKU 6700049080, if in stock and whole signed difference <= -56.105. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the complete new proposal for separate final approval.",
+    "user_ref": 13,
+    "kind": "clarify",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "Do you accept SKU 6700049080 as the new current specification for original item 8725040869?",
+      "pairs": [
+        {
+          "item_id": "8725040869",
+          "new_item_id": "6700049080",
+          "quote": "Proposed SUBSTITUTE 6700049080"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "8725040869",
+          "variant_id": "6700049080",
+          "quote": "SKU 6700049080"
+        }
+      ],
+      "difference": -84.56,
+      "amount_quote": "new whole signed difference -84.56",
+      "payment_method_id": null,
+      "payment_quote": null,
+      "stop_quote": null
+    },
+    "accepted_offer": "6700049080",
+    "program_resolved_original_item": "8725040869",
+    "extracted_original_item": "8725040869"
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 17,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exact combined proposal?",
+      "pairs": [
+        {
+          "item_id": "6439196450",
+          "new_item_id": "3616838507",
+          "quote": "[\"6439196450\",\"3616838507\"]"
+        },
+        {
+          "item_id": "8725040869",
+          "new_item_id": "6700049080",
+          "quote": "[\"8725040869\",\"6700049080\"]"
+        }
+      ],
+      "offers": [],
+      "difference": -84.56,
+      "amount_quote": "-84.56",
+      "payment_method_id": "paypal_3820631",
+      "payment_quote": "Original payment method paypal_3820631",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  }
+]

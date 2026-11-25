@@ -1,0 +1,387 @@
+{
+  "task_id": "23",
+  "tier": "dynamic",
+  "stage": "stage2",
+  "order_id": "#W6876713",
+  "user_id": "sofia_hernandez_5364",
+  "scope": [
+    "6301799585",
+    "7082455361"
+  ],
+  "targets": {
+    "6301799585": "8926329222",
+    "7082455361": "4404981319"
+  },
+  "initial_options": {
+    "6301799585": {
+      "piece count": "2-piece",
+      "color": "black",
+      "material": "softshell"
+    },
+    "7082455361": {
+      "type": "electric",
+      "size": "large",
+      "features": "rotisserie"
+    }
+  },
+  "payment_method_id": "credit_card_7901829",
+  "change_type": "resource",
+  "changed_item": "6301799585",
+  "changed_target": "8759627937",
+  "change_message": "Before submission, change the Luggage Set (original item 6301799585) to item 8759627937 with options {\"piece count\": \"4-piece\", \"color\": \"blue\", \"material\": \"softshell\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am sofia_hernandez_5364; email sofia.hernandez3039@example.com. In delivered order #W6876713, exchange ONLY these items in one complete request: [{\"item_id\": \"6301799585\", \"name\": \"Luggage Set\", \"requested_variant\": \"8926329222\", \"options\": {\"piece count\": \"2-piece\", \"color\": \"black\", \"material\": \"softshell\"}}, {\"item_id\": \"7082455361\", \"name\": \"Grill\", \"requested_variant\": \"4404981319\", \"options\": {\"type\": \"electric\", \"size\": \"large\", \"features\": \"rotisserie\"}}]. Keep every other item and order unchanged. Use original payment credit_card_7901829. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W6876713": {
+        "order_id": "#W6876713",
+        "user_id": "sofia_hernandez_5364",
+        "address": {
+          "address1": "652 Laurel Lane",
+          "address2": "Suite 398",
+          "city": "Seattle",
+          "country": "USA",
+          "state": "WA",
+          "zip": "98193"
+        },
+        "items": [
+          {
+            "name": "Espresso Machine",
+            "product_id": "4354588079",
+            "item_id": "6200867091",
+            "price": 2955.17,
+            "options": {
+              "pressure": "19 bar",
+              "capacity": "1L",
+              "type": "capsule"
+            }
+          },
+          {
+            "name": "T-Shirt",
+            "product_id": "9523456873",
+            "item_id": "3234800602",
+            "price": 46.66,
+            "options": {
+              "color": "red",
+              "size": "L",
+              "material": "cotton",
+              "style": "v-neck"
+            }
+          },
+          {
+            "name": "Vacuum Cleaner",
+            "product_id": "1762337868",
+            "item_id": "1345513440",
+            "price": 655.59,
+            "options": {
+              "type": "canister",
+              "bagged/bagless": "bagged",
+              "features": "cordless"
+            }
+          },
+          {
+            "name": "Luggage Set",
+            "product_id": "5426915165",
+            "item_id": "6301799585",
+            "price": 495.87,
+            "options": {
+              "piece count": "3-piece",
+              "color": "blue",
+              "material": "softshell"
+            }
+          },
+          {
+            "name": "Grill",
+            "product_id": "6819683148",
+            "item_id": "7082455361",
+            "price": 962.69,
+            "options": {
+              "type": "charcoal",
+              "size": "medium",
+              "features": "rotisserie"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "970329203674"
+            ],
+            "item_ids": [
+              "6200867091",
+              "3234800602",
+              "1345513440",
+              "6301799585",
+              "7082455361"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 5115.98,
+            "payment_method_id": "credit_card_7901829"
+          }
+        ]
+      }
+    },
+    "users": {
+      "sofia_hernandez_5364": {
+        "user_id": "sofia_hernandez_5364",
+        "name": {
+          "first_name": "Sofia",
+          "last_name": "Hernandez"
+        },
+        "address": {
+          "address1": "652 Laurel Lane",
+          "address2": "Suite 398",
+          "city": "Seattle",
+          "country": "USA",
+          "state": "WA",
+          "zip": "98193"
+        },
+        "email": "sofia.hernandez3039@example.com",
+        "payment_methods": {
+          "credit_card_7901829": {
+            "source": "credit_card",
+            "id": "credit_card_7901829",
+            "brand": "visa",
+            "last_four": "7312"
+          }
+        },
+        "orders": [
+          "#W3561391",
+          "#W6876713",
+          "#W9609649",
+          "#W3947049"
+        ]
+      }
+    },
+    "products": {
+      "5426915165": {
+        "name": "Luggage Set",
+        "product_id": "5426915165",
+        "variants": {
+          "5209958006": {
+            "item_id": "5209958006",
+            "options": {
+              "piece count": "2-piece",
+              "color": "silver",
+              "material": "hardshell"
+            },
+            "available": false,
+            "price": 514.72
+          },
+          "6690069155": {
+            "item_id": "6690069155",
+            "options": {
+              "piece count": "3-piece",
+              "color": "silver",
+              "material": "softshell"
+            },
+            "available": false,
+            "price": 466.47
+          },
+          "8759627937": {
+            "item_id": "8759627937",
+            "options": {
+              "piece count": "4-piece",
+              "color": "blue",
+              "material": "softshell"
+            },
+            "available": true,
+            "price": 501.65
+          },
+          "9692325258": {
+            "item_id": "9692325258",
+            "options": {
+              "piece count": "3-piece",
+              "color": "black",
+              "material": "softshell"
+            },
+            "available": false,
+            "price": 528.63
+          },
+          "6301799585": {
+            "item_id": "6301799585",
+            "options": {
+              "piece count": "3-piece",
+              "color": "blue",
+              "material": "softshell"
+            },
+            "available": true,
+            "price": 495.87
+          },
+          "9956648681": {
+            "item_id": "9956648681",
+            "options": {
+              "piece count": "4-piece",
+              "color": "red",
+              "material": "hardshell"
+            },
+            "available": true,
+            "price": 452.62
+          },
+          "8964750292": {
+            "item_id": "8964750292",
+            "options": {
+              "piece count": "2-piece",
+              "color": "red",
+              "material": "hardshell"
+            },
+            "available": true,
+            "price": 532.58
+          },
+          "8926329222": {
+            "item_id": "8926329222",
+            "options": {
+              "piece count": "2-piece",
+              "color": "black",
+              "material": "softshell"
+            },
+            "available": true,
+            "price": 452.28
+          },
+          "7160999700": {
+            "item_id": "7160999700",
+            "options": {
+              "piece count": "2-piece",
+              "color": "red",
+              "material": "softshell"
+            },
+            "available": true,
+            "price": 499.29
+          }
+        }
+      },
+      "6819683148": {
+        "name": "Grill",
+        "product_id": "6819683148",
+        "variants": {
+          "4404981319": {
+            "item_id": "4404981319",
+            "options": {
+              "type": "electric",
+              "size": "large",
+              "features": "rotisserie"
+            },
+            "available": true,
+            "price": 1031.0
+          },
+          "3876764226": {
+            "item_id": "3876764226",
+            "options": {
+              "type": "electric",
+              "size": "portable",
+              "features": "side burner"
+            },
+            "available": true,
+            "price": 981.47
+          },
+          "5745575001": {
+            "item_id": "5745575001",
+            "options": {
+              "type": "electric",
+              "size": "portable",
+              "features": "rotisserie"
+            },
+            "available": true,
+            "price": 986.65
+          },
+          "5666020311": {
+            "item_id": "5666020311",
+            "options": {
+              "type": "electric",
+              "size": "medium",
+              "features": "side burner"
+            },
+            "available": false,
+            "price": 1058.86
+          },
+          "7082455361": {
+            "item_id": "7082455361",
+            "options": {
+              "type": "charcoal",
+              "size": "medium",
+              "features": "rotisserie"
+            },
+            "available": true,
+            "price": 962.69
+          },
+          "9724317332": {
+            "item_id": "9724317332",
+            "options": {
+              "type": "gas",
+              "size": "portable",
+              "features": "side burner"
+            },
+            "available": true,
+            "price": 1042.19
+          },
+          "7848293342": {
+            "item_id": "7848293342",
+            "options": {
+              "type": "charcoal",
+              "size": "medium",
+              "features": "side burner"
+            },
+            "available": true,
+            "price": 942.71
+          },
+          "1120917161": {
+            "item_id": "1120917161",
+            "options": {
+              "type": "electric",
+              "size": "portable",
+              "features": "none"
+            },
+            "available": false,
+            "price": 953.39
+          },
+          "5105441284": {
+            "item_id": "5105441284",
+            "options": {
+              "type": "charcoal",
+              "size": "portable",
+              "features": "none"
+            },
+            "available": true,
+            "price": 924.5
+          },
+          "5946177616": {
+            "item_id": "5946177616",
+            "options": {
+              "type": "gas",
+              "size": "portable",
+              "features": "none"
+            },
+            "available": true,
+            "price": 1057.24
+          },
+          "7717598293": {
+            "item_id": "7717598293",
+            "options": {
+              "type": "electric",
+              "size": "medium",
+              "features": "rotisserie"
+            },
+            "available": false,
+            "price": 985.66
+          },
+          "6589665742": {
+            "item_id": "6589665742",
+            "options": {
+              "type": "gas",
+              "size": "large",
+              "features": "rotisserie"
+            },
+            "available": false,
+            "price": 933.17
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

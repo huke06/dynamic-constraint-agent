@@ -1,0 +1,910 @@
+{
+  "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round23-framework-loop\\LEARNING_CANDIDATES.json",
+  "source_sha256": "f3ecf520cc4bdeecea28314e7013b68dbf9c4ee5a8fe9881ff5a3384955f7964",
+  "screened": 52,
+  "selected": 12,
+  "records": [
+    {
+      "id": "old_t93_conflict_r1/event1",
+      "base_task": "93",
+      "work_type": "clarify",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t93_conflict_r1/event5",
+      "base_task": "93",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t93_conflict_r1/event7",
+      "base_task": "93",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t93_conflict_r1/event11",
+      "base_task": "93",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t93_conflict_r2/event1",
+      "base_task": "93",
+      "work_type": "clarify",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_conflict_r2/event5",
+      "base_task": "93",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_conflict_r2/event7",
+      "base_task": "93",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_conflict_r2/event11",
+      "base_task": "93",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_feasible_r1/event3",
+      "base_task": "93",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_feasible_r1/event5",
+      "base_task": "93",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_feasible_r1/event9",
+      "base_task": "93",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_feasible_r2/event3",
+      "base_task": "93",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_feasible_r2/event5",
+      "base_task": "93",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t93_feasible_r2/event9",
+      "base_task": "93",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t29_dynamic_r1/event0",
+      "base_task": "29",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t29_dynamic_r1/event2",
+      "base_task": "29",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t29_dynamic_r1/event7",
+      "base_task": "29",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t29_dynamic_r1/event9",
+      "base_task": "29",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t29_dynamic_r1/event13",
+      "base_task": "29",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t29_dynamic_r2/event0",
+      "base_task": "29",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t29_dynamic_r2/event2",
+      "base_task": "29",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t29_dynamic_r2/event7",
+      "base_task": "29",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t29_dynamic_r2/event9",
+      "base_task": "29",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t29_dynamic_r2/event13",
+      "base_task": "29",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t102_withdrawn_r1/event0",
+      "base_task": "102",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t102_withdrawn_r1/event4",
+      "base_task": "102",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "old_t102_withdrawn_r2/event0",
+      "base_task": "102",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "old_t102_withdrawn_r2/event4",
+      "base_task": "102",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r1_analyze/event1",
+      "base_task": "26",
+      "work_type": "clarify",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "B_t26_conflict_r1_analyze/event5",
+      "base_task": "26",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "B_t26_conflict_r1_analyze/event7",
+      "base_task": "26",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true,
+        "exact_actual_visible_input": true
+      },
+      "selected": true,
+      "disposition": "selected_reviewable_example"
+    },
+    {
+      "id": "B_t26_conflict_r1_analyze/event11",
+      "base_task": "26",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r1_clarify/event3",
+      "base_task": "26",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r1_clarify/event5",
+      "base_task": "26",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r1_clarify/event9",
+      "base_task": "26",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r2_clarify/event3",
+      "base_task": "26",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r2_clarify/event5",
+      "base_task": "26",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r2_clarify/event9",
+      "base_task": "26",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r2_analyze/event1",
+      "base_task": "26",
+      "work_type": "clarify",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r2_analyze/event5",
+      "base_task": "26",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r2_analyze/event7",
+      "base_task": "26",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t26_conflict_r2_analyze/event11",
+      "base_task": "26",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r1_clarify/event3",
+      "base_task": "35",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r1_clarify/event5",
+      "base_task": "35",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r1_clarify/event9",
+      "base_task": "35",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r2_clarify/event3",
+      "base_task": "35",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r2_clarify/event5",
+      "base_task": "35",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r2_clarify/event9",
+      "base_task": "35",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r2_analyze/event1",
+      "base_task": "35",
+      "work_type": "clarify",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r2_analyze/event5",
+      "base_task": "35",
+      "work_type": "prepare",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r2_analyze/event7",
+      "base_task": "35",
+      "work_type": "confirm",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    },
+    {
+      "id": "B_t35_conflict_r2_analyze/event11",
+      "base_task": "35",
+      "work_type": "submit",
+      "checks": {
+        "autonomous": true,
+        "final_quality": true,
+        "native_outcome": true,
+        "execution_allowed": true,
+        "raw_not_program_corrected": true,
+        "references_valid": true,
+        "appropriate": true,
+        "actual_request_found": true
+      },
+      "selected": false,
+      "disposition": "eligible_not_selected_for_small_batch"
+    }
+  ],
+  "coverage_gap": {
+    "inventory_query": "no such autonomous work in the 52-source pool",
+    "analysis": "no autonomous analyze in full strictly accepted source continuations; forced B analyze is excluded, A analyze is checkpoint-only"
+  },
+  "training_performed": false,
+  "independent_blind_review": false
+}

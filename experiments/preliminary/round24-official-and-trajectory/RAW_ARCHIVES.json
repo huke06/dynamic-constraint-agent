@@ -1,0 +1,1813 @@
+{
+  "originals_preserved": true,
+  "external_archive_root": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory",
+  "files": [
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\model_calls.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\model_calls.jsonl",
+      "sha256": "455a07c73f1274c79b22d6dbb99b88ce2c3f42b4694d92b5509ee42b38550229",
+      "bytes": 532068
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\OUTCOMES.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\OUTCOMES.json",
+      "sha256": "c3b7cb04e2a02b62072c3a07f7f6dcc2aca080f01c0b5ca84d553331d6e2f1af",
+      "bytes": 2115
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_final.json",
+      "sha256": "821b2e346c8bc4979af86e7865d848efd23dd9199a7daf7feabd05b16e957361",
+      "bytes": 109605
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_simulator.json",
+      "sha256": "7bfa83b3c060daa127f096df79a72a56677d097ac022d3035c8c3df28c267794",
+      "bytes": 4078
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_trace.json",
+      "sha256": "726e1d003b2bfa6e1e8f2d69eec4101680fea2ce754e26af344e540a622bf8b1",
+      "bytes": 1949055
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_framework_visible_start.json",
+      "sha256": "1d29313342f989268419e460a1ac536e5a9ce5168b42c4fc256d1a612b30a791",
+      "bytes": 10329
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_final.json",
+      "sha256": "8f07ca9ce464abc4f7576b605217827c541fb7ae03f26ed23f11231dacfb4bbf",
+      "bytes": 78214
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_simulator.json",
+      "sha256": "7546aa2f6a14e4f30353cfd3e3890e69b7c0d285e01ff25e6911caef07d909b3",
+      "bytes": 7171
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_trace.json",
+      "sha256": "5189d27f7d0d15dee7ac47ec1093c4c9e6cb11c3535cf37faadb56831b440f8c",
+      "bytes": 1174228
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t23_official_visible_start.json",
+      "sha256": "c24b900696ef6dc6a6ca91af8b02ca1e754342cdae935df1305889f60d300ba4",
+      "bytes": 8838
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_final.json",
+      "sha256": "0b844286d550940adbf19e3ccadcdbab7d8eaf5224187737dabb4dd78423f8a3",
+      "bytes": 60834
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_simulator.json",
+      "sha256": "d18e3954797ebab537ddd8bd0c892f7731c6ce47872517e5785e43dafc5718a0",
+      "bytes": 1213
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_trace.json",
+      "sha256": "902d8719be2a3f3c767ace664747f1f60398284434c97b64f95be735eb33f51d",
+      "bytes": 540476
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_framework_visible_start.json",
+      "sha256": "c59581d6669ef90e36d583a40f7e77719f3aaef719bed30be6d98c3c5cd90f9f",
+      "bytes": 13561
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_final.json",
+      "sha256": "88d68d8614450850ac0c337e6d6ecb182e0e6ee3f4e2ea337c5b3e2c0c0464a1",
+      "bytes": 44611
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_simulator.json",
+      "sha256": "f499416bf123c4ab12721fc0d10755c653ab72bb0eb5a0782ba9fbadb4c6dab5",
+      "bytes": 1229
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_trace.json",
+      "sha256": "40a78b230a64a09aea84137cf228ad317872ffea8a380692ee7dfa7a1ca54d56",
+      "bytes": 190940
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\pilot_t80_official_visible_start.json",
+      "sha256": "3de874a10fb0e6af2894ee572b45b0e7b1d56ad2ff83a8ba4cc80548d3797622",
+      "bytes": 6232
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot01\\request_events.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot01\\request_events.jsonl",
+      "sha256": "bec69ab8bfc4b320227140138bf30bbfed6f3172c7e915471eb1832f34cda006",
+      "bytes": 501204
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\model_calls.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\model_calls.jsonl",
+      "sha256": "e71770a9852fe911e09bee2dbf1dd36499adc69f8ac8ed67a373e66e99ac12fa",
+      "bytes": 527657
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\OUTCOMES.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\OUTCOMES.json",
+      "sha256": "4eb072e1e70d484dd4edbc094c99eabe79ac29df7c5caa71aada886e85fc9ad9",
+      "bytes": 2116
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_final.json",
+      "sha256": "07fb0a3fd362099e589504e81ec169e0ac232b8469a67b603c00eb17b35806bd",
+      "bytes": 109263
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_simulator.json",
+      "sha256": "49d750ffb90a443c305f4ea7cd112c15a7a565f8df30f8e103ba7756b1c1d332",
+      "bytes": 3669
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_trace.json",
+      "sha256": "fce8745e487653ca9f7624e659b7febb2ccef7b8e2538c79dee501c05ee56e35",
+      "bytes": 1943024
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_framework_visible_start.json",
+      "sha256": "1d29313342f989268419e460a1ac536e5a9ce5168b42c4fc256d1a612b30a791",
+      "bytes": 10329
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_final.json",
+      "sha256": "b3575a6ff75163c8f60d8c1c0e340baa127bcbf23eab0fbe72bad17bdd8c050a",
+      "bytes": 78064
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_simulator.json",
+      "sha256": "162738fd6d0f1f26d899ab03600e11e8fa1c15d60dc69053116f1a562431860f",
+      "bytes": 4057
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_trace.json",
+      "sha256": "97198671693e821fa30855fd65654b3a5be7e9ba8121a4315d51b8db33cad028",
+      "bytes": 1023740
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t23_official_visible_start.json",
+      "sha256": "c24b900696ef6dc6a6ca91af8b02ca1e754342cdae935df1305889f60d300ba4",
+      "bytes": 8838
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_final.json",
+      "sha256": "489e76d60fff831633e144fdbe0535e1088e83fb7e114f1c17c9e44803a37a82",
+      "bytes": 60878
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_simulator.json",
+      "sha256": "d18e3954797ebab537ddd8bd0c892f7731c6ce47872517e5785e43dafc5718a0",
+      "bytes": 1213
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_trace.json",
+      "sha256": "9f32bc30bb158786ecb1e4d3150e119f9c0cb85ce66be5371477b22645fb8df7",
+      "bytes": 540264
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_framework_visible_start.json",
+      "sha256": "c59581d6669ef90e36d583a40f7e77719f3aaef719bed30be6d98c3c5cd90f9f",
+      "bytes": 13561
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_final.json",
+      "sha256": "17e04f5d9a1a55f0ef1f274f2f9625de6c0dfe397b10e99ac62840f4ad256451",
+      "bytes": 47181
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_simulator.json",
+      "sha256": "005e8eb5baca804276bee19ab03b8a6fab9dac3a394b9c87461e9503e4c58243",
+      "bytes": 2551
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_trace.json",
+      "sha256": "c10fc2926c2d9d7cb80767ee51a29993b72f462246b8505a8b5bbfabe6f1bf02",
+      "bytes": 295332
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\pilot_t80_official_visible_start.json",
+      "sha256": "3de874a10fb0e6af2894ee572b45b0e7b1d56ad2ff83a8ba4cc80548d3797622",
+      "bytes": 6232
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot02\\request_events.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot02\\request_events.jsonl",
+      "sha256": "a1e7d605ec64e26d92a6be0605a693629ee9d13fa94cef4b35d40f5a4c88a0e6",
+      "bytes": 498395
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\model_calls.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\model_calls.jsonl",
+      "sha256": "656152659c6099b3ac485d1513821991297e90524fdea15120d6af2e9751c9ff",
+      "bytes": 128845
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\OUTCOMES.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\OUTCOMES.json",
+      "sha256": "1f921d332be5e8397eb2d9d70911554b3e7bedcbcd1674bb0533fa6cfc1b1c3f",
+      "bytes": 1059
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_final.json",
+      "sha256": "ef1a1259cd30c48c43bfcf0942ca6325933566e405bb175e074d008e41ba22b2",
+      "bytes": 61050
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_simulator.json",
+      "sha256": "d18e3954797ebab537ddd8bd0c892f7731c6ce47872517e5785e43dafc5718a0",
+      "bytes": 1213
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_trace.json",
+      "sha256": "763cd66923efafddb4b6b47bcb0163d96be0ec9d5c65a8f568a0a372b45e6cda",
+      "bytes": 541614
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_framework_visible_start.json",
+      "sha256": "c59581d6669ef90e36d583a40f7e77719f3aaef719bed30be6d98c3c5cd90f9f",
+      "bytes": 13561
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_final.json",
+      "sha256": "d9282f03205e34b56e97a1303274918d686ed90956fb245d91b1adf43a56ebe8",
+      "bytes": 44676
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_simulator.json",
+      "sha256": "254cacca97014e5e3735b6a6142ce030fc144a9c4da9d49d755a08d3a1dd8d49",
+      "bytes": 1121
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_trace.json",
+      "sha256": "4b766951938f0a8ce1ff38b2376e9ef02c32c6ad46b7874dc41c0ca2ab6ea2f0",
+      "bytes": 191222
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\pilot_t80_official_visible_start.json",
+      "sha256": "3de874a10fb0e6af2894ee572b45b0e7b1d56ad2ff83a8ba4cc80548d3797622",
+      "bytes": 6232
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\pilot03\\request_events.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\pilot03\\request_events.jsonl",
+      "sha256": "fd81f94be6416ab67a20a602dced4225570e3fe5f0c9ffe88e90506575195df5",
+      "bytes": 121793
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_final.json",
+      "sha256": "d32391301d627860d6e83b25f2e92522be1d88390e94038f5705d3078c613cf5",
+      "bytes": 109335
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_simulator.json",
+      "sha256": "49d750ffb90a443c305f4ea7cd112c15a7a565f8df30f8e103ba7756b1c1d332",
+      "bytes": 3669
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_trace.json",
+      "sha256": "510416a4d0cbd06ba00da0678c5322748a4d9ab617a11fa243ae8b164c4edf85",
+      "bytes": 1945332
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_framework_visible_start.json",
+      "sha256": "1d29313342f989268419e460a1ac536e5a9ce5168b42c4fc256d1a612b30a791",
+      "bytes": 10329
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_final.json",
+      "sha256": "e59ccc426f39413a43d7dcde2888fe9bbf0ce2e94110442eb41cf1e575f8de05",
+      "bytes": 77154
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_simulator.json",
+      "sha256": "c1a225af1155c91de4cb584e8adda182a88bc4e920f065855a9d3cde8a50def4",
+      "bytes": 4041
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_trace.json",
+      "sha256": "fff1e991f7144c1f55f61fb824610570816fc671b35846c0ab35339cf13cd9ad",
+      "bytes": 1016188
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r1_official_visible_start.json",
+      "sha256": "c24b900696ef6dc6a6ca91af8b02ca1e754342cdae935df1305889f60d300ba4",
+      "bytes": 8838
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_final.json",
+      "sha256": "83b5610316036c649f639ee8d2f5efdceafa596caa9cf879a8084eb4b6ceb185",
+      "bytes": 109491
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_simulator.json",
+      "sha256": "49d750ffb90a443c305f4ea7cd112c15a7a565f8df30f8e103ba7756b1c1d332",
+      "bytes": 3669
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_trace.json",
+      "sha256": "0c94f45ef03893268e83189ed55d4e6574fd452400f3622632707462f9c7c915",
+      "bytes": 1946037
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_framework_visible_start.json",
+      "sha256": "1d29313342f989268419e460a1ac536e5a9ce5168b42c4fc256d1a612b30a791",
+      "bytes": 10329
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_final.json",
+      "sha256": "5bb3b08e7958fc41b2802c4b51d10d5f26a3fa7e2b2eff30abfef73c24d2dc10",
+      "bytes": 76932
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_simulator.json",
+      "sha256": "71b344f946af23a23a8944fa8dbd424e3c6b72b337afdc01a32d3f352ea887a9",
+      "bytes": 4384
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_trace.json",
+      "sha256": "02c8562b2693db607f6d5c17070208d2c10f158bba1fa09c54cc50ba490d19d3",
+      "bytes": 1013900
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t23_r2_official_visible_start.json",
+      "sha256": "c24b900696ef6dc6a6ca91af8b02ca1e754342cdae935df1305889f60d300ba4",
+      "bytes": 8838
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_final.json",
+      "sha256": "9884a3ff21c53da91c615a22ca1c0c41994d7dc86983f8ad298b16995632bd7e",
+      "bytes": 111517
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_simulator.json",
+      "sha256": "8cc595081a1bbf306b83aa4b7244f8cde5d954016a48c94f0766f1a5d58128bb",
+      "bytes": 2938
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_trace.json",
+      "sha256": "bd263dba3406d4fda56b0389a1960fe316df0e2e74ce5d5c7c8d36bdef1eb8ca",
+      "bytes": 1671294
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_framework_visible_start.json",
+      "sha256": "c39eb2580c2c1418c2ad0b1783ba6d32f5e7b0e261a4a10254f359053ad9b40b",
+      "bytes": 11136
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_final.json",
+      "sha256": "0296c06a36413e6c683b75db572f49241a0b20fb12c9bb8c6b19c61ed25ba9e9",
+      "bytes": 79981
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_simulator.json",
+      "sha256": "1a2d98d394d8bd26bb9d995e10ecd0422e37f755dbc7656099b5a9f330bfd2c3",
+      "bytes": 3141
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_trace.json",
+      "sha256": "1fe189d6932bb5dcc574502a56841f46b31e4c9351133df1caa2d5218017560f",
+      "bytes": 775583
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r1_official_visible_start.json",
+      "sha256": "1fe5d0a29ea438d52e66f88d615adea31e34956e6d9a0b4b5448f21d9bc7cc34",
+      "bytes": 9937
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_final.json",
+      "sha256": "d0b099c5ad3dc103942ea9a6e95eb3943f9cd892341b9d33cee625a148f210f7",
+      "bytes": 111421
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_simulator.json",
+      "sha256": "fb7b2f7897ded591c145adc2a4754b7599d21175decbcea81207837c2ad1a5ae",
+      "bytes": 2614
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_trace.json",
+      "sha256": "f38c20dda37843c5929e5efa80ef5f69c792300be3fef62e10d7e52ff9c87abb",
+      "bytes": 1668425
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_framework_visible_start.json",
+      "sha256": "c39eb2580c2c1418c2ad0b1783ba6d32f5e7b0e261a4a10254f359053ad9b40b",
+      "bytes": 11136
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_final.json",
+      "sha256": "ecfac67a5cc492fbc37c358ce7513c0a9f8ba66af0b35120e7ce09b485f291f9",
+      "bytes": 79828
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_simulator.json",
+      "sha256": "8275928e893e39ef8dec86b4500d6febd3b263282091318e4b23b77b19cc3b6e",
+      "bytes": 2899
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_trace.json",
+      "sha256": "2e6a41a3947b927d3ffb5d2b76746def151451d7b2620535bf202c3817579dfb",
+      "bytes": 773956
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t29_r2_official_visible_start.json",
+      "sha256": "1fe5d0a29ea438d52e66f88d615adea31e34956e6d9a0b4b5448f21d9bc7cc34",
+      "bytes": 9937
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_final.json",
+      "sha256": "fc3d494d13bcca3e645b63a35ba926b57408e1355c6199ceb8552f0dbcf3271c",
+      "bytes": 93619
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_simulator.json",
+      "sha256": "008a51a9cc58229e60fc53793b1d04b5b52fd1d0b3b67c8113af35fdf8d7ad3e",
+      "bytes": 2604
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_start.json",
+      "sha256": "299affb422ee9e67bfe3ea4106d829abaa9de017779efe2770028b43b0dfd7d3",
+      "bytes": 59601
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_trace.json",
+      "sha256": "c19b51c61459cba450edda19675e6473344bc4262c8545088aaef50c44dc6bc6",
+      "bytes": 1086364
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_framework_visible_start.json",
+      "sha256": "eb94683d16349f22d3fef134fbf604b5d4fe6e02812bcae8f1d580cb95bdedaa",
+      "bytes": 8898
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_final.json",
+      "sha256": "08d23763b4cfefc429b0d9ea69a6f562a106cd2764de06ebd07866b32555ee35",
+      "bytes": 73900
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_simulator.json",
+      "sha256": "2a00ceb818a9115c7b6393881c6d05ecd9603f96bd48d84c9d246f73ff2b6e6e",
+      "bytes": 5353
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_start.json",
+      "sha256": "299affb422ee9e67bfe3ea4106d829abaa9de017779efe2770028b43b0dfd7d3",
+      "bytes": 59601
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_trace.json",
+      "sha256": "ca3af2c3d270259077dc9b1b1c1b311244c852fece5a9c5f9507aa57ce6cbb1e",
+      "bytes": 902106
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r1_official_visible_start.json",
+      "sha256": "1dcd38d0eb3bc4347a4e7514ab221e4e3d7b8d2bdcd1772c9fc57e7ae749547a",
+      "bytes": 9277
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_final.json",
+      "sha256": "4cf8bee1253425f12e73ed3a67d66bebd781c459996b6609cf56f21b23c49399",
+      "bytes": 105331
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_simulator.json",
+      "sha256": "a2d77b0c39365d8aaebb9addfe6d0d6c6225343309449d535c3e52297036c34a",
+      "bytes": 2585
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_start.json",
+      "sha256": "299affb422ee9e67bfe3ea4106d829abaa9de017779efe2770028b43b0dfd7d3",
+      "bytes": 59601
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_trace.json",
+      "sha256": "e7312a842cf09bd15627981eb1c587f515317f0d58d8be3fe0b8769f11b45deb",
+      "bytes": 1424249
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_framework_visible_start.json",
+      "sha256": "eb94683d16349f22d3fef134fbf604b5d4fe6e02812bcae8f1d580cb95bdedaa",
+      "bytes": 8898
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_final.json",
+      "sha256": "3f466e3bc2c273e3cd1cb171356052403ba277f635a22421bfb4cf5422cb811d",
+      "bytes": 83360
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_simulator.json",
+      "sha256": "16297ba0940f2c0ee44daf81f3d1a95a05a599be54e87099b924c64d7be413d6",
+      "bytes": 9107
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_start.json",
+      "sha256": "299affb422ee9e67bfe3ea4106d829abaa9de017779efe2770028b43b0dfd7d3",
+      "bytes": 59601
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_trace.json",
+      "sha256": "1778bc63e68cf228680578caafd175209a2081cbee81b3e8769064247f0808ca",
+      "bytes": 2057510
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t39_r2_official_visible_start.json",
+      "sha256": "1dcd38d0eb3bc4347a4e7514ab221e4e3d7b8d2bdcd1772c9fc57e7ae749547a",
+      "bytes": 9277
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_final.json",
+      "sha256": "12e76f5e5aed1387d4c7809de1c2a49c20d914b5b9f8017cf60395089340a1a1",
+      "bytes": 60844
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_simulator.json",
+      "sha256": "d18e3954797ebab537ddd8bd0c892f7731c6ce47872517e5785e43dafc5718a0",
+      "bytes": 1213
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_trace.json",
+      "sha256": "0c59012cb5db48ab9656d1bd7705643bacdc53403670a783621e57612d4b7cd1",
+      "bytes": 540081
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_framework_visible_start.json",
+      "sha256": "c59581d6669ef90e36d583a40f7e77719f3aaef719bed30be6d98c3c5cd90f9f",
+      "bytes": 13561
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_final.json",
+      "sha256": "b09af1cd4d754999d07ed936fae413d86bf999c1dcc4ebac05584aa49a76bcf2",
+      "bytes": 44735
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_simulator.json",
+      "sha256": "c59d5041197c3111c7f9812bdaeda58b16645fe7fd1efb6228c216ced94012e2",
+      "bytes": 1250
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_trace.json",
+      "sha256": "51fdcb233a82274978c27a926195b4bdef1640e5480cadb45997e6aa7316a92f",
+      "bytes": 191717
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r1_official_visible_start.json",
+      "sha256": "3de874a10fb0e6af2894ee572b45b0e7b1d56ad2ff83a8ba4cc80548d3797622",
+      "bytes": 6232
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_final.json",
+      "sha256": "129022ef189eecd9e313544fc3acbdfbaf32b0d76bb310d8d8ee35f4d6c0684d",
+      "bytes": 60838
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_simulator.json",
+      "sha256": "d18e3954797ebab537ddd8bd0c892f7731c6ce47872517e5785e43dafc5718a0",
+      "bytes": 1213
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_trace.json",
+      "sha256": "8daa098cee3124f0b8583f8f1946ef9a2d80cdce404cb566e4e9228c5e14bce8",
+      "bytes": 540268
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_framework_visible_start.json",
+      "sha256": "c59581d6669ef90e36d583a40f7e77719f3aaef719bed30be6d98c3c5cd90f9f",
+      "bytes": 13561
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_final.json",
+      "sha256": "a48cc5d429ccc593aeadc748fc6faa33f217d47a96bf1688410b21bd499837ce",
+      "bytes": 44586
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_simulator.json",
+      "sha256": "a44af41dcea98fe8f80f0acd8800a68f6b35194848aa1f8c0741434954b1eae6",
+      "bytes": 1297
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_trace.json",
+      "sha256": "72a3f2ebbf9b2e2998ea77bbcdf26858862b1a80133dad3a65f0d56a7e967885",
+      "bytes": 190870
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\A_t80_r2_official_visible_start.json",
+      "sha256": "3de874a10fb0e6af2894ee572b45b0e7b1d56ad2ff83a8ba4cc80548d3797622",
+      "bytes": 6232
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\model_calls.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\model_calls.jsonl",
+      "sha256": "5c23d77a88fc85258d197bebe894c2cceb7ced097aff86885c1cf579db1b71bf",
+      "bytes": 2432293
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\OUTCOMES.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\OUTCOMES.json",
+      "sha256": "df3be45ef8c12225a8478bdfa0e87dfaa8f7555b8304caad548f916caff462c6",
+      "bytes": 8435
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\A01\\request_events.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\A01\\request_events.jsonl",
+      "sha256": "4d7561f84f7ea7280a18d226a1e0240b296a683eb6da9078d4e0f461b1407e5d",
+      "bytes": 2299156
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_final.json",
+      "sha256": "1dc8510c3c594757c41de9c674989ef9e8b9cdc18b22a38de1f2734cddb11dec",
+      "bytes": 124529
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_simulator.json",
+      "sha256": "7dd6212d393665eb4e4b80a5b1e49b8ee624c8ef95a888f1f1070d9a9e90d0f6",
+      "bytes": 2881
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_start.json",
+      "sha256": "3d134717b72715580d8517db5fcbb254a2ecd87b1d119c0f4904a339b679a31a",
+      "bytes": 73259
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_trace.json",
+      "sha256": "38b59ddeebeeb4ea48995629f1104ec07ca06b533faa69a1d597356fc98d3970",
+      "bytes": 1751957
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_analyze_visible_start.json",
+      "sha256": "129b67307a6e55effd2613ec0d8de687f12d7b23d77d04130b4787a3e02d92df",
+      "bytes": 12378
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_final.json",
+      "sha256": "6b5ecd0f20540418ac853b9b0ad65a85fac06912d98fe783fdb3b4435de8abdf",
+      "bytes": 106320
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_simulator.json",
+      "sha256": "87f6fbd26fa8108d57fd92a7695280bd340d995ca5dd17cdadf205211da82baf",
+      "bytes": 2711
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_start.json",
+      "sha256": "3d134717b72715580d8517db5fcbb254a2ecd87b1d119c0f4904a339b679a31a",
+      "bytes": 73259
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_trace.json",
+      "sha256": "891bb51e7f6be1cf6acc15020da066baa767f7eb978606bf849423c45304e254",
+      "bytes": 1270130
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r1_clarify_visible_start.json",
+      "sha256": "129b67307a6e55effd2613ec0d8de687f12d7b23d77d04130b4787a3e02d92df",
+      "bytes": 12378
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_final.json",
+      "sha256": "237451ab2f50310789df63dcd72007f67860bc1e2deed3d87a68d77e4f42e0d1",
+      "bytes": 125327
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_simulator.json",
+      "sha256": "893d14b66600cc56b9586aa958446bfcc8d5d94859c207adba71da41582adf10",
+      "bytes": 2295
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_start.json",
+      "sha256": "3d134717b72715580d8517db5fcbb254a2ecd87b1d119c0f4904a339b679a31a",
+      "bytes": 73259
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_trace.json",
+      "sha256": "3a9f2da775bdc24afc70e090246cd8e2b3d8dd548cc81255760cb21a8f06b07e",
+      "bytes": 1763805
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_analyze_visible_start.json",
+      "sha256": "129b67307a6e55effd2613ec0d8de687f12d7b23d77d04130b4787a3e02d92df",
+      "bytes": 12378
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_final.json",
+      "sha256": "40094eee177628670dcd7e6dc784067d93fd12e6d5b15b8617eda8768357af8e",
+      "bytes": 106430
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_simulator.json",
+      "sha256": "22d6d7edc276cec94638bb54f17699283eadff9b394ade2e454e287f597520a3",
+      "bytes": 2442
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_start.json",
+      "sha256": "3d134717b72715580d8517db5fcbb254a2ecd87b1d119c0f4904a339b679a31a",
+      "bytes": 73259
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_trace.json",
+      "sha256": "bb5079f9171fcf13990c7d38b68d1bb163118d60e20060e0684e10d08735289b",
+      "bytes": 1270745
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_appearance_r2_clarify_visible_start.json",
+      "sha256": "129b67307a6e55effd2613ec0d8de687f12d7b23d77d04130b4787a3e02d92df",
+      "bytes": 12378
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_final.json",
+      "sha256": "09f5006e1f8fe4eb36791e28bd5a5e821e91ad50a57e48b52635a29f3775f807",
+      "bytes": 124891
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_simulator.json",
+      "sha256": "0f10e31fea95e1df26efafacaf76ad11e3ec8d4169ac1a57a05b2a1c68ce1989",
+      "bytes": 2580
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_start.json",
+      "sha256": "88da9f24d18fd7ceacbd53c943972dbcf6311019a3d1759551f1f9a793f4f418",
+      "bytes": 73259
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_trace.json",
+      "sha256": "15ae4979cf8f1f584e97970a9a06221f6cae2a41894c5dfbb575df251b53b6cb",
+      "bytes": 1758931
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_analyze_visible_start.json",
+      "sha256": "b9db141cd7c2d13d5370129e57383eac58ba5c205ba79041fbc8a29fd771363b",
+      "bytes": 12378
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_final.json",
+      "sha256": "ed706a4afc3f22c34ab1844f326b8d228f0ad4432f7ec08811d38dffe6459739",
+      "bytes": 106444
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_simulator.json",
+      "sha256": "87f6fbd26fa8108d57fd92a7695280bd340d995ca5dd17cdadf205211da82baf",
+      "bytes": 2711
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_start.json",
+      "sha256": "88da9f24d18fd7ceacbd53c943972dbcf6311019a3d1759551f1f9a793f4f418",
+      "bytes": 73259
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_trace.json",
+      "sha256": "814bc6ad0642d8d243763feb738ccc484f843c6253a85dcea33791e3005fb95c",
+      "bytes": 1270952
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r1_clarify_visible_start.json",
+      "sha256": "b9db141cd7c2d13d5370129e57383eac58ba5c205ba79041fbc8a29fd771363b",
+      "bytes": 12378
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_final.json",
+      "sha256": "5e9346876ffab995215c7d3a4a01281c7a040094258db10db51a0a634ca727e0",
+      "bytes": 130736
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_simulator.json",
+      "sha256": "67807a0985808c77ccf906c034aa2071d872d2b7b4ce08a6f46ffc711dc95483",
+      "bytes": 2540
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_start.json",
+      "sha256": "88da9f24d18fd7ceacbd53c943972dbcf6311019a3d1759551f1f9a793f4f418",
+      "bytes": 73259
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_trace.json",
+      "sha256": "6835cbcaa4f583b37b7be33472ce504fd18587fe9d4e9d6bddd455a8646a7aa2",
+      "bytes": 2062187
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_analyze_visible_start.json",
+      "sha256": "b9db141cd7c2d13d5370129e57383eac58ba5c205ba79041fbc8a29fd771363b",
+      "bytes": 12378
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_final.json",
+      "sha256": "66a42b4e84f9daaf0234979ae4bc805f08ed020039a2c9cef7c249228acd17d7",
+      "bytes": 106320
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_simulator.json",
+      "sha256": "87f6fbd26fa8108d57fd92a7695280bd340d995ca5dd17cdadf205211da82baf",
+      "bytes": 2711
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_start.json",
+      "sha256": "88da9f24d18fd7ceacbd53c943972dbcf6311019a3d1759551f1f9a793f4f418",
+      "bytes": 73259
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_trace.json",
+      "sha256": "980a5be960c007ef0f2864840a6e6f8b32972ed7c853a5e10380d0493fe3de2a",
+      "bytes": 1270002
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_26_capacity_r2_clarify_visible_start.json",
+      "sha256": "b9db141cd7c2d13d5370129e57383eac58ba5c205ba79041fbc8a29fd771363b",
+      "bytes": 12378
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_final.json",
+      "sha256": "0b7672f5f81389d98d3780a5d4d6b013b1a795818b59e6082c8180717af0d9e6",
+      "bytes": 113553
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_simulator.json",
+      "sha256": "dc7b309e220d264749f06d1a15f694150f25651cb6168dd5d8d9c247d307644a",
+      "bytes": 2566
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_start.json",
+      "sha256": "1ee7a235b2b6193a34997eb123f1153bafefb318e6ad48ca0db188807b2235c7",
+      "bytes": 61563
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_trace.json",
+      "sha256": "ecf96c53c40257ef70499ecf12d08d0cc50dbe9ab7037179bc7335888b7097de",
+      "bytes": 1554911
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_analyze_visible_start.json",
+      "sha256": "00345b44788caa49125215f6ffb437f6242e6d9460da030c29197b2afe589e5a",
+      "bytes": 11671
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_final.json",
+      "sha256": "a0db5be3b3220aa9f79cbf7d5e5d005b23148ddac2caa0638bfdfa5573e242ef",
+      "bytes": 95913
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_simulator.json",
+      "sha256": "32e53f4418082e2790b8dfa53bd4189df35eef39355f9d9f92ed123a79ab56ce",
+      "bytes": 2440
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_start.json",
+      "sha256": "1ee7a235b2b6193a34997eb123f1153bafefb318e6ad48ca0db188807b2235c7",
+      "bytes": 61563
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_trace.json",
+      "sha256": "23683bc640ec8b061cbb75c49dc3e02d36e4880cb8e2e011723d42131db17bb6",
+      "bytes": 1108169
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r1_clarify_visible_start.json",
+      "sha256": "00345b44788caa49125215f6ffb437f6242e6d9460da030c29197b2afe589e5a",
+      "bytes": 11671
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_final.json",
+      "sha256": "40e06dcd7efc9e68d16d077b7ba2c4878b3917e1e47048df75807270ff20bf2e",
+      "bytes": 112599
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_simulator.json",
+      "sha256": "ee93b017deb6bfe5645670d26239f133c314b6c3bc26c96c8296f625326d7652",
+      "bytes": 2721
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_start.json",
+      "sha256": "1ee7a235b2b6193a34997eb123f1153bafefb318e6ad48ca0db188807b2235c7",
+      "bytes": 61563
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_trace.json",
+      "sha256": "f4eac0b43f0ee8072b8990395b97053683dcd0dbdd4a9cbfb6f7a6f3b0daec76",
+      "bytes": 1541169
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_analyze_visible_start.json",
+      "sha256": "00345b44788caa49125215f6ffb437f6242e6d9460da030c29197b2afe589e5a",
+      "bytes": 11671
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_final.json",
+      "sha256": "5154c4bcc94cf0b90e4d06d0b5a89268e36aa51f20825a2d826465c1a59b6038",
+      "bytes": 102379
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_simulator.json",
+      "sha256": "68e51cfc24093c98dd11fb60d409bfcad06d8da7e104c656c4651bbd7f1df9f3",
+      "bytes": 2440
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_start.json",
+      "sha256": "1ee7a235b2b6193a34997eb123f1153bafefb318e6ad48ca0db188807b2235c7",
+      "bytes": 61563
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_trace.json",
+      "sha256": "46edcef7d4d9fd9b1586220aa5d82a159aba95a191a1d6ec47421186ada6fdb5",
+      "bytes": 1356761
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\B_35_waterproof_r2_clarify_visible_start.json",
+      "sha256": "00345b44788caa49125215f6ffb437f6242e6d9460da030c29197b2afe589e5a",
+      "bytes": 11671
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\model_calls.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\model_calls.jsonl",
+      "sha256": "5e469e593ec0065f81293bea91155267076f08b626b35cd26906b9e281c5a17b",
+      "bytes": 1207890
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\OUTCOMES.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\OUTCOMES.json",
+      "sha256": "e042df7c2d12260179fd2079916a39441f6777c8527944bb7123624d17e944aa",
+      "bytes": 6709
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\results\\B01\\request_events.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\results\\B01\\request_events.jsonl",
+      "sha256": "d1b4272673ef2358ea651ff8add90049845fcb6940462db8fd74a3e31921c486",
+      "bytes": 1107081
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\model_calls.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\model_calls.jsonl",
+      "sha256": "73450fceb4da9579f0e4f6d611a67d424c6574a021104ce516a66f7b5ffc2b07",
+      "bytes": 319313
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\OUTCOMES.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\OUTCOMES.json",
+      "sha256": "31ec778466341a5fa14cb444523c2654bde2c3116549354f5df71c0de524e855",
+      "bytes": 1059
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_final.json",
+      "sha256": "7f263ad91380de13a60ade76e272e3d80642c13070c10e920e70ef4f11b5f70a",
+      "bytes": 109347
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_simulator.json",
+      "sha256": "04729430e98fb32c8dab4f6373272b5634f8f1018a9456bde0c95d8e2ba9a564",
+      "bytes": 3735
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_trace.json",
+      "sha256": "d93831b97b1a5eae9e78eb7633f800a6c9621a1ecf1b4965f1ec8cdf6fdd544c",
+      "bytes": 1944401
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_framework_visible_start.json",
+      "sha256": "1d29313342f989268419e460a1ac536e5a9ce5168b42c4fc256d1a612b30a791",
+      "bytes": 10329
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_final.json",
+      "sha256": "f27132749ded56200d14de82423e45ee14b5e8e21dab322013fdbcaffc5d2456",
+      "bytes": 74769
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_simulator.json",
+      "sha256": "1b747182efd7e76b03b2f480753e26638660e86053c1a7196db5bfab0d155f07",
+      "bytes": 4298
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_trace.json",
+      "sha256": "c574365a2615f8e66a9af35c89f56429ba589ac920586163256df7db850b1188",
+      "bytes": 850212
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\pilot_t23_official_visible_start.json",
+      "sha256": "c24b900696ef6dc6a6ca91af8b02ca1e754342cdae935df1305889f60d300ba4",
+      "bytes": 8838
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\request_events.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\pilot04\\request_events.jsonl",
+      "sha256": "22c81083c545304a951060c5ba7d1493668ffcded2653f6143e1a8ec4b5eeb01",
+      "bytes": 301064
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_final.json",
+      "sha256": "fb7c0b1032cf0c2c7c675434525146762b4338f6c087111ff0c308954bc530c0",
+      "bytes": 109093
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_simulator.json",
+      "sha256": "219ba5a40c630fb3e9af2150a5b8d99aad753b50dc74e23bc7e9185bd1aa1512",
+      "bytes": 4044
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_trace.json",
+      "sha256": "46bc60a7b8327483eb6b3c459dc5a9b372ea0dbf8556f4c1a2e2009eb0a948a2",
+      "bytes": 1941694
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_framework_visible_start.json",
+      "sha256": "1d29313342f989268419e460a1ac536e5a9ce5168b42c4fc256d1a612b30a791",
+      "bytes": 10329
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_final.json",
+      "sha256": "fccb76add2f8d5a0f38a73677a77850902a062677f96c80426f884b25661855e",
+      "bytes": 75547
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_simulator.json",
+      "sha256": "3475facff8df66eb7c7387146b7204b96024faae400deca73abd19eb5855c4db",
+      "bytes": 4526
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_trace.json",
+      "sha256": "c50a259ff8747d3698efbb9349606df826cb228c36bfb08967ae6fec0bd4fede",
+      "bytes": 857005
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r1_official_visible_start.json",
+      "sha256": "c24b900696ef6dc6a6ca91af8b02ca1e754342cdae935df1305889f60d300ba4",
+      "bytes": 8838
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_final.json",
+      "sha256": "1bdec4c6cee8e82f50dd531110a3b840ff8a6dde336c33d56c6fa6dad664b526",
+      "bytes": 109405
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_simulator.json",
+      "sha256": "93fe255d87a0e91e66f642e4f3a1abd91f61612f4872501accc8722d5a0a0836",
+      "bytes": 3889
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_trace.json",
+      "sha256": "4f8fbce21e898d39c8bbe61c4b26f95ee648c26608ea22758a83d1a1c6a78485",
+      "bytes": 1944991
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_framework_visible_start.json",
+      "sha256": "1d29313342f989268419e460a1ac536e5a9ce5168b42c4fc256d1a612b30a791",
+      "bytes": 10329
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_final.json",
+      "sha256": "94ee905c96903f9748a24ba634f3adccf96731950893abff2d3082343f45f42a",
+      "bytes": 74953
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_simulator.json",
+      "sha256": "e3cf651800237d2bfc52e6afeb51a782b083717fa72dd28008a04de7f6f32de1",
+      "bytes": 4225
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_start.json",
+      "sha256": "838fc145ba221846104dc9c68841ff0847742dacc4f329b70d255ca82d94cbf7",
+      "bytes": 56598
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_trace.json",
+      "sha256": "4e8f6666bfea0f0939df925f2069b5ff13738d0d1d4d274610e3ad826e69c4a5",
+      "bytes": 852210
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t23_r2_official_visible_start.json",
+      "sha256": "c24b900696ef6dc6a6ca91af8b02ca1e754342cdae935df1305889f60d300ba4",
+      "bytes": 8838
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_final.json",
+      "sha256": "a219d5c591292385bda1732aa9c7b6170ce1310fca235994955ab1a6be01334c",
+      "bytes": 111505
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_simulator.json",
+      "sha256": "909812d1997eaf7941894962d323ce6a2a83330943b405f0db0b0ff54b777472",
+      "bytes": 2695
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_trace.json",
+      "sha256": "7216f8b4b51744207f7d5a7b23bdf919e78d4f8bad93f2feeda20b7e994f68c2",
+      "bytes": 1670728
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_framework_visible_start.json",
+      "sha256": "c39eb2580c2c1418c2ad0b1783ba6d32f5e7b0e261a4a10254f359053ad9b40b",
+      "bytes": 11136
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_final.json",
+      "sha256": "9cd33d5044c3d004f6887c2a5b430d73810afcbbd2c00e0e5d0d85e45f1a05e9",
+      "bytes": 79828
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_simulator.json",
+      "sha256": "153d5dc8f747dbeb199d1fa7f393f6a8176ee747523a19151e168ea2ec31047c",
+      "bytes": 3023
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_trace.json",
+      "sha256": "d20ba4d23f64b727c24ddde16e442f168674c92382feecf874604bec7e05e5c6",
+      "bytes": 774084
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r1_official_visible_start.json",
+      "sha256": "1fe5d0a29ea438d52e66f88d615adea31e34956e6d9a0b4b5448f21d9bc7cc34",
+      "bytes": 9937
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_final.json",
+      "sha256": "e3815a5c55a91167f35d96076262215b385b08c173d976a16e19935cde70a1e4",
+      "bytes": 111375
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_simulator.json",
+      "sha256": "59ddd0d936ea2568cd25c330d54f864d08f9e979065e5e7985889aa79d1983d0",
+      "bytes": 2949
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_trace.json",
+      "sha256": "ceb209485a69d1f56417e917c52745b40e2dd4634c9f8776868f16f58f1343d4",
+      "bytes": 1670291
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_framework_visible_start.json",
+      "sha256": "c39eb2580c2c1418c2ad0b1783ba6d32f5e7b0e261a4a10254f359053ad9b40b",
+      "bytes": 11136
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_final.json",
+      "sha256": "70296f5c19508310f164c61a3e52537a67bd2c2c73bf602af29f3c9a47f28cc7",
+      "bytes": 79992
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_simulator.json",
+      "sha256": "e3b5defb44a168a93b0684156858ff3c6dad72f7e077f151bb01c21afaa96993",
+      "bytes": 3224
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_start.json",
+      "sha256": "edca0c431996fe478952670c98898d2db2da87947bcb622d1ee95e07c356486f",
+      "bytes": 66346
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_trace.json",
+      "sha256": "7c17b9f4a8cc1e6b605821ef5fec4d0a005f634d97c05982ae4a14f48bbb054d",
+      "bytes": 775726
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t29_r2_official_visible_start.json",
+      "sha256": "1fe5d0a29ea438d52e66f88d615adea31e34956e6d9a0b4b5448f21d9bc7cc34",
+      "bytes": 9937
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_final.json",
+      "sha256": "c969feab2be4d16f2e03364807a606ce424ce7f94e1957597ea4fc041f5d8fa5",
+      "bytes": 114952
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_simulator.json",
+      "sha256": "ed0811bb0b61f5a9bde904173d974055e4b06f79c04deba7cda6b103e58b06b4",
+      "bytes": 2746
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_start.json",
+      "sha256": "2be797cd278f02adbcf8b95338c0f1137f0b6ec055e8fb7d8ed4eb567173820d",
+      "bytes": 69610
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_trace.json",
+      "sha256": "316c8cb2b0a18230613e3f5876ff927b868c0485fcff634d5e1e7cdf34c541a1",
+      "bytes": 1545538
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_framework_visible_start.json",
+      "sha256": "41f59fe45d17c3ce2679b19df4adc761834cef9ef8fa6e732110934a50372355",
+      "bytes": 7985
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_final.json",
+      "sha256": "7144e6658dbfd1d7c2c6964b20093eeba0e4ca0e352a96ca678599b728a1139e",
+      "bytes": 92741
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_simulator.json",
+      "sha256": "8ba60e3b9a9bad3dac5452ebf09e4d54c3da075fe4ccfee7392dfaa18d34474d",
+      "bytes": 6753
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_start.json",
+      "sha256": "2be797cd278f02adbcf8b95338c0f1137f0b6ec055e8fb7d8ed4eb567173820d",
+      "bytes": 69610
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_trace.json",
+      "sha256": "ddeb852631a94ab6a222196d032266acd535f0bba1e75dde473e7ad472ca2bd3",
+      "bytes": 2338536
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r1_official_visible_start.json",
+      "sha256": "bf2a8031b096bd5e3d1ced119e1a999872b153ee2fc9fc33cc344460d0296efa",
+      "bytes": 10386
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_final.json",
+      "sha256": "8a81e73c3e5ba9f9fd546dbab74fc27ff68ff1684ac8736a9a6053250e55e33b",
+      "bytes": 104980
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_simulator.json",
+      "sha256": "e898a09c9f81eb463a1f02307b120a88d2d98d2b1884fa7fe9d0d62ab6521fab",
+      "bytes": 2477
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_start.json",
+      "sha256": "2be797cd278f02adbcf8b95338c0f1137f0b6ec055e8fb7d8ed4eb567173820d",
+      "bytes": 69610
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_trace.json",
+      "sha256": "138f0caab278de50f20746e485326fbc7b9971d01391a59b7539ac3c417b5d82",
+      "bytes": 1214339
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_framework_visible_start.json",
+      "sha256": "41f59fe45d17c3ce2679b19df4adc761834cef9ef8fa6e732110934a50372355",
+      "bytes": 7985
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_final.json",
+      "sha256": "382c53d78e148ea0d0baf31ffe94e9a5d83acd7fd5a7b56bd20c996b57bd0874",
+      "bytes": 93047
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_simulator.json",
+      "sha256": "cc33c9988901967c862b4771283db139680a301c4011f14a0a041a3d4bb0f5c7",
+      "bytes": 8964
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_start.json",
+      "sha256": "2be797cd278f02adbcf8b95338c0f1137f0b6ec055e8fb7d8ed4eb567173820d",
+      "bytes": 69610
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_trace.json",
+      "sha256": "df21b70f091510d9bf70bc13903ecb843e5a2c77a07c76ed00c3cd98d40ee541",
+      "bytes": 1473061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t43_r2_official_visible_start.json",
+      "sha256": "bf2a8031b096bd5e3d1ced119e1a999872b153ee2fc9fc33cc344460d0296efa",
+      "bytes": 10386
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_final.json",
+      "sha256": "3330501e5b2cc49a1499b8b77f340b336a158185b60e931e82dc5e416a410f12",
+      "bytes": 60882
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_simulator.json",
+      "sha256": "7d28b3602668a2737831027d23ade5346628ad9dc6fc844144a0f7f9e3f96376",
+      "bytes": 1246
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_trace.json",
+      "sha256": "8cf5b249464cf848e9ce2d36557f276f1ce689863084cf661da65b84b1140537",
+      "bytes": 540530
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_framework_visible_start.json",
+      "sha256": "c59581d6669ef90e36d583a40f7e77719f3aaef719bed30be6d98c3c5cd90f9f",
+      "bytes": 13561
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_final.json",
+      "sha256": "80a3f9964a86367275c3d0b37e46df18537fe40e9b3d381fc0e972ec06f40bcb",
+      "bytes": 44735
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_simulator.json",
+      "sha256": "4b4c62e6e661e017b596a037d93d58e287b5aa55439609c0c413a18cadb7ae29",
+      "bytes": 1245
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_trace.json",
+      "sha256": "38b7411270367a190aeafdcb8f320f91325c45e493583ff356edc84aff4a89a3",
+      "bytes": 191714
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r1_official_visible_start.json",
+      "sha256": "3de874a10fb0e6af2894ee572b45b0e7b1d56ad2ff83a8ba4cc80548d3797622",
+      "bytes": 6232
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_final.json",
+      "sha256": "8d157b43f795a5e7772c363a5b8b176e27bca5e2d03f46a59de62b90cd2767c9",
+      "bytes": 60854
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_simulator.json",
+      "sha256": "7d28b3602668a2737831027d23ade5346628ad9dc6fc844144a0f7f9e3f96376",
+      "bytes": 1246
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_trace.json",
+      "sha256": "7b77acd5a8aeca78ab6ea14bcf2dce664d619f500b1c3242c54aa9a56862984e",
+      "bytes": 540188
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_framework_visible_start.json",
+      "sha256": "c59581d6669ef90e36d583a40f7e77719f3aaef719bed30be6d98c3c5cd90f9f",
+      "bytes": 13561
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_final.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_final.json",
+      "sha256": "114b3c7633f7d6225ffd72b9cf4d0b182bd61f6453b0719c6b0636bb81d84d2b",
+      "bytes": 44565
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_simulator.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_simulator.json",
+      "sha256": "4d0c6faba38b11c61c6238240a8774ab0919014cd017ca293be2b028500bbbfa",
+      "bytes": 1338
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_start.json",
+      "sha256": "50806662857be03bd0bf59a9f4b60bad88bd310e60907a49e747ac35adc36411",
+      "bytes": 38061
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_trace.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_trace.json",
+      "sha256": "fe8f3f0d3334ba1948f090d62879aedcb14be5b03ad121f4ad558b45e9b73718",
+      "bytes": 190787
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_visible_start.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\A_t80_r2_official_visible_start.json",
+      "sha256": "3de874a10fb0e6af2894ee572b45b0e7b1d56ad2ff83a8ba4cc80548d3797622",
+      "bytes": 6232
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\model_calls.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\model_calls.jsonl",
+      "sha256": "9af7d70abc3e6721613bce6f9adf3a62ed684c4de84a01a226ce467c6c0f482b",
+      "bytes": 2474047
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\OUTCOMES.json",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\OUTCOMES.json",
+      "sha256": "6f8b0d319b5e6ddcc02f9f524759e52ace832aa52284c05a9f299c9702dd6d9f",
+      "bytes": 8436
+    },
+    {
+      "source": "D:\\experimentn\\dynamic-constraint-agent-round23\\experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\request_events.jsonl",
+      "archive": "D:\\experimentn\\research-raw-archives\\round24-official-and-trajectory\\versions\\a2\\results\\A01\\request_events.jsonl",
+      "sha256": "2db7ef405f9b2f8ce49db0f7cc3f4998e20b69c0757a97d363a95cbcaddfc763",
+      "bytes": 2337322
+    }
+  ],
+  "total_bytes": 89126972
+}

@@ -16,3 +16,16 @@ experiments/preliminary/round23-framework-loop/versions/*/results/*/*_start.json
 experiments/preliminary/round23-framework-loop/versions/*/results/*/*_final.json
 experiments/preliminary/round23-framework-loop/versions/*/results/*/*_trace.json
 experiments/preliminary/round23-framework-loop/versions/*/results/*/*_visible_start.json
+# Round24 complete immutable raw evidence is referenced by RAW_ARCHIVES.json.
+experiments/preliminary/round24-official-and-trajectory/results/*/model_calls.jsonl
+experiments/preliminary/round24-official-and-trajectory/results/*/request_events.jsonl
+experiments/preliminary/round24-official-and-trajectory/results/*/*_start.json
+experiments/preliminary/round24-official-and-trajectory/results/*/*_final.json
+experiments/preliminary/round24-official-and-trajectory/results/*/*_trace.json
+experiments/preliminary/round24-official-and-trajectory/results/*/*_visible_start.json
+experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/model_calls.jsonl
+experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/request_events.jsonl
+experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/*_start.json
+experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/*_final.json
+experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/*_trace.json
+experiments/preliminary/round24-official-and-trajectory/versions/*/results/*/*_visible_start.json

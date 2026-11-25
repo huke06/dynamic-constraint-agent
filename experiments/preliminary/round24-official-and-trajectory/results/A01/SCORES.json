@@ -1,0 +1,2297 @@
+[
+  {
+    "id": "A_t80_r1_official",
+    "task": "80",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 6.333596600044984,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 2,
+      "input": 12542,
+      "output": 384,
+      "cache_hit": 12160,
+      "cache_miss": 382,
+      "usage_complete": true,
+      "seconds": 4.898850400000811,
+      "roles": {
+        "cognitive": 2
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 1,
+      "input": 611,
+      "output": 168,
+      "cache_hit": 128,
+      "cache_miss": 483,
+      "usage_complete": true,
+      "seconds": 1.361689200042747,
+      "roles": {
+        "simulator": 1
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "Here is the complete combined exchange proposal for order #W7209932:\n\n**Item to exchange (only this one):**\n- **T-Shirt** — current item `5047954489`\n  - Current options: color blue, material polyester, size S, style v-neck — price $54.84\n  - New item `9354168549`: color red, material cotton, size XXL, style crew neck — **in stock** — price $46.85\n\n**All other items remain unchanged:**\n- Backpack `5917587651` (grey, laptop compartment, polyester, medium) — $212.79\n\n**Price difference:**\n- New − old = $46.85 − $54.84 = **−$7.99** (a net refund of $7.99 to you)\n- This is within your signed limit of $10,000.00.\n\n**Payment method for the difference:**\n- Original payment method: **gift_card_2611937** (balance $11.00)\n- Since this is a refund, $7.99 would be credited back to this gift card.\n\nThe requested variant `9354168549` is in stock, so no substitution is needed.\n\nDo you approve this exchange? Please reply **yes** to proceed."
+      },
+      {
+        "event": 1,
+        "work": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W7209932",
+          "item_ids": [
+            "5047954489"
+          ],
+          "new_item_ids": [
+            "9354168549"
+          ],
+          "payment_method_id": "gift_card_2611937"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W7209932",
+      "item_ids": [
+        "5047954489"
+      ],
+      "new_item_ids": [
+        "9354168549"
+      ],
+      "payment_method_id": "gift_card_2611937"
+    },
+    "public_prefix": {
+      "history_messages": 10,
+      "native_tool_observations": 4,
+      "online_steps": 2
+    }
+  },
+  {
+    "id": "A_t80_r1_framework",
+    "task": "80",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 6.086117200029548,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 4,
+      "input": 13175,
+      "output": 387,
+      "cache_hit": 7680,
+      "cache_miss": 5495,
+      "usage_complete": true,
+      "seconds": 4.904827799939085,
+      "roles": {
+        "cognitive": 3,
+        "semantic": 1
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 1,
+      "input": 569,
+      "output": 154,
+      "cache_hit": 384,
+      "cache_miss": 185,
+      "usage_complete": true,
+      "seconds": 1.0503154000034556,
+      "roles": {
+        "simulator": 1
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "prepare",
+        "object": "#W7209932",
+        "reason": "The current effective specification requests variant 9354168549, which is in stock and exactly matches the requested options; the plan is feasible and can be stored before asking for transaction approval.",
+        "parameters": {}
+      },
+      {
+        "event": 2,
+        "work": "confirm",
+        "object": "#W7209932",
+        "reason": "Current plan is feasible and stored; only independent current complete-plan authorization is missing, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 5,
+        "work": "submit",
+        "object": "#W7209932",
+        "reason": "Current plan is feasible and exact, and current_full_authorization is true with quoted user approval (ref 13) of the complete combined proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W7209932",
+      "item_ids": [
+        "5047954489"
+      ],
+      "new_item_ids": [
+        "9354168549"
+      ],
+      "payment_method_id": "gift_card_2611937"
+    },
+    "public_prefix": {
+      "history_messages": 10,
+      "native_tool_observations": 4,
+      "online_steps": 3
+    }
+  },
+  {
+    "id": "A_t80_r2_framework",
+    "task": "80",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 6.714217300002929,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 4,
+      "input": 13175,
+      "output": 381,
+      "cache_hit": 7680,
+      "cache_miss": 5495,
+      "usage_complete": true,
+      "seconds": 4.893053999985568,
+      "roles": {
+        "cognitive": 3,
+        "semantic": 1
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 1,
+      "input": 569,
+      "output": 154,
+      "cache_hit": 384,
+      "cache_miss": 185,
+      "usage_complete": true,
+      "seconds": 1.4343514000065625,
+      "roles": {
+        "simulator": 1
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "prepare",
+        "object": "#W7209932",
+        "reason": "The current effective specification's requested variant 9354168549 is in stock and exactly matches the requested options, so the complete plan is feasible and can be stored before asking for transaction approval.",
+        "parameters": {}
+      },
+      {
+        "event": 2,
+        "work": "confirm",
+        "object": "#W7209932",
+        "reason": "Current plan is feasible and stored; the only missing prerequisite is independent current complete-plan authorization, so ask the user for approval.",
+        "parameters": {}
+      },
+      {
+        "event": 5,
+        "work": "submit",
+        "object": "#W7209932",
+        "reason": "Current plan is feasible and exact, and current_full_authorization is true with quoted user approval of the complete combined proposal.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W7209932",
+      "item_ids": [
+        "5047954489"
+      ],
+      "new_item_ids": [
+        "9354168549"
+      ],
+      "payment_method_id": "gift_card_2611937"
+    },
+    "public_prefix": {
+      "history_messages": 10,
+      "native_tool_observations": 4,
+      "online_steps": 3
+    }
+  },
+  {
+    "id": "A_t80_r2_official",
+    "task": "80",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 4.630609199986793,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 2,
+      "input": 12511,
+      "output": 353,
+      "cache_hit": 12032,
+      "cache_miss": 479,
+      "usage_complete": true,
+      "seconds": 3.3779752000118606,
+      "roles": {
+        "cognitive": 2
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 1,
+      "input": 581,
+      "output": 190,
+      "cache_hit": 128,
+      "cache_miss": 453,
+      "usage_complete": true,
+      "seconds": 1.0282440999872051,
+      "roles": {
+        "simulator": 1
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "I've verified the details. Here's the complete combined proposal:\n\n**Exchange — Order #W7209932 (delivered)**\n\n| Item | Old | New | Price |\n|------|-----|-----|-------|\n| T-Shirt (item 5047954489) | blue / polyester / S / v-neck | red / cotton / XXL / crew neck (item 9354168549) | $54.84 → $46.85 |\n\n- **Requested variant 9354168549 is in stock** ✅ (red, cotton, XXL, crew neck)\n- All other items (Backpack 5917587651) and the rest of the order remain unchanged.\n- **Net difference: $46.85 − $54.84 = −$7.99** (a refund of $7.99 to you)\n- **Payment method for the difference:** gift_card_2611937 (original payment). Since this is a refund, no balance is required.\n\nThis is within your signed limit (max +$10,000.00; negative = refund).\n\nDo you approve this exchange? Please reply **yes** to proceed."
+      },
+      {
+        "event": 1,
+        "work": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W7209932",
+          "item_ids": [
+            "5047954489"
+          ],
+          "new_item_ids": [
+            "9354168549"
+          ],
+          "payment_method_id": "gift_card_2611937"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W7209932",
+      "item_ids": [
+        "5047954489"
+      ],
+      "new_item_ids": [
+        "9354168549"
+      ],
+      "payment_method_id": "gift_card_2611937"
+    },
+    "public_prefix": {
+      "history_messages": 10,
+      "native_tool_observations": 4,
+      "online_steps": 2
+    }
+  },
+  {
+    "id": "A_t23_r1_official",
+    "task": "23",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 15.556881800002884,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": false,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer.",
+      "environment_issue": "Resource event delivered as native tool record to framework but user-wrapped JSON to official. First stock re-query cannot be attributed to state module; exclude path-cost comparison."
+    },
+    "agent": {
+      "calls": 6,
+      "input": 47996,
+      "output": 944,
+      "cache_hit": 45824,
+      "cache_miss": 2172,
+      "usage_complete": true,
+      "seconds": 9.880815100041218,
+      "roles": {
+        "cognitive": 6
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 3,
+      "input": 1812,
+      "output": 542,
+      "cache_hit": 384,
+      "cache_miss": 1428,
+      "usage_complete": true,
+      "seconds": 4.093482799944468,
+      "roles": {
+        "simulator": 3
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "Both requested variants are in stock. Here is the complete combined proposal:\n\n**Order #W6876713 — Exchange (delivered)**\n\n| Item | Old | New | Old Price | New Price | Difference |\n|---|---|---|---|---|---|\n| Luggage Set | 3-piece, blue, softshell (6301799585) | 2-piece, black, softshell (8926329222) | $495.87 | $452.28 | −$43.59 |\n| Grill | medium, charcoal, rotisserie (7082455361) | large, electric, rotisserie (4404981319) | $962.69 | $1,031.00 | +$68.31 |\n\n- **Net difference:** +$24.72 (you pay)\n- **Payment method:** credit_card_7901829 (Visa ending 7312)\n- All other items and the order remain unchanged.\n- This is within your $10,000.00 signed difference limit.\n\nBoth requested specifications are in stock, so no substitutions are needed.\n\nDo you approve this exchange? (yes/no)"
+      },
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "5426915165"
+        },
+        "reason": "I need to verify current stock before proceeding, since the inventory information you provided indicates the Luggage Set variant 8926329222 may now be unavailable. Let me check."
+      },
+      {
+        "event": 3,
+        "work": "speech",
+        "object": "clarify",
+        "reason": "The Luggage Set variant you requested (8926329222 — 2-piece, black, softshell) is now **out of stock**, so I cannot proceed with that exact specification. Per your instruction, I need to ask before using a different specification.\n\nThe Grill variant (4404981319 — large, electric, rotisserie) is still in stock.\n\nHere are the available Luggage Set alternatives (all softshell/hardshell options currently in stock):\n\n| Item ID | Options | Price | Diff vs old ($495.87) |\n|---|---|---|---|\n| 7160999700 | 2-piece, red, softshell | $499.29 | +$3.42 |\n| 8759627937 | 4-piece, blue, softshell | $501.65 | +$5.78 |\n| 8964750292 | 2-piece, red, hardshell | $532.58 | +$36.71 |\n| 9956648681 | 4-piece, red, hardshell | $452.62 | −$43.25 |\n\nWould you like to substitute one of these for the Luggage Set, or keep the Luggage Set unchanged? Please let me know how you'd like to proceed."
+      },
+      {
+        "event": 4,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "5426915165"
+        },
+        "reason": ""
+      },
+      {
+        "event": 5,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "SKU 7160999700 is in stock. Here is the complete new proposal:\n\n**Order #W6876713 — Exchange (delivered)**\n\n| Item | Old | New | Old Price | New Price | Difference |\n|---|---|---|---|---|---|\n| Luggage Set | 3-piece, blue, softshell (6301799585) | 2-piece, red, softshell (7160999700) | $495.87 | $499.29 | +$3.42 |\n| Grill | medium, charcoal, rotisserie (7082455361) | large, electric, rotisserie (4404981319) | $962.69 | $1,031.00 | +$68.31 |\n\n- **Net difference:** +$71.73 (you pay)\n- **Payment method:** credit_card_7901829 (Visa ending 7312)\n- All other items and the order remain unchanged.\n- Within your $10,000.00 signed difference limit.\n\nDo you approve this exchange? (yes/no)"
+      },
+      {
+        "event": 6,
+        "work": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W6876713",
+          "item_ids": [
+            "6301799585",
+            "7082455361"
+          ],
+          "new_item_ids": [
+            "7160999700",
+            "4404981319"
+          ],
+          "payment_method_id": "credit_card_7901829"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": {
+      "event": 2,
+      "work": "get_product_details",
+      "object": {
+        "product_id": "5426915165"
+      },
+      "reason": "I need to verify current stock before proceeding, since the inventory information you provided indicates the Luggage Set variant 8926329222 may now be unavailable. Let me check."
+    },
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 1,
+    "query_already_observed_count": 2,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W6876713",
+      "item_ids": [
+        "6301799585",
+        "7082455361"
+      ],
+      "new_item_ids": [
+        "7160999700",
+        "4404981319"
+      ],
+      "payment_method_id": "credit_card_7901829"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 6
+    }
+  },
+  {
+    "id": "A_t23_r1_framework",
+    "task": "23",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 23.640899699996226,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": false,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer.",
+      "environment_issue": "Resource event delivered as native tool record to framework but user-wrapped JSON to official. First stock re-query cannot be attributed to state module; exclude path-cost comparison."
+    },
+    "agent": {
+      "calls": 9,
+      "input": 24659,
+      "output": 1028,
+      "cache_hit": 13952,
+      "cache_miss": 10707,
+      "usage_complete": true,
+      "seconds": 10.839592400065158,
+      "roles": {
+        "cognitive": 6,
+        "semantic": 3
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 3,
+      "input": 1933,
+      "output": 445,
+      "cache_hit": 1408,
+      "cache_miss": 525,
+      "usage_complete": true,
+      "seconds": 9.001842099998612,
+      "roles": {
+        "simulator": 3
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "prepare",
+        "object": "#W6876713",
+        "reason": "Both requested variants are in stock and the net difference 24.72 is within the 10000 cap, so the current specification is feasible; no transaction authorization exists yet, so prepare the plan before confirming.",
+        "parameters": {}
+      },
+      {
+        "event": 2,
+        "work": "confirm",
+        "object": "#W6876713",
+        "reason": "Current plan is feasible and stored; only missing prerequisite is independent current complete-plan authorization, so ask the user for approval.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "clarify",
+        "object": "6301799585",
+        "reason": "Requested variant 8926329222 is out of stock; exact match set is empty, so a negotiable in-stock alternative within the signed cap requires new user specification permission before any plan can be prepared.",
+        "parameters": {
+          "variant_id": "7160999700"
+        }
+      },
+      {
+        "event": 9,
+        "work": "prepare",
+        "object": "#W6876713",
+        "reason": "Current effective specification (ref 19) supersedes prior SKU and is exact-feasible per ref 17; other item unchanged and in stock. Plan is feasible, so prepare stores it; authorization is still needed for submit.",
+        "parameters": {}
+      },
+      {
+        "event": 11,
+        "work": "confirm",
+        "object": "#W6876713",
+        "reason": "Current effective specification is feasible and stored as the current plan; the only missing prerequisite is independent current complete-plan authorization, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 14,
+        "work": "submit",
+        "object": "#W6876713",
+        "reason": "Current plan is feasible and current_full_authorization is true with quoted approval (ref 23) for exactly the bound arguments; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": {
+      "event": 6,
+      "work": "clarify",
+      "object": "6301799585",
+      "reason": "Requested variant 8926329222 is out of stock; exact match set is empty, so a negotiable in-stock alternative within the signed cap requires new user specification permission before any plan can be prepared.",
+      "parameters": {
+        "variant_id": "7160999700"
+      }
+    },
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W6876713",
+      "item_ids": [
+        "6301799585",
+        "7082455361"
+      ],
+      "new_item_ids": [
+        "7160999700",
+        "4404981319"
+      ],
+      "payment_method_id": "credit_card_7901829"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 6
+    }
+  },
+  {
+    "id": "A_t23_r2_framework",
+    "task": "23",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 17.120579100039322,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": false,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer.",
+      "environment_issue": "Resource event delivered as native tool record to framework but user-wrapped JSON to official. First stock re-query cannot be attributed to state module; exclude path-cost comparison."
+    },
+    "agent": {
+      "calls": 9,
+      "input": 24659,
+      "output": 1038,
+      "cache_hit": 16000,
+      "cache_miss": 8659,
+      "usage_complete": true,
+      "seconds": 11.711296100053005,
+      "roles": {
+        "cognitive": 6,
+        "semantic": 3
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 3,
+      "input": 1933,
+      "output": 445,
+      "cache_hit": 1408,
+      "cache_miss": 525,
+      "usage_complete": true,
+      "seconds": 3.613611399952788,
+      "roles": {
+        "simulator": 3
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "prepare",
+        "object": "#W6876713",
+        "reason": "Both requested variants are in stock and the net difference 24.72 is within the cap; the current specification is feasible, so the complete plan can be stored before requesting approval.",
+        "parameters": {}
+      },
+      {
+        "event": 2,
+        "work": "confirm",
+        "object": "#W6876713",
+        "reason": "Current plan is feasible and stored; only missing prerequisite is independent current complete-plan authorization, so ask the user for approval.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "clarify",
+        "object": "6301799585",
+        "reason": "Requested variant 8926329222 is out of stock; exact match set is empty. Variant 7160999700 is the closest negotiable alternative (only color changes, within cap) and requires new user specification permission before preparing a feasible plan.",
+        "parameters": {
+          "variant_id": "7160999700"
+        }
+      },
+      {
+        "event": 9,
+        "work": "prepare",
+        "object": "#W6876713",
+        "reason": "Current effective specification for item 6301799585 (variant 7160999700) is in stock and within the $10000 cap; the other item's agreed variant 4404981319 is in stock and unchanged, so the complete current plan is feasible and can be stored pending final approval.",
+        "parameters": {}
+      },
+      {
+        "event": 11,
+        "work": "confirm",
+        "object": "#W6876713",
+        "reason": "Current effective specification is feasible and stored as the current plan; the only missing prerequisite is independent current complete-plan authorization, so confirm asks the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 14,
+        "work": "submit",
+        "object": "#W6876713",
+        "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted user approval (ref 23) of the exact complete combined proposal; submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": {
+      "event": 6,
+      "work": "clarify",
+      "object": "6301799585",
+      "reason": "Requested variant 8926329222 is out of stock; exact match set is empty. Variant 7160999700 is the closest negotiable alternative (only color changes, within cap) and requires new user specification permission before preparing a feasible plan.",
+      "parameters": {
+        "variant_id": "7160999700"
+      }
+    },
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W6876713",
+      "item_ids": [
+        "6301799585",
+        "7082455361"
+      ],
+      "new_item_ids": [
+        "7160999700",
+        "4404981319"
+      ],
+      "payment_method_id": "credit_card_7901829"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 6
+    }
+  },
+  {
+    "id": "A_t23_r2_official",
+    "task": "23",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 13.39980180002749,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": false,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer.",
+      "environment_issue": "Resource event delivered as native tool record to framework but user-wrapped JSON to official. First stock re-query cannot be attributed to state module; exclude path-cost comparison."
+    },
+    "agent": {
+      "calls": 6,
+      "input": 47744,
+      "output": 870,
+      "cache_hit": 45696,
+      "cache_miss": 2048,
+      "usage_complete": true,
+      "seconds": 8.305870700045489,
+      "roles": {
+        "cognitive": 6
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 3,
+      "input": 1722,
+      "output": 611,
+      "cache_hit": 384,
+      "cache_miss": 1338,
+      "usage_complete": true,
+      "seconds": 3.6356804000097327,
+      "roles": {
+        "simulator": 3
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "Both requested variants are in stock. Here is the complete combined proposal:\n\n**Order #W6876713 — Exchange (delivered)**\n\n| Item | Old item | Old price | New item | New price | Difference |\n|---|---|---|---|---|---|\n| Luggage Set | 6301799585 — blue / softshell / 3-piece | $495.87 | 8926329222 — black / softshell / 2-piece | $452.28 | −$43.59 |\n| Grill | 7082455361 — charcoal / medium / rotisserie | $962.69 | 4404981319 — electric / large / rotisserie | $1,031.00 | +$68.31 |\n\n- **Net difference:** +$24.72 (you owe)\n- **Payment method:** credit_card_7901829 (Visa ending 7312)\n- All other items and the order remain unchanged.\n\nThis is within your $10,000 limit. Do you approve this exchange? (yes/no)"
+      },
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "5426915165"
+        },
+        "reason": "I can't rely on inventory data pasted into the chat — I need to verify stock through the official tool before proceeding. Let me re-check the Luggage Set availability."
+      },
+      {
+        "event": 3,
+        "work": "speech",
+        "object": "clarify",
+        "reason": "The official inventory now shows that the Luggage Set variant you requested (8926329222 — black / softshell / 2-piece) is **out of stock**. Per your instruction, I need to ask before substituting a different specification.\n\nThe Grill variant (4404981319 — electric / large / rotisserie) is still in stock.\n\nAvailable Luggage Set alternatives (same product, different options):\n- 7160999700 — red / softshell / 2-piece — $499.29\n- 8759627937 — blue / softshell / 4-piece — $501.65\n- 8964750292 — red / hardshell / 2-piece — $532.58\n- 9956648681 — red / hardshell / 4-piece — $452.62\n\nWould you like to pick one of these for the Luggage Set, or drop the Luggage Set from the exchange? I won't proceed until you confirm."
+      },
+      {
+        "event": 4,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "5426915165"
+        },
+        "reason": ""
+      },
+      {
+        "event": 5,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "SKU 7160999700 is in stock. Here is the complete new proposal:\n\n**Order #W6876713 — Exchange (delivered)**\n\n| Item | Old item | Old price | New item | New price | Difference |\n|---|---|---|---|---|---|\n| Luggage Set | 6301799585 — blue / softshell / 3-piece | $495.87 | 7160999700 — red / softshell / 2-piece | $499.29 | +$3.42 |\n| Grill | 7082455361 — charcoal / medium / rotisserie | $962.69 | 4404981319 — electric / large / rotisserie | $1,031.00 | +$68.31 |\n\n- **Net difference:** +$71.73 (you owe)\n- **Payment method:** credit_card_7901829 (Visa ending 7312)\n- All other items and the order remain unchanged.\n\nThis is within your $10,000 limit. Do you approve this exchange? (yes/no)"
+      },
+      {
+        "event": 6,
+        "work": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W6876713",
+          "item_ids": [
+            "6301799585",
+            "7082455361"
+          ],
+          "new_item_ids": [
+            "7160999700",
+            "4404981319"
+          ],
+          "payment_method_id": "credit_card_7901829"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": {
+      "event": 2,
+      "work": "get_product_details",
+      "object": {
+        "product_id": "5426915165"
+      },
+      "reason": "I can't rely on inventory data pasted into the chat — I need to verify stock through the official tool before proceeding. Let me re-check the Luggage Set availability."
+    },
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 1,
+    "query_already_observed_count": 2,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W6876713",
+      "item_ids": [
+        "6301799585",
+        "7082455361"
+      ],
+      "new_item_ids": [
+        "7160999700",
+        "4404981319"
+      ],
+      "payment_method_id": "credit_card_7901829"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 6
+    }
+  },
+  {
+    "id": "A_t29_r1_official",
+    "task": "29",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 9.662368800025433,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 4,
+      "input": 30351,
+      "output": 633,
+      "cache_hit": 29184,
+      "cache_miss": 1167,
+      "usage_complete": true,
+      "seconds": 5.587666800012812,
+      "roles": {
+        "cognitive": 4
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1211,
+      "output": 485,
+      "cache_hit": 256,
+      "cache_miss": 955,
+      "usage_complete": true,
+      "seconds": 2.7159681999473833,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "Both requested variants are in stock. Here is the complete combined proposal:\n\n**Order #W7181492 — Exchange (delivered)**\n\n| Item | Old option | Old price | New option | New price | Difference |\n|---|---|---|---|---|---|\n| Garden Hose (5753502325) | green / 25ft / rubber | $96.35 | black / 50ft / vinyl (5206946487) | $95.08 | −$1.27 |\n| Hiking Boots (8118291112) | leather / 12 / waterproof no | $260.56 | leather / 12 / waterproof yes (8277474082) | $236.57 | −$23.99 |\n\n- **Net difference:** −$25.26 (a refund to you)\n- **Payment method for difference:** paypal_3024827 (original)\n- All other items and the order remain unchanged.\n\nSince the net difference is negative, you would receive a $25.26 refund to your PayPal account (5–7 business days).\n\nDo you approve this exchange? (yes/no)"
+      },
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "6679515468"
+        },
+        "reason": ""
+      },
+      {
+        "event": 3,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "Item 8481719475 (blue / 100ft / latex) is in stock. Here is the revised complete combined proposal:\n\n**Order #W7181492 — Exchange (delivered)**\n\n| Item | Old option | Old price | New option | New price | Difference |\n|---|---|---|---|---|---|\n| Garden Hose (5753502325) | green / 25ft / rubber | $96.35 | blue / 100ft / latex (8481719475) | $98.61 | +$2.26 |\n| Hiking Boots (8118291112) | leather / 12 / waterproof no | $260.56 | leather / 12 / waterproof yes (8277474082) | $236.57 | −$23.99 |\n\n- **Net difference:** −$21.73 (a refund to you)\n- **Payment method for difference:** paypal_3024827 (original)\n- All other items and the order remain unchanged.\n\nSince the net difference is negative, you would receive a $21.73 refund to your PayPal account (5–7 business days).\n\nDo you approve this revised complete proposal? (yes/no)"
+      },
+      {
+        "event": 4,
+        "work": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W7181492",
+          "item_ids": [
+            "5753502325",
+            "8118291112"
+          ],
+          "new_item_ids": [
+            "8481719475",
+            "8277474082"
+          ],
+          "payment_method_id": "paypal_3024827"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": {
+      "event": 2,
+      "work": "get_product_details",
+      "object": {
+        "product_id": "6679515468"
+      },
+      "reason": ""
+    },
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 1,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W7181492",
+      "item_ids": [
+        "5753502325",
+        "8118291112"
+      ],
+      "new_item_ids": [
+        "8481719475",
+        "8277474082"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  },
+  {
+    "id": "A_t29_r1_framework",
+    "task": "29",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 14.495401999971364,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 7,
+      "input": 21535,
+      "output": 872,
+      "cache_hit": 10112,
+      "cache_miss": 11423,
+      "usage_complete": true,
+      "seconds": 9.497240399941802,
+      "roles": {
+        "cognitive": 5,
+        "semantic": 2
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1386,
+      "output": 410,
+      "cache_hit": 256,
+      "cache_miss": 1130,
+      "usage_complete": true,
+      "seconds": 3.345605999988038,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "prepare",
+        "object": "#W7181492",
+        "reason": "Both requested variants (5206946487 and 8277474082) are in stock and match the current effective specification exactly, so the complete plan is feasible and can be stored; authorization is still missing, so confirm follows.",
+        "parameters": {}
+      },
+      {
+        "event": 2,
+        "work": "confirm",
+        "object": "#W7181492",
+        "reason": "Current plan is feasible and stored; only missing prerequisite is independent current complete-plan authorization, so ask the user for approval.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "prepare",
+        "object": "#W7181492",
+        "reason": "The current effective specification (ref 16) names an exact in-stock variant 8481719475 matching the requested options, and the other item 8277474082 is in stock; the plan is feasible, so it should be stored before asking for new final approval.",
+        "parameters": {}
+      },
+      {
+        "event": 8,
+        "work": "confirm",
+        "object": "#W7181492",
+        "reason": "Current plan is feasible and stored; the only missing prerequisite is independent current complete-plan authorization, which requires asking the user.",
+        "parameters": {}
+      },
+      {
+        "event": 11,
+        "work": "submit",
+        "object": "#W7181492",
+        "reason": "Current plan is feasible and valid, and current_full_authorization is true with quoted approval at ref 20 covering exactly the complete combined proposal.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": {
+      "event": 6,
+      "work": "prepare",
+      "object": "#W7181492",
+      "reason": "The current effective specification (ref 16) names an exact in-stock variant 8481719475 matching the requested options, and the other item 8277474082 is in stock; the plan is feasible, so it should be stored before asking for new final approval.",
+      "parameters": {}
+    },
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W7181492",
+      "item_ids": [
+        "5753502325",
+        "8118291112"
+      ],
+      "new_item_ids": [
+        "8481719475",
+        "8277474082"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 5
+    }
+  },
+  {
+    "id": "A_t29_r2_framework",
+    "task": "29",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 12.19851210003253,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 7,
+      "input": 21535,
+      "output": 851,
+      "cache_hit": 12032,
+      "cache_miss": 9503,
+      "usage_complete": true,
+      "seconds": 8.724819600000046,
+      "roles": {
+        "cognitive": 5,
+        "semantic": 2
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1386,
+      "output": 345,
+      "cache_hit": 1024,
+      "cache_miss": 362,
+      "usage_complete": true,
+      "seconds": 2.2675725999870338,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "prepare",
+        "object": "#W7181492",
+        "reason": "Both requested variants (5206946487 and 8277474082) are in stock and match the current effective specification, so the current plan is feasible and can be stored.",
+        "parameters": {}
+      },
+      {
+        "event": 2,
+        "work": "confirm",
+        "object": "#W7181492",
+        "reason": "Current plan is feasible and stored; only independent current complete-plan authorization is missing, so ask the user for approval.",
+        "parameters": {}
+      },
+      {
+        "event": 6,
+        "work": "prepare",
+        "object": "#W7181492",
+        "reason": "Current effective specification is exact-feasible and in stock; plan is feasible and pending resolution is complete, so store it before asking for new final approval.",
+        "parameters": {}
+      },
+      {
+        "event": 8,
+        "work": "confirm",
+        "object": "#W7181492",
+        "reason": "Current effective specification is feasible and stored as the current plan; the only missing prerequisite is independent current complete-plan authorization, so ask the user to approve this exact proposal.",
+        "parameters": {}
+      },
+      {
+        "event": 11,
+        "work": "submit",
+        "object": "#W7181492",
+        "reason": "Current effective specification is feasible (exact match 8481719475 in stock), plan is stored and valid, and current_full_authorization is true with quoted approval at ref 20 covering the exact complete proposal.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": {
+      "event": 6,
+      "work": "prepare",
+      "object": "#W7181492",
+      "reason": "Current effective specification is exact-feasible and in stock; plan is feasible and pending resolution is complete, so store it before asking for new final approval.",
+      "parameters": {}
+    },
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W7181492",
+      "item_ids": [
+        "5753502325",
+        "8118291112"
+      ],
+      "new_item_ids": [
+        "8481719475",
+        "8277474082"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 5
+    }
+  },
+  {
+    "id": "A_t29_r2_official",
+    "task": "29",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": true,
+    "seconds": 9.624351000005845,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 4,
+      "input": 30288,
+      "output": 604,
+      "cache_hit": 29184,
+      "cache_miss": 1104,
+      "usage_complete": true,
+      "seconds": 5.352878600009717,
+      "roles": {
+        "cognitive": 4
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1176,
+      "output": 442,
+      "cache_hit": 256,
+      "cache_miss": 920,
+      "usage_complete": true,
+      "seconds": 3.179465400055051,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "Both requested variants are in stock. Here is the complete combined proposal:\n\n**Order #W7181492 — Exchange (delivered)**\n\n| Item | Old variant | Old price | New variant | New price | Difference |\n|---|---|---|---|---|---|\n| Garden Hose | green / 25ft / rubber (5753502325) | $96.35 | black / 50ft / vinyl (5206946487) | $95.08 | −$1.27 |\n| Hiking Boots | leather / size 12 / waterproof no (8118291112) | $260.56 | leather / size 12 / waterproof yes (8277474082) | $236.57 | −$23.99 |\n\n- **Net difference:** −$25.26 (a refund to you)\n- **Payment method:** paypal_3024827 (original)\n- All other items and the order remain unchanged.\n\nThis is within your $10,000 limit. Do you approve this exchange? (yes/no)"
+      },
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "6679515468"
+        },
+        "reason": ""
+      },
+      {
+        "event": 3,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "Item 8481719475 (blue / 100ft / latex) is in stock. Here is the revised complete combined proposal:\n\n**Order #W7181492 — Exchange (delivered)**\n\n| Item | Old variant | Old price | New variant | New price | Difference |\n|---|---|---|---|---|---|\n| Garden Hose | green / 25ft / rubber (5753502325) | $96.35 | blue / 100ft / latex (8481719475) | $98.61 | +$2.26 |\n| Hiking Boots | leather / size 12 / waterproof no (8118291112) | $260.56 | leather / size 12 / waterproof yes (8277474082) | $236.57 | −$23.99 |\n\n- **Net difference:** −$21.73 (a refund to you)\n- **Payment method:** paypal_3024827 (original)\n- All other items and the order remain unchanged.\n\nThis is within your $10,000 limit. Do you give your new final approval for this revised complete proposal? (yes/no)"
+      },
+      {
+        "event": 4,
+        "work": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W7181492",
+          "item_ids": [
+            "5753502325",
+            "8118291112"
+          ],
+          "new_item_ids": [
+            "8481719475",
+            "8277474082"
+          ],
+          "payment_method_id": "paypal_3024827"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": {
+      "event": 2,
+      "work": "get_product_details",
+      "object": {
+        "product_id": "6679515468"
+      },
+      "reason": ""
+    },
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 1,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W7181492",
+      "item_ids": [
+        "5753502325",
+        "8118291112"
+      ],
+      "new_item_ids": [
+        "8481719475",
+        "8277474082"
+      ],
+      "payment_method_id": "paypal_3024827"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  },
+  {
+    "id": "A_t39_r1_official",
+    "task": "39",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 18.431219599966425,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": false,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "cap_direction",
+          "quote": "This is within your signed cap of −$151.16 (i.e., the refund is not smaller than the required minimum refund).",
+          "evidence": "Actual difference -134.98 > frozen cap -151.155; original user explicitly requires a minimum refund. User correctly withholds approval; Agent later corrects."
+        }
+      ],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 6,
+      "input": 46118,
+      "output": 1543,
+      "cache_hit": 42624,
+      "cache_miss": 3494,
+      "usage_complete": true,
+      "seconds": 12.178828399919439,
+      "roles": {
+        "cognitive": 6
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 4,
+      "input": 2850,
+      "output": 797,
+      "cache_hit": 512,
+      "cache_miss": 2338,
+      "usage_complete": true,
+      "seconds": 5.486994199978653,
+      "roles": {
+        "simulator": 4
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "speech",
+        "object": "correction",
+        "reason": "I've verified the requested mappings against stock and your cap. Here's what I found:\n\n**Requested exchanges (both in stock):**\n- Tablet: `2235648106` (black, 10-inch, 32GB, $1054.43) → `2106335193` (silver, 10-inch, 64GB, $903.95) = **−$150.48**\n- Wireless Earbuds: `4063058357` (4h, black, not resistant, $243.34) → `6452271382` (4h, blue, IPX4, $258.84) = **+$15.50**\n\n**Combined new-minus-old difference: −$150.48 + $15.50 = −$134.98**\n\nThis is a refund of $134.98 to your original payment method (credit_card_7952624). This is within your signed cap of −$151.16 (i.e., the refund is not smaller than the required minimum refund). ✓\n\n**All current items in order #W5285031:**\n1. `4063058357` — Wireless Earbuds (4h, black, not resistant) — $243.34 → exchanging to `6452271382`\n2. `2235648106` — Tablet (black, 10-inch, 32GB) — $1054.43 → exchanging to `2106335193`\n3. `8214883393` — Gaming Mouse (black, wireless, laser) — $150.58 → unchanged\n\n**Refund method:** original payment, credit_card_7952624 (Visa ending 7684).\n\nPlease note: this exchange can only be done once, and the order status will change to \"exchange requested.\" Please confirm you have provided **all** items you want to exchange.\n\nDo you give your independent final approval to proceed with this exchange? (yes/no)"
+      },
+      {
+        "event": 1,
+        "work": "speech",
+        "object": "correction",
+        "reason": "You're right — I apologize. Let me correct the cap: your signed maximum combined new-minus-old difference is **−151.16** (a required minimum refund of $151.16). The requested exchange produces a difference of **−134.98**, which is a *smaller* refund than the cap requires, so it does **not** satisfy the cap. My earlier statement was wrong.\n\nTo meet the cap, the combined difference must be **≤ −151.16** (i.e., a refund of at least $151.16). The current requested options fall short by $16.18, so a different specification is needed.\n\nBefore I propose anything, I need your **specification permission** to consider different options. Would you like me to look for alternative in-stock options (same products only — Tablet and Wireless Earbuds) that would bring the combined difference to −151.16 or lower? If yes, please confirm, and I'll present candidates for your approval."
+      },
+      {
+        "event": 2,
+        "work": "speech",
+        "object": "clarify",
+        "reason": "Understood — no new specification is accepted yet. Here is a specific observed in-stock substitute for your permission:\n\n**Proposed change (only the Earbuds line differs from your original request):**\n- Tablet: `2235648106` → `2106335193` (silver, 10-inch, 64GB, $903.95) = **−$150.48** *(unchanged from your request)*\n- Wireless Earbuds: `4063058357` → **`8555936349`** (8 hours, blue, IPX4, $226.49) = **−$16.85** *(this is the new substitute)*\n- Gaming Mouse `8214883393` — unchanged\n\n**Combined new-minus-old difference:** −$150.48 + (−$16.85) = **−$167.33**\n\nThis is a refund of $167.33, which is **≤ −151.16**, so it satisfies your hard whole-amount cap. ✓ (Item `8555936349` is confirmed in stock.)\n\n**All current items in order #W5285031:**\n1. `4063058357` — Wireless Earbuds (4h, black, not resistant) — $243.34 → proposed `8555936349`\n2. `2235648106` — Tablet (black, 10-inch, 32GB) — $1054.43 → proposed `2106335193`\n3. `8214883393` — Gaming Mouse (black, wireless, laser) — $150.58 → unchanged\n\n**Refund method:** original payment, credit_card_7952624 (Visa ending 7684).\n\nDo you grant **specification permission** for the Earbuds substitute `8555936349` (8 hours, blue, IPX4)? This is permission for the specification only — not transaction approval."
+      },
+      {
+        "event": 3,
+        "work": "calculate",
+        "object": {
+          "expression": "(903.95 - 1054.43) + (226.49 - 243.34)"
+        },
+        "reason": ""
+      },
+      {
+        "event": 4,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "Specification permission noted for Earbuds `8555936349` (supersedes `6452271382`). It is in stock, and the combined difference is −167.33, which is ≤ −151.155. ✓\n\n**Complete new proposal for order #W5285031 (delivered):**\n\n| # | Current item | Options | Price | → New item | New options | New price | Diff |\n|---|---|---|---|---|---|---|---|\n| 1 | `4063058357` Wireless Earbuds | 4h, black, not resistant | $243.34 | `8555936349` | 8h, blue, IPX4 | $226.49 | −$16.85 |\n| 2 | `2235648106` Tablet | black, 10-inch, 32GB | $1054.43 | `2106335193` | silver, 10-inch, 64GB | $903.95 | −$150.48 |\n| 3 | `8214883393` Gaming Mouse | black, wireless, laser | $150.58 | — unchanged | — | $150.58 | — |\n\n**Exact combined new-minus-old difference:** −$16.85 + (−$150.48) = **−$167.33** (a refund of $167.33)\n\n**Refund method:** original payment, credit_card_7952624 (Visa ending 7684).\n\nNotes:\n- This exchange can only be done once; the order status will change to \"exchange requested.\"\n- Please confirm you have provided **all** items you want to exchange.\n\nDo you give your **independent final approval** to proceed with this exchange? (yes/no)"
+      },
+      {
+        "event": 5,
+        "work": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W5285031",
+          "item_ids": [
+            "4063058357",
+            "2235648106"
+          ],
+          "new_item_ids": [
+            "8555936349",
+            "2106335193"
+          ],
+          "payment_method_id": "credit_card_7952624"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W5285031",
+      "item_ids": [
+        "4063058357",
+        "2235648106"
+      ],
+      "new_item_ids": [
+        "8555936349",
+        "2106335193"
+      ],
+      "payment_method_id": "credit_card_7952624"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 6
+    }
+  },
+  {
+    "id": "A_t39_r1_framework",
+    "task": "39",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 12.77832560002571,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": true,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "supported",
+      "issues": [],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 6,
+      "input": 15753,
+      "output": 696,
+      "cache_hit": 6784,
+      "cache_miss": 8969,
+      "usage_complete": true,
+      "seconds": 8.923183100065216,
+      "roles": {
+        "cognitive": 4,
+        "semantic": 2
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1258,
+      "output": 321,
+      "cache_hit": 256,
+      "cache_miss": 1002,
+      "usage_complete": true,
+      "seconds": 3.169370799965691,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "clarify",
+        "object": "4063058357",
+        "reason": "Current requested replacement 6452271382 is infeasible (no exact match / violates signed amount cap). Variant 8555936349 matches current color and water resistance, differs only in battery life, and is within cap; it requires new user specification permission.",
+        "parameters": {
+          "variant_id": "8555936349"
+        }
+      },
+      {
+        "event": 3,
+        "work": "prepare",
+        "object": "#W5285031",
+        "reason": "Current effective specification (SKU 8555936349) is in stock, matches options, and whole signed difference -167.33 satisfies the cap; all items resolved, so a feasible complete plan can be stored for later confirmation.",
+        "parameters": {}
+      },
+      {
+        "event": 5,
+        "work": "confirm",
+        "object": "#W5285031",
+        "reason": "Current plan is feasible and stored; only missing prerequisite is independent complete-plan authorization, so ask the actual user to confirm.",
+        "parameters": {}
+      },
+      {
+        "event": 8,
+        "work": "submit",
+        "object": "#W5285031",
+        "reason": "Current plan is feasible and fully authorized by the user's explicit approval (ref 17) of the complete combined proposal; all prerequisites resolved, so submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W5285031",
+      "item_ids": [
+        "4063058357",
+        "2235648106"
+      ],
+      "new_item_ids": [
+        "8555936349",
+        "2106335193"
+      ],
+      "payment_method_id": "credit_card_7952624"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 4
+    }
+  },
+  {
+    "id": "A_t39_r2_framework",
+    "task": "39",
+    "group": "framework",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 14.34799809998367,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": true,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": true,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": true,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": false,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "contradicted",
+      "issues": [
+        {
+          "kind": "stock_vs_cap",
+          "quote": "no in-stock variant exactly matches the current effective specification (battery life 4 hours, color blue, water resistance IPX4)",
+          "evidence": "Current 6452271382 exists, is in stock and has exactly those options. Whole delta -134.98 violates -151.155. The exact-feasible set is empty because of cap, not inventory. Known frozen-v2 local analysis issue remains; not repaired in this round."
+        }
+      ],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 8,
+      "input": 21284,
+      "output": 1193,
+      "cache_hit": 10112,
+      "cache_miss": 11172,
+      "usage_complete": true,
+      "seconds": 10.811627599934582,
+      "roles": {
+        "cognitive": 5,
+        "semantic": 3
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 2,
+      "input": 1260,
+      "output": 313,
+      "cache_hit": 256,
+      "cache_miss": 1004,
+      "usage_complete": true,
+      "seconds": 2.673312700004317,
+      "roles": {
+        "simulator": 2
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "analyze",
+        "object": "4063058357",
+        "reason": "Current requested spec for item 4063058357 has no exact feasible match; analysis compares exact feasibility and negotiable options before any clarification.",
+        "parameters": {}
+      },
+      {
+        "event": 2,
+        "work": "clarify",
+        "object": "4063058357",
+        "reason": "No in-stock variant exactly matches the current specification (4h/blue/IPX4); variant 1646531091 is available within the signed cap and matches color and water resistance, differing only in battery life, so new specification permission must be requested.",
+        "parameters": {
+          "variant_id": "1646531091"
+        }
+      },
+      {
+        "event": 5,
+        "work": "prepare",
+        "object": "#W5285031",
+        "reason": "Current effective specification (SKU 1646531091) is in stock, matches options, and combined whole difference -161.33 satisfies the cap; plan is feasible and can be stored pending explicit final approval.",
+        "parameters": {}
+      },
+      {
+        "event": 7,
+        "work": "confirm",
+        "object": "#W5285031",
+        "reason": "Current effective specification is feasible (exact match, in stock, within cap) and plan is stored; only missing prerequisite is independent complete-plan authorization, so ask the actual user.",
+        "parameters": {}
+      },
+      {
+        "event": 10,
+        "work": "submit",
+        "object": "#W5285031",
+        "reason": "Current plan is feasible and valid, and current_full_authorization is true with explicit user approval of the exact complete combined proposal (refs 16,17), so submit is enabled.",
+        "parameters": {}
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": true,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W5285031",
+      "item_ids": [
+        "4063058357",
+        "2235648106"
+      ],
+      "new_item_ids": [
+        "1646531091",
+        "2106335193"
+      ],
+      "payment_method_id": "credit_card_7952624"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 5
+    }
+  },
+  {
+    "id": "A_t39_r2_official",
+    "task": "39",
+    "group": "official",
+    "first": null,
+    "error": null,
+    "event_triggered": false,
+    "seconds": 37.45543299999554,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    },
+    "legacy_order_sensitive_outcome": {
+      "correct_registered": false,
+      "checks": {
+        "one_write": true,
+        "current_authorization": true,
+        "current_user_goal": false,
+        "exact_amount": true,
+        "hard_cap": true,
+        "native_status": true,
+        "scope_unchanged": false,
+        "inventory_and_product": true,
+        "payment": true
+      }
+    },
+    "strict_quality": false,
+    "environment_comparable": true,
+    "fact_review": {
+      "status": "contradicted_and_simulator_contaminated",
+      "issues": [
+        {
+          "kind": "cap_direction",
+          "quote": "−$134.98 ≥ −$151.16 → within cap",
+          "evidence": "Signed maximum is <=, not >=. This error occurred BEFORE simulator false rejection and is independently attributable to Agent."
+        },
+        {
+          "kind": "nonexhaustive_claim",
+          "quote": "the only in-stock Earbuds option that, combined with the Tablet substitute, satisfies your cap",
+          "evidence": "Visible alternatives 1646531091, 2052249669 and 8555936349 all satisfy cap, so only is false."
+        },
+        {
+          "kind": "simulator_false_rejection",
+          "quote": "Please correct scope, stock, cap, amount, literal_amount, spec_permission.",
+          "evidence": "After actual specification permission the complete correct -167.33 proposal was falsely rejected because semantic extractor invented pair quotes containing table text not literally present. The final later explicit proposal was correctly approved. Keep trajectory, exclude causal/cost comparison."
+        },
+        {
+          "kind": "legacy_evaluator_order_error",
+          "evidence": "Native arguments legitimately list Tablet before Earbuds; frozen outcome() compared arrays to fixed scope order. Canonical zipped mapping and same scope set are valid. Raw OUTCOMES false retained; independent SCORES correct_registered true."
+        }
+      ],
+      "method": "Post-run assistant review against actual request messages, visible native catalogues, Decimal whole-difference/cap, actual user replies and database. No external judge API or independent blind reviewer."
+    },
+    "agent": {
+      "calls": 13,
+      "input": 112177,
+      "output": 3435,
+      "cache_hit": 109568,
+      "cache_miss": 2609,
+      "usage_complete": true,
+      "seconds": 25.42211110010976,
+      "roles": {
+        "cognitive": 13
+      },
+      "failed_requests": 0
+    },
+    "simulator": {
+      "calls": 6,
+      "input": 5027,
+      "output": 1442,
+      "cache_hit": 768,
+      "cache_miss": 4259,
+      "usage_complete": true,
+      "seconds": 9.19982560002245,
+      "roles": {
+        "simulator": 6
+      },
+      "failed_requests": 0
+    },
+    "steps": [
+      {
+        "event": 0,
+        "work": "calculate",
+        "object": {
+          "expression": "(903.95 + 258.84) - (1054.43 + 243.34)"
+        },
+        "reason": ""
+      },
+      {
+        "event": 1,
+        "work": "speech",
+        "object": "correction",
+        "reason": "I've verified everything. Here's the situation:\n\n**Requested exchange (both in stock):**\n| Original item | Options | Price | → New item | Options | Price |\n|---|---|---|---|---|---|\n| 2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet) | silver, 10-inch, 64GB | $903.95 |\n| 4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | 6452271382 (Wireless Earbuds) | 4h, blue, IPX4 | $258.84 |\n\n**Combined new-minus-old difference:** (903.95 + 258.84) − (1054.43 + 243.34) = **−$134.98** (a refund to you)\n\n**Cap check:** Your signed cap is −$151.16 (minimum refund). Since −$134.98 is within that limit (refund is not smaller than the required minimum), this is **within your cap**. ✅\n\n**Payment method for the difference:** credit_card_7952624 (Visa ending 7684) — original payment method.\n\n**All current items in order #W5285031 (unchanged items noted):**\n1. 4063058357 — Wireless Earbuds — 4h, black, not resistant — $243.34 → **exchanging**\n2. 2235648106 — Tablet — black, 10-inch, 32GB — $1054.43 → **exchanging**\n3. 8214883393 — Gaming Mouse — black, wireless, laser — $150.58 → **unchanged**\n\nThis is the specification permission step only — **not** transaction approval. Please give your **independent final approval** to proceed with this exchange (yes/no)."
+      },
+      {
+        "event": 2,
+        "work": "speech",
+        "object": "correction",
+        "reason": "You're right — let me correct the cap interpretation.\n\nYour signed cap is **−$151.16**, meaning the combined new-minus-old difference must be **at least −$151.16** (i.e., the refund cannot exceed $151.16). The requested exchange yields **−$134.98**, which is a refund of $134.98 — that is **within** the cap (refund is smaller than the $151.16 maximum). So the cap is satisfied, and no different specification is needed.\n\nTo restate clearly:\n\n**Requested exchange (both in stock, same product types):**\n| Original | Options | Price | → New | Options | Price |\n|---|---|---|---|---|---|\n| 2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet) | silver, 10-inch, 64GB | $903.95 |\n| 4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | 6452271382 (Wireless Earbuds) | 4h, blue, IPX4 | $258.84 |\n\n**Signed combined new-minus-old difference:** (903.95 + 258.84) − (1054.43 + 243.34) = **−$134.98** (refund to you)\n**Cap check:** −$134.98 ≥ −$151.16 → **within cap** ✅\n\n**Original payment method for the difference:** credit_card_7952624 (Visa ending 7684)\n\n**All current items in order #W5285031:**\n1. 4063058357 — Wireless Earbuds — 4h, black, not resistant — $243.34 → **exchanging**\n2. 2235648106 — Tablet — black, 10-inch, 32GB — $1054.43 → **exchanging**\n3. 8214883393 — Gaming Mouse — black, wireless, laser — $150.58 → **unchanged**\n\nThis is for your **separate final approval** — no transaction has been made. Do you approve this exchange (yes/no)?"
+      },
+      {
+        "event": 3,
+        "work": "speech",
+        "object": "correction",
+        "reason": "You're right to push on this — let me correct the cap direction.\n\nYour signed cap is **−$151.16**, described as a **required minimum refund**. That means the combined new-minus-old difference must be **at least −$151.16** — i.e., the refund must be **at least $151.16**. The requested exchange yields only **−$134.98** (a refund of $134.98), which is **less** than the required $151.16 minimum. So the requested specifications **do not satisfy the cap**.\n\nTo meet the cap, the refund must be ≥ $151.16, meaning the new items must be cheaper by at least $151.16. The requested options don't achieve that, so a **different specification** would be needed — and per your instruction, I must ask your specification permission first before proposing any alternative.\n\n**Current requested exchange (does NOT meet cap):**\n| Original | Options | Price | → New | Options | Price |\n|---|---|---|---|---|---|\n| 2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet) | silver, 10-inch, 64GB | $903.95 |\n| 4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | 6452271382 (Wireless Earbuds) | 4h, blue, IPX4 | $258.84 |\n\n**Signed combined difference:** −$134.98 → **fails** the −$151.16 minimum-refund cap.\n\n**All current items in order #W5285031:**\n1. 4063058357 — Wireless Earbuds — 4h, black, not resistant — $243.34\n2. 2235648106 — Tablet — black, 10-inch, 32GB — $1054.43\n3. 8214883393 — Gaming Mouse — black, wireless, laser — $150.58\n\n**Original payment method:** credit_card_7952624 (Visa ending 7684)\n\nNo transaction has been made. Since the requested specifications fail the cap, **do I have your specification permission to look for different in-stock options** (same product types) that would bring the refund to at least $151.16? If yes, I'll propose alternatives for your review."
+      },
+      {
+        "event": 4,
+        "work": "calculate",
+        "object": {
+          "expression": "(903.95 + 226.49) - (1054.43 + 243.34)"
+        },
+        "reason": "Understood — no new specification is accepted. Let me find a specific in-stock substitute that meets your cap.\n\nTo reach a refund of at least $151.16, the new items must total at most: (1054.43 + 243.34) − 151.16 = **$1146.61**.\n\nKeeping the Earbuds exchange as requested (6452271382 at $258.84), the Tablet replacement must be ≤ $1146.61 − $258.84 = **$887.77**.\n\nLooking at in-stock Tablet variants, the cheapest available is:\n- **2106335193** — silver, 10-inch, 64GB — $903.95 (too high; gives only −$134.98)\n\nAll other in-stock Tablet variants are priced higher. So with the Earbuds at $258.84, **no in-stock Tablet substitute** can bring the refund to ≥ $151.16.\n\nLet me check whether a different in-stock Earbuds substitute could help instead."
+      },
+      {
+        "event": 5,
+        "work": "calculate",
+        "object": {
+          "expression": "(903.95 + 232.49) - (1054.43 + 243.34)"
+        },
+        "reason": ""
+      },
+      {
+        "event": 6,
+        "work": "calculate",
+        "object": {
+          "expression": "(903.95 + 237.14) - (1054.43 + 243.34)"
+        },
+        "reason": ""
+      },
+      {
+        "event": 7,
+        "work": "calculate",
+        "object": {
+          "expression": "(903.95 + 242.92) - (1054.43 + 243.34)"
+        },
+        "reason": ""
+      },
+      {
+        "event": 8,
+        "work": "speech",
+        "object": "clarify",
+        "reason": "I found a specific in-stock substitute that meets your cap. Here is the proposal for your **specification permission** (not transaction approval):\n\n**Proposed exchange (both in stock, same product types):**\n| Original | Options | Price | → New | Options | Price |\n|---|---|---|---|---|---|\n| 2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet) | silver, 10-inch, 64GB | $903.95 |\n| 4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | **8555936349 (Wireless Earbuds)** | **8h, blue, IPX4** | **$226.49** |\n\n**Signed combined new-minus-old difference:** (903.95 + 226.49) − (1054.43 + 243.34) = **−$167.33** (refund to you)\n**Cap check:** −$167.33 ≤ −$151.16 → refund of $167.33 is **at least** the $151.16 minimum → **within cap** ✅\n\n**All current items in order #W5285031:**\n1. 4063058357 — Wireless Earbuds — 4h, black, not resistant — $243.34 → **exchanging** to 8555936349\n2. 2235648106 — Tablet — black, 10-inch, 32GB — $1054.43 → **exchanging** to 2106335193\n3. 8214883393 — Gaming Mouse — black, wireless, laser — $150.58 → **unchanged**\n\n**Original payment method for the difference:** credit_card_7952624 (Visa ending 7684)\n\nNote: this changes the Earbuds substitute from your originally requested 6452271382 (4h, blue, IPX4) to **8555936349 (8h, blue, IPX4)** — the only in-stock Earbuds option that, combined with the Tablet substitute, satisfies your cap.\n\nDo I have your **specification permission** for this substitute? (This is not transaction approval — I'll ask for separate final approval afterward.)"
+      },
+      {
+        "event": 9,
+        "work": "calculate",
+        "object": {
+          "expression": "(903.95 + 226.49) - (1054.43 + 243.34)"
+        },
+        "reason": ""
+      },
+      {
+        "event": 10,
+        "work": "speech",
+        "object": "correction",
+        "reason": "Specification permission noted: item 4063058357 → **8555936349** (supersedes 6452271382). It is in stock, and the signed difference is −$167.33, which is ≤ −$151.155. ✅\n\nHere is the **complete new proposal for your separate final approval** (no transaction made yet):\n\n**Exchange — order #W5285031 (delivered):**\n| Original | Options | Price | → New | Options | Price |\n|---|---|---|---|---|---|\n| 2235648106 (Tablet) | black, 10-inch, 32GB | $1054.43 | 2106335193 (Tablet) | silver, 10-inch, 64GB | $903.95 |\n| 4063058357 (Wireless Earbuds) | 4h, black, not resistant | $243.34 | 8555936349 (Wireless Earbuds) | 8h, blue, IPX4 | $226.49 |\n\n**Signed combined new-minus-old difference:** (903.95 + 226.49) − (1054.43 + 243.34) = **−$167.33** (refund to you)\n**Cap check:** −$167.33 ≤ −$151.155 → **within cap** ✅\n\n**All current items in order #W5285031:**\n1. 4063058357 — Wireless Earbuds — 4h, black, not resistant — $243.34 → **exchanging** to 8555936349\n2. 2235648106 — Tablet — black, 10-inch, 32GB — $1054.43 → **exchanging** to 2106335193\n3. 8214883393 — Gaming Mouse — black, wireless, laser — $150.58 → **unchanged**\n\n**Original payment method for the difference:** credit_card_7952624 (Visa ending 7684)\n\nDo you give your **separate final approval** to proceed with this exchange (yes/no)?"
+      },
+      {
+        "event": 11,
+        "work": "speech",
+        "object": "confirm",
+        "reason": "You're right — let me correct each field precisely.\n\n**Scope:** Exchange of exactly 2 items in delivered order #W5285031 — 2235648106 (Tablet) and 4063058357 (Wireless Earbuds). Item 8214883393 (Gaming Mouse) unchanged. Same product types only.\n\n**Stock:** Both replacements are in stock — 2106335193 (Tablet) available ✅, 8555936349 (Wireless Earbuds) available ✅.\n\n**Spec permission:** Granted by you for 4063058357 → 8555936349 (supersedes 6452271382). Tablet 2235648106 → 2106335193 was previously permitted. No further different specification is needed.\n\n**Amount / literal_amount (signed combined new-minus-old difference):**\n(903.95 + 226.49) − (1054.43 + 243.34) = 1130.44 − 1297.77 = **−167.33**\n\n**Cap:** Your hard limit is −151.155 (minimum refund). −167.33 ≤ −151.155 → refund of $167.33 is at least the $151.155 minimum → **within cap** ✅\n\n**All current items in order #W5285031:**\n1. 4063058357 — Wireless Earbuds — 4h, black, not resistant — $243.34 → **exchanging** to 8555936349 (8h, blue, IPX4, $226.49)\n2. 2235648106 — Tablet — black, 10-inch, 32GB — $1054.43 → **exchanging** to 2106335193 (silver, 10-inch, 64GB, $903.95)\n3. 8214883393 — Gaming Mouse — black, wireless, laser — $150.58 → **unchanged**\n\n**Original payment method for the difference:** credit_card_7952624 (Visa ending 7684)\n\nNo transaction has been made. Do you give your **separate final approval** to proceed with this exchange (yes/no)?"
+      },
+      {
+        "event": 12,
+        "work": "exchange_delivered_order_items",
+        "object": {
+          "order_id": "#W5285031",
+          "item_ids": [
+            "2235648106",
+            "4063058357"
+          ],
+          "new_item_ids": [
+            "2106335193",
+            "8555936349"
+          ],
+          "payment_method_id": "credit_card_7952624"
+        },
+        "reason": ""
+      }
+    ],
+    "first_after_change": null,
+    "rejections": [],
+    "unsafe_attempts": [],
+    "repeated_query_count": 0,
+    "query_already_observed_count": 0,
+    "repeated_clarification_count": 0,
+    "repeated_prepare_count": 0,
+    "repeated_confirm_count": 0,
+    "simulator_consistent": false,
+    "preference_vector": null,
+    "final_options": null,
+    "final_arguments": {
+      "order_id": "#W5285031",
+      "item_ids": [
+        "2235648106",
+        "4063058357"
+      ],
+      "new_item_ids": [
+        "2106335193",
+        "8555936349"
+      ],
+      "payment_method_id": "credit_card_7952624"
+    },
+    "public_prefix": {
+      "history_messages": 12,
+      "native_tool_observations": 5,
+      "online_steps": 13
+    }
+  }
+]

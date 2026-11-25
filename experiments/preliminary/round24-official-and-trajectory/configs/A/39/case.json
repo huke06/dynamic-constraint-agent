@@ -1,0 +1,406 @@
+{
+  "task_id": "39",
+  "tier": "controlled_exchange",
+  "order_id": "#W5285031",
+  "user_id": "fatima_taylor_3452",
+  "scope": [
+    "4063058357",
+    "2235648106"
+  ],
+  "targets": {
+    "4063058357": "6452271382",
+    "2235648106": "2106335193"
+  },
+  "initial_options": {
+    "4063058357": {
+      "color": "blue",
+      "battery life": "4 hours",
+      "water resistance": "IPX4"
+    },
+    "2235648106": {
+      "screen size": "10-inch",
+      "storage": "64GB",
+      "color": "silver"
+    }
+  },
+  "payment_method_id": "credit_card_7952624",
+  "initial_catalogues": true,
+  "change_type": "none",
+  "environment": {
+    "orders": {
+      "#W5285031": {
+        "order_id": "#W5285031",
+        "user_id": "fatima_taylor_3452",
+        "address": {
+          "address1": "157 Oak Street",
+          "address2": "Suite 258",
+          "city": "Phoenix",
+          "country": "USA",
+          "state": "AZ",
+          "zip": "85033"
+        },
+        "items": [
+          {
+            "name": "Wireless Earbuds",
+            "product_id": "9924732112",
+            "item_id": "4063058357",
+            "price": 243.34,
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            }
+          },
+          {
+            "name": "Tablet",
+            "product_id": "8024098596",
+            "item_id": "2235648106",
+            "price": 1054.43,
+            "options": {
+              "screen size": "10-inch",
+              "storage": "32GB",
+              "color": "black"
+            }
+          },
+          {
+            "name": "Gaming Mouse",
+            "product_id": "5713490933",
+            "item_id": "8214883393",
+            "price": 150.58,
+            "options": {
+              "color": "black",
+              "sensor type": "laser",
+              "connectivity": "wireless"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "517174610452"
+            ],
+            "item_ids": [
+              "4063058357",
+              "2235648106",
+              "8214883393"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1448.35,
+            "payment_method_id": "credit_card_7952624"
+          }
+        ]
+      }
+    },
+    "users": {
+      "fatima_taylor_3452": {
+        "user_id": "fatima_taylor_3452",
+        "name": {
+          "first_name": "Fatima",
+          "last_name": "Taylor"
+        },
+        "address": {
+          "address1": "922 Pine Lane",
+          "address2": "Suite 395",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32169"
+        },
+        "email": "fatima.taylor7676@example.com",
+        "payment_methods": {
+          "credit_card_7952624": {
+            "source": "credit_card",
+            "id": "credit_card_7952624",
+            "brand": "visa",
+            "last_four": "7684"
+          }
+        },
+        "orders": [
+          "#W5285031"
+        ]
+      }
+    },
+    "products": {
+      "9924732112": {
+        "name": "Wireless Earbuds",
+        "product_id": "9924732112",
+        "variants": {
+          "9580569596": {
+            "item_id": "9580569596",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": true,
+            "price": 257.38
+          },
+          "2499294441": {
+            "item_id": "2499294441",
+            "options": {
+              "color": "black",
+              "battery life": "8 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.36
+          },
+          "1646531091": {
+            "item_id": "1646531091",
+            "options": {
+              "color": "blue",
+              "battery life": "6 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 232.49
+          },
+          "8555936349": {
+            "item_id": "8555936349",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 226.49
+          },
+          "5565631513": {
+            "item_id": "5565631513",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 267.9
+          },
+          "6077640618": {
+            "item_id": "6077640618",
+            "options": {
+              "color": "blue",
+              "battery life": "8 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 242.92
+          },
+          "9270970345": {
+            "item_id": "9270970345",
+            "options": {
+              "color": "black",
+              "battery life": "6 hours",
+              "water resistance": "not resistant"
+            },
+            "available": false,
+            "price": 259.03
+          },
+          "4063058357": {
+            "item_id": "4063058357",
+            "options": {
+              "color": "black",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 243.34
+          },
+          "3694871183": {
+            "item_id": "3694871183",
+            "options": {
+              "color": "white",
+              "battery life": "8 hours",
+              "water resistance": "IPX4"
+            },
+            "available": false,
+            "price": 256.67
+          },
+          "6452271382": {
+            "item_id": "6452271382",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX4"
+            },
+            "available": true,
+            "price": 258.84
+          },
+          "2052249669": {
+            "item_id": "2052249669",
+            "options": {
+              "color": "white",
+              "battery life": "4 hours",
+              "water resistance": "not resistant"
+            },
+            "available": true,
+            "price": 237.14
+          },
+          "2757705742": {
+            "item_id": "2757705742",
+            "options": {
+              "color": "blue",
+              "battery life": "4 hours",
+              "water resistance": "IPX7"
+            },
+            "available": false,
+            "price": 258.97
+          }
+        }
+      },
+      "8024098596": {
+        "name": "Tablet",
+        "product_id": "8024098596",
+        "variants": {
+          "3788616824": {
+            "item_id": "3788616824",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 951.21
+          },
+          "2235648106": {
+            "item_id": "2235648106",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "32GB",
+              "color": "black"
+            },
+            "available": true,
+            "price": 1054.43
+          },
+          "7535423717": {
+            "item_id": "7535423717",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 904.46
+          },
+          "2106335193": {
+            "item_id": "2106335193",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 903.95
+          },
+          "6501071631": {
+            "item_id": "6501071631",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 1018.68
+          },
+          "2633090267": {
+            "item_id": "2633090267",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 1046.33
+          },
+          "4803681337": {
+            "item_id": "4803681337",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "64GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 962.34
+          },
+          "6065192424": {
+            "item_id": "6065192424",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 989.7
+          },
+          "7187199153": {
+            "item_id": "7187199153",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": false,
+            "price": 983.62
+          },
+          "4913411651": {
+            "item_id": "4913411651",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "128GB",
+              "color": "black"
+            },
+            "available": true,
+            "price": 941.03
+          },
+          "8551474201": {
+            "item_id": "8551474201",
+            "options": {
+              "screen size": "8-inch",
+              "storage": "64GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 938.92
+          },
+          "4615543240": {
+            "item_id": "4615543240",
+            "options": {
+              "screen size": "7-inch",
+              "storage": "32GB",
+              "color": "silver"
+            },
+            "available": true,
+            "price": 1042.93
+          },
+          "6948061616": {
+            "item_id": "6948061616",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "gold"
+            },
+            "available": true,
+            "price": 950.96
+          },
+          "4131464125": {
+            "item_id": "4131464125",
+            "options": {
+              "screen size": "10-inch",
+              "storage": "128GB",
+              "color": "silver"
+            },
+            "available": false,
+            "price": 960.67
+          }
+        }
+      }
+    }
+  },
+  "initial_message": "I am fatima_taylor_3452, email fatima.taylor7676@example.com. In delivered order #W5285031 exchange ONLY original-to-replacement mapping {\"2235648106\":\"2106335193\",\"4063058357\":\"6452271382\"}, options {\"2235648106\":{\"color\":\"silver\",\"screen size\":\"10-inch\",\"storage\":\"64GB\"},\"4063058357\":{\"battery life\":\"4 hours\",\"color\":\"blue\",\"water resistance\":\"IPX4\"}}. Other items stay unchanged. Use original payment credit_card_7952624. These specifications are permitted only if in stock and within my signed whole-amount cap. Different specifications need new permission. After that, show ALL current items, exact combined new-minus-old difference and original payment for independent final approval. Initial preferences are negotiable; stock, cap, scope and separate final approval are hard.",
+  "cap": "-151.155",
+  "adaptation": "Untouched original task39 is identity/address business; controlled two-item exchange subtask of its delivered order. This is not official-task success. No task39 model debugging before formal batch."
+}

@@ -1,0 +1,5 @@
+{
+  "file": "D:\\experimentn\\tau2-official\\src\\tau2\\agent\\llm_agent.py",
+  "sha256": "f877698c0a5950630f6b005d999ca0e5e5cd6d5f659260cfd2c8cd7dc6b3885f",
+  "loop": "unmodified LLMAgent.generate_next_message; completion transport patched only; native tools unchanged"
+}

@@ -1,0 +1,279 @@
+[
+  {
+    "reply": "I have not approved this transaction. Please correct cap. If a different specification is needed, ask my specification permission first. Then show all current items, correct signed combined difference and original payment for separate final approval.",
+    "user_ref": 13,
+    "kind": "correction",
+    "approved": false,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": false,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Please confirm you want me to proceed with this exchange (yes/no).",
+      "pairs": [
+        {
+          "item_id": "6439196450",
+          "new_item_id": "3616838507",
+          "quote": "6439196450 → 3616838507"
+        },
+        {
+          "item_id": "8725040869",
+          "new_item_id": "7523669277",
+          "quote": "8725040869 → 7523669277"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "6439196450",
+          "variant_id": "3616838507",
+          "quote": "3616838507"
+        },
+        {
+          "item_id": "8725040869",
+          "variant_id": "7523669277",
+          "quote": "7523669277"
+        }
+      ],
+      "difference": -27.65,
+      "amount_quote": "−$27.65",
+      "payment_method_id": "paypal_3820631",
+      "payment_quote": "original payment — paypal_3820631",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  },
+  {
+    "reply": "I have not approved this transaction. Please correct cap. If a different specification is needed, ask my specification permission first. Then show all current items, correct signed combined difference and original payment for separate final approval.",
+    "user_ref": 15,
+    "kind": "correction",
+    "approved": false,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": false,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give your final approval to proceed with this exchange? (yes/no)",
+      "pairs": [
+        {
+          "item_id": "6439196450",
+          "new_item_id": "3616838507",
+          "quote": "6439196450 → 3616838507"
+        },
+        {
+          "item_id": "8725040869",
+          "new_item_id": "7523669277",
+          "quote": "8725040869 → 7523669277"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "6439196450",
+          "variant_id": "3616838507",
+          "quote": "3616838507"
+        },
+        {
+          "item_id": "8725040869",
+          "variant_id": "7523669277",
+          "quote": "7523669277"
+        }
+      ],
+      "difference": -27.65,
+      "amount_quote": "−$27.65",
+      "payment_method_id": "paypal_3820631",
+      "payment_quote": "paypal_3820631",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  },
+  {
+    "reply": "I have not approved this transaction. Please correct cap. If a different specification is needed, ask my specification permission first. Then show all current items, correct signed combined difference and original payment for separate final approval.",
+    "user_ref": 17,
+    "kind": "correction",
+    "approved": false,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": false,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "do you give final approval to proceed? (yes/no)",
+      "pairs": [
+        {
+          "item_id": "6439196450",
+          "new_item_id": "3616838507",
+          "quote": "6439196450 → 3616838507"
+        },
+        {
+          "item_id": "8725040869",
+          "new_item_id": "7523669277",
+          "quote": "8725040869 → 7523669277"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "6439196450",
+          "variant_id": "3616838507",
+          "quote": "3616838507"
+        },
+        {
+          "item_id": "8725040869",
+          "variant_id": "7523669277",
+          "quote": "7523669277"
+        }
+      ],
+      "difference": -27.65,
+      "amount_quote": "−$27.65",
+      "payment_method_id": "paypal_3820631",
+      "payment_quote": "paypal_3820631",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  },
+  {
+    "reply": "I have not accepted any new specification. Please ask about a specific observed in-stock substitute within my hard whole-amount limit. Keep the other items unchanged.",
+    "user_ref": 19,
+    "kind": "correction",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "Does your cap of −56.10 mean the refund must be no larger than $56.10 (i.e., difference ≥ −56.10), or must be at least $56.10 (i.e., difference ≤ −56.10)?",
+      "pairs": [
+        {
+          "item_id": "6439196450",
+          "new_item_id": "3616838507",
+          "quote": "6439196450 → 3616838507"
+        },
+        {
+          "item_id": "8725040869",
+          "new_item_id": "7523669277",
+          "quote": "8725040869 → 7523669277"
+        }
+      ],
+      "offers": [],
+      "difference": -27.65,
+      "amount_quote": "−$27.65",
+      "payment_method_id": "paypal_3820631",
+      "payment_quote": "paypal_3820631",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "Replace my CURRENT request for original item 8725040869 with SKU 6700049080, if in stock and whole signed difference <= -56.105. This supersedes the previous requested SKU for this item. Other items stay as agreed. This is specification permission only; show the complete new proposal for separate final approval.",
+    "user_ref": 21,
+    "kind": "clarify",
+    "approved": false,
+    "extraction": {
+      "kind": "clarification",
+      "asks": true,
+      "question_quote": "Do you give your **specification permission** for this substitute (camera → 9391733462, silver / 4K / no)?",
+      "pairs": [
+        {
+          "item_id": "6439196450",
+          "new_item_id": "3616838507",
+          "quote": "Keyboard 6439196450 → **3616838507**"
+        },
+        {
+          "item_id": "8725040869",
+          "new_item_id": "9391733462",
+          "quote": "Camera 8725040869 → **9391733462**"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "8725040869",
+          "variant_id": "6700049080",
+          "quote": "**6700049080** — Action Camera"
+        },
+        {
+          "item_id": "8725040869",
+          "variant_id": "6117189161",
+          "quote": "**6117189161** — Action Camera"
+        },
+        {
+          "item_id": "8725040869",
+          "variant_id": "9391733462",
+          "quote": "**9391733462** — Action Camera"
+        }
+      ],
+      "difference": -30.24,
+      "amount_quote": "**Combined difference: −$30.24**",
+      "payment_method_id": null,
+      "payment_quote": null,
+      "stop_quote": null
+    },
+    "accepted_offer": "6700049080",
+    "program_resolved_original_item": "8725040869",
+    "extracted_original_item": "8725040869"
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 25,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give your **final approval** to proceed with this exchange? (yes/no)",
+      "pairs": [
+        {
+          "item_id": "6439196450",
+          "new_item_id": "3616838507",
+          "quote": "6439196450 → **3616838507**"
+        },
+        {
+          "item_id": "8725040869",
+          "new_item_id": "6700049080",
+          "quote": "8725040869 → **6700049080**"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "6439196450",
+          "variant_id": "3616838507",
+          "quote": "3616838507"
+        },
+        {
+          "item_id": "8725040869",
+          "variant_id": "6700049080",
+          "quote": "6700049080"
+        }
+      ],
+      "difference": -84.56,
+      "amount_quote": "**−$84.56**",
+      "payment_method_id": "paypal_3820631",
+      "payment_quote": "paypal_3820631",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  }
+]

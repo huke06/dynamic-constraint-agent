@@ -1,0 +1,20 @@
+{
+  "official": {
+    "calls": 22,
+    "input": 163390,
+    "output": 3742,
+    "cache_hit": 156928,
+    "cache_miss": 6462,
+    "seconds": 57.579926400096156,
+    "wall_seconds": 81.63522479997482
+  },
+  "framework": {
+    "calls": 40,
+    "input": 118738,
+    "output": 4475,
+    "cache_hit": 77568,
+    "cache_miss": 41170,
+    "seconds": 72.89052669989178,
+    "wall_seconds": 99.96112279995577
+  }
+}

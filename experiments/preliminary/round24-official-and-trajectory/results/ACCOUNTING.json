@@ -1,0 +1,173 @@
+{
+  "phases": {
+    "pilot01": {
+      "agent": {
+        "calls": 22,
+        "input": 106174,
+        "output": 3056,
+        "cache_hit": 81152,
+        "cache_miss": 25022,
+        "usage_complete": true,
+        "seconds": 35.032911400077865,
+        "roles": {
+          "cognitive": 18,
+          "semantic": 4
+        },
+        "failed_requests": 0
+      },
+      "simulator": {
+        "calls": 10,
+        "input": 5540,
+        "output": 1953,
+        "cache_hit": 1152,
+        "cache_miss": 4388,
+        "usage_complete": true,
+        "seconds": 13.167699399986304,
+        "roles": {
+          "simulator": 10
+        },
+        "failed_requests": 0
+      }
+    },
+    "pilot02": {
+      "agent": {
+        "calls": 22,
+        "input": 105756,
+        "output": 3221,
+        "cache_hit": 86656,
+        "cache_miss": 19100,
+        "usage_complete": true,
+        "seconds": 35.33859409991419,
+        "roles": {
+          "cognitive": 18,
+          "semantic": 4
+        },
+        "failed_requests": 0
+      },
+      "simulator": {
+        "calls": 9,
+        "input": 5785,
+        "output": 1448,
+        "cache_hit": 2304,
+        "cache_miss": 3481,
+        "usage_complete": true,
+        "seconds": 9.799548200157005,
+        "roles": {
+          "simulator": 9
+        },
+        "failed_requests": 0
+      }
+    },
+    "pilot03": {
+      "agent": {
+        "calls": 6,
+        "input": 25697,
+        "output": 768,
+        "cache_hit": 19712,
+        "cache_miss": 5985,
+        "usage_complete": true,
+        "seconds": 10.564808600000106,
+        "roles": {
+          "cognitive": 5,
+          "semantic": 1
+        },
+        "failed_requests": 0
+      },
+      "simulator": {
+        "calls": 2,
+        "input": 1158,
+        "output": 305,
+        "cache_hit": 512,
+        "cache_miss": 646,
+        "usage_complete": true,
+        "seconds": 2.6333935000002384,
+        "roles": {
+          "simulator": 2
+        },
+        "failed_requests": 0
+      }
+    },
+    "A01": {
+      "agent": {
+        "calls": 97,
+        "input": 495502,
+        "output": 15212,
+        "cache_hit": 410624,
+        "cache_miss": 84878,
+        "usage_complete": true,
+        "seconds": 145.31063730013557,
+        "roles": {
+          "cognitive": 80,
+          "semantic": 17
+        },
+        "failed_requests": 0
+      },
+      "simulator": {
+        "calls": 38,
+        "input": 25284,
+        "output": 7264,
+        "cache_hit": 8192,
+        "cache_miss": 17092,
+        "usage_complete": true,
+        "seconds": 57.25733229989419,
+        "roles": {
+          "simulator": 38
+        },
+        "failed_requests": 0
+      }
+    },
+    "B01": {
+      "agent": {
+        "calls": 74,
+        "input": 213454,
+        "output": 12068,
+        "cache_hit": 104192,
+        "cache_miss": 109262,
+        "usage_complete": true,
+        "seconds": 109.96203129988862,
+        "roles": {
+          "semantic": 30,
+          "cognitive": 44
+        },
+        "failed_requests": 0
+      },
+      "simulator": {
+        "calls": 24,
+        "input": 14920,
+        "output": 3853,
+        "cache_hit": 8192,
+        "cache_miss": 6728,
+        "usage_complete": true,
+        "seconds": 32.19419609993929,
+        "roles": {
+          "simulator": 24
+        },
+        "failed_requests": 0
+      }
+    }
+  },
+  "all_requests": 304,
+  "models": {
+    "deepseek-flash": 304
+  },
+  "unknown_usage_requests": 0,
+  "external_judge_calls": 0,
+  "orchestration_chat_cost": "unknown, excluded",
+  "equal_full_paired_starts": {
+    "A_t80_r1_official": true,
+    "A_t80_r2_official": true,
+    "A_t23_r1_official": true,
+    "A_t23_r2_official": true,
+    "A_t29_r1_official": true,
+    "A_t29_r2_official": true,
+    "A_t39_r1_official": true,
+    "A_t39_r2_official": true,
+    "B_26_capacity_r1_analyze": true,
+    "B_26_capacity_r2_analyze": true,
+    "B_26_appearance_r1_analyze": true,
+    "B_26_appearance_r2_analyze": true,
+    "B_35_waterproof_r1_analyze": true,
+    "B_35_waterproof_r2_analyze": true
+  },
+  "freezes_verified": true
+}

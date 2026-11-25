@@ -1,0 +1,466 @@
+{
+  "task_id": "29",
+  "tier": "dynamic",
+  "stage": "stage2",
+  "order_id": "#W7181492",
+  "user_id": "isabella_johansson_2152",
+  "scope": [
+    "5753502325",
+    "8118291112"
+  ],
+  "targets": {
+    "5753502325": "5206946487",
+    "8118291112": "8277474082"
+  },
+  "initial_options": {
+    "5753502325": {
+      "length": "50ft",
+      "material": "vinyl",
+      "color": "black"
+    },
+    "8118291112": {
+      "size": "12",
+      "material": "leather",
+      "waterproof": "yes"
+    }
+  },
+  "payment_method_id": "paypal_3024827",
+  "change_type": "requirement",
+  "changed_item": "5753502325",
+  "changed_target": "8481719475",
+  "change_message": "Before submission, change the Garden Hose (original item 5753502325) to item 8481719475 with options {\"length\": \"100ft\", \"material\": \"latex\", \"color\": \"blue\"}, if in stock. Keep the other exchange items and original payment unchanged. My old approval does not authorize the new complete proposal; ask for new final approval.",
+  "initial_message": "I am isabella_johansson_2152; email isabella.johansson9391@example.com. In delivered order #W7181492, exchange ONLY these items in one complete request: [{\"item_id\": \"5753502325\", \"name\": \"Garden Hose\", \"requested_variant\": \"5206946487\", \"options\": {\"length\": \"50ft\", \"material\": \"vinyl\", \"color\": \"black\"}}, {\"item_id\": \"8118291112\", \"name\": \"Hiking Boots\", \"requested_variant\": \"8277474082\", \"options\": {\"size\": \"12\", \"material\": \"leather\", \"waterproof\": \"yes\"}}]. Keep every other item and order unchanged. Use original payment paypal_3024827. I accept each named specification only if it is in stock; if unavailable ask before using a different specification. This is specification permission, not transaction approval. Show the complete combined proposal, net difference and payment, then ask for my approval.",
+  "initial_catalogues": true,
+  "environment": {
+    "orders": {
+      "#W7181492": {
+        "order_id": "#W7181492",
+        "user_id": "isabella_johansson_2152",
+        "address": {
+          "address1": "313 Chestnut Street",
+          "address2": "Suite 537",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32286"
+        },
+        "items": [
+          {
+            "name": "Garden Hose",
+            "product_id": "6679515468",
+            "item_id": "5753502325",
+            "price": 96.35,
+            "options": {
+              "length": "25ft",
+              "material": "rubber",
+              "color": "green"
+            }
+          },
+          {
+            "name": "Backpack",
+            "product_id": "2524789262",
+            "item_id": "9851293632",
+            "price": 193.38,
+            "options": {
+              "color": "green",
+              "size": "small",
+              "material": "polyester",
+              "compartment": "camera"
+            }
+          },
+          {
+            "name": "Bookshelf",
+            "product_id": "8600330539",
+            "item_id": "3778705663",
+            "price": 473.48,
+            "options": {
+              "material": "metal",
+              "color": "black",
+              "height": "6 ft"
+            }
+          },
+          {
+            "name": "Hiking Boots",
+            "product_id": "7363354090",
+            "item_id": "8118291112",
+            "price": 260.56,
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            }
+          },
+          {
+            "name": "Coffee Maker",
+            "product_id": "7996920482",
+            "item_id": "3020722515",
+            "price": 238.64,
+            "options": {
+              "color": "black",
+              "capacity": "1 cup",
+              "type": "french press",
+              "features": "auto shutoff"
+            }
+          }
+        ],
+        "status": "delivered",
+        "fulfillments": [
+          {
+            "tracking_id": [
+              "418708581751"
+            ],
+            "item_ids": [
+              "5753502325",
+              "9851293632",
+              "3778705663",
+              "8118291112",
+              "3020722515"
+            ]
+          }
+        ],
+        "payment_history": [
+          {
+            "transaction_type": "payment",
+            "amount": 1262.41,
+            "payment_method_id": "paypal_3024827"
+          }
+        ]
+      }
+    },
+    "users": {
+      "isabella_johansson_2152": {
+        "user_id": "isabella_johansson_2152",
+        "name": {
+          "first_name": "Isabella",
+          "last_name": "Johansson"
+        },
+        "address": {
+          "address1": "313 Chestnut Street",
+          "address2": "Suite 537",
+          "city": "Jacksonville",
+          "country": "USA",
+          "state": "FL",
+          "zip": "32286"
+        },
+        "email": "isabella.johansson9391@example.com",
+        "payment_methods": {
+          "paypal_3024827": {
+            "source": "paypal",
+            "id": "paypal_3024827"
+          }
+        },
+        "orders": [
+          "#W3792453",
+          "#W7181492",
+          "#W5565470",
+          "#W2575533"
+        ]
+      }
+    },
+    "products": {
+      "6679515468": {
+        "name": "Garden Hose",
+        "product_id": "6679515468",
+        "variants": {
+          "5753502325": {
+            "item_id": "5753502325",
+            "options": {
+              "length": "25ft",
+              "material": "rubber",
+              "color": "green"
+            },
+            "available": false,
+            "price": 96.35
+          },
+          "8249784860": {
+            "item_id": "8249784860",
+            "options": {
+              "length": "50ft",
+              "material": "vinyl",
+              "color": "green"
+            },
+            "available": false,
+            "price": 96.42
+          },
+          "8481719475": {
+            "item_id": "8481719475",
+            "options": {
+              "length": "100ft",
+              "material": "latex",
+              "color": "blue"
+            },
+            "available": true,
+            "price": 98.61
+          },
+          "9829827210": {
+            "item_id": "9829827210",
+            "options": {
+              "length": "25ft",
+              "material": "vinyl",
+              "color": "blue"
+            },
+            "available": true,
+            "price": 90.43
+          },
+          "1518544029": {
+            "item_id": "1518544029",
+            "options": {
+              "length": "100ft",
+              "material": "rubber",
+              "color": "black"
+            },
+            "available": false,
+            "price": 95.39
+          },
+          "3369928769": {
+            "item_id": "3369928769",
+            "options": {
+              "length": "25ft",
+              "material": "vinyl",
+              "color": "green"
+            },
+            "available": true,
+            "price": 97.35
+          },
+          "4024196380": {
+            "item_id": "4024196380",
+            "options": {
+              "length": "50ft",
+              "material": "latex",
+              "color": "black"
+            },
+            "available": true,
+            "price": 102.9
+          },
+          "4764314102": {
+            "item_id": "4764314102",
+            "options": {
+              "length": "50ft",
+              "material": "rubber",
+              "color": "green"
+            },
+            "available": false,
+            "price": 96.51
+          },
+          "3230708338": {
+            "item_id": "3230708338",
+            "options": {
+              "length": "25ft",
+              "material": "latex",
+              "color": "green"
+            },
+            "available": true,
+            "price": 99.51
+          },
+          "5206946487": {
+            "item_id": "5206946487",
+            "options": {
+              "length": "50ft",
+              "material": "vinyl",
+              "color": "black"
+            },
+            "available": true,
+            "price": 95.08
+          }
+        }
+      },
+      "7363354090": {
+        "name": "Hiking Boots",
+        "product_id": "7363354090",
+        "variants": {
+          "1615379700": {
+            "item_id": "1615379700",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 253.89
+          },
+          "8106223139": {
+            "item_id": "8106223139",
+            "options": {
+              "size": "9",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 249.12
+          },
+          "2658930189": {
+            "item_id": "2658930189",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 241.68
+          },
+          "3812493782": {
+            "item_id": "3812493782",
+            "options": {
+              "size": "7",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 244.34
+          },
+          "2648909398": {
+            "item_id": "2648909398",
+            "options": {
+              "size": "8",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 240.87
+          },
+          "4582956489": {
+            "item_id": "4582956489",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 241.96
+          },
+          "7228247242": {
+            "item_id": "7228247242",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 251.38
+          },
+          "2185126308": {
+            "item_id": "2185126308",
+            "options": {
+              "size": "10",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 241.9
+          },
+          "6159919747": {
+            "item_id": "6159919747",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 259.75
+          },
+          "1437889264": {
+            "item_id": "1437889264",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 258.09
+          },
+          "8277474082": {
+            "item_id": "8277474082",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "yes"
+            },
+            "available": true,
+            "price": 236.57
+          },
+          "6546364613": {
+            "item_id": "6546364613",
+            "options": {
+              "size": "11",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 231.43
+          },
+          "1262139877": {
+            "item_id": "1262139877",
+            "options": {
+              "size": "7",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.99
+          },
+          "6595128475": {
+            "item_id": "6595128475",
+            "options": {
+              "size": "9",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 237.65
+          },
+          "5676696062": {
+            "item_id": "5676696062",
+            "options": {
+              "size": "11",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 245.99
+          },
+          "4694984344": {
+            "item_id": "4694984344",
+            "options": {
+              "size": "12",
+              "material": "synthetic",
+              "waterproof": "yes"
+            },
+            "available": false,
+            "price": 239.78
+          },
+          "3613716226": {
+            "item_id": "3613716226",
+            "options": {
+              "size": "8",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": true,
+            "price": 253.54
+          },
+          "8118291112": {
+            "item_id": "8118291112",
+            "options": {
+              "size": "12",
+              "material": "leather",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 260.56
+          },
+          "4127323219": {
+            "item_id": "4127323219",
+            "options": {
+              "size": "10",
+              "material": "synthetic",
+              "waterproof": "no"
+            },
+            "available": false,
+            "price": 251.82
+          }
+        }
+      }
+    }
+  },
+  "adaptation": "Controlled continuation of this public retail base task. Scope/variants/payment explicit in public user message; only one delivered order, distinct original IDs/products. Stage1 selects two items from same order (including archived original two-item tasks 0/58); other scopes adapted. Stage2 held-out task IDs never used in stage1 pilot. No private reference actions enter Agent."
+}

@@ -1,0 +1,13 @@
+{
+  "rule": "group all states/branches/repeats of each base_task together; no row-level random split",
+  "assignments": {
+    "93": "proposed_train_seen_debug",
+    "29": "proposed_train_seen_debug",
+    "102": "proposed_validation_seen_debug",
+    "26": "reserved_test_not_training",
+    "35": "reserved_test_not_training"
+  },
+  "note": "Review examples may include held-out rows, but they must not be included in training. These tasks have been inspected for API experiments; they are not untouched human-blind test tasks. New independent tests still needed.",
+  "model_not_selected": true,
+  "training_performed": false
+}

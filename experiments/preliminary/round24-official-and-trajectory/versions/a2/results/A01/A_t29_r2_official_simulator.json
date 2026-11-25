@@ -1,0 +1,102 @@
+[
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 13,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you approve this exchange? (yes/no)",
+      "pairs": [
+        {
+          "item_id": "5753502325",
+          "new_item_id": "5206946487",
+          "quote": "Garden Hose | green / 25ft / rubber (5753502325) | $96.35 | black / 50ft / vinyl (5206946487)"
+        },
+        {
+          "item_id": "8118291112",
+          "new_item_id": "8277474082",
+          "quote": "Hiking Boots | leather / size 12 / waterproof no (8118291112) | $260.56 | leather / size 12 / waterproof yes (8277474082)"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "5753502325",
+          "variant_id": "5206946487",
+          "quote": "5206946487"
+        },
+        {
+          "item_id": "8118291112",
+          "variant_id": "8277474082",
+          "quote": "8277474082"
+        }
+      ],
+      "difference": -25.26,
+      "amount_quote": "−$25.26",
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "paypal_3024827 (original payment)",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 18,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give new final approval for this exact complete combined proposal?",
+      "pairs": [
+        {
+          "item_id": "5753502325",
+          "new_item_id": "8481719475",
+          "quote": "green / 25ft / rubber (5753502325) | $96.35 | blue / 100ft / latex (8481719475)"
+        },
+        {
+          "item_id": "8118291112",
+          "new_item_id": "8277474082",
+          "quote": "leather / size 12 / waterproof no (8118291112) | $260.56 | leather / size 12 / waterproof yes (8277474082)"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "5753502325",
+          "variant_id": "8481719475",
+          "quote": "8481719475"
+        },
+        {
+          "item_id": "8118291112",
+          "variant_id": "8277474082",
+          "quote": "8277474082"
+        }
+      ],
+      "difference": -21.73,
+      "amount_quote": "−$21.73",
+      "payment_method_id": "paypal_3024827",
+      "payment_quote": "paypal_3024827",
+      "stop_quote": null
+    },
+    "literal_pair_repairs": []
+  }
+]

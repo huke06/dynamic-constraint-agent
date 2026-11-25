@@ -1,0 +1,158 @@
+[
+  {
+    "task": "80",
+    "repeat": 1,
+    "comparable": true,
+    "ids": [
+      "A_t80_r1_official",
+      "A_t80_r1_framework"
+    ],
+    "after_change": [
+      null,
+      null
+    ]
+  },
+  {
+    "task": "80",
+    "repeat": 2,
+    "comparable": true,
+    "ids": [
+      "A_t80_r2_official",
+      "A_t80_r2_framework"
+    ],
+    "after_change": [
+      null,
+      null
+    ]
+  },
+  {
+    "task": "23",
+    "repeat": 1,
+    "comparable": true,
+    "ids": [
+      "A_t23_r1_official",
+      "A_t23_r1_framework"
+    ],
+    "after_change": [
+      {
+        "event": 2,
+        "work": "speech",
+        "object": "clarify",
+        "reason": "I need to pause before proceeding. On re-checking stock, the Luggage Set variant you approved — **8926329222 (2-piece, black, softshell)** — is now showing as **out of stock**. The Grill variant (4404981319) is still available.\n\nSince stock is a hard requirement and you asked me to check before using a different specification, I won't submit the exchange as-is. Available Luggage Set alternatives (same product, different options) are:\n\n- **7160999700** — 2-piece, red, softshell — $499.29\n- **8759627937** — 4-piece, blue, softshell — $501.65\n- **8964750292** — 2-piece, red, hardshell — $532.58\n- **9956648681** — 4-piece, red, hardshell — $452.62\n\nWould you like to substitute one of these for the Luggage Set, or hold off? If you pick one, I'll recompute the full combined proposal (net difference and payment) and ask for your approval again."
+      },
+      {
+        "event": 6,
+        "work": "clarify",
+        "object": "6301799585",
+        "reason": "Requested variant 8926329222 is out of stock; exact match set is empty, so a negotiable in-stock alternative within the signed cap requires new user specification permission.",
+        "parameters": {
+          "variant_id": "7160999700"
+        }
+      }
+    ]
+  },
+  {
+    "task": "23",
+    "repeat": 2,
+    "comparable": true,
+    "ids": [
+      "A_t23_r2_official",
+      "A_t23_r2_framework"
+    ],
+    "after_change": [
+      {
+        "event": 2,
+        "work": "speech",
+        "object": "clarify",
+        "reason": "I re-checked stock before submitting, and the Luggage Set variant you approved (8926329222 — 2-piece, black, softshell) is now **out of stock**. Per your instruction, I won't substitute a different specification without asking.\n\nThe Grill variant (4404981319 — large, electric, rotisserie) is still in stock.\n\nAvailable Luggage Set alternatives (same product, different options):\n- **7160999700** — 2-piece, red, softshell — $499.29 (diff vs old: +$3.42)\n- **8759627937** — 4-piece, blue, softshell — $501.65 (diff: +$5.78)\n- **8964750292** — 2-piece, red, hardshell — $532.58 (diff: +$36.71)\n- **9956648681** — 4-piece, red, hardshell — $452.62 (diff: −$43.25)\n\nHow would you like to proceed? I can:\n1. Exchange only the Grill now, or\n2. Exchange the Grill plus one of the Luggage Set alternatives above (tell me which), or\n3. Hold off entirely.\n\nPlease let me know your choice."
+      },
+      {
+        "event": 6,
+        "work": "clarify",
+        "object": "6301799585",
+        "reason": "Requested variant 8926329222 is out of stock and no exact match exists; variant 7160999700 is observed available within the signed cap and matches material and piece count, differing only in color, so it is the closest negotiable alternative requiring new specification permission.",
+        "parameters": {
+          "variant_id": "7160999700"
+        }
+      }
+    ]
+  },
+  {
+    "task": "29",
+    "repeat": 1,
+    "comparable": true,
+    "ids": [
+      "A_t29_r1_official",
+      "A_t29_r1_framework"
+    ],
+    "after_change": [
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "6679515468"
+        },
+        "reason": ""
+      },
+      {
+        "event": 6,
+        "work": "prepare",
+        "object": "#W7181492",
+        "reason": "Current effective specification names in-stock variant 8481719475 for the hose and keeps the boots exchange; exact feasible set exists, so the plan is feasible and can be stored before asking for fresh approval.",
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "task": "29",
+    "repeat": 2,
+    "comparable": true,
+    "ids": [
+      "A_t29_r2_official",
+      "A_t29_r2_framework"
+    ],
+    "after_change": [
+      {
+        "event": 2,
+        "work": "get_product_details",
+        "object": {
+          "product_id": "6679515468"
+        },
+        "reason": ""
+      },
+      {
+        "event": 6,
+        "work": "prepare",
+        "object": "#W7181492",
+        "reason": "Current effective specification is exact-feasible and in stock; plan is feasible and pending resolution, so store it before asking for new final approval.",
+        "parameters": {}
+      }
+    ]
+  },
+  {
+    "task": "43",
+    "repeat": 1,
+    "comparable": false,
+    "ids": [
+      "A_t43_r1_official",
+      "A_t43_r1_framework"
+    ],
+    "after_change": [
+      null,
+      null
+    ]
+  },
+  {
+    "task": "43",
+    "repeat": 2,
+    "comparable": false,
+    "ids": [
+      "A_t43_r2_official",
+      "A_t43_r2_framework"
+    ],
+    "after_change": [
+      null,
+      null
+    ]
+  }
+]

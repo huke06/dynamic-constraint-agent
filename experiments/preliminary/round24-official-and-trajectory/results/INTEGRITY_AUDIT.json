@@ -1,0 +1,70 @@
+{
+  "freezes": {
+    "experiments\\preliminary\\round23-framework-loop\\versions\\v2\\configs\\FREEZE.json": {
+      "sha256": "eaf8981bc9e3b4c13a9db69c36c1688b7a83a4626bc2813ded9dbc54041572ff",
+      "files": 56,
+      "unchanged": true
+    },
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\FREEZE.json": {
+      "sha256": "ae0cd1e6d49c34dc6201a9a854f248857e87b2362d8d173c5481de5a3d1442e2",
+      "files": 25,
+      "unchanged": true
+    },
+    "experiments\\preliminary\\round24-official-and-trajectory\\versions\\a2\\configs\\FREEZE.json": {
+      "sha256": "460c1821127d45a092d98bd72f5dcb847b683a1db27b8ffd3f0b05f9c60e1d6c",
+      "files": 24,
+      "unchanged": true
+    }
+  },
+  "equal_paired_starts": {
+    "A01/A_t80_r1_": true,
+    "A01/A_t80_r2_": true,
+    "A01/A_t23_r1_": true,
+    "A01/A_t23_r2_": true,
+    "A01/A_t29_r1_": true,
+    "A01/A_t29_r2_": true,
+    "A01/A_t39_r1_": true,
+    "A01/A_t39_r2_": true,
+    "A2/A_t80_r1_": true,
+    "A2/A_t80_r2_": true,
+    "A2/A_t23_r1_": true,
+    "A2/A_t23_r2_": true,
+    "A2/A_t29_r1_": true,
+    "A2/A_t29_r2_": true,
+    "A2/A_t43_r1_": true,
+    "A2/A_t43_r2_": true,
+    "B/B_26_capacity_r1_": true,
+    "B/B_26_capacity_r2_": true,
+    "B/B_26_appearance_r1_": true,
+    "B/B_26_appearance_r2_": true,
+    "B/B_35_waterproof_r1_": true,
+    "B/B_35_waterproof_r2_": true
+  },
+  "actual_A2_event_inputs": [
+    {
+      "id": "A_t23_r1_official",
+      "response_id": "4b9793c4-cb3d-47ac-b5e5-5fea8d8b603c",
+      "roles": [
+        "user",
+        "assistant",
+        "tool"
+      ],
+      "tool_result_sha256": "eac187c467f6c66ae3657aec480ab74eb3c9b418a0dae22b54f75230a031c376",
+      "observed_unavailable": true
+    },
+    {
+      "id": "A_t23_r2_official",
+      "response_id": "f00caa4f-2680-4d75-9505-8e07b3702659",
+      "roles": [
+        "user",
+        "assistant",
+        "tool"
+      ],
+      "tool_result_sha256": "eac187c467f6c66ae3657aec480ab74eb3c9b418a0dae22b54f75230a031c376",
+      "observed_unavailable": true
+    }
+  ],
+  "Agent_future_key_leaks": [],
+  "raw_archive_hashes_match": true,
+  "new_after_freeze_files": "post24.py/post24a2.py/finalize24.py are post-run only, never imported by execution"
+}

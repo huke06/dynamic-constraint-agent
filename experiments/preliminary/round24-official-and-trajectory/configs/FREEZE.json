@@ -1,0 +1,31 @@
+{
+  "files": {
+    "experiments\\preliminary\\round24-official-and-trajectory\\src\\offline24.py": "68fbeb7b712ef99c7572557fbe8f13ab66d1dab8f1f7e905c301d07ff1c54c1d",
+    "experiments\\preliminary\\round24-official-and-trajectory\\src\\run24.py": "9d624bba851e7a17a226363b0be861ad64787a5e3c1cbde47eee32a8201b7514",
+    "experiments\\preliminary\\round24-official-and-trajectory\\src\\sft24.py": "3c4096bab5207ad9e01086c88a92eb6c96c7db7af9681fcd83a3d7db2e6af972",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\model_budget.json": "61eff416f733e9c5c41584dfc76917c6458d29ec57bbe61d409af4765527cd11",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\official_source.json": "a5a88007bc9ca924e64ecf24fb4713a262073756fcb4edb131c984346c9d6597",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\PROTOCOL.md": "0b8d9d5a0ac39fe761a16bfb268c12aec2ed63de8bd97555b842b136def8ee5b",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\23\\adaptation.json": "e8a94d604afc1e17eef2b93818a88d2a1b537c0333a1e2820ac4d4d26bc49ba8",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\23\\case.json": "54482d483a36dae463672ee14257e246c0d48e27612c66b4b54383204d5dd7a4",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\23\\original_task.json": "5bd95098e9054fdcf4a5b5a6eb73816cbc01b8a462f04458a64fd7065dfaebb0",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\29\\adaptation.json": "78cfad7df0a2719e642657c1c5ac0bb32f75dc7eeef7b5a2ba8ca6b9d80c7888",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\29\\case.json": "b839b7b63ded905be32f77ebd8e953f2bfcae6247a31a052aafae7531973d02b",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\29\\original_task.json": "748901d8c6fa585979c7a4c728d3313fc027685b78d2d51b08123c4bf9214b26",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\39\\adaptation.json": "dad96f1eae069c448207d545ab3ba9a67727a012899ce4945c60ba055abdd8a9",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\39\\case.json": "41bde4df9d0168ff15371424f2d395f586897b2237d176a963836de7d794c3d9",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\39\\original_task.json": "b44c12f8221b90fc99e6daf73c95278bbb393f19abf95c28010238237d78f148",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\80\\adaptation.json": "a57f4e9fbec9548678fcc3c31a971c68dde33eb7580c8a96d7297b33f3ec00b3",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\80\\case.json": "3aaf0f8dc6f7361ca212572b97f6862cd75d1e8fca75c98c72a1d28767b886ba",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\A\\80\\original_task.json": "46c90d037f8fc3329d50f60525a860fa17ad36a5f07e9c4efd92beac1461b4ca",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\B\\states.json": "a6d221ad0bc0244caf56e3bf89e6a74fe51c624ed65a1b83f2e6def8f7bbeddb",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\B\\26\\case.json": "ad67df5c4bfe1c522273c75209a19c8367e31901104aca77a0b9205daf64f147",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\B\\26\\original_task.json": "69a2f970d5b613c8ece6af674298c854310c11e19b499c1b19a6e74978d47348",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\B\\26\\subtask.json": "26c75fa96818329669753222f50107fea883000a1e7a576c0d21e1be60834174",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\B\\35\\case.json": "e6a6ecc22703085caf158a9d082b1bb936557352b1d9c5d71d1a14d251a74dc1",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\B\\35\\original_task.json": "e31183c00711951535b74b6b460da325ec9dd7fd45d6fdf7ba9aa2b17fc03e36",
+    "experiments\\preliminary\\round24-official-and-trajectory\\configs\\B\\35\\subtask.json": "38044da1ab7c0c05305ea095dcafc41a98d56b8aecede7dba9fabd8e32e31170"
+  },
+  "round23_v2_freeze": "eaf8981bc9e3b4c13a9db69c36c1688b7a83a4626bc2813ded9dbc54041572ff",
+  "utc": "2026-11-25T13:52:31.608393+00:00"
+}

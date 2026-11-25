@@ -1,0 +1,80 @@
+[
+  {
+    "reply": "I have not approved this transaction. Please correct scope, stock, amount, literal_amount, spec_permission. If a different specification is needed, ask my specification permission first. Then show all current items, correct signed combined difference and original payment for separate final approval.",
+    "user_ref": 11,
+    "kind": "correction",
+    "approved": false,
+    "checks": {
+      "scope": false,
+      "payment": true,
+      "stock": false,
+      "cap": true,
+      "amount": false,
+      "literal_amount": false,
+      "spec_permission": false
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "do you approve this exchange (item 5047954489 → 9354168549, refund $7.99 to gift_card_2611937, all other items unchanged)?",
+      "pairs": [
+        {
+          "item_id": "5047954489",
+          "new_item_id": "9354168549",
+          "quote": "Exchange to: item 9354168549"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "5047954489",
+          "variant_id": "9354168549",
+          "quote": "item 9354168549"
+        }
+      ],
+      "difference": -7.99,
+      "amount_quote": "−$7.99",
+      "payment_method_id": "gift_card_2611937",
+      "payment_quote": "gift_card_2611937",
+      "stop_quote": null
+    }
+  },
+  {
+    "reply": "Yes, I approve exactly that complete combined proposal for all listed exchange items at the stated net difference and original payment. Those are all items I want exchanged.",
+    "user_ref": 13,
+    "kind": "confirm",
+    "approved": true,
+    "checks": {
+      "scope": true,
+      "payment": true,
+      "stock": true,
+      "cap": true,
+      "amount": true,
+      "literal_amount": true,
+      "spec_permission": true
+    },
+    "extraction": {
+      "kind": "proposal",
+      "asks": true,
+      "question_quote": "Do you give your **final approval** to proceed with this exchange",
+      "pairs": [
+        {
+          "item_id": "5047954489",
+          "new_item_id": "9354168549",
+          "quote": "5047954489 → 9354168549"
+        }
+      ],
+      "offers": [
+        {
+          "item_id": "5047954489",
+          "variant_id": "9354168549",
+          "quote": "exchanging to 9354168549"
+        }
+      ],
+      "difference": -7.99,
+      "amount_quote": "$7.99 refund",
+      "payment_method_id": "gift_card_2611937",
+      "payment_quote": "refund of $7.99 would be added to it",
+      "stop_quote": null
+    }
+  }
+]

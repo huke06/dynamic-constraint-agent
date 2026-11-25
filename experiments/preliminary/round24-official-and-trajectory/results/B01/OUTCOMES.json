@@ -1,0 +1,254 @@
+[
+  {
+    "id": "B_26_capacity_r1_analyze",
+    "task": "26",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 16.799496299994644,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_26_capacity_r1_clarify",
+    "task": "26",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 10.53949230001308,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_26_capacity_r2_clarify",
+    "task": "26",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 9.735645800014026,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_26_capacity_r2_analyze",
+    "task": "26",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 21.850953799963463,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_26_appearance_r1_analyze",
+    "task": "26",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 16.360213899984956,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_26_appearance_r1_clarify",
+    "task": "26",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 9.528273899981286,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_26_appearance_r2_clarify",
+    "task": "26",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 8.712162300013006,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_26_appearance_r2_analyze",
+    "task": "26",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 15.023261399997864,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_35_waterproof_r1_analyze",
+    "task": "35",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 15.251371600024868,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_35_waterproof_r1_clarify",
+    "task": "35",
+    "group": "framework",
+    "first": "clarify",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 11.35401470004581,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_35_waterproof_r2_clarify",
+    "task": "35",
+    "group": "framework",
+    "first": "clarify",
+    "error": "OSError: [Errno 22] Invalid argument: 'D:\\\\experimentn\\\\dynamic-constraint-agent-round23\\\\experiments\\\\preliminary\\\\round24-official-and-trajectory\\\\results\\\\B01\\\\B_35_waterproof_r2_clarify_trace.json'",
+    "event_triggered": false,
+    "seconds": 11.606485299998894,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  },
+  {
+    "id": "B_35_waterproof_r2_analyze",
+    "task": "35",
+    "group": "framework",
+    "first": "analyze",
+    "error": null,
+    "event_triggered": false,
+    "seconds": 14.612393499992322,
+    "correct_registered": true,
+    "checks": {
+      "one_write": true,
+      "current_authorization": true,
+      "current_user_goal": true,
+      "exact_amount": true,
+      "hard_cap": true,
+      "native_status": true,
+      "scope_unchanged": true,
+      "inventory_and_product": true,
+      "payment": true
+    }
+  }
+]
