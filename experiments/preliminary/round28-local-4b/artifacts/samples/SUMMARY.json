@@ -1,0 +1,70 @@
+{
+  "continuations": 20,
+  "correct_continuations": 18,
+  "checkpoints": 5,
+  "matched_pairs": 10,
+  "run_issues": {
+    "agent_output_limits": 0,
+    "simulator_output_limits": 0,
+    "local_service_errors": 0,
+    "context_truncations": 0
+  },
+  "sft_candidates": 7,
+  "sft_base_tasks": [
+    "exchange:26",
+    "exchange:EDB04",
+    "exchange:EDB08",
+    "return:30",
+    "return:31",
+    "return:51",
+    "return:55"
+  ],
+  "sft_work": {
+    "query": 3,
+    "clarify": 4
+  },
+  "sft_stages": {
+    "A": 6,
+    "B": 1
+  },
+  "dpo_candidates": 2,
+  "dpo_base_tasks": [
+    "exchange:26",
+    "return:14"
+  ],
+  "sft_splits": {
+    "train": 4,
+    "test": 3
+  },
+  "dpo_splits": {
+    "test": 1,
+    "validation": 1
+  },
+  "diagnostics_or_ties": [
+    {
+      "checkpoint": "X_catalogues",
+      "directions": [
+        "tie",
+        "tie"
+      ],
+      "reason": "no stable, fully auditable pair with both terminal outcomes"
+    },
+    {
+      "checkpoint": "R_missing",
+      "directions": [
+        "tie",
+        "tie"
+      ],
+      "reason": "no stable, fully auditable pair with both terminal outcomes"
+    },
+    {
+      "checkpoint": "R_refund_routes",
+      "directions": [
+        "clarify",
+        "clarify"
+      ],
+      "reason": "no stable, fully auditable pair with both terminal outcomes"
+    }
+  ],
+  "validation": "source/structure/hash/content and grouped partition checked; candidate data only"
+}

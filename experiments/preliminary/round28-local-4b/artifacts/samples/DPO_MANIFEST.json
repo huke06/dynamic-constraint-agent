@@ -1,0 +1,336 @@
+[
+  {
+    "checkpoint": "X_capacity",
+    "base_task": "exchange:26",
+    "split": "test",
+    "line": 1,
+    "sample_sha256": "47a2e0c6e5d5dcaa642e5a0f9033c46ab1a2c0880f7c20da99ef386f858c5642",
+    "matched_start_sha256": "57b2ce0472fb45a4bbc7bc7e406ee71029d12a1ff7ef227263de9d85c762b9ce",
+    "chosen_arm": "clarify",
+    "rejected_arm": "analyze",
+    "first_work_origin": "prespecified_experimental_intervention",
+    "repeats": [
+      {
+        "checkpoint": "X_capacity",
+        "base_task": "exchange:26",
+        "repeat": 1,
+        "branches": [
+          "B_X_capacity_r1_analyze",
+          "B_X_capacity_r1_clarify"
+        ],
+        "arms": [
+          "analyze",
+          "clarify"
+        ],
+        "same_visible_and_simulator_start": true,
+        "first_work_allowed": [
+          true,
+          true
+        ],
+        "correct": [
+          true,
+          true
+        ],
+        "hard_constraint_rank": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "explicit_preference_vectors": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "cost_vectors": [
+          [
+            4,
+            9854,
+            1239,
+            2,
+            5
+          ],
+          [
+            2,
+            2499,
+            483,
+            2,
+            4
+          ]
+        ],
+        "cost_fields": [
+          "agent_attempts",
+          "agent_input_tokens",
+          "agent_output_tokens",
+          "simulator_attempts",
+          "business_execution_steps"
+        ],
+        "wall_seconds": [
+          22.386069399999542,
+          13.720456600000034
+        ],
+        "direction": "clarify",
+        "basis": "processing_cost_pareto",
+        "clean_both": true,
+        "errors": [
+          null,
+          null
+        ]
+      },
+      {
+        "checkpoint": "X_capacity",
+        "base_task": "exchange:26",
+        "repeat": 2,
+        "branches": [
+          "B_X_capacity_r2_analyze",
+          "B_X_capacity_r2_clarify"
+        ],
+        "arms": [
+          "analyze",
+          "clarify"
+        ],
+        "same_visible_and_simulator_start": true,
+        "first_work_allowed": [
+          true,
+          true
+        ],
+        "correct": [
+          true,
+          true
+        ],
+        "hard_constraint_rank": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "explicit_preference_vectors": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "cost_vectors": [
+          [
+            4,
+            9854,
+            1239,
+            2,
+            5
+          ],
+          [
+            2,
+            2499,
+            483,
+            2,
+            4
+          ]
+        ],
+        "cost_fields": [
+          "agent_attempts",
+          "agent_input_tokens",
+          "agent_output_tokens",
+          "simulator_attempts",
+          "business_execution_steps"
+        ],
+        "wall_seconds": [
+          20.426191700000345,
+          13.709481800000503
+        ],
+        "direction": "clarify",
+        "basis": "processing_cost_pareto",
+        "clean_both": true,
+        "errors": [
+          null,
+          null
+        ]
+      }
+    ],
+    "trace_hashes": {
+      "B_X_capacity_r1_analyze": "424a2149e0fe731190ff46f899ed7fb681c983c883b7caa61aa5c483238428ec",
+      "B_X_capacity_r1_clarify": "a713579bf14e4d308d40896ae14b6ae721b59c11802e416dff7fb5778370ccfe",
+      "B_X_capacity_r2_analyze": "424a2149e0fe731190ff46f899ed7fb681c983c883b7caa61aa5c483238428ec",
+      "B_X_capacity_r2_clarify": "a713579bf14e4d308d40896ae14b6ae721b59c11802e416dff7fb5778370ccfe"
+    }
+  },
+  {
+    "checkpoint": "R_ready",
+    "base_task": "return:14",
+    "split": "validation",
+    "line": 1,
+    "sample_sha256": "572b8b03b4b7ff177d094744fc7e9ab2fdd192cb5ad9866205d75a88427bf4df",
+    "matched_start_sha256": "5a775508f379c3b486c922a603ecb9b820fe9382a77cc57c851146a7e4e4084f",
+    "chosen_arm": "confirm",
+    "rejected_arm": "refresh_order",
+    "first_work_origin": "prespecified_experimental_intervention",
+    "repeats": [
+      {
+        "checkpoint": "R_ready",
+        "base_task": "return:14",
+        "repeat": 1,
+        "branches": [
+          "B_R_ready_r1_confirm",
+          "B_R_ready_r1_refresh_order"
+        ],
+        "arms": [
+          "confirm",
+          "refresh_order"
+        ],
+        "same_visible_and_simulator_start": true,
+        "first_work_allowed": [
+          true,
+          true
+        ],
+        "correct": [
+          true,
+          true
+        ],
+        "hard_constraint_rank": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "explicit_preference_vectors": [
+          null,
+          null
+        ],
+        "cost_vectors": [
+          [
+            1,
+            595,
+            124,
+            1,
+            2
+          ],
+          [
+            1,
+            596,
+            126,
+            1,
+            3
+          ]
+        ],
+        "cost_fields": [
+          "agent_attempts",
+          "agent_input_tokens",
+          "agent_output_tokens",
+          "simulator_attempts",
+          "business_execution_steps"
+        ],
+        "wall_seconds": [
+          4.10029779999968,
+          3.9577285000013944
+        ],
+        "direction": "confirm",
+        "basis": "processing_cost_pareto",
+        "clean_both": true,
+        "errors": [
+          null,
+          null
+        ]
+      },
+      {
+        "checkpoint": "R_ready",
+        "base_task": "return:14",
+        "repeat": 2,
+        "branches": [
+          "B_R_ready_r2_confirm",
+          "B_R_ready_r2_refresh_order"
+        ],
+        "arms": [
+          "confirm",
+          "refresh_order"
+        ],
+        "same_visible_and_simulator_start": true,
+        "first_work_allowed": [
+          true,
+          true
+        ],
+        "correct": [
+          true,
+          true
+        ],
+        "hard_constraint_rank": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "explicit_preference_vectors": [
+          null,
+          null
+        ],
+        "cost_vectors": [
+          [
+            1,
+            595,
+            124,
+            1,
+            2
+          ],
+          [
+            1,
+            596,
+            126,
+            1,
+            3
+          ]
+        ],
+        "cost_fields": [
+          "agent_attempts",
+          "agent_input_tokens",
+          "agent_output_tokens",
+          "simulator_attempts",
+          "business_execution_steps"
+        ],
+        "wall_seconds": [
+          3.946333899999445,
+          3.913640500002657
+        ],
+        "direction": "confirm",
+        "basis": "processing_cost_pareto",
+        "clean_both": true,
+        "errors": [
+          null,
+          null
+        ]
+      }
+    ],
+    "trace_hashes": {
+      "B_R_ready_r1_confirm": "76ad83ee25e074000693cbc732df6267cdbe0dc88d58944be24428b04b20af8e",
+      "B_R_ready_r1_refresh_order": "a13946c29fb76e92bb4af45bb241fdae139e9a39fb3b099efe512aa0e91e3965",
+      "B_R_ready_r2_confirm": "76ad83ee25e074000693cbc732df6267cdbe0dc88d58944be24428b04b20af8e",
+      "B_R_ready_r2_refresh_order": "a13946c29fb76e92bb4af45bb241fdae139e9a39fb3b099efe512aa0e91e3965"
+    }
+  }
+]
