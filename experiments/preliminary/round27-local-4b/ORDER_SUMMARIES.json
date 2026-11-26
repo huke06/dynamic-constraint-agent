@@ -1,0 +1,808 @@
+{
+  "batch": "A_B_04",
+  "scope": "Order summaries from the frozen controlled tau2 retail simulation. Item aliases are local to each task. Address, identity, original order numbers, original item identifiers and payment identifiers are omitted. Dollar amounts follow the simulated original purchase prices and native tools.",
+  "tasks": [
+    {
+      "task": "R_14",
+      "business": "return",
+      "scenario": "stable",
+      "initial_order_status": "delivered",
+      "order_item_count": 1,
+      "requested_item_aliases": [
+        "item_1"
+      ],
+      "original_payment_kind": "paypal",
+      "requested_payment_kind": "paypal",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "paypal",
+        "return_amount_usd": "158.89"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "paypal",
+        "return_amount_usd": "158.89"
+      }
+    },
+    {
+      "task": "R_28",
+      "business": "return",
+      "scenario": "stable",
+      "initial_order_status": "delivered",
+      "order_item_count": 1,
+      "requested_item_aliases": [
+        "item_1"
+      ],
+      "original_payment_kind": "paypal",
+      "requested_payment_kind": "paypal",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "paypal",
+        "return_amount_usd": "200.80"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "paypal",
+        "return_amount_usd": "200.80"
+      }
+    },
+    {
+      "task": "R_30",
+      "business": "return",
+      "scenario": "evidence",
+      "initial_order_status": "delivered",
+      "order_item_count": 1,
+      "requested_item_aliases": [
+        "item_1"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "gift_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "951.21"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "951.21"
+      }
+    },
+    {
+      "task": "R_31",
+      "business": "return",
+      "scenario": "evidence",
+      "initial_order_status": "delivered",
+      "order_item_count": 2,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "gift_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "3141.62"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "3141.62"
+      }
+    },
+    {
+      "task": "R_54",
+      "business": "return",
+      "scenario": "scope",
+      "initial_order_status": "delivered",
+      "order_item_count": 4,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "gift_card",
+      "planned_change": "scope",
+      "expected_terminal_operation": "write",
+      "changed_item_aliases": [
+        "item_2",
+        "item_3"
+      ],
+      "official": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_2",
+          "item_3"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "595.03"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_2",
+          "item_3"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "595.03"
+      }
+    },
+    {
+      "task": "R_73",
+      "business": "return",
+      "scenario": "scope",
+      "initial_order_status": "delivered",
+      "order_item_count": 5,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "credit_card",
+      "requested_payment_kind": "credit_card",
+      "planned_change": "scope",
+      "expected_terminal_operation": "write",
+      "changed_item_aliases": [
+        "item_2",
+        "item_3"
+      ],
+      "official": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_2",
+          "item_3"
+        ],
+        "payment_kind": "credit_card",
+        "return_amount_usd": "341.60"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_2",
+          "item_3"
+        ],
+        "payment_kind": "credit_card",
+        "return_amount_usd": "341.60"
+      }
+    },
+    {
+      "task": "R_51",
+      "business": "return",
+      "scenario": "conflict",
+      "initial_order_status": "delivered",
+      "order_item_count": 1,
+      "requested_item_aliases": [
+        "item_1"
+      ],
+      "original_payment_kind": "credit_card",
+      "requested_payment_kind": "credit_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": false,
+        "event_triggered": false,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 0
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "credit_card",
+        "return_amount_usd": "2895.55"
+      }
+    },
+    {
+      "task": "R_55",
+      "business": "return",
+      "scenario": "conflict",
+      "initial_order_status": "delivered",
+      "order_item_count": 1,
+      "requested_item_aliases": [
+        "item_1"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "credit_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "236.57"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "236.57"
+      }
+    },
+    {
+      "task": "R_82",
+      "business": "return",
+      "scenario": "withdraw",
+      "initial_order_status": "delivered",
+      "order_item_count": 4,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "gift_card",
+      "planned_change": "withdraw",
+      "expected_terminal_operation": "stop",
+      "official": {
+        "correct": false,
+        "event_triggered": true,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 0
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 0
+      }
+    },
+    {
+      "task": "R_89",
+      "business": "return",
+      "scenario": "withdraw",
+      "initial_order_status": "delivered",
+      "order_item_count": 3,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "paypal",
+      "requested_payment_kind": "paypal",
+      "planned_change": "withdraw",
+      "expected_terminal_operation": "stop",
+      "official": {
+        "correct": false,
+        "event_triggered": true,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 0
+      },
+      "framework": {
+        "correct": false,
+        "event_triggered": true,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 0
+      }
+    },
+    {
+      "task": "R_RDB01",
+      "business": "return",
+      "scenario": "payment",
+      "initial_order_status": "delivered",
+      "order_item_count": 2,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "credit_card",
+      "requested_payment_kind": "credit_card",
+      "planned_change": "payment",
+      "expected_terminal_operation": "write",
+      "changed_payment_kind": "gift_card",
+      "official": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "1201.55"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "1201.55"
+      }
+    },
+    {
+      "task": "R_RDB02",
+      "business": "return",
+      "scenario": "payment",
+      "initial_order_status": "delivered",
+      "order_item_count": 2,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "paypal",
+      "requested_payment_kind": "paypal",
+      "planned_change": "payment",
+      "expected_terminal_operation": "write",
+      "changed_payment_kind": "gift_card",
+      "official": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "414.24"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "return requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "return_amount_usd": "414.24"
+      }
+    },
+    {
+      "task": "E_EDB01",
+      "business": "exchange",
+      "scenario": "stable",
+      "initial_order_status": "delivered",
+      "order_item_count": 4,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "gift_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": false,
+        "event_triggered": false,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": false,
+        "unauthorized_native_attempts": 1,
+        "affected_item_aliases": [
+          "item_2",
+          "item_1"
+        ],
+        "payment_kind": "gift_card",
+        "signed_exchange_delta_usd": "-10.39"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "signed_exchange_delta_usd": "-10.39"
+      }
+    },
+    {
+      "task": "E_EDB02",
+      "business": "exchange",
+      "scenario": "stable",
+      "initial_order_status": "delivered",
+      "order_item_count": 4,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "gift_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": false,
+        "event_triggered": false,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 0
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "signed_exchange_delta_usd": "-23.62"
+      }
+    },
+    {
+      "task": "E_EDB03",
+      "business": "exchange",
+      "scenario": "evidence",
+      "initial_order_status": "delivered",
+      "order_item_count": 3,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "credit_card",
+      "requested_payment_kind": "credit_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_2",
+          "item_1"
+        ],
+        "payment_kind": "credit_card",
+        "signed_exchange_delta_usd": "-18.31"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "credit_card",
+        "signed_exchange_delta_usd": "-18.31"
+      }
+    },
+    {
+      "task": "E_EDB04",
+      "business": "exchange",
+      "scenario": "evidence",
+      "initial_order_status": "delivered",
+      "order_item_count": 4,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "gift_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": false,
+        "event_triggered": false,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": false,
+        "unauthorized_native_attempts": 1,
+        "affected_item_aliases": [
+          "item_2",
+          "item_1"
+        ],
+        "payment_kind": "gift_card",
+        "signed_exchange_delta_usd": "-107.64"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "signed_exchange_delta_usd": "-107.64"
+      }
+    },
+    {
+      "task": "E_EDB05",
+      "business": "exchange",
+      "scenario": "resource",
+      "initial_order_status": "delivered",
+      "order_item_count": 3,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "paypal",
+      "requested_payment_kind": "paypal",
+      "planned_change": "resource",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": false,
+        "event_triggered": true,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 0
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "paypal",
+        "signed_exchange_delta_usd": "-66.40"
+      }
+    },
+    {
+      "task": "E_EDB06",
+      "business": "exchange",
+      "scenario": "resource",
+      "initial_order_status": "delivered",
+      "order_item_count": 3,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "credit_card",
+      "requested_payment_kind": "credit_card",
+      "planned_change": "resource",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": false,
+        "event_triggered": true,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 1
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "credit_card",
+        "signed_exchange_delta_usd": "-8.42"
+      }
+    },
+    {
+      "task": "E_EDB07",
+      "business": "exchange",
+      "scenario": "requirement",
+      "initial_order_status": "delivered",
+      "order_item_count": 5,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "paypal",
+      "requested_payment_kind": "paypal",
+      "planned_change": "requirement",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_2",
+          "item_1"
+        ],
+        "payment_kind": "paypal",
+        "signed_exchange_delta_usd": "0.95"
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": true,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "paypal",
+        "signed_exchange_delta_usd": "0.95"
+      }
+    },
+    {
+      "task": "E_EDB08",
+      "business": "exchange",
+      "scenario": "conflict",
+      "initial_order_status": "delivered",
+      "order_item_count": 2,
+      "requested_item_aliases": [
+        "item_1",
+        "item_2"
+      ],
+      "original_payment_kind": "gift_card",
+      "requested_payment_kind": "gift_card",
+      "planned_change": "none",
+      "expected_terminal_operation": "write",
+      "official": {
+        "correct": false,
+        "event_triggered": false,
+        "native_order_status": "delivered",
+        "native_writes": 0,
+        "current_transaction_authorization": null,
+        "unauthorized_native_attempts": 0
+      },
+      "framework": {
+        "correct": true,
+        "event_triggered": false,
+        "native_order_status": "exchange requested",
+        "native_writes": 1,
+        "current_transaction_authorization": true,
+        "unauthorized_native_attempts": 0,
+        "affected_item_aliases": [
+          "item_1",
+          "item_2"
+        ],
+        "payment_kind": "gift_card",
+        "signed_exchange_delta_usd": "-12.55"
+      }
+    }
+  ]
+}

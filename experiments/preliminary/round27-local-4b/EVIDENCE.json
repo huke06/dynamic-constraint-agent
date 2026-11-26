@@ -1,0 +1,967 @@
+{
+  "scope": "Published evidence summary of completed local Round 27 runs. Full request, tool and database records remain in the local workspace.",
+  "primary_batch": "A_B_04",
+  "freeze": {
+    "created": "2026-11-26T16:31:41.791362+08:00",
+    "source_commit": "525a7a9e060e073731fe55e2f0fb0e764703bbb7",
+    "tau2_commit": "f8de30c298689cbe0117d76a378e7315a17e5bd8",
+    "local": {
+      "model": "qwen3.5-4b-q4-k-m",
+      "base_model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "llama_cpp": "b10917 CUDA 13.3",
+      "context": 32768,
+      "parallel_slots": 1,
+      "temperature": 0,
+      "thinking": false,
+      "format_constraint": null
+    },
+    "simulator": {
+      "model": "qwen3.5-4b-q4-k-m",
+      "backend": "llama.cpp localhost",
+      "literal_offer_binding": true,
+      "temperature": 0,
+      "thinking": false,
+      "format": "json_object",
+      "retry_limit": 1
+    },
+    "hashes_sha256": {
+      "run27.py": "3d9e6e98c084dec5abdb097790380a7eda488db52972c97e772ccbbebac651e3",
+      "prepare27.py": "9acb710cd0fb3885c961631d90dc740b057b16b4e9c8a740139936b82c82b6c0",
+      "simulator27.py": "dfd9be9fd3a7900fad463cab8b72c6dbd309be43e60a65cd755cc6fbf967eb85",
+      "Qwen3.5-4B-Q4_K_M.gguf": "7a3b0a5f45a56b0796fd71a0b8be674f178ee2e07827fe05b5e75b26f853dbdb",
+      "llama-server.exe": "fc6350430b58034bef7d34eae13f89eb1a5d477a32a724735d56efa5c023fa40",
+      "ggml-cuda.dll": "803740a863768746a9ef02957a334a4a6eb99489eb522516016f8f2491262842"
+    }
+  },
+  "preflight": {
+    "offline_checks_passed": 177,
+    "statefix_checks_passed": 3,
+    "native_tool_probe": {
+      "native_tool_call": true,
+      "exact_arguments": true,
+      "tool_result_consumed": true
+    },
+    "replays": [
+      {
+        "case": "official_original",
+        "passed": true
+      },
+      {
+        "case": "framework_original",
+        "passed": true
+      },
+      {
+        "case": "cap_question",
+        "passed": true
+      },
+      {
+        "case": "internal_narration",
+        "passed": true
+      },
+      {
+        "case": "rejected_sku",
+        "passed": true
+      },
+      {
+        "case": "sku_with_cap",
+        "passed": true
+      },
+      {
+        "case": "refund_route",
+        "passed": true
+      },
+      {
+        "case": "complete_approval",
+        "passed": true
+      },
+      {
+        "case": "natural_return_confirmation",
+        "passed": true
+      },
+      {
+        "case": "explicit_stop",
+        "passed": true
+      }
+    ],
+    "pilot": [
+      {
+        "id": "pilot_return_scope_official",
+        "correct": true,
+        "event_triggered": true
+      },
+      {
+        "id": "pilot_return_scope_framework",
+        "correct": true,
+        "event_triggered": true
+      },
+      {
+        "id": "pilot_exchange_resource_official",
+        "correct": true,
+        "event_triggered": true
+      },
+      {
+        "id": "pilot_exchange_resource_framework",
+        "correct": true,
+        "event_triggered": true
+      }
+    ]
+  },
+  "formal_summary": {
+    "completed": 52,
+    "main": 40,
+    "continuations": 12,
+    "completed_at": "2026-11-26T16:52:08.187156+08:00",
+    "cohorts": {
+      "exchange/official": {
+        "n": 8,
+        "correct": 2,
+        "clean_execution": 2,
+        "events": 3,
+        "planned_event_tasks": 3,
+        "correct_after_event": 1,
+        "unauthorized_native_attempts": 3,
+        "unauthorized_written_trajectories": 2,
+        "agent_output_limit_hits": 11,
+        "failed_reason": {
+          "native_outcome_mismatch": 2,
+          "RuntimeError: simulator_extraction_unverified": 2,
+          "budget_exhausted": 2
+        }
+      },
+      "exchange/framework": {
+        "n": 8,
+        "correct": 8,
+        "clean_execution": 5,
+        "events": 3,
+        "planned_event_tasks": 3,
+        "correct_after_event": 3,
+        "unauthorized_native_attempts": 0,
+        "unauthorized_written_trajectories": 0,
+        "agent_output_limit_hits": 0,
+        "failed_reason": {}
+      },
+      "return/official": {
+        "n": 12,
+        "correct": 9,
+        "clean_execution": 9,
+        "events": 6,
+        "planned_event_tasks": 6,
+        "correct_after_event": 4,
+        "unauthorized_native_attempts": 0,
+        "unauthorized_written_trajectories": 0,
+        "agent_output_limit_hits": 0,
+        "failed_reason": {
+          "RuntimeError: simulator_extraction_unverified": 2,
+          "budget_exhausted": 1
+        }
+      },
+      "return/framework": {
+        "n": 12,
+        "correct": 11,
+        "clean_execution": 11,
+        "events": 6,
+        "planned_event_tasks": 6,
+        "correct_after_event": 5,
+        "unauthorized_native_attempts": 0,
+        "unauthorized_written_trajectories": 0,
+        "agent_output_limit_hits": 0,
+        "failed_reason": {
+          "repeated_rejection": 1
+        }
+      }
+    },
+    "paired": {
+      "exchange": {
+        "framework_only": 6,
+        "both": 2
+      },
+      "return": {
+        "both": 9,
+        "framework_only": 2,
+        "neither": 1
+      }
+    },
+    "matched_public_starts": 20,
+    "continuation_directions": {
+      "clarify": 4,
+      "pending": 2
+    },
+    "sft_candidates": 3,
+    "dpo_candidates": 2,
+    "candidate_review": "automated evidence screening; factual human review before training",
+    "scoring": "independent native snapshots and same-generation authority; process issues retained",
+    "context": {
+      "configured": 32768,
+      "server_truncations": 0,
+      "largest_prompt_tokens": 25088
+    },
+    "gpu": {
+      "samples": 110,
+      "peak_sampled_device_used_mib": 4773,
+      "total_device_mib": 12227,
+      "scope": "whole GPU including desktop"
+    },
+    "execution_clean_pair_costs": {
+      "pairs": 10,
+      "classification": "automated screen, factual review pending",
+      "official": {
+        "agent_attempts": 37,
+        "agent_input_tokens": 238553,
+        "agent_output_tokens": 11182,
+        "simulator_attempts": 24,
+        "wall_seconds": 178.06
+      },
+      "framework": {
+        "agent_attempts": 22,
+        "agent_input_tokens": 26451,
+        "agent_output_tokens": 3689,
+        "simulator_attempts": 16,
+        "wall_seconds": 81.11
+      }
+    }
+  },
+  "main_pairs": [
+    {
+      "task": "R_14",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "stable",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "stable",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_28",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "stable",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "stable",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_30",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "evidence",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "evidence",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_31",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "evidence",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "evidence",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_54",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "scope",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "scope",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_73",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "scope",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "scope",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_51",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "conflict",
+        "correct": false,
+        "event_triggered": false,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "conflict",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_55",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "conflict",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "conflict",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_82",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "withdraw",
+        "correct": false,
+        "event_triggered": true,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "withdraw",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_89",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "withdraw",
+        "correct": false,
+        "event_triggered": true,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "withdraw",
+        "correct": false,
+        "event_triggered": true,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_RDB01",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "payment",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "payment",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "R_RDB02",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "return",
+        "scenario": "payment",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "return",
+        "scenario": "payment",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "E_EDB01",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "exchange",
+        "scenario": "stable",
+        "correct": false,
+        "event_triggered": false,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 1,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "exchange",
+        "scenario": "stable",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "E_EDB02",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "exchange",
+        "scenario": "stable",
+        "correct": false,
+        "event_triggered": false,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 1
+      },
+      "framework": {
+        "business": "exchange",
+        "scenario": "stable",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "E_EDB03",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "exchange",
+        "scenario": "evidence",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "exchange",
+        "scenario": "evidence",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "E_EDB04",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "exchange",
+        "scenario": "evidence",
+        "correct": false,
+        "event_triggered": false,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 1,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "exchange",
+        "scenario": "evidence",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "E_EDB05",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "exchange",
+        "scenario": "resource",
+        "correct": false,
+        "event_triggered": true,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "exchange",
+        "scenario": "resource",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "E_EDB06",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "exchange",
+        "scenario": "resource",
+        "correct": false,
+        "event_triggered": true,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 1,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "exchange",
+        "scenario": "resource",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "E_EDB07",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "exchange",
+        "scenario": "requirement",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      },
+      "framework": {
+        "business": "exchange",
+        "scenario": "requirement",
+        "correct": true,
+        "event_triggered": true,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    },
+    {
+      "task": "E_EDB08",
+      "same_public_start_and_database": true,
+      "official": {
+        "business": "exchange",
+        "scenario": "conflict",
+        "correct": false,
+        "event_triggered": false,
+        "clean_execution": false,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 10
+      },
+      "framework": {
+        "business": "exchange",
+        "scenario": "conflict",
+        "correct": true,
+        "event_triggered": false,
+        "clean_execution": true,
+        "unauthorized_native_attempts": 0,
+        "agent_output_limit_hits": 0
+      }
+    }
+  ],
+  "continuation_pairs": [
+    {
+      "checkpoint": "E26_capacity",
+      "repeat": 1,
+      "branches": [
+        "B_E26_capacity_r1_analyze",
+        "B_E26_capacity_r1_clarify"
+      ],
+      "same_visible_input": true,
+      "correct": [
+        true,
+        true
+      ],
+      "clean_both": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "preference_vectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "direction": "clarify"
+    },
+    {
+      "checkpoint": "E26_capacity",
+      "repeat": 2,
+      "branches": [
+        "B_E26_capacity_r2_analyze",
+        "B_E26_capacity_r2_clarify"
+      ],
+      "same_visible_input": true,
+      "correct": [
+        true,
+        true
+      ],
+      "clean_both": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "preference_vectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "direction": "clarify"
+    },
+    {
+      "checkpoint": "E26_appearance",
+      "repeat": 1,
+      "branches": [
+        "B_E26_appearance_r1_analyze",
+        "B_E26_appearance_r1_clarify"
+      ],
+      "same_visible_input": true,
+      "correct": [
+        true,
+        true
+      ],
+      "clean_both": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "preference_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction": "clarify"
+    },
+    {
+      "checkpoint": "E26_appearance",
+      "repeat": 2,
+      "branches": [
+        "B_E26_appearance_r2_analyze",
+        "B_E26_appearance_r2_clarify"
+      ],
+      "same_visible_input": true,
+      "correct": [
+        true,
+        true
+      ],
+      "clean_both": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "preference_vectors": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "direction": "clarify"
+    },
+    {
+      "checkpoint": "R_refund_preference",
+      "repeat": 1,
+      "branches": [
+        "B_R_refund_preference_r1_analyze",
+        "B_R_refund_preference_r1_clarify"
+      ],
+      "same_visible_input": true,
+      "correct": [
+        false,
+        true
+      ],
+      "clean_both": false,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "preference_vectors": [
+        null,
+        [
+          0
+        ]
+      ],
+      "direction": "pending"
+    },
+    {
+      "checkpoint": "R_refund_preference",
+      "repeat": 2,
+      "branches": [
+        "B_R_refund_preference_r2_analyze",
+        "B_R_refund_preference_r2_clarify"
+      ],
+      "same_visible_input": true,
+      "correct": [
+        false,
+        true
+      ],
+      "clean_both": false,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "preference_vectors": [
+        null,
+        [
+          0
+        ]
+      ],
+      "direction": "pending"
+    }
+  ],
+  "targeted_recheck": {
+    "scope": "diagnostic paired recheck; no primary scores replaced",
+    "tasks": [
+      "R_51",
+      "R_82",
+      "R_89",
+      "E_EDB05",
+      "E_EDB06"
+    ],
+    "runs": 10,
+    "comparisons": [
+      {
+        "branch": "A_R_51_r1_official",
+        "group": "official",
+        "original_correct": false,
+        "recheck_correct": true,
+        "original_error": "RuntimeError: simulator_extraction_unverified",
+        "recheck_error": null
+      },
+      {
+        "branch": "A_R_51_r1_framework",
+        "group": "framework",
+        "original_correct": true,
+        "recheck_correct": true,
+        "original_error": null,
+        "recheck_error": null
+      },
+      {
+        "branch": "A_R_82_r1_official",
+        "group": "official",
+        "original_correct": false,
+        "recheck_correct": true,
+        "original_error": "RuntimeError: simulator_extraction_unverified",
+        "recheck_error": null
+      },
+      {
+        "branch": "A_R_82_r1_framework",
+        "group": "framework",
+        "original_correct": true,
+        "recheck_correct": true,
+        "original_error": null,
+        "recheck_error": null
+      },
+      {
+        "branch": "A_R_89_r1_framework",
+        "group": "framework",
+        "original_correct": false,
+        "recheck_correct": false,
+        "original_error": "repeated_rejection",
+        "recheck_error": "repeated_rejection"
+      },
+      {
+        "branch": "A_R_89_r1_official",
+        "group": "official",
+        "original_correct": false,
+        "recheck_correct": true,
+        "original_error": "budget_exhausted",
+        "recheck_error": null
+      },
+      {
+        "branch": "A_E_EDB05_r1_official",
+        "group": "official",
+        "original_correct": false,
+        "recheck_correct": true,
+        "original_error": "RuntimeError: simulator_extraction_unverified",
+        "recheck_error": null
+      },
+      {
+        "branch": "A_E_EDB05_r1_framework",
+        "group": "framework",
+        "original_correct": true,
+        "recheck_correct": true,
+        "original_error": null,
+        "recheck_error": null
+      },
+      {
+        "branch": "A_E_EDB06_r1_framework",
+        "group": "framework",
+        "original_correct": true,
+        "recheck_correct": true,
+        "original_error": null,
+        "recheck_error": null
+      },
+      {
+        "branch": "A_E_EDB06_r1_official",
+        "group": "official",
+        "original_correct": false,
+        "recheck_correct": false,
+        "original_error": "budget_exhausted",
+        "recheck_error": "budget_exhausted"
+      }
+    ]
+  },
+  "signed_amount_recheck": {
+    "scope": "signed amount diagnostic only",
+    "compared": [
+      {
+        "branch": "A_E_EDB06_r1_framework",
+        "group": "framework",
+        "previous_recheck_correct": true,
+        "signed_amount_recheck_correct": true,
+        "error": null
+      },
+      {
+        "branch": "A_E_EDB06_r1_official",
+        "group": "official",
+        "previous_recheck_correct": false,
+        "signed_amount_recheck_correct": true,
+        "error": null
+      }
+    ],
+    "proof": {
+      "id": "A_E_EDB06_r1_official",
+      "old_amount": 8.42,
+      "corrected_amount": -8.42,
+      "incomplete_calculation_ignored": true,
+      "former_checks": {
+        "complete_scope": true,
+        "permitted": true,
+        "stock": true,
+        "cap": true,
+        "payment": true,
+        "amount": false
+      }
+    }
+  }
+}
