@@ -1,0 +1,1328 @@
+{
+  "summary": {
+    "continuations": 20,
+    "correct_continuations": 18,
+    "checkpoints": 5,
+    "matched_pairs": 10,
+    "run_issues": {
+      "agent_output_limits": 0,
+      "simulator_output_limits": 0,
+      "local_service_errors": 0,
+      "context_truncations": 0
+    },
+    "sft_candidates": 7,
+    "sft_base_tasks": [
+      "exchange:26",
+      "exchange:EDB04",
+      "exchange:EDB08",
+      "return:30",
+      "return:31",
+      "return:51",
+      "return:55"
+    ],
+    "sft_work": {
+      "query": 3,
+      "clarify": 4
+    },
+    "sft_stages": {
+      "A": 6,
+      "B": 1
+    },
+    "dpo_candidates": 2,
+    "dpo_base_tasks": [
+      "exchange:26",
+      "return:14"
+    ],
+    "sft_splits": {
+      "train": 4,
+      "test": 3
+    },
+    "dpo_splits": {
+      "test": 1,
+      "validation": 1
+    },
+    "diagnostics_or_ties": [
+      {
+        "checkpoint": "X_catalogues",
+        "directions": [
+          "tie",
+          "tie"
+        ],
+        "reason": "no stable, fully auditable pair with both terminal outcomes"
+      },
+      {
+        "checkpoint": "R_missing",
+        "directions": [
+          "tie",
+          "tie"
+        ],
+        "reason": "no stable, fully auditable pair with both terminal outcomes"
+      },
+      {
+        "checkpoint": "R_refund_routes",
+        "directions": [
+          "clarify",
+          "clarify"
+        ],
+        "reason": "no stable, fully auditable pair with both terminal outcomes"
+      }
+    ],
+    "validation": "source/structure/hash/content and grouped partition checked; candidate data only"
+  },
+  "checkpoints": [
+    {
+      "id": "X_catalogues",
+      "base_task": "exchange:EDB03",
+      "state": "missing_exchange_catalogues",
+      "goal": "取得两份当前目录，完成用户请求的两项换货",
+      "hard_constraints": [
+        "保持原商品范围及原付款方式",
+        "核验库存、有符号整单差额及上限",
+        "替代规格须另外获许，按当前整单批准提交"
+      ],
+      "user_preference": "优先原话指定的两个规格，可就合规替代规格协商；用户未指定查询顺序",
+      "feasibility": [
+        "query_1",
+        "query_2"
+      ]
+    },
+    {
+      "id": "R_missing",
+      "base_task": "return:30",
+      "state": "missing_return_evidence",
+      "goal": "补齐原生订单和账户资料，完成指定商品的退货",
+      "hard_constraints": [
+        "只退当前范围商品",
+        "核验订单资格、合法退款方式及精确总额",
+        "独立整单批准后提交"
+      ],
+      "user_preference": "选用原话指定的礼品卡退款；用户未指定查询顺序",
+      "feasibility": [
+        "query_order",
+        "query_profile"
+      ]
+    },
+    {
+      "id": "X_capacity",
+      "base_task": "exchange:26",
+      "state": "observed_options_conflict",
+      "goal": "在已观测的限制下协商替代规格，完成两项换货",
+      "hard_constraints": [
+        "保持范围及原支付方式",
+        "替代规格有库存且整单差额满足上限",
+        "先取得新规格许可，随后取得当前整单批准"
+      ],
+      "user_preference": "第一件商品依次优先容量、颜色、材质；用户可明确接受合法取舍",
+      "feasibility": [
+        "analyze",
+        "clarify"
+      ]
+    },
+    {
+      "id": "R_refund_routes",
+      "base_task": "return:RDB01",
+      "state": "observed_options_conflict",
+      "goal": "处理初始退款方式不合法的冲突，协商路线后完成两项退货",
+      "hard_constraints": [
+        "保持整单范围，金额精确",
+        "退款途径合法且新路径获明确许可",
+        "独立整单批准后提交"
+      ],
+      "user_preference": "优先现有礼品卡，其次原信用卡；用户可明确接受合法取舍",
+      "feasibility": [
+        "analyze",
+        "clarify"
+      ]
+    },
+    {
+      "id": "R_ready",
+      "base_task": "return:14",
+      "state": "current_return_plan_ready",
+      "goal": "从已核实完整方案出发，办结一项退货",
+      "hard_constraints": [
+        "保持指定商品和合法退款途径",
+        "以当前订单和精确金额为依据",
+        "独立整单批准后提交"
+      ],
+      "user_preference": "使用用户指定的原 PayPal；用户未要求重复查询",
+      "feasibility": [
+        "confirm",
+        "refresh_order"
+      ]
+    }
+  ],
+  "paired": [
+    {
+      "checkpoint": "X_catalogues",
+      "base_task": "exchange:EDB03",
+      "repeat": 1,
+      "branches": [
+        "B_X_catalogues_r1_query_1",
+        "B_X_catalogues_r1_query_2"
+      ],
+      "arms": [
+        "query_1",
+        "query_2"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        null,
+        null
+      ],
+      "cost_vectors": [
+        [
+          1,
+          870,
+          340,
+          1,
+          5
+        ],
+        [
+          1,
+          870,
+          340,
+          1,
+          5
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        9.595840900001349,
+        9.490344199999527
+      ],
+      "direction": "tie",
+      "basis": "same_outcome_with_equal_or_incomparable_costs",
+      "clean_both": true,
+      "errors": [
+        null,
+        null
+      ]
+    },
+    {
+      "checkpoint": "X_catalogues",
+      "base_task": "exchange:EDB03",
+      "repeat": 2,
+      "branches": [
+        "B_X_catalogues_r2_query_1",
+        "B_X_catalogues_r2_query_2"
+      ],
+      "arms": [
+        "query_1",
+        "query_2"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        null,
+        null
+      ],
+      "cost_vectors": [
+        [
+          1,
+          870,
+          340,
+          1,
+          5
+        ],
+        [
+          1,
+          870,
+          340,
+          1,
+          5
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        9.534209400000691,
+        9.208235300000524
+      ],
+      "direction": "tie",
+      "basis": "same_outcome_with_equal_or_incomparable_costs",
+      "clean_both": true,
+      "errors": [
+        null,
+        null
+      ]
+    },
+    {
+      "checkpoint": "R_missing",
+      "base_task": "return:30",
+      "repeat": 1,
+      "branches": [
+        "B_R_missing_r1_query_order",
+        "B_R_missing_r1_query_profile"
+      ],
+      "arms": [
+        "query_order",
+        "query_profile"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        null,
+        null
+      ],
+      "cost_vectors": [
+        [
+          1,
+          599,
+          125,
+          1,
+          5
+        ],
+        [
+          1,
+          599,
+          125,
+          1,
+          5
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        4.1532669000007445,
+        3.920650599997316
+      ],
+      "direction": "tie",
+      "basis": "same_outcome_with_equal_or_incomparable_costs",
+      "clean_both": true,
+      "errors": [
+        null,
+        null
+      ]
+    },
+    {
+      "checkpoint": "R_missing",
+      "base_task": "return:30",
+      "repeat": 2,
+      "branches": [
+        "B_R_missing_r2_query_order",
+        "B_R_missing_r2_query_profile"
+      ],
+      "arms": [
+        "query_order",
+        "query_profile"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        null,
+        null
+      ],
+      "cost_vectors": [
+        [
+          1,
+          599,
+          125,
+          1,
+          5
+        ],
+        [
+          1,
+          599,
+          125,
+          1,
+          5
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        3.9407795000006445,
+        3.8868984000000637
+      ],
+      "direction": "tie",
+      "basis": "same_outcome_with_equal_or_incomparable_costs",
+      "clean_both": true,
+      "errors": [
+        null,
+        null
+      ]
+    },
+    {
+      "checkpoint": "X_capacity",
+      "base_task": "exchange:26",
+      "repeat": 1,
+      "branches": [
+        "B_X_capacity_r1_analyze",
+        "B_X_capacity_r1_clarify"
+      ],
+      "arms": [
+        "analyze",
+        "clarify"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "cost_vectors": [
+        [
+          4,
+          9854,
+          1239,
+          2,
+          5
+        ],
+        [
+          2,
+          2499,
+          483,
+          2,
+          4
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        22.386069399999542,
+        13.720456600000034
+      ],
+      "direction": "clarify",
+      "basis": "processing_cost_pareto",
+      "clean_both": true,
+      "errors": [
+        null,
+        null
+      ]
+    },
+    {
+      "checkpoint": "X_capacity",
+      "base_task": "exchange:26",
+      "repeat": 2,
+      "branches": [
+        "B_X_capacity_r2_analyze",
+        "B_X_capacity_r2_clarify"
+      ],
+      "arms": [
+        "analyze",
+        "clarify"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "cost_vectors": [
+        [
+          4,
+          9854,
+          1239,
+          2,
+          5
+        ],
+        [
+          2,
+          2499,
+          483,
+          2,
+          4
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        20.426191700000345,
+        13.709481800000503
+      ],
+      "direction": "clarify",
+      "basis": "processing_cost_pareto",
+      "clean_both": true,
+      "errors": [
+        null,
+        null
+      ]
+    },
+    {
+      "checkpoint": "R_refund_routes",
+      "base_task": "return:RDB01",
+      "repeat": 1,
+      "branches": [
+        "B_R_refund_routes_r1_analyze",
+        "B_R_refund_routes_r1_clarify"
+      ],
+      "arms": [
+        "analyze",
+        "clarify"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        false,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        null,
+        [
+          0
+        ]
+      ],
+      "cost_vectors": [
+        [
+          40,
+          86366,
+          7580,
+          0,
+          20
+        ],
+        [
+          2,
+          1351,
+          275,
+          2,
+          4
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        77.83788139999888,
+        8.67237860000023
+      ],
+      "direction": "clarify",
+      "basis": "correct_terminal",
+      "clean_both": false,
+      "errors": [
+        "RuntimeError: agent_budget_exhausted",
+        null
+      ]
+    },
+    {
+      "checkpoint": "R_refund_routes",
+      "base_task": "return:RDB01",
+      "repeat": 2,
+      "branches": [
+        "B_R_refund_routes_r2_analyze",
+        "B_R_refund_routes_r2_clarify"
+      ],
+      "arms": [
+        "analyze",
+        "clarify"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        false,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        null,
+        [
+          0
+        ]
+      ],
+      "cost_vectors": [
+        [
+          40,
+          86366,
+          7580,
+          0,
+          20
+        ],
+        [
+          2,
+          1351,
+          275,
+          2,
+          4
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        78.00309179999749,
+        8.599343699999736
+      ],
+      "direction": "clarify",
+      "basis": "correct_terminal",
+      "clean_both": false,
+      "errors": [
+        "RuntimeError: agent_budget_exhausted",
+        null
+      ]
+    },
+    {
+      "checkpoint": "R_ready",
+      "base_task": "return:14",
+      "repeat": 1,
+      "branches": [
+        "B_R_ready_r1_confirm",
+        "B_R_ready_r1_refresh_order"
+      ],
+      "arms": [
+        "confirm",
+        "refresh_order"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        null,
+        null
+      ],
+      "cost_vectors": [
+        [
+          1,
+          595,
+          124,
+          1,
+          2
+        ],
+        [
+          1,
+          596,
+          126,
+          1,
+          3
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        4.10029779999968,
+        3.9577285000013944
+      ],
+      "direction": "confirm",
+      "basis": "processing_cost_pareto",
+      "clean_both": true,
+      "errors": [
+        null,
+        null
+      ]
+    },
+    {
+      "checkpoint": "R_ready",
+      "base_task": "return:14",
+      "repeat": 2,
+      "branches": [
+        "B_R_ready_r2_confirm",
+        "B_R_ready_r2_refresh_order"
+      ],
+      "arms": [
+        "confirm",
+        "refresh_order"
+      ],
+      "same_visible_and_simulator_start": true,
+      "first_work_allowed": [
+        true,
+        true
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "hard_constraint_rank": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "explicit_preference_vectors": [
+        null,
+        null
+      ],
+      "cost_vectors": [
+        [
+          1,
+          595,
+          124,
+          1,
+          2
+        ],
+        [
+          1,
+          596,
+          126,
+          1,
+          3
+        ]
+      ],
+      "cost_fields": [
+        "agent_attempts",
+        "agent_input_tokens",
+        "agent_output_tokens",
+        "simulator_attempts",
+        "business_execution_steps"
+      ],
+      "wall_seconds": [
+        3.946333899999445,
+        3.913640500002657
+      ],
+      "direction": "confirm",
+      "basis": "processing_cost_pareto",
+      "clean_both": true,
+      "errors": [
+        null,
+        null
+      ]
+    }
+  ],
+  "samples": {
+    "sft": [
+      {
+        "branch": "A_R_30_r1_framework",
+        "trace_event": 0,
+        "request_row_zero_based": 14,
+        "response_id": "chatcmpl-ZS3I4yVdac9WBrhS88eZfySH56llPz8z",
+        "basis": "allowed autonomous query added absent native evidence",
+        "stage": "A",
+        "base_task": "return:30",
+        "split": "train",
+        "line": 1,
+        "work": "query",
+        "sample_sha256": "c03c443be069e56e24ebc18a6000cf7ff1937b128f2e620d69be521cc4a77792",
+        "trace_sha256": "f8e29b97489b92d67c71034db4a2a13f79d76bf3c0b3e0b55fb5edb3fa03c346",
+        "requests_sha256": "fe94dc9f5d7ae5acea2f0698eea8941425a182e192a2c4f5ddf3c46d999852c4",
+        "verified_end": true
+      },
+      {
+        "branch": "A_R_31_r1_framework",
+        "trace_event": 0,
+        "request_row_zero_based": 16,
+        "response_id": "chatcmpl-1HH0yFgQzFdHsvtVy5QhK1HMeiFGYGk6",
+        "basis": "allowed autonomous query added absent native evidence",
+        "stage": "A",
+        "base_task": "return:31",
+        "split": "test",
+        "line": 1,
+        "work": "query",
+        "sample_sha256": "a60fbcdcf22ee5480b35edf31523a4fd18a2ddf393d267703bee97a244f3c870",
+        "trace_sha256": "e20979bcb2df6de6dc3ab8d6fe8a2f8a82cdadd1ed72dd564d9d9cdbdd9c33be",
+        "requests_sha256": "fe94dc9f5d7ae5acea2f0698eea8941425a182e192a2c4f5ddf3c46d999852c4",
+        "verified_end": true
+      },
+      {
+        "branch": "A_R_51_r1_framework",
+        "trace_event": 2,
+        "request_row_zero_based": 41,
+        "response_id": "chatcmpl-qNI06X9rNS1ieLPzhprbo3loR2CPMtjX",
+        "basis": "autonomous feasible clarification received literal option permission; independent transaction approval followed",
+        "stage": "A",
+        "base_task": "return:51",
+        "split": "train",
+        "line": 2,
+        "work": "clarify",
+        "sample_sha256": "a11f5ccd842d27233ab6715ddf26cee099e919f6e1e8f623b5e9af8cd68967d4",
+        "trace_sha256": "f23e6a72f7289fdac0fec903c7320a45baabe93a9ca1fd15a42d44bbe7125ad4",
+        "requests_sha256": "fe94dc9f5d7ae5acea2f0698eea8941425a182e192a2c4f5ddf3c46d999852c4",
+        "verified_end": true
+      },
+      {
+        "branch": "A_R_55_r1_framework",
+        "trace_event": 2,
+        "request_row_zero_based": 46,
+        "response_id": "chatcmpl-K7ncRPRhxWTqVC12IM8ZoFDiy4fXZCjK",
+        "basis": "autonomous feasible clarification received literal option permission; independent transaction approval followed",
+        "stage": "A",
+        "base_task": "return:55",
+        "split": "train",
+        "line": 3,
+        "work": "clarify",
+        "sample_sha256": "95db954b3d05b99da902f9fc66467f1e0ebdcbf648c5528cb83294467bbcae68",
+        "trace_sha256": "aeef03cabfbf67540378474a1bd8896bb5008dee86485d935f7bc4a65ac6ed94",
+        "requests_sha256": "fe94dc9f5d7ae5acea2f0698eea8941425a182e192a2c4f5ddf3c46d999852c4",
+        "verified_end": true
+      },
+      {
+        "branch": "A_E_EDB04_r1_framework",
+        "trace_event": 2,
+        "request_row_zero_based": 86,
+        "response_id": "chatcmpl-ewtGCds40aDflvHBxi9bXW85j1nksNnq",
+        "basis": "allowed autonomous query added absent native evidence",
+        "stage": "A",
+        "base_task": "exchange:EDB04",
+        "split": "train",
+        "line": 4,
+        "work": "query",
+        "sample_sha256": "27947be7456fa43466c6d11493dd88229e95ef5f000eab73a9381c08d8519602",
+        "trace_sha256": "d82d555e0ae369f5ba55e3e674ce29d6ff724b6d75dec1d21899dfff4345dbc0",
+        "requests_sha256": "fe94dc9f5d7ae5acea2f0698eea8941425a182e192a2c4f5ddf3c46d999852c4",
+        "verified_end": true
+      },
+      {
+        "branch": "A_E_EDB08_r1_framework",
+        "trace_event": 2,
+        "request_row_zero_based": 126,
+        "response_id": "chatcmpl-zbvQHKIRxqO24kNJFtdGwR1FyRYghB3V",
+        "basis": "autonomous feasible clarification received literal option permission; independent transaction approval followed",
+        "stage": "A",
+        "base_task": "exchange:EDB08",
+        "split": "test",
+        "line": 2,
+        "work": "clarify",
+        "sample_sha256": "bbb6c87446831ef8ae30ad0f6c2090fec290bdb99429a12a302c180304aa57ef",
+        "trace_sha256": "888e000446003de86787b5415fb08e8a5ba0414bd706e759039f8ef9e5ce8013",
+        "requests_sha256": "fe94dc9f5d7ae5acea2f0698eea8941425a182e192a2c4f5ddf3c46d999852c4",
+        "verified_end": true
+      },
+      {
+        "branch": "B_X_capacity_r1_analyze",
+        "trace_event": 1,
+        "request_row_zero_based": 9,
+        "response_id": "chatcmpl-d0LeWdxNcphzrQZcf92uw7heHViWaPCX",
+        "basis": "autonomous feasible clarification received literal option permission; independent transaction approval followed",
+        "stage": "B",
+        "base_task": "exchange:26",
+        "split": "test",
+        "line": 3,
+        "work": "clarify",
+        "sample_sha256": "ca2e90db8ccb000a278d1ac56f246029de8c2c48f7a25a9417b99989a26f54b0",
+        "trace_sha256": "424a2149e0fe731190ff46f899ed7fb681c983c883b7caa61aa5c483238428ec",
+        "requests_sha256": "eb2ec074c3d36bb4696bb5f3d1d2e40b2233dc5710b3d37d4646ae57660d1733",
+        "verified_end": true
+      }
+    ],
+    "dpo": [
+      {
+        "checkpoint": "X_capacity",
+        "base_task": "exchange:26",
+        "split": "test",
+        "line": 1,
+        "sample_sha256": "47a2e0c6e5d5dcaa642e5a0f9033c46ab1a2c0880f7c20da99ef386f858c5642",
+        "matched_start_sha256": "57b2ce0472fb45a4bbc7bc7e406ee71029d12a1ff7ef227263de9d85c762b9ce",
+        "chosen_arm": "clarify",
+        "rejected_arm": "analyze",
+        "first_work_origin": "prespecified_experimental_intervention",
+        "repeats": [
+          {
+            "checkpoint": "X_capacity",
+            "base_task": "exchange:26",
+            "repeat": 1,
+            "branches": [
+              "B_X_capacity_r1_analyze",
+              "B_X_capacity_r1_clarify"
+            ],
+            "arms": [
+              "analyze",
+              "clarify"
+            ],
+            "same_visible_and_simulator_start": true,
+            "first_work_allowed": [
+              true,
+              true
+            ],
+            "correct": [
+              true,
+              true
+            ],
+            "hard_constraint_rank": [
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "explicit_preference_vectors": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "cost_vectors": [
+              [
+                4,
+                9854,
+                1239,
+                2,
+                5
+              ],
+              [
+                2,
+                2499,
+                483,
+                2,
+                4
+              ]
+            ],
+            "cost_fields": [
+              "agent_attempts",
+              "agent_input_tokens",
+              "agent_output_tokens",
+              "simulator_attempts",
+              "business_execution_steps"
+            ],
+            "wall_seconds": [
+              22.386069399999542,
+              13.720456600000034
+            ],
+            "direction": "clarify",
+            "basis": "processing_cost_pareto",
+            "clean_both": true,
+            "errors": [
+              null,
+              null
+            ]
+          },
+          {
+            "checkpoint": "X_capacity",
+            "base_task": "exchange:26",
+            "repeat": 2,
+            "branches": [
+              "B_X_capacity_r2_analyze",
+              "B_X_capacity_r2_clarify"
+            ],
+            "arms": [
+              "analyze",
+              "clarify"
+            ],
+            "same_visible_and_simulator_start": true,
+            "first_work_allowed": [
+              true,
+              true
+            ],
+            "correct": [
+              true,
+              true
+            ],
+            "hard_constraint_rank": [
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "explicit_preference_vectors": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ]
+            ],
+            "cost_vectors": [
+              [
+                4,
+                9854,
+                1239,
+                2,
+                5
+              ],
+              [
+                2,
+                2499,
+                483,
+                2,
+                4
+              ]
+            ],
+            "cost_fields": [
+              "agent_attempts",
+              "agent_input_tokens",
+              "agent_output_tokens",
+              "simulator_attempts",
+              "business_execution_steps"
+            ],
+            "wall_seconds": [
+              20.426191700000345,
+              13.709481800000503
+            ],
+            "direction": "clarify",
+            "basis": "processing_cost_pareto",
+            "clean_both": true,
+            "errors": [
+              null,
+              null
+            ]
+          }
+        ],
+        "trace_hashes": {
+          "B_X_capacity_r1_analyze": "424a2149e0fe731190ff46f899ed7fb681c983c883b7caa61aa5c483238428ec",
+          "B_X_capacity_r1_clarify": "a713579bf14e4d308d40896ae14b6ae721b59c11802e416dff7fb5778370ccfe",
+          "B_X_capacity_r2_analyze": "424a2149e0fe731190ff46f899ed7fb681c983c883b7caa61aa5c483238428ec",
+          "B_X_capacity_r2_clarify": "a713579bf14e4d308d40896ae14b6ae721b59c11802e416dff7fb5778370ccfe"
+        }
+      },
+      {
+        "checkpoint": "R_ready",
+        "base_task": "return:14",
+        "split": "validation",
+        "line": 1,
+        "sample_sha256": "572b8b03b4b7ff177d094744fc7e9ab2fdd192cb5ad9866205d75a88427bf4df",
+        "matched_start_sha256": "5a775508f379c3b486c922a603ecb9b820fe9382a77cc57c851146a7e4e4084f",
+        "chosen_arm": "confirm",
+        "rejected_arm": "refresh_order",
+        "first_work_origin": "prespecified_experimental_intervention",
+        "repeats": [
+          {
+            "checkpoint": "R_ready",
+            "base_task": "return:14",
+            "repeat": 1,
+            "branches": [
+              "B_R_ready_r1_confirm",
+              "B_R_ready_r1_refresh_order"
+            ],
+            "arms": [
+              "confirm",
+              "refresh_order"
+            ],
+            "same_visible_and_simulator_start": true,
+            "first_work_allowed": [
+              true,
+              true
+            ],
+            "correct": [
+              true,
+              true
+            ],
+            "hard_constraint_rank": [
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "explicit_preference_vectors": [
+              null,
+              null
+            ],
+            "cost_vectors": [
+              [
+                1,
+                595,
+                124,
+                1,
+                2
+              ],
+              [
+                1,
+                596,
+                126,
+                1,
+                3
+              ]
+            ],
+            "cost_fields": [
+              "agent_attempts",
+              "agent_input_tokens",
+              "agent_output_tokens",
+              "simulator_attempts",
+              "business_execution_steps"
+            ],
+            "wall_seconds": [
+              4.10029779999968,
+              3.9577285000013944
+            ],
+            "direction": "confirm",
+            "basis": "processing_cost_pareto",
+            "clean_both": true,
+            "errors": [
+              null,
+              null
+            ]
+          },
+          {
+            "checkpoint": "R_ready",
+            "base_task": "return:14",
+            "repeat": 2,
+            "branches": [
+              "B_R_ready_r2_confirm",
+              "B_R_ready_r2_refresh_order"
+            ],
+            "arms": [
+              "confirm",
+              "refresh_order"
+            ],
+            "same_visible_and_simulator_start": true,
+            "first_work_allowed": [
+              true,
+              true
+            ],
+            "correct": [
+              true,
+              true
+            ],
+            "hard_constraint_rank": [
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "explicit_preference_vectors": [
+              null,
+              null
+            ],
+            "cost_vectors": [
+              [
+                1,
+                595,
+                124,
+                1,
+                2
+              ],
+              [
+                1,
+                596,
+                126,
+                1,
+                3
+              ]
+            ],
+            "cost_fields": [
+              "agent_attempts",
+              "agent_input_tokens",
+              "agent_output_tokens",
+              "simulator_attempts",
+              "business_execution_steps"
+            ],
+            "wall_seconds": [
+              3.946333899999445,
+              3.913640500002657
+            ],
+            "direction": "confirm",
+            "basis": "processing_cost_pareto",
+            "clean_both": true,
+            "errors": [
+              null,
+              null
+            ]
+          }
+        ],
+        "trace_hashes": {
+          "B_R_ready_r1_confirm": "76ad83ee25e074000693cbc732df6267cdbe0dc88d58944be24428b04b20af8e",
+          "B_R_ready_r1_refresh_order": "a13946c29fb76e92bb4af45bb241fdae139e9a39fb3b099efe512aa0e91e3965",
+          "B_R_ready_r2_confirm": "76ad83ee25e074000693cbc732df6267cdbe0dc88d58944be24428b04b20af8e",
+          "B_R_ready_r2_refresh_order": "a13946c29fb76e92bb4af45bb241fdae139e9a39fb3b099efe512aa0e91e3965"
+        }
+      }
+    ]
+  }
+}

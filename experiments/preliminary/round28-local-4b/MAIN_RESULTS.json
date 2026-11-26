@@ -1,0 +1,3840 @@
+{
+  "summary": {
+    "formal_trajectories": 40,
+    "matched_initial_pairs": 20,
+    "cohorts": {
+      "exchange/official": {
+        "total": 8,
+        "correct": 5,
+        "event_expected": 3,
+        "event_triggered": 3,
+        "event_correct": 3,
+        "unauthorized_attempts": 3,
+        "unauthorized_native_attempts": 3,
+        "unauthorized_writes": 2,
+        "agent_output_limit": 3,
+        "simulator_output_limit": 2,
+        "service_errors": 0,
+        "failure": {
+          "noncompliant_native_outcome": 2,
+          "RuntimeError: simulator_extraction_unverified": 1
+        }
+      },
+      "exchange/framework": {
+        "total": 8,
+        "correct": 8,
+        "event_expected": 3,
+        "event_triggered": 3,
+        "event_correct": 3,
+        "unauthorized_attempts": 2,
+        "unauthorized_native_attempts": 0,
+        "unauthorized_writes": 0,
+        "agent_output_limit": 0,
+        "simulator_output_limit": 0,
+        "service_errors": 0,
+        "failure": {}
+      },
+      "return/official": {
+        "total": 12,
+        "correct": 12,
+        "event_expected": 6,
+        "event_triggered": 6,
+        "event_correct": 6,
+        "unauthorized_attempts": 0,
+        "unauthorized_native_attempts": 0,
+        "unauthorized_writes": 0,
+        "agent_output_limit": 0,
+        "simulator_output_limit": 0,
+        "service_errors": 0,
+        "failure": {}
+      },
+      "return/framework": {
+        "total": 12,
+        "correct": 12,
+        "event_expected": 6,
+        "event_triggered": 6,
+        "event_correct": 6,
+        "unauthorized_attempts": 0,
+        "unauthorized_native_attempts": 0,
+        "unauthorized_writes": 0,
+        "agent_output_limit": 0,
+        "simulator_output_limit": 0,
+        "service_errors": 0,
+        "failure": {}
+      },
+      "all/official": {
+        "total": 20,
+        "correct": 17,
+        "event_expected": 9,
+        "event_triggered": 9,
+        "event_correct": 9,
+        "unauthorized_attempts": 3,
+        "unauthorized_native_attempts": 3,
+        "unauthorized_writes": 2,
+        "agent_output_limit": 3,
+        "simulator_output_limit": 2,
+        "service_errors": 0,
+        "failure": {
+          "noncompliant_native_outcome": 2,
+          "RuntimeError: simulator_extraction_unverified": 1
+        }
+      },
+      "all/framework": {
+        "total": 20,
+        "correct": 20,
+        "event_expected": 9,
+        "event_triggered": 9,
+        "event_correct": 9,
+        "unauthorized_attempts": 2,
+        "unauthorized_native_attempts": 0,
+        "unauthorized_writes": 0,
+        "agent_output_limit": 0,
+        "simulator_output_limit": 0,
+        "service_errors": 0,
+        "failure": {}
+      }
+    },
+    "cost_comparison": {
+      "included_tasks": [
+        "R_14",
+        "R_28",
+        "R_30",
+        "R_31",
+        "R_54",
+        "R_73",
+        "R_51",
+        "R_55",
+        "R_82",
+        "R_89",
+        "R_RDB01",
+        "R_RDB02",
+        "E_EDB07"
+      ],
+      "excluded": {
+        "E_EDB01": {
+          "official": [
+            "noncompliant_terminal",
+            "unauthorized_tool_attempt"
+          ],
+          "framework": []
+        },
+        "E_EDB02": {
+          "official": [
+            "agent_output_limit"
+          ],
+          "framework": []
+        },
+        "E_EDB03": {
+          "official": [],
+          "framework": [
+            "execution_rejection_or_native_error"
+          ]
+        },
+        "E_EDB04": {
+          "official": [
+            "noncompliant_terminal",
+            "unauthorized_tool_attempt"
+          ],
+          "framework": []
+        },
+        "E_EDB05": {
+          "official": [],
+          "framework": [
+            "unauthorized_tool_attempt",
+            "execution_rejection_or_native_error"
+          ]
+        },
+        "E_EDB06": {
+          "official": [
+            "unauthorized_tool_attempt",
+            "execution_rejection_or_native_error"
+          ],
+          "framework": [
+            "unauthorized_tool_attempt",
+            "execution_rejection_or_native_error"
+          ]
+        },
+        "E_EDB08": {
+          "official": [
+            "noncompliant_terminal",
+            "runtime:RuntimeError: simulator_extraction_unverified",
+            "agent_output_limit",
+            "simulator_failed",
+            "simulator_output_limit"
+          ],
+          "framework": []
+        }
+      },
+      "official": {
+        "agent_attempts": 47,
+        "input_tokens": 302571,
+        "output_tokens": 13842,
+        "simulator_attempts": 33,
+        "simulator_program_only": 0,
+        "wall_seconds": 265.404
+      },
+      "framework": {
+        "agent_attempts": 29,
+        "input_tokens": 36218,
+        "output_tokens": 4611,
+        "simulator_attempts": 20,
+        "simulator_program_only": 0,
+        "wall_seconds": 120.175
+      }
+    },
+    "context_truncations": 0,
+    "database_change_verified_count": 40,
+    "independent_scores_match": true
+  },
+  "pairs": [
+    {
+      "task": "R_14",
+      "scenario": "stable",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_14_r1_official",
+        "task": "14",
+        "business": "return",
+        "scenario": "stable",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 28.021041799998784,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 5,
+          "program_only": 0,
+          "input_tokens": 32159,
+          "output_tokens": 1299,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 4,
+          "program_only": 0,
+          "input_tokens": 4561,
+          "output_tokens": 1468,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 13,
+            "user_ref": 14,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 4,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W7387996",
+              "item_ids": [
+                "5796612084"
+              ],
+              "payment_method_id": "paypal_9497703"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_14_r1_official_trace.json",
+          "trace_sha256": "76c10eb2cf820ec2f65df8320529b2477cda8ec46784a39d132a55485cabdfae"
+        }
+      },
+      "framework": {
+        "id": "A_R_14_r1_framework",
+        "task": "14",
+        "business": "return",
+        "scenario": "stable",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 4.449718800002302,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 595,
+          "output_tokens": 124,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1014,
+          "output_tokens": 316,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 7,
+            "user_ref": 8,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 6,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W7387996",
+              "item_ids": [
+                "5796612084"
+              ],
+              "payment_method_id": "paypal_9497703"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_14_r1_framework_trace.json",
+          "trace_sha256": "cd6acc5830595770bd58a6016888a5147396e10d6090f5cf1d5d1eea6dea4e97"
+        }
+      }
+    },
+    {
+      "task": "R_28",
+      "scenario": "stable",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_28_r1_official",
+        "task": "28",
+        "business": "return",
+        "scenario": "stable",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 9.63992810000127,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 11684,
+          "output_tokens": 415,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1189,
+          "output_tokens": 538,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 7,
+            "user_ref": 8,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 1,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W3792453",
+              "item_ids": [
+                "4293355847"
+              ],
+              "payment_method_id": "paypal_3024827"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_28_r1_official_trace.json",
+          "trace_sha256": "2aa44137daae1cc0330fdf229b368d1a79d139cb01fd6329541729f2db052ec7"
+        }
+      },
+      "framework": {
+        "id": "A_R_28_r1_framework",
+        "task": "28",
+        "business": "return",
+        "scenario": "stable",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 4.195871500000067,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 594,
+          "output_tokens": 124,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1014,
+          "output_tokens": 313,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 7,
+            "user_ref": 8,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 6,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W3792453",
+              "item_ids": [
+                "4293355847"
+              ],
+              "payment_method_id": "paypal_3024827"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_28_r1_framework_trace.json",
+          "trace_sha256": "c5c73a0c5f8a802898a66085afd222ea70aa947cc5a0daf6a3985232248b8681"
+        }
+      }
+    },
+    {
+      "task": "R_30",
+      "scenario": "evidence",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_30_r1_official",
+        "task": "30",
+        "business": "return",
+        "scenario": "evidence",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 21.988749699998152,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 5,
+          "program_only": 0,
+          "input_tokens": 29949,
+          "output_tokens": 1399,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 3826,
+          "output_tokens": 804,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 9,
+            "user_ref": 10,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 4,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W2692684",
+              "item_ids": [
+                "3788616824"
+              ],
+              "payment_method_id": "gift_card_7711863"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_30_r1_official_trace.json",
+          "trace_sha256": "2a91a6e86cf00432b1c8fdc667e3a4c18d769473388b01fd3b9ffdb35aec2abd"
+        }
+      },
+      "framework": {
+        "id": "A_R_30_r1_framework",
+        "task": "30",
+        "business": "return",
+        "scenario": "evidence",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 6.148801200000889,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 3112,
+          "output_tokens": 242,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1018,
+          "output_tokens": 321,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 7,
+            "user_ref": 8,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 10,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W2692684",
+              "item_ids": [
+                "3788616824"
+              ],
+              "payment_method_id": "gift_card_7711863"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_30_r1_framework_trace.json",
+          "trace_sha256": "f8e29b97489b92d67c71034db4a2a13f79d76bf3c0b3e0b55fb5edb3fa03c346"
+        }
+      }
+    },
+    {
+      "task": "R_31",
+      "scenario": "evidence",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_31_r1_official",
+        "task": "31",
+        "business": "return",
+        "scenario": "evidence",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 25.972211600001174,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 6,
+          "program_only": 0,
+          "input_tokens": 36034,
+          "output_tokens": 1262,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 3519,
+          "output_tokens": 1354,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 11,
+            "user_ref": 12,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 5,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W7449508",
+              "item_ids": [
+                "6200867091",
+                "6477915553"
+              ],
+              "payment_method_id": "gift_card_7711863"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_31_r1_official_trace.json",
+          "trace_sha256": "8d702381aaf15811c3b1a74ca8a3095ab7e59d6c99b09c8cf8312308b37a5cc6"
+        }
+      },
+      "framework": {
+        "id": "A_R_31_r1_framework",
+        "task": "31",
+        "business": "return",
+        "scenario": "evidence",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 6.72059580000132,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 3227,
+          "output_tokens": 267,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1076,
+          "output_tokens": 405,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 7,
+            "user_ref": 8,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 10,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W7449508",
+              "item_ids": [
+                "6200867091",
+                "6477915553"
+              ],
+              "payment_method_id": "gift_card_7711863"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_31_r1_framework_trace.json",
+          "trace_sha256": "e20979bcb2df6de6dc3ab8d6fe8a2f8a82cdadd1ed72dd564d9d9cdbdd9c33be"
+        }
+      }
+    },
+    {
+      "task": "R_54",
+      "scenario": "scope",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_54_r1_official",
+        "task": "54",
+        "business": "return",
+        "scenario": "scope",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 21.30895430000237,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 19566,
+          "output_tokens": 1103,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2908,
+          "output_tokens": 1065,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 10,
+            "user_ref": 11,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 3,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W4597054",
+              "item_ids": [
+                "4900990404",
+                "9862136885"
+              ],
+              "payment_method_id": "gift_card_3491931"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_54_r1_official_trace.json",
+          "trace_sha256": "be05679e619a4f9923fd0381b694172f144beac690a58f4007a08a199c4c4e9d"
+        }
+      },
+      "framework": {
+        "id": "A_R_54_r1_framework",
+        "task": "54",
+        "business": "return",
+        "scenario": "scope",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 10.646478200000274,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 1592,
+          "output_tokens": 327,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2239,
+          "output_tokens": 799,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 10,
+            "user_ref": 11,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 13,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W4597054",
+              "item_ids": [
+                "4900990404",
+                "9862136885"
+              ],
+              "payment_method_id": "gift_card_3491931"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_54_r1_framework_trace.json",
+          "trace_sha256": "94d0bba63fd4f19b652a8cbbe33de3402d19ba84ab74042d74db9baba6f94b84"
+        }
+      }
+    },
+    {
+      "task": "R_73",
+      "scenario": "scope",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_73_r1_official",
+        "task": "73",
+        "business": "return",
+        "scenario": "scope",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 20.264336100000946,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 19620,
+          "output_tokens": 1067,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2939,
+          "output_tokens": 1080,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 10,
+            "user_ref": 11,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 3,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W5272531",
+              "item_ids": [
+                "2698416822",
+                "8098621301"
+              ],
+              "payment_method_id": "credit_card_6824399"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_73_r1_official_trace.json",
+          "trace_sha256": "f1f561064e16aedd94e6d670d3e231e256cc2911e9b21bed12875371812dfc18"
+        }
+      },
+      "framework": {
+        "id": "A_R_73_r1_framework",
+        "task": "73",
+        "business": "return",
+        "scenario": "scope",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 9.498097199997574,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 1745,
+          "output_tokens": 252,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2309,
+          "output_tokens": 755,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 10,
+            "user_ref": 11,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 13,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W5272531",
+              "item_ids": [
+                "2698416822",
+                "8098621301"
+              ],
+              "payment_method_id": "credit_card_6824399"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_73_r1_framework_trace.json",
+          "trace_sha256": "0a3f3004fb6a0574f2761237532cc7a9238fbaf04d7d34591736c4a3c5a549cc"
+        }
+      }
+    },
+    {
+      "task": "R_51",
+      "scenario": "conflict",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_51_r1_official",
+        "task": "51",
+        "business": "return",
+        "scenario": "conflict",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 25.570525399998587,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 5,
+          "program_only": 0,
+          "input_tokens": 33012,
+          "output_tokens": 1396,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 4,
+          "program_only": 0,
+          "input_tokens": 4742,
+          "output_tokens": 1258,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 13,
+            "user_ref": 14,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 4,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W4689314",
+              "item_ids": [
+                "5996159312"
+              ],
+              "payment_method_id": "credit_card_8105988"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_51_r1_official_trace.json",
+          "trace_sha256": "b4ab11cf6c45b36d844c6da132548e0fb458cba2173ab8808cbe80274a7add28"
+        }
+      },
+      "framework": {
+        "id": "A_R_51_r1_framework",
+        "task": "51",
+        "business": "return",
+        "scenario": "conflict",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 13.258354899997357,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 5,
+          "program_only": 0,
+          "input_tokens": 8367,
+          "output_tokens": 724,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2068,
+          "output_tokens": 607,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 9,
+            "user_ref": 10,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 11,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W4689314",
+              "item_ids": [
+                "5996159312"
+              ],
+              "payment_method_id": "credit_card_8105988"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_51_r1_framework_trace.json",
+          "trace_sha256": "f23e6a72f7289fdac0fec903c7320a45baabe93a9ca1fd15a42d44bbe7125ad4"
+        }
+      }
+    },
+    {
+      "task": "R_55",
+      "scenario": "conflict",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_55_r1_official",
+        "task": "55",
+        "business": "return",
+        "scenario": "conflict",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 23.784003799999482,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 4,
+          "program_only": 0,
+          "input_tokens": 26169,
+          "output_tokens": 1381,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 3929,
+          "output_tokens": 1117,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 11,
+            "user_ref": 12,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 3,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W7773202",
+              "item_ids": [
+                "8277474082"
+              ],
+              "payment_method_id": "gift_card_3491931"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_55_r1_official_trace.json",
+          "trace_sha256": "c71d04bbb00d6909bd567b7e8179f1504941fd61c7e766326520ff9367551e5e"
+        }
+      },
+      "framework": {
+        "id": "A_R_55_r1_framework",
+        "task": "55",
+        "business": "return",
+        "scenario": "conflict",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 13.852023300001747,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 5,
+          "program_only": 0,
+          "input_tokens": 8384,
+          "output_tokens": 809,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2080,
+          "output_tokens": 604,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 9,
+            "user_ref": 10,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 11,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W7773202",
+              "item_ids": [
+                "8277474082"
+              ],
+              "payment_method_id": "gift_card_3491931"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_55_r1_framework_trace.json",
+          "trace_sha256": "aeef03cabfbf67540378474a1bd8896bb5008dee86485d935f7bc4a65ac6ed94"
+        }
+      }
+    },
+    {
+      "task": "R_82",
+      "scenario": "withdraw",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_82_r1_official",
+        "task": "82",
+        "business": "return",
+        "scenario": "withdraw",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 11.746052800001053,
+        "correct": true,
+        "checks": {
+          "event_observed": true,
+          "no_write": true,
+          "database_unchanged": true,
+          "withdrawal_acknowledged": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 12531,
+          "output_tokens": 666,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2521,
+          "output_tokens": 534,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 0,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "delivered",
+        "terminal_reason": "withdrawal_acknowledged",
+        "current_epoch": 1,
+        "matched_approval_sources": [],
+        "submissions": [],
+        "source": {
+          "trace_file": "A_R_82_r1_official_trace.json",
+          "trace_sha256": "b29eb00970cc25234d1f0dc13dd468ccdbe60cc5091286a751dcde721c559f2f"
+        }
+      },
+      "framework": {
+        "id": "A_R_82_r1_framework",
+        "task": "82",
+        "business": "return",
+        "scenario": "withdraw",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 4.316601300000912,
+        "correct": true,
+        "checks": {
+          "event_observed": true,
+          "no_write": true,
+          "database_unchanged": true,
+          "withdrawal_acknowledged": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 738,
+          "output_tokens": 99,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1132,
+          "output_tokens": 369,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 0,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "delivered",
+        "terminal_reason": "withdrawal_acknowledged",
+        "current_epoch": 1,
+        "matched_approval_sources": [],
+        "submissions": [],
+        "source": {
+          "trace_file": "A_R_82_r1_framework_trace.json",
+          "trace_sha256": "526f8e7122f41fed22f36e105a6efd9c2dc3084ee2660af828aac2ebb61c3fdd"
+        }
+      }
+    },
+    {
+      "task": "R_89",
+      "scenario": "withdraw",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_89_r1_official",
+        "task": "89",
+        "business": "return",
+        "scenario": "withdraw",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 15.58576240000184,
+        "correct": true,
+        "checks": {
+          "event_observed": true,
+          "no_write": true,
+          "database_unchanged": true,
+          "withdrawal_acknowledged": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 18475,
+          "output_tokens": 598,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 3217,
+          "output_tokens": 1009,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 0,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "delivered",
+        "terminal_reason": "withdrawal_acknowledged",
+        "current_epoch": 1,
+        "matched_approval_sources": [],
+        "submissions": [],
+        "source": {
+          "trace_file": "A_R_89_r1_official_trace.json",
+          "trace_sha256": "ccf6c7ee00381671af65b0ce3dbee74dea8936cd71b86acf92f65c77f882d10f"
+        }
+      },
+      "framework": {
+        "id": "A_R_89_r1_framework",
+        "task": "89",
+        "business": "return",
+        "scenario": "withdraw",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 4.644886800000677,
+        "correct": true,
+        "checks": {
+          "event_observed": true,
+          "no_write": true,
+          "database_unchanged": true,
+          "withdrawal_acknowledged": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 662,
+          "output_tokens": 99,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1103,
+          "output_tokens": 400,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 0,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "delivered",
+        "terminal_reason": "withdrawal_acknowledged",
+        "current_epoch": 1,
+        "matched_approval_sources": [],
+        "submissions": [],
+        "source": {
+          "trace_file": "A_R_89_r1_framework_trace.json",
+          "trace_sha256": "aa09c7750674bfa1e918e34050d74eba423c0358a3e7b873569b7b56b9908018"
+        }
+      }
+    },
+    {
+      "task": "R_RDB01",
+      "scenario": "payment",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_RDB01_r1_official",
+        "task": "RDB01",
+        "business": "return",
+        "scenario": "payment",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 16.931863000001613,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 18774,
+          "output_tokens": 891,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2538,
+          "output_tokens": 874,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 10,
+            "user_ref": 11,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 3,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1067251",
+              "item_ids": [
+                "6452271382",
+                "7848293342"
+              ],
+              "payment_method_id": "gift_card_2259499"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_RDB01_r1_official_trace.json",
+          "trace_sha256": "cd6bb27a0e6cd2c2adda592370127ab1c614b644556fe62d2fdd844fe4b34c18"
+        }
+      },
+      "framework": {
+        "id": "A_R_RDB01_r1_framework",
+        "task": "RDB01",
+        "business": "return",
+        "scenario": "payment",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 10.682326800000737,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 1317,
+          "output_tokens": 370,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2089,
+          "output_tokens": 801,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 10,
+            "user_ref": 11,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 13,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1067251",
+              "item_ids": [
+                "6452271382",
+                "7848293342"
+              ],
+              "payment_method_id": "gift_card_2259499"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_RDB01_r1_framework_trace.json",
+          "trace_sha256": "95f450fc9f0b33d758d2e5ad5cfb38536c52dd3f5def2b0f34e5a30e05afb963"
+        }
+      }
+    },
+    {
+      "task": "R_RDB02",
+      "scenario": "payment",
+      "business": "return",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_R_RDB02_r1_official",
+        "task": "RDB02",
+        "business": "return",
+        "scenario": "payment",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 19.1543851000024,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 18643,
+          "output_tokens": 879,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2515,
+          "output_tokens": 1167,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 10,
+            "user_ref": 11,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 3,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1504875",
+              "item_ids": [
+                "9421195098",
+                "4920090458"
+              ],
+              "payment_method_id": "gift_card_3324938"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_RDB02_r1_official_trace.json",
+          "trace_sha256": "61e10923ad691d24ad11080bd23c01d7b916be473c74d149018b9e7fd687b5c4"
+        }
+      },
+      "framework": {
+        "id": "A_R_RDB02_r1_framework",
+        "task": "RDB02",
+        "business": "return",
+        "scenario": "payment",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 11.644911700001103,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "refund_method": true,
+          "native_items": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 1288,
+          "output_tokens": 370,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2086,
+          "output_tokens": 915,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "return requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 10,
+            "user_ref": 11,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 13,
+            "tool": "return_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1504875",
+              "item_ids": [
+                "9421195098",
+                "4920090458"
+              ],
+              "payment_method_id": "gift_card_3324938"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_R_RDB02_r1_framework_trace.json",
+          "trace_sha256": "8acf5709fc387d04b2a6fe08b2c3ce3dff78112f0066c2cc8cc42645da16bd78"
+        }
+      }
+    },
+    {
+      "task": "E_EDB01",
+      "scenario": "stable",
+      "business": "exchange",
+      "included_in_cost_comparison": false,
+      "official": {
+        "id": "A_E_EDB01_r1_official",
+        "task": "EDB01",
+        "business": "exchange",
+        "scenario": "stable",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 11.225861899998563,
+        "correct": false,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": false,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": false,
+        "clean_execution": false,
+        "exclusions": [
+          "noncompliant_terminal",
+          "unauthorized_tool_attempt"
+        ],
+        "agent": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 7877,
+          "output_tokens": 1188,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 0,
+          "program_only": 0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [
+          0
+        ],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 1,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [],
+        "submissions": [
+          {
+            "event": 0,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "item_ids": [
+                "8090061879",
+                "9747045638"
+              ],
+              "new_item_ids": [
+                "1763705424",
+                "9647374798"
+              ],
+              "order_id": "#W1052399",
+              "payment_method_id": "gift_card_3372949"
+            },
+            "independent_authorization": false,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB01_r1_official_trace.json",
+          "trace_sha256": "18d6510809d8ce883cbd771ab797c2188c0da3bce8b387c761bb13d9c81eb807"
+        }
+      },
+      "framework": {
+        "id": "A_E_EDB01_r1_framework",
+        "task": "EDB01",
+        "business": "exchange",
+        "scenario": "stable",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 8.813008299999638,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 873,
+          "output_tokens": 211,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1565,
+          "output_tokens": 746,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 14,
+            "user_ref": 15,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 6,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1052399",
+              "item_ids": [
+                "9747045638",
+                "8090061879"
+              ],
+              "new_item_ids": [
+                "9647374798",
+                "1763705424"
+              ],
+              "payment_method_id": "gift_card_3372949"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB01_r1_framework_trace.json",
+          "trace_sha256": "7ca37844c5d4e0752d9b123a79432307d25145e46b1f4c8bf1065f42a3e731c1"
+        }
+      }
+    },
+    {
+      "task": "E_EDB02",
+      "scenario": "stable",
+      "business": "exchange",
+      "included_in_cost_comparison": false,
+      "official": {
+        "id": "A_E_EDB02_r1_official",
+        "task": "EDB02",
+        "business": "exchange",
+        "scenario": "stable",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 48.71334139999817,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": false,
+        "exclusions": [
+          "agent_output_limit"
+        ],
+        "agent": {
+          "attempts": 4,
+          "program_only": 0,
+          "input_tokens": 38864,
+          "output_tokens": 3428,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 1,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 6367,
+          "output_tokens": 1661,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 16,
+            "user_ref": 17,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 3,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1075114",
+              "item_ids": [
+                "4582956489",
+                "5565631513"
+              ],
+              "new_item_ids": [
+                "6159919747",
+                "8555936349"
+              ],
+              "payment_method_id": "gift_card_5115976"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB02_r1_official_trace.json",
+          "trace_sha256": "f1c16531c2d965fbf5a4e729ce028a79b19fd847e828d51856a52912408e444f"
+        }
+      },
+      "framework": {
+        "id": "A_E_EDB02_r1_framework",
+        "task": "EDB02",
+        "business": "exchange",
+        "scenario": "stable",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 9.68172129999948,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 871,
+          "output_tokens": 338,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1564,
+          "output_tokens": 740,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 14,
+            "user_ref": 15,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 6,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1075114",
+              "item_ids": [
+                "4582956489",
+                "5565631513"
+              ],
+              "new_item_ids": [
+                "6159919747",
+                "8555936349"
+              ],
+              "payment_method_id": "gift_card_5115976"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB02_r1_framework_trace.json",
+          "trace_sha256": "33557aec8a97169b863e9548e8098eb8c2d803f1b69676540f7e17d5dc2dac0f"
+        }
+      }
+    },
+    {
+      "task": "E_EDB03",
+      "scenario": "evidence",
+      "business": "exchange",
+      "included_in_cost_comparison": false,
+      "official": {
+        "id": "A_E_EDB03_r1_official",
+        "task": "EDB03",
+        "business": "exchange",
+        "scenario": "evidence",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 20.508988300000055,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 4,
+          "program_only": 0,
+          "input_tokens": 28595,
+          "output_tokens": 1589,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 2482,
+          "output_tokens": 482,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 12,
+            "user_ref": 13,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 3,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1166549",
+              "item_ids": [
+                "5268233322",
+                "5510402676"
+              ],
+              "new_item_ids": [
+                "1240311797",
+                "5418781403"
+              ],
+              "payment_method_id": "credit_card_1289579"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB03_r1_official_trace.json",
+          "trace_sha256": "88c70beb68b1852e45d24bcb1887050c25494450335eddde14b5d5aae7a0fea6"
+        }
+      },
+      "framework": {
+        "id": "A_E_EDB03_r1_framework",
+        "task": "EDB03",
+        "business": "exchange",
+        "scenario": "evidence",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 13.672509299998637,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": false,
+        "exclusions": [
+          "execution_rejection_or_native_error"
+        ],
+        "agent": {
+          "attempts": 4,
+          "program_only": 0,
+          "input_tokens": 10682,
+          "output_tokens": 633,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1525,
+          "output_tokens": 736,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [
+          3
+        ],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 14,
+            "user_ref": 15,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 14,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1166549",
+              "item_ids": [
+                "5510402676",
+                "5268233322"
+              ],
+              "new_item_ids": [
+                "5418781403",
+                "1240311797"
+              ],
+              "payment_method_id": "credit_card_1289579"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB03_r1_framework_trace.json",
+          "trace_sha256": "9a35c42df7000991045afb7fe51d05cfdd65f04213fbd17ac42d474f7ba20a2f"
+        }
+      }
+    },
+    {
+      "task": "E_EDB04",
+      "scenario": "evidence",
+      "business": "exchange",
+      "included_in_cost_comparison": false,
+      "official": {
+        "id": "A_E_EDB04_r1_official",
+        "task": "EDB04",
+        "business": "exchange",
+        "scenario": "evidence",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 10.02903690000312,
+        "correct": false,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": false,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": false,
+        "clean_execution": false,
+        "exclusions": [
+          "noncompliant_terminal",
+          "unauthorized_tool_attempt"
+        ],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 21352,
+          "output_tokens": 1018,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 0,
+          "program_only": 0,
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [
+          2
+        ],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 1,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [],
+        "submissions": [
+          {
+            "event": 2,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "item_ids": [
+                "6501071631",
+                "6777246137"
+              ],
+              "new_item_ids": [
+                "2106335193",
+                "4579334072"
+              ],
+              "order_id": "#W1326557",
+              "payment_method_id": "gift_card_1139567"
+            },
+            "independent_authorization": false,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB04_r1_official_trace.json",
+          "trace_sha256": "b9611cf4475935d681146ea29a59643327dfcc5102795dcdbda0c1f06142b767"
+        }
+      },
+      "framework": {
+        "id": "A_E_EDB04_r1_framework",
+        "task": "EDB04",
+        "business": "exchange",
+        "scenario": "evidence",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 11.973094400000264,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 7364,
+          "output_tokens": 519,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 1,
+          "program_only": 0,
+          "input_tokens": 1558,
+          "output_tokens": 741,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 14,
+            "user_ref": 15,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 12,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1326557",
+              "item_ids": [
+                "6777246137",
+                "6501071631"
+              ],
+              "new_item_ids": [
+                "4579334072",
+                "2106335193"
+              ],
+              "payment_method_id": "gift_card_1139567"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB04_r1_framework_trace.json",
+          "trace_sha256": "d82d555e0ae369f5ba55e3e674ce29d6ff724b6d75dec1d21899dfff4345dbc0"
+        }
+      }
+    },
+    {
+      "task": "E_EDB05",
+      "scenario": "resource",
+      "business": "exchange",
+      "included_in_cost_comparison": false,
+      "official": {
+        "id": "A_E_EDB05_r1_official",
+        "task": "EDB05",
+        "business": "exchange",
+        "scenario": "resource",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 54.185838199999125,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 8,
+          "program_only": 0,
+          "input_tokens": 91082,
+          "output_tokens": 3682,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 3,
+          "program_only": 1,
+          "input_tokens": 4811,
+          "output_tokens": 1823,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 26,
+            "user_ref": 27,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 8,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "item_ids": [
+                "2185126308",
+                "4875647558"
+              ],
+              "new_item_ids": [
+                "8277474082",
+                "1157853815"
+              ],
+              "order_id": "#W1335809",
+              "payment_method_id": "paypal_3728317"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB05_r1_official_trace.json",
+          "trace_sha256": "1e54a1cc07118e4fb05eb38d53a5012ddf470235359b9520fa34914cb6294b4d"
+        }
+      },
+      "framework": {
+        "id": "A_E_EDB05_r1_framework",
+        "task": "EDB05",
+        "business": "exchange",
+        "scenario": "resource",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 46.72303269999975,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": false,
+        "exclusions": [
+          "unauthorized_tool_attempt",
+          "execution_rejection_or_native_error"
+        ],
+        "agent": {
+          "attempts": 7,
+          "program_only": 0,
+          "input_tokens": 24082,
+          "output_tokens": 2955,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 3937,
+          "output_tokens": 1865,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [
+          7
+        ],
+        "rejected_tool_or_work_events": [
+          7
+        ],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 22,
+            "user_ref": 23,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 7,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1335809",
+              "item_ids": [
+                "4875647558",
+                "2185126308"
+              ],
+              "new_item_ids": [
+                "3951031513",
+                "8277474082"
+              ],
+              "payment_method_id": "paypal_3728317"
+            },
+            "independent_authorization": false,
+            "native_called": false,
+            "wrote": false,
+            "rejection": "Cannot prepare/submit: CURRENT specification violates stock or signed whole-amount cap. Analyze or clarify a feasible alternative; diagnostic analysis is a separate successful work."
+          },
+          {
+            "event": 19,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1335809",
+              "item_ids": [
+                "4875647558",
+                "2185126308"
+              ],
+              "new_item_ids": [
+                "3709608322",
+                "8277474082"
+              ],
+              "payment_method_id": "paypal_3728317"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB05_r1_framework_trace.json",
+          "trace_sha256": "9168e31c2bf0e4550fcf46b7c091d249f04ca9be05501304db0f1b4d3e6d664c"
+        }
+      }
+    },
+    {
+      "task": "E_EDB06",
+      "scenario": "resource",
+      "business": "exchange",
+      "included_in_cost_comparison": false,
+      "official": {
+        "id": "A_E_EDB06_r1_official",
+        "task": "EDB06",
+        "business": "exchange",
+        "scenario": "resource",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 51.39011929999833,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": false,
+        "exclusions": [
+          "unauthorized_tool_attempt",
+          "execution_rejection_or_native_error"
+        ],
+        "agent": {
+          "attempts": 5,
+          "program_only": 0,
+          "input_tokens": 50981,
+          "output_tokens": 3937,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 1,
+          "input_tokens": 4266,
+          "output_tokens": 1456,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [
+          2
+        ],
+        "rejected_tool_or_work_events": [
+          2
+        ],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 20,
+            "user_ref": 21,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 2,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1341845",
+              "item_ids": [
+                "4402162122",
+                "6206533187"
+              ],
+              "new_item_ids": [
+                "3616838507",
+                "5570660360"
+              ],
+              "payment_method_id": "credit_card_6450164"
+            },
+            "independent_authorization": false,
+            "native_called": true,
+            "wrote": false,
+            "rejection": "New item 5570660360 not found or available"
+          },
+          {
+            "event": 5,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1341845",
+              "item_ids": [
+                "4402162122",
+                "6206533187"
+              ],
+              "new_item_ids": [
+                "3616838507",
+                "4938013542"
+              ],
+              "payment_method_id": "credit_card_6450164"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB06_r1_official_trace.json",
+          "trace_sha256": "d06eb94c2d19f79168478f7de54b0b1b6c8c8fcfe504d3caf4d06758e7c2490a"
+        }
+      },
+      "framework": {
+        "id": "A_E_EDB06_r1_framework",
+        "task": "EDB06",
+        "business": "exchange",
+        "scenario": "resource",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 35.733494000000064,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": false,
+        "exclusions": [
+          "unauthorized_tool_attempt",
+          "execution_rejection_or_native_error"
+        ],
+        "agent": {
+          "attempts": 7,
+          "program_only": 0,
+          "input_tokens": 17072,
+          "output_tokens": 1739,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 3950,
+          "output_tokens": 2021,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [
+          7
+        ],
+        "rejected_tool_or_work_events": [
+          7
+        ],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 22,
+            "user_ref": 23,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 7,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1341845",
+              "item_ids": [
+                "6206533187",
+                "4402162122"
+              ],
+              "new_item_ids": [
+                "5570660360",
+                "3616838507"
+              ],
+              "payment_method_id": "credit_card_6450164"
+            },
+            "independent_authorization": false,
+            "native_called": false,
+            "wrote": false,
+            "rejection": "Cannot prepare/submit: CURRENT specification violates stock or signed whole-amount cap. Analyze or clarify a feasible alternative; diagnostic analysis is a separate successful work."
+          },
+          {
+            "event": 19,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1341845",
+              "item_ids": [
+                "6206533187",
+                "4402162122"
+              ],
+              "new_item_ids": [
+                "4938013542",
+                "3616838507"
+              ],
+              "payment_method_id": "credit_card_6450164"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB06_r1_framework_trace.json",
+          "trace_sha256": "da488d54ea5cab7d311050d74d3fd2fc8b3691d9b639f4f6647d487e3a12ecfd"
+        }
+      }
+    },
+    {
+      "task": "E_EDB07",
+      "scenario": "requirement",
+      "business": "exchange",
+      "included_in_cost_comparison": true,
+      "official": {
+        "id": "A_E_EDB07_r1_official",
+        "task": "EDB07",
+        "business": "exchange",
+        "scenario": "requirement",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 25.43620960000044,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 25955,
+          "output_tokens": 1486,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 3502,
+          "output_tokens": 1145,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 15,
+            "user_ref": 16,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 3,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1483350",
+              "item_ids": [
+                "4983901480",
+                "9570044148"
+              ],
+              "new_item_ids": [
+                "4953074738",
+                "1421289881"
+              ],
+              "payment_method_id": "paypal_2319812"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB07_r1_official_trace.json",
+          "trace_sha256": "b775e56f3ffd87ada0178a8bf16ebd7e1b3421ee8ba10c9b4a911e19d253b76c"
+        }
+      },
+      "framework": {
+        "id": "A_E_EDB07_r1_framework",
+        "task": "EDB07",
+        "business": "exchange",
+        "scenario": "requirement",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": true,
+        "error": null,
+        "seconds": 20.11669929999698,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 3,
+          "program_only": 0,
+          "input_tokens": 4597,
+          "output_tokens": 804,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2923,
+          "output_tokens": 1348,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 1,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 19,
+            "user_ref": 20,
+            "epoch": 1
+          }
+        ],
+        "submissions": [
+          {
+            "event": 13,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1483350",
+              "item_ids": [
+                "9570044148",
+                "4983901480"
+              ],
+              "new_item_ids": [
+                "1421289881",
+                "4953074738"
+              ],
+              "payment_method_id": "paypal_2319812"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB07_r1_framework_trace.json",
+          "trace_sha256": "7dce2547a37e6fd22e04b61ef7016ff22f3b33807a2d4a9a375914eeeedcb228"
+        }
+      }
+    },
+    {
+      "task": "E_EDB08",
+      "scenario": "conflict",
+      "business": "exchange",
+      "included_in_cost_comparison": false,
+      "official": {
+        "id": "A_E_EDB08_r1_official",
+        "task": "EDB08",
+        "business": "exchange",
+        "scenario": "conflict",
+        "group": "official",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": "RuntimeError: simulator_extraction_unverified",
+        "seconds": 126.21684209999876,
+        "correct": false,
+        "checks": {
+          "one_write": false
+        },
+        "runner_correct": false,
+        "clean_execution": false,
+        "exclusions": [
+          "noncompliant_terminal",
+          "runtime:RuntimeError: simulator_extraction_unverified",
+          "agent_output_limit",
+          "simulator_failed",
+          "simulator_output_limit"
+        ],
+        "agent": {
+          "attempts": 4,
+          "program_only": 0,
+          "input_tokens": 40138,
+          "output_tokens": 5867,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 2,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 5,
+          "program_only": 0,
+          "input_tokens": 12192,
+          "output_tokens": 7823,
+          "unknown_usage": 0,
+          "failed": 2,
+          "output_limit": 2,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 0,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "delivered",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [],
+        "submissions": [],
+        "source": {
+          "trace_file": "A_E_EDB08_r1_official_trace.json",
+          "trace_sha256": "8684611bfa2eed3c59634dd39787b2cc568e73da7a430765fb655ce435a8fb7b"
+        }
+      },
+      "framework": {
+        "id": "A_E_EDB08_r1_framework",
+        "task": "EDB08",
+        "business": "exchange",
+        "scenario": "conflict",
+        "group": "framework",
+        "forced_first": null,
+        "event_triggered": false,
+        "error": null,
+        "seconds": 25.682834600000206,
+        "correct": true,
+        "checks": {
+          "one_write": true,
+          "order": true,
+          "authorization": true,
+          "database_result": true,
+          "scope": true,
+          "current_targets": true,
+          "inventory_product": true,
+          "amount": true,
+          "cap": true,
+          "payment": true,
+          "status": true
+        },
+        "runner_correct": true,
+        "clean_execution": true,
+        "exclusions": [],
+        "agent": {
+          "attempts": 5,
+          "program_only": 0,
+          "input_tokens": 13179,
+          "output_tokens": 1569,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "simulator": {
+          "attempts": 2,
+          "program_only": 0,
+          "input_tokens": 2604,
+          "output_tokens": 1088,
+          "unknown_usage": 0,
+          "failed": 0,
+          "output_limit": 0,
+          "service_errors": 0
+        },
+        "unauthorized_attempt_events": [],
+        "rejected_tool_or_work_events": [],
+        "evidence_issues": [],
+        "writes": 1,
+        "unauthorized_writes": 0,
+        "database_change_verified": true,
+        "terminal_status": "exchange requested",
+        "terminal_reason": null,
+        "current_epoch": 0,
+        "matched_approval_sources": [
+          {
+            "assistant_ref": 16,
+            "user_ref": 17,
+            "epoch": 0
+          }
+        ],
+        "submissions": [
+          {
+            "event": 11,
+            "tool": "exchange_delivered_order_items",
+            "arguments": {
+              "order_id": "#W1519594",
+              "item_ids": [
+                "9472539378",
+                "1646531091"
+              ],
+              "new_item_ids": [
+                "1240311797",
+                "8555936349"
+              ],
+              "payment_method_id": "gift_card_1711656"
+            },
+            "independent_authorization": true,
+            "native_called": true,
+            "wrote": true,
+            "rejection": null
+          }
+        ],
+        "source": {
+          "trace_file": "A_E_EDB08_r1_framework_trace.json",
+          "trace_sha256": "888e000446003de86787b5415fb08e8a5ba0414bd706e759039f8ef9e5ce8013"
+        }
+      }
+    }
+  ],
+  "gate": {
+    "passed": true,
+    "historical_replays": [
+      "R_51",
+      "R_82",
+      "R_89",
+      "E_EDB05",
+      "E_EDB06"
+    ],
+    "signed_amount_probe": {
+      "id": "A_E_EDB06_r1_official",
+      "old_amount": 8.42,
+      "corrected_amount": -8.42,
+      "literal_quote": "- Combined new-minus-old difference: $273.31 - $281.73 = -$8.42",
+      "incomplete_calculation_ignored": true,
+      "former_checks": {
+        "complete_scope": true,
+        "permitted": true,
+        "stock": true,
+        "cap": true,
+        "payment": true,
+        "amount": false
+      }
+    },
+    "withdrawal": {
+      "original_r89_history_length": 10,
+      "original_bad_refs": [
+        10
+      ],
+      "accepted_ref": 9,
+      "terminal_database_unchanged": true,
+      "authorization_only_continues": true
+    },
+    "authorization_replays": [
+      {
+        "case": "partial",
+        "program_guard": "partial_confirmation",
+        "live_kind": "other"
+      },
+      {
+        "case": "conditional",
+        "program_guard": "conditional_or_withheld_confirmation",
+        "live_kind": "other"
+      },
+      {
+        "case": "amount_check",
+        "program_guard": "amount_inquiry_only",
+        "live_kind": "constraint_question"
+      },
+      {
+        "case": "amount_question",
+        "program_guard": "no_current_authorization_question",
+        "live_kind": "constraint_question"
+      },
+      {
+        "case": "whole",
+        "program_guard": null,
+        "live_kind": "proposal"
+      }
+    ],
+    "generic_replays": {
+      "refund_option_not_amount": true,
+      "only_available_replacement": true,
+      "positive_signed_whole_delta": true,
+      "courtesy_close": true,
+      "clipped_condition_denied": true
+    },
+    "native": {
+      "native_tool_call": true,
+      "exact_arguments": true,
+      "tool_result_consumed": true
+    },
+    "pilot": [
+      {
+        "id": "pilot_return_scope_official",
+        "correct": true,
+        "event_triggered": true
+      },
+      {
+        "id": "pilot_return_scope_framework",
+        "correct": true,
+        "event_triggered": true
+      },
+      {
+        "id": "pilot_exchange_resource_official",
+        "correct": true,
+        "event_triggered": true
+      },
+      {
+        "id": "pilot_exchange_resource_framework",
+        "correct": true,
+        "event_triggered": true
+      }
+    ]
+  },
+  "local_batch": "A01",
+  "freeze": {
+    "created": "2026-11-26T20:48:39.986013+08:00",
+    "source_commit": "2a2adff4f45b557a36278833ea84a7c74116c7ac",
+    "tau2_commit": "f8de30c298689cbe0117d76a378e7315a17e5bd8",
+    "packages": {
+      "openai": "2.52.0",
+      "httpx": "0.28.1",
+      "pydantic": "2.13.4",
+      "litellm": "1.111.0"
+    },
+    "settings": {
+      "round": 28,
+      "previous_commit": "2a2adff4f45b557a36278833ea84a7c74116c7ac",
+      "main": {
+        "fixture_manifest": "../round26-api-closeout/configs/TASKS.json",
+        "exchange": 8,
+        "return": 12,
+        "repeats_per_group": 1,
+        "paired_order": "alternate from official first"
+      },
+      "agent_model": "qwen3.5-4b-q4-k-m",
+      "simulator_model": "qwen3.5-4b-q4-k-m",
+      "simulator": "shared literal offer, withdrawal, amount and authorization-question checks over round 27 local extraction",
+      "framework": "round 27 plus source-bound deterministic terminal stop after accepted explicit whole-return withdrawal",
+      "llama_cpp": "b10917 CUDA 13.3",
+      "context": 32768,
+      "context_shift": false,
+      "temperature": 0,
+      "thinking": false,
+      "parallel_slots": 1,
+      "budget": "../round26-api-closeout/configs/MODEL_BUDGET.json",
+      "official_agent": "unchanged native LLMAgent and native tools; shared local completion transport"
+    },
+    "budget": {
+      "temperature": 0,
+      "thinking": false,
+      "agent_request_attempts": 40,
+      "known_agent_tokens": 180000,
+      "operations": 24,
+      "turns": 35,
+      "max_agent_output": 1700,
+      "max_simulator_output": 2100,
+      "timeout_seconds": 60,
+      "transport_attempts": 2,
+      "SDK_retries": 0,
+      "stop": "first actual business write or explicit withdrawal acknowledgement; no post-write receipt generation",
+      "old_v2_sha256": "eaf8981bc9e3b4c13a9db69c36c1688b7a83a4626bc2813ded9dbc54041572ff"
+    },
+    "manifest_sha256": "7f61fdc8a7b2cde183e4ab47d070004eb63cb79473dbfa70b8cc497338419c9c",
+    "file_sha256": {
+      "run28.py": "f2f91242c65495715101a035f9c9857d04025701bfe3ef609a1d085c61d92262",
+      "runtime28.py": "ab4adfe2a4bedc500343298250397b008391342527cb19e1df49f95910832143",
+      "CONFIG.json": "64df354a5128888e30e9b910c096cdba3675804070a41d983625f50d01a9e309",
+      "Qwen3.5-4B-Q4_K_M.gguf": "7a3b0a5f45a56b0796fd71a0b8be674f178ee2e07827fe05b5e75b26f853dbdb",
+      "llama-server.exe": "fc6350430b58034bef7d34eae13f89eb1a5d477a32a724735d56efa5c023fa40",
+      "ggml-cuda.dll": "803740a863768746a9ef02957a334a4a6eb99489eb522516016f8f2491262842",
+      "TASKS.json": "6f0913880f9ca1c37ed8b3a07d7d5fb98473c72a852041e1ac0b2e832e55aa79",
+      "GATE.json": "93e5cf261235c9b4fe81be3e02258a64395f6a28cef215f49a2b7de575d9985d",
+      "prepare27.py": "9acb710cd0fb3885c961631d90dc740b057b16b4e9c8a740139936b82c82b6c0",
+      "run27.py": "3d9e6e98c084dec5abdb097790380a7eda488db52972c97e772ccbbebac651e3",
+      "simulator27.py": "dfd9be9fd3a7900fad463cab8b72c6dbd309be43e60a65cd755cc6fbf967eb85",
+      "recheck27.py": "9245f93ad3fdafe5d7a394786dbc92f131e6bbc4b6f0398d0ceb6a46ef8a2a94",
+      "recheck_amount27.py": "8186ecdbe2095c059c62bd9eade71a35df2c090bcb973ac341200d42d830f609"
+    }
+  }
+}

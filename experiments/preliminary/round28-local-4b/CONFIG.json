@@ -1,0 +1,17 @@
+{
+  "round": 28,
+  "previous_commit": "2a2adff4f45b557a36278833ea84a7c74116c7ac",
+  "main": {"fixture_manifest": "../round26-api-closeout/configs/TASKS.json", "exchange": 8, "return": 12, "repeats_per_group": 1, "paired_order": "alternate from official first"},
+  "agent_model": "qwen3.5-4b-q4-k-m",
+  "simulator_model": "qwen3.5-4b-q4-k-m",
+  "simulator": "shared literal offer, withdrawal, amount and authorization-question checks over round 27 local extraction",
+  "framework": "round 27 plus source-bound deterministic terminal stop after accepted explicit whole-return withdrawal",
+  "llama_cpp": "b10917 CUDA 13.3",
+  "context": 32768,
+  "context_shift": false,
+  "temperature": 0,
+  "thinking": false,
+  "parallel_slots": 1,
+  "budget": "../round26-api-closeout/configs/MODEL_BUDGET.json",
+  "official_agent": "unchanged native LLMAgent and native tools; shared local completion transport"
+}

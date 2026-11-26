@@ -1,0 +1,96 @@
+{
+  "selection_rule": "Five distinct base tasks, both businesses and three levels of evidence sufficiency. Each pair starts from one jointly restored visible and full simulator snapshot. Two repeats use reverse execution order.",
+  "ranking": [
+    "hard_constraints",
+    "correct_terminal",
+    "explicit_user_preference",
+    "processing_cost_pareto"
+  ],
+  "checkpoints": [
+    {
+      "id": "X_catalogues",
+      "base_task": "exchange:EDB03",
+      "fixture": "E_EDB03",
+      "state": "missing_exchange_catalogues",
+      "first_work_order": [
+        "query_1",
+        "query_2"
+      ],
+      "goal": "取得两份当前目录，完成用户请求的两项换货",
+      "hard_constraints": [
+        "保持原商品范围及原付款方式",
+        "核验库存、有符号整单差额及上限",
+        "替代规格须另外获许，按当前整单批准提交"
+      ],
+      "user_preference": "优先原话指定的两个规格，可就合规替代规格协商；用户未指定查询顺序"
+    },
+    {
+      "id": "R_missing",
+      "base_task": "return:30",
+      "fixture": "R_30",
+      "state": "missing_return_evidence",
+      "first_work_order": [
+        "query_order",
+        "query_profile"
+      ],
+      "goal": "补齐原生订单和账户资料，完成指定商品的退货",
+      "hard_constraints": [
+        "只退当前范围商品",
+        "核验订单资格、合法退款方式及精确总额",
+        "独立整单批准后提交"
+      ],
+      "user_preference": "选用原话指定的礼品卡退款；用户未指定查询顺序"
+    },
+    {
+      "id": "X_capacity",
+      "base_task": "exchange:26",
+      "prior_state": "E26_capacity",
+      "state": "observed_options_conflict",
+      "first_work_order": [
+        "analyze",
+        "clarify"
+      ],
+      "goal": "在已观测的限制下协商替代规格，完成两项换货",
+      "hard_constraints": [
+        "保持范围及原支付方式",
+        "替代规格有库存且整单差额满足上限",
+        "先取得新规格许可，随后取得当前整单批准"
+      ],
+      "user_preference": "第一件商品依次优先容量、颜色、材质；用户可明确接受合法取舍"
+    },
+    {
+      "id": "R_refund_routes",
+      "base_task": "return:RDB01",
+      "prior_state": "R_refund_preference",
+      "state": "observed_options_conflict",
+      "first_work_order": [
+        "analyze",
+        "clarify"
+      ],
+      "goal": "处理初始退款方式不合法的冲突，协商路线后完成两项退货",
+      "hard_constraints": [
+        "保持整单范围，金额精确",
+        "退款途径合法且新路径获明确许可",
+        "独立整单批准后提交"
+      ],
+      "user_preference": "优先现有礼品卡，其次原信用卡；用户可明确接受合法取舍"
+    },
+    {
+      "id": "R_ready",
+      "base_task": "return:14",
+      "fixture": "R_14",
+      "state": "current_return_plan_ready",
+      "first_work_order": [
+        "confirm",
+        "refresh_order"
+      ],
+      "goal": "从已核实完整方案出发，办结一项退货",
+      "hard_constraints": [
+        "保持指定商品和合法退款途径",
+        "以当前订单和精确金额为依据",
+        "独立整单批准后提交"
+      ],
+      "user_preference": "使用用户指定的原 PayPal；用户未要求重复查询"
+    }
+  ]
+}
